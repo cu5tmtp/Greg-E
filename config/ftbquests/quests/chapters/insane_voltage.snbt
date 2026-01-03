@@ -31,19 +31,15 @@
 				"12D84337AEB56002"
 				"1896B90F5FD66AFA"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.hvCircuits.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.hvCircuits.2}"
-			]
+			description: [""]
 			id: "2BE754C8D2C0C76E"
 			tasks: [{
 				id: "23FD670B4CA5374A"
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.7999999999999954d
+			x: 4.892857142857146d
+			y: 0.7857142857142847d
 		}
 		{
 			dependencies: [
@@ -52,7 +48,7 @@
 				"239E32216382AA5D"
 				"574019B5B7CA43E0"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.evCircuits}"]
+			description: [""]
 			id: "19CD3E69746F2849"
 			tasks: [{
 				id: "1B983DA0344AF5F1"
@@ -69,7 +65,7 @@
 				"1A73520CB284217F"
 				"15A1D6D05A785919"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.ivCircuits}"]
+			description: [""]
 			id: "592113082337004B"
 			tasks: [{
 				id: "5C457C02EC77E036"
@@ -84,7 +80,7 @@
 				"592113082337004B"
 				"4993431DBE076E1B"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.luvAge}"]
+			description: [""]
 			id: "2ACB94B77EF072EB"
 			size: 1.5d
 			tasks: [{
@@ -101,11 +97,7 @@
 				"692C9BA71EA0F0A7"
 				"540B4CE165EE4D5B"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.tungstensteel.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.tungstensteel.2}"
-			]
+			description: [""]
 			id: "12905D5778274DEE"
 			shape: "pentagon"
 			size: 1.5d
@@ -118,33 +110,12 @@
 			y: 0.8000000000000003d
 		}
 		{
-			dependencies: ["540B4CE165EE4D5B"]
-			description: ["{atm9.quest.gregtech.iv.desc.tungstenUsage}"]
-			icon: "gtceu:tungsten_ingot"
-			id: "08D48D7C2C6EEF54"
-			tasks: [{
-				icon: "gtceu:tungsten_ingot"
-				id: "36397CBA6D39DC0D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/tungsten"
-					}
-				}
-				title: "{atm9.quest.gregtech.iv.tungstenIngot}"
-				type: "item"
-			}]
-			x: -9.67142857142858d
-			y: 2.3392857142857153d
-		}
-		{
 			dependencies: [
 				"533DB1666B11489A"
 				"12905D5778274DEE"
 				"1FF8B0E2D10C88E9"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.ebfTemperature}"]
+			description: [""]
 			id: "0A848E0B9F485B2C"
 			tasks: [{
 				id: "0DABFD3310034563"
@@ -159,34 +130,24 @@
 				"4AE3A2326EA07B7A"
 				"74D47A8DF93294E4"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.polybenzimidazole.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.polybenzimidazole.2}"
-			]
+			description: [""]
 			hide_dependent_lines: true
 			id: "1D9194E89D14BA85"
-			shape: "gear"
-			size: 1.25d
-			subtitle: "{atm9.quest.gregtech.iv.subt.pbi}"
+			size: 1.0d
 			tasks: [{
 				id: "02B34C5571D15E05"
 				item: "gtceu:polybenzimidazole_bucket"
 				type: "item"
 			}]
 			x: -0.5d
-			y: -4.200000000000005d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"64F77D41B2D057B8"
 				"587B4048E0BCEB27"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.evCircuitAssembler.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.evCircuitAssembler.2}"
-			]
+			description: [""]
 			id: "4993431DBE076E1B"
 			tasks: [{
 				id: "52D651790115A82E"
@@ -203,7 +164,7 @@
 				"6F0AD70D3748D8D2"
 				"45D9E32D75F5ACAE"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.updateCircuitRecipes.1}"]
+			description: [""]
 			id: "1809493D8765E67A"
 			tasks: [{
 				id: "4AD1E09D72AD01E3"
@@ -229,8 +190,8 @@
 				item: "gtceu:advanced_smd_resistor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 4.042857142857152d
+			y: -1.2499999999999858d
 		}
 		{
 			dependencies: [
@@ -239,11 +200,7 @@
 				"599BABC83E76A711"
 				"1AB86FD8776634D0"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.unlockHV.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.unlockHV.2}"
-			]
+			description: [""]
 			id: "239E32216382AA5D"
 			tasks: [{
 				id: "38023F3A53A1FFF3"
@@ -260,11 +217,7 @@
 				"4AA6D19469FB306F"
 				"45D9E32D75F5ACAE"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.lastAdvancedSMD.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.lastAdvancedSMD.2}"
-			]
+			description: [""]
 			id: "1A73520CB284217F"
 			tasks: [{
 				id: "6971A717F3A6343E"
@@ -282,7 +235,7 @@
 				"45D9E32D75F5ACAE"
 				"1AB86FD8776634D0"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.advancedInductor.1}"]
+			description: [""]
 			id: "574019B5B7CA43E0"
 			tasks: [{
 				id: "227F895573C8DCA9"
@@ -293,11 +246,7 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.palladiumOre.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.palladiumOre.2}"
-			]
+			description: [""]
 			id: "546F6933699B9BF3"
 			shape: "square"
 			tasks: [{
@@ -318,7 +267,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["{atm9.quest.gregtech.iv.desc.checkEBF.1}"]
+			description: [""]
 			id: "2CC82170BCE61940"
 			tasks: [{
 				id: "7CFE79284D3FFB61"
@@ -330,11 +279,7 @@
 		}
 		{
 			dependencies: ["2CC82170BCE61940"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.moreWafers.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.moreWafers.2}"
-			]
+			description: [""]
 			id: "5F270891C953486E"
 			tasks: [{
 				id: "03BCFA5724D80E16"
@@ -345,86 +290,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5F270891C953486E"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.anotherLens.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.anotherLens.2}"
-			]
-			id: "3CA2D15D1EC4D852"
-			tasks: [
-				{
-					icon: "gtceu:hv_laser_engraver"
-					id: "783B177BEB5F921E"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:hv_laser_engraver"
-								}
-								{
-									Count: 1b
-									id: "gtceu:ev_laser_engraver"
-								}
-								{
-									Count: 1b
-									id: "gtceu:iv_laser_engraver"
-								}
-							]
-						}
-					}
-					title: "{atm9.quest.gregtech.iv.laserEngraver}"
-					type: "item"
-				}
-				{
-					id: "5409F09E8903E29E"
-					item: "gtceu:yellow_glass_lens"
-					type: "item"
-				}
-				{
-					id: "57C79A6CB61B5A7E"
-					item: "gtceu:soc_wafer"
-					type: "item"
-				}
-				{
-					id: "6AB0EDD32811CF42"
-					item: "gtceu:soc"
-					type: "item"
-				}
-			]
-			title: "{atm9.quest.gregtech.iv.systemOnChip}"
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"3CA2D15D1EC4D852"
-				"4993431DBE076E1B"
-			]
-			description: ["{atm9.quest.gregtech.iv.desc.cheapestLVCircuit.1}"]
-			id: "143BF8A4944C471D"
-			progression_mode: "flexible"
-			subtitle: "{atm9.quest.gregtech.iv.subt.cheaperThanEver}"
-			tasks: [{
-				id: "12938981FF431405"
-				item: "gtceu:microchip_processor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["62F4355AE3E08FD9"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.finalPTFE.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.finalPTFE.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.finalPTFE.3}"
-			]
+			description: [""]
 			id: "329916B2CB8342B2"
 			shape: "gear"
 			size: 1.25d
@@ -434,15 +301,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.700000000000001d
+			y: -6.700000000000001d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.evAssemblerSetup.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.evAssemblerSetup.2}"
-			]
+			description: [""]
 			id: "533DB1666B11489A"
 			tasks: [{
 				id: "3EC0D7EE35B856B9"
@@ -454,13 +317,7 @@
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.advancedSMDCapacitor.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.advancedSMDCapacitor.2}"
-				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2EE52FD7129D3D87\"}, \"text\": \"How to: Rarest Metal Mixture\", \"color\": \"yellow\", \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here to open the quest!\" } }}"
-			]
+			description: [""]
 			id: "599BABC83E76A711"
 			tasks: [{
 				id: "04CE037EB56DFF14"
@@ -472,7 +329,7 @@
 		}
 		{
 			dependencies: ["6517B8748E3A6831"]
-			description: ["{atm9.quest.gregtech.iv.desc.firstTierHSS.1}"]
+			description: [""]
 			id: "41EE8B40BA43DADE"
 			tasks: [{
 				id: "753FCEFC65478AE3"
@@ -487,11 +344,7 @@
 				"0907800ED4793F96"
 				"64F77D41B2D057B8"
 			]
-			description: [
-				"[ \"You'll need \", { \"text\": \"Laminated Glass\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0907800ED4793F96\" } }, \" to make this\" ]"
-				""
-				"{atm9.quest.gregtech.iv.desc.makeHSSVariants.1}"
-			]
+			description: [""]
 			hide_dependency_lines: true
 			id: "6517B8748E3A6831"
 			tasks: [{
@@ -503,29 +356,19 @@
 			y: -6.5d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.oreProcessingNiobium.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.oreProcessingNiobium.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.oreProcessingNiobium.3}"
-			]
+			description: [""]
 			id: "4AA6D19469FB306F"
 			tasks: [{
 				id: "3C40CC44FAE84350"
 				item: "gtceu:niobium_titanium_dust"
 				type: "item"
 			}]
-			x: 11.3d
-			y: -2.6000000000000014d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["17C2D1915C2D0B4C"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.mixIndiumGalliumPhosphorus.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.mixIndiumGalliumPhosphorus.2}"
-			]
+			description: [""]
 			hide_dependent_lines: true
 			id: "7E7FAA72581D2186"
 			tasks: [{
@@ -538,11 +381,7 @@
 		}
 		{
 			dependencies: ["677B8753B7904E95"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.chemicalReactIndium.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.chemicalReactIndium.2}"
-			]
+			description: [""]
 			id: "17C2D1915C2D0B4C"
 			tasks: [{
 				id: "2DF2279A961A2744"
@@ -554,11 +393,7 @@
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.highSpeedSteel.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.highSpeedSteel.2}"
-			]
+			description: [""]
 			id: "4720F9EDF894330C"
 			tasks: [{
 				id: "4F79A05731E4FE40"
@@ -569,11 +404,7 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.purifiedSphaleriteGalena.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.purifiedSphaleriteGalena.2}"
-			]
+			description: [""]
 			id: "677B8753B7904E95"
 			shape: "square"
 			tasks: [{
@@ -589,7 +420,7 @@
 				"07E750F8184C4362"
 				"1C19DD6B3E34012E"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.hydrofluoricAcid.1}"]
+			description: [""]
 			id: "62F4355AE3E08FD9"
 			tasks: [{
 				id: "6209FBB5F559FC96"
@@ -597,10 +428,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.200000000000001d
+			y: -8.200000000000001d
 		}
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.chloroform.1}"]
+			description: [""]
 			id: "1C19DD6B3E34012E"
 			tasks: [{
 				id: "66EB810BCE505C9F"
@@ -608,15 +439,11 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.199999999999999d
+			y: -9.2d
 		}
 		{
 			dependencies: ["43EBA1D735267C85"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.hydrofluoricAcid.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.hydrofluoricAcid.3}"
-			]
+			description: [""]
 			id: "07E750F8184C4362"
 			tasks: [{
 				id: "5EF03747135E0D8F"
@@ -624,10 +451,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.200000000000001d
+			y: -9.200000000000001d
 		}
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.fluorineGas.1}"]
+			description: [""]
 			id: "43EBA1D735267C85"
 			tasks: [{
 				id: "682A3DC9CB37D399"
@@ -635,11 +462,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.200000000000001d
+			y: -10.200000000000001d
 		}
 		{
 			dependencies: ["62E7B8817D22678F"]
-			description: ["{atm9.quest.gregtech.iv.desc.electrumFoil.1}"]
+			description: [""]
 			id: "46542F4A273E64EB"
 			tasks: [{
 				id: "5134D69523321A94"
@@ -651,11 +478,7 @@
 		}
 		{
 			dependencies: ["56B7CC072B8E9B48"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.epoxyCircuitBoard.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.epoxyCircuitBoard.2}"
-			]
+			description: [""]
 			id: "62E7B8817D22678F"
 			tasks: [{
 				id: "0FF97EF9CC8D0F44"
@@ -670,13 +493,7 @@
 				"79E97623309DEF84"
 				"2A32CA82627E5FA7"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.epoxy.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.epoxy.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.epoxy.3}"
-			]
+			description: [""]
 			id: "56B7CC072B8E9B48"
 			tasks: [{
 				id: "722CEDC6467CBF31"
@@ -691,27 +508,19 @@
 				"225F77308C834EA8"
 				"05F0FCBBEADA8489"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.epoxy.4}"
-				""
-				"{atm9.quest.gregtech.iv.desc.epoxy.5}"
-			]
+			description: [""]
 			id: "79E97623309DEF84"
 			tasks: [{
 				id: "7D13ABA27E15B6A3"
 				item: "gtceu:bisphenol_a_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.20000000000000462d
+			x: -0.49285714285715443d
+			y: 0.8214285714285836d
 		}
 		{
 			dependencies: ["32E9B33C9D7981ED"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.epichlorohydrin.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.epichlorohydrin.2}"
-			]
+			description: [""]
 			id: "2A32CA82627E5FA7"
 			tasks: [{
 				id: "6E63FE29D8A9A884"
@@ -723,13 +532,7 @@
 		}
 		{
 			dependencies: ["47871110028991D3"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.glycerol.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.glycerol.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.glycerol.3}"
-			]
+			description: [""]
 			id: "32E9B33C9D7981ED"
 			tasks: [{
 				id: "4319527D23F45B63"
@@ -741,13 +544,7 @@
 		}
 		{
 			dependencies: ["329916B2CB8342B2"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.chemicalReactorSetup.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.chemicalReactorSetup.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.chemicalReactorSetup.3}"
-			]
+			description: [""]
 			icon: "gtceu:large_chemical_reactor"
 			id: "47871110028991D3"
 			min_width: 300
@@ -761,11 +558,7 @@
 		}
 		{
 			dependencies: ["6AD5F24DA80B93A8"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.saltWaterElectrolyzing.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.saltWaterElectrolyzing.2}"
-			]
+			description: [""]
 			id: "225F77308C834EA8"
 			tasks: [{
 				id: "4E39727CD1515BC8"
@@ -777,24 +570,23 @@
 		}
 		{
 			dependencies: ["646918F4D700749B"]
-			description: ["{atm9.quest.gregtech.iv.desc.acetone.1}"]
+			description: [""]
 			id: "05F0FCBBEADA8489"
 			tasks: [{
 				id: "58219164CA17C0ED"
 				item: "gtceu:acetone_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.2999999999999954d
+			x: -0.49285714285715443d
+			y: 1.9642857142857366d
 		}
 		{
 			dependencies: [
 				"225F77308C834EA8"
 				"38BD153513DC2334"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.phenol.1}"]
+			description: [""]
 			id: "4AE3A2326EA07B7A"
-			subtitle: "{atm9.quest.gregtech.iv.subt.polybenzimidazolePronunciation}"
 			tasks: [{
 				id: "07267D8026DD87B4"
 				item: "gtceu:diphenyl_isophthalate_bucket"
@@ -808,13 +600,7 @@
 				"47871110028991D3"
 				"0D68FA968FD2BEF4"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.largeChemicalReactor.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.largeChemicalReactor.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.largeChemicalReactor.3}"
-			]
+			description: [""]
 			id: "74D47A8DF93294E4"
 			min_width: 300
 			tasks: [{
@@ -823,15 +609,11 @@
 				type: "item"
 			}]
 			x: 0.7000000000000006d
-			y: -3.3000000000000043d
+			y: -6.300000000000004d
 		}
 		{
 			dependencies: ["2483DD28AC6E7EA2"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.largeChemicalReactor.4}"
-				""
-				"{atm9.quest.gregtech.iv.desc.largeChemicalReactor.5}"
-			]
+			description: [""]
 			id: "0D68FA968FD2BEF4"
 			tasks: [{
 				id: "12F0E44FF6E412B9"
@@ -839,18 +621,14 @@
 				type: "item"
 			}]
 			x: 0.6999999999999997d
-			y: -4.400000000000002d
+			y: -7.400000000000002d
 		}
 		{
 			dependencies: [
 				"72DC025BC059DF96"
 				"6F8E6D84D31651D5"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.nitrochlorobenzene.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.nitrochlorobenzene.2}"
-			]
+			description: [""]
 			id: "2483DD28AC6E7EA2"
 			tasks: [{
 				id: "4DAAE03F1A961070"
@@ -858,11 +636,11 @@
 				type: "item"
 			}]
 			x: 0.7000000000000002d
-			y: -5.600000000000001d
+			y: -8.600000000000001d
 		}
 		{
 			dependencies: ["39B625FA20EAA025"]
-			description: ["{atm9.quest.gregtech.iv.desc.nitrationMixture.1}"]
+			description: [""]
 			id: "72DC025BC059DF96"
 			tasks: [{
 				id: "70F5FC5B8C666064"
@@ -870,14 +648,10 @@
 				type: "item"
 			}]
 			x: 0.6999999999999997d
-			y: -6.800000000000001d
+			y: -9.8d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.ammonia.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.ammonia.2}"
-			]
+			description: [""]
 			id: "39B625FA20EAA025"
 			tasks: [{
 				id: "68D0BF02B52C546A"
@@ -885,14 +659,10 @@
 				type: "item"
 			}]
 			x: 0.6999999999999997d
-			y: -8.0d
+			y: -11.0d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.chlorobenzene.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.benzene.1}"
-			]
+			description: [""]
 			id: "6F8E6D84D31651D5"
 			tasks: [{
 				id: "061565CB40A69AB3"
@@ -900,11 +670,11 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.600000000000005d
+			y: -8.600000000000005d
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
-			description: ["[ \"Some \", { \"text\": \"Acetic Acid\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7E407CDBFD85E65F\" }, \"hoverEvent\": { \"action\":\"show_text\", \"contents\": { \"text\":\"Click here for the Acetic Acid quest\" } } }, \" and Calcite Dust in a \", { \"text\": \"Chemical Reactor\", \"color\":\"yellow\" }, \" will get you this\" ]"]
+			description: [""]
 			hide_dependency_lines: true
 			id: "646918F4D700749B"
 			tasks: [{
@@ -912,11 +682,11 @@
 				item: "gtceu:dissolved_calcium_acetate_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.30000000000000004d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.benzene.2}"]
+			description: [""]
 			id: "6AD5F24DA80B93A8"
 			tasks: [{
 				id: "35D4D665BA3535F7"
@@ -928,49 +698,30 @@
 		}
 		{
 			dependencies: ["6A86F8FB2B3A3425"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.solderingAlloy.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.solderingAlloy.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.solderingAlloy.3}"
-			]
+			description: [""]
 			id: "12D84337AEB56002"
 			tasks: [{
 				id: "3BA1E80264EF114C"
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 3.0428571428571516d
+			y: -0.2142857142857011d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.antimonyProcessing.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.antimonyProcessing.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.antimonyProcessing.3}"
-			]
+			description: [""]
 			id: "6A86F8FB2B3A3425"
 			tasks: [{
 				id: "3F4D687187DC2893"
 				item: "gtceu:antimony_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 3.0785714285714363d
+			y: -1.2857142857142776d
 		}
 		{
-			dependencies: [
-				"00BF4E98A328801D"
-				"07FC106AFE76E766"
-			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.tungstensteelDust.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.tungstensteelDust.2}"
-			]
+			dependencies: ["00BF4E98A328801D"]
+			description: [""]
 			icon: "gtceu:tungsten_dust"
 			id: "540B4CE165EE4D5B"
 			tasks: [{
@@ -982,7 +733,6 @@
 			y: 0.8d
 		}
 		{
-			dependencies: ["4321E32D0EA3367C"]
 			description: ["{atm9.quest.gregtech.iv.desc.tungstenAcquisition.1}\\n\\n{atm9.quest.gregtech.iv.desc.tungstenAcquisition.2}"]
 			id: "00BF4E98A328801D"
 			tasks: [{
@@ -990,16 +740,12 @@
 				item: "gtceu:tungstic_acid_dust"
 				type: "item"
 			}]
-			x: -9.700000000000001d
-			y: -2.0d
+			x: -11.957142857142856d
+			y: 0.7857142857142847d
 		}
 		{
 			dependencies: ["19BA973FECFA3B06"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.quantumEyes.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.quantumEyes.2}"
-			]
+			description: [""]
 			id: "587B4048E0BCEB27"
 			tasks: [{
 				id: "411CD5BC3965C8DF"
@@ -1010,13 +756,7 @@
 			y: 4.5d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.radonGasAcquisition.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.radonGasAcquisition.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.radonGasAcquisition.3}"
-			]
+			description: [""]
 			hide_dependency_lines: true
 			id: "19BA973FECFA3B06"
 			min_width: 300
@@ -1030,36 +770,9 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["{atm9.quest.gregtech.iv.desc.machineUpgradeEV.1}"]
-			hide_dependency_lines: true
-			id: "4321E32D0EA3367C"
-			tasks: [{
-				id: "738F3984052AAF67"
-				item: "gtceu:ev_chemical_bath"
-				type: "item"
-			}]
-			x: -8.2d
-			y: -2.0d
-		}
-		{
-			dependencies: ["64F77D41B2D057B8"]
 			description: [""]
 			hide_dependency_lines: true
-			id: "07FC106AFE76E766"
-			tasks: [{
-				id: "6FAA7B053A5B7226"
-				item: "gtceu:ev_electrolyzer"
-				type: "item"
-			}]
-			x: -11.3d
-			y: 0.7999999999999999d
-		}
-		{
-			dependencies: ["64F77D41B2D057B8"]
-			description: ["{atm9.quest.gregtech.iv.desc.mixerUpgrade.1}"]
-			hide_dependency_lines: true
 			id: "692C9BA71EA0F0A7"
-			subtitle: "{atm9.quest.gregtech.iv.subt.mixerQuery.1}"
 			tasks: [{
 				id: "7DC755D1965AD27F"
 				item: "gtceu:ev_mixer"
@@ -1070,7 +783,7 @@
 		}
 		{
 			dependencies: ["175B7F7D98D45208"]
-			description: ["{atm9.quest.gregtech.iv.desc.multiblockUpgrade.1}"]
+			description: [""]
 			id: "273DC98BA2785BD6"
 			optional: true
 			shape: "diamond"
@@ -1084,7 +797,7 @@
 		}
 		{
 			dependencies: ["4B16C957EADC183B"]
-			description: ["{atm9.quest.gregtech.iv.desc.energyHatchUpgrade.1}"]
+			description: [""]
 			id: "2F1DF3971B75E63C"
 			optional: true
 			shape: "diamond"
@@ -1098,7 +811,7 @@
 		}
 		{
 			dependencies: ["273DC98BA2785BD6"]
-			description: ["{atm9.quest.gregtech.iv.desc.poweringMultiblocks.1}"]
+			description: [""]
 			id: "2BE364CCE684AD45"
 			optional: true
 			shape: "diamond"
@@ -1112,7 +825,7 @@
 		}
 		{
 			dependencies: ["2F1DF3971B75E63C"]
-			description: ["{atm9.quest.gregtech.iv.desc.singleEnergyHatch.1}"]
+			description: [""]
 			id: "653260450BEDB6AB"
 			optional: true
 			shape: "diamond"
@@ -1126,15 +839,7 @@
 		}
 		{
 			dependencies: ["692C9BA71EA0F0A7"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.vanadiumGalliumDust.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.vanadiumGalliumDust.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.vanadiumGalliumDust.3}"
-				""
-				"{atm9.quest.gregtech.iv.desc.vanadiumGalliumDust.4}"
-			]
+			description: [""]
 			id: "465F4502C4D5DCFE"
 			tasks: [{
 				id: "7B93FC8915128873"
@@ -1142,11 +847,11 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["{atm9.quest.gregtech.iv.desc.basisPICWafers.1}"]
+			description: [""]
 			id: "4838AD09C9590D2F"
 			tasks: [
 				{
@@ -1194,7 +899,7 @@
 				"465F4502C4D5DCFE"
 				"0A848E0B9F485B2C"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.advancedSMDTransistors.1}"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "6F0AD70D3748D8D2"
 			tasks: [{
@@ -1203,7 +908,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1212,7 +917,7 @@
 				"7E7FAA72581D2186"
 				"6F0AD70D3748D8D2"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.upgradingMPIC.1}"]
+			description: [""]
 			id: "4F8C6F49F9D7EE4D"
 			tasks: [{
 				id: "6F81ED6B43252DC6"
@@ -1224,11 +929,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.upgradingHPIC.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.upgradingHPIC.2}"
-			]
+			description: [""]
 			id: "03C756EB123CA953"
 			tasks: [{
 				id: "783D93D534AFC84F"
@@ -1240,11 +941,7 @@
 		}
 		{
 			dependencies: ["0907800ED4793F96"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.laminatedGlassMachine.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.laminatedGlassMachine.2}"
-			]
+			description: [""]
 			id: "6D6AA1A0D8AB01DE"
 			tasks: [{
 				id: "657DC3B9C2057A7A"
@@ -1256,11 +953,7 @@
 		}
 		{
 			dependencies: ["2D3A6B7907FDB9B1"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.laminatedGlassAchievement.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.laminatedGlassAchievement.2}"
-			]
+			description: [""]
 			id: "0907800ED4793F96"
 			tasks: [{
 				id: "24AEE48613787976"
@@ -1275,7 +968,7 @@
 				"4C83B804A6AEB033"
 				"4EF3FD6C59413C49"
 			]
-			description: ["{atm9.quest.gregtech.iv.desc.chemicalReactionLaminatedGlass.1}"]
+			description: [""]
 			id: "2D3A6B7907FDB9B1"
 			tasks: [{
 				id: "470744DC5229F216"
@@ -1287,13 +980,7 @@
 		}
 		{
 			dependencies: ["5C38DAD6BA43A7F1"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.polyvinylAcetateProduction.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.polyvinylAcetateProduction.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.polyvinylAcetateProduction.3}"
-			]
+			description: [""]
 			id: "4EF3FD6C59413C49"
 			min_width: 300
 			tasks: [{
@@ -1305,13 +992,7 @@
 			y: 7.0d
 		}
 		{
-			description: [
-				"{atm9.quest.gregtech.iv.desc.propeneProduction.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.propeneProduction.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.propeneProduction.3}"
-			]
+			description: [""]
 			id: "4C83B804A6AEB033"
 			tasks: [{
 				id: "1DFC03AF10A7050D"
@@ -1323,7 +1004,7 @@
 		}
 		{
 			dependencies: ["7E407CDBFD85E65F"]
-			description: ["{atm9.quest.gregtech.iv.desc.aceticAcidEnhancement.1}"]
+			description: [""]
 			id: "5C38DAD6BA43A7F1"
 			tasks: [{
 				id: "4A3A4DC6D4C4A556"
@@ -1334,7 +1015,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.aceticAcidProduction.1}"]
+			description: [""]
 			id: "7E407CDBFD85E65F"
 			tasks: [{
 				id: "47D630FAA125ACD5"
@@ -1346,7 +1027,7 @@
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["{atm9.quest.gregtech.iv.desc.logicGates.1}"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "15A1D6D05A785919"
 			tasks: [
@@ -1366,7 +1047,7 @@
 		}
 		{
 			dependencies: ["5F270891C953486E"]
-			description: ["{atm9.quest.gregtech.iv.desc.laserEngraver.1}"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "77AAC2F643E92A88"
 			tasks: [
@@ -1400,11 +1081,7 @@
 		}
 		{
 			dependencies: ["13BAD4B9C69117C6"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.nanoCpuWafer.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.nanoCpuWafer.2}"
-			]
+			description: [""]
 			id: "1896B90F5FD66AFA"
 			tasks: [{
 				id: "75671C8E193FB933"
@@ -1416,13 +1093,7 @@
 		}
 		{
 			dependencies: ["56B7CC072B8E9B48"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.rawCarbonFibers.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.rawCarbonFibers.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.rawCarbonFibers.3}"
-			]
+			description: [""]
 			id: "13BAD4B9C69117C6"
 			tasks: [{
 				id: "3126CA0CD31A6EA2"
@@ -1434,13 +1105,7 @@
 		}
 		{
 			dependencies: ["47871110028991D3"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.dimethylbenzene.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.dimethylbenzene.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.dimethylbenzene.3}"
-			]
+			description: [""]
 			id: "38BD153513DC2334"
 			tasks: [{
 				id: "70C9A799B2294DAC"
@@ -1452,11 +1117,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.assemblerUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.assemblerUpgrade.2}"
-			]
+			description: [""]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "45D9E32D75F5ACAE"
@@ -1469,16 +1130,15 @@
 			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.platinumSludge.1}"]
+			description: [""]
 			id: "2FDACD6F153D5B64"
-			subtitle: "{atm9.quest.gregtech.iv.subt.sheldonClub.1}"
 			tasks: [{
 				id: "3E85E016A9FC831F"
 				item: "gtceu:purified_cooperite_ore"
 				type: "item"
 			}]
 			x: -4.5d
-			y: -3.1d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -1489,21 +1149,20 @@
 				item: "gtceu:aqua_regia_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0500000000000007d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
-			description: ["{atm9.quest.gregtech.iv.desc.platinumResources.1}"]
+			description: [""]
 			id: "4632DA3CE9D95064"
-			subtitle: "{atm9.quest.gregtech.iv.subt.misterKrabs.1}"
 			tasks: [{
 				id: "6D5FD9D06E3AD241"
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0500000000000007d
+			x: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1519,31 +1178,25 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.0500000000000007d
+			y: -3.0d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.processingBoost.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.processingBoost.2}"
-			]
+			description: [""]
 			hide_dependency_lines: true
 			id: "20A01B6A6B1177CB"
-			subtitle: "{atm9.quest.gregtech.iv.subt.spinRightRound.1}"
 			tasks: [{
 				id: "7609E81C3C3C8F78"
 				item: "gtceu:iv_centrifuge"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7CC3BD5F3D66A637"]
 			description: [""]
 			id: "439556C571592D81"
-			shape: "gear"
 			tasks: [
 				{
 					id: "195C8E82DDC275B1"
@@ -1556,8 +1209,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -1.0500000000000007d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["439556C571592D81"]
@@ -1569,7 +1222,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["40249CD28957E7EB"]
@@ -1579,7 +1232,7 @@
 				item: "gtceu:rtm_alloy_dust"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -1587,13 +1240,7 @@
 				"41EE8B40BA43DADE"
 				"45D9E32D75F5ACAE"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.ebfCoilUpgrade.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.ebfCoilUpgrade.2}"
-				""
-				"{atm9.quest.gregtech.iv.desc.ebfCoilUpgrade.3}"
-			]
+			description: [""]
 			id: "1AB86FD8776634D0"
 			tasks: [{
 				id: "231B87784B7EC352"
@@ -1605,21 +1252,16 @@
 		}
 		{
 			dependencies: ["4632DA3CE9D95064"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.iridiumOre.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.iridiumOre.2}"
-			]
+			description: [""]
 			hide_dependency_lines: true
 			id: "2EE52FD7129D3D87"
 			optional: true
-			shape: "diamond"
 			tasks: [{
 				id: "2AF36DE65F7CBA3C"
 				item: "gtceu:rarest_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -1627,32 +1269,22 @@
 				"2EE52FD7129D3D87"
 				"47871110028991D3"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.largeChemReactor.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.largeChemReactor.2}"
-			]
+			description: [""]
 			id: "7C9D8120B5C5BD9B"
 			optional: true
-			shape: "diamond"
 			tasks: [{
 				id: "35F58171ECC99A6A"
 				item: "gtceu:iridium_metal_residue_dust"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7C9D8120B5C5BD9B"]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.iridiumChloride.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.iridiumChloride.2}"
-			]
+			description: [""]
 			id: "6E6D9527AC093199"
 			optional: true
-			shape: "diamond"
 			tasks: [{
 				id: "4671D5F7C6163DF9"
 				item: "gtceu:iridium_chloride_dust"
@@ -1663,17 +1295,16 @@
 		}
 		{
 			dependencies: ["6E6D9527AC093199"]
-			description: ["{atm9.quest.gregtech.iv.desc.chemicalReaction.1}"]
+			description: [""]
 			id: "02190383FEE793ED"
 			optional: true
-			shape: "diamond"
 			tasks: [{
 				id: "520F78D7F8AC5629"
 				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]

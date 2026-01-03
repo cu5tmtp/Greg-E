@@ -58,6 +58,9 @@
   "block.gtceu.planetarygassiphon": "Planetary Gas Siphon",
   "gtceu.planetarygassiphon": "Gas Siphoning",
 
+  "block.gtceu.netherdrillrig": "Nether Drill Rig",
+  "gtceu.netherdrillrig": "Nether Drill Rig",
+
   "biome.ad_astra.orbit": "Earth Orbit",
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",

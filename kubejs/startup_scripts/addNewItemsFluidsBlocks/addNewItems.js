@@ -70,7 +70,7 @@ StartupEvents.registry('item', event => {
     event.create('frostwire').displayName('Froststeel Wire')
     event.create('forgfoil').displayName('Forgotten Ingot Foil')
     event.create('twoxforgcable').displayName('2x Forgotten Ingot Cable')
-
+    event.create('eidust').displayName('Evil And Intimidating Dust')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

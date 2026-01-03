@@ -8,7 +8,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:lvalloy',
             'kubejs:mvalloy',
             'kubejs:hvalloy',
-            'kubejs:evalloy'
+            'kubejs:evalloy',
+            'kubejs:ivalloy'
         ],
         (item, advanced, text) => {
             text.add(1, Text.red('WARNING: Not learnable in transmutating table!'));

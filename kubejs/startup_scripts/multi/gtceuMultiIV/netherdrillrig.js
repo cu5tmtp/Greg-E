@@ -1,7 +1,7 @@
 GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
 
   event
-    .create("oilrig")
+    .create("netherdrillrig")
     .category("multiblock")
     .setEUIO("in")
     .setMaxIOSize(9, 3, 3, 3)
@@ -12,11 +12,11 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
 
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
   event
-    .create("oilrig", "multiblock")
+    .create("netherdrillrig", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
-    .recipeType('oilrig')
+    .recipeType('netherdrillrig')
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("A###A", "A###A", "A###A", "GGGGG", "D###D", "D###D", "#DDD#", "##D##", "#####", "#####", "#####", "#####", "#####", "#####")
         .aisle("#####", "#####", "#####", "GCCCG", "#####", "#####", "D#D#D", "#####", "##D##", "##D##", "#####", "#####", "#####", "#####")
@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("A", Predicates.blocks('chisel_chipped_integration:technical_sturdy'))
         .where("B", Predicates.blocks('chisel_chipped_integration:technical_vent'))
         .where("C", Predicates.blocks('chisel_chipped_integration:technical_exhaust_plating'))
-        .where("D", Predicates.blocks('gtceu:stainless_steel_frame'))
+        .where("D", Predicates.blocks('gtceu:steel_frame'))
         .where("E", Predicates.blocks('chisel_chipped_integration:technical_large_pipes'))
         .where("F", Predicates.blocks('minecraft:iron_bars'))
         .where("G", Predicates.blocks('chisel_chipped_integration:technical_exhaust_plating')

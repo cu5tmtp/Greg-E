@@ -6,7 +6,8 @@ ServerEvents.tags('item', event => {
         'kubejs:lvalloy',
         'kubejs:mvalloy',
         'kubejs:hvalloy',
-        'kubejs:evalloy'
+        'kubejs:evalloy',
+        'kubejs:ivalloy'
     ])
 
     event.add( 'projectextended:blacklist_condenser', [
@@ -16,7 +17,8 @@ ServerEvents.tags('item', event => {
         'kubejs:lvalloy',
         'kubejs:mvalloy',
         'kubejs:hvalloy',
-        'kubejs:evalloy'
+        'kubejs:evalloy',
+        'kubejs:ivalloy'
     ])
     
 });
