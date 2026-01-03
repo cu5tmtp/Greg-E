@@ -10,10 +10,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.gregtech.iv.desc.salsaIncident.1}\\n\\n{atm9.quest.gregtech.iv.desc.salsaIncident.2}"]
+			description: [""]
 			id: "64F77D41B2D057B8"
 			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.iv.subt.diveDeep}"
 			tasks: [{
 				id: "6625077A99326B9D"
 				item: "gtceu:micro_processor_mainframe"
@@ -1007,8 +1006,8 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1026,8 +1025,8 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
@@ -1483,9 +1482,8 @@
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
-			description: ["{atm9.quest.gregtech.iv.desc.aquaRegia.1}"]
+			description: [""]
 			id: "0DD389A24F5F8CDD"
-			subtitle: "{atm9.quest.gregtech.iv.subt.barbieWorld.1}"
 			tasks: [{
 				id: "167A231788D5F833"
 				item: "gtceu:aqua_regia_bucket"
@@ -1513,13 +1511,8 @@
 				"20A01B6A6B1177CB"
 				"0DD389A24F5F8CDD"
 			]
-			description: [
-				"{atm9.quest.gregtech.iv.desc.newResources.1}"
-				""
-				"{atm9.quest.gregtech.iv.desc.newResources.2}"
-			]
+			description: [""]
 			id: "7CC3BD5F3D66A637"
-			subtitle: "{atm9.quest.gregtech.iv.subt.radonCafe.1}"
 			tasks: [{
 				id: "2F0E1D0E62D27DF0"
 				item: "gtceu:inert_metal_mixture_dust"
@@ -1548,10 +1541,9 @@
 		}
 		{
 			dependencies: ["7CC3BD5F3D66A637"]
-			description: ["{atm9.quest.gregtech.iv.desc.inertMetal.1}"]
+			description: [""]
 			id: "439556C571592D81"
 			shape: "gear"
-			subtitle: "{atm9.quest.gregtech.iv.subt.twoForOne.1}"
 			tasks: [
 				{
 					id: "195C8E82DDC275B1"
@@ -1569,9 +1561,8 @@
 		}
 		{
 			dependencies: ["439556C571592D81"]
-			description: ["{atm9.quest.gregtech.iv.desc.ruridit.1}"]
+			description: [""]
 			id: "40249CD28957E7EB"
-			subtitle: "{atm9.quest.gregtech.iv.subt.cleanedDust.1}"
 			tasks: [{
 				id: "270A0E25457E1C36"
 				item: "gtceu:ruthenium_dust"
@@ -1677,12 +1668,80 @@
 			optional: true
 			shape: "diamond"
 			tasks: [{
-				id: "074663BA515D70DF"
-				item: "alltheores:iridium_dust"
+				id: "520F78D7F8AC5629"
+				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
 			x: 3.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			description: ["This tier you gotta do plat line, so I decided to go easy on this EMC line, just get through Undergarden."]
+			hide_dependency_lines: false
+			id: "0C0216A30D11073E"
+			tasks: [{
+				id: "70E429C84C7E40FB"
+				title: "EMC line"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0C0216A30D11073E"
+				"3124B071FC69F8CB"
+			]
+			id: "7187C0DDA4485F07"
+			tasks: [
+				{
+					id: "1870D52FB8D102BA"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					id: "6E9E4AFCC044B815"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+				{
+					id: "125E529F2D94D77E"
+					item: "kubejs:ivalloy"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C0216A30D11073E"]
+			id: "18E3BBCA6C8FA5B1"
+			tasks: [{
+				id: "77A37DCA9B40F88E"
+				item: "gregecore:forgotten_coil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			description: ["If you're like wtf how do I make those models better, use this, with this upgrade."]
+			id: "3124B071FC69F8CB"
+			tasks: [
+				{
+					id: "45A61D02747989BB"
+					item: "extrahnn:simulator_modeling"
+					type: "item"
+				}
+				{
+					id: "3E1C417E291C0B3E"
+					item: "extrahnn:upgrade_module_stack"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 5.5d
 		}
 	]
 	title: "IV"

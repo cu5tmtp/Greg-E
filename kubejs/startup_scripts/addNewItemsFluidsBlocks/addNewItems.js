@@ -66,6 +66,11 @@ StartupEvents.registry('item', event => {
     event.create('malachitefoil').displayName('Malachite Foil')
     event.create('twoxmalachitecable').displayName('2x Malachite Cable')
     event.create('blessedearth').displayName('Blessed Earth')
+    event.create('clogwire').displayName('Cloggrum Wire')
+    event.create('frostwire').displayName('Froststeel Wire')
+    event.create('forgfoil').displayName('Forgotten Ingot Foil')
+    event.create('twoxforgcable').displayName('2x Forgotten Ingot Cable')
+
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

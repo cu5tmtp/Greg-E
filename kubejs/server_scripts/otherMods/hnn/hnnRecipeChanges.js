@@ -15,4 +15,16 @@ ServerEvents.recipes((event) => {
         'kubejs:senplate'
     )
 
+    event.replaceInput(
+        { id: 'extrahnn:merger_camera'},
+        'minecraft:netherite_block',
+        '#gtceu:circuits/iv'
+    )
+
+    event.replaceInput(
+        { id: 'extrahnn:upgrade_module_stack'},
+        'minecraft:comparator',
+        '#gtceu:circuits/iv'
+    )
+
 })

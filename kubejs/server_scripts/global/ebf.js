@@ -59,4 +59,16 @@ ServerEvents.recipes((event) => {
         .EUt(1680)
         .blastFurnaceTemp(3400)
 
+    event.recipes.gtceu.electric_blast_furnace('forgottencoilget')
+        .itemInputs(
+            '8x kubejs:forgfoil',
+            '8x kubejs:twoxforgcable'
+        )
+        .itemOutputs(
+            'gregecore:forgotten_coil'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.IV])
+        .blastFurnaceTemp(4000)
+
 });

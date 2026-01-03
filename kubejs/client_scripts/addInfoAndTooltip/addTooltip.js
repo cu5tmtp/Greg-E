@@ -109,4 +109,15 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+        event.addAdvanced(
+        [
+            'gregecore:forgotten_coil'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('9200K')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('40%')));
+            text.add(3, Text.green('Coil parallels: ').append(Text.yellow('4')));
+        }
+    );
+
 });

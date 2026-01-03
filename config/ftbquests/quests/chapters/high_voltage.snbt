@@ -338,8 +338,8 @@
 			id: "2F09F581D2D91CAB"
 			shape: "square"
 			tasks: [{
-				id: "23D839829E78E614"
-				item: "kubejs:nobolt"
+				id: "69CA92CF5398D951"
+				item: "gregecore:nobelium_bolt"
 				type: "item"
 			}]
 			x: 2.5d
