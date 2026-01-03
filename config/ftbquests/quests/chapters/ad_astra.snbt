@@ -1,0 +1,471 @@
+{
+	autofocus_id: "313BDDDAF1E08965"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "1DD75D8B702CB0A0"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "769974FDAD5DBEB1"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["438E233A9014DA73"]
+			description: [""]
+			id: "4EA0E385FF7E5FEB"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "79AED4781590C86C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EE652B280CB5F55"]
+			description: [""]
+			id: "210A0DC6D5CAC236"
+			tasks: [{
+				id: "68DB1231F3A96C65"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58452F7D73C30E72"]
+			description: [""]
+			id: "438E233A9014DA73"
+			tasks: [{
+				count: 4L
+				id: "1376E9EEBB16D83E"
+				item: { Count: 4, id: "ad_astra:desh_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["313BDDDAF1E08965"]
+			description: ["Land on the moon!"]
+			icon: "ad_astra:moon_globe"
+			id: "58452F7D73C30E72"
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "5472FCE5D46313F4"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E8E49EB9C83188E"]
+			description: [""]
+			id: "2A279B011D09A9EE"
+			tasks: [{
+				count: 4L
+				id: "65AE7D0A17C3DB4E"
+				item: { Count: 4, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EA0E385FF7E5FEB"]
+			description: [""]
+			icon: "ad_astra:mars_globe"
+			id: "4E8E49EB9C83188E"
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				id: "51EA8D3FA1966B84"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			description: [""]
+			icon: "ad_astra:venus_globe"
+			id: "0EE652B280CB5F55"
+			tasks: [
+				{
+					advancement: "ad_astra:venus"
+					criterion: ""
+					id: "3A4B0885275DF89B"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "5435730E77B1B16F"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CA42B3CA84A21B5"]
+			description: [""]
+			icon: "ad_astra:mercury_globe"
+			id: "32738F324B799879"
+			tasks: [{
+				advancement: "ad_astra:mercury"
+				criterion: ""
+				id: "7302AF42EB62C1D2"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"210A0DC6D5CAC236"
+				"7B2A7B2298DAE8EC"
+			]
+			description: [""]
+			icon: "ad_astra:glacio_globe"
+			id: "0B407DE1771F3304"
+			size: 1.0d
+			tasks: [{
+				advancement: "ad_astra:interstellar"
+				criterion: ""
+				id: "60ADF70F2398E2F8"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"64D8FB039D6E7339"
+				"4785659E5022FEE7"
+				"05B977269171EB06"
+				"12AC846277F88F3D"
+			]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "313BDDDAF1E08965"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "05AC65380B8E5A22"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+				{
+					id: "0AD62369D27109EF"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C9AE01973242410"]
+			description: ["Put Ad Astra's oil in this machine, you will get fuel for rockets, even if EMI doesn't show it."]
+			icon: "ad_astra:fuel_refinery"
+			id: "4785659E5022FEE7"
+			min_width: 300
+			shape: "square"
+			tasks: [
+				{
+					id: "54E00D1DC618B0FB"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6605CAE425FCB735"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C9AE01973242410"]
+			description: [""]
+			id: "05B977269171EB06"
+			shape: "square"
+			tasks: [{
+				id: "0DC1EA166270E3B6"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A279B011D09A9EE"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "7CA42B3CA84A21B5"
+			tasks: [
+				{
+					id: "6D967595A1292808"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "259215BDAC3E1596"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A3FB02C57DA9676"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F6D0F499BE3006A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02455651602809E4"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EE652B280CB5F55"]
+			description: [""]
+			id: "7B2A7B2298DAE8EC"
+			tasks: [
+				{
+					id: "5455B3737ED5982F"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6701DE855E03A3C9"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B8F89563D5AF057"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "204F65AFCF6E7D66"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C9AE01973242410"]
+			description: ["Place the oxygen bucket in any tank, then right click on the tank with ad astra's oxygen tank. Next put on space suit, and 'eat' the ad astra oxygen tank, this will give you oxygen in your space suit."]
+			id: "12AC846277F88F3D"
+			shape: "square"
+			tasks: [{
+				id: "2ECD3DCDA1B4201D"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C9AE01973242410"]
+			id: "64D8FB039D6E7339"
+			shape: "square"
+			tasks: [
+				{
+					id: "407C0CF123F869A1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031008AAEBA93FBB"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5132E3F10326AB41"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58A986A5DA867453"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: ["Hope you like rockets :)"]
+			id: "7C9AE01973242410"
+			tasks: [{
+				id: "409264C34033E749"
+				title: "Space!"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2A279B011D09A9EE"]
+			description: [
+				"How to get there:"
+				""
+				"1) Make a normal portal frame but not out of obsidian, but Vanaheim Ingot Block"
+				"2) Right click with EV Robot Arm"
+				""
+				"Yay! Portal opened! Get them netherrite!"
+			]
+			id: "64312798C578C110"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "21B93D10A348026C"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["438E233A9014DA73"]
+			description: ["3rd tier of Magical Coils."]
+			id: "370B0622AED33FC4"
+			tasks: [{
+				count: 18L
+				id: "3EF8AD880FE1F825"
+				item: { Count: 18, id: "gregecore:desh_coil" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+	]
+	title: "Ad Astra - Basic"
+}

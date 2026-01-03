@@ -1,0 +1,15 @@
+
+{
+  "ConfiguredPortals": [
+    {
+      "isFlat": false,
+      "frameBlock": "kubejs:vanaheimingotblock",
+      "isFluidIgniter": false,
+      "itemIgniter": "gtceu:ev_robot_arm",
+      "dimension": "minecraft:the_nether",
+      "r": 50,
+      "g": 50,
+      "b": 200
+    }
+  ]
+}

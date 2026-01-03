@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra__advanced"
+	group: "1DD75D8B702CB0A0"
+	icon: {
+		Count: 1
+		id: "ad_extendra:tier_9_rocket"
+		tag: {
+			BotariumData: {
+				StoredFluids: [{
+					Amount: 3000L
+					Fluid: "ad_astra:fuel"
+				}]
+			}
+		}
+	}
+	id: "0B2DD689131AF54A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ad Astra - Advanced"
+}

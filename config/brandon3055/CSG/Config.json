@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:3": "{Count:1b,id:\"minecraft:redstone\"}",
+    "0:1": "{Count:1b,id:\"minecraft:iron_ingot\"}",
+    "0:4": "{Count:1b,id:\"minecraft:coal\"}",
+    "0:2": "{Count:1b,id:\"minecraft:copper_ingot\"}",
+    "0:5": "{Count:1b,id:\"minecraft:slime_ball\"}",
+    "0:0": "{Count:1b,id:\"projecte:transmutation_tablet\"}"
+  },
+  "wipeBlacklist": []
+}

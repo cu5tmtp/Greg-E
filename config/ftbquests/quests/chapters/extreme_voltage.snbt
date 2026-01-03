@@ -1,0 +1,591 @@
+{
+	autofocus_id: "5241693278027FFD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_voltage"
+	group: "6915D00C186DB378"
+	icon: "gtceu:micro_processor_computer"
+	id: "489F28A71282B3E7"
+	images: [{
+		height: 5.0d
+		image: "kubejs:textures/quests/multiblocks.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -7.0d
+		y: -4.0d
+	}]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DB4226BA23A5C09"]
+			description: [""]
+			id: "5241693278027FFD"
+			size: 1.5d
+			tasks: [{
+				id: "17E7D25D83B98E80"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6805CC8AD6010F33"]
+			description: [""]
+			id: "2E47C92E3E8D826A"
+			size: 1.5d
+			tasks: [{
+				id: "23FFAB356FE1CA42"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "0262E0D49A12F817"
+			tasks: [{
+				id: "4CB14D90753F710B"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "6445DEC19DD55A34"
+			tasks: [{
+				id: "466FF2FF107AFDFA"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "3D9B7855B5616DCE"
+			tasks: [{
+				id: "0774AA33B0CA149F"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7C134F7838C23059"
+			]
+			description: [""]
+			id: "0D9D1462C676C050"
+			tasks: [{
+				id: "23F7124635FE5FC8"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"71D4B261AF487062"
+				"7ACC4E777A75E043"
+			]
+			id: "11AAA1DCB452DFFC"
+			tasks: [{
+				id: "210478A03F540A6B"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6D082AE4CF9A56DC"
+				"7B27B87A520E38B0"
+				"5241693278027FFD"
+			]
+			description: [""]
+			icon: "gtceu:titanium_ingot"
+			id: "78A295D4D1A21BCA"
+			min_width: 300
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "40F049B18DAE34F9"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.75d
+		}
+		{
+			description: [""]
+			id: "7C134F7838C23059"
+			shape: "square"
+			tasks: [{
+				id: "0107A101CEAB77E4"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			description: [""]
+			id: "7ACC4E777A75E043"
+			shape: "square"
+			tasks: [{
+				id: "3F8934F261CBAE5C"
+				item: "gtceu:tantalum_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60736D37F7705B39"]
+			description: [""]
+			id: "5500BDFA7A5D04EB"
+			tasks: [{
+				count: 16L
+				id: "261D5EF68A314309"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5241693278027FFD"
+				"0D573979B25FAC48"
+			]
+			description: [""]
+			icon: "gtceu:distillation_tower"
+			id: "3BEDF19CD79D53D5"
+			min_width: 300
+			tasks: [{
+				id: "2A5387EF0991FC1D"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [""]
+			icon: "gtceu:vacuum_freezer"
+			id: "6D082AE4CF9A56DC"
+			tasks: [
+				{
+					id: "74FCADB757C762B9"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+				{
+					id: "5F18E278ABC418FE"
+					item: "gtceu:auto_maintenance_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0911814AFFFCF885"
+				"6D082AE4CF9A56DC"
+			]
+			description: [""]
+			id: "60736D37F7705B39"
+			tasks: [{
+				id: "0EEE381F78288115"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "0911814AFFFCF885"
+			shape: "square"
+			tasks: [{
+				id: "4127FE4279C4DF22"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"{atm9.quest.gregtech.ev.desc.ivCircuit.1}"
+				""
+				"{atm9.quest.gregtech.ev.desc.ivCircuit.2}"
+			]
+			id: "6805CC8AD6010F33"
+			tasks: [{
+				id: "271929662CF5AC0D"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [""]
+			id: "71D4B261AF487062"
+			tasks: [{
+				id: "51477D2CA4F05901"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "40DC4C8DF9616F97"
+			shape: "square"
+			tasks: [{
+				id: "3A68557D0E516D4E"
+				item: "gtceu:black_bronze_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			id: "1E8D496B1CC4F69B"
+			shape: "square"
+			tasks: [{
+				id: "2C4A50B1A9AF4A84"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40DC4C8DF9616F97"]
+			id: "61A16C4CF0B7A9B2"
+			tasks: [{
+				id: "0E66CBEB7C8E7539"
+				item: "gtceu:black_steel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"61A16C4CF0B7A9B2"
+				"1E8D496B1CC4F69B"
+				"71D4B261AF487062"
+				"5D58E5CB4F4BDAD5"
+			]
+			description: [""]
+			id: "0D573979B25FAC48"
+			tasks: [{
+				id: "5E6E95015D19F4FE"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D10AA6EF07087B5"]
+			description: [""]
+			id: "5D58E5CB4F4BDAD5"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3459093D8C9EAE43"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "48B9848EBF024C1A"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+				{
+					id: "20363BBDFECB5221"
+					item: "gtceu:lpic_chip"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			description: [""]
+			id: "03B5D467E76C5B8A"
+			min_width: 300
+			shape: "square"
+			tasks: [{
+				id: "2B956FA18DAF1BD8"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03B5D467E76C5B8A"]
+			description: [""]
+			id: "7B27B87A520E38B0"
+			tasks: [{
+				id: "01CFC3E97122E03C"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: [""]
+			id: "7D6AC042FFD0B6D6"
+			tasks: [{
+				id: "4CFDA0E86F6528A5"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B4F326D72E794D3"]
+			description: [""]
+			id: "3619CD5AAD5E3691"
+			tasks: [{
+				id: "672E91EAB979F7AF"
+				item: "gtceu:butadiene_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D6AC042FFD0B6D6"]
+			description: [""]
+			id: "46F1A93B071CD980"
+			tasks: [{
+				id: "56A08496E54BC1A4"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"46F1A93B071CD980"
+				"3619CD5AAD5E3691"
+			]
+			description: [""]
+			id: "2DDA8AC73C2D50B4"
+			tasks: [{
+				id: "72F5202F8FDF0E53"
+				item: "gtceu:raw_styrene_butadiene_rubber_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DDA8AC73C2D50B4"]
+			description: [""]
+			id: "511FB322F176D88C"
+			tasks: [{
+				id: "1F18BEE43B4DC9A4"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A0A7DC1C2655EA6"
+				"228D1C880563CCBB"
+			]
+			description: [""]
+			id: "3B4F326D72E794D3"
+			tasks: [{
+				id: "155D71F4D5E47CF7"
+				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6805E4C7F6FBAC77"]
+			description: [""]
+			id: "7A0A7DC1C2655EA6"
+			tasks: [{
+				id: "09220F4C339567B8"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [""]
+			id: "6805E4C7F6FBAC77"
+			tasks: [{
+				id: "3DA49DF52B6D150A"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			description: [""]
+			id: "228D1C880563CCBB"
+			tasks: [{
+				id: "7B7128EECA64BD03"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3406646DF9585AB8"]
+			description: [""]
+			id: "6338544F8530118F"
+			tasks: [{
+				id: "3E090FF6659CAE97"
+				item: "gtceu:silicone_rubber_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A54E73E212BB1AF"]
+			description: [""]
+			id: "3406646DF9585AB8"
+			tasks: [{
+				id: "1717E9A6D23CF49C"
+				item: "gtceu:polydimethylsiloxane_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BEDF19CD79D53D5"]
+			description: [""]
+			id: "6A54E73E212BB1AF"
+			tasks: [{
+				id: "6AEF501966EBB44B"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "7D10AA6EF07087B5"
+			shape: "square"
+			tasks: [{
+				id: "4F987D82BF3A81BC"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "61FA88AE46DC93C6"
+			tasks: [{
+				id: "4D1580583C8CA454"
+				item: "gtceu:oilrig"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "0D8B495F863679E1"
+			tasks: [{
+				id: "1864611BDC987975"
+				item: "gtceu:forgef"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			id: "215741DE72E21E41"
+			tasks: [{
+				id: "4771E8CD004F1A78"
+				item: "gtceu:offaltar"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "68BDD8A59BA880F7"
+			tasks: [{
+				id: "6F9D00FEC5AA5B19"
+				item: "gtceu:dragonalloykiln"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "1EE96EF628D74619"
+			tasks: [{
+				id: "2BF1A28EE85A4936"
+				item: "gtceu:excavsite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "02F4D60C839CFDB1"
+			tasks: [{
+				id: "2046A692E7DC23B2"
+				item: "gregecore:giantacceleratedebf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+	]
+	title: "EV"
+}

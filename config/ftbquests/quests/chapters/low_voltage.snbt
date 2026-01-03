@@ -1,0 +1,745 @@
+{
+	autofocus_id: "5C1BB559DD83E88F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "low_voltage"
+	group: "6915D00C186DB378"
+	icon: "gtceu:basic_electronic_circuit"
+	id: "37A28F4697946CB4"
+	images: [{
+		height: 4.0d
+		image: "kubejs:textures/quests/multiblocks.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 1.5d
+		y: -6.5d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CEC51F03B40A107"]
+			description: ["Yay LV!"]
+			id: "5C1BB559DD83E88F"
+			size: 1.0d
+			tasks: [{
+				id: "08EA6CE798092CE9"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"11D16434F78D2C2C"
+				"7480A00B82C5DDB5"
+			]
+			description: ["Yay progress!"]
+			id: "4D6885EFA4EE272F"
+			size: 1.5d
+			tasks: [{
+				id: "312B4A8B539DCD5D"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [""]
+			id: "620C406CC24F179C"
+			tasks: [{
+				id: "52A1256EE8999962"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A8242E6D0BC6294"]
+			description: ["This will unlock some cheaper recipes, try to get this ASAP!"]
+			id: "0718FA338E8BA792"
+			tasks: [{
+				id: "1F057DDA8380A19B"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Get this multiblock to start producind free glue and rubber!"]
+			id: "7A8242E6D0BC6294"
+			tasks: [{
+				id: "035E7054F8BD517B"
+				item: "gtceu:mechanical_sap_tap"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2E2B6921723681C7"
+				"402B0C7242A00309"
+			]
+			description: [""]
+			id: "0F9829B0A5EEE67B"
+			tasks: [{
+				id: "1D26B60F4283057A"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: [""]
+			id: "2BE4B6F1CCAA36AC"
+			tasks: [{
+				id: "18293B4BFE73030A"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F9829B0A5EEE67B"]
+			description: [""]
+			id: "11D16434F78D2C2C"
+			tasks: [{
+				id: "61B743E1BD9B2C2A"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0718FA338E8BA792"]
+			id: "7480A00B82C5DDB5"
+			tasks: [{
+				id: "783AA495FA7BB3DD"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1988BDD7E065E6A6"]
+			description: [
+				"Energy converters convert FE to EU at a rate of 4:1. Solar panels are buffed so you can actually use them as a solid source of energy. But how to get the bed... I heard some rumblings about wool being in a very weird forest... Next page is how to operate energy converters."
+				"{@pagebreak}"
+				"When you first place converter, it will look like this:"
+				"{image:kubejs:textures/quests/convdefault.png width:100 height:100 align:center}"
+				"Red sides output FE, green sides input EU, but we want it the other way!"
+				"{@pagebreak}"
+				"If you use soft mallet on energy converter, it will change its convertion from EU -> FE to FE -> EU, which we want. The block will now look like this:"
+				"{image:kubejs:textures/quests/convsoft.png width:100 height:100 align:center}"
+				"Green is input for FE, red is output for EU."
+			]
+			id: "01339A8C26CC6E0C"
+			tasks: [{
+				id: "1ECBD76767E4A2B3"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			title: "Energy converter"
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["40E6805C66BACAA1"]
+			description: [
+				"GregTech machines have a circuit option in their GUI, so when you see a recipie with that circuit, you need to select it. That effectively locks the machine into making only the recipies with that circuit. Of course you can change the circuit later. For multiblocks you need to set the circuit in input bus."
+				" "
+				"Also you can make the number choosing circuit from a normal circuit."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "4875FB6628C1FCDC"
+			min_width: 300
+			tasks: [{
+				id: "71AF3878DBC0AB29"
+				title: "Yes I get it chief"
+				type: "checkmark"
+			}]
+			title: "Programmed circuits"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"14C017569BECA2CE"
+				"6E2F24117ACF3694"
+			]
+			description: [""]
+			id: "74EE98F95F483C37"
+			tasks: [{
+				id: "1D82282268F050A6"
+				item: "gtceu:arsenic_trioxide_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["439C8AEBE9E1C666"]
+			description: ["This is probably the multiblock you know even if you didn't play GregTech before."]
+			icon: "gtceu:electric_blast_furnace"
+			id: "6E2F24117ACF3694"
+			min_width: 350
+			tasks: [
+				{
+					id: "4C753457114B1DEF"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26560CEB97AF9425"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "25E39941CF0E60F0"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "50C5803D3BF1B2BC"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7A8AEC45CF09062F"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "162FB1B27E0828BC"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "14DAA8338634372F"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "4F425DAD0F9D4FC4"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "35A54E0FF0FEE7FD"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "691D046D2C4AC344"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AD1A5844541BBF2"]
+			description: [""]
+			id: "14C017569BECA2CE"
+			tasks: [{
+				id: "1FC622A82F527A54"
+				item: "gtceu:cobaltite_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["512BD9BCA43AEE83"]
+			description: [""]
+			id: "2E2B6921723681C7"
+			tasks: [{
+				id: "26E1467CEA5DF223"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4059373B88845C6F"
+				"7B8ADB4104E7C440"
+			]
+			description: [""]
+			id: "402B0C7242A00309"
+			tasks: [{
+				id: "41846B8B240030AE"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5C1BB559DD83E88F"
+				"6AD1A5844541BBF2"
+			]
+			description: [""]
+			id: "439C8AEBE9E1C666"
+			tasks: [{
+				id: "5E797E24FD42DB71"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Oxygen line is for getting a lot of oxygen. Its passive and basically free once you invest in the machines."]
+			id: "0D99638C96AB2EEA"
+			min_width: 400
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "682FB3C00EF0238B"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			title: "Oxygen line"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74EE98F95F483C37"]
+			description: [""]
+			id: "512BD9BCA43AEE83"
+			tasks: [{
+				id: "4DE768EBE8A565BA"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["620C406CC24F179C"]
+			description: [""]
+			id: "64314EEB9916CAB1"
+			tasks: [{
+				id: "7198853CC3A9DEAC"
+				item: "gtceu:sulfur_dioxide_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64314EEB9916CAB1"]
+			description: [""]
+			id: "5143E0F48520D41B"
+			tasks: [{
+				id: "5D9AA8DF5ECCFCAC"
+				item: "gtceu:sulfur_trioxide_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5143E0F48520D41B"]
+			description: [""]
+			id: "17A935989A9505E1"
+			tasks: [{
+				id: "75017109130EE055"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AD1A5844541BBF2"]
+			description: [""]
+			id: "4059373B88845C6F"
+			tasks: [{
+				id: "58FC9BE9F7D8485C"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"620C406CC24F179C"
+				"17A935989A9505E1"
+			]
+			description: [""]
+			id: "4835BE1596B65206"
+			tasks: [{
+				id: "55065DC2687DC4D2"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4835BE1596B65206"]
+			description: [""]
+			id: "7B8ADB4104E7C440"
+			tasks: [{
+				id: "64890DABF420C352"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Behind this quest you will see some other quests teaching you how to work with GregTech."]
+			id: "40E6805C66BACAA1"
+			tasks: [{
+				id: "315110BA8264CAFE"
+				title: "Quick GregTech explanations"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["40E6805C66BACAA1"]
+			description: [
+				"Probably the hardest thing about GregTech, because there will be a time when you will have to use BASIC MATH!!! So lets get into the explanation."
+				"{@pagebreak}"
+				"First: Voltage. It's pretty straight forward, this tells you how much energy can pass through a cable. Every cable has different values, so read carefully!"
+				"{@pagebreak}"
+				"Second: Amperage. You can think about amperage as a package that unboxes to voltage. Amperages (or packages) are sent from a providers, like energy converters (they always send the amount of amperage that they have in their name, eg. LV 1A energy converter sends 1A. In LV, 1A = 32V, and this will scale up in every tier. Cables also have a maximum amperage that they allow, if you give them more, they WILL burn!"
+				"{@pagebreak}"
+				"Third: You can't tier skip cables, meaning if the cable doesn't say it can transport LV energy, then it really can't."
+			]
+			id: "1988BDD7E065E6A6"
+			tasks: [{
+				id: "472EC5564C82AE35"
+				title: "Energy system"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["40E6805C66BACAA1"]
+			description: [
+				"My favourite part about every modpack: multiblocks, so I've tried to create at least 3 new per tier. Lets get into some tips about them!"
+				"{@pagebreak}"
+				"Tip #1: There are multiple ways to preview the multiblock: in EMI, if you click on the controller, it will show you the layout. You can click on the blocks, it will tell you where you can put input busses, hatches, energy inputs, or parallel hatches."
+				"When you decide where you wanna build your multiblock, place the controller and shift+right click it. It will show you the multiblock layout."
+				"If you are really lazy, you can use the item 'Terminal' to build the multiblock for you. It will place hatches in random places, so you will have to change them to your liking."
+				"{@pagebreak}"
+				"Tip #2: If you open input busses, you can see that there are some options in bottom left. One is circuit and the other distinct bus. "
+				"1st option is about the recipes, like in singleblock machines."
+				"2nd is more interesting, because this will allow you to basically use one multiblock for multiple recipes with different circuits. If you turn the option on, it will basically tell the multiblock, that this bus is different from the others, and the others can't access this inventory to use in crafting. This should be the default, but it is not so keep this in mind."
+				"{@pagebreak}"
+				"Tip #3: Some multiblocks will have maintenance hatch, which you will need to repair when you first start working with the machine. Basically you need to click it with every GregTech tool, but later you will unlock tape that does it in one click and then a auto-maintenance hatch."
+				"{@pagebreak}"
+				"Tip 4#: This is probably the most important one: OVERCLOCKING. What you can do on some multiblocks is that you can place 2 energy hatches to 'overclock' the multiblock, basically doubling its speed. This will save you a lot of time and also this is how you will unlock progress recipies, usually in Electric blast furnace, where you will need to use recipes 1 tier higher."
+				"Also if you look at energy hatches, they are also in 4A, 16A variants, this will speed up the recipe too, but it will NOT overclock the machine, eg. you put 1 LV 4A energy hatch, it is still LV tier, even tho 4LV A = 1MV A. BUT you can place 2 LV 4A, and you are in MV tier!"
+			]
+			id: "2874DFAF44DC8655"
+			tasks: [{
+				id: "7B4EEC96099FFD87"
+				title: "Multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["40E6805C66BACAA1"]
+			description: ["You might have sees already that some recipes from GregTech have a different UI. It tells you the tier that you can craft the recipe, and also the exact time. If you click on the tier (eg. LV) you can change it so it shows you how would this recipe perform in other tiers."]
+			id: "214AF983D9546F5B"
+			tasks: [{
+				id: "39C1BC730735419E"
+				title: "Recipes"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D99638C96AB2EEA"]
+			description: ["Hammer cobblestone to gravel, then to sand so make this machine twice."]
+			id: "77C10DE6EDD33C6F"
+			tasks: [{
+				count: 2L
+				id: "08D7E966A942E225"
+				item: "gtceu:lv_forge_hammer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77C10DE6EDD33C6F"]
+			description: ["Smelt sand to glass in this, the small amount of oxygen can be aquired from centrifuging air. You can get air from air collector on circuit 1."]
+			id: "455DE30BD4F0C74D"
+			tasks: [{
+				id: "3D473C5F5273D051"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["455DE30BD4F0C74D"]
+			description: ["Macerate glass."]
+			id: "7AAE64785DD10EF8"
+			tasks: [{
+				id: "5F9B329AF886F429"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7AAE64785DD10EF8"]
+			description: ["Centrifuge glass dust."]
+			id: "36CE2905E6CA3070"
+			tasks: [{
+				id: "388D012C531B1D18"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36CE2905E6CA3070"]
+			description: ["Electrolyze the dust and you're done!"]
+			id: "46EB482D14931F51"
+			tasks: [{
+				id: "01569FF1C41B6786"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["This is the first line that makes you EMC. Seems quite expensive, but once you passive parts of the LV circuit, its gonna be really cheap."]
+			icon: "kubejs:lvalloy"
+			id: "05BF7598007DFD7C"
+			shape: "diamond"
+			tasks: [{
+				id: "29DC37A77B5ED471"
+				title: "EMC Line"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05BF7598007DFD7C"]
+			id: "49BB7679F6629BFB"
+			tasks: [{
+				id: "42A2F63CB7BE9595"
+				item: "kubejs:ironshard"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05BF7598007DFD7C"]
+			id: "487349A5B3CB4801"
+			tasks: [{
+				id: "741E7F66D209E3C3"
+				item: "kubejs:lvcef_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"487349A5B3CB4801"
+				"49BB7679F6629BFB"
+			]
+			id: "2178EC9D13024B33"
+			tasks: [{
+				id: "5D5CD08399A3E7A4"
+				item: "kubejs:lvcas_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2178EC9D13024B33"]
+			description: ["This multiblock is used for making the EMC material but also AE2 prints. You kinda want to get this anyways."]
+			id: "3053C200EF66EDFF"
+			tasks: [{
+				id: "004DC723AB8297EA"
+				item: "gtceu:giant_squeezer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BE4B6F1CCAA36AC"]
+			description: [
+				"Don't think too hard about this..."
+				""
+				"This is the way you're going to get new resources. Dusts can't be learned, but they are 100% drop rate. The specks can be combined to the resource and that can be learned!"
+			]
+			id: "6AD1A5844541BBF2"
+			tasks: [{
+				id: "781E0BCA2A80C6C7"
+				item: "kubejs:commonearth"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2874DFAF44DC8655"]
+			description: ["You might be wondering how to get some of the Chiseled blocks. Well, you can craft the ones in the quest window and then you need to use tinkering table from the same mod. Choose the block you want to get, then click craft."]
+			id: "2E08E6E0556DF840"
+			tasks: [
+				{
+					id: "480F64F2ABBF12A2"
+					type: "checkmark"
+				}
+				{
+					id: "5DA13CE7E59DC857"
+					item: "chisel_chipped_integration:factory_dotted_rusty_plate"
+					type: "item"
+				}
+				{
+					id: "00AB49A912A951F8"
+					item: "chisel_chipped_integration:technical_caution_framed_plates"
+					type: "item"
+				}
+			]
+			title: "Chipped blocks"
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3053C200EF66EDFF"]
+			description: [
+				"LV alloy allows you to craft petal apothecary, meaning botania is unlocked!"
+				""
+				"Every chapter will have a accompanying mod, that allows you to get some sort of upgrade."
+				""
+				"For basic botania it will be Manasteel Coils."
+			]
+			id: "25CCBF9AF4D7479B"
+			tasks: [
+				{
+					id: "63939273E7A02AB3"
+					title: "Botania unlock!"
+					type: "checkmark"
+				}
+				{
+					id: "0D0D672B17598BAA"
+					item: "kubejs:lvalloy"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD1A5844541BBF2"]
+			description: ["This unlocks AE2, but only storage for now. Autocrafting will unlock in MV, assembler matrix in HV and quantum computer in EV. "]
+			hide_until_deps_complete: true
+			id: "224560FE1C55C087"
+			tasks: [{
+				id: "79A8D25F2A3EB73A"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "106FFD9250EB10E2"
+			tasks: [{
+				id: "521BB7BC2A35C212"
+				item: "gtceu:giant_squeezer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "10EF863D0D0F9C4D"
+			tasks: [{
+				id: "22066BBD79C86119"
+				item: "gtceu:evaporator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "3297929077D248C7"
+			tasks: [{
+				id: "4BF440A967F59437"
+				item: "gtceu:aeassembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "279BFA93E5827817"
+			tasks: [{
+				id: "1914D5E59FAAB965"
+				item: "gregecore:acceleratedebf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "35A0F166F53A1F5D"
+			tasks: [{
+				id: "4DADDC2036CCCD42"
+				item: "gtceu:mechanical_sap_tap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+	]
+	title: "LV"
+}

@@ -1,0 +1,400 @@
+{
+	autofocus_id: "70C952B8FF3418F6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_voltage"
+	group: "6915D00C186DB378"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "37A5A4A81CCB67E5"
+	images: [{
+		height: 5.0d
+		image: "kubejs:textures/quests/multiblocks.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -5.5d
+		y: 7.0d
+	}]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C28217E1131A63A"]
+			description: [""]
+			id: "70C952B8FF3418F6"
+			size: 1.5d
+			tasks: [{
+				id: "12A2731FC755513E"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5FAA73C52082DC48"
+				"0AC6B223857CAE94"
+			]
+			description: ["Because the EV circuits are from new age, we don't have so start with LV circuits. Be careful though, you will still need them for EMC alloys."]
+			id: "19DB4970B3D11C1B"
+			tasks: [{
+				id: "48BE641C2530BA61"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"19DB4970B3D11C1B"
+				"5FAA73C52082DC48"
+				"0AC6B223857CAE94"
+			]
+			description: [
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.6}"
+				""
+				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.7}"
+			]
+			id: "732D201794C228DD"
+			tasks: [{
+				id: "3C92729C9842C491"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"732D201794C228DD"
+				"5FAA73C52082DC48"
+				"62BBF61C9849CA26"
+				"2F09F581D2D91CAB"
+			]
+			description: [""]
+			id: "0DB4226BA23A5C09"
+			size: 1.5d
+			tasks: [{
+				id: "7497784245BE7D72"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [""]
+			id: "0AC6B223857CAE94"
+			tasks: [{
+				id: "7004B0FA13A8D4D1"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DF42E30A24A9DEC"
+				"70C952B8FF3418F6"
+			]
+			description: ["The description on this multi is a bit weird, I think it has to be a cube otherwise it won't form. Because you need to fit a Linear Particle Accelerator into this, I suggest you make this 15x15, height doesn't matter, though for later uses I suggest at least 5 high."]
+			icon: "gtceu:cleanroom"
+			id: "62BBF61C9849CA26"
+			min_width: 300
+			tasks: [{
+				id: "564B0D84C5688FF2"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["681110DE6B4E6ED8"]
+			description: [""]
+			id: "1DF42E30A24A9DEC"
+			tasks: [{
+				id: "1945295F5A5C547D"
+				item: "gtceu:plascrete"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"70C952B8FF3418F6"
+				"4FD6092D9C2A485C"
+			]
+			description: [""]
+			id: "61262BC1C525E6F1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2BBF580104DF2C41"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"124C2A904BF84254"
+				"0BAD21557994331D"
+			]
+			description: [""]
+			id: "5FAA73C52082DC48"
+			tasks: [{
+				id: "418A5680FB2534F3"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54BEC01D84237DBC"]
+			description: [""]
+			id: "0BAD21557994331D"
+			tasks: [{
+				id: "0CBFE2B699BFEC8F"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["503E5B82A6C89278"]
+			description: [""]
+			id: "124C2A904BF84254"
+			tasks: [{
+				id: "1EB80E78DF5EF7E8"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1957A39483E15508"]
+			description: [""]
+			id: "503E5B82A6C89278"
+			tasks: [{
+				id: "1E1447D81D30B2DC"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A2D7380E340B77D"]
+			description: [""]
+			id: "1957A39483E15508"
+			tasks: [{
+				id: "17068C6DBE553D0C"
+				item: "gtceu:vinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			description: [""]
+			id: "6A2D7380E340B77D"
+			min_width: 250
+			shape: "square"
+			tasks: [{
+				id: "66B862CA537DB886"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"4AAF27F0C27FBDB3"
+				"6A2D7380E340B77D"
+			]
+			description: [""]
+			id: "54BEC01D84237DBC"
+			tasks: [{
+				id: "16F0BF8BAA58100B"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			description: [""]
+			id: "4AAF27F0C27FBDB3"
+			shape: "square"
+			tasks: [{
+				id: "526401AFE4B0A3E0"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			description: [""]
+			id: "681110DE6B4E6ED8"
+			shape: "square"
+			tasks: [{
+				id: "472EA07FB476A589"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			description: [""]
+			id: "4FD6092D9C2A485C"
+			min_width: 300
+			tasks: [{
+				id: "75E95ED497B33048"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "17B8180A71E5350F"
+			tasks: [{
+				id: "0CD0B2325A0CED79"
+				item: "gtceu:linearaccel"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			id: "6D09909CE9C52409"
+			tasks: [{
+				id: "238E6ED734389329"
+				item: "gtceu:voidminer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			id: "7D4DABB9E8E9C36C"
+			tasks: [{
+				id: "2F1B6B4C521426A5"
+				item: "gtceu:transformator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "7E6C27602D1E2EDE"
+			tasks: [{
+				id: "4D94ECC2F489FE79"
+				item: "gtceu:metalfurnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "5973A9F3176B457D"
+			tasks: [{
+				id: "639BF1969D61245B"
+				item: "gtceu:irradiator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			id: "2A14B47A4382873E"
+			tasks: [{
+				id: "0847046DBA45B140"
+				item: "gtceu:voidcrystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"Wait, I thought only EMC lines, not this????"
+				""
+				"Yeah, I thought so too but HV doesn't really have it's dedicated production line, so I tried to substitute it, hope you guys like it :)"
+			]
+			id: "2F09F581D2D91CAB"
+			shape: "square"
+			tasks: [{
+				id: "23D839829E78E614"
+				item: "kubejs:nobolt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F09F581D2D91CAB"]
+			description: [
+				"You kinda need to get helium for Nobelium, the way I intend for it to happen is:"
+				""
+				"1) Get T1 rocket and visit Moon"
+				"2) On moon you can get Desh (find 1 ore and then use mod Scannable to find others)"
+				"3) While searching for Desh, get Moon Cobblestone, which you can smelt to stone"
+				"4) Make a End Portal Frame block out of Moon Stone and Eye of Ender"
+				"5) You're in the End"
+				""
+				"And there you go, helium! (not to mention the killing of ender dragon, collecting air and destilling it, but... you're smart, you'll figure it out!)"
+			]
+			id: "1D668061E99D565B"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1149FE642601F145"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			description: [
+				"From now on, quests will be more of a guide line, it will now longer hold you by your hand. You will have to search more for the recipes in EMI, but I promise this will make you a better modded player! I'll still inform you if some item is tied to a ulocking of a portal or something."
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				"(I definetly did not do this change because making quests is so boring)"
+			]
+			id: "78D5C1E64951CB3F"
+			tasks: [{
+				id: "07D7B1DB7B780692"
+				title: "Where quests?"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+	]
+	title: "HV"
+}

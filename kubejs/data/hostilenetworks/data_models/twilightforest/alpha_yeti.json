@@ -1,0 +1,28 @@
+{
+    "entity": "twilightforest:alpha_yeti",
+    "variants": [],
+    "name": "entity.twilightforest.alpha_yeti",
+    "name_color": "#4570B6",
+    "gui_scale": 0.3,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": 0.0,
+    "gui_z_offset": 0.0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:twilight_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.alpha_yeti",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:bone",
+            "count": 4
+        }
+    ],
+    "tier_data": [3, 54, 354, 1254],
+    "data_per_kill": [1, 4, 10, 18]
+}

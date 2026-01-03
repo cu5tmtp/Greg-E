@@ -1,0 +1,417 @@
+{
+	autofocus_id: "2893F483C10293E6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "applied_energistics_2"
+	group: "2254075BD6985AA4"
+	icon: "ae2:controller"
+	id: "07210DDF872160BA"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["777B90FCD2A91628"]
+			description: [""]
+			icon: "ae2:certus_quartz_crystal"
+			id: "2893F483C10293E6"
+			shape: "rsquare"
+			tasks: [{
+				id: "7B9519E1AF53A9A3"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [""]
+			icon: "ae2:calculation_processor_press"
+			id: "51236544BFEF487B"
+			tasks: [
+				{
+					id: "5D9229693DE121D4"
+					item: "kubejs:rawcalculationpress"
+					type: "item"
+				}
+				{
+					id: "5148B31037E09BBB"
+					item: "kubejs:rawengineeringpress"
+					type: "item"
+				}
+				{
+					id: "0AD01A5BE51DEE97"
+					item: "kubejs:rawlogicpress"
+					type: "item"
+				}
+				{
+					id: "16850566D1D61AE1"
+					item: "kubejs:rawsiliconpress"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51236544BFEF487B"]
+			description: [""]
+			id: "15564C11744D6AA0"
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "54C120660252682A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15564C11744D6AA0"]
+			description: [""]
+			id: "22C4318523A43B49"
+			tasks: [
+				{
+					id: "6C7282A058006A21"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "2CFD7CA282DFB2FF"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: [""]
+			id: "4E8A05C3BFA80540"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E30BDF20D6052A5"]
+			description: [""]
+			icon: "ae2:pattern_provider"
+			id: "51DE3157DE3E57B8"
+			shape: "rsquare"
+			tasks: [{
+				id: "46B6388E0AE7430A"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22C4318523A43B49"]
+			description: [""]
+			id: "2F16B6A173525277"
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [""]
+			id: "2FB231069D2E4E77"
+			shape: "diamond"
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			description: [""]
+			id: "3B42CCC19D23EC6D"
+			shape: "diamond"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			description: [""]
+			id: "219932CB19258C16"
+			shape: "diamond"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			description: [""]
+			id: "523853C1C4E688BA"
+			shape: "diamond"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			description: [""]
+			id: "5F56892CD904C40F"
+			shape: "diamond"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2C4616CD2EBB58C6"
+				"5F56892CD904C40F"
+			]
+			description: [""]
+			id: "460A8F17F3ED6CAF"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "19BF2D67291056DE"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19BF2D67291056DE"
+				"460A8F17F3ED6CAF"
+			]
+			description: [""]
+			id: "25DBA00422301EDC"
+			shape: "diamond"
+			tasks: [{
+				id: "32340AD4F677375F"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32340AD4F677375F"
+				"25DBA00422301EDC"
+			]
+			description: [""]
+			id: "0E809747193ED3A9"
+			shape: "diamond"
+			tasks: [{
+				id: "76A0C582AECC4702"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"76A0C582AECC4702"
+				"0E809747193ED3A9"
+			]
+			description: [""]
+			id: "3CE3D9245F8EC005"
+			shape: "diamond"
+			tasks: [{
+				id: "50CD83AC904EC47E"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"50CD83AC904EC47E"
+				"3CE3D9245F8EC005"
+			]
+			description: [""]
+			id: "51A57E142C686C8F"
+			shape: "diamond"
+			tasks: [{
+				id: "0D5DA83B0C0665C8"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [""]
+			icon: "ae2:blank_pattern"
+			id: "2C04B3BA507D5673"
+			shape: "rsquare"
+			tasks: [{
+				id: "08D08A1400F7348F"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C04B3BA507D5673"]
+			description: [""]
+			id: "4597D3B3BDC2BED5"
+			shape: "rsquare"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4597D3B3BDC2BED5"]
+			description: [""]
+			id: "1F7DFA5AA65F2812"
+			shape: "rsquare"
+			tasks: [{
+				id: "495253F1301A8070"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: [""]
+			id: "2B31E6C1707D8195"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3DF8F1A72EBCD73F"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "60F10069FD956D54"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B31E6C1707D8195"]
+			description: [
+				"You can combine terminals in any crafting table."
+				"I recommend combining crafting terminal, pattern encoding terminal and extended pattern access terminal."
+			]
+			id: "16299B9AE87257DC"
+			shape: "rsquare"
+			tasks: [{
+				id: "384594EA34F0985B"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16299B9AE87257DC"]
+			description: [""]
+			id: "234DC1702333EB18"
+			tasks: [
+				{
+					id: "745C92ED1392EE1A"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "4EDA481E8668C82B"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			id: "777B90FCD2A91628"
+			tasks: [{
+				id: "04E69127FADF4882"
+				title: "LV unlock!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			id: "4E30BDF20D6052A5"
+			tasks: [{
+				id: "09A1D1424D91C2D9"
+				title: "MV unlock!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "AE2 - Basics"
+}

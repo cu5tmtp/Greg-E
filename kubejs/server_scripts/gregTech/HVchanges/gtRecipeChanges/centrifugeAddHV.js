@@ -1,0 +1,35 @@
+ServerEvents.recipes((event) =>{
+
+    event.recipes.gtceu.centrifuge('gypsumget')
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '2x gtceu:gypsum_dust'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(1)
+
+    event.recipes.gtceu.centrifuge('calciteget')
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '2x gtceu:calcite_dust'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(2)
+
+    event.recipes.gtceu.centrifuge('manganeseget')
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '2x gtceu:manganese_dust'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(3)
+})

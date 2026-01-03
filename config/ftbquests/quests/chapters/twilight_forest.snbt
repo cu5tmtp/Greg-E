@@ -1,0 +1,215 @@
+{
+	autofocus_id: "4193303999597249"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "1DD75D8B702CB0A0"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "7732CF7AAA63DB3A"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["703D1ECFDDD7ABEF"]
+			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs MV circuit alloy ingot!"]
+			id: "4193303999597249"
+			shape: "octagon"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "twilightforest:root"
+					criterion: ""
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					id: "695EA135D2B5FDC8"
+					type: "advancement"
+				}
+				{
+					id: "3247EF6B0A272ED6"
+					item: "kubejs:mvalloy"
+					type: "item"
+				}
+			]
+			title: "Enter the twilight forest!"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4193303999597249"]
+			description: [""]
+			hide_until_deps_visible: true
+			id: "3531B28F14CF72A2"
+			tasks: [{
+				id: "5D567A4631D5D3A2"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3531B28F14CF72A2"]
+			description: [""]
+			id: "0107D516E038E0DB"
+			tasks: [{
+				id: "4FB6BB3F61AD8D6B"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0107D516E038E0DB"]
+			description: [""]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "04440BB2EFFD6DD9"
+			tasks: [{
+				id: "2CD3DF9A97F31897"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04440BB2EFFD6DD9"]
+			description: [""]
+			id: "7026E46FD8B3A81D"
+			tasks: [{
+				id: "6D9D134621F8FA36"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7026E46FD8B3A81D"]
+			description: [""]
+			id: "3DCF26B53AE1EBF6"
+			tasks: [{
+				id: "4E03E4FCB1B4DE05"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DCF26B53AE1EBF6"]
+			description: [""]
+			id: "688C911ECFB2F134"
+			tasks: [{
+				id: "64B931AE43EA1E92"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["688C911ECFB2F134"]
+			description: [""]
+			id: "6FD41DF7704466A4"
+			tasks: [{
+				id: "1997CE8D805B6EB6"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0107D516E038E0DB"]
+			description: ["Get this, I recommend getting it 5 times. Though right now, it will be enough once."]
+			id: "6711EF7350732556"
+			tasks: [{
+				id: "6649F0A3CCA00B28"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/lich"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04440BB2EFFD6DD9"]
+			description: ["This one and the next ones 1 is fine, though 4 is optimal for later."]
+			id: "4F5A7CA6D9B47F75"
+			tasks: [{
+				id: "75D285411904B10A"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/minoshroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7026E46FD8B3A81D"]
+			id: "2205911631B398CA"
+			tasks: [{
+				id: "1ABB01F083E1AFD9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/hydra"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DCF26B53AE1EBF6"]
+			id: "567DEA652956BBA1"
+			tasks: [{
+				id: "07A2B0D3499C934D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/knight_phantom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DCF26B53AE1EBF6"]
+			description: ["Second tier of Magical Coils."]
+			id: "039D82EEDE78096A"
+			tasks: [{
+				id: "486FF7BEE2139589"
+				item: "gregecore:twilight_coil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	title: "Twilight Forest"
+}

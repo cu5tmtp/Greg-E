@@ -1,0 +1,312 @@
+{
+	autofocus_id: "2A8418DF626206D1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv"
+	group: "6915D00C186DB378"
+	icon: "thermal:machine_smelter"
+	id: "1F14D2A8E29FDD54"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This is where it all starts. The intended way to progress is with thermal machines to quickly get you to LV, but you can go the normal GregTech way."]
+			id: "2A8418DF626206D1"
+			tasks: [{
+				id: "2A6FABCF3D0B42AE"
+				title: "The beggining"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A8418DF626206D1"]
+			description: ["Look under the grass :) Also some items are banned from learning in transmutating table. They are also banned from taking them out of EMC links."]
+			id: "5A9E55C136BBC6F0"
+			tasks: [{
+				id: "166ADB80D829AB39"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "First steps"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A9E55C136BBC6F0"]
+			description: ["I know, I know, farming trees is fun. But at the other side, yummy EMC!"]
+			id: "2CB54C8C443EF1D5"
+			tasks: [{
+				id: "757818BE23DB5610"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CB54C8C443EF1D5"]
+			description: ["In each chapter you will be able to unlock new resources for the upcoming progression lines. They are gonna be exponentionaly expensive, so you better do every line :) ULV has just tree farming I'm afraid, so you will have to grind a bit for the good stuff."]
+			id: "7C50AB499DDA3D52"
+			tasks: [{
+				id: "7B1CEC306BD075FB"
+				title: "Resources"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C50AB499DDA3D52"]
+			description: ["Be careful with the water and lava! BTW, these material unlocks are the only freebies in the pack, you will have to work for others!"]
+			id: "10B540D33969EF9C"
+			rewards: [
+				{
+					id: "6E04CA1ECD8AF2C2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "10B68946DBF718C7"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "29A13311697AD670"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "5A67BBE9CE8FA5FD"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "584BC91CA03B37B4"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "5F3B97D1E3C1575E"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "557012AF6952D432"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "556880BFC586843E"
+				title: "Yummy"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["290452F4DD31DAF0"]
+			description: ["Get this!"]
+			id: "4D24F127B14533E4"
+			tasks: [{
+				id: "35FB564124097213"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C50AB499DDA3D52"]
+			description: ["Not the prettiest hammer, I know, but it will do its job just fine. Hammer cobblestone from pebbles (RMB on grass) to gravel, then sand."]
+			id: "290452F4DD31DAF0"
+			tasks: [
+				{
+					id: "6D99CECF6DB6FD14"
+					item: {
+						Count: 1
+						id: "kubejs:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "032194AB51352272"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "4DAE6112417B31D2"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D24F127B14533E4"]
+			description: ["And we're off to a little GregTech microcrafting! Get the wrought iron basic tools, wrought iron is smelted in the form of nuggets, so look for that recipe."]
+			id: "777CDEA22C5A5412"
+			tasks: [
+				{
+					id: "5C66E2DE5A62BB31"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64DB72A5F2AD49C7"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213ED884507B3A99"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["777CDEA22C5A5412"]
+			description: ["You might need more than one machine if you want to move to next chapter in normal amount of time."]
+			id: "3DAD37FF47259B40"
+			tasks: [
+				{
+					id: "142CBC6498D70697"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+				{
+					id: "77D2474D37ECCF13"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+				{
+					id: "00B65A8B36C9F3BC"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DAD37FF47259B40"]
+			description: ["In 9 quests a circuit huh? Yeah, its not as easy as it seems. Also, if you're new to GregTech, try to batch craft, meaning you craft like 16 circuits at a time. More time consuming, yes, but it will pay off in faster progression."]
+			id: "0CEC51F03B40A107"
+			tasks: [{
+				id: "3A0E7F7510DE4D00"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DAD37FF47259B40"]
+			description: ["Solar panels have boosted RF generation values, so they are really good! Though, the energy conversion between RF and EU (GregTech unit) is 4:1, so you might need more than 1 panel to get the job done. For now, place the solar panels next to the machines you need to power, or use Pipe's energy pipe. But starting next chapter, you will have to use energy converters with GregTech cables. There will be a short tutorial so don't worry if you don't know how to do it."]
+			id: "7DC77B26770A139E"
+			tasks: [{
+				id: "05FDF4AE47169B4D"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			description: ["Okay, if you really want it..."]
+			id: "4EB653BAF2B52654"
+			tasks: [{
+				id: "5BE325B8F257CABC"
+				title: "Gregtech way"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4EB653BAF2B52654"]
+			description: ["Make tin dust from the cobblestone with mortar, and clay can be made in compressor from mud. Get mud with water bottle + right click on dirt. Get more dirt by combining it with gravel and then hoe the coarse dirt."]
+			hide_until_deps_complete: true
+			id: "3A807CA532636A2D"
+			tasks: [
+				{
+					id: "2E1345D8E35198AF"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					id: "1FF75F9D26C22962"
+					item: "minecraft:clay"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A807CA532636A2D"]
+			description: ["I believe in you!"]
+			hide_until_deps_complete: true
+			id: "5A6DEA0F4005703D"
+			tasks: [{
+				id: "0330A3BC4F1A0D8D"
+				type: "checkmark"
+			}]
+			title: "You know what to do"
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	title: "ULV"
+}

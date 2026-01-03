@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "good_stuff"
+	group: "2254075BD6985AA4"
+	icon: "advanced_ae:quantum_core"
+	id: "003251F9347421D6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			id: "767B0154C41FE771"
+			tasks: [{
+				id: "317A6F258C02957B"
+				title: "HV unlock!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			id: "01E51F98F9D04AEC"
+			tasks: [{
+				id: "0ADB74656B6594D6"
+				title: "EV unlock!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["767B0154C41FE771"]
+			id: "43F53FF551641773"
+			tasks: [{
+				id: "20346CD014933AA6"
+				item: "expatternprovider:assembler_matrix_frame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01E51F98F9D04AEC"]
+			id: "5E9B4EC518EE1232"
+			tasks: [{
+				id: "42923BC4FEC9DFE9"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	title: "AE2 - Advanced"
+}

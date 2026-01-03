@@ -1,0 +1,8 @@
+JEIEvents.information((event) => {
+
+    event.addItem('gtceu:forgef', ['The lava flowing down arent source blocks, the only solid is in the cove, where there is cobblestone.']);
+    event.addItem('kubejs:cpottery', ['You can get this from Dwarven Pottery Bundle.']);
+    event.addItem('kubejs:vanaheimingotblock', ['Find this block in the Alfheim dimension, in a mysterious cabin. Use Explorers Compass to find it faster.']);
+    event.addItem('mythicbotany:fimbultyr_tablet', ['Drink from Well of Mimir to enable this drop from Guardian of Gaia II bossfight.']);
+    event.addFluid('kubejs:acidinfusedlava', ['Find this lava on Venus, in special volcanoes. Use Explorers Compass to find it faster.']);
+})

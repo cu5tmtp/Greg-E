@@ -1,0 +1,70 @@
+{
+  "block.gtceu.mechanical_sap_tap": "Mechanical Sap Tap",
+  "gtceu.mechanical_sap_tap": "Mechanical Sap Tap",
+  
+  "block.gtceu.giant_squeezer": "Giant Squeezer",
+  "gtceu.giant_squeezer": "Giant Squeezer",
+
+  "block.gtceu.evaporator": "Evaporator",
+  "gtceu.evaporator": "Evaporator",
+
+  "block.gtceu.aeassembler": "Applied Energistics Assembler",
+  "gtceu.aeassembler": "Applied Energistics Assembler",
+
+  "block.gtceu.alchtransformer": "Alchemical Transformer",
+  "gtceu.alchtransformer": "Alchemical Transformer",
+
+  "block.gtceu.cleanfarmland": "Clean Farmland",
+  "gtceu.cleanfarmland": "Clean Farmland",
+
+  "block.gtceu.analyzator": "Analyzator",
+  "gtceu.analyzator": "Analyzator",
+
+  "block.gtceu.irradiator": "Irradiator",
+  "gtceu.irradiator": "Irradiator",
+
+  "block.gtceu.transformator": "Transformator",
+  "gtceu.transformator": "Transformator",
+
+  "block.gtceu.linearaccel": "Linear Particle Accelerator",
+  "gtceu.linearaccel": "Linear Particle Accelerator",
+
+  "block.gtceu.voidminer": "Void Miner",
+  "gtceu.voidminer": "Void Miner",
+
+  "block.gtceu.metalfurnace": "Metallurgical Furnace",
+  "gtceu.metalfurnace": "Metallurgical Furnace",
+
+  "block.gtceu.voidcrystal": "Void Crystal",
+  "gtceu.voidcrystal": "Void Crystal",
+  "gtceu.voidcrystalincubator": "Void Crystal Incubator",
+
+  "block.gtceu.forgef": "Dwarven Forge",
+  "gtceu.forgef": "Dwarven Forge",
+  "gtceu.anvilf": "Dwarven Anvil",
+
+  "block.gtceu.excavsite": "Excavation Site",
+  "gtceu.excavsite": "Excavation Site",
+
+  "block.gtceu.offaltar": "Offering Altar",
+  "gtceu.offaltar": "Offering Altar",
+
+  "block.gtceu.dragonalloykiln": "Draconic Alloy Kiln",
+  "gtceu.dragonalloykiln": "Draconic Alloy Kiln",
+
+  "block.gtceu.oilrig": "Drilling Rig",
+  "gtceu.oilrig": "Drilling Rig",
+
+  "block.gtceu.planetarygassiphon": "Planetary Gas Siphon",
+  "gtceu.planetarygassiphon": "Gas Siphoning",
+
+  "biome.ad_astra.orbit": "Earth Orbit",
+  "biome.ad_astra.venus_orbit": "Venus Orbit",
+  "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",
+  "biome.ad_extendra.saturn_orbit": "Saturn Orbit",
+  "biome.ad_extendra.uranus_orbit": "Uranus Orbit",
+  "biome.ad_extendra.neptune_orbit": "Neptune Orbit",
+  "biome.ad_astra.mercury_orbit": "Mercury Orbit"
+
+}
+

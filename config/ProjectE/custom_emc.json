@@ -1,0 +1,560 @@
+{
+  "entries": [
+    {
+      "item": "#minecraft:wool",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stone",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:planks",
+      "emc": 0
+    },
+    {
+      "item": "#forge:cobblestone",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:leaves",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:flowers",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:dirt",
+      "emc": 0
+    },
+    {
+      "item": "#forge:coral_blocks",
+      "emc": 0
+    },
+    {
+      "item": "#forge:seeds",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:decorated_pot_sherds",
+      "emc": 0
+    },
+    {
+      "item": "#forge:foods/fish/cooked",
+      "emc": 0
+    },
+    {
+      "item": "#forge:foods/fish/raw",
+      "emc": 0
+    },
+    {
+      "item": "#forge:foods/meat/cooked",
+      "emc": 0
+    },
+    {
+      "item": "#forge:foods/meat/raw",
+      "emc": 0
+    },
+    {
+      "item": "#forge:corals",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:saplings",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:trim_templates",
+      "emc": 0
+    },
+    {
+      "item": "#forge:rods",
+      "emc": 0
+    },
+    {
+      "item": "#forge:mushrooms",
+      "emc": 0
+    },
+    {
+      "item": "#forge:heads",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:music_discs",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ingots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:basalt",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 0
+    },
+    {
+      "item": "#forge:sand",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ice",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snow",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:calcite",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pointed_dripstone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magma_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crying_obsidian",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mangrove_roots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crimson_fungus",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:warped_fungus",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:grass",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fern",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_bush",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:spore_blossom",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bamboo",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cactus",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crimson_roots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:warped_roots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_sprouts",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:weeping_vines",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:twisting_vines",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:vine",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tall_grass",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:large_fern",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:big_dripleaf",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:small_dripleaf",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_plant",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_flower",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glow_lichen",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:hanging_roots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:turtle_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sniffer_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cocoa_beans",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wet_sponge",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sponge",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:kelp",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sea_pickle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:seagrass",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lily_pad",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carved_pumpkin",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_vein",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_catalyst",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_shrieker",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cobweb",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:piglin_head",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:name_tag",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:string",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:redstone",
+      "emc": 0
+    },
+    {
+      "item": "projecte:relay_mk3",
+      "emc": 0
+    },
+    {
+      "item": "projecte:relay_mk2",
+      "emc": 0
+    },
+    {
+      "item": "projecte:relay_mk1",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk3",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk2",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk1",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:saddle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:ponder_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:sing_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:seek_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:feel_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:admire_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:call_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:yearn_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:dream_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:egg",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snowball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:trident",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carrot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:scute",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_hide",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wheat",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:shulker_shell",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:piglin_banner_pattern",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:globe_banner_pattern",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "emc": 0
+    },
+    {
+      "item": "kubejs:lvalloy",
+      "emc": 2500
+    }
+  ]
+}

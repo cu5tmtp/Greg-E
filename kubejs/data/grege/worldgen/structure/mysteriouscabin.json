@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "mythicbotany:alfheim_lakes",
+    "mythicbotany:alfheim_hills",
+    "mythicbotany:alfheim_plains",
+    "mythicbotany:dreamwood_forest",
+    "mythicbotany:golden_fields"
+  ],
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "start_pool": "grege:mysteriouscabin",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false
+}

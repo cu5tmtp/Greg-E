@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avaritia"
+	group: "6915D00C186DB378"
+	icon: "avaritia:neutron_pile"
+	id: "407DDCEF45EF7565"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Avaritia"
+}
