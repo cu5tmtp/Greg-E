@@ -9,6 +9,7 @@ emi.json
 /logs
 /mods
 /saves
+/defaultconfigs
 usernamecache.json
 usercache.json
 TrashSlotSaveState.json
