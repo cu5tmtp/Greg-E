@@ -547,7 +547,6 @@
 			description: [""]
 			icon: "gtceu:large_chemical_reactor"
 			id: "47871110028991D3"
-			min_width: 300
 			tasks: [{
 				id: "74509DEDE480E6D3"
 				item: "gtceu:large_chemical_reactor"

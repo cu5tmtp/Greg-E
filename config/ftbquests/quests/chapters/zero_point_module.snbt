@@ -5,57 +5,6 @@
 	group: "6915D00C186DB378"
 	icon: "gtceu:quantum_processor_mainframe"
 	id: "220BE62A7F8EA359"
-	images: [
-		{
-			height: 3.0d
-			hover: ["atm9.quest.gregtech.zpm"]
-			image: "gtceu:item/zpm_solar_panel"
-			rotation: 0.0d
-			width: 3.0d
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/zpm_sensor"
-			rotation: 0.0d
-			width: 3.0d
-			x: 7.5d
-			y: -7.0d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/zpm_emitter"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/zpm_robot_arm"
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.5d
-			y: -7.0d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/zpm_fluid_regulator"
-			rotation: 0.0d
-			width: 3.0d
-			x: -13.0d
-			y: -7.0d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:block/multiblock/fusion_reactor/fusion/overlay_front"
-			rotation: 0.0d
-			width: 3.0d
-			x: -13.0d
-			y: 1.5d
-		}
-	]
 	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]

@@ -5,48 +5,14 @@
 	group: "6915D00C186DB378"
 	icon: "gtceu:crystal_processor_mainframe"
 	id: "754B57DEA4C711A5"
-	images: [
-		{
-			height: 3.0d
-			image: "gtceu:item/uv_solar_panel"
-			rotation: 0.0d
-			width: 3.0d
-			x: 5.5d
-			y: -8.5d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/uv_electric_motor"
-			rotation: 0.0d
-			width: 3.0d
-			x: 9.5d
-			y: 1.5d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/uv_sensor"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/uv_emitter"
-			rotation: 0.0d
-			width: 3.0d
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			height: 3.0d
-			image: "gtceu:item/uv_voltage_coil"
-			rotation: 0.0d
-			width: 3.0d
-			x: 5.0d
-			y: 1.5d
-		}
-	]
+	images: [{
+		height: 3.0d
+		image: "gtceu:item/uv_solar_panel"
+		rotation: 0.0d
+		width: 3.0d
+		x: 5.5d
+		y: -8.5d
+	}]
 	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -1561,59 +1527,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1B64314492605E47"]
-			description: [
-				"{atm9.quest.gregtech.uv.desc.advancedLcr.1}"
-				""
-				"{atm9.quest.gregtech.uv.desc.advancedLcr.2}"
-				""
-				"{atm9.quest.gregtech.uv.desc.advancedLcr.3}"
-			]
-			icon: "gtceu:advanced_large_chemical_reactor"
-			id: "13417E27790B9AB2"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67893AFA75DB6DB9"
-				table_id: 1818042308417101752L
-				type: "loot"
-			}]
-			shape: "gear"
-			subtitle: "{atm9.quest.gregtech.uv.subt.alcr}"
-			tasks: [
-				{
-					id: "2EF9FCC2A1E61FC7"
-					item: "gtceu:advanced_large_chemical_reactor"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "60A9E200F4F324EA"
-					item: "gtceu:rtm_alloy_coil_block"
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "154AEA7A726F6D6F"
-					item: "gtceu:ptfe_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 62L
-					id: "0395D55EFEBE8005"
-					item: "gtceu:inert_machine_casing"
-					type: "item"
-				}
-				{
-					id: "3178FDFBEA274B84"
-					item: "gtceu:zpm_parallel_hatch"
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: 3.0d
-		}
-		{
 			description: [
 				"{atm9.quest.gregtech.uv.desc.alloyComplexity.1}"
 				""
@@ -1635,46 +1548,6 @@
 			}]
 			x: -4.0d
 			y: -5.0d
-		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "5CCB34969AF38175"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "0B8410A78CA31E87"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "3E3975575FE59087"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: -9.5d
-			y: -0.5d
 		}
 		{
 			dependencies: [

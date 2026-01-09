@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'kubejs:ivalloy'
         )
-        .duration(300)
+        .duration(20)
         .EUt(GTValues.VA[GTValues.IV])
 
 });
