@@ -177,51 +177,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3BD5C517AD024A45"
-				"4DDFD3BAA86DC342"
-			]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.activeTransformers.1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.activeTransformers.2}"
-				"{atm9.quest.gregtech.zpm.desc.activeTransformers.3}"
-				"{atm9.quest.gregtech.zpm.desc.activeTransformers.4}"
-			]
-			icon: "gtceu:active_transformer"
-			id: "278252472B5B94D4"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "251F2E5A2D1BC26D"
-				table_id: 5732951907492768982L
-				type: "loot"
-			}]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.zpm.subt.lasers}"
-			tasks: [
-				{
-					id: "0E7925D7F1B3A06B"
-					item: "gtceu:active_transformer"
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "4300336FCC6BB7F3"
-					item: "gtceu:high_power_casing"
-					type: "item"
-				}
-				{
-					id: "447E86A2C00AC55F"
-					item: "gtceu:superconducting_coil"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["2036ED4A823C1456"]
 			description: [
 				"{atm9.quest.gregtech.zpm.desc.uhpic.1}"
@@ -1015,79 +970,6 @@
 			}]
 			x: -1.0d
 			y: 2.5000000000000004d
-		}
-		{
-			dependencies: ["278252472B5B94D4"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.activeTransformerPipes.1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.activeTransformerPipes.2}"
-			]
-			id: "7F2D4C5BEFE3DDD3"
-			optional: true
-			rewards: [{
-				count: 16
-				id: "6676F747CC517749"
-				item: "gtceu:normal_laser_pipe"
-				random_bonus: 16
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.morePipes}"
-			tasks: [{
-				id: "1251249FA97FD527"
-				item: "gtceu:normal_laser_pipe"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7F2D4C5BEFE3DDD3"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.laserSourceHatch.1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.laserSourceHatch.2}"
-			]
-			id: "1194FF35ADAA9957"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AD4747FBF3B08E8"
-				table_id: 5732951907492768982L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.sharksWithLasers}"
-			tasks: [{
-				id: "630A6BAE13801D9A"
-				item: "gtceu:zpm_256a_laser_source_hatch"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7F2D4C5BEFE3DDD3"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.activeTransformerEU.1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.activeTransformerEU.2}"
-			]
-			id: "72FA90C181139957"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AA38C20471912F2"
-				table_id: 7041264405549027492L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.massivePower}"
-			tasks: [{
-				id: "5E8AFBD479A7F707"
-				item: "gtceu:luv_256a_laser_source_hatch"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -2.0d
 		}
 		{
 			dependencies: [
