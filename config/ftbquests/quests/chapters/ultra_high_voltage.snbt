@@ -107,7 +107,7 @@
 				""
 				"{atm9.quest.gregtech.uhv.desc.megaFusionReactor.2}"
 			]
-			icon: "gtceu:mega_fusion_reactor"
+			icon: "gregecore:enhancedfr"
 			id: "39CD35C91F07258C"
 			rewards: [
 				{
@@ -125,56 +125,11 @@
 			]
 			shape: "gear"
 			size: 1.6d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.megaFusionReactor}"
-			tasks: [
-				{
-					id: "6B99152931C28CF4"
-					item: "gtceu:mega_fusion_reactor"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "38001A0BC813A12F"
-					item: "mekanism:supercharged_coil"
-					type: "item"
-				}
-				{
-					count: 20L
-					id: "15645CCCFD36B3FD"
-					item: "gtceu:fusion_glass"
-					type: "item"
-				}
-				{
-					count: 208L
-					id: "1DF6ABF3DEA03113"
-					item: "gtceu:fusion_casing_mk3"
-					type: "item"
-				}
-				{
-					count: 88L
-					id: "1CEE1CF49EB683A2"
-					item: "gtceu:fusion_coil"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "2F1FE1A604A2BF82"
-					item: "gtceu:tritanium_coil_block"
-					type: "item"
-				}
-				{
-					count: 169L
-					id: "2952CCEFEE9245AB"
-					item: "gtceu:atomic_casing"
-					type: "item"
-				}
-				{
-					count: 40L
-					id: "11920FFB5235E181"
-					item: "gtceu:heatproof_machine_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77E45789060AF7F9"
+				item: "gregecore:enhancedfr"
+				type: "item"
+			}]
 			x: 1.8000000000000007d
 			y: -2.6999999999999993d
 		}

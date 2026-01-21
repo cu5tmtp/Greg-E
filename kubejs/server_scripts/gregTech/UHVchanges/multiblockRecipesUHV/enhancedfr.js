@@ -10,6 +10,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(200)
-        .addData('heat_level', 2500)
+        .addData('heat_level', 2700)
 
 });
