@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.electric_blast_furnace('manacoilget')
         .itemInputs(
             '8x kubejs:manasteelfoil',
-            '8x kubejs:twoxmanacable'
+            '8x gregecore:manasteel_cable_double_wire'
         )
         .itemOutputs(
             'gregecore:manasteel_coil'
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.electric_blast_furnace('twilightcoilget')
         .itemInputs(
             '8x kubejs:twilightfoil',
-            '8x kubejs:twoxtwilightcable'
+            '8x gregecore:twilight_alloy_cable_double_wire'
         )
         .itemOutputs(
             'gregecore:twilight_coil'
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.electric_blast_furnace('deshcoilget')
         .itemInputs(
             '8x kubejs:deshfoil',
-            '8x kubejs:twoxdeshcable'
+            '8x gregecore:desh_cable_double_wire'
         )
         .itemOutputs(
             'gregecore:desh_coil'
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.electric_blast_furnace('malachitecoilget')
         .itemInputs(
             '8x kubejs:malachitefoil',
-            '8x kubejs:twoxmalachitecable'
+            '8x gregecore:malachite_cable_double_wire'
         )
         .itemOutputs(
             'gregecore:malachite_coil'
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.electric_blast_furnace('forgottencoilget')
         .itemInputs(
             '8x kubejs:forgfoil',
-            '8x kubejs:twoxforgcable'
+            '8x gregecore:forgotten_ingot_cable_double_wire'
         )
         .itemOutputs(
             'gregecore:forgotten_coil'

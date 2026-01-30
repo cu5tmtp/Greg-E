@@ -20,8 +20,8 @@ ServerEvents.recipes((event) => {
         .alchtransformer('transformcommontdeepslate')
         .itemInputs('4x kubejs:commonearth')   
         .inputFluids('kubejs:alchessence 500') 
-        .itemOutputs('kubejs:deepslateearth')
-        .duration(200)
+        .itemOutputs('2x kubejs:deepslateearth')
+        .duration(100)
         .EUt(120)
 
     event.recipes.gtceu

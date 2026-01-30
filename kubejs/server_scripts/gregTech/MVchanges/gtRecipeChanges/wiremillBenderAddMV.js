@@ -11,15 +11,4 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(10)
 
-    event.recipes.gtceu.wiremill('twilighttwowire')
-        .itemInputs(
-            'kubejs:twilightingots',
-        )
-        .itemOutputs(
-            'kubejs:twoxtwilightcable',
-        )
-        .duration(100)
-        .EUt(120)
-        .circuit(2)
-
 })

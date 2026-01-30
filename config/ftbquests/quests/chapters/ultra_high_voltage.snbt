@@ -29,76 +29,11 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -5.517857142857153d
+			y: 7.875000000000014d
 		}
 		{
 			dependencies: [
-				"3D89F65537D7CA1E"
-				"2555BA914C466B5C"
-				"702CE73E39E4D4BD"
-			]
-			description: ["{atm9.quest.gregtech.uhv.desc.starForge.1}"]
-			icon: "gtceu:star_forge"
-			id: "7AE6AF0B5D3390E7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B8BCAA279AE6AF3"
-				table_id: 8781463007120195614L
-				type: "loot"
-			}]
-			shape: "heart"
-			size: 2.0d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.craftingCosmos}"
-			tasks: [
-				{
-					id: "618354EF9636D820"
-					item: "gtceu:star_forge"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "454F7D74D75CD02E"
-					item: "mekanism:supercharged_coil"
-					type: "item"
-				}
-				{
-					count: 38L
-					id: "73DEF8CD08315211"
-					item: "gtceu:superconducting_coil"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "333856BA249BF370"
-					item: "gtceu:trinium_coil_block"
-					type: "item"
-				}
-				{
-					count: 225L
-					id: "5B999D1E4E018709"
-					item: "gtceu:atomic_casing"
-					type: "item"
-				}
-				{
-					count: 224L
-					id: "084BFE437F0F086D"
-					item: "connectedglass:clear_glass_black"
-					type: "item"
-				}
-				{
-					id: "34D497643849738F"
-					item: "allthetweaks:atm_star_block"
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"3D89F65537D7CA1E"
-				"2555BA914C466B5C"
 				"054D2D3C20C2D32F"
 				"6786C701B7C4980B"
 			]
@@ -130,14 +65,11 @@
 				item: "gregecore:enhancedfr"
 				type: "item"
 			}]
-			x: 1.8000000000000007d
-			y: -2.6999999999999993d
+			x: 0.8d
+			y: -5.6d
 		}
 		{
-			dependencies: [
-				"2B8E66760514BE77"
-				"054D2D3C20C2D32F"
-			]
+			dependencies: ["054D2D3C20C2D32F"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.fusionReactorMk3.1}"
 				""
@@ -153,8 +85,8 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.mk3}"
 			tasks: [
 				{
@@ -187,8 +119,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.29999999999999893d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -210,8 +142,8 @@
 				item: "gtceu:uv_circuit_assembler"
 				type: "item"
 			}]
-			x: -0.20000000000000004d
-			y: 3.4000000000000004d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -231,8 +163,8 @@
 				table_id: 341947171990021391L
 				type: "loot"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.uhvTop}"
 			tasks: [{
 				id: "3009E94D530487D4"
@@ -240,54 +172,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.8000000000000007d
-		}
-		{
-			dependencies: ["5561EB1E3DD77EC5"]
-			description: ["{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.3}"]
-			id: "6F8E58FF4D96C4BC"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6E7C3514A700FF15"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.uhvConfusion}"
-			tasks: [{
-				id: "5D50568CB2796302"
-				item: "gtceu:uhv_energy_input_hatch_4a"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"454F2BF7F2E25D83"
-				"054D2D3C20C2D32F"
-				"3D89F65537D7CA1E"
-			]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.ultimateBattery.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.ultimateBattery.2}"
-			]
-			id: "0DB92C70D04725BE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D073546ECACAEB6"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.duracell}"
-			tasks: [{
-				id: "5103FF4986087F40"
-				item: "gtceu:max_battery"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.3000000000000007d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2EA74A823D55D472"]
@@ -336,32 +221,8 @@
 				item: "gtceu:uv_parallel_hatch"
 				type: "item"
 			}]
-			x: 1.8000000000000007d
-			y: -1.299999999999999d
-		}
-		{
-			dependencies: ["6786C701B7C4980B"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.uvFieldGenerator.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.uvFieldGenerator.2}"
-			]
-			hide_dependency_lines: true
-			id: "3D89F65537D7CA1E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "379BAF8D63EAA251"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.lastFieldGenerator}"
-			tasks: [{
-				id: "26F1CE1C23672A2A"
-				item: "gtceu:uv_field_generator"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.6999999999999993d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["695E846B663EC185"]
@@ -383,7 +244,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.3000000000000007d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -413,31 +274,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["44EE336BC265D21C"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.complexAlloy.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.complexAlloy.2}"
-			]
-			hide_dependent_lines: true
-			id: "30954ADF34DB05A7"
-			rewards: [{
-				count: 8
-				id: "09A65B9DDFB8CFF3"
-				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.complexAlloy}"
-			tasks: [{
-				id: "20552163E8FFCF03"
-				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["702CE73E39E4D4BD"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.massiveEBF.1}"
@@ -446,112 +282,16 @@
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "625B5E3CDDAECFFD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "72E4BA4940848225"
-				table_id: 8781463007120195614L
-				type: "loot"
-			}]
-			shape: "gear"
+			shape: "circle"
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.massiveEBF}"
-			tasks: [
-				{
-					id: "66D7D97C3FAA17D4"
-					item: "gtceu:mega_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 132L
-					id: "0F5FC4C9058975BD"
-					item: "gtceu:naquadah_alloy_frame"
-					type: "item"
-				}
-				{
-					count: 28L
-					id: "7541ECC2507CE71C"
-					item: "gtceu:tungstensteel_firebox_casing"
-					type: "item"
-				}
-				{
-					count: 40L
-					id: "11597D8C8B61CF67"
-					item: "gtceu:extreme_engine_intake_casing"
-					type: "item"
-				}
-				{
-					count: 96L
-					id: "06C01CB26C01E667"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:cupronickel_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:kanthal_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:nichrome_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:rtm_alloy_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hssg_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:naquadah_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:trinium_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:tritanium_coil_block"
-								}
-							]
-						}
-					}
-					title: "{atm9.quest.gregtech.uhv.task.massiveEBF}"
-					type: "item"
-				}
-				{
-					count: 72L
-					id: "7B2A32F3AA195AB7"
-					item: "gtceu:tungstensteel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 20L
-					id: "17C7595ADF6B7BAB"
-					item: "gtceu:heat_vent"
-					type: "item"
-				}
-				{
-					count: 382L
-					id: "727FA76459DBE141"
-					item: "gtceu:high_temperature_smelting_casing"
-					type: "item"
-				}
-				{
-					count: 88L
-					id: "30BE3BCD9E872FB8"
-					item: "gtceu:robust_machine_casing"
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: 3.5d
+			tasks: [{
+				id: "66D7D97C3FAA17D4"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["702CE73E39E4D4BD"]
@@ -562,398 +302,17 @@
 			]
 			icon: "gtceu:mega_vacuum_freezer"
 			id: "67AA17BCDE37DFAB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "23F4A6D4A8E87215"
-				table_id: 8781463007120195614L
-				type: "loot"
-			}]
-			shape: "gear"
+			shape: "circle"
 			subtitle: "{atm9.quest.gregtech.uhv.subt.bulkBlastChiller}"
-			tasks: [
-				{
-					id: "28EEC6756486D379"
-					item: "gtceu:mega_vacuum_freezer"
-					type: "item"
-				}
-				{
-					count: 74L
-					id: "1237C1C3D4F81E76"
-					item: "gtceu:tungstensteel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 26L
-					id: "33A1A44710F78A0D"
-					item: "gtceu:heat_vent"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "21CC962B100848B4"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-				{
-					count: 36L
-					id: "613FCC5D29BA60B8"
-					item: "gtceu:clean_machine_casing"
-					type: "item"
-				}
-				{
-					count: 154L
-					id: "068B1FF9F58C3C18"
-					item: "gtceu:frostproof_machine_casing"
-					type: "item"
-				}
-			]
-			x: -7.0d
+			tasks: [{
+				id: "28EEC6756486D379"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: -9.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["30954ADF34DB05A7"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.uvSuperconductor.2}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.uvSuperconductor.3}"
-			]
-			id: "2B8E66760514BE77"
-			rewards: [{
-				count: 8
-				id: "46ACF990FF292361"
-				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
-				random_bonus: 16
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.uvSuperconductorCrafting}"
-			tasks: [{
-				id: "6C4C914784FB64DC"
-				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -0.6999999999999993d
-		}
-		{
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.uvSuperconductorCrafting.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.uvSuperconductorCrafting.2}"
-			]
-			id: "454F2BF7F2E25D83"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35C2A7CABA21D940"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.compexEnergy}"
-			tasks: [{
-				id: "0B711F2A4A5DCE95"
-				item: "gtceu:energy_cluster"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -0.6999999999999993d
-		}
-		{
-			dependencies: ["3D40D91D7D948714"]
-			description: ["{atm9.quest.gregtech.uhv.desc.compexEnergy}"]
-			id: "2555BA914C466B5C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C723C9FAE82468A"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.bestCasing}"
-			tasks: [{
-				id: "3DF016CBFB16E05C"
-				item: "gtceu:atomic_casing"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.6999999999999993d
-		}
-		{
-			dependencies: ["7F5DAB3EDB6E9592"]
-			description: ["{atm9.quest.gregtech.uhv.desc.bestCasing}"]
-			id: "3D40D91D7D948714"
-			rewards: [{
-				count: 4
-				id: "3893B82B1CA8161B"
-				item: "gtceu:trinaquadalloy_plate"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.dishesPlating}"
-			tasks: [{
-				id: "5137EB9F0E75A746"
-				item: "gtceu:trinaquadalloy_plate"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0CF6D11016BAF3D0"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.dishesPlating.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.dishesPlating.2}"
-			]
-			id: "7F5DAB3EDB6E9592"
-			rewards: [{
-				count: 4
-				id: "7A29C802031CEB87"
-				item: "gtceu:trinaquadalloy_ingot"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.coolingAlloys}"
-			tasks: [{
-				id: "74258E10C48FAA93"
-				item: "gtceu:trinaquadalloy_ingot"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -0.5d
-		}
-		{
-			description: ["{atm9.quest.gregtech.uhv.desc.coolingAlloys}"]
-			id: "0CF6D11016BAF3D0"
-			rewards: [{
-				id: "7BB30A393756D2D3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:trinaquadalloy"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:trinaquadalloy"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.complexNaquadah}"
-			tasks: [{
-				id: "747C0465749AAB2C"
-				item: "gtceu:molten_trinaquadalloy_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6F8E58FF4D96C4BC"]
-			description: ["{atm9.quest.gregtech.uhv.desc.complexNaquadah.1}"]
-			id: "0DB21D996607BD8D"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2FDB3BAF2DB98AE3"
-				table_id: 341947171990021391L
-				type: "loot"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.uhvEnergyHatch}"
-			tasks: [{
-				id: "1FE57FC0C5BBD345"
-				item: "gtceu:uhv_energy_input_hatch_16a"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"1FEB1ECDDDD8AD0E"
-				"418E02FFE241A734"
-				"79E29CFE2399AE96"
-				"5074BBBCE86D058E"
-			]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.gigawatts.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.gigawatts.2}"
-			]
-			id: "0A1BACA070EB5264"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "381F47984205C92E"
-					table_id: 341947171990021391L
-					type: "loot"
-				}
-				{
-					id: "3A692A70D38C3533"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								Amount: 16000
-								FluidName: "gtceu:star_matter_plasma"
-								capacity: 16000
-							}
-						}
-						id: "evilcraft:dark_tank"
-						tag: {
-							Fluid: {
-								Amount: 16000
-								FluidName: "gtceu:star_matter_plasma"
-							}
-							capacity: 16000
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.starMatter}"
-			tasks: [{
-				id: "5D4E3E64BF2AF1FE"
-				item: "gtceu:star_matter_plasma_bucket"
-				type: "item"
-			}]
-			x: 1.799999999999999d
-			y: -6.0d
-		}
-		{
-			description: ["{atm9.quest.gregtech.uhv.desc.starMatter}"]
-			id: "1FEB1ECDDDD8AD0E"
-			rewards: [{
-				id: "45C6CD8552FBD30E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:iron_plasma"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:iron_plasma"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.all}"
-			tasks: [{
-				id: "3E9D00BCF9710B1B"
-				item: "gtceu:iron_plasma_bucket"
-				type: "item"
-			}]
-			x: 0.7999999999999989d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2C9DDB3AAA30E02A"]
-			description: ["{atm9.quest.gregtech.uhv.desc.all}"]
-			id: "418E02FFE241A734"
-			rewards: [{
-				id: "3437B1764F2C8CB3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:helium_plasma"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:helium_plasma"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.the}"
-			tasks: [{
-				id: "06BCA11DE67C5D89"
-				item: "gtceu:helium_plasma_bucket"
-				type: "item"
-			}]
-			x: 1.799999999999999d
-			y: -5.0d
-		}
-		{
-			description: ["{atm9.quest.gregtech.uhv.desc.the}"]
-			id: "79E29CFE2399AE96"
-			rewards: [{
-				id: "49A3DC24BAC9CCED"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:oxygen_plasma"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:oxygen_plasma"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.plasma}"
-			tasks: [{
-				id: "1E765ED0D810792E"
-				item: "gtceu:oxygen_plasma_bucket"
-				type: "item"
-			}]
-			x: 2.8000000000000007d
-			y: -5.0d
-		}
-		{
-			dependencies: ["39CD35C91F07258C"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.plasma.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.plasma.2}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.plasma.3}"
-			]
-			id: "2C9DDB3AAA30E02A"
-			rewards: [{
-				id: "1DC2112E52BF01A3"
-				type: "xp"
-				xp: 1000
-			}]
-			subtitle: "{atm9.quest.gregtech.uhv.subt.startNow}"
-			tasks: [{
-				id: "6F07606E3F7BE160"
-				title: "{atm9.quest.gregtech.uhv.jumpStart}"
-				type: "checkmark"
-			}]
-			x: 1.799999999999999d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2B8E66760514BE77"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.jumpStart.1}"
 				""
@@ -968,96 +327,18 @@
 				table_id: 8781463007120195614L
 				type: "loot"
 			}]
-			shape: "gear"
-			size: 1.75d
+			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.greatSuccess}"
 			tasks: [{
 				id: "61316E46DA048A55"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.25d
-			y: 0.8000000000000007d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			description: ["{atm9.quest.gregtech.zpm.desc.liquidLutetium}"]
-			id: "28F49121DEB0000A"
-			rewards: [{
-				id: "443A6F81AD167386"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:lutetium"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:lutetium"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidLutetium}"
-			tasks: [{
-				id: "41A278CBAEF5905A"
-				item: "gtceu:lutetium_bucket"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["28F49121DEB0000A"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.liquidAmericium.1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.liquidAmericium.2}"
-			]
-			id: "5AD33290313151D6"
-			rewards: [{
-				id: "365681A8DF30134E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:americium"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:americium"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidAmericium}"
-			tasks: [{
-				id: "56FF9905F151C1C3"
-				item: "gtceu:americium_bucket"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"097735604CB11E83"
-				"5AD33290313151D6"
-				"6E18951E41103391"
-			]
+			dependencies: ["6E18951E41103391"]
 			description: ["{atm9.quest.gregtech.uhv.desc.neutronium}"]
 			id: "695E846B663EC185"
 			rewards: [{
@@ -1082,49 +363,15 @@
 				}
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.75d
+			shape: "circle"
+			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.zpm.subt.superNeutronium}"
 			tasks: [{
 				id: "273FC653514D8BC2"
 				item: "gtceu:neutronium_bucket"
 				type: "item"
 			}]
-			x: -5.449999999999999d
-			y: 0.775d
-		}
-		{
-			description: ["{atm9.quest.gregtech.uhv.desc.naquadria}"]
-			id: "097735604CB11E83"
-			rewards: [{
-				id: "559BE511F5D982CE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:naquadria"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:naquadria"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.zpm.subt.liquidNaquadria}"
-			tasks: [{
-				id: "65C1C5D7EF816179"
-				item: "gtceu:naquadria_bucket"
-				type: "item"
-			}]
-			x: -7.0d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -1149,81 +396,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["142D12B41C36D68A"]
-			description: ["{atm9.quest.gregtech.uv.desc.neutroniumWafers}"]
-			id: "0F3DF502872A308E"
-			rewards: [
-				{
-					count: 4
-					id: "38517B0FE2A644DA"
-					item: "gtceu:neutronium_wafer"
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A962A16171EB051"
-					table_id: 341947171990021391L
-					type: "loot"
-				}
-			]
-			subtitle: "{atm9.quest.gregtech.uv.subt.slices}"
-			tasks: [{
-				id: "21548670852833ED"
-				item: "gtceu:neutronium_wafer"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.6999999999999997d
-		}
-		{
-			dependencies: ["0F3DF502872A308E"]
-			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.28}"]
-			id: "5F3BF06A1DA8AB8D"
-			rewards: [{
-				count: 4
-				id: "3212B54A2EE954FA"
-				item: "gtceu:highly_advanced_soc_wafer"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.17}"
-			tasks: [
-				{
-					id: "74999972610FD53F"
-					item: "gtceu:highly_advanced_soc_wafer"
-					type: "item"
-				}
-				{
-					id: "6CF65EBE0534FBA6"
-					item: "gtceu:black_glass_lens"
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: -2.3999999999999995d
-		}
-		{
-			dependencies: ["5F3BF06A1DA8AB8D"]
-			description: ["{atm9.quest.gregtech.uv.desc.ultimateVoltage.27}"]
-			id: "3F3F70FEEE8AFEEA"
-			rewards: [{
-				count: 4
-				id: "0D40ED5B4CD77D3F"
-				item: "gtceu:highly_advanced_soc"
-				random_bonus: 8
-				type: "item"
-			}]
-			tasks: [{
-				id: "530BBDE31298E519"
-				item: "gtceu:highly_advanced_soc"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.099999999999999d
+			y: -2.0d
 		}
 		{
 			dependencies: ["695E846B663EC185"]
@@ -1241,41 +414,19 @@
 				item: "gtceu:gravi_star"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.6999999999999993d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
-			description: [""]
-			id: "5074BBBCE86D058E"
-			rewards: [{
-				id: "0B2326152AE29F28"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:nitrogen_plasma"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:nitrogen_plasma"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
+			dependencies: ["625B5E3CDDAECFFD"]
+			id: "10E27C69CF6CD96B"
 			tasks: [{
-				id: "4169613D6343A843"
-				item: "gtceu:nitrogen_plasma_bucket"
+				id: "75660498A0D08530"
+				item: "gregecore:learning_acc_ebf"
 				type: "item"
 			}]
-			x: 1.799999999999999d
-			y: -7.0d
+			x: -11.0d
+			y: 3.0d
 		}
 	]
 	title: "UHV"

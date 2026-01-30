@@ -577,9 +577,9 @@
 			y: -2.5d
 		}
 		{
-			id: "02F4D60C839CFDB1"
+			id: "603F4CFCBC944888"
 			tasks: [{
-				id: "2046A692E7DC23B2"
+				id: "479B238B9E9857DB"
 				item: "gregecore:giantacceleratedebf"
 				type: "item"
 			}]

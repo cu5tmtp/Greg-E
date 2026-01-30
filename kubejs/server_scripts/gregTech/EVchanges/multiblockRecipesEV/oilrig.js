@@ -36,6 +36,18 @@ ServerEvents.recipes((event) => {
         )
         .duration(200)
         .EUt(1680)
-        .circuit(2)        
+        .circuit(2)
+
+    event.recipes.gtceu
+        .oilrig('drilltungstate')
+        .itemInputs(
+            '2x kubejs:blessedearth'
+        )
+        .chancedOutput(
+            'gtceu:raw_tungstate', 200, 0
+        )
+        .duration(200)
+        .EUt(1680)
+        .circuit(3)   
 
 })

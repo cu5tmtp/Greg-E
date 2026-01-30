@@ -7,6 +7,15 @@
 	id: "407DDCEF45EF7565"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "433308CADCABF703"
+		tasks: [{
+			id: "5C82BD02CDE66CDB"
+			item: "gregecore:starmaykr"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 	title: "Avaritia"
 }

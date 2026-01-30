@@ -22,15 +22,4 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(3)
 
-    event.recipes.gtceu.wiremill('gettheforgwiretwo')
-        .itemInputs(
-            'undergarden:forgotten_ingot'
-        )
-        .itemOutputs(
-            'kubejs:twoxforgcable'
-        )
-        .duration(60)
-        .EUt(GTValues.VA[GTValues.IV])
-        .circuit(2)
-
 });

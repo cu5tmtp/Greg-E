@@ -1319,18 +1319,11 @@
 				type: "item"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.doNotTouch}"
-			tasks: [
-				{
-					id: "58184E4DD25CA47F"
-					item: "gtceu:bacterial_sludge_bucket"
-					type: "item"
-				}
-				{
-					id: "19AE1A9761C20844"
-					item: "alltheores:uranium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "58184E4DD25CA47F"
+				item: "gtceu:bacterial_sludge_bucket"
+				type: "item"
+			}]
 			x: 4.5d
 			y: -4.0d
 		}
