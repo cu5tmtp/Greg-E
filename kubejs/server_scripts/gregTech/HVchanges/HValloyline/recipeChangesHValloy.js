@@ -36,7 +36,7 @@ ServerEvents.recipes((event) =>{
             'kubejs:mvalloy'
         )
         .inputFluids(
-            'kubejs:hvcas 500'
+            'kubejs:hvcas 10'
         )
         .itemOutputs(
             'kubejs:hvalloy'

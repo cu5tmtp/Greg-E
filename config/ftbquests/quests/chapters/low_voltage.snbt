@@ -456,16 +456,23 @@
 				"My favourite part about every modpack: multiblocks, so I've tried to create at least 3 new per tier. Lets get into some tips about them!"
 				"{@pagebreak}"
 				"Tip #1: There are multiple ways to preview the multiblock: in EMI, if you click on the controller, it will show you the layout. You can click on the blocks, it will tell you where you can put input busses, hatches, energy inputs, or parallel hatches."
+				""
 				"When you decide where you wanna build your multiblock, place the controller and shift+right click it. It will show you the multiblock layout."
+				""
 				"If you are really lazy, you can use the item 'Terminal' to build the multiblock for you. It will place hatches in random places, so you will have to change them to your liking."
 				"{@pagebreak}"
 				"Tip #2: If you open input busses, you can see that there are some options in bottom left. One is circuit and the other distinct bus. "
+				""
 				"1st option is about the recipes, like in singleblock machines."
+				""
 				"2nd is more interesting, because this will allow you to basically use one multiblock for multiple recipes with different circuits. If you turn the option on, it will basically tell the multiblock, that this bus is different from the others, and the others can't access this inventory to use in crafting. This should be the default, but it is not so keep this in mind."
 				"{@pagebreak}"
 				"Tip #3: Some multiblocks will have maintenance hatch, which you will need to repair when you first start working with the machine. Basically you need to click it with every GregTech tool, but later you will unlock tape that does it in one click and then a auto-maintenance hatch."
 				"{@pagebreak}"
-				"Tip 4#: This is probably the most important one: OVERCLOCKING. What you can do on some multiblocks is that you can place 2 energy hatches to 'overclock' the multiblock, basically doubling its speed. This will save you a lot of time and also this is how you will unlock progress recipies, usually in Electric blast furnace, where you will need to use recipes 1 tier higher."
+				"Tip 4#: This is probably the most important one: OVERCLOCKING. "
+				"What you can do on some multiblocks is that you can place 2 energy hatches to 'overclock' the multiblock, basically doubling its speed. "
+				""
+				"This will save you a lot of time and also this is how you will unlock progress recipies, usually in Electric blast furnace, where you will need to use recipes 1 tier higher."
 				"Also if you look at energy hatches, they are also in 4A, 16A variants, this will speed up the recipe too, but it will NOT overclock the machine, eg. you put 1 LV 4A energy hatch, it is still LV tier, even tho 4LV A = 1MV A. BUT you can place 2 LV 4A, and you are in MV tier!"
 			]
 			id: "2874DFAF44DC8655"
@@ -722,6 +729,7 @@
 		}
 		{
 			id: "279BFA93E5827817"
+			subtitle: "Strongest EBF until EV, so get this"
 			tasks: [{
 				id: "1914D5E59FAAB965"
 				item: "gregecore:acceleratedebf"

@@ -9,6 +9,9 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'kubejs:ivalloy'
         )
+        .inputFluids(
+            'kubejs:ivcas 10'
+        )
         .duration(20)
         .EUt(GTValues.VA[GTValues.IV])
 

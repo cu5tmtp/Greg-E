@@ -41,8 +41,21 @@ ServerEvents.recipes((event) =>{
         .itemOutputs(
             'kubejs:evalloy'
         )
+        .inputFluids(
+            'kubejs:evcas 10'
+        )
         .duration(100)
         .EUt(1680)
+
+    event.recipes.gtceu.extractor('getevcef')
+        .itemInputs(
+            '#gtceu:circuits/ev'
+        )
+        .outputFluids(
+            'kubejs:evcas 1000'
+        )
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.EV])
 
 
 

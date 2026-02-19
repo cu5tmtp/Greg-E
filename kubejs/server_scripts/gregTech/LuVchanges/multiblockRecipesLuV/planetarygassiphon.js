@@ -8,10 +8,10 @@ ServerEvents.recipes((event) =>{
         ],
         {
             A: '#gtceu:circuits/luv',
-            B: 'gtceu:ruby_lens',
+            B: 'gregecore:vibration_engine_intake',
             C: 'gtceu:fine_steel_wire',
-            D: 'gtceu:hv_voltage_coil',
-            E: 'gtceu:hv_machine_hull'
+            D: 'gtceu:vibration_safe_casing',
+            E: 'gtceu:luv_machine_hull'
         }
     )
 

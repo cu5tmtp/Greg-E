@@ -5,5 +5,6 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:vanaheimingotblock', ['Find this block in the Alfheim dimension, in a mysterious cabin. Use Explorers Compass to find it faster.']);
     event.addItem('mythicbotany:fimbultyr_tablet', ['Drink from Well of Mimir to enable this drop from Guardian of Gaia II bossfight.']);
     event.addFluid('kubejs:acidinfusedlava', ['Find this lava on Venus, in special volcanoes. Use Explorers Compass to find it faster.']);
-    event.addFluid('gtceu:planetarygassiphon', ['The recipe that needs the biome "Space" needs to be done in Earth Orbit.']);
+    event.addItem('gtceu:planetarygassiphon', ['The recipe that needs the biome "Space" needs to be done in Earth Orbit.']);
+    event.addItem('kubejs:iceshard', ['Glacian Ram is found on Glacio in Proxima Centauri star system.']);
 })

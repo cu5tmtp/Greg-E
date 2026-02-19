@@ -66,6 +66,7 @@ StartupEvents.registry('item', event => {
     event.create('frostwire').displayName('Froststeel Wire')
     event.create('forgfoil').displayName('Forgotten Ingot Foil')
     event.create('eidust').displayName('Evil And Intimidating Dust')
+    event.create('iceshard').displayName('Ice Shard')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

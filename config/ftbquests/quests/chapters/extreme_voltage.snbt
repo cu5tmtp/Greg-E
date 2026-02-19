@@ -578,6 +578,7 @@
 		}
 		{
 			id: "603F4CFCBC944888"
+			subtitle: "Strongest EBF until ZPM, so get this"
 			tasks: [{
 				id: "479B238B9E9857DB"
 				item: "gregecore:giantacceleratedebf"

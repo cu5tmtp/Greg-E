@@ -4,6 +4,11 @@ StartupEvents.registry('fluid', event => {
     event.create('lvcas').thickTexture(0xF0FFF0).bucketColor(0xF0FFF0).displayName('LV Circuit Slurry')
     event.create('mvcas').thickTexture(0xF0F0F0).bucketColor(0xF0F0F0).displayName('MV Circuit Slurry')
     event.create('hvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('HV Circuit Slurry')
+    event.create('evcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('EV Circuit Slurry')
+    event.create('ivcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('IV Circuit Slurry')
+    event.create('luvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('LuV Circuit Slurry')
+    event.create('uvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('UV Circuit Slurry')
+    event.create('uhvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('UHV Circuit Slurry')
 
     event.create('myessence').thinTexture(0xFF0000).bucketColor(0xFF0000).displayName('Mystical Essence Fluid').noBlock()
     event.create('alchessence').thinTexture(0x00FFFF).bucketColor(0x00FFFF).displayName('Alchemical Essence Fluid').noBlock()

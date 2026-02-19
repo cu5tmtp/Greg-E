@@ -61,13 +61,17 @@
   "block.gtceu.netherdrillrig": "Nether Drill Rig",
   "gtceu.netherdrillrig": "Nether Drill Rig",
 
+  "block.gtceu.zerogravmixer": "Zero Gravity Mixer",
+  "gtceu.zerogravmixer": "Zero Gravity Mixer",
+
   "biome.ad_astra.orbit": "Earth Orbit",
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",
   "biome.ad_extendra.saturn_orbit": "Saturn Orbit",
   "biome.ad_extendra.uranus_orbit": "Uranus Orbit",
   "biome.ad_extendra.neptune_orbit": "Neptune Orbit",
-  "biome.ad_astra.mercury_orbit": "Mercury Orbit"
+  "biome.ad_astra.mercury_orbit": "Mercury Orbit",
+  "biome.ad_astra.mars_orbit": "Mars Orbit"
 
 }
 

@@ -9,7 +9,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:mvalloy',
             'kubejs:hvalloy',
             'kubejs:evalloy',
-            'kubejs:ivalloy'
+            'kubejs:ivalloy',
+            'kubejs:luvalloy'
         ],
         (item, advanced, text) => {
             text.add(1, Text.red('WARNING: Not learnable in transmutating table!'));
@@ -110,7 +111,7 @@ ItemEvents.tooltip((event) => {
         }
     );
 
-        event.addAdvanced(
+    event.addAdvanced(
         [
             'gregecore:forgotten_coil'
         ],
@@ -120,5 +121,17 @@ ItemEvents.tooltip((event) => {
             text.add(3, Text.green('Coil parallels: ').append(Text.yellow('4')));
         }
     );
+
+    event.addAdvanced(
+        [
+            'gregecore:superelement_coil'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('11000K')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('60%')));
+            text.add(3, Text.green('Coil parallels: ').append(Text.yellow('8')));
+        }
+    );
+    
 
 });

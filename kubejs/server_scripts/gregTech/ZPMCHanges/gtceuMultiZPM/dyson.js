@@ -9,8 +9,8 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: '#gtceu:circuits/zpm',
-            B: 'grege:solar_sail_case',
-            C: 'grege:solar_sail',
+            B: 'gregecore:solar_sail_case',
+            C: 'gregecore:solar_sail',
             D: 'gtceu:zpm_electric_pump',
             E: 'gtceu:zpm_machine_hull'
         }
@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: '#gtceu:circuits/zpm',
-            C: 'grege:solar_sail_ca',
+            C: 'gregecore:solar_sail_case',
             D: 'gtceu:zpm_electric_pump',
             E: 'gtceu:zpm_machine_hull'
         }

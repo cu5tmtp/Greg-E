@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .giant_squeezer('lvalloysingle') 
         .itemInputs('minecraft:iron_ingot')
-        .inputFluids('kubejs:lvcas 250')    
+        .inputFluids('kubejs:lvcas 10')    
         .itemOutputs('kubejs:lvalloy')
         .circuit(1)
         .duration(150)
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .giant_squeezer('lvalloyquadruple') 
         .itemInputs('4x minecraft:iron_ingot')
-        .inputFluids('kubejs:lvcas 1000')    
+        .inputFluids('kubejs:lvcas 40')    
         .itemOutputs('4x kubejs:lvalloy')
         .circuit(4)
         .duration(400)

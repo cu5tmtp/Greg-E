@@ -30,6 +30,9 @@ ServerEvents.recipes(event => {
         .itemOutputs(
             'kubejs:mvalloy'
         )
+        .inputFluids(
+            'kubejs:mvcas 10'
+        )
         .duration(500)
         .EUt(120)
 

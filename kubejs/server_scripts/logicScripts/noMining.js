@@ -2,7 +2,9 @@
 BlockEvents.leftClicked(event => {
 
     const block = event.block
-    if (block.hasTag('forge:ores/desh')){       
+    const id = block.id.toString()
+
+    if (id.startsWith('ad_astra:') || id.startsWith('ad_extendra:')) {
         return; 
     }
 
