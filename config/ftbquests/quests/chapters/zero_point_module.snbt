@@ -42,7 +42,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71A04B1584677E3F"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			shape: "diamond"
@@ -69,7 +68,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "13761E04ED96D8DB"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.circuitsGalore}"
@@ -92,7 +90,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1D10BF5E4DD57A65"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.luv.subt.iv}"
@@ -114,7 +111,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "74263AF1FC22DD46"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.luv.subt.luv}"
@@ -140,7 +136,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3ECE14BB3713B06B"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.zpm}"
@@ -162,7 +157,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64D8E1362F7C77AA"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -241,13 +235,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "592051FE656E1B8C"
-					table_id: 5732951907492768982L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3A1AB95942194082"
-					table_id: 5732951907492768982L
 					type: "loot"
 				}
 			]
@@ -310,7 +302,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1EF50A1AD9F875F1"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.superconductors}"
@@ -333,7 +324,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "63A3B1E5622F2745"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -353,7 +343,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3249BFEB689D3910"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.changeUp}"
@@ -417,7 +406,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5B65E946D64E0AC0"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.neutronReflectors}"
@@ -647,7 +635,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7712C077085BAC34"
-					table_id: 5732951907492768982L
 					type: "loot"
 				}
 			]
@@ -721,7 +708,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "58362F2B01E043D8"
-					table_id: 5732951907492768982L
 					type: "loot"
 				}
 			]
@@ -853,7 +839,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5DD9224137BACB90"
-					table_id: 5732951907492768982L
 					type: "loot"
 				}
 			]
@@ -895,7 +880,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5B0BBB0A6E9936D3"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.zeroPoints}"
@@ -1024,7 +1008,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "61D0294B38B0E710"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.moreHeatNeeded}"
@@ -1073,7 +1056,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "22F0029DA71D0DEA"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.hpca}"
@@ -1196,7 +1178,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3019DE7F2FE5EABC"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1322,7 +1303,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0E29F26E227742B7"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1341,7 +1321,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64ABF923E9E3FE91"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1393,7 +1372,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71FD8E46A6C65220"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.assembler}"
@@ -1417,7 +1395,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "644BCB192181CBCA"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.zpm.subt.research}"
@@ -1519,196 +1496,6 @@
 			}]
 			x: 2.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["586266B2096D27A7"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.acu1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.acu2}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.acu3}"
-			]
-			id: "4624100EDC23C74F"
-			subtitle: "{atm9.quest.gregtech.zpm.subt.acu}"
-			tasks: [
-				{
-					id: "5C5CD0DF7C89234E"
-					item: "gtceu:advanced_cracking_unit"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "6FED209478A483CA"
-					item: "gtceu:hp_steam_solid_boiler"
-					type: "item"
-				}
-				{
-					count: 11L
-					id: "7CF9B87F837B9646"
-					item: { Count: 11, id: "gtceu:tungstensteel_firebox_casing" }
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "74838E9639987187"
-					item: {
-						Count: 24
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:rtm_alloy_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hssg_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:naquadah_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:cupronickel_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:kanthal_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:nichrome_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:trinium_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:tritanium_coil_block"
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "30C9B93110FE0356"
-					item: { Count: 15, id: "gtceu:tungstensteel_pipe_casing" }
-					type: "item"
-				}
-				{
-					count: 79L
-					id: "6E5BF2C1FE06C36C"
-					item: { Count: 79, id: "gtceu:robust_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "473B3DE82662068E"
-					item: { Count: 10, id: "gtceu:clean_machine_casing" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["586266B2096D27A7"]
-			description: [
-				"{atm9.quest.gregtech.zpm.desc.spo1}"
-				""
-				"{atm9.quest.gregtech.zpm.desc.spo2}"
-			]
-			id: "14975960BFCF6513"
-			subtitle: "{atm9.quest.gregtech.zpm.subt.spo}"
-			tasks: [
-				{
-					id: "398BDA0D26C5CD99"
-					item: "gtceu:superheated_pyrolyzing_oven"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "63F52A181517E26F"
-					item: { Count: 3, id: "gtceu:steel_firebox_casing" }
-					type: "item"
-				}
-				{
-					count: 21L
-					id: "13BB430810BAB4A7"
-					item: {
-						Count: 21
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:rtm_alloy_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hssg_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:naquadah_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:cupronickel_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:kanthal_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:nichrome_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:trinium_coil_block"
-								}
-								{
-									Count: 1b
-									id: "gtceu:tritanium_coil_block"
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "6E8D8FEBDEC3C2EC"
-					item: { Count: 18, id: "gtceu:ptfe_pipe_casing" }
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "6B81BBA65F3435AE"
-					item: { Count: 32, id: "gtceu:laminated_glass" }
-					type: "item"
-				}
-				{
-					count: 20L
-					id: "34B0EE21AB6CA6B3"
-					item: { Count: 20, id: "gtceu:high_temperature_smelting_casing" }
-					type: "item"
-				}
-				{
-					count: 74L
-					id: "36696C8DC852E41E"
-					item: { Count: 74, id: "gtceu:solid_machine_casing" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -3.0d
 		}
 	]
 	title: "ZPM"

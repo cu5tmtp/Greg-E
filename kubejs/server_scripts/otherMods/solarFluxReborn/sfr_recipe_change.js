@@ -90,16 +90,4 @@ ServerEvents.recipes((event) => {
         )
         .duration(500)
         .EUt(12080) 
-
-    //Solar panel 8    
-    event.recipes.gtceu.assembler('sp_eight')
-        .itemInputs(
-            '8x solarflux:sp_7',
-            '8x solarflux:photovoltaic_cell_6'
-        )
-        .itemOutputs(
-            '3x solarflux:sp_8'
-        )
-        .duration(500)
-        .EUt(48080) 
 });

@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: '#gtceu:circuits/ev',
-            B: 'botanicalextramachinery:malachite_ingot',
+            B: 'botanicalextramachinery:crimson_dragonstone_block',
             C: 'minecraft:blast_furnace',
             D: 'gtceu:ev_voltage_coil',
             E: 'gtceu:ev_machine_hull'

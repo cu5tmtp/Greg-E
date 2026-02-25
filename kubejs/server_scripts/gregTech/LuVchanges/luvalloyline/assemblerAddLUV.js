@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         .inputFluids(
             'kubejs:luvcas 10'
         )
-        .duration(20)
+        .duration(100)
         .EUt(GTValues.VA[GTValues.LuV])
 
 });

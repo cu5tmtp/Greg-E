@@ -4,19 +4,18 @@ ServerEvents.recipes((event) => {
         Item.of('gregecore:dysonswarmlauncher', 1),
         [
             ' A ',
-            'DBD',
+            'DCD',
             'CEC'
         ],
         {
             A: '#gtceu:circuits/zpm',
-            B: 'gregecore:solar_sail_case',
             C: 'gregecore:solar_sail',
             D: 'gtceu:zpm_electric_pump',
             E: 'gtceu:zpm_machine_hull'
         }
     )
 
-        event.shaped(
+    event.shaped(
         Item.of('gregecore:dysonswarmenergycollector', 1),
         [
             ' A ',
@@ -25,9 +24,22 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: '#gtceu:circuits/zpm',
-            C: 'gregecore:solar_sail_case',
+            C: 'solarflux:mirror',
             D: 'gtceu:zpm_electric_pump',
             E: 'gtceu:zpm_machine_hull'
+        }
+    )
+
+    event.shaped(
+        Item.of('gregecore:solar_sail', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'solarflux:mirror',
+            B: 'minecraft:lightning_rod'
         }
     )
 
@@ -36,9 +48,6 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'gregecore:solar_sail'
         )
-        .itemOutputs(
-            'gregecore:solar_sail_case'
-        )
         .EUt(GTValues.VA[GTValues.ZPM])
         .duration(5)
 
@@ -46,9 +55,6 @@ ServerEvents.recipes((event) => {
         .get_solar_sail_energy('getthatexpensiveenergyyay')
         .itemInputs(
             'gregecore:solar_activator'
-        )
-        .itemOutputs(
-            'kubejs:uncomp'
         )
         .duration(1200)
         .EUt(-5000000)

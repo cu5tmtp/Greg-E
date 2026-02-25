@@ -7,6 +7,7 @@ StartupEvents.registry('fluid', event => {
     event.create('evcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('EV Circuit Slurry')
     event.create('ivcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('IV Circuit Slurry')
     event.create('luvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('LuV Circuit Slurry')
+    event.create('zpmcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('ZPM Circuit Slurry')
     event.create('uvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('UV Circuit Slurry')
     event.create('uhvcas').thickTexture(0xFFF0F0).bucketColor(0xF0F0F0).displayName('UHV Circuit Slurry')
 

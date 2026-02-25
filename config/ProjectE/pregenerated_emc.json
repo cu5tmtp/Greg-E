@@ -34,5 +34,6 @@
   "gtceu:raw_pentlandite": 32192,
   "gtceu:raw_topaz": 32192,
   "gtceu:raw_apatite": 32192,
-  "kubejs:luvalloy": 257536
+  "kubejs:luvalloy": 257536,
+  "gtceu:rare_earth_dust": 128768
 }

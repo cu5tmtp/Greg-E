@@ -71,4 +71,16 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.IV])
         .blastFurnaceTemp(4000)
 
+    event.recipes.gtceu.electric_blast_furnace('superelementcoilget')
+        .itemInputs(
+            '8x gregecore:superelement27_foil',
+            '8x gregecore:superelement27_double_wire'
+        )
+        .itemOutputs(
+            'gregecore:superelement_coil'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LuV])
+        .blastFurnaceTemp(4000)
+
 });

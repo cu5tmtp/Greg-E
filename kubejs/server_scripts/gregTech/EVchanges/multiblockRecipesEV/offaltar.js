@@ -26,8 +26,7 @@ ServerEvents.recipes((event) => {
             'kubejs:holywater 1000'
         )
         .notConsumable('relics:holy_locket')
-        .duration(200)
-        .daytime()   
+        .duration(200) 
         .circuit(1)
 
     event.recipes.gtceu
@@ -40,7 +39,6 @@ ServerEvents.recipes((event) => {
         )
         .notConsumable('relics:holy_locket')
         .duration(5)
-        .daytime()  
         .circuit(2) 
         
         
@@ -56,7 +54,6 @@ ServerEvents.recipes((event) => {
             'gregecore:mythril_ingot'
         )
         .duration(200) 
-        .daytime()
         .circuit(1)
 
     event.recipes.gtceu
@@ -71,7 +68,6 @@ ServerEvents.recipes((event) => {
             'gregecore:mythril_ingot'
         )
         .duration(5) 
-        .daytime()
         .circuit(2)
 
     event.recipes.gtceu
@@ -81,7 +77,6 @@ ServerEvents.recipes((event) => {
             'kubejs:dwre'
         )
         .duration(200)  
-        .daytime()
 
     event.recipes.gtceu
         .offaltar('getbetterearth')
@@ -91,7 +86,6 @@ ServerEvents.recipes((event) => {
         )
         .notConsumable('relics:holy_locket')
         .duration(100)  
-        .daytime()
 
     event.recipes.gtceu
         .offaltar('getbetterearthfaster')
@@ -104,6 +98,5 @@ ServerEvents.recipes((event) => {
         )
         .notConsumable('relics:holy_locket')
         .duration(5)  
-        .daytime()
 
 })

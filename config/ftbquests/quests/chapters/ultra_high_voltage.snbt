@@ -48,13 +48,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "3F44AB57C50B81A8"
-					table_id: 8781463007120195614L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "221E07FA30C8438B"
-					table_id: 341947171990021391L
 					type: "loot"
 				}
 			]
@@ -82,7 +80,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "689AC54A19B9EE50"
-				table_id: 341947171990021391L
 				type: "loot"
 			}]
 			shape: "circle"
@@ -133,7 +130,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D7A9F44A20C359E"
-				table_id: 341947171990021391L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.needThis}"
@@ -160,7 +156,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2B3038B536DADF24"
-				table_id: 341947171990021391L
 				type: "loot"
 			}]
 			shape: "circle"
@@ -185,7 +180,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "48D1C1DAECEAAB94"
-				table_id: 341947171990021391L
 				type: "random"
 			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.tritaniumCoils}"
@@ -212,7 +206,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28EC4958E4D86290"
-				table_id: 341947171990021391L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.notEnough64}"
@@ -324,7 +317,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "10481F8A04D25540"
-				table_id: 8781463007120195614L
 				type: "loot"
 			}]
 			size: 1.0d
@@ -405,7 +397,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "556BE291ABBFB5A8"
-				table_id: 341947171990021391L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.gravityStars}"

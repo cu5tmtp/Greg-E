@@ -54,7 +54,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5E29138ECD0EA5AE"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.theseusHull}"
@@ -82,7 +81,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6BF32EF707257907"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			shape: "diamond"
@@ -106,7 +104,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6D17392565F396EB"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.stackingThemUp}"
@@ -132,7 +129,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "66FCEA1D3183EE2B"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.beginningOfTheEnd}"
@@ -151,7 +147,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "10C11563C6E2EC52"
-				table_id: 5732951907492768982L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.espensiveButWorthIt}"
@@ -219,7 +214,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "27AD25E82DD54F1F"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.triniumCoils}"
@@ -249,7 +243,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "75E52BC18CCD5CAA"
-					table_id: 1818042308417101752L
 					type: "loot"
 				}
 			]
@@ -273,7 +266,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1302BAF34B2A6BF5"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.lastDance}"
@@ -468,7 +460,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71BB60012EB5F292"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.fluidHeaters}"
@@ -689,7 +680,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "454F4BA3717F2C9D"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -711,7 +701,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "43F02BCFF646B3AE"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.5}"
@@ -733,7 +722,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "45B22C21A1BB8073"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.6}"
@@ -760,7 +748,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "75BFDF94F9491096"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.9}"
@@ -787,7 +774,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "080CC7CCD3172258"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -828,7 +814,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "44FF645D738A7987"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.11}"
@@ -996,7 +981,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5BFADD171B16EBCC"
-					table_id: 1818042308417101752L
 					type: "loot"
 				}
 			]
@@ -1068,7 +1052,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B94C6B0D0BA4841"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage}"
@@ -1344,7 +1327,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A3ECA6F42BB924D"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -1387,7 +1369,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1A92DD0B57233908"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.partyTime}"
@@ -1406,7 +1387,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E61E90EFC3053FF"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.bestPiston}"
@@ -1560,7 +1540,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "614A3FD46B1297E5"
-					table_id: 1818042308417101752L
 					type: "loot"
 				}
 			]
@@ -1700,7 +1679,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4AE197A6DF4177E7"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [
@@ -1742,7 +1720,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6A482B47F61E32C6"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1763,7 +1740,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6DF364F9EB7C41CC"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1784,7 +1760,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4215DF48488C1181"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1803,7 +1778,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2D7C54A7ED517761"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1822,7 +1796,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5FB19F977F0F3E12"
-				table_id: 1818042308417101752L
 				type: "loot"
 			}]
 			tasks: [{
