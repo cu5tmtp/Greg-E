@@ -1,8 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "6915D00C186DB378", title: "GregTech" }
-		{ id: "1DD75D8B702CB0A0", title: "Exploration" }
 		{ id: "2254075BD6985AA4", title: "AE2" }
-		{ id: "072E4908D6E773DC", title: "Useful mods" }
+		{ id: "1DD75D8B702CB0A0", title: "Sidequests" }
 	]
 }

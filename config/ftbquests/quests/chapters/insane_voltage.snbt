@@ -12,6 +12,7 @@
 		{
 			description: [""]
 			id: "64F77D41B2D057B8"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "6625077A99326B9D"
@@ -82,6 +83,7 @@
 			]
 			description: [""]
 			id: "2ACB94B77EF072EB"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "7351298A63054CA3"
@@ -358,6 +360,7 @@
 		{
 			description: [""]
 			id: "4AA6D19469FB306F"
+			shape: "square"
 			tasks: [{
 				id: "3C40CC44FAE84350"
 				item: "gtceu:niobium_titanium_dust"
@@ -433,6 +436,7 @@
 		{
 			description: [""]
 			id: "1C19DD6B3E34012E"
+			shape: "square"
 			tasks: [{
 				id: "66EB810BCE505C9F"
 				item: "gtceu:chloroform_bucket"
@@ -456,6 +460,7 @@
 		{
 			description: [""]
 			id: "43EBA1D735267C85"
+			shape: "square"
 			tasks: [{
 				id: "682A3DC9CB37D399"
 				item: "gtceu:fluorine_bucket"
@@ -652,6 +657,7 @@
 		{
 			description: [""]
 			id: "39B625FA20EAA025"
+			shape: "square"
 			tasks: [{
 				id: "68D0BF02B52C546A"
 				item: "gtceu:nitric_acid_bucket"
@@ -663,6 +669,7 @@
 		{
 			description: [""]
 			id: "6F8E6D84D31651D5"
+			shape: "square"
 			tasks: [{
 				id: "061565CB40A69AB3"
 				item: "gtceu:chlorobenzene_bucket"
@@ -687,6 +694,7 @@
 		{
 			description: [""]
 			id: "6AD5F24DA80B93A8"
+			shape: "square"
 			tasks: [{
 				id: "35D4D665BA3535F7"
 				item: "gtceu:dichlorobenzene_bucket"
@@ -710,6 +718,7 @@
 		{
 			description: [""]
 			id: "6A86F8FB2B3A3425"
+			shape: "square"
 			tasks: [{
 				id: "3F4D687187DC2893"
 				item: "gtceu:antimony_dust"
@@ -734,6 +743,7 @@
 		{
 			description: ["{atm9.quest.gregtech.iv.desc.tungstenAcquisition.1}\\n\\n{atm9.quest.gregtech.iv.desc.tungstenAcquisition.2}"]
 			id: "00BF4E98A328801D"
+			shape: "square"
 			tasks: [{
 				id: "7AB2FCA85A20F48C"
 				item: "gtceu:tungstic_acid_dust"
@@ -759,6 +769,7 @@
 			hide_dependency_lines: true
 			id: "19BA973FECFA3B06"
 			min_width: 300
+			shape: "square"
 			tasks: [{
 				id: "08FD542F3DED5422"
 				item: "gtceu:radon_bucket"
@@ -993,6 +1004,7 @@
 		{
 			description: [""]
 			id: "4C83B804A6AEB033"
+			shape: "square"
 			tasks: [{
 				id: "1DFC03AF10A7050D"
 				item: "gtceu:butyraldehyde_bucket"
@@ -1016,6 +1028,7 @@
 		{
 			description: [""]
 			id: "7E407CDBFD85E65F"
+			shape: "square"
 			tasks: [{
 				id: "47D630FAA125ACD5"
 				item: "gtceu:acetic_acid_bucket"
@@ -1131,6 +1144,7 @@
 		{
 			description: [""]
 			id: "2FDACD6F153D5B64"
+			shape: "square"
 			tasks: [{
 				id: "3E85E016A9FC831F"
 				item: "gtceu:purified_cooperite_ore"
@@ -1358,6 +1372,7 @@
 		{
 			description: ["If you're like wtf how do I make those models better, use this, with this upgrade."]
 			id: "3124B071FC69F8CB"
+			shape: "square"
 			tasks: [
 				{
 					id: "45A61D02747989BB"

@@ -21,6 +21,10 @@ ServerEvents.recipes((event) =>{
             name: 'forgotten_ingot', 
             replacement: 'undergarden:forgotten_ingot'
         },
+        { 
+            name: 'blood_infused', 
+            replacement: 'kubejs:bloodinfused'
+        },
     ];
 
     const wireTypes = [

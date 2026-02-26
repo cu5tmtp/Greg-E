@@ -15,6 +15,7 @@
   "minecraft:diamond": 64,
   "minecraft:quartz": 64,
   "minecraft:gold_ingot": 64,
+  "minecraft:emerald": 64,
   "kubejs:lvalloy": 256,
   "kubejs:seniron": 512,
   "gtceu:silver_ingot": 512,
@@ -35,5 +36,9 @@
   "gtceu:raw_topaz": 32192,
   "gtceu:raw_apatite": 32192,
   "kubejs:luvalloy": 257536,
-  "gtceu:rare_earth_dust": 128768
+  "gtceu:rare_earth_dust": 128768,
+  "kubejs:animated/zpmalloy": 1030144,
+  "gtceu:raw_beryllium": 515072,
+  "gtceu:raw_stibnite": 515072,
+  "gtceu:raw_naquadah": 515072
 }

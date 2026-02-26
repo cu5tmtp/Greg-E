@@ -16,11 +16,6 @@
 				"There were components that are needed for the Wetware Processor Mainframe, which will be covered in this section. "
 			]
 			id: "2EA74A823D55D472"
-			rewards: [{
-				id: "138C41B0779E8FD9"
-				type: "xp"
-				xp: 1000
-			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.mainFrame}"
@@ -44,18 +39,6 @@
 			]
 			icon: "gregecore:enhancedfr"
 			id: "39CD35C91F07258C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3F44AB57C50B81A8"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "221E07FA30C8438B"
-					type: "loot"
-				}
-			]
 			shape: "gear"
 			size: 1.6d
 			tasks: [{
@@ -77,11 +60,6 @@
 			]
 			icon: "gtceu:uv_fusion_reactor"
 			id: "6E18951E41103391"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "689AC54A19B9EE50"
-				type: "loot"
-			}]
 			shape: "circle"
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.mk3}"
@@ -127,11 +105,6 @@
 			description: ["{atm9.quest.gregtech.uhv.desc.uvCircuitAssembler}"]
 			id: "0CBF5A49066468DD"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D7A9F44A20C359E"
-				type: "loot"
-			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.needThis}"
 			tasks: [{
 				id: "3C9575096E4E44E0"
@@ -153,11 +126,6 @@
 				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.2}"
 			]
 			id: "5561EB1E3DD77EC5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B3038B536DADF24"
-				type: "loot"
-			}]
 			shape: "circle"
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.uhvTop}"
@@ -177,11 +145,6 @@
 				"{atm9.quest.gregtech.uhv.desc.monsterCoils.2}"
 			]
 			id: "44EE336BC265D21C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "48D1C1DAECEAAB94"
-				type: "random"
-			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.tritaniumCoils}"
 			tasks: [{
 				id: "204D0E0D57E23E89"
@@ -203,11 +166,6 @@
 			]
 			id: "0D59094D0C23C44F"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28EC4958E4D86290"
-				type: "loot"
-			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.notEnough64}"
 			tasks: [{
 				id: "685632AB2A3AFA5C"
@@ -225,11 +183,6 @@
 				"{atm9.quest.gregtech.uhv.desc.uhvHull.2}"
 			]
 			id: "337B492F974628A4"
-			rewards: [{
-				id: "2504A95AFC702921"
-				item: "gtceu:uhv_machine_hull"
-				type: "item"
-			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.wheresMachines}"
 			tasks: [{
 				id: "10FC27F148761FA1"
@@ -250,13 +203,6 @@
 				"{atm9.quest.gregtech.uhv.desc.complexIngot.2}"
 			]
 			id: "702CE73E39E4D4BD"
-			rewards: [{
-				count: 4
-				id: "1ED0731892366C24"
-				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
-				random_bonus: 8
-				type: "item"
-			}]
 			subtitle: "{atm9.quest.gregtech.uhv.subt.complicatedThings}"
 			tasks: [{
 				id: "2EDA6683F4114183"
@@ -283,27 +229,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["702CE73E39E4D4BD"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.bulkBlastChiller.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.bulkBlastChiller.2}"
-			]
-			icon: "gtceu:mega_vacuum_freezer"
-			id: "67AA17BCDE37DFAB"
-			shape: "circle"
-			subtitle: "{atm9.quest.gregtech.uhv.subt.bulkBlastChiller}"
-			tasks: [{
-				id: "28EEC6756486D379"
-				item: "gtceu:mega_vacuum_freezer"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 4.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -314,11 +241,6 @@
 				"{atm9.quest.gregtech.uhv.desc.jumpStart.3}"
 			]
 			id: "054D2D3C20C2D32F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10481F8A04D25540"
-				type: "loot"
-			}]
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.greatSuccess}"
 			tasks: [{
@@ -333,28 +255,6 @@
 			dependencies: ["6E18951E41103391"]
 			description: ["{atm9.quest.gregtech.uhv.desc.neutronium}"]
 			id: "695E846B663EC185"
-			rewards: [{
-				id: "0C7A433FBA240813"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Amount: 16000
-							FluidName: "gtceu:neutronium"
-							capacity: 16000
-						}
-					}
-					id: "evilcraft:dark_tank"
-					tag: {
-						Fluid: {
-							Amount: 16000
-							FluidName: "gtceu:neutronium"
-						}
-						capacity: 16000
-					}
-				}
-				type: "item"
-			}]
 			shape: "circle"
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.zpm.subt.superNeutronium}"
@@ -374,13 +274,6 @@
 				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.30}"
 			]
 			id: "142D12B41C36D68A"
-			rewards: [{
-				count: 3
-				id: "473AF9906EB7EF01"
-				item: "gtceu:neutronium_boule"
-				random_bonus: 3
-				type: "item"
-			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.18}"
 			tasks: [{
 				id: "0EB38073B9196667"
@@ -394,11 +287,6 @@
 			dependencies: ["695E846B663EC185"]
 			description: ["{atm9.quest.gregtech.uv.desc.gravistarImportance.1}"]
 			id: "6786C701B7C4980B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "556BE291ABBFB5A8"
-				type: "loot"
-			}]
 			subtitle: "{atm9.quest.gregtech.uv.subt.gravityStars}"
 			tasks: [{
 				id: "6B219FCE15079A27"
@@ -416,8 +304,8 @@
 				item: "gregecore:learning_acc_ebf"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -9.5d
+			y: 4.0d
 		}
 	]
 	title: "UHV"

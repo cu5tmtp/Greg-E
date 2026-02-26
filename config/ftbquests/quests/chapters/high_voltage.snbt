@@ -22,6 +22,7 @@
 			dependencies: ["2C28217E1131A63A"]
 			description: [""]
 			id: "70C952B8FF3418F6"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "12A2731FC755513E"
@@ -75,6 +76,7 @@
 			]
 			description: [""]
 			id: "0DB4226BA23A5C09"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "7497784245BE7D72"
@@ -261,6 +263,7 @@
 			description: [""]
 			id: "4FD6092D9C2A485C"
 			min_width: 300
+			shape: "square"
 			tasks: [{
 				id: "75E95ED497B33048"
 				item: "gtceu:stainless_steel_dust"
@@ -369,31 +372,36 @@
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
-			description: [
-				"From now on, quests will be more of a guide line, it will now longer hold you by your hand. You will have to search more for the recipes in EMI, but I promise this will make you a better modded player! I'll still inform you if some item is tied to a ulocking of a portal or something."
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				""
-				"(I definetly did not do this change because making quests is so boring)"
-			]
-			id: "78D5C1E64951CB3F"
+			id: "5B6769301B164292"
 			tasks: [{
-				id: "07D7B1DB7B780692"
-				title: "Where quests?"
-				type: "checkmark"
+				id: "1169F4A1CD9D65EE"
+				item: "kubejs:hvalloy"
+				type: "item"
 			}]
-			x: -10.5d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C952B8FF3418F6"]
+			id: "6E8DA602E5F94ADB"
+			tasks: [{
+				id: "3C59A65E0EA4B4EA"
+				item: "gregecore:desh_cable_single_wire"
+				type: "item"
+			}]
+			x: -9.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6E8DA602E5F94ADB"]
+			id: "487F9415CA8F687A"
+			tasks: [{
+				id: "4AF26852591ACF81"
+				item: "gregecore:desh_coil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
 		}
 	]
 	title: "HV"

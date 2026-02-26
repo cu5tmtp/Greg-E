@@ -69,6 +69,10 @@ StartupEvents.registry('item', event => {
     event.create('iceshard').displayName('Ice Shard')
     event.create('gassydust').displayName('Crystallized Gasses')
     event.create('evilsoul').displayName('Evil Soul')
+    event.create('runeingot').displayName('Rune Ingot')
+    event.create('bloodinfused').displayName('Blood Infused Ingot')
+    event.create('activatedrune').displayName('Activated Ore Rune')
+    event.create('rune').displayName('Ore Rune')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

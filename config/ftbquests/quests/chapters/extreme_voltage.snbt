@@ -22,6 +22,7 @@
 			dependencies: ["0DB4226BA23A5C09"]
 			description: [""]
 			id: "5241693278027FFD"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "17E7D25D83B98E80"
@@ -35,6 +36,7 @@
 			dependencies: ["6805CC8AD6010F33"]
 			description: [""]
 			id: "2E47C92E3E8D826A"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "23FFAB356FE1CA42"
@@ -471,6 +473,7 @@
 		{
 			description: [""]
 			id: "228D1C880563CCBB"
+			shape: "square"
 			tasks: [{
 				id: "7B7128EECA64BD03"
 				item: "gtceu:steam_bucket"
@@ -586,6 +589,39 @@
 			}]
 			x: -4.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			id: "09D4776DA09DBEEC"
+			tasks: [{
+				id: "2F1BDD3BC363FDF3"
+				item: "kubejs:evalloy"
+				type: "item"
+			}]
+			x: -3.8214285714285694d
+			y: 1.9642857142857153d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			id: "73D9404F8F598E84"
+			tasks: [{
+				id: "0F8BC9730EECC4C9"
+				item: "gregecore:malachite_cable_single_wire"
+				type: "item"
+			}]
+			x: -3.8214285714285694d
+			y: 0.8571428571428612d
+		}
+		{
+			dependencies: ["73D9404F8F598E84"]
+			id: "2E07266CC4928236"
+			tasks: [{
+				id: "37C1EACEB2792487"
+				item: "gregecore:malachite_coil"
+				type: "item"
+			}]
+			x: -3.8214285714285836d
+			y: -0.4642857142857153d
 		}
 	]
 	title: "EV"

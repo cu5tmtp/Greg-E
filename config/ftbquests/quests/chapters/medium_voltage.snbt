@@ -22,6 +22,7 @@
 			dependencies: ["4D6885EFA4EE272F"]
 			description: [""]
 			id: "262AE37765B139BE"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "7DECEDB572639CFF"
@@ -40,6 +41,7 @@
 			description: [""]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "2C28217E1131A63A"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [
 				{
@@ -182,7 +184,7 @@
 		{
 			description: [""]
 			id: "26D1F1ECF66194E6"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "6A276D195CB7BAD1"
 				item: "gtceu:silicon_boule"
@@ -430,7 +432,7 @@
 		{
 			description: [""]
 			id: "6300791605A757B0"
-			shape: "circle"
+			shape: "square"
 			tasks: [{
 				id: "577EEBAF4FACDCA1"
 				item: "gtceu:plant_ball"

@@ -44,22 +44,22 @@ ServerEvents.recipes((event) => {
 
 
     const mycolors = [
-        { id: 'petwhite', output: 'botania:white_petal', circuit: 1 },
-        { id: 'petorange', output: 'botania:orange_petal', circuit: 2 },
-        { id: 'petmagenta', output: 'botania:magenta_petal', circuit: 3 },
-        { id: 'petlight_blue', output: 'botania:light_blue_petal', circuit: 4 },
-        { id: 'petyellow', output: 'botania:yellow_petal', circuit: 5 },
-        { id: 'plime', output: 'botania:lime_petal', circuit: 6 },
-        { id: 'petpink', output: 'botania:pink_petal', circuit: 7 },
-        { id: 'petgray', output: 'botania:gray_petal', circuit: 8 },
-        { id: 'petlight_gray', output: 'botania:light_gray_petal', circuit: 9 },
-        { id: 'ptcyan', output: 'botania:cyan_petal', circuit: 18 },
-        { id: 'pepurple', output: 'botania:purple_petal', circuit: 17 },
-        { id: 'pblue', output: 'botania:blue_petal', circuit: 12 },
-        { id: 'petbrown', output: 'botania:brown_petal', circuit: 13 },
-        { id: 'petgreen', output: 'botania:green_petal', circuit: 14 },
-        { id: 'pred', output: 'botania:red_petal', circuit: 15 },
-        { id: 'petblack', output: 'botania:black_petal', circuit: 16 }
+        { id: 'petwhite', output: 'botania:white_petal', circuit: 17 },
+        { id: 'petorange', output: 'botania:orange_petal', circuit: 18 },
+        { id: 'petmagenta', output: 'botania:magenta_petal', circuit: 19 },
+        { id: 'petlight_blue', output: 'botania:light_blue_petal', circuit: 20 },
+        { id: 'petyellow', output: 'botania:yellow_petal', circuit: 21 },
+        { id: 'plime', output: 'botania:lime_petal', circuit: 22 },
+        { id: 'petpink', output: 'botania:pink_petal', circuit: 23 },
+        { id: 'petgray', output: 'botania:gray_petal', circuit: 24 },
+        { id: 'petlight_gray', output: 'botania:light_gray_petal', circuit: 25 },
+        { id: 'ptcyan', output: 'botania:cyan_petal', circuit: 26 },
+        { id: 'pepurple', output: 'botania:purple_petal', circuit: 27 },
+        { id: 'pblue', output: 'botania:blue_petal', circuit: 28 },
+        { id: 'petbrown', output: 'botania:brown_petal', circuit: 29 },
+        { id: 'petgreen', output: 'botania:green_petal', circuit: 30 },
+        { id: 'pred', output: 'botania:red_petal', circuit: 31 },
+        { id: 'petblack', output: 'botania:black_petal', circuit: 32 }
     ]
 
     mycolors.forEach(color => {

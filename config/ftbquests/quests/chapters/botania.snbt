@@ -3,10 +3,10 @@
 	default_min_width: 200
 	default_quest_shape: ""
 	filename: "botania"
-	group: "072E4908D6E773DC"
+	group: "1DD75D8B702CB0A0"
 	icon: "botania:lexicon"
 	id: "1883B79BDB2AAE5D"
-	order_index: 1
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -358,6 +358,24 @@
 			}]
 			x: 10.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: ["My favourite pickaxe!"]
+			id: "4AAFA959D448810A"
+			tasks: [{
+				id: "7E7D8048D287FAE7"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
 		}
 	]
 	title: "Botania"

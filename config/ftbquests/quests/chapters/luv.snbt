@@ -243,6 +243,7 @@
 			dependencies: ["3DAD37FF47259B40"]
 			description: ["In 9 quests a circuit huh? Yeah, its not as easy as it seems. Also, if you're new to GregTech, try to batch craft, meaning you craft like 16 circuits at a time. More time consuming, yes, but it will pay off in faster progression."]
 			id: "0CEC51F03B40A107"
+			shape: "pentagon"
 			tasks: [{
 				id: "3A0E7F7510DE4D00"
 				item: "gtceu:basic_electronic_circuit"

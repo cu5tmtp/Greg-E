@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
       output: {
         item: 'kubejs:evilsoul',
       },
-      upgradeLevel: 5,
+      upgradeLevel: 4,
     });
 
     event.custom({
@@ -31,7 +31,77 @@ ServerEvents.recipes((event) => {
       output: {
         item: 'gregecore:solar_activator',
       },
-      upgradeLevel: 5,
+      upgradeLevel: 4,
+    });
+
+    event.custom({
+      type: 'bloodmagic:altar',
+      altarSyphon: 5000,
+      consumptionRate: 250,
+      drainRate: 250,
+      input: {
+        item: 'kubejs:runeingot',
+      },
+      output: {
+        item: 'kubejs:bloodinfused',
+      },
+      upgradeLevel: 2,
+    });
+
+    event.custom({
+      type: 'bloodmagic:altar',
+      altarSyphon: 5000,
+      consumptionRate: 250,
+      drainRate: 250,
+      input: {
+        item: 'bloodmagic:demonslate',
+      },
+      output: {
+        item: 'kubejs:runeingot',
+      },
+      upgradeLevel: 2,
+    });
+
+    event.custom({
+      type: 'bloodmagic:altar',
+      altarSyphon: 300,
+      consumptionRate: 60,
+      drainRate: 60,
+      input: {
+        item: 'kubejs:gassydust',
+      },
+      output: {
+        item: 'kubejs:rune',
+      },
+      upgradeLevel: 2,
+    });
+
+    event.custom({
+      type: 'bloodmagic:altar',
+      altarSyphon: 300,
+      consumptionRate: 60,
+      drainRate: 60,
+      input: {
+        item: 'kubejs:rune',
+      },
+      output: {
+        item: 'kubejs:activatedrune',
+      },
+      upgradeLevel: 2,
+    });
+
+    event.custom({
+      type: 'bloodmagic:altar',
+      altarSyphon: 3000,
+      consumptionRate: 600,
+      drainRate: 600,
+      input: {
+        item: 'kubejs:seniron',
+      },
+      output: {
+        item: 'bloodmagic:basemonstersoul',
+      },
+      upgradeLevel: 3,
     });
 
 });

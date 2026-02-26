@@ -105,4 +105,13 @@ ServerEvents.recipes((event) => {
         .EUt(15)
         .circuit(6)
 
+    event.recipes.gtceu.centrifuge('commonearth_emerald')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .chancedOutput('minecraft:emerald', 100, 0)
+        .duration(100)
+        .EUt(15)
+        .circuit(7)
+
 });

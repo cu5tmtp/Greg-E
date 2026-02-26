@@ -10,7 +10,11 @@ ItemEvents.tooltip((event) => {
             'kubejs:hvalloy',
             'kubejs:evalloy',
             'kubejs:ivalloy',
-            'kubejs:luvalloy'
+            'kubejs:luvalloy',
+            'kubejs:animated/zpmalloy',
+            'kubejs:uvalloy',
+            'kubejs:uhvalloy'
+
         ],
         (item, advanced, text) => {
             text.add(1, Text.red('WARNING: Not learnable in transmutating table!'));

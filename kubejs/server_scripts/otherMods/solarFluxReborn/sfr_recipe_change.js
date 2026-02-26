@@ -90,4 +90,6 @@ ServerEvents.recipes((event) => {
         )
         .duration(500)
         .EUt(12080) 
+
+    //no more recipies for this, get the Dyson swarm multiblocks!
 });

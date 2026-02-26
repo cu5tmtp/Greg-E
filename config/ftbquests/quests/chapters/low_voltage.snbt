@@ -22,7 +22,8 @@
 			dependencies: ["0CEC51F03B40A107"]
 			description: ["Yay LV!"]
 			id: "5C1BB559DD83E88F"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "08EA6CE798092CE9"
 				item: "gtceu:basic_electronic_circuit"
@@ -38,6 +39,7 @@
 			]
 			description: ["Yay progress!"]
 			id: "4D6885EFA4EE272F"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "312B4A8B539DCD5D"
