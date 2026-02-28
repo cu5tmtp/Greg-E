@@ -57,6 +57,15 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+        event.addAdvanced(
+        [
+            'gtceu:bacteriabreeder'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.white('Machine modes: Bacteria Breeding, Bacteria Multiplying'));
+        }
+    );
+
     event.addAdvanced(
         [
             'kubejs:dwre'

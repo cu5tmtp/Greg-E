@@ -73,6 +73,9 @@ StartupEvents.registry('item', event => {
     event.create('bloodinfused').displayName('Blood Infused Ingot')
     event.create('activatedrune').displayName('Activated Ore Rune')
     event.create('rune').displayName('Ore Rune')
+    event.create('witchlabflask').displayName('Witch’s Lab Flask')
+    event.create('bacterialmatter').displayName('Bacterial Matter')
+    event.create('bacterialmatteringot').displayName('Bacterial Matter Ingot')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')
@@ -103,6 +106,18 @@ StartupEvents.registry('item', event => {
     event.create('animated/guicomptwo').displayName('Guidance Computer T2')
     event.create('animated/guicompthree').displayName('Guidance Computer T3')
 
-
+    event.create('bacterias/simplebacteria1').displayName('Plague Strain');
+    event.create('bacterias/simplebacteria2').displayName('Graveyard Bacillus');
+    event.create('bacterias/simplebacteria3').displayName('Swamp Culture');
+    event.create('bacterias/simplebacteria4').displayName('Blood Streptococcus');
+    event.create('bacterias/simplebacteria5').displayName('Necrotic Bacteria');
+    event.create('bacterias/simplebacteria6').displayName('Lunar Microbe');
+    event.create('bacterias/simplebacteria7').displayName('Shadow Pathogen');
+    event.create('bacterias/simplebacteria8').displayName('Acidic Slime');
+    event.create('bacterias/simplebacteria9').displayName('Glowing Spore');
+    event.create('bacterias/simplebacteria10').displayName('Alchemical Ferment');
+    event.create('bacterias/simplebacteria11').displayName('Mutated Phage');
+    event.create('bacterias/simplebacteria12').displayName('Crystalline Bacteria');
+    event.create('bacterias/simplebacteria13').displayName('Progenitor Bacteria');
 
 })

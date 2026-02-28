@@ -25,6 +25,10 @@ ServerEvents.recipes((event) =>{
             name: 'blood_infused', 
             replacement: 'kubejs:bloodinfused'
         },
+        { 
+            name: 'bacterial_matter', 
+            replacement: 'kubejs:bacterialmatteringot'
+        },
     ];
 
     const wireTypes = [

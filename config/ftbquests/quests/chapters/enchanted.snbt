@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "malum"
+	filename: "enchanted"
 	group: "1DD75D8B702CB0A0"
-	icon: "malum:spirit_altar"
-	id: "00C5BFB40B709801"
+	icon: "enchanted:witch_cauldron"
+	id: "7481437E877EC67C"
 	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
-	title: "Malum"
+	title: "Enchanted"
 }

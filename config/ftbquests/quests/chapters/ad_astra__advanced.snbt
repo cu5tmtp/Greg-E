@@ -6,14 +6,7 @@
 	icon: {
 		Count: 1
 		id: "ad_extendra:tier_9_rocket"
-		tag: {
-			BotariumData: {
-				StoredFluids: [{
-					Amount: 3000L
-					Fluid: "ad_astra:fuel"
-				}]
-			}
-		}
+		tag: { }
 	}
 	id: "0B2DD689131AF54A"
 	order_index: 1

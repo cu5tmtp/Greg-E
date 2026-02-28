@@ -64,6 +64,16 @@
   "block.gtceu.zerogravmixer": "Zero Gravity Mixer",
   "gtceu.zerogravmixer": "Zero Gravity Mixer",
 
+  "block.gtceu.laboratory": "Laboratory",
+  "gtceu.laboratory": "Laboratory",
+
+  "block.gtceu.bacteriabreeder": "Bacteria Breeder",
+  "gtceu.bacteriabreeder": "Bacteria Breeding",
+  "gtceu.bacteriabreedercycle": "Bacteria Multiplying",
+
+  "block.gtceu.bigwitchcauldron": "Big Witch’s Cauldron",
+  "gtceu.bigwitchcauldron": "Big Witch’s Cauldron",
+
   "biome.ad_astra.orbit": "Earth Orbit",
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",

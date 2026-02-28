@@ -576,7 +576,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["402FE874C854840C"]
@@ -624,7 +624,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0BD28AAC069C14F4"]
@@ -636,7 +636,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2036ED4A823C1456"]
@@ -757,7 +757,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.7142857142857082d
 			y: 9.0d
 		}
 	]
