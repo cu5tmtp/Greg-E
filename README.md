@@ -1,1 +1,2 @@
-# grege
+# GregE
+These are the modpack files!
