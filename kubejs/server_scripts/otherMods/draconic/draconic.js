@@ -1,0 +1,123 @@
+ServerEvents.recipes((event) => {
+
+    event.replaceInput(
+        'draconicevolution:components/draconium_core',
+        'minecraft:diamond',
+        '#gtceu:circuits/zpm'
+    )
+
+    event.replaceInput(
+        'draconicevolution:components/wyvern_core',
+        'minecraft:nether_star',
+        '#gtceu:circuits/uv'
+    )
+
+    event.replaceInput(
+        'draconicevolution:modules/item_wyvern_shield_control',
+        'draconicevolution:dragon_heart',
+        '#gtceu:circuits/uhv'
+    )
+
+    event.remove({id: 'draconicevolution:awakened_draconium_block'})
+    event.remove({id: 'draconicevolution:components/awakened_core'})
+
+    event.custom({
+      type: 'draconicevolution:fusion_crafting',
+      catalyst: {
+        item: 'draconicevolution:draconium_block'
+      },
+      ingredients: [
+        {
+          item: 'draconicevolution:draconium_core'
+        },
+        {
+          item: 'draconicevolution:draconium_core'
+        },
+        {
+          item: 'draconicevolution:draconium_core'
+        },
+        {
+          item: 'draconicevolution:draconium_core'
+        },
+        {
+          item: 'draconicevolution:draconium_core'
+        },
+        {
+          item: 'gtceu:wetware_processor_mainframe'
+        },
+        {
+          item: 'draconicevolution:draconium_core'
+        }
+      ],
+      result: {
+        item: 'draconicevolution:awakened_draconium_block'
+      },
+      tier: 'WYVERN',
+      total_energy: 1280000,
+    })
+    .id('newforawakenedblock');
+
+    event.custom({
+      type: 'draconicevolution:fusion_crafting',
+      catalyst: {
+        item: 'gtceu:wetware_processor_mainframe'
+      },
+      ingredients: [
+        {
+          item: 'draconicevolution:wyvern_core'
+        },
+        {
+          item: 'draconicevolution:wyvern_core'
+        },
+        {
+          item: 'draconicevolution:wyvern_core'
+        },
+        {
+          item: 'draconicevolution:wyvern_core'
+        },
+        {
+          item: 'draconicevolution:awakened_draconium_ingot'
+        },
+        {
+          item: 'draconicevolution:awakened_draconium_ingot'
+        },
+        {
+          item: 'draconicevolution:awakened_draconium_ingot'
+        },
+        {
+          item: 'draconicevolution:awakened_draconium_ingot'
+        },
+      ],
+      result: {
+        item: 'draconicevolution:awakened_core'
+      },
+      tier: 'WYVERN',
+      total_energy: 1280000,
+    })
+    .id('newforawakenedcore');
+
+    event.custom({
+      type: 'draconicevolution:fusion_crafting',
+      catalyst: {
+        item: 'draconicevolution:dragon_heart'
+      },
+      ingredients: [
+        {
+          item: 'kubejs:animated/uvalloy'
+        },
+        {
+          item: 'kubejs:animated/uvalloy'
+        }
+      ],
+      result: {
+        item: 'kubejs:animated/uhvalloy'
+      },
+      tier: 'WYVERN',
+      total_energy: 1280000,
+    })
+    .id('uhvalloyyaaaay');
+
+
+
+
+})

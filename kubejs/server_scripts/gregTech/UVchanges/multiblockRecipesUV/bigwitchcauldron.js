@@ -20,6 +20,9 @@ ServerEvents.recipes((event) => {
             '2x kubejs:animated/zpmalloy',
             'enchanted:mystic_unguent'
         )
+        .inputFluids(
+            'kubejs:uvcas 10'
+        )
         .itemOutputs(
             'kubejs:animated/uvalloy'
         )
@@ -61,6 +64,16 @@ ServerEvents.recipes((event) => {
         )
         .itemOutputs(
             'enchanted:redstone_soup'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+
+    event.recipes.gtceu.bigwitchcauldron('getcollecteddust')
+        .itemInputs(
+            '2x kubejs:activatedrune'
+        )
+        .itemOutputs(
+            'kubejs:dustwithbroom'
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)

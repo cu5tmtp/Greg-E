@@ -1,4 +1,5 @@
 {
+	autofocus_id: "514C9FE7A4995F36"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "avaritia"
@@ -7,15 +8,50 @@
 	id: "407DDCEF45EF7565"
 	order_index: 10
 	quest_links: [ ]
-	quests: [{
-		id: "433308CADCABF703"
-		tasks: [{
-			id: "5C82BD02CDE66CDB"
-			item: "gregecore:starmaykr"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["29E007A7BC7E6B4E"]
+			id: "433308CADCABF703"
+			tasks: [{
+				id: "5C82BD02CDE66CDB"
+				item: "gregecore:starmaykr"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "514C9FE7A4995F36"
+			tasks: [{
+				id: "088F26D1C0FC4322"
+				item: "kubejs:animated/draconicprocessor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29E007A7BC7E6B4E"]
+			id: "338C409F0D35F333"
+			tasks: [{
+				id: "08EA67DA2C737BFB"
+				item: "gregecore:fornaxuniversi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["514C9FE7A4995F36"]
+			id: "29E007A7BC7E6B4E"
+			tasks: [{
+				id: "2FBEA0D83D7170B7"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 	title: "Avaritia"
 }

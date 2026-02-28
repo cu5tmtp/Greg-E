@@ -29,6 +29,14 @@ ServerEvents.recipes((event) =>{
             name: 'bacterial_matter', 
             replacement: 'kubejs:bacterialmatteringot'
         },
+        { 
+            name: 'draconium', 
+            replacement: 'draconicevolution:draconium_ingot'
+        },
+        { 
+            name: 'awakened_draconium', 
+            replacement: 'draconicevolution:awakened_draconium_ingot'
+        }
     ];
 
     const wireTypes = [

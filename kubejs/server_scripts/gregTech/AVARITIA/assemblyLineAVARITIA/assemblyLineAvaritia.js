@@ -1,0 +1,53 @@
+ServerEvents.recipes((event) => {
+
+    event.recipes.gtceu.assembly_line('getdraconiumprocessor')
+        .itemInputs(
+            '3x #gtceu:circuits/uhv',
+            'gtceu:neutronium_frame',
+            '64x gtceu:advanced_smd_diode',
+            '64x gtceu:advanced_smd_capacitor',
+            '64x gtceu:advanced_smd_transistor',
+            '64x gtceu:advanced_smd_resistor',
+            '64x gtceu:advanced_smd_inductor',
+            '64x gtceu:polybenzimidazole_foil',
+            '64x gtceu:ram_chip',
+            '64x gtceu:ram_chip',
+            '16x gregecore:awakened_draconium_cable_double_wire',
+            '8x gtceu:neutronium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 5000',
+            'gtceu:polybenzimidazole 3000'
+        )
+        .itemOutputs('kubejs:animated/draconicprocessor')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_mainframe')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line('getavaritiat4crafting')
+        .itemInputs(
+            '4x kubejs:animated/draconicprocessor',
+            '4x gtceu:neutronium_frame',
+            '32x avaritia:crystal_matrix',
+            '8x gtceu:neutronium_plate',
+            'minecraft:beacon'
+        )
+        .itemOutputs('avaritia:extreme_crafting_table')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('avaritia:double_compressed_crafting_table')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line('getstarfeeder')
+        .itemInputs(
+            '8x kubejs:animated/draconicprocessor',
+            '4x gtceu:neutronium_frame',
+            '32x gtceu:atomic_casing',
+            '8x gtceu:neutronium_plate',
+            '8x pipez:item_pipe'
+        )
+        .itemOutputs('gregecore:star_feeder')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_input_bus')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+
+})

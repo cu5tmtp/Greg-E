@@ -1,7 +1,7 @@
 {
     "entity": "draconicevolution:draconic_guardian",
     "variants": [],
-    "name": "entity.draconicevolution.draconic_guardian",
+    "name": "Draconic Guardian",
     "name_color": "#FF0F0F",
     "gui_scale": 0.5,
     "gui_x_offset": 0,
@@ -14,10 +14,13 @@
     "base_drop": {
         "item": "hostilenetworks:end_prediction"
     },
-    "trivia": "hostilenetworks.trivia.draconic_guardian",
+    "trivia": "He WILL kill you!",
     "fabricator_drops": [
         {
-            "item": "minecraft:iron_block"
+            "item": "draconicevolution:dragon_heart"
+        },
+        {
+            "item": "minecraft:dragon_egg"
         }
     ],
     "tier_data": [1, 32765, 32766, 32767],                      

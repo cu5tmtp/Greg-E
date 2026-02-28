@@ -10,46 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"I know it seems odd that we Finished off the last section and started this section with just the Supercomputer. But there is a reason for that."
-				""
-				"There were components that are needed for the Wetware Processor Mainframe, which will be covered in this section. "
-			]
-			id: "2EA74A823D55D472"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.mainFrame}"
-			tasks: [{
-				id: "393B796BC1144684"
-				item: "gtceu:wetware_processor_computer"
-				type: "item"
-			}]
-			x: -5.517857142857153d
-			y: 7.875000000000014d
-		}
-		{
-			dependencies: [
-				"054D2D3C20C2D32F"
-				"6786C701B7C4980B"
-			]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.megaFusionReactor.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.megaFusionReactor.2}"
-			]
-			icon: "gregecore:enhancedfr"
-			id: "39CD35C91F07258C"
-			shape: "gear"
-			size: 1.6d
-			tasks: [{
-				id: "77E45789060AF7F9"
-				item: "gregecore:enhancedfr"
-				type: "item"
-			}]
-			x: 0.8d
-			y: -5.6d
-		}
-		{
 			dependencies: ["054D2D3C20C2D32F"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.fusionReactorMk3.1}"
@@ -63,38 +23,12 @@
 			shape: "circle"
 			size: 1.0d
 			subtitle: "{atm9.quest.gregtech.uhv.subt.mk3}"
-			tasks: [
-				{
-					id: "1786D0D015C3884C"
-					item: "gtceu:uv_fusion_reactor"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "4E15B886A44A5574"
-					item: "gtceu:uv_energy_input_hatch"
-					type: "item"
-				}
-				{
-					count: 48L
-					id: "272F201D0A7BA036"
-					item: "gtceu:fusion_casing_mk3"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4700909D84885E86"
-					item: "gtceu:fusion_coil"
-					type: "item"
-				}
-				{
-					count: 31L
-					id: "7FC436C406CF454A"
-					item: { Count: 31, id: "gtceu:fusion_glass" }
-					type: "item"
-				}
-			]
-			x: -4.0d
+			tasks: [{
+				id: "1786D0D015C3884C"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -111,8 +45,8 @@
 				item: "gtceu:uv_circuit_assembler"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -134,31 +68,11 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["2EA74A823D55D472"]
-			description: [
-				"{atm9.quest.gregtech.uhv.desc.monsterCoils.1}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.monsterCoils.2}"
-			]
-			id: "44EE336BC265D21C"
-			subtitle: "{atm9.quest.gregtech.uhv.subt.tritaniumCoils}"
-			tasks: [{
-				id: "204D0E0D57E23E89"
-				item: "gtceu:tritanium_coil_block"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"054D2D3C20C2D32F"
-				"6786C701B7C4980B"
-			]
+			dependencies: ["054D2D3C20C2D32F"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.parallelControl.1}"
 				""
@@ -172,8 +86,8 @@
 				item: "gtceu:uv_parallel_hatch"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["695E846B663EC185"]
@@ -189,14 +103,11 @@
 				item: "gtceu:uhv_machine_hull"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"44EE336BC265D21C"
-				"695E846B663EC185"
-			]
+			dependencies: ["695E846B663EC185"]
 			description: [
 				"{atm9.quest.gregtech.uhv.desc.complexIngot.1}"
 				""
@@ -209,8 +120,8 @@
 				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["702CE73E39E4D4BD"]
@@ -229,8 +140,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -248,8 +159,8 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6E18951E41103391"]
@@ -263,8 +174,8 @@
 				item: "gtceu:neutronium_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["695E846B663EC185"]
@@ -280,20 +191,7 @@
 				item: "gtceu:neutronium_boule"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["695E846B663EC185"]
-			description: ["{atm9.quest.gregtech.uv.desc.gravistarImportance.1}"]
-			id: "6786C701B7C4980B"
-			subtitle: "{atm9.quest.gregtech.uv.subt.gravityStars}"
-			tasks: [{
-				id: "6B219FCE15079A27"
-				item: "gtceu:gravi_star"
-				type: "item"
-			}]
-			x: -4.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -304,8 +202,61 @@
 				item: "gregecore:learning_acc_ebf"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 4.0d
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["054D2D3C20C2D32F"]
+			id: "31A6C34011E3F8C7"
+			tasks: [{
+				id: "05BCB99D7C6EF7EC"
+				item: "kubejs:animated/uhvalloy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6E18951E41103391"]
+			id: "366003B67232BB6F"
+			tasks: [{
+				id: "5980F8C223937653"
+				item: "gregecore:enhancedfr"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["054D2D3C20C2D32F"]
+			id: "4D89A1A3BC682102"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1BA1C8B48FC6C1AF"
+				item: "kubejs:animated/draconicprocessor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["054D2D3C20C2D32F"]
+			id: "7021E6B5D8D23163"
+			tasks: [
+				{
+					id: "11F4C9E9A7303E4F"
+					item: "gregecore:draconium_cable_single_wire"
+					type: "item"
+				}
+				{
+					id: "3574C3FDD8F423B2"
+					item: "gregecore:awakened_draconium_cable_single_wire"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 9.0d
 		}
 	]
 	title: "UHV"

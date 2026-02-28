@@ -9,6 +9,6 @@ StartupEvents.registry('item', event => {
     event.create('luvalloy').displayName('LuV Circuit Alloy Ingot')
     event.create('animated/zpmalloy').displayName('ZPM Circuit Alloy Ingot')
     event.create('animated/uvalloy').displayName('UV Circuit Alloy Ingot')
-    event.create('uhvalloy').displayName('UHV Circuit Alloy Ingot')
+    event.create('animated/uhvalloy').displayName('UHV Circuit Alloy Ingot')
 
 })

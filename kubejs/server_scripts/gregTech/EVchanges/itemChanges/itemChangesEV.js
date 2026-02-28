@@ -88,6 +88,23 @@ ServerEvents.recipes((event) =>{
         }
     )
 
+    event.shaped(
+        Item.of('gregecore:coolant_input_machine', 1),
+        [
+            ' A ',
+            'DED',
+            'CBC'
+        ],
+        {
+            A: '#gtceu:circuits/ev',
+            B: 'gtceu:ev_machine_hull',
+            C: 'gtceu:tungsten_steel_ingot',
+            D: 'gtceu:steel_large_fluid_pipe',
+            E: 'minecraft:bucket'
+
+        }
+    )
+
     event.shapeless(
         Item.of('kubejs:vanaheimingot', 9), 
         'kubejs:vanaheimingotblock'

@@ -76,6 +76,13 @@ StartupEvents.registry('item', event => {
     event.create('witchlabflask').displayName('Witch’s Lab Flask')
     event.create('bacterialmatter').displayName('Bacterial Matter')
     event.create('bacterialmatteringot').displayName('Bacterial Matter Ingot')
+    event.create('animated/draconicprocessor').displayName('Draconic Processor')
+    event.create('dplate').displayName('Draconium Plate')
+    event.create('ddoubleplate').displayName('Double Draconium Plate')
+    event.create('learningchip').displayName('Learning Chip')
+    event.create('dustwithbroom').displayName('Dust Collected By Witch’s Broom')
+    event.create('neutroniuminfused').displayName('Neutronium Infused Dust')
+    event.create('pelletmold').displayName('Casting Mold (Pellet)')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

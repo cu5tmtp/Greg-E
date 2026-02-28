@@ -83,4 +83,16 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LuV])
         .blastFurnaceTemp(4000)
 
+    event.recipes.gtceu.electric_blast_furnace('awcoilget')
+        .itemInputs(
+            '8x gregecore:awakened_draconium_cable_foil',
+            '8x gregecore:awakened_draconium_cable_double_wire'
+        )
+        .itemOutputs(
+            'gregecore:awakened_draconium_coil'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .blastFurnaceTemp(6000)
+
 });

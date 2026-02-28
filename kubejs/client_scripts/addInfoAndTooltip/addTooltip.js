@@ -12,8 +12,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:ivalloy',
             'kubejs:luvalloy',
             'kubejs:animated/zpmalloy',
-            'kubejs:uvalloy',
-            'kubejs:uhvalloy'
+            'kubejs:animated/uvalloy',
+            'kubejs:animated/uhvalloy'
 
         ],
         (item, advanced, text) => {

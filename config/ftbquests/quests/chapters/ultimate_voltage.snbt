@@ -45,15 +45,15 @@
 			]
 			description: [""]
 			id: "65A075160D46BEF7"
-			shape: "diamond"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "5D545D872BD5DC3B"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 15.26785714285711d
-			y: -0.5357142857142563d
+			x: 14.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -409,7 +409,7 @@
 				item: "gtceu:zpm_parallel_hatch"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -665,7 +665,7 @@
 				item: "kubejs:animated/uvalloy"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 2.0d
 		}
 		{
@@ -678,6 +678,85 @@
 			}]
 			x: 6.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["5D1B9EACB654BDF8"]
+			id: "24BAE271D9DE988C"
+			tasks: [{
+				id: "33B550F200A86888"
+				item: "gregecore:bacterial_matter_cable_single_wire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02CC3E13B8905603"]
+			id: "562A1914CC60B7C1"
+			tasks: [{
+				id: "05D2E88911B731DF"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["65A075160D46BEF7"]
+			id: "283C1D5CEC444F02"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "66A25804567E0373"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BB4BC3E614ED0C9"]
+			id: "17563B78FB9CCEF8"
+			tasks: [{
+				id: "3B3DDC670B75869E"
+				item: "gregecore:energy_bacteria"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2BB4BC3E614ED0C9"]
+			id: "6557315E1590035E"
+			tasks: [{
+				id: "383076F86681FB9D"
+				item: "gregecore:speed_bacteria"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BB4BC3E614ED0C9"]
+			id: "56B7D77DD65C04DA"
+			tasks: [{
+				id: "50F5D881EDF549B1"
+				item: "gregecore:parallel_bacteria"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BB4BC3E614ED0C9"]
+			id: "0CA478D588AE7375"
+			tasks: [{
+				id: "0D7D656B2A08B192"
+				item: "gregecore:ultimate_bacteria"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
 		}
 	]
 	title: "UV"
