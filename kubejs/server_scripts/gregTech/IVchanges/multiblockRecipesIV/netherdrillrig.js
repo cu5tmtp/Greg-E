@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '2x kubejs:eidust'
         )
-        .chancedOutput('minecraft:ancient_debris', 1000, 0)
+        .chancedOutput('minecraft:ancient_debris', 10, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(1)

@@ -46,4 +46,160 @@ ServerEvents.recipes((event) =>{
         tier: 4,
     });
 
+    event.remove('avaritia:ultimate_stew')
+
+    event.custom({
+        type: 'avaritia:shaped_table',
+        category: 'equipment',
+        key: {
+        A: {
+            item: 'kubejs:lvalloy'
+        },
+        B: {
+            item: 'kubejs:mvalloy'
+        },
+        C: {
+            item: 'kubejs:hvalloy'
+        },
+        D: {
+            item: 'kubejs:evalloy'
+        },
+        E: {
+            item: 'kubejs:ivalloy'
+        },
+        F: {
+            item: 'kubejs:luvalloy'
+        },
+        G: {
+            item: 'kubejs:animated/zpmalloy'
+        },
+        H: {
+            item: 'kubejs:animated/uvalloy'
+        },
+        I: {
+            item: 'kubejs:animated/uhvalloy'
+        }
+        },
+        pattern: [
+        'AAAHIHAAA',
+        'ABBFGFBBA',
+        'ABCCICCBA',
+        'HFCDDDCFH',
+        'IGIDEDIGI',
+        'HFCDDDCFH',
+        'ABCCICCBA',
+        'ABBFGFBBA',
+        'AAAHIHAAA',
+        ],
+        result: {
+        item: 'avaritia:ultimate_stew'
+        },
+        show_notification: true,
+        tier: 4,
+    });
+
+    event.remove('avaritia:cosmic_meatballs')
+
+    event.custom({
+        type: 'avaritia:shaped_table',
+        category: 'equipment',
+        key: {
+        A: {
+            item: 'kubejs:commonearth'
+        },
+        B: {
+            item: 'kubejs:deepslateearth'
+        },
+        C: {
+            item: 'kubejs:voiddust'
+        },
+        D: {
+            item: 'kubejs:blessedearth'
+        },
+        E: {
+            item: 'kubejs:eidust'
+        },
+        F: {
+            item: 'kubejs:gassydust'
+        },
+        G: {
+            item: 'kubejs:activatedrune'
+        },
+        H: {
+            item: 'kubejs:dustwithbroom'
+        },
+        I: {
+            item: 'kubejs:neutroniuminfused'
+        }
+        },
+        pattern: [
+        'AAAHIHAAA',
+        'ABBFGFBBA',
+        'ABCCICCBA',
+        'HFCDDDCFH',
+        'IGIDEDIGI',
+        'HFCDDDCFH',
+        'ABCCICCBA',
+        'ABBFGFBBA',
+        'AAAHIHAAA',
+        ],
+        result: {
+        item: 'avaritia:cosmic_meatballs'
+        },
+        show_notification: true,
+        tier: 4,
+    });
+
+    event.remove('avaritia:endest_pearl')
+
+    event.custom({
+        type: 'avaritia:shaped_table',
+        category: 'equipment',
+        key: {
+        A: {
+            item: 'botania:manasteel_ingot'
+        },
+        B: {
+            item: 'kubejs:twilightingots'
+        },
+        C: {
+            item: 'ad_astra:desh_ingot'
+        },
+        D: {
+            item: 'undergarden:forgotten_ingot'
+        },
+        E: {
+            item: 'botanicalextramachinery:malachite_ingot'
+        },
+        F: {
+            item: 'gregecore:superelement27_ingot'
+        },
+        G: {
+            item: 'kubejs:bloodinfused'
+        },
+        H: {
+            item: 'kubejs:bacterialmatteringot'
+        },
+        I: {
+            item: 'draconicevolution:awakened_draconium_ingot'
+        }
+        },
+        pattern: [
+        'AAAHIHAAA',
+        'ABBFGFBBA',
+        'ABCCICCBA',
+        'HFCDDDCFH',
+        'IGIDEDIGI',
+        'HFCDDDCFH',
+        'ABCCICCBA',
+        'ABBFGFBBA',
+        'AAAHIHAAA',
+        ],
+        result: {
+        item: 'avaritia:endest_pearl'
+        },
+        show_notification: true,
+        tier: 4,
+    });
+
 })

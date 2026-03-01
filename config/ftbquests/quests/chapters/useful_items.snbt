@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_items"
+	group: "1DD75D8B702CB0A0"
+	icon: {
+		Count: 1
+		id: "draconicevolution:advanced_dislocator"
+		tag: { }
+	}
+	id: "2FFD50E6987EF03B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"This page contains really useful mods, items and blocks!"
+			""
+			"Some have changed recipes so that you may use them faster than getting to their core mod!"
+		]
+		id: "6C2DAEAB733E0042"
+		tasks: [{
+			id: "6F9B62D22C0720BC"
+			title: "Useful Items!"
+			type: "checkmark"
+		}]
+		x: 11.0d
+		y: -5.5d
+	}]
+	title: "Useful Items"
+}

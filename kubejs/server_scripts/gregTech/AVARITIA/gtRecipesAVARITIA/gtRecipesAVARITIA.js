@@ -46,5 +46,15 @@ ServerEvents.recipes((event) =>{
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(100)
 
+    event.recipes.gtceu.extractor('getuhvcas')
+        .itemInputs(
+            '#gtceu:circuits/uhv'
+        )
+        .outputFluids(
+            'kubejs:uhvcas 1000'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(200)
+
 
 })

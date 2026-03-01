@@ -1,5 +1,8 @@
 ServerEvents.recipes((event) => {
 
+    event.remove({ type: 'botania:orechid' })
+    event.remove({ type: 'botania:orechid_ignem' })
+
     event.replaceInput(
         { id: 'botania:apothecary_default' },
         '#botania:petals',
