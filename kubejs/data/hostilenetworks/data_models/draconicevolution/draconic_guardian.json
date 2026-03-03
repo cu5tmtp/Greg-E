@@ -1,7 +1,7 @@
 {
     "entity": "draconicevolution:draconic_guardian",
     "variants": [],
-    "name": "Draconic Guardian",
+    "name": "Chaos Guardian",
     "name_color": "#FF0F0F",
     "gui_scale": 0.5,
     "gui_x_offset": 0,
@@ -21,6 +21,9 @@
         },
         {
             "item": "minecraft:dragon_egg"
+        },
+        {
+            "item": "bhc:blue_heart"
         }
     ],
     "tier_data": [1, 32765, 32766, 32767],                      

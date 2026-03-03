@@ -54,9 +54,7 @@
 				"0AC6B223857CAE94"
 			]
 			description: [
-				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.6}"
 				""
-				"{atm9.quest.gregtech.hv.desc.ulvOnTheCheap.7}"
 			]
 			id: "732D201794C228DD"
 			tasks: [{
@@ -134,8 +132,8 @@
 			]
 			description: [""]
 			id: "61262BC1C525E6F1"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "2BBF580104DF2C41"
 				item: "gtceu:stainless_steel_ingot"

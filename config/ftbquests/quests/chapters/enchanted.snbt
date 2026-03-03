@@ -5,8 +5,118 @@
 	group: "1DD75D8B702CB0A0"
 	icon: "enchanted:witch_cauldron"
 	id: "7481437E877EC67C"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Your Witche- ups, I mean Enchanted journey starts here."]
+			id: "6E7D9D3DC0E9F8E6"
+			tasks: [{
+				id: "259A19CB2EB55480"
+				item: "enchanted:witch_cauldron"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E7D9D3DC0E9F8E6"]
+			description: ["This is the most important structure of this mod. The altar is 6 blocks next to each other, when it forms, a red carpet covers it. The altar is your power generation method for this mod. You get more altar power by placing more flowers and trees next to the altar."]
+			id: "771E45EEB84B4678"
+			tasks: [{
+				count: 6L
+				id: "5FCA1FE196F4AED6"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2252AA1F0F27C2F7"]
+			description: ["Filled chalice is better."]
+			id: "0F99695AAE93D543"
+			tasks: [
+				{
+					id: "7ACA8C99294039E9"
+					item: "enchanted:chalice"
+					type: "item"
+				}
+				{
+					id: "73599F081013F987"
+					item: "enchanted:chalice_filled"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771E45EEB84B4678"]
+			description: ["The items, when placed on the altar, will provide some sort of boost for it."]
+			id: "2252AA1F0F27C2F7"
+			tasks: [{
+				id: "58EC60381DBCD3AB"
+				title: "Altar boosters"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2252AA1F0F27C2F7"]
+			description: ["There might be candles in the Twilight Forest."]
+			id: "114D5B3EF800A667"
+			tasks: [{
+				id: "0FE503363E2847A1"
+				item: "enchanted:candelabra"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2252AA1F0F27C2F7"]
+			description: ["Player head is stronger."]
+			id: "27091D3ED618729B"
+			tasks: [
+				{
+					id: "0B968169E427D7AA"
+					item: "minecraft:player_head"
+					type: "item"
+				}
+				{
+					id: "17FAC2F056580F50"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2252AA1F0F27C2F7"]
+			description: ["Provides 250 altar power. Place is next to the altar, not on it, as it acts as a flower."]
+			id: "41F64C89676D6167"
+			tasks: [{
+				id: "5E360FE42CE78B4E"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["771E45EEB84B4678"]
+			id: "46AAC2B7211A1149"
+			tasks: [{
+				id: "2AC67580DCD872D0"
+				item: "enchanted:mystic_unguent"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
 	title: "Enchanted"
 }

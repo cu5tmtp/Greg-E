@@ -1,4 +1,5 @@
 {
+	autofocus_id: "054D2D3C20C2D32F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ultra_high_voltage"
@@ -12,17 +13,13 @@
 		{
 			dependencies: ["054D2D3C20C2D32F"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.fusionReactorMk3.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.fusionReactorMk3.2}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.fusionReactorMk3.3}"
 			]
 			icon: "gtceu:uv_fusion_reactor"
 			id: "6E18951E41103391"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.mk3}"
+			subtitle: ""
 			tasks: [{
 				id: "1786D0D015C3884C"
 				item: "gtceu:uv_fusion_reactor"
@@ -36,10 +33,10 @@
 				"054D2D3C20C2D32F"
 				"702CE73E39E4D4BD"
 			]
-			description: ["{atm9.quest.gregtech.uhv.desc.uvCircuitAssembler}"]
+			description: [""]
 			id: "0CBF5A49066468DD"
 			optional: true
-			subtitle: "{atm9.quest.gregtech.uhv.subt.needThis}"
+			subtitle: ""
 			tasks: [{
 				id: "3C9575096E4E44E0"
 				item: "gtceu:uv_circuit_assembler"
@@ -55,14 +52,12 @@
 				"702CE73E39E4D4BD"
 			]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.uhvEnergyHatch.2}"
 			]
 			id: "5561EB1E3DD77EC5"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.uhvTop}"
+			subtitle: ""
 			tasks: [{
 				id: "3009E94D530487D4"
 				item: "gtceu:uhv_energy_input_hatch"
@@ -74,13 +69,11 @@
 		{
 			dependencies: ["054D2D3C20C2D32F"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.parallelControl.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.parallelControl.2}"
 			]
 			id: "0D59094D0C23C44F"
 			optional: true
-			subtitle: "{atm9.quest.gregtech.uhv.subt.notEnough64}"
+			subtitle: ""
 			tasks: [{
 				id: "685632AB2A3AFA5C"
 				item: "gtceu:uv_parallel_hatch"
@@ -92,12 +85,10 @@
 		{
 			dependencies: ["695E846B663EC185"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.uhvHull.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.uhvHull.2}"
 			]
 			id: "337B492F974628A4"
-			subtitle: "{atm9.quest.gregtech.uhv.subt.wheresMachines}"
+			subtitle: ""
 			tasks: [{
 				id: "10FC27F148761FA1"
 				item: "gtceu:uhv_machine_hull"
@@ -109,12 +100,10 @@
 		{
 			dependencies: ["695E846B663EC185"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.complexIngot.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.complexIngot.2}"
 			]
 			id: "702CE73E39E4D4BD"
-			subtitle: "{atm9.quest.gregtech.uhv.subt.complicatedThings}"
+			subtitle: ""
 			tasks: [{
 				id: "2EDA6683F4114183"
 				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
@@ -126,15 +115,13 @@
 		{
 			dependencies: ["702CE73E39E4D4BD"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.massiveEBF.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.massiveEBF.2}"
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "625B5E3CDDAECFFD"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.massiveEBF}"
+			subtitle: ""
 			tasks: [{
 				id: "66D7D97C3FAA17D4"
 				item: "gtceu:mega_blast_furnace"
@@ -144,16 +131,13 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["283C1D5CEC444F02"]
 			description: [
-				"{atm9.quest.gregtech.uhv.desc.jumpStart.1}"
 				""
-				"{atm9.quest.gregtech.uhv.desc.jumpStart.2}"
-				""
-				"{atm9.quest.gregtech.uhv.desc.jumpStart.3}"
 			]
 			id: "054D2D3C20C2D32F"
-			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.uhv.subt.greatSuccess}"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "61316E46DA048A55"
 				item: "gtceu:wetware_processor_mainframe"
@@ -164,11 +148,11 @@
 		}
 		{
 			dependencies: ["6E18951E41103391"]
-			description: ["{atm9.quest.gregtech.uhv.desc.neutronium}"]
+			description: [""]
 			id: "695E846B663EC185"
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{atm9.quest.gregtech.zpm.subt.superNeutronium}"
+			subtitle: ""
 			tasks: [{
 				id: "273FC653514D8BC2"
 				item: "gtceu:neutronium_bucket"
@@ -180,12 +164,10 @@
 		{
 			dependencies: ["695E846B663EC185"]
 			description: [
-				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.29}"
 				""
-				"{atm9.quest.gregtech.uv.desc.ultimateVoltage.30}"
 			]
 			id: "142D12B41C36D68A"
-			subtitle: "{atm9.quest.gregtech.uv.subt.ultimateVoltage.18}"
+			subtitle: ""
 			tasks: [{
 				id: "0EB38073B9196667"
 				item: "gtceu:neutronium_boule"

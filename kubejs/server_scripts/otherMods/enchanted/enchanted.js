@@ -73,4 +73,5 @@ ServerEvents.recipes((event) => {
       item: "kubejs:animated/uvalloy",
     },
   });
+
 });

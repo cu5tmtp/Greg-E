@@ -435,25 +435,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["2A279B011D09A9EE"]
-			description: [
-				"How to get there:"
-				""
-				"1) Make a normal portal frame but not out of obsidian, but Vanaheim Ingot Block"
-				"2) Right click with EV Robot Arm"
-				""
-				"Yay! Portal opened! Get them netherrite!"
-			]
-			id: "64312798C578C110"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "21B93D10A348026C"
-				type: "dimension"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["438E233A9014DA73"]
 			description: ["3rd tier of Magical Coils."]
 			id: "370B0622AED33FC4"
@@ -467,5 +448,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Ad Astra - Basic"
+	title: "Ad Astra"
 }

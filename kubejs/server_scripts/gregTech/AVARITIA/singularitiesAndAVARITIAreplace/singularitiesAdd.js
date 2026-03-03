@@ -58,7 +58,7 @@ AvaritiaEvents.singularity(event => {
 
     event.register("avaritia:uvcircuitsingularity", s => {
         s.setDisplayName("UV Circuit Singularity")
-        s.setIngredient('gtceu:quantum_processor_mainframe')
+        s.setIngredient('gtceu:crystal_processor_mainframe')
         s.setColors(0x11472F, 0x140404)
         s.setEnabled(true)
         s.setRecipeEnabled(false)

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "57B5100C11F76EE9"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "zero_point_module"
@@ -10,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["663DA87FDB10E2B8"]
 			description: [""]
 			id: "57B5100C11F76EE9"
 			shape: "diamond"

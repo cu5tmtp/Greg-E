@@ -109,7 +109,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["688C911ECFB2F134"]
+			dependencies: ["45FF5E769CC5D057"]
 			description: [""]
 			id: "6FD41DF7704466A4"
 			tasks: [{
@@ -117,7 +117,7 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -209,6 +209,17 @@
 			}]
 			x: 0.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["688C911ECFB2F134"]
+			id: "45FF5E769CC5D057"
+			tasks: [{
+				id: "4FD175147141AF72"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 	title: "Twilight Forest"

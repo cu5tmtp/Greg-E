@@ -8,4 +8,5 @@ JEIEvents.information((event) => {
     event.addItem('gtceu:planetarygassiphon', ['The recipe that needs the biome "Space" needs to be done in Earth Orbit.']);
     event.addItem('kubejs:iceshard', ['Glacian Ram is found on Glacio in Proxima Centauri star system.']);
     event.addItem('bloodmagic:basemonstersoul', ['You get this by killing a enemy with a Sentient Sword. The one from the blood altar doesnt work on crafts, it just servers as a automation for Evil Soul.']);
+
 })

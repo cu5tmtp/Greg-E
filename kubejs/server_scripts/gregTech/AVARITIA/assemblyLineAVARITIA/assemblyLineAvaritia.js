@@ -50,4 +50,30 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_input_bus')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
+    event.recipes.gtceu.assembly_line('getrepairpart')
+        .itemInputs(
+            '4x kubejs:animated/draconicprocessor',
+            '4x gtceu:neutronium_frame',
+            '32x gtceu:high_temperature_smelting_casing',
+            '8x gtceu:neutronium_plate',
+        )
+        .itemOutputs('gregecore:repair_part_input_machine')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('gregecore:star_feeder')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line('getspecializedassemblyline')
+        .itemInputs(
+            'avaritia:infinity_ingot',
+            '16x kubejs:animated/draconicprocessor',
+            '32x gtceu:neutronium_frame',
+            '16x gtceu:uv_robot_arm',
+            '16x gtceu:uv_field_generator',
+            '16x gtceu:uv_emitter',
+        )
+        .itemOutputs('gtceu:specializedassemblyline')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_ingot')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
+
 })

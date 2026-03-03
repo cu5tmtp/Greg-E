@@ -7,6 +7,85 @@
 	id: "1B292BB23728475A"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1064F83D0222138C"]
+			description: ["Drink this. Now you can do rune rituals."]
+			id: "2344D045A014F6FF"
+			tasks: [{
+				id: "3B8615C57F81DF88"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Supply branch of Yggdrasil with mana and place Gjallarhorn on it. Wait until its filled."]
+			id: "1064F83D0222138C"
+			tasks: [
+				{
+					id: "6D3A8A29240677F8"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+				{
+					id: "5A5931CE7C3E768C"
+					item: "mythicbotany:gjallar_horn_empty"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2344D045A014F6FF"]
+			description: ["This is a drop from Guardian of Gaia - harder version. That one is activated by inserting Gaia Spirit Ingot instead of Terrasteel."]
+			id: "60514AD9EE7304FA"
+			tasks: [{
+				id: "359E99E7AE28F42D"
+				item: "mythicbotany:fimbultyr_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60514AD9EE7304FA"]
+			description: ["Drink this."]
+			id: "2044419B21EEFABE"
+			tasks: [{
+				id: "4DF5F4A41F8BC55F"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2044419B21EEFABE"]
+			description: ["Now enter the Elven Portal. You have to drink the mead to actually teleport through."]
+			id: "635ED4231C547DAD"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "4EEFC72205CC0623"
+				type: "dimension"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["635ED4231C547DAD"]
+			description: ["Find this in mysterious cabin. Use explorers compass."]
+			id: "00C6B1C582D3C0E7"
+			tasks: [{
+				id: "4169BD19F4A456A5"
+				item: "kubejs:vanaheimingotblock"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+	]
 	title: "MythicBotany"
 }

@@ -4,8 +4,17 @@
 	default_quest_shape: ""
 	filename: "avaritia"
 	group: "6915D00C186DB378"
-	icon: "avaritia:neutron_pile"
+	icon: "kubejs:animated/draconicprocessor"
 	id: "407DDCEF45EF7565"
+	images: [{
+		dependency: "3C794A26A111F940"
+		height: 5.0d
+		image: "kubejs:textures/quests/cat.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -1.5d
+		y: -17.5d
+	}]
 	order_index: 10
 	quest_links: [ ]
 	quests: [
@@ -21,7 +30,10 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4D89A1A3BC682102"]
 			id: "514C9FE7A4995F36"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "088F26D1C0FC4322"
 				item: "kubejs:animated/draconicprocessor"
@@ -52,6 +64,115 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"338C409F0D35F333"
+				"433308CADCABF703"
+			]
+			id: "12160780AA88096F"
+			tasks: [{
+				id: "06F40237987C7CFD"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E327381D3FB9CAA"]
+			description: ["If you want to complete this pack in a normal amount of time, get this multiblock. If you dont want to, get ready to spam assembly lines."]
+			id: "04BAB1AF2E370022"
+			tasks: [{
+				id: "6AEE34AAFE1D81D6"
+				item: "gtceu:specializedassemblyline"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["12160780AA88096F"]
+			id: "1E327381D3FB9CAA"
+			tasks: [{
+				id: "1CD432A7FC6942D2"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E327381D3FB9CAA"]
+			description: ["Get the creative chest first."]
+			id: "1D4417AF061FFAC6"
+			tasks: [
+				{
+					id: "4FD4662F69989109"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					id: "2F75BF4D79611584"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+				{
+					id: "6E44EAB8AFFD11F4"
+					item: "gtceu:creative_energy"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1D4417AF061FFAC6"]
+			description: [
+				"Thank you for playing this pack. It means a lot to me, this is my first try on something this big."
+				"If you have any ideas, suggestions or other opininons, feel free to message me on CurseForge."
+				""
+				"Once again, thank you for playing my pack!"
+				""
+				"cu5tmtp"
+			]
+			id: "3C794A26A111F940"
+			tasks: [
+				{
+					id: "484258F28D99B519"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "332419EADD412162"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "50461C1586BBAD39"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "41FEB55671F60451"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "2EE5CEEB47AD4E59"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_sword"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "GG!"
+			x: -1.5d
+			y: -14.5d
+		}
 	]
-	title: "Avaritia"
+	title: "AVARITIA"
 }

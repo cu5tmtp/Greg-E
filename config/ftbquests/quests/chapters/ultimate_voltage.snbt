@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5D1B9EACB654BDF8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ultimate_voltage"
@@ -10,11 +11,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["72082D70F5D22632"]
 			description: [""]
 			id: "5D1B9EACB654BDF8"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{}"
 			tasks: [{
 				id: "2D7446E656151002"
 				item: "gtceu:crystal_processor_mainframe"

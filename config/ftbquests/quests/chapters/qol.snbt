@@ -1,0 +1,295 @@
+{
+	autofocus_id: "4544150184F72389"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: "1DD75D8B702CB0A0"
+	icon: "bhc:heart_amulet"
+	id: "4B32DD6857A85BE0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This chapter shows you which QOL mods are in the pack. "]
+			id: "4544150184F72389"
+			tasks: [{
+				id: "596E93761B346CD8"
+				title: "QOL mods"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Not really that useful overall, but the mod has a mob spawning option and XP farm can be used for Rosa Arcanas."]
+			id: "6A520F4F316998E7"
+			tasks: [{
+				id: "7E4DE0ABB2DFAD1D"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: ["Don't want mobs spawning near you? Get this!"]
+			id: "129C3EB5A39F5C68"
+			tasks: [{
+				id: "11152F2DD2516CB8"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: ["Build same blocks really fast!"]
+			id: "643885F32F87F528"
+			tasks: [{
+				id: "5A909C1DF0C1D386"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: ["If you want to copy some structures, get this!"]
+			id: "355BB4790891430E"
+			tasks: [{
+				id: "7E4D01F3D9269450"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["+40 hearts!"]
+			id: "65B1C0EC2A26BD74"
+			tasks: [{
+				id: "5666998A632F76F1"
+				item: "bhc:heart_amulet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			description: ["I'm sure you can find some uses for this."]
+			id: "0D49B60DEC940DFC"
+			tasks: [{
+				id: "73182969240FEC85"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["For the ultimate factory managment."]
+			id: "21005F2851811554"
+			tasks: [{
+				id: "16A5D47AE8D408A6"
+				item: "sfm:manager"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"+10 hearts, also some other Artifacts and Relics are really useful."
+				""
+				"1st tier unlocks in MV."
+				"2nd tier unlocks in EV."
+				"3rd tier unlocks in LuV."
+			]
+			id: "2E1E5E8A96F7A1C9"
+			tasks: [{
+				id: "2632CE7DDB10C488"
+				item: {
+					Count: 1
+					id: "artifacts:crystal_heart"
+					tag: {
+						abilities: {
+							heart: {
+								points: 0
+								stats: {
+									amount: 4.89026d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: ["Wireless FE, what more do I need to say?"]
+			id: "36C270F3D8F292D2"
+			tasks: [{
+				id: "021B025429231B2E"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: ["Free cobblestone!"]
+			id: "4F20AD0E87D43D50"
+			tasks: [{
+				id: "26E52D0ADA3DB88B"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["My second favourite botania item, portable ender chest!"]
+			id: "70A711337532FF2A"
+			tasks: [{
+				id: "63B3B6096F7283F4"
+				item: "botania:ender_hand"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Teleporter, you can get this in HV, waaaay earlier than the whole Draconic Evolution unlock!"]
+			id: "2333D4BAC0ADBA62"
+			tasks: [{
+				id: "3D8D64E210494766"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Flight!"
+				""
+				"Also look at the other upgrades, a lot of them are really useful. Especially the regeneration one, its really good for healing up after sacrificing blood to altar in Blood Magic!"
+			]
+			id: "3BEDFF33E8189F13"
+			tasks: [
+				{
+					id: "01960041E54E91BB"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77DFB0F0811B0D49"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04295C78BE0CFF5B"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FD282B90ABE5BC8"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E446D73F3A83C47"
+					item: "advanced_ae:flight_card"
+					type: "item"
+				}
+			]
+			title: "Flight!"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Wireless AE2! Really useful, also you can combine different wireless terminals, my favourite combination is crafting, pattern encoding and extended pattern access terminal."]
+			id: "5783E1DD2A4537D1"
+			tasks: [{
+				id: "48052F294B018B01"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"For the AVARITIA chapter."
+				""
+				"Get the ME packaging provider, it counts as a packager and unpackager, meaning you only need 1 pattern. Also its waaaay faster."
+			]
+			id: "519A2DC4DBC99FA6"
+			tasks: [{
+				id: "4E3155B1D298F3D3"
+				item: "packagedauto:packaging_provider"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Use this to find ores. First find the ore block which you want to find. Then get a block card, right click the block, then shift+right click the scanner and insert the block card. I recommend getting some range extenders, and then hold right click to find the ores."
+				""
+				"This is really useful for the Ad Astra ores!"
+			]
+			id: "2C3ACCA597518508"
+			tasks: [{
+				id: "19E5106674E9DF7C"
+				item: {
+					Count: 1
+					id: "scannable:scanner"
+					tag: {
+						energy: 5000
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+	title: "QOL"
+}

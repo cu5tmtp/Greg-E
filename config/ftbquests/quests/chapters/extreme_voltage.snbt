@@ -1,5 +1,4 @@
 {
-	autofocus_id: "5241693278027FFD"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "extreme_voltage"
@@ -242,9 +241,7 @@
 		{
 			dependencies: ["5241693278027FFD"]
 			description: [
-				"{atm9.quest.gregtech.ev.desc.ivCircuit.1}"
 				""
-				"{atm9.quest.gregtech.ev.desc.ivCircuit.2}"
 			]
 			id: "6805CC8AD6010F33"
 			tasks: [{
@@ -622,6 +619,25 @@
 			}]
 			x: -3.8214285714285836d
 			y: -0.4642857142857153d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: [
+				"How to get to the nether:"
+				"1) Get Vanaheim Ingot Block in the Alfheim Dimension (visit MythicBotany chapter on how to get there)"
+				"2) Get EV robotic arm"
+				"3) Make a nether portal shape out of Vanahein Ingot Blocks"
+				"4) Use the EV robotic arm as a lighter"
+				"5) You're in the nether!"
+			]
+			id: "72113C2A16D3AB1B"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5607F9124909BEF8"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 	title: "EV"

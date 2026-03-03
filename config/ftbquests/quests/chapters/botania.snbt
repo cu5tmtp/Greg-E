@@ -20,7 +20,7 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
@@ -55,15 +55,15 @@
 			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
 			min_width: 300
-			shape: "rsquare"
-			size: 1.25d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "57D1954039E03CDB"
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 6.875d
-			y: 1.25d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["25CCBF9AF4D7479B"]
@@ -86,8 +86,8 @@
 			description: [""]
 			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
-			shape: "rsquare"
-			size: 1.25d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "59FB36F10FBA2E3D"
 				item: {
@@ -100,8 +100,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.875d
-			y: 4.375d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -116,7 +116,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -128,7 +128,7 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 2.5d
 		}
 		{
@@ -137,8 +137,8 @@
 			icon: "botania:terrasteel_ingot"
 			id: "23A2865FBE7831AB"
 			min_width: 400
-			shape: "rsquare"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					count: 5L
@@ -158,7 +158,7 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 15.5d
 			y: 2.5d
 		}
 		{
@@ -180,7 +180,7 @@
 			description: [""]
 			id: "1EF7664F5D8C5FF1"
 			min_width: 500
-			shape: "octagon"
+			shape: "circle"
 			tasks: [
 				{
 					id: "420577A05AAC9A18"
@@ -206,7 +206,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 18.0d
 			y: 2.5d
 		}
 		{
@@ -241,15 +241,15 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["04CE14D92603FC7A"]
 			description: [""]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
-			shape: "hexagon"
-			size: 2.0d
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "3C21A030F242C7A2"
@@ -277,21 +277,21 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 27.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: [""]
+			description: ["Drop from Guardian of Gaia II fight."]
 			id: "50A2D68A83A50F47"
-			shape: "gear"
+			shape: "circle"
 			size: 1.0d
 			tasks: [{
 				id: "5348CBD95103744A"
 				item: "botania:dice"
 				type: "item"
 			}]
-			x: 29.5d
+			x: 30.0d
 			y: 2.5d
 		}
 		{
@@ -343,8 +343,8 @@
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["04CF0BBD3D109C36"]
@@ -356,7 +356,7 @@
 				item: { Count: 18, id: "gregecore:manasteel_coil" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -374,8 +374,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 15.5d
+			y: 0.5d
 		}
 	]
 	title: "Botania"

@@ -18,9 +18,52 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/uhv'
     )
 
+    event.replaceInput(
+      'draconicevolution:tools/dislocator',
+      'draconicevolution:draconium_dust',
+      'gtceu:stainless_steel_ingot'
+    )
+
+    event.replaceInput(
+      'draconicevolution:machines/potentiometer',
+      'draconicevolution:draconium_dust',
+      'gtceu:stainless_steel_ingot'
+    )
+
+    event.remove({id: 'draconicevolution:tools/advanced_dislocator'})
+    event.remove({id: 'draconicevolution:celestial_manipulator'})
     event.remove({id: 'draconicevolution:awakened_draconium_block'})
     event.remove({id: 'draconicevolution:components/awakened_core'})
 
+    event.shaped(
+      Item.of('draconicevolution:advanced_dislocator', 1),
+      [
+        'CBC',
+        'BAB',
+        'CBC'
+      ],
+      {
+        B: '#gtceu:circuits/hv',
+        A: 'draconicevolution:dislocator',
+        C: 'gtceu:stainless_steel_ingot'
+      })
+    
+    event.shaped(
+      Item.of('draconicevolution:celestial_manipulator', 1),
+      [
+        'ABA',
+        'CDC',
+        'EFE'
+      ],
+      {
+        A: '#gtceu:circuits/ulv',
+        B: 'minecraft:clock',
+        C: 'gtceu:steel_ingot',
+        D: 'minecraft:oak_log',
+        E: 'minecraft:iron_ingot',
+        F: 'minecraft:redstone_block'
+      })
+    
     event.custom({
       type: 'draconicevolution:fusion_crafting',
       catalyst: {

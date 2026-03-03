@@ -9,10 +9,10 @@ ServerEvents.recipes((event) => {
             '16x avaritia:endest_pearl',
             '16x avaritia:ultimate_stew',
             '16x avaritia:cosmic_meatballs',
-            '64x avaritia:crystal_matrix'
-        )
-        .inputFluids(
-            'kubejs:uhvcas 5000'
+            '64x avaritia:crystal_matrix',
+            '4x gtceu:neutronium_block',
+            '16x gtceu:tritanium_block',
+            '64x gtceu:steel_block'
         )
         .itemOutputs(
             'avaritia:infinity_catalyst'
@@ -20,14 +20,30 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
 
-        event.recipes.gtceu.fornax_universi_acceleration("fornaxtest")
+    event.remove('avaritia:infinity_ingot')
+    event.recipes.gtceu.fornax_universi_acceleration("fornax2")
         .itemInputs(
-            'minecraft:stone',
+            '4x avaritia:infinity_catalyst',
+            '64x gtceu:neutronium_block',
+            '64x avaritia:crystal_matrix'
         )
         .itemOutputs(
-            'minecraft:cobblestone'
+            'avaritia:infinity_ingot'
         )
         .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
+
+    event.remove('avaritia:blaze_cube')    
+    event.recipes.gtceu.fornax_universi_acceleration("fornax3")
+        .itemInputs(
+            '9x minecraft:blaze_rod'
+        )
+        .itemOutputs(
+            'avaritia:blaze_cube'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UEV])
+
+
 
 });
