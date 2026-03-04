@@ -16,7 +16,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Heyo! Welcome to a modpack which combines ProjectE and GregTech."]
+			description: ["Sup! Welcome to a skyblock modpack mainly focused on GregTech with unique material production featuring ProjectE."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:philosophers_stone"
+				tag: { }
+			}
 			id: "36C13DD29F5CFE9E"
 			size: 3.0d
 			tasks: [{
@@ -41,7 +49,11 @@
 		}
 		{
 			dependencies: ["1D8171083FBB255A"]
-			description: ["This pack will use EMC as a buying power. That means that all resources won't be mineable (you are on skyblock after all), but whats interesting is that there are always new ways to generate EMC in each tier. In each new tier you will need to make a new alloy to sell for more EMC to buy more raw materials. I'll try to balance it to the best of my ability so you need to do every new generating line."]
+			description: [
+				"This pack will use EMC as a buying power. That means that all resources won't be mineable (you are on skyblock after all), but whats interesting is that there are always new ways to generate EMC in each tier. "
+				""
+				"In each new tier you will need to make a new alloy to sell for more EMC to buy more raw materials. I'll try to balance it to the best of my ability so you need to do every new generating line."
+			]
 			id: "6D640340351A76C3"
 			tasks: [{
 				id: "19A863459230ACF9"
@@ -53,13 +65,14 @@
 		}
 		{
 			dependencies: ["6D640340351A76C3"]
-			description: ["Pack is still in contruction mode, quests are placeholders."]
+			description: ["Quests serve as a path that guides your progression, but you dont really have to complete them. You might have to experiment on your own."]
 			id: "082290BAAD2128A9"
 			tasks: [{
 				id: "368554DD599D39B4"
-				title: "WIP"
+				title: "Quests"
 				type: "checkmark"
 			}]
+			title: "Quests"
 			x: 5.5d
 			y: 0.0d
 		}

@@ -112,6 +112,7 @@ StartupEvents.registry('item', event => {
     event.create('animated/guicomp').displayName('Guidance Computer T1')
     event.create('animated/guicomptwo').displayName('Guidance Computer T2')
     event.create('animated/guicompthree').displayName('Guidance Computer T3')
+    event.create('animated/guicompfour').displayName('Guidance Computer T4')
 
     event.create('bacterias/simplebacteria1').displayName('Plague Strain');
     event.create('bacterias/simplebacteria2').displayName('Graveyard Bacillus');

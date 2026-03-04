@@ -52,7 +52,11 @@
 		}
 		{
 			dependencies: ["60514AD9EE7304FA"]
-			description: ["Drink this."]
+			description: [
+				"Drink this."
+				""
+				"Also in the recipe page the items that are below the rune placements mean that you have to throw them on the middle pedestal."
+			]
 			id: "2044419B21EEFABE"
 			tasks: [{
 				id: "4DF5F4A41F8BC55F"

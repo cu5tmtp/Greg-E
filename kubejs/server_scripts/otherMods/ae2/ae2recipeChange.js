@@ -63,6 +63,18 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.replaceInput(
+        'expatternprovider:wireless_connector',
+        'ae2:sky_dust',
+        '#gtceu:circuits/iv'
+    )
+
+    event.replaceInput(
+        'expatternprovider:wireless_hub',
+        'ae2:quantum_link',
+        '#gtceu:circuits/iv'
+    )
+
 
 
     //Advanced aes reaction chamber recipie for matter balls

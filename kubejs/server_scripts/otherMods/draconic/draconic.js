@@ -67,7 +67,13 @@ ServerEvents.recipes((event) => {
     event.custom({
       type: 'draconicevolution:fusion_crafting',
       catalyst: {
-        item: 'draconicevolution:draconium_block'
+        type: 'draconicevolution:ingredient_stack',
+        count: 4,
+        items: [
+          {
+            item: 'draconicevolution:draconium_block'
+          }
+        ],
       },
       ingredients: [
         {
@@ -93,6 +99,7 @@ ServerEvents.recipes((event) => {
         }
       ],
       result: {
+        count: 4,
         item: 'draconicevolution:awakened_draconium_block'
       },
       tier: 'WYVERN',

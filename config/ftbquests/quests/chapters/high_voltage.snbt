@@ -53,9 +53,7 @@
 				"5FAA73C52082DC48"
 				"0AC6B223857CAE94"
 			]
-			description: [
-				""
-			]
+			description: [""]
 			id: "732D201794C228DD"
 			tasks: [{
 				id: "3C92729C9842C491"
@@ -400,6 +398,26 @@
 			}]
 			x: -9.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["62BBF61C9849CA26"]
+			description: [
+				"How to get AE2 channels in a cleanroom?"
+				""
+				"2 ways:"
+				""
+				"1) Place any machine hull in the Cleanroom wall, now it can act as a passthrough for a ME cable."
+				""
+				"2) Wireless AE2: either Wireless Connectors from ExtendedAE or just the ol' reliable quantum ring."
+			]
+			id: "1ED08BAC597A0650"
+			tasks: [{
+				id: "6F89610B6E1634E6"
+				title: "AE2 in cleanroom"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
 		}
 	]
 	title: "HV"

@@ -12,7 +12,7 @@
 		}
 	}
 	id: "769974FDAD5DBEB1"
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -176,8 +176,8 @@
 				tag: { }
 			}
 			id: "313BDDDAF1E08965"
-			shape: "hexagon"
-			size: 2.0d
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "05AC65380B8E5A22"
@@ -204,7 +204,7 @@
 			icon: "ad_astra:fuel_refinery"
 			id: "4785659E5022FEE7"
 			min_width: 300
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "54E00D1DC618B0FB"
@@ -225,7 +225,7 @@
 			dependencies: ["7C9AE01973242410"]
 			description: [""]
 			id: "05B977269171EB06"
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "0DC1EA166270E3B6"
 				item: "ad_astra:launch_pad"
@@ -360,7 +360,7 @@
 			dependencies: ["7C9AE01973242410"]
 			description: ["Place the oxygen bucket in any tank, then right click on the tank with ad astra's oxygen tank. Next put on space suit, and 'eat' the ad astra oxygen tank, this will give you oxygen in your space suit."]
 			id: "12AC846277F88F3D"
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "2ECD3DCDA1B4201D"
 				item: "gtceu:oxygen_bucket"
@@ -372,7 +372,7 @@
 		{
 			dependencies: ["7C9AE01973242410"]
 			id: "64D8FB039D6E7339"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 				{
 					id: "407C0CF123F869A1"

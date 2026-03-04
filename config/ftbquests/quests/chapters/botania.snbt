@@ -71,7 +71,7 @@
 			hide_until_deps_visible: false
 			id: "79BE48D56622542F"
 			min_width: 250
-			shape: "gear"
+			shape: "circle"
 			size: 1.0d
 			tasks: [{
 				id: "6BBFC01F3C0CC252"
@@ -322,7 +322,7 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"If that was your reaction, don't despair. These accompanying mods will let you unlock faster EBFs, but you will have to craft coils from the mods. This time, its Manasteel Coil."
+				"If that was your reaction, don't despair. These accompanying mods will let you unlock special machines that will speed up your progression. This time, its Manasteel Coils for Accelerated EBF."
 				""
 				"Btw, botania will get a lot faster with the addons, but they will unlock later in the playthrough."
 			]

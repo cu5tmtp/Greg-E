@@ -89,13 +89,18 @@
 					type: "item"
 				}
 				{
-					id: "5F3B97D1E3C1575E"
+					id: "557012AF6952D432"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "4009E23394703514"
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
 				{
-					id: "557012AF6952D432"
-					item: "minecraft:lava_bucket"
+					id: "5F3B97D1E3C1575E"
+					item: "minecraft:water_bucket"
 					type: "item"
 				}
 			]
@@ -255,7 +260,13 @@
 		}
 		{
 			dependencies: ["3DAD37FF47259B40"]
-			description: ["Solar panels have boosted RF generation values, so they are really good! Though, the energy conversion between RF and EU (GregTech unit) is 4:1, so you might need more than 1 panel to get the job done. For now, place the solar panels next to the machines you need to power, or use Pipe's energy pipe. But starting next chapter, you will have to use energy converters with GregTech cables. There will be a short tutorial so don't worry if you don't know how to do it."]
+			description: [
+				"Solar panels have boosted RF generation values, so they are really good! "
+				""
+				"Though, the energy conversion between RF and EU (GregTech unit) is 4:1, so you might need more than 1 panel to get the job done. For now, place the solar panels next to the machines you need to power, or use Pipe's energy pipe. But starting next chapter, you will have to use energy converters with GregTech cables. "
+				""
+				"There will be a short tutorial so don't worry if you don't know how to do it."
+			]
 			id: "7DC77B26770A139E"
 			tasks: [{
 				id: "05FDF4AE47169B4D"

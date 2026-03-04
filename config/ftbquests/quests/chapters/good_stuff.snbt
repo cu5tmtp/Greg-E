@@ -52,6 +52,28 @@
 			x: -2.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["64F77D41B2D057B8"]
+			id: "1D086D1AB9E23D06"
+			tasks: [{
+				id: "58B929B7A62B706B"
+				title: "IV Unlock!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D086D1AB9E23D06"]
+			id: "4D46195F00CCE930"
+			tasks: [{
+				id: "24859BC4E51B1ACD"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
 	]
 	title: "AE2 - Advanced"
 }

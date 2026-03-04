@@ -290,6 +290,32 @@
 			x: -2.0d
 			y: -5.0d
 		}
+		{
+			description: ["Use this to automate buying items from Transmutation Tablet. Right click it with item that you learned, and it will start producing the item by the rate written in the tooltip on the block."]
+			id: "1C6F65123CF1E43D"
+			tasks: [{
+				id: "3708D8F637328303"
+				item: "projectexpansion:basic_emc_link"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Use the entangler on a block and rightclick with it this block. The entangled block starts to act as the selected block. Use this to access more sides of a block in tight areas."]
+			id: "0497A423274FF5B8"
+			tasks: [{
+				id: "2B427B6C99F3B479"
+				item: {
+					Count: 1
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
 	]
 	title: "QOL"
 }

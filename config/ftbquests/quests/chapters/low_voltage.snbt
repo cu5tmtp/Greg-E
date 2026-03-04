@@ -750,6 +750,22 @@
 			x: 3.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["01339A8C26CC6E0C"]
+			description: [
+				"Each tier has its own superconducters, cables, which have no energy loss."
+				""
+				"They are always locked behind the mod accompanying the chapter."
+			]
+			id: "155DD3610AD51292"
+			tasks: [{
+				id: "19708D14ABF9DDB9"
+				title: "Superconductors"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
 	]
 	title: "LV"
 }

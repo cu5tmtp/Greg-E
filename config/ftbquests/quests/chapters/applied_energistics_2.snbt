@@ -15,7 +15,8 @@
 			description: [""]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "7B9519E1AF53A9A3"
 				item: "ae2:certus_quartz_crystal"
@@ -29,6 +30,8 @@
 			description: [""]
 			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "5D9229693DE121D4"
@@ -58,6 +61,8 @@
 			dependencies: ["51236544BFEF487B"]
 			description: [""]
 			id: "15564C11744D6AA0"
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "2B6D34E0CD1999C9"
@@ -82,6 +87,8 @@
 			dependencies: ["15564C11744D6AA0"]
 			description: [""]
 			id: "22C4318523A43B49"
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "6C7282A058006A21"
@@ -101,8 +108,8 @@
 			dependencies: ["2F16B6A173525277"]
 			description: [""]
 			id: "4E8A05C3BFA80540"
-			shape: "gear"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "58C4DF6CFBDF8577"
 				item: "ae2:drive"
@@ -116,7 +123,8 @@
 			description: [""]
 			icon: "ae2:pattern_provider"
 			id: "51DE3157DE3E57B8"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "46B6388E0AE7430A"
 				item: "ae2:pattern_provider"
@@ -129,6 +137,8 @@
 			dependencies: ["22C4318523A43B49"]
 			description: [""]
 			id: "2F16B6A173525277"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "6C80AA2FD67BD192"
 				item: "ae2:controller"
@@ -141,13 +151,14 @@
 			dependencies: ["4E8A05C3BFA80540"]
 			description: [""]
 			id: "2FB231069D2E4E77"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "64CCF1FB42AA41CE"
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -157,13 +168,14 @@
 			]
 			description: [""]
 			id: "3B42CCC19D23EC6D"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "066F1BBF3D0863C5"
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: 1.5d
 		}
 		{
@@ -173,14 +185,15 @@
 			]
 			description: [""]
 			id: "219932CB19258C16"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "076237ECA6D5DE58"
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 2.0d
+			x: 14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -189,14 +202,15 @@
 			]
 			description: [""]
 			id: "523853C1C4E688BA"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "32FFC36DEEA7792D"
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.0d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -205,7 +219,8 @@
 			]
 			description: [""]
 			id: "5F56892CD904C40F"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "2C4616CD2EBB58C6"
 				item: "ae2:cell_component_256k"
@@ -221,8 +236,8 @@
 			]
 			description: [""]
 			id: "460A8F17F3ED6CAF"
-			shape: "diamond"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "19BF2D67291056DE"
 				item: "megacells:cell_component_1m"
@@ -238,13 +253,14 @@
 			]
 			description: [""]
 			id: "25DBA00422301EDC"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "32340AD4F677375F"
 				item: "megacells:cell_component_4m"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: 1.5d
 		}
 		{
@@ -254,14 +270,15 @@
 			]
 			description: [""]
 			id: "0E809747193ED3A9"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "76A0C582AECC4702"
 				item: "megacells:cell_component_16m"
 				type: "item"
 			}]
 			x: 20.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -270,14 +287,15 @@
 			]
 			description: [""]
 			id: "3CE3D9245F8EC005"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "50CD83AC904EC47E"
 				item: "megacells:cell_component_64m"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 21.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -286,13 +304,14 @@
 			]
 			description: [""]
 			id: "51A57E142C686C8F"
-			shape: "diamond"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "0D5DA83B0C0665C8"
 				item: "megacells:cell_component_256m"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 1.5d
 		}
 		{
@@ -300,7 +319,8 @@
 			description: [""]
 			icon: "ae2:blank_pattern"
 			id: "2C04B3BA507D5673"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "08D08A1400F7348F"
 				item: "ae2:blank_pattern"
@@ -313,7 +333,8 @@
 			dependencies: ["2C04B3BA507D5673"]
 			description: [""]
 			id: "4597D3B3BDC2BED5"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "5639418C0364E5A1"
 				item: "ae2:molecular_assembler"
@@ -326,7 +347,8 @@
 			dependencies: ["4597D3B3BDC2BED5"]
 			description: [""]
 			id: "1F7DFA5AA65F2812"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "495253F1301A8070"
 				item: "ae2:speed_card"
@@ -339,7 +361,8 @@
 			dependencies: ["2F16B6A173525277"]
 			description: [""]
 			id: "2B31E6C1707D8195"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "3DF8F1A72EBCD73F"
@@ -362,7 +385,8 @@
 				"I recommend combining crafting terminal, pattern encoding terminal and extended pattern access terminal."
 			]
 			id: "16299B9AE87257DC"
-			shape: "rsquare"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "384594EA34F0985B"
 				item: "ae2:wireless_crafting_terminal"
@@ -375,6 +399,8 @@
 			dependencies: ["16299B9AE87257DC"]
 			description: [""]
 			id: "234DC1702333EB18"
+			shape: "circle"
+			size: 1.0d
 			tasks: [
 				{
 					id: "745C92ED1392EE1A"
@@ -387,12 +413,14 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
 			id: "777B90FCD2A91628"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "04E69127FADF4882"
 				title: "LV unlock!"
@@ -404,12 +432,40 @@
 		{
 			dependencies: ["262AE37765B139BE"]
 			id: "4E30BDF20D6052A5"
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "09A1D1424D91C2D9"
 				title: "MV unlock!"
 				type: "checkmark"
 			}]
 			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: ["I think this pack is managable with channels enabled, but I won't fault you if you don't want to play with them. I personally think it adds depth to the mod, but you do you."]
+			id: "799B2C10605FF2C1"
+			shape: "circle"
+			tasks: [{
+				id: "7105AEAB22E257F9"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: ["Put a storage bus on this and your learned items will show up in your ME system. Also put higher priority on that storage bus so the learned items will be sold if you place them back in the system. They will clog your cells otherwise."]
+			id: "4B743772CED6805B"
+			shape: "circle"
+			tasks: [{
+				id: "182A985A6F31D331"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			x: 11.0d
 			y: -0.5d
 		}
 	]

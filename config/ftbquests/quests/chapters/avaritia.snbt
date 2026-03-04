@@ -173,6 +173,18 @@
 			x: -1.5d
 			y: -14.5d
 		}
+		{
+			dependencies: ["29E007A7BC7E6B4E"]
+			description: ["Automating Extreme table is very easy with this. Place it next to a ME packaging provider, and put the pattern into that."]
+			id: "309B7134B2CDC66D"
+			tasks: [{
+				id: "1F928873494207E0"
+				item: "packagedavaritia:extreme_crafter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
 	]
 	title: "AVARITIA"
 }

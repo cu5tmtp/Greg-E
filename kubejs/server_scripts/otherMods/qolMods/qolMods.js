@@ -33,4 +33,11 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(600)
 
+    //entangled
+    event.replaceInput(
+        'entangled:block',
+        '#forge:chests/wooden',
+        'kubejs:voidhole'
+    )
+
 })
