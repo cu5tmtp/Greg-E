@@ -2,7 +2,7 @@ ServerEvents.tags('item', event => {
     event.add( 'projectextended:blacklist_learning', [
         'minecraft:oak_log', 
         'minecraft:oak_sapling', 
-        'minecraft:apple',
+        'minecraft:oak_leaves', 
         'kubejs:lvalloy',
         'kubejs:mvalloy',
         'kubejs:hvalloy',
@@ -18,7 +18,6 @@ ServerEvents.tags('item', event => {
     event.add( 'projectextended:blacklist_condenser', [
         'minecraft:oak_log', 
         'minecraft:oak_sapling', 
-        'minecraft:apple',
         'kubejs:lvalloy',
         'kubejs:mvalloy',
         'kubejs:hvalloy',

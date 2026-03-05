@@ -17,9 +17,9 @@ ServerEvents.recipes((event) => {
     event.shaped(
         Item.of('gtceu:red_alloy_single_cable', 1),
         [
-            ' A ',
+            '   ',
             'ABA',
-            ' A '
+            '   '
         ],
         {
             A: 'kubejs:insulation',
@@ -30,9 +30,9 @@ ServerEvents.recipes((event) => {
     event.shaped(
         Item.of('gtceu:tin_single_cable', 1),
         [
-            ' A ',
+            '   ',
             'ABA',
-            ' A '
+            '   '
         ],
         {
             A: 'kubejs:insulation',
@@ -43,9 +43,9 @@ ServerEvents.recipes((event) => {
     event.shaped(
         Item.of('kubejs:insulation', 1),
         [
-            'AAA',
+            ' A ',
             'ABA',
-            'AAA'
+            ' A '
         ],
         {
             A: 'gtceu:sticky_resin',

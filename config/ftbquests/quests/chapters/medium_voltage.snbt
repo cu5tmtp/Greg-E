@@ -526,7 +526,7 @@
 			dependencies: ["358706CA93DC2A9C"]
 			description: [""]
 			id: "72E5439299E957A8"
-			shape: "gear"
+			shape: "circle"
 			tasks: [{
 				count: 16L
 				id: "6C8DCC0E471D0163"

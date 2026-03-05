@@ -316,6 +316,17 @@
 			x: -0.5d
 			y: -2.5d
 		}
+		{
+			description: ["Great early game storage!"]
+			id: "24D5BA6EC2B100DC"
+			tasks: [{
+				id: "29082318261A71C7"
+				item: "avaritia:compressed_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
 	]
 	title: "QOL"
 }

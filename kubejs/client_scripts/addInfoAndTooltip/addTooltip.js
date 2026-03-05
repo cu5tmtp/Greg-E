@@ -4,7 +4,7 @@ ItemEvents.tooltip((event) => {
         [
             'minecraft:oak_log',
             'minecraft:oak_sapling',
-            'minecraft:apple',
+            'minecraft:oak_leaves',
             'kubejs:lvalloy',
             'kubejs:mvalloy',
             'kubejs:hvalloy',

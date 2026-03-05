@@ -575,38 +575,13 @@
 		}
 		{
 			dependencies: ["05BF7598007DFD7C"]
-			id: "49BB7679F6629BFB"
-			tasks: [{
-				id: "42A2F63CB7BE9595"
-				item: "kubejs:ironshard"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["05BF7598007DFD7C"]
-			id: "487349A5B3CB4801"
-			tasks: [{
-				id: "741E7F66D209E3C3"
-				item: "kubejs:lvcef_bucket"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"487349A5B3CB4801"
-				"49BB7679F6629BFB"
-			]
 			id: "2178EC9D13024B33"
 			tasks: [{
 				id: "5D5CD08399A3E7A4"
 				item: "kubejs:lvcas_bucket"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.0d
 			y: -3.0d
 		}
 		{
@@ -618,7 +593,7 @@
 				item: "gtceu:giant_squeezer"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: -3.0d
 		}
 		{
@@ -683,13 +658,13 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
+			x: -12.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6AD1A5844541BBF2"]
 			description: ["This unlocks AE2, but only storage for now. Autocrafting will unlock in MV, assembler matrix in HV and quantum computer in EV. "]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: false
 			id: "224560FE1C55C087"
 			tasks: [{
 				id: "79A8D25F2A3EB73A"

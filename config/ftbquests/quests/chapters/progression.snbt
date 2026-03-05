@@ -90,16 +90,6 @@
 			y: -1.0d
 		}
 		{
-			id: "2F3C574BF4D9081B"
-			tasks: [{
-				id: "46F2CB8A0AD63CA4"
-				item: "gtceu:bauxite_dust"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
 			id: "76FD3998F40F502B"
 			tasks: [{
 				id: "5615B969BC948567"
@@ -126,8 +116,8 @@
 				item: "ae2:sky_dust"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			id: "6EB0885B333799A1"
@@ -166,8 +156,8 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			id: "507F6BF4A9635CC8"
@@ -772,6 +762,16 @@
 			]
 			x: 16.5d
 			y: 7.0d
+		}
+		{
+			id: "3C77D6E612E4ABE9"
+			tasks: [{
+				id: "686B09472431F498"
+				item: "gtceu:bauxite_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
 		}
 	]
 	title: "Progression"

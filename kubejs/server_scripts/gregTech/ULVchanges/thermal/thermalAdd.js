@@ -15,6 +15,11 @@ ServerEvents.recipes((event) => {
         'gtceu:red_alloy_ingot', 
         ['minecraft:copper_ingot', '4x minecraft:redstone']
     );
+
+    event.recipes.thermal.smelter(
+        'minecraft:charcoal', 
+        'minecraft:coal'
+    );
   
     event.custom({
         type: 'thermal:smelter',
@@ -25,20 +30,8 @@ ServerEvents.recipes((event) => {
         results: [
         { item: 'gtceu:steel_ingot' }
             ],
-        energy: 45000,
-        processingTime: 5000
-    })
-
-    event.custom({
-        type: 'thermal:smelter',
-        ingredients: [
-        { item: 'gtceu:glass_dust' }
-            ],
-        results: [
-        { item: 'minecraft:glass' }
-            ],
-        energy: 450,
-        processingTime: 500
+        energy: 10000,
+        processingTime: 1000
     })
 
     event.recipes.thermal.press(
@@ -55,5 +48,26 @@ ServerEvents.recipes((event) => {
         'gtceu:wood_plate',
         '2x gtceu:wood_dust'
     );
+
+    event.recipes.minecraft.campfire_cooking(
+        'minecraft:glass',
+        'gtceu:glass_dust',
+        0,
+        600
+    )
+
+    event.recipes.minecraft.campfire_cooking(
+        'minecraft:string',
+        '#minecraft:leaves',
+        0,
+        200
+    )
+
+    event.shapeless(
+        Item.of('minecraft:iron_nugget', 9),
+        [
+            'minecraft:iron_ingot'
+        ]
+    )
 
 });

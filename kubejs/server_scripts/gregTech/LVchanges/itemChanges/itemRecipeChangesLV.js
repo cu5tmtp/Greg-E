@@ -52,19 +52,6 @@ ServerEvents.recipes((event) => {
         }
     )
 
-    event.shaped(
-        Item.of('kubejs:rawlogicpress', 1),
-        [
-            'AAA',
-            'ABA',
-            'AAA'
-        ],
-        {
-            A: 'minecraft:iron_ingot',
-            B: 'minecraft:gold_ingot'
-        }
-    )
-
     //Add recipe for nether quartz from common earth to unlock it
     event.shaped(
         Item.of('kubejs:quartzspile', 1),
@@ -191,6 +178,75 @@ ServerEvents.recipes((event) => {
             B: 'kubejs:tornconveyor',
             C: 'gtceu:tin_single_cable'
         }
+    )
+
+    event.replaceInput(
+        'gtceu:shaped/lv_fluid_solidifier',
+        'gtceu:lv_electric_pump',
+        'gtceu:lv_electric_motor'
+    )
+
+    event.shaped(
+        Item.of('gtceu:ulv_input_bus', 1),
+        [
+            ' B ',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'gtceu:ulv_machine_hull',
+            B: 'minecraft:chest',
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:ulv_output_bus', 1),
+        [
+            '   ',
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'gtceu:ulv_machine_hull',
+            B: 'minecraft:chest',
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:ulv_output_hatch', 1),
+        [
+            '   ',
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'gtceu:ulv_machine_hull',
+            B: 'minecraft:glass',
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:ulv_input_hatch', 1),
+        [
+            ' B ',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'gtceu:ulv_machine_hull',
+            B: 'minecraft:glass',
+        }
+    )
+
+    event.replaceInput(
+        'gtceu:shaped/lv_laser_engraver',
+        'gtceu:lv_emitter',
+        'gtceu:lv_electric_motor'
+    )
+
+    event.recipes.minecraft.smelting(
+        'ae2:silicon',
+        'minecraft:quartz'
     )
     
 });

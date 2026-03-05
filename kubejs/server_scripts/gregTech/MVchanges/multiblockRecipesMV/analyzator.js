@@ -19,7 +19,6 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .analyzator('researchthatdamncompound')
         .itemInputs('kubejs:uncomp')   
-        .inputFluids('kubejs:mvcas 1000') 
         .itemOutputs('kubejs:supingot')
         .duration(2000)
         .EUt(120)

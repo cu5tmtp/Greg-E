@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:dshard', 5000, 0)
         .duration(100)
         .EUt(15)
-        .circuit(5)
+        .circuit(6)
 
     event.recipes.gtceu.centrifuge('commonearth_skydust')
         .itemInputs(
@@ -103,15 +103,83 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:dshard', 5000, 0)
         .duration(100)
         .EUt(15)
-        .circuit(6)
+        .circuit(7)
 
-    event.recipes.gtceu.centrifuge('commonearth_emerald')
+    event.recipes.gtceu.centrifuge('commonearth_sulfur2')
+        .itemInputs(
+            'kubejs:commonearth'
+        )
+        .itemOutputs(
+            '8x gtceu:sulfur_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(8)
+
+    event.recipes.gtceu.centrifuge('commonearth_nickel2')
         .itemInputs(
             'kubejs:commonearth',
         )
-        .chancedOutput('minecraft:emerald', 100, 0)
-        .duration(100)
+        .itemOutputs(
+            '4x gtceu:nickel_dust'
+        )
+        .duration(50)
         .EUt(15)
-        .circuit(7)
+        .circuit(9)
+
+    event.recipes.gtceu.centrifuge('commonearth_cobaltite2')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '4x gtceu:cobaltite_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(10)
+
+    event.recipes.gtceu.centrifuge('commonearth_tin2')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '8x gtceu:tin_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(11)
+
+    event.recipes.gtceu.centrifuge('commonearth_silver2')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '4x gtceu:silver_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(12)
+
+    event.recipes.gtceu.centrifuge('commonearth_bauxite2')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '4x gtceu:bauxite_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(13)
+
+    event.recipes.gtceu.centrifuge('commonearth_skydust2')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '4x ae2:sky_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(14)
 
 });
