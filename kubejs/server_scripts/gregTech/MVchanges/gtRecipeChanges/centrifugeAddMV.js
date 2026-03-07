@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
             'gtceu:chromium_dust'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -22,7 +21,6 @@ ServerEvents.recipes((event) => {
             'gtceu:ruby_gem'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -36,7 +34,6 @@ ServerEvents.recipes((event) => {
             'minecraft:emerald'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -50,7 +47,6 @@ ServerEvents.recipes((event) => {
             'gtceu:sapphire_gem'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -64,7 +60,6 @@ ServerEvents.recipes((event) => {
             '3x gtceu:zinc_dust'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -78,7 +73,6 @@ ServerEvents.recipes((event) => {
             '2x gtceu:phosphorus_dust'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)
@@ -92,7 +86,6 @@ ServerEvents.recipes((event) => {
             'gtceu:vanadium_dust'
         )
         .chancedOutput('kubejs:senironspeck', 2500, 0)
-        .chancedOutput('kubejs:silverspeck', 2500, 0)
         .chancedOutput('kubejs:lapisspeck', 2500, 0)
         .duration(100)
         .EUt(120)

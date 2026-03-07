@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '2x kubejs:commonearth'
         )
-        .duration(300)
+        .duration(100)
         .EUt(15)
         .circuit(1)
 

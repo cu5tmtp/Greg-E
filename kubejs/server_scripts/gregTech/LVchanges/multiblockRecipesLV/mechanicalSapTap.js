@@ -23,11 +23,28 @@ ServerEvents.recipes((event) => {
         .circuit(1)
         .duration(200)
 
-        event.recipes.gtceu
+    event.recipes.gtceu
         .mechanical_sap_tap('free_rubber') 
         .notConsumable('#forge:tools/knives')     
         .outputFluids('gtceu:rubber 250')
         .circuit(2)
         .duration(200)
+
+
+    event.recipes.gtceu
+        .mechanical_sap_tap('free_glue2') 
+        .notConsumable('#forge:tools/knives')     
+        .outputFluids('gtceu:glue 250')
+        .circuit(3)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu
+        .mechanical_sap_tap('free_rubber2') 
+        .notConsumable('#forge:tools/knives')     
+        .outputFluids('gtceu:rubber 250')
+        .circuit(4)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LV])
     
 });

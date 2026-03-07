@@ -248,5 +248,23 @@ ServerEvents.recipes((event) => {
         'ae2:silicon',
         'minecraft:quartz'
     )
+
+    event.replaceInput(
+        'gtceu:shaped/emitter_lv',
+        'gtceu:brass_rod',
+        'gtceu:bronze_rod'
+    )
+
+    event.shaped(
+        Item.of('minecraft:redstone_block', 1),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:redstone'
+        }
+    )
     
 });

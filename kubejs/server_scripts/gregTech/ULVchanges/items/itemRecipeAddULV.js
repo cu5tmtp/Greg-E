@@ -89,6 +89,4 @@ ServerEvents.recipes((event) => {
             A: 'minecraft:iron_ingot',
         }
     )
-
-    event.recipes.minecraft.smelting('minecraft:glass', 'gtceu:glass_dust').cookingTime(600)
 });

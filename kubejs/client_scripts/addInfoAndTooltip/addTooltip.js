@@ -1,5 +1,6 @@
 ItemEvents.tooltip((event) => {
 
+    /*
     event.addAdvanced(
         [
             'minecraft:oak_log',
@@ -20,6 +21,7 @@ ItemEvents.tooltip((event) => {
             text.add(1, Text.red('WARNING: Not learnable in transmutating table!'));
         }
     );
+    */
 
     event.addAdvanced(
         [
@@ -89,7 +91,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('1800K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('20%')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('15%')));
         }
     );
 
@@ -99,7 +101,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('3600K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('40%')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('30%')));
         }
     );
 
@@ -109,7 +111,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('5400K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('60%')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('45%')));
         }
     );
 

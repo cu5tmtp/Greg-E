@@ -21,6 +21,6 @@ ServerEvents.recipes((event) => {
         .inputFluids('minecraft:water 500')    
         .itemOutputs('gtceu:salt_dust')
         .circuit(1)
-        .duration(500)
+        .duration(50)
         .EUt(15)
 });

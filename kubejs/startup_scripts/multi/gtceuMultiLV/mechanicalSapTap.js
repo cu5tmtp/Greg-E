@@ -22,6 +22,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .aisle("ADA", "###", "#F#", "###")
         .where("A", Predicates.blocks("chisel_chipped_integration:factory_dotted_rusty_plate")
                         .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+                        .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1))
                         .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1)))
         .where("B", Predicates.blocks("minecraft:dirt"))
         .where("D", Predicates.controller(Predicates.blocks(definition.get())))
