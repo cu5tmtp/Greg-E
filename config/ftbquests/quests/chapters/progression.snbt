@@ -116,7 +116,7 @@
 				item: "ae2:sky_dust"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -166,7 +166,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -176,7 +176,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -266,7 +266,7 @@
 				item: "gtceu:silver_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 1.0d
 		}
 		{

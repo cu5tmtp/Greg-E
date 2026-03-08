@@ -40,5 +40,6 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'megacells:cells/cell_component_256m'})
     event.remove({ id: 'megacells:crafting/mega_crafting_unit'})
     event.remove({ id: 'expatternprovider:cobblestone_cell'})
+    event.remove({ id: 'expatternprovider:water_cell'})
 
 });

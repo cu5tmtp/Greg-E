@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.mixer('uknowncompoundwhat')
         .itemInputs(
-            '3x gtceu:chromium_dust',
+            'gtceu:chromium_dust',
             'gtceu:emerald_dust',
-            '6x gtceu:zinc_dust'
+            'gtceu:zinc_dust'
         )
         .itemOutputs(
             'kubejs:uncomp'

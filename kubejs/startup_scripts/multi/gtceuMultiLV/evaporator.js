@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("evaporator")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("CCC", "BBB", "BBB", "AAA")
         .aisle("CAC", "B#B", "B#B", "AAA")

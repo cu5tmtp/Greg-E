@@ -37,12 +37,6 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
-        { id: 'expatternprovider:water_cell' },
-        'minecraft:water_bucket',
-        'kubejs:waterfive'
-    )
-
-    event.replaceInput(
         { id: 'advanced_ae:quantumcore' },
         'ae2:singularity',
         '#gtceu:circuits/ev'
@@ -52,14 +46,31 @@ ServerEvents.recipes((event) => {
         Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
         [
             'ABA',
-            'BCB',
+            'ECE',
             'DDD'
         ],
         {
             A: 'ae2:quartz_glass',
             B: 'kubejs:cobblefive',
-            C: 'ae2:cell_component_16k',
-            D: 'minecraft:diamond'
+            C: 'ae2:cell_component_4k',
+            D: 'minecraft:diamond',
+            E: '#gtceu:circuits/mv'
+        }
+    )
+
+    event.shaped(
+        Item.of(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}')),
+        [
+            'ABA',
+            'ECE',
+            'DDD'
+        ],
+        {
+            A: 'ae2:quartz_glass',
+            B: 'kubejs:waterfive',
+            C: 'ae2:cell_component_4k',
+            D: 'minecraft:diamond',
+            E: '#gtceu:circuits/mv'
         }
     )
 

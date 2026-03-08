@@ -28,14 +28,14 @@ ServerEvents.recipes((event) => {
         .alchtransformer('cobbleonecompression')
         .itemInputs('9x minecraft:cobblestone')   
         .itemOutputs('kubejs:cobbleone')
-        .duration(100)
+        .duration(20)
         .EUt(120)
 
     event.recipes.gtceu
         .alchtransformer('cobbletwocompression')
         .itemInputs('9x kubejs:cobbleone')   
         .itemOutputs('kubejs:cobbletwo')
-        .duration(100)
+        .duration(20)
         .EUt(120)
 
     event.recipes.gtceu
@@ -63,14 +63,14 @@ ServerEvents.recipes((event) => {
         .alchtransformer('wateronecompression')
         .inputFluids('minecraft:water 9000')   
         .itemOutputs('kubejs:waterone')
-        .duration(100)
+        .duration(20)
         .EUt(120)
 
     event.recipes.gtceu
         .alchtransformer('watertwocompression')
         .itemInputs('9x kubejs:waterone')   
         .itemOutputs('kubejs:watertwo')
-        .duration(100)
+        .duration(20)
         .EUt(120)
 
     event.recipes.gtceu
