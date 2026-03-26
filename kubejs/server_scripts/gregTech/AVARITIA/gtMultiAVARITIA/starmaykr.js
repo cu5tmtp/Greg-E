@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 300)
+        .addData('weight', 350)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr2")
         .itemInputs(
@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 250)
+        .addData('weight', 200)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr5")
         .itemInputs(
@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 200)
+        .addData('weight', 150)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr6")
         .itemInputs(
@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 200)
+        .addData('weight', 100)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr7")
         .itemInputs(
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 150)
+        .addData('weight', 75)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr8")
         .itemInputs(
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 150)
+        .addData('weight', 50)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr9")
         .itemInputs(
@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 100)
+        .addData('weight', 25)
 
     event.remove('avaritia:record_fragment')
     event.recipes.gtceu.star_maykr_singularities("starmaykr10")
