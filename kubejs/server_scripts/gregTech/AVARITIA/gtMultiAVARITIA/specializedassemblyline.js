@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
             '32x gtceu:wetware_processor'
         )
         .EUt(GTValues.VA[GTValues.UHV])
-        .duration(100)
+        .duration(20)
 
     event.recipes.gtceu.specializedassemblyline('specialized2')
         .itemInputs(
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
             '16x gtceu:wetware_processor_assembly'
         )
         .EUt(GTValues.VA[GTValues.UHV])
-        .duration(100)
+        .duration(20)
 
     event.recipes.gtceu.specializedassemblyline('specialized3')
         .itemInputs(
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
             '8x gtceu:wetware_processor_computer'
         )
         .EUt(GTValues.VA[GTValues.UHV])
-        .duration(100)
+        .duration(20)
 
     event.recipes.gtceu.specializedassemblyline('specialized4')
         .itemInputs(
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
             '4x gtceu:wetware_processor_mainframe'
         )
         .EUt(GTValues.VA[GTValues.UHV])
-        .duration(100)
+        .duration(20)
 
     event.recipes.gtceu.specializedassemblyline('specialized5')
         .itemInputs(
@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
             '3x kubejs:animated/draconicprocessor'
         )
         .EUt(GTValues.VA[GTValues.UHV])
-        .duration(100)
+        .duration(20)
 
 
 })
