@@ -205,19 +205,11 @@
 			id: "4785659E5022FEE7"
 			min_width: 300
 			shape: "circle"
-			tasks: [
-				{
-					id: "54E00D1DC618B0FB"
-					item: "ad_astra:fuel_refinery"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "6605CAE425FCB735"
-					item: "ad_astra:fuel_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "54E00D1DC618B0FB"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
 			x: -12.5d
 			y: 6.0d
 		}

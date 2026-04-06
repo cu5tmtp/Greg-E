@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         .inputFluids(
             'kubejs:mvcas 10'
         )
-        .duration(500)
+        .duration(100)
         .EUt(120)
 
     event.recipes.gtceu.extractor('mvcircuitslurry')
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         .outputFluids(
             'kubejs:mvcas 1000'
         )
-        .duration(500)
+        .duration(100)
         .EUt(120)
 
 })

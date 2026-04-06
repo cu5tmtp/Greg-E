@@ -85,7 +85,7 @@
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.1000000000000014d
+			x: 1.8214285714285694d
 			y: 1.5d
 		}
 		{
@@ -621,31 +621,12 @@
 			description: [""]
 			id: "0012EC5DDAEB7D5B"
 			optional: true
-			tasks: [
-				{
-					id: "7023A24AD2772ABE"
-					item: "gtceu:large_brewer"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "1C5A9587B04A8C78"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "556735ED4C2142B6"
-					item: "gtceu:molybdenum_disilicide_coil_block"
-					type: "item"
-				}
-				{
-					count: 57L
-					id: "79959D879E80DA5D"
-					item: "gtceu:corrosion_proof_casing"
-					type: "item"
-				}
-			]
+			shape: "diamond"
+			tasks: [{
+				id: "7023A24AD2772ABE"
+				item: "gtceu:large_brewer"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 7.5d
 		}
@@ -787,26 +768,12 @@
 			description: [""]
 			id: "22DB72BE40115A95"
 			optional: true
-			tasks: [
-				{
-					id: "7549BEB353239BC2"
-					item: "gtceu:large_arc_smelter"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "1A857CFB532243F0"
-					item: "gtceu:molybdenum_disilicide_coil_block"
-					type: "item"
-				}
-				{
-					count: 57L
-					icon: "gtceu:high_temperature_smelting_casing"
-					id: "355F08CEAAEA6041"
-					item: "gtceu:high_temperature_smelting_casing"
-					type: "item"
-				}
-			]
+			shape: "diamond"
+			tasks: [{
+				id: "7549BEB353239BC2"
+				item: "gtceu:large_arc_smelter"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 7.5d
 		}
@@ -1219,7 +1186,7 @@
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{

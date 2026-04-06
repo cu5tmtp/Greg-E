@@ -419,6 +419,52 @@
 			x: 1.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["487F9415CA8F687A"]
+			description: [
+				"Huh, this seems familiar from a different universe..."
+				""
+				"Well, can't go wrong with good ideas."
+				""
+				"Though, they don't have perfect overclock, its still good QOL."
+			]
+			id: "4ED4C73899D40C22"
+			tasks: [
+				{
+					id: "207488F856B9B7DC"
+					item: "gtceu:cube_wiremill"
+					type: "item"
+				}
+				{
+					id: "4C13F9CB74209B49"
+					item: "gtceu:cube_extruder"
+					type: "item"
+				}
+				{
+					id: "0BA26F8BAFF7249D"
+					item: "gtceu:cube_extractor"
+					type: "item"
+				}
+				{
+					id: "51358BB3829E2985"
+					item: "gtceu:cube_ore"
+					type: "item"
+				}
+				{
+					id: "6B22EE8D46AEAD25"
+					item: "gtceu:cube_mixer"
+					type: "item"
+				}
+				{
+					id: "04194231AA545CD9"
+					item: "gtceu:cube_assembler"
+					type: "item"
+				}
+			]
+			title: "Cube factories!"
+			x: -9.5d
+			y: -1.0d
+		}
 	]
 	title: "HV"
 }

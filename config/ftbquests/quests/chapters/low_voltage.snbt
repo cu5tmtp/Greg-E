@@ -260,8 +260,8 @@
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "682FB3C00EF0238B"
-				item: "cobblefordays:tier_1"
+				id: "3DC7749CEB00D806"
+				item: "cobblefordays:tier_2"
 				type: "item"
 			}]
 			title: "Oxygen line"

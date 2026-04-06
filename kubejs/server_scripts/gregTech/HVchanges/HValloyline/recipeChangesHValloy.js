@@ -27,7 +27,7 @@ ServerEvents.recipes((event) =>{
         .outputFluids(
             'kubejs:hvcas 1000'
         )
-        .duration(500)
+        .duration(100)
         .EUt(480)
 
     event.recipes.gtceu.assembler('dohvalloyccrffvf')
@@ -41,6 +41,6 @@ ServerEvents.recipes((event) =>{
         .itemOutputs(
             'kubejs:hvalloy'
         )
-        .duration(500)
+        .duration(100)
         .EUt(480)
 });

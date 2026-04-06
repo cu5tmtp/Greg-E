@@ -77,6 +77,13 @@
   "block.gtceu.specializedassemblyline": "Specialized Assembly Line",
   "gtceu.specializedassemblyline": "Specialized Assembly Line",
 
+  "block.gtceu.cube_wiremill": "Metal Factory",
+  "block.gtceu.cube_extruder": "Industrial Factory",
+  "block.gtceu.cube_assembler": "Assebler Factory",
+  "block.gtceu.cube_extractor": "Fluid Factory",
+  "block.gtceu.cube_ore": "Ore Factory",
+  "block.gtceu.cube_mixer": "Mixer Factory",
+
   "biome.ad_astra.orbit": "Earth Orbit",
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",

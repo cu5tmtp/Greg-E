@@ -330,6 +330,18 @@
 			x: -3.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["10B540D33969EF9C"]
+			description: ["This is the way for EMC farming."]
+			id: "7BCD38EDD4C4BDCE"
+			tasks: [{
+				id: "608C82F64A2E847E"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
 	]
 	title: "ULV"
 }

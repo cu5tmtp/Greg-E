@@ -773,6 +773,16 @@
 			x: -6.5d
 			y: -1.0d
 		}
+		{
+			id: "3AF03E04910C48D2"
+			tasks: [{
+				id: "4B1BEB8DA8164376"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
 	]
 	title: "Progression"
 }

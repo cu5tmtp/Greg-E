@@ -60,8 +60,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 5.25d
+			x: 8.535714285714292d
+			y: 4.964285714285708d
 		}
 		{
 			dependencies: [
@@ -88,7 +88,7 @@
 				item: "gtceu:ilc_chip"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -100,7 +100,7 @@
 				item: "gtceu:ram_chip"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -148,23 +148,8 @@
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"4DD7F3508B757EF0"
-				"1F92F7314DF3C3E2"
-			]
-			description: [""]
-			id: "26004F997C758011"
-			tasks: [{
-				id: "6719992674D5E9F1"
-				item: "gtceu:ruby_lens"
-				type: "item"
-			}]
 			x: 8.5d
-			y: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -178,8 +163,8 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			description: [""]
@@ -190,14 +175,10 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"545959C8C28C6F2B"
-				"26004F997C758011"
-			]
 			description: [""]
 			id: "11F7D3DDF5683EB3"
 			tasks: [{
@@ -205,71 +186,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"1ACD6672F72664D6"
-				"1F92F7314DF3C3E2"
-			]
-			description: [""]
-			id: "545959C8C28C6F2B"
-			tasks: [{
-				id: "26EADF8B321DFAA6"
-				item: "gtceu:emerald_lens"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["262AE37765B139BE"]
-			description: [""]
-			hide_dependency_lines: true
-			id: "1F92F7314DF3C3E2"
-			tasks: [{
-				id: "79464C2A1BC4AF5A"
-				item: "gtceu:mv_lathe"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["0D1A6B32FEB51FAD"]
-			description: [""]
-			id: "1ACD6672F72664D6"
-			tasks: [{
-				id: "08D29D56F156C82E"
-				item: "gtceu:emerald_plate"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0D1A6B32FEB51FAD"]
-			description: [""]
-			id: "4DD7F3508B757EF0"
-			tasks: [{
-				id: "56729AE1F5992DB7"
-				item: "gtceu:ruby_plate"
-				type: "item"
-			}]
 			x: 8.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0D1A6B32FEB51FAD"]
-			description: [""]
-			id: "42FD79CEB3426861"
-			tasks: [{
-				id: "4DA40BBA92BE3271"
-				item: "gtceu:lubricant_bucket"
-				type: "item"
-			}]
-			x: 12.0d
 			y: -1.5d
 		}
 		{
@@ -308,7 +225,7 @@
 				item: "gtceu:ram_wafer"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -323,7 +240,7 @@
 				item: "gtceu:ilc_wafer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -537,7 +454,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1F92F7314DF3C3E2"]
 			description: [""]
 			hide_dependency_lines: true
 			id: "20A0A574F51EEF74"

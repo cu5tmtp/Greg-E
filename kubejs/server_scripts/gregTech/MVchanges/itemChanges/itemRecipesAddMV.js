@@ -47,5 +47,17 @@ ServerEvents.recipes((event) => {
             A: 'kubejs:lapisspile',
         }
     )
+
+    event.replaceInput(
+        'gtceu:shaped/emitter_mv',
+        'gtceu:flawless_emerald_gem',
+        'minecraft:emerald'
+    )
+
+    event.replaceInput(
+        'gtceu:assembler/emitter_mv',
+        'gtceu:flawless_emerald_gem',
+        'minecraft:emerald'
+    )
 });
 
