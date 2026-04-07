@@ -5,11 +5,15 @@
 	group: "1DD75D8B702CB0A0"
 	icon: "enchanted:witch_cauldron"
 	id: "7481437E877EC67C"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Your Witche- ups, I mean Enchanted journey starts here."]
+			description: [
+				"Your Witche- ups, I mean Enchanted journey starts here."
+				""
+				"Put the cauldron over campfire, and bubbles should come up from it."
+			]
 			id: "6E7D9D3DC0E9F8E6"
 			tasks: [{
 				id: "259A19CB2EB55480"

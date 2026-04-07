@@ -783,6 +783,16 @@
 			x: -1.5d
 			y: 1.0d
 		}
+		{
+			id: "453D93A4C4A70AD9"
+			tasks: [{
+				id: "352561BADFD2C625"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
 	]
 	title: "Progression"
 }

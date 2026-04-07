@@ -444,7 +444,7 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["I think this pack is managable with channels enabled, but I won't fault you if you don't want to play with them. I personally think it adds depth to the mod, but you do you."]
+			description: ["If you want challenge, use channels. I won't blame you if you won't!"]
 			id: "799B2C10605FF2C1"
 			shape: "circle"
 			tasks: [{

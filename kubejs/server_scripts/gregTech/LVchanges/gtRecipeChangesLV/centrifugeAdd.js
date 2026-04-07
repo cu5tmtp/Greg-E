@@ -230,4 +230,15 @@ ServerEvents.recipes((event) => {
         .EUt(15)
         .circuit(1)
 
+    event.recipes.gtceu.centrifuge('leaddustget')
+        .itemInputs(
+            'kubejs:commonearth',
+        )
+        .itemOutputs(
+            '4x gtceu:lead_dust'
+        )
+        .duration(50)
+        .EUt(15)
+        .circuit(17)
+
 });

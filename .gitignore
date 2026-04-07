@@ -22,3 +22,5 @@ observable_announce
 minecraftinstance.json
 /data
 user-prefs.json
+config/spark/config.json
+config/spark/activity.json

@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "1DD75D8B702CB0A0"
+	icon: "bloodmagic:altar"
+	id: "681FCE0A39B15FD5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Get the altar, its your 'crafting' bench for this mod. Look in the book for the correct multiblock placement."]
+			id: "61FFFBD9D57C59E9"
+			tasks: [
+				{
+					id: "135E4370897E07CA"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "5422A719DF3363D9"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F9E4A0D889D77F0"]
+			description: [
+				"I recommend getting 2 altars. One is for generating blood (max it out on runes of sacrifice, then combination of transfer, capacity and acceleration runes), the other for crafting - acceleration, capacity runes will be your friend."
+				""
+				"You can check the maximum amounts of runes in the Blood Magic book."
+			]
+			id: "5200F7792C378575"
+			tasks: [{
+				id: "651F12EC8F79F042"
+				title: "Best altar setup"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D14ABE6B08AB394"]
+			description: [
+				"This is the best way to generate blood. Give it fully maxed out model (you can see which ones are really good if you right click Virtual Sacrificer, more energy = more blood)."
+				""
+				"Also check out the catalyst, those give you multipliers on the blood recieved (-1 uses means its infinite). You can have multiple Sacrificers per altar."
+			]
+			id: "5F9E4A0D889D77F0"
+			tasks: [{
+				id: "61EFC138A4EFF0A4"
+				item: "sanguine_networks:virtual_sacrificer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61FFFBD9D57C59E9"]
+			description: ["Right click this to get blood in your altar. It drains HP, but there are multiple ways to regenerate that fast."]
+			id: "3D14ABE6B08AB394"
+			tasks: [{
+				id: "4E6535A3855FEE57"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5200F7792C378575"]
+			id: "6373B87A543362B8"
+			tasks: [{
+				id: "4EF05BFD94DA276B"
+				item: "gregecore:solar_activator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5200F7792C378575"]
+			id: "5A98BDEF60616E89"
+			tasks: [{
+				id: "5ADC7B99D43A6FB5"
+				item: "kubejs:activatedrune"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "Blood Magic"
+}

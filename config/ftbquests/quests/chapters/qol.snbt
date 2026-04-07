@@ -324,7 +324,22 @@
 				item: "avaritia:compressed_chest"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Use these for better AE2 autocrafting, so you don't have to change recipes every 2 seconds."
+				""
+				"There is universal circuit for every tier."
+			]
+			id: "0741647F701C2CE0"
+			tasks: [{
+				id: "076F9795F6F2F2E9"
+				item: "kubejs:universal/lv"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -0.5d
 		}
 	]

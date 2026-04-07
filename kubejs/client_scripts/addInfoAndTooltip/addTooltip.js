@@ -59,7 +59,7 @@ ItemEvents.tooltip((event) => {
         }
     );
 
-        event.addAdvanced(
+    event.addAdvanced(
         [
             'gtceu:bacteriabreeder'
         ],
@@ -67,6 +67,27 @@ ItemEvents.tooltip((event) => {
             text.add(1, Text.white('Machine modes: Bacteria Breeding, Bacteria Multiplying'));
         }
     );
+
+    const factories = [
+        {id: 'gtceu:cube_wiremill', tooltip: 'Machine modes: Wiremill, Bender'},
+        {id: 'gtceu:cube_extruder', tooltip: 'Machine modes: Extruder, Cutter'},
+        {id: 'gtceu:cube_extractor', tooltip: 'Machine modes: Extractor, Fluid Solidifier'},
+        {id: 'gtceu:cube_ore', tooltip: 'Machine modes: Macerator, Ore Washer'},
+        {id: 'gtceu:cube_mixer', tooltip: 'Machine modes: Mixer'},
+        {id: 'gtceu:cube_assembler', tooltip: 'Machine modes: Assembler, Circuit Assembler'},
+    ]
+
+    factories.forEach(tip => {
+        event.addAdvanced(
+            [
+                tip.id
+            ],
+            (item, advanced, text) => {
+                text.add(1, Text.white(tip.tooltip));
+            }
+    );
+
+    })
 
     event.addAdvanced(
         [
