@@ -350,14 +350,21 @@
 		}
 		{
 			dependencies: ["7C9AE01973242410"]
-			description: ["Place the oxygen bucket in any tank, then right click on the tank with ad astra's oxygen tank. Next put on space suit, and 'eat' the ad astra oxygen tank, this will give you oxygen in your space suit."]
+			description: ["Place oxygen in the oxygen loader, then put in the spacesuit or oxygen tank you want to fill and it fills up automatically!"]
 			id: "12AC846277F88F3D"
 			shape: "circle"
-			tasks: [{
-				id: "2ECD3DCDA1B4201D"
-				item: "gtceu:oxygen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2ECD3DCDA1B4201D"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "75DB696CA707ED79"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+			]
 			x: -12.5d
 			y: 8.0d
 		}

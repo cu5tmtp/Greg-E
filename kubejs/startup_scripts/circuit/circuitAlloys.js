@@ -1,6 +1,5 @@
 StartupEvents.registry('item', event => {
 
-    //Add new items - circuit alloys
     event.create('lvalloy').displayName('LV Circuit Alloy Ingot')
     event.create('mvalloy').displayName('MV Circuit Alloy Ingot')
     event.create('hvalloy').displayName('HV Circuit Alloy Ingot')
