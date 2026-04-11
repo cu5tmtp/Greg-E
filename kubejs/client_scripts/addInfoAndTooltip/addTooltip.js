@@ -216,7 +216,6 @@ ItemEvents.tooltip((event) => {
 
     //Thank you to these artists:
 
-    /*
     event.addAdvanced(
         [
             'kubejs:lvalloy',
@@ -224,16 +223,18 @@ ItemEvents.tooltip((event) => {
             'kubejs:hvalloy',
             'kubejs:evalloy',
             'kubejs:ivalloy',
+
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Texture made by: ').append(Text.blue('theo_artin')));
+        }
+    );
+
+    /*
             'kubejs:luvalloy',
             'kubejs:animated/zpmalloy',
             'kubejs:animated/uvalloy',
             'kubejs:animated/uhvalloy'
-
-        ],
-        (item, advanced, text) => {
-            text.add(1, Text.gray('Texture made by: ').append(Text.lightPurple('theo_artin')));
-        }
-    );
     */
 
 });
