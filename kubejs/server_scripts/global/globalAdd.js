@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
             )
             .EUt(add.tier)
             .duration(1)
-            .circuit(1)
+            .circuit(24)
     })
 
 })

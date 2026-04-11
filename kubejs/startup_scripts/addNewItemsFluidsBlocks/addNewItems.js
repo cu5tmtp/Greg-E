@@ -55,7 +55,7 @@ StartupEvents.registry('item', event => {
     event.create('cursedin').displayName('Cursed Evergy Ingot')
     event.create('mythrilcoating').displayName('Mythril Coating')
     event.create('drahead').displayName('Corrupted Dragon Skull')
-    event.create('cpottery').displayName('Curious Pottery Shard')
+    event.create('cpottery').displayName('Curious Pottery Sherd')
     event.create('dewvial').displayName('Dew Vial')
     event.create('dwre').displayName('Dwarven Pottery Bundle')
     event.create('mybrush').displayName('Mythril Brush')

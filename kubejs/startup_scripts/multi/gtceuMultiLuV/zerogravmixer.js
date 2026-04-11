@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     .create("zerogravmixer")
     .category("multiblock")
     .setEUIO("in")
-    .setMaxIOSize(3, 3, 9, 3)
+    .setMaxIOSize(3, 3, 3, 3)
     .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.MIXER);

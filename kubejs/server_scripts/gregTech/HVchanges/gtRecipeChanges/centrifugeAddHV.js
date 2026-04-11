@@ -32,4 +32,15 @@ ServerEvents.recipes((event) =>{
         .duration(100)
         .EUt(480)
         .circuit(3)
+
+    event.recipes.gtceu.centrifuge('amethystget')
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '2x minecraft:amethyst_shard'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(4)
 })

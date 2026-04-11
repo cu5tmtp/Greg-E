@@ -164,4 +164,15 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(14)
 
+    event.recipes.gtceu.centrifuge('deepslateearth_antimony')
+        .itemInputs(
+            'kubejs:deepslateearth'
+        )
+        .itemOutputs(
+            '2x gtceu:antimony_dust'
+        )
+        .duration(50)
+        .EUt(120)
+        .circuit(15)
+
 });

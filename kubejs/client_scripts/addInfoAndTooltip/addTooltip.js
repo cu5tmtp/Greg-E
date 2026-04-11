@@ -168,6 +168,27 @@ ItemEvents.tooltip((event) => {
             text.add(3, Text.green('Coil parallels: ').append(Text.yellow('8')));
         }
     );
-    
+
+    //Thank you to these artists:
+
+    /*
+    event.addAdvanced(
+        [
+            'kubejs:lvalloy',
+            'kubejs:mvalloy',
+            'kubejs:hvalloy',
+            'kubejs:evalloy',
+            'kubejs:ivalloy',
+            'kubejs:luvalloy',
+            'kubejs:animated/zpmalloy',
+            'kubejs:animated/uvalloy',
+            'kubejs:animated/uhvalloy'
+
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Texture made by: ').append(Text.lightPurple('theo_artin')));
+        }
+    );
+    */
 
 });

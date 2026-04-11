@@ -306,7 +306,7 @@
 				item: "gregecore:plutonium_hexafluoride_dust"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -316,7 +316,7 @@
 				item: "gtceu:uranium_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -416,7 +416,7 @@
 				item: "gtceu:rare_earth_dust"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -780,7 +780,7 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -792,6 +792,66 @@
 			}]
 			x: -6.0d
 			y: 2.0d
+		}
+		{
+			id: "252A9139FDAB59EC"
+			tasks: [{
+				id: "40E263115B5DA37F"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "34E59D6D2CC4BFBD"
+			tasks: [{
+				id: "1CB6ADCF726CE058"
+				item: "gtceu:tantalum_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "4D7BC4B6B894ED87"
+			tasks: [{
+				id: "239252CBDE435FF3"
+				item: "gtceu:barium_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "0684B3CF559EB065"
+			tasks: [{
+				id: "261D143481002F5D"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "1E6F32628BB02315"
+			tasks: [{
+				id: "4C157743FA6682BC"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7E4A89E284D627A8"
+			tasks: [{
+				id: "61CF662E8BFF1685"
+				item: "gtceu:bismuth_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
 		}
 	]
 	title: "Progression"
