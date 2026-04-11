@@ -1,0 +1,101 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_networks"
+	group: "1DD75D8B702CB0A0"
+	icon: "hostilenetworks:sim_chamber"
+	id: "5FBF19E1B37C685A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Everyone knows this mod."]
+			id: "46BFB99A88967002"
+			tasks: [
+				{
+					id: "58FD46693F88B405"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "1EE9529C75592DE7"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46BFB99A88967002"]
+			description: [
+				"This one, not so much."
+				""
+				"Okay so basically, these can process 64 operation at one time. How can you get there? Next quest."
+			]
+			id: "710D20D8A2D840B1"
+			tasks: [
+				{
+					id: "2B3B6F5744C5DC25"
+					item: "extrahnn:ultimate_loot_fabricator_v4"
+					type: "item"
+				}
+				{
+					id: "5B8DE348F218E958"
+					item: "extrahnn:ultimate_sim_chamber_v4"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["710D20D8A2D840B1"]
+			description: [
+				"This machine can upgrade your models without giving you anything back. Why would you want to and not do it the original way? Because this is much faster, especially with the speed and data upgrades."
+				""
+				"Now if you look at Chaos Guardian, it needs 32000 data. How to get there within normal time? Tier upgrade. That one uses so much energy but directly upgrades the model to next tier."
+			]
+			id: "5A1519B823651468"
+			tasks: [{
+				id: "49D5B99EB5897EBB"
+				item: "extrahnn:simulator_modeling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["710D20D8A2D840B1"]
+			description: ["With this machine you can combine 4 self-aware models to 1 model. It can be different mobs, but they all need to be self-aware. Then that model will be able to create 64 matrixes in 1 operation. Use Simulation Modeling to get it to best tier fast."]
+			id: "38C392348087494A"
+			tasks: [{
+				id: "351543188D2BB862"
+				item: "extrahnn:merger_camera"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["710D20D8A2D840B1"]
+			description: ["Speed + Data upgrades first, then Tier."]
+			id: "696B78C31F41F6E9"
+			tasks: [
+				{
+					id: "7A67C8BA305877D4"
+					item: "extrahnn:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "2403C12B66C4C217"
+					item: "extrahnn:upgrade_module_stack"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "Hostile Neural Networks"
+}

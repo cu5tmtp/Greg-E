@@ -139,4 +139,37 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 450)
 
+    event.recipes.gtceu.star_maykr_singularities("starmaykr12")
+        .itemInputs(
+            '64x botanicalextramachinery:crimson_dragonstone_block',
+            '64x draconicevolution:awakened_draconium_block',
+            '8x ad_extendra:electrolyte_block',
+            '4x twilightforest:arctic_fur_block',
+            '16x bloodmagic:dungeon_metal',
+            '64x avaritia:crystal_matrix',
+            '16x avaritia:infinity'
+        )
+        .itemOutputs(
+            'gregecore:tome4'
+        )
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .addData('weight', 250)
+
+    event.recipes.gtceu.star_maykr_singularities("starmaykr13")
+        .itemInputs(
+            'ad_extendra:tier_11_rocket',
+            'mythicbotany:andwari_ring',
+            '64x advanced_ae:quantum_alloy_plate',
+            '16x enchanted:spirit_of_otherwhere',
+            'botania:thor_ring',
+            '64x kubejs:animated/draconicprocessor'
+        )
+        .itemOutputs(
+            'gregecore:tome5'
+        )
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .addData('weight', 250)
+
 });

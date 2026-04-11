@@ -103,6 +103,11 @@ StartupEvents.registry('item', event => {
     event.create('lapisspeck').displayName('Speck of Lapis Lazuli')
     event.create('lapisspile').displayName('Small Pile of Lapis Lazuli')
 
+    event.create('tomes/withertoken').displayName('Wither Token')
+    event.create('tomes/gaiatoken').displayName('Gaia Token')
+    event.create('tomes/chaostoken').displayName('Chaos Guardian Token')
+    event.create('tomes/enderdragontoken').displayName('Ender Dragon Token')
+
     event.create('waterone').displayName('Compressed Water')
     event.create('watertwo').displayName('2x Compressed Water')
     event.create('waterthree').displayName('3x Compressed Water')

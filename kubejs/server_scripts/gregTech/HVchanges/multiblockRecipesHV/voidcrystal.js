@@ -8,7 +8,7 @@ ServerEvents.recipes((event) =>{
         ],
         {
             A: '#gtceu:circuits/hv',
-            B: 'gtceu:uranium_ingot',
+            B: 'kubejs:voidtent',
             C: 'gtceu:fine_steel_wire',
             D: 'gtceu:hv_voltage_coil',
             E: 'gtceu:hv_machine_hull'

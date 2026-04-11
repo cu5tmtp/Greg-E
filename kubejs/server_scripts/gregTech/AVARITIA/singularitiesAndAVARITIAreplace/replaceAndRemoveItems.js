@@ -1,36 +1,6 @@
 ServerEvents.recipes((event) => {
 
     event.replaceInput(
-        'avaritia:infinity_helmet',
-        'avaritia:neutron_ingot',
-        'gtceu:neutronium_ingot'
-    )
-
-    event.replaceInput(
-        'avaritia:infinity_chestplate',
-        'avaritia:neutron_ingot',
-        'gtceu:neutronium_ingot'
-    )
-
-    event.replaceInput(
-        'avaritia:infinity_pants',
-        'avaritia:neutron_ingot',
-        'gtceu:neutronium_ingot'
-    )
-
-    event.replaceInput(
-        'avaritia:infinity_boots',
-        'avaritia:neutron_ingot',
-        'gtceu:neutronium_ingot'
-    )
-
-    event.replaceInput(
-        'avaritia:infinity_sword',
-        'avaritia:neutron_ingot',
-        'gtceu:neutronium_ingot'
-    )
-
-    event.replaceInput(
         'avaritia:infinity_pickaxe',
         'avaritia:neutron_ingot',
         'gtceu:neutronium_ingot'

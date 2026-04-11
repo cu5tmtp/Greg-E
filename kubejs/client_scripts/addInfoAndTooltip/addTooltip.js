@@ -169,6 +169,51 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+    event.addAdvanced(
+        [
+            'gregecore:tome2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("You can feel intense pressure from this book, maybe the souls of strong enemies don't fade away that easily..."));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:tome1'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("Ancient alien race left this book behind because they could not comprehend its secrets... maybe you can."));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:tome4'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("This tome is hiding in the subatomic particles of several combined blocks that are pressured together in a star. How it got there is a mystery..."));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:tome5'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("This tome is hiding in the subatomic particles of several combined items that are pressured together in a star. How it got there is a mystery..."));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:tome3'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("The recipe for this book has been in the witch coven for a long time, but none were able to create it. You can be the first person to do it..."));
+        }
+    );
+
     //Thank you to these artists:
 
     /*

@@ -44,6 +44,17 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
 
-
+    event.recipes.gtceu.fornax_universi_acceleration("fornax4")
+        .itemInputs(
+            'kubejs:tomes/withertoken',
+            'kubejs:tomes/gaiatoken',
+            'kubejs:tomes/chaostoken',
+            'kubejs:tomes/enderdragontoken'
+        )
+        .itemOutputs(
+            'gregecore:tome2'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UEV])
 
 });

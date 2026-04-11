@@ -10,6 +10,12 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
 
+    event.replaceInput(
+        'minecraft:beacon',
+        'minecraft:nether_star',
+        'botania:spark'
+    )
+
     const circuitsToAdd = [
         {item: 'kubejs:universal/lv', tag: '#gtceu:circuits/lv', tier: GTValues.VA[GTValues.LV]},
         {item: 'kubejs:universal/mv', tag: '#gtceu:circuits/mv', tier: GTValues.VA[GTValues.MV]},

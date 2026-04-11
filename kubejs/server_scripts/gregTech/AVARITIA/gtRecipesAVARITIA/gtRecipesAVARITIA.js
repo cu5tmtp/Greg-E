@@ -106,6 +106,46 @@ ServerEvents.recipes((event) =>{
         .duration(200)
         .circuit(1)
 
+    event.recipes.gtceu.compressor('withertokengettttt')
+        .itemInputs(
+            '64x gtceu:nether_star_block'
+        )
+        .itemOutputs(
+            'kubejs:tomes/withertoken'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+
+    event.recipes.gtceu.compressor('gaiatokengettttt')
+        .itemInputs(
+            '64x botanicalextramachinery:malachite_ingot_block'
+        )
+        .itemOutputs(
+            'kubejs:tomes/gaiatoken'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+
+    event.recipes.gtceu.compressor('chaostokengettttt')
+        .itemInputs(
+            '64x draconicevolution:dragon_heart'
+        )
+        .itemOutputs(
+            'kubejs:tomes/chaostoken'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+
+    event.recipes.gtceu.compressor('dragontokengettttt')
+        .itemInputs(
+             'minecraft:dragon_head'
+        )
+        .itemOutputs(
+            'kubejs:tomes/enderdragontoken'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+
 
 
 })

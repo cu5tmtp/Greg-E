@@ -74,4 +74,45 @@ ServerEvents.recipes((event) => {
     },
   });
 
+  event.custom({
+    type: "enchanted:witch_cauldron",
+    cookingColor: [
+      120,
+      80,
+      53
+    ],
+    finalColor: [
+      250,
+      180,
+      60
+    ],
+    ingredients: [
+      {
+        item: "undergarden:goo_ball"
+      },
+      {
+        item: 'undergarden:mogmoss'
+      },
+      {
+        item: 'twilightforest:borer_essence'
+      },
+      {
+        item:'twilightforest:raven_feather'
+      },
+      {
+        item:'bloodmagic:strong_tau'
+      },
+      {
+        item:'enchanted:tongue_of_dog'
+      },
+      {
+        item:'minecraft:book'
+      }
+    ],
+    power: 7000,
+    result: {
+      item: "gregecore:tome3",
+    },
+  });
+
 });

@@ -5,7 +5,7 @@
 	group: "1DD75D8B702CB0A0"
 	icon: "enchanted:witch_cauldron"
 	id: "7481437E877EC67C"
-	order_index: 7
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
