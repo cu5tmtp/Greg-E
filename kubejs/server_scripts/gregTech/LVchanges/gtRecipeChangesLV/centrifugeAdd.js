@@ -11,6 +11,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(1)
@@ -26,6 +27,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(2)
@@ -41,6 +43,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(3)
@@ -56,6 +59,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(4)
@@ -71,6 +75,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(5)
@@ -86,6 +91,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(6)
@@ -101,6 +107,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(7)
@@ -238,6 +245,20 @@ ServerEvents.recipes((event) => {
             '4x gtceu:lead_dust'
         )
         .duration(50)
+        .EUt(15)
+        .circuit(17)
+
+    event.recipes.gtceu.centrifuge('netwerhafdgf')
+        .itemInputs(
+            '8x minecraft:netherrack',
+        )
+        .inputFluids(
+            'minecraft:lava 1000'
+        )
+        .itemOutputs(
+            'minecraft:nether_wart'
+        )
+        .duration(300)
         .EUt(15)
         .circuit(17)
 

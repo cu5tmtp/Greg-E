@@ -34,16 +34,6 @@ ServerEvents.recipes((event) =>{
         .circuit(1)
         .biome('ad_astra:mars_orbit')
 
-    event.recipes.gtceu.zerogravmixer('getthemrareearth')
-        .itemInputs(
-            'kubejs:gassydust'
-        )
-        .chancedOutput('gtceu:rare_earth_dust', 100, 0)
-        .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
-        .circuit(2)
-        .biome('ad_astra:mars_orbit')
-
     event.recipes.gtceu.zerogravmixer('getthebismuth')
         .itemInputs(
             'kubejs:gassydust'
@@ -51,7 +41,7 @@ ServerEvents.recipes((event) =>{
         .chancedOutput('gtceu:bismuth_dust', 100, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.LuV])
-        .circuit(3)
+        .circuit(2)
         .biome('ad_astra:mars_orbit')
 
 });

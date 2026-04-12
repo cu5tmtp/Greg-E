@@ -11,8 +11,8 @@ ServerEvents.recipes((event) => {
             A: '#gtceu:circuits/ev',
             B: 'kubejs:dewvial',
             C: 'botania:runic_altar',
-            D: 'botania:rune_fire',
-            E: 'gtceu:ev_machine_hull',
+            D: 'botania:rune_air',
+            E: 'gtceu:hv_machine_hull',
             F: 'minecraft:lantern'
         }
     )

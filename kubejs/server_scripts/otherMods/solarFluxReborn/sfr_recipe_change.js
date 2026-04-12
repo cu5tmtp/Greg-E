@@ -37,11 +37,15 @@ ServerEvents.recipes((event) => {
             '8x solarflux:sp_2',
             '8x solarflux:photovoltaic_cell_1'
         )
+        .inputFluids(
+            'gtceu:tin 144'
+        )
         .itemOutputs(
             '3x solarflux:sp_3'
         )
         .duration(500)
         .EUt(60)
+        .circuit(1)
 
     //Solar panel 4    
     event.recipes.gtceu.assembler('sp_four')
@@ -49,11 +53,15 @@ ServerEvents.recipes((event) => {
             '8x solarflux:sp_3',
             '8x solarflux:photovoltaic_cell_2'
         )
+        .inputFluids(
+            'gtceu:tin 144'
+        )
         .itemOutputs(
             '3x solarflux:sp_4'
         )
         .duration(500)
         .EUt(240)
+        .circuit(1)
     
     //Solar panel 5
     event.recipes.gtceu.assembler('sp_five')
@@ -61,11 +69,15 @@ ServerEvents.recipes((event) => {
             '8x solarflux:sp_4',
             '8x solarflux:photovoltaic_cell_3'
         )
+        .inputFluids(
+            'gtceu:tin 144'
+        )
         .itemOutputs(
             '3x solarflux:sp_5'
         )
         .duration(500)
         .EUt(1020)
+        .circuit(1)
     
     //Solar panel 6    
     event.recipes.gtceu.assembler('sp_six')
@@ -73,11 +85,15 @@ ServerEvents.recipes((event) => {
             '8x solarflux:sp_5',
             '8x solarflux:photovoltaic_cell_4'
         )
+        .inputFluids(
+            'gtceu:tin 144'
+        )
         .itemOutputs(
             '3x solarflux:sp_6'
         )
         .duration(500)
         .EUt(4080) 
+        .circuit(1)
 
     //Solar panel 7    
     event.recipes.gtceu.assembler('sp_seven')
@@ -85,11 +101,15 @@ ServerEvents.recipes((event) => {
             '8x solarflux:sp_6',
             '8x solarflux:photovoltaic_cell_5'
         )
+        .inputFluids(
+            'gtceu:tin 144'
+        )
         .itemOutputs(
             '3x solarflux:sp_7'
         )
         .duration(500)
         .EUt(12080) 
+        .circuit(1)
 
     //no more recipies for this, get the Dyson swarm multiblocks!
 });

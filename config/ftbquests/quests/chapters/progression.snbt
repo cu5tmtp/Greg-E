@@ -256,8 +256,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			id: "475F01CCB1E4B8A3"
@@ -416,8 +416,8 @@
 				item: "gtceu:rare_earth_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			id: "377F59F1EFD5CB54"
@@ -780,7 +780,7 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -830,8 +830,8 @@
 				item: "gtceu:antimony_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "1E6F32628BB02315"
@@ -850,8 +850,18 @@
 				item: "gtceu:bismuth_dust"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
+		}
+		{
+			id: "55711CBCF5F78B8A"
+			tasks: [{
+				id: "00041FB28BF96B71"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
 		}
 	]
 	title: "Progression"

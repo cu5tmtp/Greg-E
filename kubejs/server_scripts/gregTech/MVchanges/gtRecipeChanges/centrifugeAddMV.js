@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
             'gtceu:chromium_dust'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(1)
@@ -21,7 +20,6 @@ ServerEvents.recipes((event) => {
             'gtceu:ruby_gem'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(2)
@@ -32,7 +30,6 @@ ServerEvents.recipes((event) => {
         )
         .chancedOutput('minecraft:emerald', 100, 0)
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(3)
@@ -45,7 +42,6 @@ ServerEvents.recipes((event) => {
             'gtceu:sapphire_gem'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(4)
@@ -58,7 +54,6 @@ ServerEvents.recipes((event) => {
             '3x gtceu:zinc_dust'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(5)
@@ -71,7 +66,6 @@ ServerEvents.recipes((event) => {
             '2x gtceu:phosphorus_dust'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(6)
@@ -84,7 +78,6 @@ ServerEvents.recipes((event) => {
             'gtceu:vanadium_dust'
         )
         .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(120)
         .circuit(7)

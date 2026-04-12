@@ -9,7 +9,8 @@ ServerEvents.recipes((event) => {
         .chancedOutput('gtceu:raw_pentlandite', 10, 0)
         .chancedOutput('gtceu:raw_topaz', 10, 0)
         .chancedOutput('gtceu:raw_apatite', 10, 0)
-        .duration(300)
+        .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
+        .circuit(1)
 
 });

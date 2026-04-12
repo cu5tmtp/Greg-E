@@ -76,6 +76,21 @@
 			x: 5.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"Thank you to jijing000 for finding unintended walls!"
+				""
+				"Thank you theo_artin for beatufiul textures!"
+			]
+			id: "378F8C860737A944"
+			tasks: [{
+				id: "5FA77C1BD80DF3D0"
+				title: "Thank you!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
 	]
 	title: "Welcome"
 }
