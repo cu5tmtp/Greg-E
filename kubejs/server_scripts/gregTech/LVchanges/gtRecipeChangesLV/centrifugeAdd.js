@@ -200,6 +200,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:cquartzspeck', 5000, 0)
         .chancedOutput('kubejs:gspeck', 5000, 0)
         .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
         .EUt(15)
         .circuit(15)

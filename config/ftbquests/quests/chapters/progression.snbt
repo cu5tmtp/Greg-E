@@ -416,7 +416,7 @@
 				item: "gtceu:rare_earth_dust"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -862,6 +862,16 @@
 			}]
 			x: -7.0d
 			y: 2.0d
+		}
+		{
+			id: "6A86F9702DBFBBF2"
+			tasks: [{
+				id: "7B02A63908B23DFC"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
 		}
 	]
 	title: "Progression"

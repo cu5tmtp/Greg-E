@@ -200,6 +200,19 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
+        Item.of('minecraft:red_sand', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:sand',
+            B: 'minecraft:red_dye',
+        }
+    )
+
+    event.shaped(
         Item.of('gtceu:ulv_output_bus', 1),
         [
             '   ',

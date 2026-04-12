@@ -343,11 +343,18 @@
 			description: [""]
 			id: "03B5D467E76C5B8A"
 			min_width: 300
-			tasks: [{
-				id: "2B956FA18DAF1BD8"
-				item: "gtceu:rutile_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B956FA18DAF1BD8"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+				{
+					id: "08C8CACC46297588"
+					item: "gtceu:magnesium_dust"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -6.0d
 		}

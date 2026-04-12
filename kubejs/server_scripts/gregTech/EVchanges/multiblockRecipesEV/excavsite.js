@@ -67,4 +67,12 @@ ServerEvents.recipes((event) => {
         .chancedOutput('gtceu:rare_earth_dust', 10, 0)
         .duration(100)
         .circuit(6)
+
+    event.recipes.gtceu.excavsite('magnesiumgetttt')
+        .itemInputs(
+            'kubejs:blessedearth'
+        )
+        .chancedOutput('gtceu:magnesium_dust', 10, 0)
+        .duration(100)
+        .circuit(7)
 })
