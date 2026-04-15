@@ -35,6 +35,23 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:coolant_input_machine')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
 
+    event.recipes.gtceu.assembly_line('getenhancedinput')
+        .itemInputs(
+            '4x #gtceu:circuits/uhv',
+            '2x gtceu:gravi_star',
+            '16x kubejs:ddoubleplate',
+            '2x gtceu:uv_robot_arm',
+            '2x gtceu:uv_field_generator',
+            '8x gregecore:draconiumfusion'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 5000'
+        )
+        .itemOutputs('gregecore:advanced_heater_input_machine')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gregecore:advanced_coolant_input_machine')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+
     event.recipes.gtceu.assembly_line('getlearningaccebf')
         .itemInputs(
             '64x #gtceu:circuits/uhv',

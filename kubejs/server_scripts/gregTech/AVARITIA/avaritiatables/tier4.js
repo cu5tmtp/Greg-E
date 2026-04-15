@@ -367,4 +367,45 @@ ServerEvents.recipes((event) =>{
         tier: 4,
     });
 
+    event.custom({
+        type: 'avaritia:shaped_table',
+        category: 'equipment',
+        key: {
+        A: {
+            item: 'kubejs:animated/draconicprocessor'
+        },
+        B: {
+            item: 'avaritia:diamond_lattice'
+        },
+        C: {
+            item: 'avaritia:infinity'
+        },
+        D: {
+            item: 'minecraft:dirt'
+        },
+        E: {
+            item: 'gtceu:creative_chest'
+        },
+        F: {
+            item: 'gtceu:neutronium_block'
+        }
+        },
+        pattern: [
+        'AAAFFFAAA',
+        'AABCDCBAA',
+        'ABCCDCCBA',
+        'FCCCDCCCF',
+        'FDDDEDDDF',
+        'FCCCDCCCF',
+        'ABCCDCCBA',
+        'AABCDCBAA',
+        'AAAFFFAAA',
+        ],
+        result: {
+        item: 'gregecore:ascencionaltar'
+        },
+        show_notification: true,
+        tier: 4,
+    });
+
 })

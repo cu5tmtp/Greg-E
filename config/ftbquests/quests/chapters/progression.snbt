@@ -873,6 +873,16 @@
 			x: 6.5d
 			y: 1.0d
 		}
+		{
+			id: "36BAF3DD563593FA"
+			tasks: [{
+				id: "05A63BC3B9468D1A"
+				item: "gtceu:raw_pyrochlore"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
 	]
 	title: "Progression"
 }

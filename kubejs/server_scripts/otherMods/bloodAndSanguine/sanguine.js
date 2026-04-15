@@ -15,6 +15,26 @@ ServerEvents.recipes((event) => {
     multiplier: 25,
     uses: -1,
   });
+
+  event.remove({ id:'sanguine_networks:virtual_sacrificer'})
+    event.recipes.gtceu.assembler('virtualsacrificeererer')
+        .itemInputs(
+            '#gtceu:circuits/zpm',
+            'bloodmagic:daggerofsacrifice',
+            '2x bloodmagic:infusedslate',
+            '2x bloodmagic:reagentbinding',
+            'gtceu:inert_machine_casing'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 144'
+        )
+        .itemOutputs(
+            'sanguine_networks:virtual_sacrificer'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.IV])
+        .circuit(1)
+
 });
 
 

@@ -17,7 +17,7 @@ StartupEvents.registry('item', event => {
     event.create('sprinklerrod').displayName('Sprinkler Rod')
     event.create('heatcoil').displayName('Heating Coil')
     event.create('supingot').displayName('Ultraconducting Alloy Ingot')
-    event.create('supcables').displayName('Ultraconducting Alloy Cables')
+    event.create('supcables').displayName('Ultraconducting Alloy Wire')
     event.create('uncomp').displayName('Unknown Compound')
     event.create('hydraingot').displayName('Hydra Ingot')
     event.create('knightingot').displayName('Phantom Knight Ingot')

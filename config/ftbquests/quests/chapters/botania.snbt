@@ -351,9 +351,9 @@
 			description: ["Get the bread!"]
 			id: "040CCCA0A5C83AE1"
 			tasks: [{
-				count: 18L
+				count: 16L
 				id: "100D6E8D1E6F40CC"
-				item: { Count: 18, id: "gregecore:manasteel_coil" }
+				item: "gregecore:manasteel_coil"
 				type: "item"
 			}]
 			x: 7.0d

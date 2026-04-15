@@ -223,18 +223,15 @@ ItemEvents.tooltip((event) => {
             'kubejs:hvalloy',
             'kubejs:evalloy',
             'kubejs:ivalloy',
+            'kubejs:luvalloy',
+            'kubejs:animated/zpmalloy',
+            'kubejs:animated/uvalloy',
+            'kubejs:animated/uhvalloy'
 
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Texture made by: ').append(Text.blue('theo_artin')));
         }
     );
-
-    /*
-            'kubejs:luvalloy',
-            'kubejs:animated/zpmalloy',
-            'kubejs:animated/uvalloy',
-            'kubejs:animated/uhvalloy'
-    */
 
 });
