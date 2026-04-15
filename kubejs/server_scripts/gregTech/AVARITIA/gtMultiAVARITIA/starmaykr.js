@@ -137,7 +137,7 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .addData('weight', 450)
+        .addData('weight', 440)
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr12")
         .itemInputs(

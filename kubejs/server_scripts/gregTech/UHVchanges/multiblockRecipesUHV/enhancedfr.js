@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 1000)
+        .addData('heat_level', 900)
 
     event.recipes.gtceu.advanced_fusion("geturaniumfaster")
         .inputFluids(
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 1500)
+        .addData('heat_level', 1400)
     
     event.recipes.gtceu.advanced_fusion("getironplasmafaster")
         .inputFluids(
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 1500)
+        .addData('heat_level', 1400)
 
     event.recipes.gtceu.advanced_fusion("getdarmstadiumfaster")
         .inputFluids(
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 2000)
+        .addData('heat_level', 1900)
 
     event.recipes.gtceu.advanced_fusion("getplutoniumfaster")
         .inputFluids(
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 4500)
+        .addData('heat_level', 4400)
 
     event.recipes.gtceu.advanced_fusion("getduraniumfaster")
         .inputFluids(
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 3500)
+        .addData('heat_level', 3400)
 
     event.recipes.gtceu.advanced_fusion("getheliumplasmafaster")
         .inputFluids(
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 700)
+        .addData('heat_level', 900)
 
     event.recipes.gtceu.advanced_fusion("getnitrogenplasmafaster")
         .inputFluids(
@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 3500)
+        .addData('heat_level', 3400)
 
     event.recipes.gtceu.advanced_fusion("gettritaniumfaster")
         .inputFluids(
@@ -130,7 +130,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 5000)
+        .addData('heat_level', 4900)
 
     event.recipes.gtceu.advanced_fusion("getplutonium241faster")
         .inputFluids(
@@ -142,7 +142,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 7000)
+        .addData('heat_level', 6900)
 
     event.recipes.gtceu.advanced_fusion("getchromiumfaster")
         .inputFluids(
@@ -166,7 +166,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 4000)
+        .addData('heat_level', 3900)
 
     event.recipes.gtceu.advanced_fusion("getradonfaster")
         .inputFluids(
@@ -178,7 +178,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 1000)
+        .addData('heat_level', 900)
 
     event.recipes.gtceu.advanced_fusion("gettinplasmafaster")
         .inputFluids(
@@ -190,7 +190,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 3500)
+        .addData('heat_level', 3400)
 
     event.recipes.gtceu.advanced_fusion("getosmiumfaster")
         .inputFluids(
@@ -226,7 +226,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 600)
+        .addData('heat_level', 900)
 
     event.recipes.gtceu.advanced_fusion("getindiumfaster")
         .inputFluids(
@@ -238,7 +238,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 6100)
+        .addData('heat_level', 5900)
 
     event.recipes.gtceu.advanced_fusion("getamericiumplasmafaster")
         .inputFluids(
@@ -250,7 +250,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 3500)
+        .addData('heat_level', 3400)
 
     event.recipes.gtceu.advanced_fusion("getneutroniumfaster")
         .inputFluids(
@@ -262,7 +262,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 6600)
+        .addData('heat_level', 6400)
 
     event.recipes.gtceu.advanced_fusion("getnaquadriafaster")
         .inputFluids(
@@ -274,7 +274,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)
-        .addData('heat_level', 5200)
+        .addData('heat_level', 5400)
 
     event.recipes.gtceu.advanced_fusion("getamericiumfaster")
         .inputFluids(

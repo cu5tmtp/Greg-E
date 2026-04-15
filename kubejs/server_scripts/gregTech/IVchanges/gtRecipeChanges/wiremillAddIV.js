@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.wiremill('gettheclogwire')
         .itemInputs(
-            'undergarden:cloggrum_ingot'
+            'kubejs:purecloggrum'
         )
         .itemOutputs(
             '8x kubejs:clogwire'
@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.wiremill('getthefrostwire')
         .itemInputs(
-            'undergarden:froststeel_ingot'
+            'kubejs:purefroststeel'
         )
         .itemOutputs(
             '8x kubejs:frostwire'

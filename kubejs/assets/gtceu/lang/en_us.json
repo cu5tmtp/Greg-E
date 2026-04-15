@@ -77,6 +77,9 @@
   "block.gtceu.specializedassemblyline": "Specialized Assembly Line",
   "gtceu.specializedassemblyline": "Specialized Assembly Line",
 
+  "block.gtceu.specmetheat": "Specialized Metal Heater",
+  "gtceu.specmetheat": "Specialized Metal Heater",
+
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",
   "block.gtceu.cube_assembler": "Assembler Factory",
