@@ -26,7 +26,7 @@
 				item: "gregecore:starmaykr"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -2.5d
 		}
 		{
@@ -50,7 +50,7 @@
 				item: "gregecore:fornaxuniversi"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -76,7 +76,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1E327381D3FB9CAA"]
@@ -87,8 +87,8 @@
 				item: "gtceu:specializedassemblyline"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -3.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["12160780AA88096F"]
@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1E327381D3FB9CAA"]

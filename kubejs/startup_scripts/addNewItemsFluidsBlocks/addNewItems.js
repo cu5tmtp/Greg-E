@@ -52,7 +52,7 @@ StartupEvents.registry('item', event => {
     event.create('orichalcum').displayName('Orichalcum Ingot')
     event.create('orichalcumdust').displayName('Orichalcum Dust')
     event.create('mixedin').displayName('Mixed Energy Ingot')
-    event.create('cursedin').displayName('Cursed Evergy Ingot')
+    event.create('cursedin').displayName('Cursed Energy Ingot')
     event.create('mythrilcoating').displayName('Mythril Coating')
     event.create('drahead').displayName('Corrupted Dragon Skull')
     event.create('cpottery').displayName('Curious Pottery Sherd')
@@ -102,8 +102,6 @@ StartupEvents.registry('item', event => {
     event.create('gspile').displayName('Small Pile of Gold Dust')
     event.create('dshard').displayName('Diamond Shard')
     event.create('dcluster').displayName('Diamond Cluster')
-    event.create('silverspeck').displayName('Speck of Silver Dust')
-    event.create('silverspile').displayName('Small Pile of Silver Dust')
     event.create('lapisspeck').displayName('Speck of Lapis Lazuli')
     event.create('lapisspile').displayName('Small Pile of Lapis Lazuli')
 

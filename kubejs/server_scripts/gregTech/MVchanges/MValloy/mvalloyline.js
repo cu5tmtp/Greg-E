@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
         )
         .duration(200)
         .EUt(120)
+        .circuit(3)
     
     event.recipes.gtceu.assembler('mvalloyingotyummy')
         .itemInputs(

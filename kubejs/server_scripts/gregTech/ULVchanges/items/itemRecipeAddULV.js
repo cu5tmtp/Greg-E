@@ -89,4 +89,33 @@ ServerEvents.recipes((event) => {
             A: 'minecraft:iron_ingot',
         }
     )
+
+    event.recipes.minecraft.campfire_cooking(
+        'minecraft:glass',
+        'gtceu:glass_dust',
+        0,
+        600
+    )
+
+    event.recipes.minecraft.campfire_cooking(
+        'minecraft:string',
+        '#minecraft:leaves',
+        0,
+        200
+    )
+
+    event.shapeless(
+        Item.of('minecraft:iron_nugget', 9),
+        [
+            'minecraft:iron_ingot'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('gtceu:red_alloy_dust', 1),
+        [
+            '4x minecraft:redstone',
+            'gtceu:copper_dust',
+        ]
+    )
 });

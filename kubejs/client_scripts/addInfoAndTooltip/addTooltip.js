@@ -226,7 +226,13 @@ ItemEvents.tooltip((event) => {
             'kubejs:luvalloy',
             'kubejs:animated/zpmalloy',
             'kubejs:animated/uvalloy',
-            'kubejs:animated/uhvalloy'
+            'kubejs:animated/uhvalloy',
+            'kubejs:heatcoil',
+            'kubejs:vanaheimingot',
+            'kubejs:supingot',
+            'kubejs:mushroomingot',
+            'kubejs:cursedin',
+            'kubejs:bacterialmatteringot'
 
         ],
         (item, advanced, text) => {
