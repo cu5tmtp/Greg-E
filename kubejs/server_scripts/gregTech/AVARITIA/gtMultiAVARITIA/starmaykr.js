@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:lvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:mvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:hvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:evcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:ivcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:luvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:zpmcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:uvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:uhvcircuitsingularity"}')
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 50)
 
@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'avaritia:record_fragment'
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 400)
 
@@ -135,7 +135,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'avaritia:eternal_singularity'
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 440)
 
@@ -152,7 +152,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gregecore:tome4'
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 250)
 
@@ -168,7 +168,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gregecore:tome5'
         )
-        .duration(1000)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 250)
 

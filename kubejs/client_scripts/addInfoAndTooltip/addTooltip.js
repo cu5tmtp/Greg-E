@@ -220,8 +220,8 @@ ItemEvents.tooltip((event) => {
 
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Allows to run up to 1024 recipes in parallel.'));
-            text.add(1, Text.gray('Multiblock Sharing ').append(Text.red('Disabled')));
+            text.add(1, Text.white('Allows to run up to 1024 recipes in parallel.'));
+            text.add(2, Text.white('Multiblock Sharing ').append(Text.darkRed('Disabled')));
         }
     );
 
