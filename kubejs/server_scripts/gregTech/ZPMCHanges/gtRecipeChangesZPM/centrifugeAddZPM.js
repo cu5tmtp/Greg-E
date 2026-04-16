@@ -27,4 +27,15 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(3)
 
+    event.recipes.gtceu.centrifuge('getboron')
+        .itemInputs(
+            'kubejs:activatedrune',
+        )
+        .itemOutputs(
+            '3x gtceu:boron_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .circuit(4)
+
 });

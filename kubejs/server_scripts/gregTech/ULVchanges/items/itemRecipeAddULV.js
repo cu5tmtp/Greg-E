@@ -118,4 +118,30 @@ ServerEvents.recipes((event) => {
             'gtceu:copper_dust',
         ]
     )
+
+    const converterToChange = [
+        {number: 1, times: 'single'},
+        {number: 4, times: 'quadruple'},
+        {number: 8, times: 'octal'},
+        {number: 16, times: 'hex'},
+    ]
+
+    converterToChange.forEach(change => {
+
+        event.remove( { id: `gtceu:shaped/ulv_${change.number}a_energy_converter`})
+
+        event.shaped(
+            Item.of(`gtceu:ulv_${change.number}a_energy_converter`, 1),
+            [
+                ' A ',
+                'ABA',
+                ' A '
+            ],
+            {
+                A: `gtceu:red_alloy_${change.times}_wire`,
+                B: 'gtceu:ulv_machine_casing'
+            }
+        )
+    })
+
 });

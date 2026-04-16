@@ -123,8 +123,8 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.7999999999999999d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -741,8 +741,8 @@
 				item: "gtceu:vanadium_gallium_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -757,8 +757,8 @@
 				item: "gtceu:vanadium_gallium_ingot"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -898,8 +898,8 @@
 				item: "gtceu:purified_cooperite_ore"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -910,8 +910,8 @@
 				item: "gtceu:aqua_regia_bucket"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: -8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -922,8 +922,8 @@
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.0d
+			x: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -937,8 +937,8 @@
 				item: "gtceu:inert_metal_mixture_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7CC3BD5F3D66A637"]
@@ -956,8 +956,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -2.0d
+			x: -9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["439556C571592D81"]
@@ -968,8 +968,8 @@
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["40249CD28957E7EB"]
@@ -979,8 +979,8 @@
 				item: "gtceu:rtm_alloy_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]

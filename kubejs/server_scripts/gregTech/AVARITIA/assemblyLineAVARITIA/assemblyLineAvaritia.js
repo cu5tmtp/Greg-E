@@ -76,6 +76,19 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_ingot')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
 
+    event.recipes.gtceu.assembly_line('getepicparallel')
+        .itemInputs(
+            'avaritia:infinity_ingot',
+            '16x kubejs:animated/draconicprocessor',
+            '32x gtceu:neutronium_frame',
+            '4x gtceu:uv_parallel_hatch',
+            '16x avaritia:endest_pearl'
+        )
+        .itemOutputs('gtceu:uhv_uhv_parallel_hatch')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_catalyst')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
+
     event.recipes.gtceu.assembly_line('getdonationaltarrrrrr')
         .itemInputs(
             '64x avaritia:infinity_ingot',

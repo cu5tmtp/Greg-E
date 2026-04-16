@@ -342,6 +342,17 @@
 			x: 1.5d
 			y: -0.5d
 		}
+		{
+			description: ["Put this in pattern provider next to a GT machine. Then you can start using circuits (meaning circuit 1, cirucit 2) in recipes, meaning that machine is not locked into doing only 1 circuit recipes."]
+			id: "41A944297559F5B1"
+			tasks: [{
+				id: "74CCC9AA4BE87E2B"
+				item: "pccard:card_programmed_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
 	]
 	title: "QOL"
 }

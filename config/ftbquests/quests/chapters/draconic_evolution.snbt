@@ -144,6 +144,7 @@
 		}
 		{
 			dependencies: ["6E071E5E36C675E5"]
+			description: ["Chaos Island is located in the End, every 10000 blocks in any direction."]
 			id: "7F1F92A8E4BB052E"
 			tasks: [{
 				id: "76F33FD7DE461080"

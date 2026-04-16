@@ -214,6 +214,17 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+        event.addAdvanced(
+        [
+            'gtceu:uhv_uhv_parallel_hatch'
+
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Allows to run up to 1024 recipes in parallel.'));
+            text.add(1, Text.gray('Multiblock Sharing ').append(Text.red('Disabled')));
+        }
+    );
+
     //Thank you to these artists:
 
     event.addAdvanced(
@@ -239,5 +250,6 @@ ItemEvents.tooltip((event) => {
             text.add(1, Text.gray('Texture made by: ').append(Text.blue('theo_artin')));
         }
     );
+
 
 });

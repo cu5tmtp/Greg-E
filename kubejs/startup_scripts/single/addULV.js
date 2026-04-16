@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     event.create("induction_smelting")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(2, 1, 0, 0)
+        .setMaxIOSize(3, 1, 0, 0)
         .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC);
@@ -27,7 +27,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     event.create("waterwell")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(1, 0, 2, 2)
+        .setMaxIOSize(1, 0, 0, 2)
         .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MACERATOR);

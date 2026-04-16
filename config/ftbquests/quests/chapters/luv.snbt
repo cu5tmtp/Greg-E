@@ -4,13 +4,13 @@
 	default_quest_shape: ""
 	filename: "luv"
 	group: "6915D00C186DB378"
-	icon: "thermal:machine_smelter"
+	icon: "gtceu:vacuum_tube"
 	id: "1F14D2A8E29FDD54"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This is where it all starts. The intended way to progress is with thermal machines to quickly get you to LV, but you can go the normal GregTech way."]
+			description: ["This is where it all starts. The intended way to progress is with primitive GregTech machines to quickly get you to LV, but you can go the normal GregTech way (steam age)."]
 			id: "2A8418DF626206D1"
 			tasks: [{
 				id: "2A6FABCF3D0B42AE"
@@ -166,7 +166,7 @@
 		}
 		{
 			dependencies: ["4D24F127B14533E4"]
-			description: ["And we're off to a little GregTech microcrafting! Get the wrought iron basic tools, wrought iron is smelted in the form of nuggets, so look for that recipe."]
+			description: ["And we're off to a little GregTech microcrafting! Get the wrought iron basic tools as they have bigger durability, wrought iron is smelted in the form of nuggets, so look for that recipe."]
 			id: "777CDEA22C5A5412"
 			tasks: [
 				{
@@ -233,22 +233,26 @@
 		}
 		{
 			dependencies: ["777CDEA22C5A5412"]
-			description: ["You might need more than one machine if you want to move to next chapter in normal amount of time."]
+			description: [
+				"You might need more than one machine if you want to move to next chapter in normal amount of time."
+				""
+				"If you need any explanation about GT machines, head over to the Explanation quest page."
+			]
 			id: "3DAD37FF47259B40"
 			tasks: [
 				{
-					id: "142CBC6498D70697"
-					item: "thermal:machine_smelter"
+					id: "31F3E64E91012652"
+					item: "gtceu:ulv_induction_smelter"
 					type: "item"
 				}
 				{
-					id: "77D2474D37ECCF13"
-					item: "thermal:machine_press"
+					id: "289A8D0723EDA418"
+					item: "gtceu:ulv_multiservo_press"
 					type: "item"
 				}
 				{
-					id: "00B65A8B36C9F3BC"
-					item: "thermal:machine_pulverizer"
+					id: "2B1F4D851B38957C"
+					item: "gtceu:ulv_pulverizer"
 					type: "item"
 				}
 			]
@@ -273,9 +277,11 @@
 			description: [
 				"Solar panels have boosted RF generation values, so they are really good! "
 				""
-				"Though, the energy conversion between RF and EU (GregTech unit) is 4:1, so you might need more than 1 panel to get the job done. For now, place the solar panels next to the machines you need to power, or use Pipe's energy pipe. But starting next chapter, you will have to use energy converters with GregTech cables. "
+				"Though, the energy conversion between RF and EU (GregTech unit) is 4:1, so you might need more than 1 panel to get the job done. "
 				""
-				"There will be a short tutorial so don't worry if you don't know how to do it."
+				"Because GregTech machines do not recieve FE natively, you need to convert it. Look into explanation quest page and study up on converters if you don't know how. "
+				""
+				"Then use wires and bring the converted energy from solar panels to your machines."
 			]
 			id: "7DC77B26770A139E"
 			tasks: [{

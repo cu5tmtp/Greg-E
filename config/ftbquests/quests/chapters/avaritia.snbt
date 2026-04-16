@@ -181,7 +181,7 @@
 			description: [
 				"Thank you for playing this pack. It means a lot to me, this is my first try on something this big."
 				""
-				"If you have any ideas, suggestions or other opinions, feel free to message me on CurseForge."
+				"If you have any ideas, suggestions or other opinions, feel free to message me on CurseForge or Discord."
 				""
 				"Once again, thank you for playing my pack!"
 				""
@@ -224,6 +224,17 @@
 			title: "GG!"
 			x: -1.5d
 			y: -14.5d
+		}
+		{
+			dependencies: ["1E327381D3FB9CAA"]
+			id: "06D5E0910DD3E537"
+			tasks: [{
+				id: "417F2C7469F0C404"
+				item: "gtceu:uhv_uhv_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
 		}
 	]
 	title: "AVARITIA"

@@ -87,6 +87,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.V[GTValues.ULV])
         .duration(120)  
+        .circuit(1)
 
     event.recipes.gtceu.induction_smelting('getcharcoallll')
         .itemInputs(
@@ -96,7 +97,8 @@ ServerEvents.recipes((event) => {
             'minecraft:charcoal'
         )
         .EUt(GTValues.V[GTValues.ULV])
-        .duration(200)  
+        .duration(200) 
+        .circuit(2) 
 
     event.recipes.gtceu.induction_smelting('getsteeeeeeeeel')
         .itemInputs(
@@ -108,6 +110,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.V[GTValues.ULV])
         .duration(500)  
+        .circuit(1)
         
 
     event.recipes.gtceu.pressing('getglasstube')

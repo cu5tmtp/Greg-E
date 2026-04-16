@@ -136,54 +136,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["1988BDD7E065E6A6"]
-			description: [
-				"Energy converters convert FE to EU at a rate of 4:1. Solar panels are buffed so you can actually use them as a solid source of energy. But how to get the bed... I heard some rumblings about wool being in a very weird forest... Next page is how to operate energy converters."
-				"{@pagebreak}"
-				"When you first place converter, it will look like this:"
-				"{image:kubejs:textures/quests/convdefault.png width:100 height:100 align:center}"
-				"Red sides output FE, green sides input EU, but we want it the other way!"
-				"{@pagebreak}"
-				"If you use soft mallet on energy converter, it will change its convertion from EU -> FE to FE -> EU, which we want. The block will now look like this:"
-				"{image:kubejs:textures/quests/convsoft.png width:100 height:100 align:center}"
-				"Green is input for FE, red is output for EU."
-			]
-			id: "01339A8C26CC6E0C"
-			tasks: [{
-				id: "1ECBD76767E4A2B3"
-				item: "gtceu:lv_1a_energy_converter"
-				type: "item"
-			}]
-			title: "Energy converter"
-			x: -5.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["40E6805C66BACAA1"]
-			description: [
-				"GregTech machines have a circuit option in their GUI, so when you see a recipie with that circuit, you need to select it. That effectively locks the machine into making only the recipies with that circuit. Of course you can change the circuit later. For multiblocks you need to set the circuit in input bus."
-				" "
-				"Also you can make the number choosing circuit from a normal circuit."
-			]
-			icon: {
-				Count: 1
-				id: "gtceu:programmed_circuit"
-				tag: {
-					Configuration: 0
-				}
-			}
-			id: "4875FB6628C1FCDC"
-			min_width: 300
-			tasks: [{
-				id: "71AF3878DBC0AB29"
-				title: "Yes I get it chief"
-				type: "checkmark"
-			}]
-			title: "Programmed circuits"
-			x: -4.5d
-			y: -8.5d
-		}
-		{
 			dependencies: ["439C8AEBE9E1C666"]
 			description: ["This is probably the multiblock you know even if you didn't play GregTech before."]
 			icon: "gtceu:electric_blast_furnace"
@@ -356,84 +308,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5C1BB559DD83E88F"]
-			description: ["Behind this quest you will see some other quests teaching you how to work with GregTech."]
-			id: "40E6805C66BACAA1"
-			tasks: [{
-				id: "315110BA8264CAFE"
-				title: "Quick GregTech explanations"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["40E6805C66BACAA1"]
-			description: [
-				"Probably the hardest thing about GregTech, because there will be a time when you will have to use BASIC MATH!!! So lets get into the explanation."
-				"{@pagebreak}"
-				"First: Voltage. It's pretty straight forward, this tells you how much energy can pass through a cable. Every cable has different values, so read carefully!"
-				"{@pagebreak}"
-				"Second: Amperage. You can think about amperage as a package that unboxes to voltage. Amperages (or packages) are sent from a providers, like energy converters (they always send the amount of amperage that they have in their name, eg. LV 1A energy converter sends 1A. In LV, 1A = 32V, and this will scale up in every tier. Cables also have a maximum amperage that they allow, if you give them more, they WILL burn!"
-				"{@pagebreak}"
-				"Third: You can't tier skip cables, meaning if the cable doesn't say it can transport LV energy, then it really can't."
-			]
-			id: "1988BDD7E065E6A6"
-			tasks: [{
-				id: "472EC5564C82AE35"
-				title: "Energy system"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["40E6805C66BACAA1"]
-			description: [
-				"My favourite part about every modpack: multiblocks, so I've tried to create at least 3 new per tier. Lets get into some tips about them!"
-				"{@pagebreak}"
-				"Tip #1: There are multiple ways to preview the multiblock: in EMI, if you click on the controller, it will show you the layout. You can click on the blocks, it will tell you where you can put input busses, hatches, energy inputs, or parallel hatches."
-				""
-				"When you decide where you wanna build your multiblock, place the controller and shift+right click it. It will show you the multiblock layout."
-				""
-				"If you are really lazy, you can use the item 'Terminal' to build the multiblock for you. It will place hatches in random places, so you will have to change them to your liking."
-				"{@pagebreak}"
-				"Tip #2: If you open input busses, you can see that there are some options in bottom left. One is circuit and the other distinct bus. "
-				""
-				"1st option is about the recipes, like in singleblock machines."
-				""
-				"2nd is more interesting, because this will allow you to basically use one multiblock for multiple recipes with different circuits. If you turn the option on, it will basically tell the multiblock, that this bus is different from the others, and the others can't access this inventory to use in crafting. This should be the default, but it is not so keep this in mind."
-				"{@pagebreak}"
-				"Tip #3: Some multiblocks will have maintenance hatch, which you will need to repair when you first start working with the machine. Basically you need to click it with every GregTech tool, but later you will unlock tape that does it in one click and then a auto-maintenance hatch."
-				"{@pagebreak}"
-				"Tip 4#: This is probably the most important one: OVERCLOCKING. "
-				"What you can do on some multiblocks is that you can place 2 energy hatches to 'overclock' the multiblock, basically doubling its speed. "
-				""
-				"This will save you a lot of time and also this is how you will unlock progress recipies, usually in Electric blast furnace, where you will need to use recipes 1 tier higher."
-				"Also if you look at energy hatches, they are also in 4A, 16A variants, this will speed up the recipe too, but it will NOT overclock the machine, eg. you put 1 LV 4A energy hatch, it is still LV tier, even tho 4LV A = 1MV A. BUT you can place 2 LV 4A, and you are in MV tier!"
-			]
-			id: "2874DFAF44DC8655"
-			tasks: [{
-				id: "7B4EEC96099FFD87"
-				title: "Multiblocks"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["40E6805C66BACAA1"]
-			description: ["You might have sees already that some recipes from GregTech have a different UI. It tells you the tier that you can craft the recipe, and also the exact time. If you click on the tier (eg. LV) you can change it so it shows you how would this recipe perform in other tiers."]
-			id: "214AF983D9546F5B"
-			tasks: [{
-				id: "39C1BC730735419E"
-				title: "Recipes"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -8.5d
-		}
-		{
 			dependencies: ["0D99638C96AB2EEA"]
 			description: ["Hammer cobblestone to gravel, then to sand so make this machine twice."]
 			id: "77C10DE6EDD33C6F"
@@ -548,30 +422,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2874DFAF44DC8655"]
-			description: ["You might be wondering how to get some of the Chiseled blocks. Well, you can craft the ones in the quest window and then you need to use tinkering table from the same mod. Choose the block you want to get, then click craft."]
-			id: "2E08E6E0556DF840"
-			tasks: [
-				{
-					id: "480F64F2ABBF12A2"
-					type: "checkmark"
-				}
-				{
-					id: "5DA13CE7E59DC857"
-					item: "chisel_chipped_integration:factory_dotted_rusty_plate"
-					type: "item"
-				}
-				{
-					id: "00AB49A912A951F8"
-					item: "chisel_chipped_integration:technical_caution_framed_plates"
-					type: "item"
-				}
-			]
-			title: "Chipped blocks"
-			x: -3.5d
-			y: -9.5d
-		}
-		{
 			dependencies: ["3053C200EF66EDFF"]
 			description: [
 				"LV alloy allows you to craft petal apothecary, meaning botania is unlocked!"
@@ -661,22 +511,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["01339A8C26CC6E0C"]
-			description: [
-				"Each tier has its own superconducters, cables, which have no energy loss."
-				""
-				"They are always locked behind the mod accompanying the chapter."
-			]
-			id: "155DD3610AD51292"
-			tasks: [{
-				id: "19708D14ABF9DDB9"
-				title: "Superconductors"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -10.5d
-		}
-		{
 			dependencies: [
 				"6E2F24117ACF3694"
 				"14C017569BECA2CE"
@@ -690,6 +524,41 @@
 			}]
 			x: 8.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["7A8242E6D0BC6294"]
+			id: "3A7F9375D3A7DB42"
+			tasks: [{
+				id: "21C15F6E06D866A9"
+				item: "gtceu:ulv_water_well"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["Get these fast as they make getting basic GT parts way cheaper."]
+			id: "5E7EEC3AB6100F57"
+			tasks: [
+				{
+					id: "2557DB46E812915F"
+					item: "gtceu:lv_wiremill"
+					type: "item"
+				}
+				{
+					id: "29F1F20CF4B398A0"
+					item: "gtceu:lv_lathe"
+					type: "item"
+				}
+				{
+					id: "54754F47FC72B9D6"
+					item: "gtceu:lv_bender"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -1.0d
 		}
 	]
 	title: "LV"

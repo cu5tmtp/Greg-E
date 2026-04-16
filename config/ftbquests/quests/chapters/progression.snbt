@@ -883,6 +883,16 @@
 			x: 9.5d
 			y: 1.0d
 		}
+		{
+			id: "4317B2BC23B3D71E"
+			tasks: [{
+				id: "190E9EEA34B80FE6"
+				item: "gtceu:boron_dust"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
 	]
 	title: "Progression"
 }
