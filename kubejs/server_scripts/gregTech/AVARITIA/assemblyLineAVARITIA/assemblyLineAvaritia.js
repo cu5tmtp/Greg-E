@@ -67,9 +67,9 @@ ServerEvents.recipes((event) => {
             'avaritia:infinity_ingot',
             '16x kubejs:animated/draconicprocessor',
             '32x gtceu:neutronium_frame',
-            '16x gtceu:uv_robot_arm',
-            '16x gtceu:uv_field_generator',
-            '16x gtceu:uv_emitter',
+            '16x gtceu:uhv_robot_arm',
+            '16x gtceu:uhv_field_generator',
+            '16x gtceu:uhv_emitter',
         )
         .itemOutputs('gtceu:specializedassemblyline')
         .duration(1000)
@@ -82,7 +82,10 @@ ServerEvents.recipes((event) => {
             '16x kubejs:animated/draconicprocessor',
             '32x gtceu:neutronium_frame',
             '4x gtceu:uv_parallel_hatch',
-            '16x avaritia:endest_pearl'
+            '16x avaritia:endest_pearl',
+            '8x gtceu:uhv_sensor',
+            '4x gtceu:uhv_field_generator',
+
         )
         .itemOutputs('gtceu:uhv_uhv_parallel_hatch')
         .duration(1000)

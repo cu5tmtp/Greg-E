@@ -13,7 +13,7 @@ ServerEvents.recipes((event) =>{
             item: 'gtceu:vibration_safe_casing'
         },
         B: {
-            item: 'gtceu:neutronium_ingot'
+            item: 'gtceu:uhv_sensor'
         },
         C: {
             item: 'gtceu:neutronium_gear'
@@ -54,7 +54,7 @@ ServerEvents.recipes((event) =>{
             item: 'gtceu:stress_proof_casing'
         },
         B: {
-            item: 'gtceu:neutronium_ingot'
+            item: 'gtceu:uhv_field_generator'
         },
         C: {
             item: 'gtceu:neutronium_gear'
@@ -381,13 +381,16 @@ ServerEvents.recipes((event) =>{
             item: 'avaritia:infinity'
         },
         D: {
-            item: 'minecraft:dirt'
+            item: 'gtceu:uhv_sensor'
         },
         E: {
             item: 'gtceu:creative_chest'
         },
         F: {
             item: 'gtceu:neutronium_block'
+        },
+        G: {
+            item: 'gtceu:uhv_field_generator'
         }
         },
         pattern: [
@@ -395,7 +398,7 @@ ServerEvents.recipes((event) =>{
         'AABCDCBAA',
         'ABCCDCCBA',
         'FCCCDCCCF',
-        'FDDDEDDDF',
+        'FGGGEGGGF',
         'FCCCDCCCF',
         'ABCCDCCBA',
         'AABCDCBAA',

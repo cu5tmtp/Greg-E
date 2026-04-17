@@ -157,11 +157,17 @@
 				"{@pagebreak}"
 				"Tip #3: Some multiblocks will have maintenance hatch, which you will need to repair when you first start working with the machine. Basically you need to click it with every GregTech tool, but later you will unlock tape that does it in one click and then a auto-maintenance hatch."
 				"{@pagebreak}"
-				"Tip 4#: This is probably the most important one: OVERCLOCKING. "
+				"Tip #4: This is probably the most important one: OVERCLOCKING. "
 				"What you can do on some multiblocks is that you can place 2 energy hatches to 'overclock' the multiblock, basically doubling its speed. "
 				""
 				"This will save you a lot of time and also this is how you will unlock progress recipies, usually in Electric blast furnace, where you will need to use recipes 1 tier higher."
 				"Also if you look at energy hatches, they are also in 4A, 16A variants, this will speed up the recipe too, but it will NOT overclock the machine, eg. you put 1 LV 4A energy hatch, it is still LV tier, even tho 4LV A = 1MV A. BUT you can place 2 LV 4A, and you are in MV tier!"
+				"{@pagebreak}"
+				"Tip #5: When you hover over the multiblock controller, it can say it has some abilities. "
+				""
+				"Perfect Overclock - reduction of recipe time for recipes under the tier of the machine (LV recipe run in MV tier machine -> recipe time reduction on top of the 1/2 time from running LV on MV machine)"
+				""
+				"Abilities from the Greg-E-core mod: There are multiple of them, they are explained under the description of the machine."
 			]
 			id: "2874DFAF44DC8655"
 			tasks: [{

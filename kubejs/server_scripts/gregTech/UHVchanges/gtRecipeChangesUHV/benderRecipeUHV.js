@@ -1,5 +1,6 @@
 ServerEvents.recipes((event) => {
 
+    /*
     event.recipes.gtceu.bender('getdraconiumplate')
         .itemInputs(
             'draconicevolution:draconium_ingot'
@@ -32,6 +33,7 @@ ServerEvents.recipes((event) => {
         .duration(60)
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(2)
+    */
 
     event.recipes.gtceu.bender('getawdraconiumfoil')
         .itemInputs(
@@ -43,5 +45,17 @@ ServerEvents.recipes((event) => {
         .duration(60)
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(10)
+
+    event.remove({id: 'gtceu:compressor/compress_plate_dust_draconium_cable'})
+    event.recipes.gtceu.bender('getdraconiumplate')
+        .itemInputs(
+            'draconicevolution:draconium_ingot'
+        )
+        .itemOutputs(
+            'gregecore:draconium_cable_plate'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(1)
         
 })

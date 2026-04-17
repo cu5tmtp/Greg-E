@@ -112,6 +112,17 @@ ServerEvents.recipes((event) => {
         .duration(500)  
         .circuit(1)
         
+    event.recipes.gtceu.induction_smelting('getsintercokeingot')
+        .itemInputs(
+             '2x minecraft:iron_ingot',
+             'minecraft:coal'
+        )
+        .itemOutputs(
+            'gtceu:sintercoke_ingot'
+        )
+        .EUt(GTValues.V[GTValues.ULV])
+        .duration(200)  
+        .circuit(2)
 
     event.recipes.gtceu.pressing('getglasstube')
         .itemInputs(

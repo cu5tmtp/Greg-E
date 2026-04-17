@@ -1005,8 +1005,8 @@
 				item: "gtceu:rarest_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [

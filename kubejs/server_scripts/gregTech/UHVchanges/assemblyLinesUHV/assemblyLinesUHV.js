@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             '16x #gtceu:circuits/uhv',
             '8x gtceu:fusion_coil',
             '2x gtceu:gravi_star',
-            '32x kubejs:ddoubleplate',
+            '32x gregecore:dense_draconium_cable_plate',
             '16x gtceu:uv_sensor',
             '16x gtceu:uv_field_generator',
             '16x gregecore:draconiumfusion'
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '4x #gtceu:circuits/uhv',
             '2x gtceu:gravi_star',
-            '16x kubejs:ddoubleplate',
+            '16x gregecore:dense_draconium_cable_plate',
             '2x gtceu:uv_sensor',
             '2x gtceu:uv_field_generator',
             '8x gregecore:draconiumfusion'
@@ -39,8 +39,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '4x #gtceu:circuits/uhv',
             '2x gtceu:gravi_star',
-            '16x kubejs:ddoubleplate',
-            '2x gtceu:uv_robot_arm',
+            '16x gregecore:dense_draconium_cable_plate',
             '2x gtceu:uv_field_generator',
             '8x gregecore:draconiumfusion'
         )
@@ -56,8 +55,8 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '64x #gtceu:circuits/uhv',
             '16x gtceu:gravi_star',
-            '32x gtceu:uv_sensor',
-            '32x gtceu:uv_field_generator',
+            '32x gtceu:uhv_sensor',
+            '32x gtceu:uhv_field_generator',
             '8x gregecore:awakened_draconium_coil',
             '16x gtceu:shock_proof_cutting_casing',
             'kubejs:learningchip'

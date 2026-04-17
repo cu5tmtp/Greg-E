@@ -353,6 +353,27 @@
 			x: -0.5d
 			y: -4.0d
 		}
+		{
+			description: [
+				"Use this to carry machines around without reseting their settings!"
+				""
+				"It needs paper to work."
+			]
+			id: "21AE16CFCA36EBE7"
+			tasks: [{
+				id: "2F2F4C9BF6BB5260"
+				item: {
+					Count: 1
+					id: "packingtape:tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
 	]
 	title: "QOL"
 }

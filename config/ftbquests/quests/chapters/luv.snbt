@@ -348,6 +348,18 @@
 			x: -1.0d
 			y: -5.5d
 		}
+		{
+			dependencies: ["3DAD37FF47259B40"]
+			description: ["This can speed up your Wrought Iron production, but it is less coal-efficient than normal way (smelting Iron Nuggets to Wrought Iron Nuggets)."]
+			id: "168A11F8BCE61E55"
+			tasks: [{
+				id: "4B18D521E8B4E10F"
+				item: "gtceu:sintercoke_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
 	]
 	title: "ULV"
 }

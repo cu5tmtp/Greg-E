@@ -85,6 +85,8 @@
   "gtceu.induction_smelting": "Induction Smelter",
   "gtceu.waterwell": "Water Well",
 
+  "material.gtceu.sintercoke": "Sintercoke",
+
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",
   "block.gtceu.cube_assembler": "Assembler Factory",

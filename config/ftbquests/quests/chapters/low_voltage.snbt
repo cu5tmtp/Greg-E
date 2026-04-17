@@ -46,8 +46,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 15.75d
-			y: 0.75d
+			x: 12.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["Get this multiblock to start producind free glue and rubber!"]
+			description: ["Get this multiblock to start producing free glue and rubber!"]
 			id: "7A8242E6D0BC6294"
 			tasks: [{
 				id: "035E7054F8BD517B"
@@ -218,7 +218,7 @@
 			}]
 			title: "Oxygen line"
 			x: -7.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["33B39E0C3F8A36EC"]
@@ -318,7 +318,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["77C10DE6EDD33C6F"]
@@ -330,7 +330,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["455DE30BD4F0C74D"]
@@ -342,7 +342,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7AAE64785DD10EF8"]
@@ -354,7 +354,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["36CE2905E6CA3070"]
@@ -366,11 +366,11 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
-			description: ["This is the first line that makes you EMC. Seems quite expensive, but once you passive parts of the LV circuit, its gonna be really cheap."]
+			description: ["This is the first line that makes you EMC. These lines will be in every tier, some are long, some need exploration but every line is worth to do."]
 			icon: "kubejs:lvalloy"
 			id: "05BF7598007DFD7C"
 			shape: "diamond"
@@ -380,7 +380,7 @@
 				type: "checkmark"
 			}]
 			x: -7.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05BF7598007DFD7C"]
@@ -391,7 +391,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2178EC9D13024B33"]
@@ -403,7 +403,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2BE4B6F1CCAA36AC"]
@@ -444,7 +444,7 @@
 				}
 			]
 			x: -12.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6AD1A5844541BBF2"]

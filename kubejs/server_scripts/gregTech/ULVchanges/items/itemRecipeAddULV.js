@@ -112,11 +112,39 @@ ServerEvents.recipes((event) => {
     )
 
     event.shapeless(
+        Item.of('minecraft:iron_ingot', 1),
+        [
+            '9x minecraft:iron_nugget'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('minecraft:iron_ingot', 9),
+        [
+            'minecraft:iron_block'
+        ]
+    )
+
+    event.shapeless(
         Item.of('gtceu:red_alloy_dust', 1),
         [
             '4x minecraft:redstone',
             'gtceu:copper_dust',
         ]
+    )
+
+    event.shapeless(
+        Item.of('gtceu:wrought_iron_nugget', 9),
+        [
+            'gtceu:wrought_iron_ingot'
+        ]
+    )
+
+    event.recipes.minecraft.campfire_cooking(
+        'gtceu:wrought_iron_ingot',
+        'gtceu:sintercoke_ingot',
+        0,
+        300
     )
 
     const converterToChange = [

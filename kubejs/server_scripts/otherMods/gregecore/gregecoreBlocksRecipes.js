@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assembler('getdraconiumfusioncasing')
         .itemInputs(
-            '6x kubejs:dplate',
+            '6x gregecore:draconium_cable_plate',
             'draconicevolution:draconium_block',
             '#gtceu:circuits/uhv'
         )

@@ -111,11 +111,23 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["771E45EEB84B4678"]
+			dependencies: ["3C341B31A43D6DE5"]
 			id: "46AAC2B7211A1149"
 			tasks: [{
 				id: "2AC67580DCD872D0"
 				item: "enchanted:mystic_unguent"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["771E45EEB84B4678"]
+			description: ["Some recipes are made in the kettle, not cauldron, so be careful!"]
+			id: "3C341B31A43D6DE5"
+			tasks: [{
+				id: "460CD1DCE4995E70"
+				item: "enchanted:kettle"
 				type: "item"
 			}]
 			x: 0.5d
