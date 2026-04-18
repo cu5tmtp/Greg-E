@@ -35,17 +35,6 @@ ServerEvents.recipes((event) => {
         .circuit(2)
     */
 
-    event.recipes.gtceu.bender('getawdraconiumfoil')
-        .itemInputs(
-            'draconicevolution:awakened_draconium_ingot'
-        )
-        .itemOutputs(
-            '4x gregecore:awakened_draconium_cable_foil'
-        )
-        .duration(60)
-        .EUt(GTValues.VA[GTValues.UHV])
-        .circuit(10)
-
     event.remove({id: 'gtceu:compressor/compress_plate_dust_draconium_cable'})
     event.recipes.gtceu.bender('getdraconiumplate')
         .itemInputs(

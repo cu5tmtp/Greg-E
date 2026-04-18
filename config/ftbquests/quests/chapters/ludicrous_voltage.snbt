@@ -39,7 +39,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B1268D75B34A0F6"]
+			dependencies: ["5A658F239928850E"]
 			description: [""]
 			id: "639B1F99D7271C07"
 			tasks: [{
@@ -48,19 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5A658F239928850E"]
-			description: [""]
-			id: "3B1268D75B34A0F6"
-			tasks: [{
-				id: "13AAD2669D7245A4"
-				item: "gtceu:iv_electrolyzer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["639B1F99D7271C07"]
@@ -72,7 +60,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5A658F239928850E"]
@@ -146,7 +134,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			description: [""]
@@ -159,7 +147,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			description: [""]
@@ -172,7 +160,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -212,7 +200,7 @@
 				}
 			]
 			x: -3.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -234,7 +222,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["033BF8D12E32A5E5"]
+			dependencies: ["5A658F239928850E"]
 			description: [""]
 			id: "1DBF5A76DCDF5E49"
 			tasks: [{
@@ -243,7 +231,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			description: [""]
@@ -267,7 +255,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["060233F903FAE63B"]
@@ -296,19 +284,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["1DDA5ADA11DF868F"]
-			description: [""]
-			id: "29CD5C0A253425D5"
-			tasks: [{
-				id: "7E7EBF9F9D9554EA"
-				item: "gtceu:luv_energy_input_hatch_4a"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6CB002C2D8DC34EA"]
@@ -320,7 +296,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5F18FC7AE321677D"]
@@ -351,7 +327,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -368,7 +344,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["785CB375F25F0715"]
@@ -1186,7 +1162,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			description: [""]
@@ -1198,19 +1174,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5A658F239928850E"]
-			description: [""]
-			id: "033BF8D12E32A5E5"
-			tasks: [{
-				id: "633D4D70BEFCEE0C"
-				item: "gtceu:iv_mixer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
+			y: 4.0d
 		}
 		{
 			description: [""]
@@ -1227,7 +1191,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["204EDA5F8B1C7580"]
@@ -1252,7 +1216,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["759446116655756C"]

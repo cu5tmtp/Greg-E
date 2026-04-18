@@ -80,12 +80,28 @@
   "block.gtceu.specmetheat": "Specialized Metal Heater",
   "gtceu.specmetheat": "Specialized Metal Heater",
 
+  
+  "block.gtceu.industrialfilter": "Industrial Filter",
+  "gtceu.industrialfilter": "Industrial Filter",
+
   "gtceu.pulverizing": "Pulverizer",
   "gtceu.pressing": "Multiservo Press",
   "gtceu.induction_smelting": "Induction Smelter",
   "gtceu.waterwell": "Water Well",
 
   "material.gtceu.sintercoke": "Sintercoke",
+  "material.gtceu.nebulon_omega": "Nebulon-Omega",
+  "material.gtceu.nebulon_omega_dissolved": "Dissolved Nebulon-Omega",
+  "material.gtceu.nebulon_gamma_slurry": "Nebulon-Gamma Slurry",
+  "material.gtceu.naquadron_delta": "Naquadron-Delta",
+  "material.gtceu.naquadron_zeta": "Naquadron-Zeta",
+  "material.gtceu.dinebulon_zeta": "Dinebulon-Zeta",
+  "material.gtceu.fluoronaquadic_acid": "Fluoro-Naquadic Acid",
+  "material.gtceu.excited_naquadic_solution": "Excited Naquadic Solution",
+  "material.gtceu.dinebulon_zeta_omni_fluid": "Dinebulon-Zeta Omni Fluid",
+  "material.gtceu.nebulon_zeta": "Nebulon-Zeta",
+  "material.gtceu.nebulon_alpha": "Nebulon-Alpha",
+  "material.gtceu.nebulon_gamma": "Nebulon-Gamma",
 
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",

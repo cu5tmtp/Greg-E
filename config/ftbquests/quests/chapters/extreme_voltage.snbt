@@ -42,7 +42,7 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -56,7 +56,7 @@
 				item: "gtceu:smd_transistor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 7.5d
 		}
 		{
@@ -70,7 +70,7 @@
 				item: "gtceu:smd_resistor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 6.5d
 		}
 		{
@@ -84,7 +84,7 @@
 				item: "gtceu:smd_capacitor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 5.5d
 		}
 		{
@@ -99,7 +99,7 @@
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -113,7 +113,7 @@
 				item: "gtceu:smd_inductor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -145,7 +145,7 @@
 				item: "gtceu:platinum_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -157,7 +157,7 @@
 				item: "gtceu:tantalum_dust"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -170,14 +170,11 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"5241693278027FFD"
-				"0D573979B25FAC48"
-			]
+			dependencies: ["5241693278027FFD"]
 			description: [""]
 			icon: "gtceu:distillation_tower"
 			id: "3BEDF19CD79D53D5"
@@ -188,7 +185,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -223,7 +220,7 @@
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -235,7 +232,7 @@
 				item: "gtceu:nichrome_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -247,7 +244,7 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -259,84 +256,8 @@
 				item: "gtceu:ev_assembler"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: 3.5d
-		}
-		{
-			id: "40DC4C8DF9616F97"
-			shape: "square"
-			tasks: [{
-				id: "3A68557D0E516D4E"
-				item: "gtceu:black_bronze_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			description: [""]
-			id: "1E8D496B1CC4F69B"
-			shape: "square"
-			tasks: [{
-				id: "2C4A50B1A9AF4A84"
-				item: "gtceu:sodium_potassium_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["40DC4C8DF9616F97"]
-			id: "61A16C4CF0B7A9B2"
-			tasks: [{
-				id: "0E66CBEB7C8E7539"
-				item: "gtceu:black_steel_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"61A16C4CF0B7A9B2"
-				"1E8D496B1CC4F69B"
-				"71D4B261AF487062"
-				"5D58E5CB4F4BDAD5"
-			]
-			description: [""]
-			id: "0D573979B25FAC48"
-			tasks: [{
-				id: "5E6E95015D19F4FE"
-				item: "gtceu:hv_energy_input_hatch"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["7D10AA6EF07087B5"]
-			description: [""]
-			id: "5D58E5CB4F4BDAD5"
-			shape: "circle"
-			tasks: [
-				{
-					id: "3459093D8C9EAE43"
-					item: "gtceu:orange_glass_lens"
-					type: "item"
-				}
-				{
-					id: "48B9848EBF024C1A"
-					item: "gtceu:lpic_wafer"
-					type: "item"
-				}
-				{
-					id: "20363BBDFECB5221"
-					item: "gtceu:lpic_chip"
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 5.5d
 		}
 		{
 			dependencies: ["6A6BDA932E1104D1"]
@@ -521,17 +442,6 @@
 			y: 2.5d
 		}
 		{
-			id: "7D10AA6EF07087B5"
-			shape: "square"
-			tasks: [{
-				id: "4F987D82BF3A81BC"
-				item: "gtceu:hv_cutter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.5d
-		}
-		{
 			id: "61FA88AE46DC93C6"
 			tasks: [{
 				id: "4D1580583C8CA454"
@@ -641,8 +551,8 @@
 				id: "5607F9124909BEF8"
 				type: "dimension"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CCE6D4EA9FBB86B"]

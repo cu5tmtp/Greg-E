@@ -374,6 +374,35 @@
 			x: -0.5d
 			y: 3.5d
 		}
+		{
+			description: ["With this you can choose your enchantments on your gear!"]
+			id: "736A4A5C84E1C6A9"
+			tasks: [
+				{
+					id: "134EB6274BE08BF4"
+					item: "enchantinginfuser:enchanting_infuser"
+					type: "item"
+				}
+				{
+					id: "54B77F27A477B80E"
+					item: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["I recommend using the resource pack 'Smooth Font', that is preinstalled with the pack. It makes reading the recipes from GT way easier."]
+			id: "71A03FF1AC26DC78"
+			tasks: [{
+				id: "2BB2AB2A293A6C40"
+				title: "Smooth Font"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
 	]
 	title: "QOL"
 }

@@ -213,7 +213,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3F0C949C8F243AFD"]
+			dependencies: ["71941882F9E2ADAC"]
 			description: [""]
 			id: "5041EDE3E75E1EDF"
 			tasks: [{
@@ -238,18 +238,6 @@
 			}]
 			x: 13.0d
 			y: -10.0d
-		}
-		{
-			dependencies: ["71941882F9E2ADAC"]
-			description: [""]
-			id: "3F0C949C8F243AFD"
-			tasks: [{
-				id: "3DF3EED0B2569EC6"
-				item: "gtceu:zpm_fluid_heater"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -8.0d
 		}
 		{
 			dependencies: ["57F6323716A0ED24"]

@@ -20,5 +20,15 @@ ServerEvents.recipes((event) => {
         .chancedOutput('draconicevolution:draconium_dust', 10, 0)
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(200)
+        .circuit(1)
+
+    event.recipes.gtceu.centrifuge('getthenebuliumoreeeee')
+        .itemInputs(
+            'kubejs:neutroniuminfused'
+        )
+        .chancedOutput('gtceu:raw_nebulon_omega', 10, 0)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+        .circuit(2)
 
 })

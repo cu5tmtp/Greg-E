@@ -457,12 +457,12 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["Put a storage bus on this and your learned items will show up in your ME system. Also put higher priority on that storage bus so the learned items will be sold if you place them back in the system. They will clog your cells otherwise."]
-			id: "4B743772CED6805B"
+			description: ["This mod features direct link between ProjectE and AE2. Place this item anywhere on your network, and you will be able to see your EMC in AE2. Also this is way better on your world stability over using storage bus on transmutation interface."]
+			id: "44022D055063DE74"
 			shape: "circle"
 			tasks: [{
-				id: "182A985A6F31D331"
-				item: "projectexpansion:transmutation_interface"
+				id: "1355637FFF193F47"
+				item: "appliede:emc_module"
 				type: "item"
 			}]
 			x: 11.0d

@@ -215,6 +215,167 @@
 			x: -5.5d
 			y: 9.0d
 		}
+		{
+			dependencies: ["054D2D3C20C2D32F"]
+			description: ["Nebulon line, the end products are used in UHV motors, pumps... etc!"]
+			id: "7768C3462C0EBFD3"
+			tasks: [{
+				id: "3589EC3FB280451F"
+				item: "gtceu:raw_nebulon_omega"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7768C3462C0EBFD3"]
+			id: "41B8C1C658348626"
+			tasks: [{
+				id: "6D705451D156556F"
+				item: "gtceu:nebulon_omega_dissolved_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41B8C1C658348626"]
+			id: "088CD5FCEE33C8FD"
+			tasks: [{
+				id: "25D2211960B998F8"
+				item: "gtceu:naquadron_delta_plasma_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["088CD5FCEE33C8FD"]
+			id: "7810902D047AD4C2"
+			tasks: [{
+				id: "29408E869283EF8F"
+				item: "gtceu:naquadron_delta_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7810902D047AD4C2"]
+			id: "052B0A045C9F29AC"
+			tasks: [{
+				id: "43963E3F7168E854"
+				item: "gtceu:naquadron_zeta_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			id: "379CE9CD40CF4C89"
+			shape: "square"
+			tasks: [{
+				id: "550448E4BD3625BC"
+				item: "gtceu:fluoronaquadic_acid_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["379CE9CD40CF4C89"]
+			id: "4FECD7FCCC27AAF2"
+			tasks: [{
+				id: "77D7581295A78BA5"
+				item: "gtceu:excited_naquadic_solution_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"052B0A045C9F29AC"
+				"4FECD7FCCC27AAF2"
+			]
+			id: "747F9ABE7B28261B"
+			tasks: [{
+				id: "43D32AB3170B6AA9"
+				item: "gtceu:dinebulon_zeta_omni_fluid_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["747F9ABE7B28261B"]
+			id: "2D0074B332468A24"
+			tasks: [{
+				id: "55CE3A1EF4684353"
+				item: "gtceu:dinebulon_zeta_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D0074B332468A24"]
+			id: "48A72821B8A7A73D"
+			tasks: [{
+				id: "4C0B9121C22DE940"
+				item: "gtceu:nebulon_zeta_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41B8C1C658348626"]
+			id: "626C9B5778D43A22"
+			tasks: [{
+				id: "58715B324F7067B0"
+				item: "gtceu:nebulon_gamma_slurry_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"48A72821B8A7A73D"
+				"4B7E2AC8E2E97EDD"
+			]
+			id: "43510CE90FAE69FD"
+			tasks: [{
+				id: "48605493364EDD30"
+				item: "gtceu:nebulon_alpha_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["626C9B5778D43A22"]
+			id: "4B7E2AC8E2E97EDD"
+			tasks: [{
+				id: "1128B90A5076DDA6"
+				item: "gtceu:nebulon_gamma_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["43510CE90FAE69FD"]
+			id: "27AF6C28D64017A6"
+			tasks: [{
+				id: "72EA019102969DC3"
+				item: "gtceu:nebulon_alpha_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.5d
+		}
 	]
 	title: "UHV"
 }

@@ -2,11 +2,11 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.advanced_fusion("geteuropiumfaster")
         .inputFluids(
-            'gtceu:hydrogen 1000',
-            'gtceu:neodymium 100'
+            'gtceu:hydrogen 3750',
+            'gtceu:neodymium 1600'
         )
         .outputFluids(
-            'gtceu:europium 1000'
+            'gtceu:europium 1600'
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)

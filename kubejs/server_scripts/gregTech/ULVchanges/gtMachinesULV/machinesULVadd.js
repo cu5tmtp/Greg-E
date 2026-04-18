@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
              'minecraft:coal'
         )
         .itemOutputs(
-            'gtceu:sintercoke_ingot'
+            '2x gtceu:sintercoke_ingot'
         )
         .EUt(GTValues.V[GTValues.ULV])
         .duration(200)  

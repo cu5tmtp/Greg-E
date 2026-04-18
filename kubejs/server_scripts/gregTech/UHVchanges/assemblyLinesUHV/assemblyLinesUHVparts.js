@@ -3,9 +3,9 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line('getuhvmotor')
         .itemInputs(
             '2x gtceu:long_magnetic_samarium_rod',
-            '8x gregecore:long_draconium_cable_rod',
-            '8x gregecore:draconium_cable_ring',
-            '16x gregecore:draconium_cable_round',
+            '8x gtceu:long_nebulon_alpha_rod',
+            '8x gtceu:nebulon_alpha_ring',
+            '16x gtceu:nebulon_alpha_round',
             '64x gtceu:fine_tritanium_wire',
             '64x gtceu:fine_tritanium_wire',
             '64x gtceu:fine_tritanium_wire',
@@ -25,8 +25,8 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:uhv_electric_motor',
             'gregecore:draconium_cable_octal_wire',
-            '4x gregecore:draconium_cable_plate',
-            '16x gregecore:draconium_cable_screw',
+            '4x gtceu:nebulon_alpha_plate',
+            '16x gtceu:nebulon_alpha_screw',
             '16x gtceu:silicone_rubber_ring',
             'gtceu:naquadah_alloy_rotor',
             '4x gregecore:draconium_cable_single_wire'
@@ -56,10 +56,10 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line('getuhvconveyor')
         .itemInputs(
             '2x gtceu:uhv_electric_motor',
-            '4x gregecore:draconium_cable_plate',
-            '8x gregecore:draconium_cable_ring',
-            '32x gregecore:draconium_cable_round',
-            '8x gregecore:draconium_cable_screw',
+            '4x gtceu:nebulon_alpha_plate',
+            '8x gtceu:nebulon_alpha_ring',
+            '32x gtceu:nebulon_alpha_round',
+            '8x gtceu:nebulon_alpha_screw',
             '4x gregecore:draconium_cable_single_wire'
         )
         .inputFluids(
@@ -76,10 +76,10 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line('getuhvpiston')
         .itemInputs(
             'gtceu:uhv_electric_motor',
-            '8x gregecore:draconium_cable_plate',
-            '8x gregecore:draconium_cable_ring',
-            '32x gregecore:draconium_cable_round',
-            '8x gregecore:draconium_cable_rod',
+            '8x gtceu:nebulon_alpha_plate',
+            '8x gtceu:nebulon_alpha_ring',
+            '32x gtceu:nebulon_alpha_round',
+            '8x gtceu:nebulon_alpha_rod',
             '2x gtceu:naquadria_gear',
             '4x gtceu:small_naquadria_gear',
             '4x gregecore:draconium_cable_single_wire'
@@ -96,9 +96,9 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.assembly_line('getuhvrobotarm')
         .itemInputs(
-            '8x gregecore:long_draconium_cable_rod',
-            '2x gregecore:draconium_cable_gear',
-            '6x gregecore:small_draconium_cable_gear',
+            '8x gtceu:long_nebulon_alpha_rod',
+            '2x gtceu:nebulon_alpha_gear',
+            '6x gtceu:small_nebulon_alpha_gear',
             '2x gtceu:uhv_electric_motor',
             'gtceu:uhv_electric_piston',
             'kubejs:animated/draconicprocessor',
@@ -118,9 +118,9 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.assembly_line('getuhvemitter')
         .itemInputs(
-            'gregecore:draconium_cable_frame',
+            'gtceu:nebulon_alpha_frame',
             'gtceu:uhv_electric_motor',
-            '8x gregecore:long_draconium_cable_rod',
+            '8x gtceu:long_nebulon_alpha_rod',
             'gtceu:gravi_star',
             '4x #gtceu:circuits/uhv',
             '64x gtceu:naquadria_foil',
@@ -138,9 +138,9 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.assembly_line('getuhvsensor')
         .itemInputs(
-            'gregecore:draconium_cable_frame',
+            'gtceu:nebulon_alpha_frame',
             'gtceu:uhv_electric_motor',
-            '8x gregecore:draconium_cable_plate',
+            '8x gtceu:nebulon_alpha_plate',
             'gtceu:gravi_star',
             '4x #gtceu:circuits/uhv',
             '64x gtceu:naquadria_foil',
@@ -158,8 +158,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.assembly_line('getuhvfieldgenerator')
         .itemInputs(
-            'gregecore:draconium_cable_frame',
-            '12x gregecore:draconium_cable_plate',
+            'gtceu:nebulon_alpha_frame',
+            '12x gtceu:nebulon_alpha_plate',
             'gtceu:gravi_star',
             '2x gtceu:uhv_emitter',
             '2x #gtceu:circuits/uhv',

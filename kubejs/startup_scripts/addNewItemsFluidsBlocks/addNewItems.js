@@ -1,4 +1,4 @@
-Platform.mods.kubejs.name = 'GregE'
+Platform.mods.kubejs.name = 'Greg-E'
 
 StartupEvents.registry('item', event => {
 
@@ -85,6 +85,9 @@ StartupEvents.registry('item', event => {
     event.create('purefroststeel').displayName('Pure Froststeel Ingot')
     event.create('hotfroststeel').displayName('Hot Froststeel Ingot')
     event.create('hotcloggrum').displayName('Hot Cloggrum Ingot')
+
+    event.create('naquadahfilter').displayName('Naquadah Filter')
+    event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')

@@ -576,7 +576,7 @@
 				item: "draconicevolution:draconium_dust"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -1.0d
 		}
 		{
@@ -892,6 +892,16 @@
 			}]
 			x: 16.5d
 			y: 0.0d
+		}
+		{
+			id: "3471D13A9CA9259C"
+			tasks: [{
+				id: "58D5CDD9452C679D"
+				item: "gtceu:raw_nebulon_omega"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.0d
 		}
 	]
 	title: "Progression"

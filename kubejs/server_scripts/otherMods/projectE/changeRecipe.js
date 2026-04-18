@@ -93,6 +93,84 @@ ServerEvents.recipes((event) =>{
     )
 
     event.remove({ id: 'projectexpansion:emc_link/yellow'})
+
+    event.remove({id: 'appliede:emc_module'})
+    event.shaped(
+        Item.of('appliede:emc_module', 1),
+        [
+            'AAA',
+            'BCB',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: '#gtceu:circuits/lv',
+            C: 'gtceu:lv_machine_hull'
+        }
+    )
+
+    event.remove({id: 'appliede:emc_interface'})
+    event.shaped(
+        Item.of('appliede:emc_interface', 1),
+        [
+            'AAA',
+            'BCB',
+            'AAA'
+        ],
+        {
+            A: 'gtceu:aluminium_ingot',
+            B: '#gtceu:circuits/mv',
+            C: 'gtceu:mv_machine_hull'
+        }
+    )
+
+    event.replaceInput(
+        'megacells:network/mega_emc_interface',
+        'projecte:red_matter',
+        '#gtceu:circuits/hv'
+    )
+
+    event.replaceInput(
+        'appliede:emc_export_bus',
+        'projecte:dark_matter',
+        '#gtceu:circuits/mv'
+    )
+
+    event.replaceInput(
+        'appliede:emc_import_bus',
+        'projecte:dark_matter',
+        '#gtceu:circuits/mv'
+    )
+
+    event.replaceInput(
+        'appliede:transmutation_terminal',
+        'projecte:red_matter_block',
+        '#gtceu:circuits/hv'
+    )
+
+    event.replaceInput(
+        'appliede:learning_card',
+        'projecte:red_matter',
+        '#gtceu:circuits/hv'
+    )
+
+    event.replaceInput(
+        'expatternprovider:ex_emc_interface',
+        'projecte:red_matter',
+        '#gtceu:circuits/hv'
+    )
+
+    event.replaceInput(
+        'expatternprovider:ex_emc_export_bus',
+        'projecte:red_matter',
+        '#gtceu:circuits/hv'
+    )
+
+    event.replaceInput(
+        'expatternprovider:ex_emc_import_bus',
+        'projecte:red_matter',
+        '#gtceu:circuits/hv'
+    )
    
 
 })
