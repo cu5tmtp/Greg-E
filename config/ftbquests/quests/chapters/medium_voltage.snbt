@@ -655,6 +655,28 @@
 			x: -6.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["262AE37765B139BE"]
+			id: "5AE58782A1600FC2"
+			tasks: [{
+				id: "58585602AC6BF1F5"
+				item: "gregecore:twilight_alloy_cable_single_wire"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AE58782A1600FC2"]
+			id: "1110C2F363E317D9"
+			tasks: [{
+				id: "4B46663898839093"
+				item: "gregecore:twilight_coil"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
 	]
 	title: "MV"
 }

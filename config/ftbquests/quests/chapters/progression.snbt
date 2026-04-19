@@ -96,8 +96,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "7C0B42A51213EB3C"
@@ -256,8 +256,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			id: "475F01CCB1E4B8A3"
@@ -780,7 +780,7 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -790,7 +790,7 @@
 				item: "gtceu:lead_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -860,7 +860,7 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{

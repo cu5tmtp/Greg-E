@@ -15,6 +15,12 @@ ServerEvents.recipes((event) => {
         'kubejs:vanaheimingotblock'
     )
 
+    event.replaceInput(
+        { id: 'botania:spark' },
+        'minecraft:blaze_powder',
+        'gtceu:sulfur_dust'
+    )
+
     const bm_machines = [
     'alfheim_market',
     'industrial_agglomeration_factory',
@@ -36,6 +42,8 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'mythicbotany:kvasir_mead'})
 
     event.recipes.botania.mana_infusion('kubejs:dewvial', 'botania:vial', 1000)
+    event.recipes.botania.mana_infusion('minecraft:brown_mushroom', 'botania:brown_petal', 100)
+    event.recipes.botania.mana_infusion('minecraft:red_mushroom', 'botania:red_petal', 100)
     event.recipes.botania.mana_infusion('2x kubejs:vanaheimingot', 'kubejs:vanaheimingot', 10000, 'botania:conjuration_catalyst')
     event.recipes.botania.mana_infusion('2x kubejs:solidacidinfusedlava', 'kubejs:solidacidinfusedlava', 1000, 'botania:conjuration_catalyst')
 });

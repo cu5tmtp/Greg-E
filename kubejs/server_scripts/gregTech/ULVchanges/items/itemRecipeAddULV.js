@@ -98,10 +98,31 @@ ServerEvents.recipes((event) => {
     )
 
     event.recipes.minecraft.campfire_cooking(
+        'minecraft:clay',
+        'minecraft:mud',
+        0,
+        400
+    )
+
+    event.recipes.minecraft.campfire_cooking(
         'minecraft:string',
         '#minecraft:leaves',
         0,
         200
+    )
+
+    event.shapeless(
+        Item.of('minecraft:clay_ball', 4),
+        [
+            'minecraft:clay'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('minecraft:clay', 1),
+        [
+            '4x minecraft:clay_ball'
+        ]
     )
 
     event.shapeless(
