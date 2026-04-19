@@ -24,16 +24,6 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(2)
 
-    event.recipes.gtceu.centrifuge('deepslateearth_emerald')
-        .itemInputs(
-            'kubejs:deepslateearth'
-        )
-        .chancedOutput('minecraft:emerald', 100, 0)
-        .chancedOutput('kubejs:senironspeck', 5000, 0)
-        .duration(100)
-        .EUt(120)
-        .circuit(3)
-
     event.recipes.gtceu.centrifuge('deepslateearth_sapphire')
         .itemInputs(
             'kubejs:deepslateearth'
@@ -103,15 +93,6 @@ ServerEvents.recipes((event) => {
         .duration(50)
         .EUt(120)
         .circuit(9)
-
-    event.recipes.gtceu.centrifuge('deepslateearth_emerald2')
-        .itemInputs(
-            'kubejs:deepslateearth'
-        )
-        .chancedOutput('minecraft:emerald', 200, 0)
-        .duration(50)
-        .EUt(120)
-        .circuit(10)
 
     event.recipes.gtceu.centrifuge('deepslateearth_sapphire2')
         .itemInputs(

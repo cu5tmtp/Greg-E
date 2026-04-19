@@ -90,6 +90,18 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.shaped(
+        Item.of('minecraft:glass_bottle', 1),
+        [
+            'A A',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'minecraft:glass',
+        }
+    )
+
     event.recipes.minecraft.campfire_cooking(
         'minecraft:glass',
         'gtceu:glass_dust',

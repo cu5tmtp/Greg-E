@@ -28,7 +28,6 @@
 			description: [""]
 			id: "23ADD20D9B1AE0F3"
 			tasks: [{
-				count: 8L
 				id: "66BBC650D92AD2D0"
 				item: "botania:livingrock"
 				type: "item"
@@ -41,7 +40,6 @@
 			description: [""]
 			id: "597E4D997A20736D"
 			tasks: [{
-				count: 8L
 				id: "3CC2E22FFC03582A"
 				item: "botania:livingwood_log"
 				type: "item"

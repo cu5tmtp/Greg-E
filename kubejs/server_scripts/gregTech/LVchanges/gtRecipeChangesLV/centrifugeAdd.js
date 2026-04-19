@@ -261,6 +261,31 @@ ServerEvents.recipes((event) => {
         )
         .duration(300)
         .EUt(15)
-        .circuit(17)
+        .circuit(1)
+
+    event.recipes.gtceu.centrifuge('commonearth_emerald')
+        .itemInputs(
+            'kubejs:commonearth'
+        )
+        .chancedOutput('minecraft:emerald', 100, 0)
+        .chancedOutput('kubejs:quartzspeck', 5000, 0)
+        .chancedOutput('kubejs:cquartzspeck', 5000, 0)
+        .chancedOutput('kubejs:gspeck', 5000, 0)
+        .chancedOutput('kubejs:dshard', 5000, 0)
+        .chancedOutput('kubejs:lapisspeck', 5000, 0)
+        .duration(100)
+        .EUt(120)
+        .circuit(18)
+
+    event.recipes.gtceu.centrifuge('commonearth_emerald2')
+        .itemInputs(
+            'kubejs:commonearth'
+        )
+        .chancedOutput('minecraft:emerald', 200, 0)
+        .duration(100)
+        .EUt(120)
+        .circuit(19)
+
+    
 
 });

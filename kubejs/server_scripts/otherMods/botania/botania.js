@@ -21,6 +21,12 @@ ServerEvents.recipes((event) => {
         'gtceu:sulfur_dust'
     )
 
+    event.replaceInput(
+        { id: 'botania:natura_pylon' },
+        'minecraft:ender_eye',
+        'botania:livingwood'
+    )
+
     const bm_machines = [
     'alfheim_market',
     'industrial_agglomeration_factory',

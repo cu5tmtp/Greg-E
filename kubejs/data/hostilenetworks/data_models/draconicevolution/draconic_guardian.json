@@ -24,7 +24,11 @@
         },
         {
             "item": "bhc:blue_heart"
+        },
+        {
+            "item": "draconicevolution:medium_chaos_frag"
         }
+
     ],
     "tier_data": [1, 32765, 32766, 32767],                      
     "data_per_kill": [1, 1, 1, 1]
