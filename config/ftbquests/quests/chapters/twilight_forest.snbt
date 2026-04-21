@@ -221,6 +221,23 @@
 			x: 4.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["4193303999597249"]
+			description: ["Use this command to disable Twilight Forests progression. It disables the damage walls in every biome. Now you will be able to access the biomes, and craft the data models."]
+			id: "4F40C0482745085B"
+			rewards: [{
+				command: "/gamerule tfEnforcedProgression false"
+				id: "04C72F00F6A73E98"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6DE7C814F923DFAC"
+				type: "checkmark"
+			}]
+			title: "Playing on peaceful?"
+			x: -10.0d
+			y: -1.0d
+		}
 	]
 	title: "Twilight Forest"
 }

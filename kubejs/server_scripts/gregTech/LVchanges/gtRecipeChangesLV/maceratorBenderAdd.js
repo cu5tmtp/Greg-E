@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
             'ae2:fluix_dust'
         )
         .duration(50)
-        .EUt(GTValues.VA[GTValues.LV])
+        .EUt(32)
 
     event.recipes.gtceu.macerator('getcertusdustmacertaion')
         .itemInputs(
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
             'ae2:certus_quartz_dust'
         )
         .duration(50)
-        .EUt(GTValues.VA[GTValues.LV])
+        .EUt(2)
 
     
 })

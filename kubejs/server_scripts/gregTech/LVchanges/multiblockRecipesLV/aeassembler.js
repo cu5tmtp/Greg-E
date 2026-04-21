@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('8x ae2:logic_processor')
         .circuit(8)
         .duration(800)
-        .EUt(30)
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu
         .aeassembler('8ep')
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('8x ae2:engineering_processor')
         .circuit(8)
         .duration(800)
-        .EUt(30)
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu
         .aeassembler('8cp')
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('8x ae2:calculation_processor')
         .circuit(8)
         .duration(800)
-        .EUt(30)
+        .EUt(GTValues.VA[GTValues.LV])
         
     event.recipes.gtceu
         .aeassembler('8qp')
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('8x advanced_ae:quantum_processor')
         .circuit(8)
         .duration(800)
-        .EUt(30)  
+        .EUt(GTValues.VA[GTValues.LV])  
 
     event.recipes.gtceu
         .aeassembler('8ap')
@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('8x megacells:accumulation_processor')
         .circuit(8)
         .duration(800)
-        .EUt(30)
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu
         .aeassembler('3cc1k')
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x ae2:cell_component_1k')
         .circuit(1)
         .duration(400)
-        .EUt(30)
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu
         .aeassembler('3cc4k')
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x ae2:cell_component_4k')
         .circuit(4)
         .duration(400)
-        .EUt(60)
+        .EUt(GTValues.VA[GTValues.MV])
 
     event.recipes.gtceu
         .aeassembler('3cc16k')
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x ae2:cell_component_16k')
         .circuit(16)
         .duration(400)
-        .EUt(300)
+        .EUt(GTValues.VA[GTValues.HV])
 
     event.recipes.gtceu
         .aeassembler('3cc64k')
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x ae2:cell_component_64k')
         .circuit(16)
         .duration(400)
-        .EUt(600)
+        .EUt(GTValues.VA[GTValues.EV])
     
     event.recipes.gtceu
         .aeassembler('3cc256k')
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x ae2:cell_component_256k')
         .circuit(16)
         .duration(400)
-        .EUt(2500)
+        .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu
         .aeassembler('3cc1m')
@@ -102,7 +102,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x megacells:cell_component_1m')
         .circuit(16)
         .duration(400)
-        .EUt(10000)
+        .EUt(GTValues.VA[GTValues.LuV])
 
     event.recipes.gtceu
         .aeassembler('3cc4m')
@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x megacells:cell_component_4m')
         .circuit(16)
         .duration(400)
-        .EUt(10000)
+        .EUt(GTValues.VA[GTValues.LuV])
 
     event.recipes.gtceu
         .aeassembler('3cc16m')
@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x megacells:cell_component_16m')
         .circuit(16)
         .duration(400)
-        .EUt(10000)
+        .EUt(GTValues.VA[GTValues.LuV])
 
     event.recipes.gtceu
         .aeassembler('3cc64m')
@@ -126,7 +126,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x megacells:cell_component_64m')
         .circuit(16)
         .duration(400)
-        .EUt(10000)
+        .EUt(GTValues.VA[GTValues.LuV])
         
     event.recipes.gtceu
         .aeassembler('3cc256m')
@@ -134,5 +134,5 @@ ServerEvents.recipes((event) => {
         .itemOutputs('3x megacells:cell_component_256m')
         .circuit(16)
         .duration(400)
-        .EUt(10000)  
+        .EUt(GTValues.VA[GTValues.LuV])  
 });
