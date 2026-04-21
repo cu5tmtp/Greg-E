@@ -85,6 +85,7 @@ StartupEvents.registry('item', event => {
     event.create('purefroststeel').displayName('Pure Froststeel Ingot')
     event.create('hotfroststeel').displayName('Hot Froststeel Ingot')
     event.create('hotcloggrum').displayName('Hot Cloggrum Ingot')
+    event.create('kaptonmirror').displayName('Kapton Mirror')
 
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')

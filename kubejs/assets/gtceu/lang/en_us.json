@@ -103,6 +103,16 @@
   "material.gtceu.nebulon_alpha": "Nebulon-Alpha",
   "material.gtceu.nebulon_gamma": "Nebulon-Gamma",
 
+  "material.gtceu.p_xylene": "p-Xylene",
+  "material.gtceu.tetramethylbenzene": "1,2,4,5-Tetramethylbenzene",
+  "material.gtceu.vanadium_oxide": "Vanadium Pentoxide",
+  "material.gtceu.pmda": "Pyromellitic Dianhydride",
+  "material.gtceu.diphenyl_ether": "Diphenyl Ether",
+  "material.gtceu.dinitrodiphenyl_ether": "4,4'-Dinitrodiphenyl ether",
+  "material.gtceu.44oda": "4,4'-Oxydianiline",
+  "material.gtceu.pdc44o": "Poly(pyromellitic dianhydride-co-4,4'-oxydianiline), Amic Acid Solution",
+  "material.gtceu.kapton": "Kapton",
+
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",
   "block.gtceu.cube_assembler": "Assembler Factory",

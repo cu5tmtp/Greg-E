@@ -98,6 +98,71 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.FINE)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_ROUND, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_DENSE)
         .color(0x702963)
+
+    event.create('p_xylene')
+        .dust()
+        .formula("C₈H₁₀")
+        .color(0xF9F6EE)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('tetramethylbenzene')
+        .fluid()
+        .formula("C₆H₂(CH₃)₄")
+        .color(0xFFFFF0)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('vanadium_oxide')
+        .gas()
+        .formula("V₂O₅")
+        .color(0xCC5500)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('pmda')
+        .gas()
+        .formula("C₁₀H₂O₆")
+        .color(0xFCF5E5)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('diphenyl_ether')
+        .gas()
+        .formula("C₁₂H₁₀O")
+        .color(0xFAF9F6)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dinitrodiphenyl_ether')
+        .gas()
+        .formula("(NO₂C₆H₄)₂O")
+        .color(0xFFFF8F)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('44oda')
+        .gas()
+        .formula("C₁₂H₁₂N₂O")
+        .color(0xFFDEAD)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('pdc44o')
+        .gas()
+        .formula("C₁₂H₁₂N₂O · C₁₀H₂O₆")
+        .color(0xF3E5AB)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('kapton')
+        .ingot()
+        .formula("C₂₂H₁₀N₂O₅")
+        .color(0xFFBF00)
+        .iconSet(GTMaterialIconSet.ROUGH) 
+        .flags(GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+         //₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
  
 });
 

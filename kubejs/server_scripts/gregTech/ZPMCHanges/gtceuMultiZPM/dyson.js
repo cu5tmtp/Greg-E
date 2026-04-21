@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: '#gtceu:circuits/zpm',
-            C: 'solarflux:mirror',
+            C: 'kubejs:kaptonmirror',
             D: 'gtceu:zpm_electric_pump',
             E: 'gtceu:zpm_machine_hull'
         }
@@ -38,8 +38,21 @@ ServerEvents.recipes((event) => {
             ' A '
         ],
         {
-            A: 'solarflux:mirror',
+            A: 'kubejs:kaptonmirror',
             B: 'minecraft:lightning_rod'
+        }
+    )
+
+    event.shaped(
+        Item.of('kubejs:kaptonmirror', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'minecraft:iron_ingot',
+            B: 'gtceu:kapton_foil'
         }
     )
 
