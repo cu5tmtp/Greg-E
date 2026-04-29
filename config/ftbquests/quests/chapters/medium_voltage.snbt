@@ -37,6 +37,7 @@
 				"57F1B60DEA622275"
 				"2B9BA85662BF637C"
 				"0E603F1FE596DB2A"
+				"3E7B60E26BB10291"
 			]
 			description: [""]
 			icon: "gtceu:advanced_integrated_circuit"
@@ -676,6 +677,18 @@
 			}]
 			x: -9.0d
 			y: 0.5d
+		}
+		{
+			description: ["Faster board production!"]
+			id: "3E7B60E26BB10291"
+			optional: true
+			tasks: [{
+				id: "20D7B0EDE90472D2"
+				item: "gtceu:artificial_leather_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
 		}
 	]
 	title: "MV"

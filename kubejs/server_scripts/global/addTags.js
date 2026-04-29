@@ -27,4 +27,6 @@ ServerEvents.tags('item', event => {
     event.add('gtceu:circuits', 'kubejs:universal/uhv')
     event.add('gtceu:circuits/uhv', 'kubejs:universal/uhv')
 
+    event.add('forge:leather', 'gtceu:artificial_leather_plate')
+
 })

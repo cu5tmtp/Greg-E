@@ -403,6 +403,21 @@
 			x: 3.0d
 			y: -0.5d
 		}
+		{
+			description: [
+				"Pipez are in the pack as well!"
+				""
+				"Just do not use the netherite upgrade frequently!"
+			]
+			id: "3168E61EC40F1C05"
+			tasks: [{
+				id: "038FD3918532DEC3"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
 	]
 	title: "QOL"
 }

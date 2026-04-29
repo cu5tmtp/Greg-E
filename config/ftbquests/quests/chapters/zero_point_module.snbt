@@ -409,7 +409,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B0BC233A6C81B73"]
@@ -421,7 +421,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			description: [""]
@@ -433,7 +433,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -718,8 +718,8 @@
 				item: "kubejs:animated/zpmalloy"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57B5100C11F76EE9"]
@@ -740,8 +740,8 @@
 				item: "gregecore:parallel_booster_machine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.0d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["57B5100C11F76EE9"]

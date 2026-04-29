@@ -19,73 +19,100 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .cleanfarmland('wheatslow')
         .notConsumable('minecraft:wheat_seeds')   
-        .itemOutputs('4x minecraft:wheat')
+        .itemOutputs(
+            '16x minecraft:wheat',
+            '4x minecraft:wheat_seeds'
+        )
         .duration(1000)
         .EUt(120)
+        .circuit(1)
         
     event.recipes.gtceu
         .cleanfarmland('wheatmedium')
         .notConsumable('minecraft:wheat_seeds')
         .inputFluids('minecraft:water 500')
-        .itemOutputs('8x minecraft:wheat')
+        .itemOutputs(
+            '64x minecraft:wheat',
+            '16x minecraft:wheat_seeds'
+        )
         .duration(500)
         .EUt(120)
+        .circuit(2)
 
     event.recipes.gtceu
         .cleanfarmland('wheatfast')
         .notConsumable('minecraft:wheat_seeds')
-        .itemInputs('gtceu:fertilizer')
+        .chancedInput('gtceu:fertilizer', 1000, -100)
         .inputFluids('minecraft:water 500')
-        .itemOutputs('16x minecraft:wheat')
+        .itemOutputs(
+            '256x minecraft:wheat',
+            '64x minecraft:wheat_seeds'
+        )
         .duration(250)
         .EUt(120)
+        .circuit(3)
 
     event.recipes.gtceu
         .cleanfarmland('carrotslow')
         .notConsumable('minecraft:carrot') 
-        .itemOutputs('4x minecraft:carrot')
+        .itemOutputs('16x minecraft:carrot')
+        .chancedOutput('16x minecraft:carrot', 1000, 1000)
         .duration(1000)
         .EUt(120)
+        .circuit(1)
 
     event.recipes.gtceu
         .cleanfarmland('carrotmedium')
         .notConsumable('minecraft:carrot')
         .inputFluids('minecraft:water 500')
-        .itemOutputs('8x minecraft:carrot')
+        .itemOutputs('64x minecraft:carrot')
+        .chancedOutput('64x minecraft:carrot', 1000, 1000)
         .duration(500)
         .EUt(120)
+        .circuit(2)
 
     event.recipes.gtceu
         .cleanfarmland('carrotfast')
         .notConsumable('minecraft:carrot')
-        .itemInputs('gtceu:fertilizer')
+        .chancedInput('gtceu:fertilizer', 1000, -100)
         .inputFluids('minecraft:water 500')
-        .itemOutputs('16x minecraft:carrot')
+        .itemOutputs('256x minecraft:carrot')
+        .chancedOutput('256x minecraft:carrot', 1000, 1000)
         .duration(250)
         .EUt(120)
+        .circuit(3)
 
-    event.recipes.gtceu
-        .cleanfarmland('potatoslow')
+    event.recipes.gtceu.cleanfarmland('potatoslow')
         .notConsumable('minecraft:potato') 
-        .itemOutputs('4x minecraft:potato')
+        .itemOutputs('16x minecraft:potato')
+        .chancedOutput('16x minecraft:potato', 1000, 1000)
         .duration(1000)
         .EUt(120)
+        .circuit(1)
 
-    event.recipes.gtceu
-        .cleanfarmland('potatomedium')
+    event.recipes.gtceu.cleanfarmland('potatomedium')
         .notConsumable('minecraft:potato')
         .inputFluids('minecraft:water 500')
-        .itemOutputs('8x minecraft:potato')
+        .itemOutputs('64x minecraft:potato')
+        .chancedOutput('64x minecraft:potato', 1000, 1000)
         .duration(500)
         .EUt(120)
+        .circuit(2)
 
-    event.recipes.gtceu
-        .cleanfarmland('potatofast')
-        .notConsumable('minecraft:potato')
-        .itemInputs('gtceu:fertilizer')
-        .inputFluids('minecraft:water 500')
-        .itemOutputs('16x minecraft:potato')
+    event.recipes.gtceu.cleanfarmland('potatofast')
+        .notConsumable(
+            'minecraft:potato'
+        )
+        .chancedInput('gtceu:fertilizer', 1000, -100)
+        .inputFluids(
+            'minecraft:water 500'
+        )
+        .itemOutputs(
+            '256x minecraft:potato'
+        )
+        .chancedOutput('256x minecraft:potato', 1000, 1000)
         .duration(250)
         .EUt(120)
+        .circuit(3)
 
 });

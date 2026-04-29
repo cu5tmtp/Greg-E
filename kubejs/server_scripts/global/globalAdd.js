@@ -41,4 +41,8 @@ ServerEvents.recipes((event) => {
             .circuit(24)
     })
 
+    event.forEachRecipe({ input: 'minecraft:leather' }, recipe => {
+        recipe.replaceInput('minecraft:leather', '#forge:leather')
+    })
+
 })

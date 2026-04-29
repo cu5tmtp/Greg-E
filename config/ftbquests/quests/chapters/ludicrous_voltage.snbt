@@ -41,30 +41,6 @@
 		{
 			dependencies: ["5A658F239928850E"]
 			description: [""]
-			id: "639B1F99D7271C07"
-			tasks: [{
-				id: "4170FD51FA291A9D"
-				item: "gtceu:rhodium_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["639B1F99D7271C07"]
-			description: [""]
-			id: "559DB570A9152259"
-			tasks: [{
-				id: "3FC3D1012046855B"
-				item: "gtceu:rhodium_plated_palladium_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5A658F239928850E"]
-			description: [""]
 			id: "41F04EF882EF31E1"
 			size: 1.0d
 			tasks: [{
@@ -230,8 +206,8 @@
 				item: "gtceu:ruridit_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			description: [""]
@@ -242,39 +218,11 @@
 				item: "gtceu:quantum_star"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["559DB570A9152259"]
-			description: [""]
-			id: "060233F903FAE63B"
-			tasks: [{
-				id: "625232DE21728609"
-				item: "gtceu:luv_machine_casing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["060233F903FAE63B"]
-			description: [""]
-			id: "5DFE866011AB92DD"
-			shape: "square"
-			tasks: [{
-				id: "36E2268117B6B41E"
-				item: "gtceu:luv_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
+			x: -5.0d
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"643E6B22C8B376BA"
-				"3639A936B5930517"
-			]
+			dependencies: ["3639A936B5930517"]
 			description: [""]
 			id: "1DDA5ADA11DF868F"
 			size: 1.0d
@@ -283,20 +231,8 @@
 				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["6CB002C2D8DC34EA"]
-			description: [""]
-			id: "643E6B22C8B376BA"
-			tasks: [{
-				id: "6A55AC6A8A1F7072"
-				item: "gtceu:luv_voltage_coil"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.5d
+			x: -1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5F18FC7AE321677D"]
@@ -314,8 +250,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -5.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1DBF5A76DCDF5E49"]
@@ -326,8 +262,8 @@
 				item: "gtceu:ruridit_gear"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -343,8 +279,8 @@
 				item: "gtceu:assembly_line"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["785CB375F25F0715"]
@@ -1190,8 +1126,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["204EDA5F8B1C7580"]
@@ -1202,21 +1138,8 @@
 				item: "gtceu:iv_scanner"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5DFE866011AB92DD"]
-			description: [""]
-			hide_dependency_lines: true
-			id: "6CB002C2D8DC34EA"
-			tasks: [{
-				id: "44DE80B2415C87EA"
-				item: "gtceu:luv_assembler"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -10.0d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["759446116655756C"]
@@ -1249,7 +1172,7 @@
 				item: "kubejs:luvalloy"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -1260,7 +1183,7 @@
 				item: "gregecore:superelement27_single_wire"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -1271,7 +1194,7 @@
 				item: "gregecore:superelement_coil"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -1282,8 +1205,8 @@
 				item: "gregecore:bigfreezer"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 	title: "LUV"

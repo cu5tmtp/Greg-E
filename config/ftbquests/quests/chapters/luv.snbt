@@ -360,6 +360,19 @@
 			x: -12.0d
 			y: -5.5d
 		}
+		{
+			dependencies: ["3DAD37FF47259B40"]
+			description: ["There are 2 recipes for the important wires in progression. 1 made with rubber sheets, the other with Poorly-Made Insulant. Use that one if you are skipping steam age."]
+			id: "2A3413299FBC0F1C"
+			tasks: [{
+				id: "1AB041A680A68AF8"
+				title: "Rubber for wires?"
+				type: "checkmark"
+			}]
+			title: "Rubber for cables?"
+			x: -12.0d
+			y: -0.5d
+		}
 	]
 	title: "ULV"
 }

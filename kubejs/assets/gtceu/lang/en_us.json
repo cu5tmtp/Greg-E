@@ -110,8 +110,12 @@
   "material.gtceu.diphenyl_ether": "Diphenyl Ether",
   "material.gtceu.dinitrodiphenyl_ether": "4,4'-Dinitrodiphenyl ether",
   "material.gtceu.44oda": "4,4'-Oxydianiline",
-  "material.gtceu.pdc44o": "Poly(pyromellitic dianhydride-co-4,4'-oxydianiline), Amic Acid Solution",
+  "material.gtceu.pdc44o": "Poly(Pyromellitic Dianhydride-co-4,4'-Oxydianiline), Amic Acid Solution",
   "material.gtceu.kapton": "Kapton",
+
+  "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",
+  "material.gtceu.unfinished_artificial_leather": "Unfinished Synthetic Leather",
+  "material.gtceu.artificial_leather": "Synthetic Leather",
 
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",
