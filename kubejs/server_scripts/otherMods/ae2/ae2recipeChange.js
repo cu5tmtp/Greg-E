@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'ae2:quartz_glass',
-            B: 'kubejs:cobblefive',
+            B: 'kubejs:cobblefour',
             C: 'ae2:cell_component_4k',
             D: 'minecraft:diamond',
             E: '#gtceu:circuits/mv'
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'ae2:quartz_glass',
-            B: 'kubejs:waterfive',
+            B: 'kubejs:waterthree',
             C: 'ae2:cell_component_4k',
             D: 'minecraft:diamond',
             E: '#gtceu:circuits/mv'
