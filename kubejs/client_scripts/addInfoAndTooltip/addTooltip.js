@@ -251,5 +251,41 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+    event.addAdvanced(
+        [
+            'gregecore:manasteel_coil',
+            'gregecore:twilight_coil',
+            'gregecore:desh_coil',
+            'gregecore:malachite_coil',
+            'gregecore:forgotten_coil',
+            'gregecore:superelement_coil',
+            'gregecore:awakened_draconium_coil'
+        ],
+        (item, advanced, text) => {
+            text.add(4, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:manasteel_coil',
+            'gregecore:twilight_coil',
+            'gregecore:desh_coil',
+        ],
+        (item, advanced, text) => {
+            text.add(3, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:awakened_draconium_coil'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+        }
+    );
+
+
 
 });
