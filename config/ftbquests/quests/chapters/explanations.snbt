@@ -5,7 +5,7 @@
 	group: "6915D00C186DB378"
 	icon: "botania:cosmetic_questgiver_mark"
 	id: "082AE046406EBB5C"
-	order_index: 12
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{

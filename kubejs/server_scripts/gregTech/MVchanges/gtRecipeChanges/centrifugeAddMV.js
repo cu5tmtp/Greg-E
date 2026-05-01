@@ -149,4 +149,15 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(15)
 
+    event.recipes.gtceu.centrifuge('manganeseget')
+        .itemInputs(
+            'kubejs:deepslateearth'
+        )
+        .itemOutputs(
+            '2x gtceu:manganese_dust'
+        )
+        .duration(100)
+        .EUt(120)
+        .circuit(16)
+
 });

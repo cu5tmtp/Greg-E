@@ -1,0 +1,50 @@
+{
+	autofocus_id: "3349077A4E664DD8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "void"
+	group: "6915D00C186DB378"
+	hide_quest_details_until_startable: true
+	icon: "kubejs:voidseed"
+	id: "497638B43FD1ECEB"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73EE77DC13D01ED7"]
+			description: [
+				"Or is it GG?"
+				""
+				"Open the rift and find island with Golden Rose."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3349077A4E664DD8"
+			tasks: [{
+				id: "11AD2D3A813FF754"
+				item: "gregecore:realityfractureengine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3349077A4E664DD8"]
+			description: [
+				"You're not a noob now! "
+				""
+				"Now its really GG,"
+				"thank you again for playing my pack!"
+			]
+			id: "04EF27D0C8F33788"
+			tasks: [{
+				id: "0D405A4EC948327C"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Void"
+}

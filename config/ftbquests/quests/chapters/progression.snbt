@@ -6,7 +6,7 @@
 	group: "6915D00C186DB378"
 	icon: "kubejs:commonearth"
 	id: "08D45F6014D1223B"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -296,8 +296,8 @@
 				item: "gtceu:manganese_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			id: "510DCC7EB7D0C717"
@@ -306,7 +306,7 @@
 				item: "gregecore:plutonium_hexafluoride_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -317,7 +317,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "14BFDB6D7528305A"
@@ -780,7 +780,7 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -840,7 +840,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{

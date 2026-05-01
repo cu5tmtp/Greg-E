@@ -38,5 +38,18 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .EUt(120)
         .circuit(1)
+
+    event.recipes.gtceu.assembler('lasercraft')
+        .itemInputs(
+            '#gtceu:circuits/hv',
+            'gtceu:steel_frame',
+            'gtceu:ruby_lens'
+        )
+        .itemOutputs(
+            'kubejs:laservoid'
+        )
+        .duration(200)
+        .EUt(120)
+        .circuit(1)
     
 });

@@ -214,14 +214,23 @@ ItemEvents.tooltip((event) => {
         }
     );
 
-        event.addAdvanced(
+    event.addAdvanced(
         [
             'gtceu:uhv_uhv_parallel_hatch'
-
         ],
         (item, advanced, text) => {
             text.add(1, Text.white('Allows to run up to 1024 recipes in parallel.'));
             text.add(2, Text.white('Multiblock Sharing ').append(Text.darkRed('Disabled')));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:winnersrose'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Rose left by the only survivors of this land.'));
+            text.add(2, Text.gray('It is unknown where they are now.'));
         }
     );
 
@@ -262,7 +271,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:awakened_draconium_coil'
         ],
         (item, advanced, text) => {
-            text.add(4, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
         }
     );
 
@@ -273,7 +282,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:desh_coil',
         ],
         (item, advanced, text) => {
-            text.add(3, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
         }
     );
 
@@ -282,7 +291,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:awakened_draconium_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
         }
     );
 

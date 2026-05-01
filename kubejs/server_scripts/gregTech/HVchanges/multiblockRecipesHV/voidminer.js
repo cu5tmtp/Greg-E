@@ -10,7 +10,7 @@ ServerEvents.recipes((event) =>{
             A: '#gtceu:circuits/hv',
             B: 'gtceu:ruby_lens',
             C: 'gtceu:fine_steel_wire',
-            D: 'gtceu:hv_voltage_coil',
+            D: 'gtceu:steel_frame',
             E: 'gtceu:hv_machine_hull'
         }
     )

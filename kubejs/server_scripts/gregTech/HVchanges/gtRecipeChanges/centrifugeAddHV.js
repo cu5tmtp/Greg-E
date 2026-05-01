@@ -22,17 +22,6 @@ ServerEvents.recipes((event) =>{
         .EUt(480)
         .circuit(2)
 
-    event.recipes.gtceu.centrifuge('manganeseget')
-        .itemInputs(
-            'kubejs:voiddust'
-        )
-        .itemOutputs(
-            '2x gtceu:manganese_dust'
-        )
-        .duration(100)
-        .EUt(480)
-        .circuit(3)
-
     event.recipes.gtceu.centrifuge('amethystget')
         .itemInputs(
             'kubejs:voiddust'

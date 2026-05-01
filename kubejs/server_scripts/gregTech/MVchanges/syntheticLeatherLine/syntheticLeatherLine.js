@@ -49,8 +49,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(100)
-        .circuit(24)
-    
 
     event.recipes.gtceu.chemical_reactor('getbetterboardeasymulti2')
         .itemInputs(
@@ -65,5 +63,4 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(100)
-        .circuit(24)
 })

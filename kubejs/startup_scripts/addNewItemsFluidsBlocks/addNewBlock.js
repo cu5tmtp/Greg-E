@@ -19,18 +19,6 @@ StartupEvents.registry('block', event => {
         .resistance(1.0)
         .textureAll('kubejs:block/heatingel')
 
-    event.create('sprinkler')
-        .displayName('Sprinkler')
-        .stoneSoundType()
-        .hardness(2.0) 
-        .resistance(1.0)
-        .texture('up', 'kubejs:block/sprinklertopbot')
-        .texture('down', 'kubejs:block/sprinklertopbot')
-        .texture('north', 'kubejs:block/sprinklerside')
-        .texture('south', 'kubejs:block/sprinklerside')
-        .texture('west', 'kubejs:block/sprinklerside')
-        .texture('east', 'kubejs:block/sprinklerside')
-
     event.create('cobbleone')
         .displayName('Compressed Cobblestone')
         .stoneSoundType()

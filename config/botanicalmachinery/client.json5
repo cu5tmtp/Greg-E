@@ -11,6 +11,7 @@
     "mechanicalApothecary": true,
     "mechanicalBrewery": true,
     "mechanicalDaisy": true,
+    "mechanicalManaInfuser": true,
     "mechanicalManaPool": true,
     "mechanicalRunicAltar": true
   }
