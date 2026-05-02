@@ -8,6 +8,6 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:iceshard', ['Glacian Ram is found on Glacio in Proxima Centauri star system.']);
     event.addItem('gregecore:tome1', ['Found on a trans-neptunian object, that was discovered in 2005. Its MPC designation is 136472.']);
     event.addItem('bloodmagic:basemonstersoul', ['You get this by killing an enemy with a Sentient Sword. The one from the blood altar doesnt work on crafts, it just serves as an automation for Evil Soul.']);
-
+    event.addItem('gregecore:unstable', ['Find this in the Fractured Lands in the Floaty Rocks structure, you get there by using Reality Fracture Engine.']);
 
 })

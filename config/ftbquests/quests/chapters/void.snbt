@@ -15,7 +15,7 @@
 			description: [
 				"Or is it GG?"
 				""
-				"Open the rift and find island with Golden Rose."
+				"Open the rift and find Unstable Shard."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -44,6 +44,39 @@
 			}]
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3349077A4E664DD8"]
+			id: "451DF6A7E93FDF24"
+			tasks: [{
+				id: "5271D7C4A1F76209"
+				item: "gregecore:redeye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349077A4E664DD8"]
+			id: "5903C80552CA34C4"
+			tasks: [{
+				id: "0C32114DF017A023"
+				item: "gregecore:greeneye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349077A4E664DD8"]
+			id: "4B6F319687D947BE"
+			tasks: [{
+				id: "342C99025B5C62B5"
+				item: "gregecore:purpleeye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 	title: "Void"

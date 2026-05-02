@@ -1,11 +1,11 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.open_rift('test')
+    event.recipes.gtceu.open_rift('opentherift')
         .itemInputs(
-            "minecraft:stick"
+            'avaritia:infinity_catalyst'
         )
         .itemOutputs(
-            "minecraft:cobblestone"
+           'minecraft:deepslate'
         )
         .duration(1000)
 
