@@ -224,16 +224,6 @@ ItemEvents.tooltip((event) => {
         }
     );
 
-    event.addAdvanced(
-        [
-            'kubejs:winnersrose'
-        ],
-        (item, advanced, text) => {
-            text.add(1, Text.gray('Rose left by the only survivors of this land.'));
-            text.add(2, Text.gray('It is unknown where they are now.'));
-        }
-    );
-
     //Thank you to these artists:
 
     event.addAdvanced(

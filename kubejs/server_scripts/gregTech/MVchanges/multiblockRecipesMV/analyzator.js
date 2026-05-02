@@ -41,12 +41,13 @@ ServerEvents.recipes((event) => {
         .itemOutputs('hostilenetworks:loot_fabricator')
         .duration(2000)
         .EUt(120)
+        .circuit(1)
 
     event.recipes.gtceu
         .analyzator('researchthatdamnsimchamber')
         .itemInputs(
             '3x kubejs:senplate',
-            '2x minecraft:ender_pearl',
+            '2x minecraft:diamond',
             '2x minecraft:lapis_lazuli',
             'minecraft:comparator',
             'gtceu:mv_machine_hull'
@@ -54,5 +55,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs('hostilenetworks:sim_chamber')
         .duration(2000)
         .EUt(120)
+        .circuit(2)
 
 });
