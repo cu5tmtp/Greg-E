@@ -438,9 +438,9 @@
 			description: ["3rd tier of Magical Coils."]
 			id: "370B0622AED33FC4"
 			tasks: [{
-				count: 18L
+				count: 16L
 				id: "3EF8AD880FE1F825"
-				item: { Count: 18, id: "gregecore:desh_coil" }
+				item: "gregecore:desh_coil"
 				type: "item"
 			}]
 			x: -6.0d

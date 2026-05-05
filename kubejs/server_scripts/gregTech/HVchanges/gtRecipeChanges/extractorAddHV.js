@@ -5,9 +5,9 @@ ServerEvents.recipes((event) => {
             '4x kubejs:deepslateearth'
         )
         .outputFluids(
-            'kubejs:deepdrill 1000'
+            'kubejs:deepdrill 3000'
         )
         .duration(300)
-        .EUt(480)
+        .EUt(GTValues.VA[GTValues.MV])
 
 })

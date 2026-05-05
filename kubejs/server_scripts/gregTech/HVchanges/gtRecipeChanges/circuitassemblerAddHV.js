@@ -72,30 +72,4 @@ ServerEvents.recipes((event) => {
         '2x gregecore:nobelium_bolt'
     )
 
-    event.recipes.gtceu.circuit_assembler('guidancecomptone')
-        .itemInputs(
-            '#gtceu:circuits/hv',
-            '8x gtceu:capacitor',
-            '2x gtceu:transistor',
-            '4x gtceu:stainless_steel_ingot'
-        )
-        .itemOutputs(
-            'kubejs:animated/guicomp'
-        )
-        .duration(2000)
-        .EUt(480)
-
-    event.recipes.gtceu.circuit_assembler('guidancecomptwo')
-        .itemInputs(
-            '#gtceu:circuits/hv',
-            '16x gtceu:smd_capacitor',
-            '4x gtceu:smd_transistor',
-            '8x gtceu:stainless_steel_ingot'
-        )
-        .itemOutputs(
-            'kubejs:animated/guicomptwo'
-        )
-        .duration(2000)
-        .EUt(480)
-
 })

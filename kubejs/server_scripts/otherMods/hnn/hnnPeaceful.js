@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/lich"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/lich",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/knight_phantom"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/knight_phantom",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/ur_ghast"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/ur_ghast",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/minoshroom"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/minoshroom",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/hydra"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/hydra",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/alpha_yeti"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/alpha_yeti",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/mv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:twilightforest/snow_queen"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/snow_queen",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/hv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:ad_astra/corrupted_lunarian"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:3,id:"hostilenetworks:ad_astra/corrupted_lunarian",iterations:3}}')
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(2000)
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/ev'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:blaze"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:3,id:"hostilenetworks:blaze",iterations:3}}')
         )
         .EUt(GTValues.VA[GTValues.HV])
         .duration(2000)
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/ev'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:wither_skeleton"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:wither_skeleton",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.HV])
         .duration(2000)
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/ev'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:wither"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:wither",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.HV])
         .duration(2000)
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/hv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:shulker"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:shulker",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(2000)
@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/iv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:undergarden/rotbeast"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:undergarden/rotbeast",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.EV])
         .duration(2000)
@@ -178,14 +178,14 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/iv'
         )
         .itemOutputs(
-            Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:undergarden/forgotten_guardian"}}')
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:undergarden/forgotten_guardian",iterations:1}}')
         )
         .EUt(GTValues.VA[GTValues.EV])
         .duration(2000)
 
     const terrasteel16 = Array(16).fill({ item: 'botania:terrasteel_ingot' });    
     event.recipes.botania.runic_altar(
-        Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:botania/gaia_spirit"}}'),
+        Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:botania/gaia_spirit",iterations:1}}'),
         terrasteel16,
         75000        
     )
@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
       ],
       result: {
         item: 'hostilenetworks:data_model',
-        nbt: '{data_model:{id:"hostilenetworks:draconicevolution/draconic_guardian"}}'
+        nbt: '{data_model:{data:1,id:"hostilenetworks:draconicevolution/draconic_guardian",iterations:1}}'
       },
       tier: 'WYVERN',
       total_energy: 1280000,

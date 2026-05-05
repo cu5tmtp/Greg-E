@@ -265,26 +265,4 @@ ItemEvents.tooltip((event) => {
         }
     );
 
-    event.addAdvanced(
-        [
-            'gregecore:manasteel_coil',
-            'gregecore:twilight_coil',
-            'gregecore:desh_coil',
-        ],
-        (item, advanced, text) => {
-            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
-        }
-    );
-
-    event.addAdvanced(
-        [
-            'gregecore:awakened_draconium_coil'
-        ],
-        (item, advanced, text) => {
-            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
-        }
-    );
-
-
-
 });
