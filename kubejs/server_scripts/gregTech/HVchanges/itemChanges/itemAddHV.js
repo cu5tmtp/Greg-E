@@ -13,7 +13,7 @@ ServerEvents.recipes((event) =>{
         ],
         {
             A: 'ad_astra:moon_stone',
-            B: 'minecraft:ender_eye'
+            B: 'gtceu:stainless_steel_ingot'
         }
     )
 

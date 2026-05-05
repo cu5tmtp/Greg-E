@@ -84,6 +84,9 @@
   "block.gtceu.industrialfilter": "Industrial Filter",
   "gtceu.industrialfilter": "Industrial Filter",
 
+  "block.gtceu.gasminer": "Void Gasses Extractor",
+  "gtceu.gasminer": "Void Gasses Extractor",
+
   "gtceu.pulverizing": "Pulverizer",
   "gtceu.pressing": "Multiservo Press",
   "gtceu.induction_smelting": "Induction Smelter",

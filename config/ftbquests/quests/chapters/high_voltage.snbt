@@ -329,13 +329,14 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["1D668061E99D565B"]
 			description: [
-				"Wait, I thought only EMC lines, not this????"
+				"Fun little production line :)"
 				""
-				"Yeah, I thought so too but HV doesn't really have it's dedicated production line, so I tried to substitute it, hope you guys like it :)"
+				"It simulates how Nobelium is created in real life."
 			]
 			id: "2F09F581D2D91CAB"
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "69CA92CF5398D951"
 				item: "gregecore:nobelium_bolt"
@@ -345,23 +346,27 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2F09F581D2D91CAB"]
 			description: [
-				"You kinda need to get helium for Nobelium, the way I intend for it to happen is:"
+				"You kinda need to get helium for Nobelium, and there are 2 ways to get it:"
 				""
+				"a) This is easy to do but it yields low Helium"
+				"1) Craft Void Gas Extractor"
+				"2) Start extracting Natural Gasses and as a byproduct you get a bit of Helium"
+				""
+				"b) This gets you a lot of Helium but its more complicated:"
 				"1) Get T1 rocket and visit Moon"
 				"2) On moon you can get Desh (find 1 ore and then use mod Scannable to find others)"
 				"3) While searching for Desh, get Moon Cobblestone, which you can smelt to stone"
 				"4) Make a End Portal Frame block out of Moon Stone and Eye of Ender"
 				"5) You're in the End"
-				""
-				"And there you go, helium! (not to mention the killing of ender dragon, collecting air and destilling it, but... you're smart, you'll figure it out!)"
+				"6) Get Ender Air and distill it"
 			]
 			id: "1D668061E99D565B"
+			shape: "square"
 			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "1149FE642601F145"
-				type: "dimension"
+				id: "2305B8BEC5DD0060"
+				item: "kubejs:he"
+				type: "item"
 			}]
 			x: 1.0d
 			y: 3.5d

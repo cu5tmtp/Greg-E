@@ -903,6 +903,38 @@
 			x: 23.5d
 			y: -1.0d
 		}
+		{
+			description: [
+				"1) Get T1 rocket and visit Moon"
+				"2) Get Moon Cobblestone, which you can smelt to stone"
+				"3) Make a End Portal Frame block out of Moon Stone and Eye of Ender"
+			]
+			id: "0892FCCB363758FA"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "631295AE1EF3F59B"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"1) Get 10 Titanium Blocks"
+				"2) Get EV robotic arm"
+				"3) Make a nether portal shape out of Titanium Blocks"
+				"4) Use the EV robotic arm as a lighter"
+				"5) You're in the nether!"
+			]
+			id: "5AE65F9C46498519"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "481CD2A9CEFFC0E3"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
 	]
 	title: "Progression"
 }
