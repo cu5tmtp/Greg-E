@@ -41,6 +41,33 @@ ServerEvents.recipes((event) => {
             .circuit(24)
     })
 
+    const circuitsToAlloys = [
+        {item: '360x #gtceu:circuits/lv', output: 'kubejs:lvalloy', tier: GTValues.VA[GTValues.LV]},
+        {item: '360x #gtceu:circuits/mv', output: 'kubejs:mvalloy', tier: GTValues.VA[GTValues.MV]},
+        {item: '360x #gtceu:circuits/hv', output: 'kubejs:hvalloy', tier: GTValues.VA[GTValues.HV]},
+        {item: '360x #gtceu:circuits/ev', output: 'kubejs:evalloy', tier: GTValues.VA[GTValues.EV]},
+        {item: '360x #gtceu:circuits/iv', output: 'kubejs:ivalloy', tier: GTValues.VA[GTValues.IV]},
+        {item: '360x #gtceu:circuits/luv', output: 'kubejs:luvalloy', tier: GTValues.VA[GTValues.LuV]},
+        {item: '360x #gtceu:circuits/zpm', output: 'kubejs:animated/zpmalloy', tier: GTValues.VA[GTValues.ZPM]},
+        {item: '360x #gtceu:circuits/uv', output: 'kubejs:animated/uvalloy', tier: GTValues.VA[GTValues.UV]},
+        {item: '360x #gtceu:circuits/uhv', output: 'kubejs:animated/uhvalloy', tier: GTValues.VA[GTValues.UHV]}
+    ]
+
+    circuitsToAlloys.forEach(add => {
+
+        event.recipes.gtceu.forming_press()
+            .itemInputs(
+                add.item
+            )
+            .itemOutputs(
+                add.output
+            )
+            .EUt(add.tier)
+            .duration(2000)
+            .circuit(24)
+
+    })
+
     event.forEachRecipe({ input: 'minecraft:leather' }, recipe => {
         recipe.replaceInput('minecraft:leather', '#forge:leather')
     })
