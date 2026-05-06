@@ -64,34 +64,6 @@ ServerEvents.recipes((event) => {
 
     event.custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 300,
-      consumptionRate: 60,
-      drainRate: 60,
-      input: {
-        item: 'kubejs:gassydust',
-      },
-      output: {
-        item: 'kubejs:rune',
-      },
-      upgradeLevel: 2,
-    });
-
-    event.custom({
-      type: 'bloodmagic:altar',
-      altarSyphon: 300,
-      consumptionRate: 60,
-      drainRate: 60,
-      input: {
-        item: 'kubejs:rune',
-      },
-      output: {
-        item: 'kubejs:activatedrune',
-      },
-      upgradeLevel: 2,
-    });
-
-    event.custom({
-      type: 'bloodmagic:altar',
       altarSyphon: 3000,
       consumptionRate: 600,
       drainRate: 600,

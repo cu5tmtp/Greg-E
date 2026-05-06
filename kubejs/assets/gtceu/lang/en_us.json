@@ -87,6 +87,15 @@
   "block.gtceu.gasminer": "Void Gasses Extractor",
   "gtceu.gasminer": "Void Gasses Extractor",
 
+  "block.gtceu.atmosphericsampler": "Atmospheric Sampler",
+  "gtceu.atmosphericsampler": "Atmospheric Sampler",
+
+  "block.gtceu.specializedcrystallizer": "Specialized Crystallizer",
+  "gtceu.specializedcrystallizer": "Specialized Crystallizer",
+
+  "block.gtceu.runecarver": "Rune Carver",
+  "gtceu.runecarver": "Rune Carver",
+
   "gtceu.pulverizing": "Pulverizer",
   "gtceu.pressing": "Multiservo Press",
   "gtceu.induction_smelting": "Induction Smelter",
@@ -115,6 +124,8 @@
   "material.gtceu.44oda": "4,4'-Oxydianiline",
   "material.gtceu.pdc44o": "Poly(Pyromellitic Dianhydride-co-4,4'-Oxydianiline), Amic Acid Solution",
   "material.gtceu.kapton": "Kapton",
+
+  "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",
   "material.gtceu.unfinished_artificial_leather": "Unfinished Synthetic Leather",

@@ -8,7 +8,7 @@ ServerEvents.recipes((event) =>{
         ],
         {
             A: '#gtceu:circuits/hv',
-            B: 'gtceu:emerald_lens',
+            B: 'gtceu:glass_lens',
             C: 'gtceu:fine_steel_wire',
             D: 'gtceu:steel_frame',
             E: 'gtceu:hv_machine_hull'

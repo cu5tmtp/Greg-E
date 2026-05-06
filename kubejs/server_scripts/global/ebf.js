@@ -95,4 +95,27 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .blastFurnaceTemp(6000)
 
+    event.recipes.gtceu.electric_blast_furnace('meltedirtgeeeet')
+        .itemInputs(
+            '4x minecraft:dirt',
+        )
+        .outputFluids(
+            'kubejs:meltedirt 1000'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV])
+        .blastFurnaceTemp(2500)
+
+    event.recipes.gtceu.electric_blast_furnace('reifroceddddcobblblbee')
+        .itemInputs(
+            '4x gtceu:steel_ingot',
+            'kubejs:cobbletwo'
+        )
+        .itemOutputs(
+            'gtceu:reinforced_cobblestone_ingot'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .blastFurnaceTemp(5000)
+
 });

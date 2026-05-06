@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
         {
             A: '#gtceu:circuits/iv',
             B: 'gtceu:steel_frame',
-            C: 'gtceu:iv_machine_hull',
+            C: 'gtceu:ev_machine_hull',
         }
     )
 
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .netherdrillrig('drillevilore')
         .itemInputs(
-            '2x kubejs:blessedearth'
+            '2x kubejs:earthlydust'
         )
         .itemOutputs(
             'kubejs:eidust'

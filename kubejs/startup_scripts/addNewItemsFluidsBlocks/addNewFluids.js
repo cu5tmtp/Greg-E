@@ -18,4 +18,6 @@ StartupEvents.registry('fluid', event => {
 
     event.create('acidinfusedlava').thickTexture(0xAAFF00).bucketColor(0xAAFF00).displayName('Acid-Infused Lava')
     event.create('moltenorichalcum').thinTexture(0xCC5500).bucketColor(0xCC5500).displayName('Molten Orichalcum').noBlock()
+
+    event.create('meltedirt').thinTexture(0x6F4E37).displayName('Melted Dirt').noBlock()
 })

@@ -5,9 +5,21 @@ ServerEvents.recipes((event) => {
             'kubejs:dustwithbroom'
         )
         .itemOutputs(
-            '16x gtceu:collagen_dust'
+            '32x gtceu:collagen_dust'
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.UV])
+        .circuit(1)
+
+        event.recipes.gtceu.centrifuge('getmeatdust')
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '32x gtceu:meat_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(2)
 
 })

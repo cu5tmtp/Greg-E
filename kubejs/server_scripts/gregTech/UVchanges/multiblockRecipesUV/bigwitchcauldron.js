@@ -68,15 +68,4 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
 
-    event.recipes.gtceu.bigwitchcauldron('getcollecteddust')
-        .itemInputs(
-            '2x kubejs:activatedrune'
-        )
-        .itemOutputs(
-            'kubejs:dustwithbroom'
-        )
-        .EUt(GTValues.VA[GTValues.UV])
-        .duration(100)
-
-
 });

@@ -42,8 +42,8 @@
 		{
 			id: "40B704D07494A8D5"
 			tasks: [{
-				id: "7F16B8DE7C0CE626"
-				item: "kubejs:blessedearth"
+				id: "5A5F0729BDB94710"
+				item: "kubejs:earthlydust"
 				type: "item"
 			}]
 			x: 6.0d
@@ -526,7 +526,7 @@
 				item: "gtceu:collagen_dust"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -1.0d
 		}
 		{
@@ -934,6 +934,16 @@
 			}]
 			x: 6.0d
 			y: -4.5d
+		}
+		{
+			id: "00CE7BB777A64561"
+			tasks: [{
+				id: "64987DF2AA84A0C0"
+				item: "gtceu:meat_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
 		}
 	]
 	title: "Progression"

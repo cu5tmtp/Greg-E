@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.V[GTValues.ULV])
         .duration(200) 
-        .circuit(2) 
+        .circuit(3) 
 
     event.recipes.gtceu.induction_smelting('getsteeeeeeeeel')
         .itemInputs(

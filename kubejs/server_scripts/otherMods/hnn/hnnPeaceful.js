@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.circuit_assembler('geturghastmodel')
         .itemInputs(
             '16x twilightforest:towerwood',
-            '4x twilightforest:carminite',
+            '4x twilightforest:encased_towerwood',
             '2x twilightforest:experiment_115',
             '#gtceu:circuits/mv'
         )

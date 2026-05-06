@@ -11,7 +11,7 @@ ServerEvents.recipes((event) =>{
             B: 'gtceu:ruby_lens',
             C: 'gtceu:fine_steel_wire',
             D: 'gtceu:steel_frame',
-            E: 'gtceu:hv_machine_hull'
+            E: 'gtceu:mv_machine_hull'
         }
     )
 

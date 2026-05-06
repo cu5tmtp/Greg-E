@@ -155,7 +155,7 @@ ServerEvents.recipes((event) =>{
             item: 'kubejs:voiddust'
         },
         D: {
-            item: 'kubejs:blessedearth'
+            item: 'kubejs:earthlydust'
         },
         E: {
             item: 'kubejs:eidust'

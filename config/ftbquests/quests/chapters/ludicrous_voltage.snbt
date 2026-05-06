@@ -210,18 +210,6 @@
 			y: -1.5d
 		}
 		{
-			description: [""]
-			id: "5F18FC7AE321677D"
-			shape: "square"
-			tasks: [{
-				id: "5E209A6E3B51E69C"
-				item: "gtceu:quantum_star"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
-		}
-		{
 			dependencies: ["3639A936B5930517"]
 			description: [""]
 			id: "1DDA5ADA11DF868F"
@@ -233,25 +221,6 @@
 			}]
 			x: -1.5d
 			y: -7.5d
-		}
-		{
-			dependencies: ["5F18FC7AE321677D"]
-			description: [""]
-			id: "60175A8E3A67F51C"
-			tasks: [
-				{
-					id: "0BE844C05500D395"
-					item: "gtceu:iv_emitter"
-					type: "item"
-				}
-				{
-					id: "3E3E8CC4EEE02516"
-					item: "gtceu:iv_sensor"
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["1DBF5A76DCDF5E49"]
@@ -266,11 +235,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"0E4C711E77497984"
-				"60175A8E3A67F51C"
-				"3DA1449117521889"
-			]
+			dependencies: ["0E4C711E77497984"]
 			description: [""]
 			icon: "gtceu:assembly_line"
 			id: "204EDA5F8B1C7580"
@@ -1111,23 +1076,6 @@
 			}]
 			x: -5.0d
 			y: 4.0d
-		}
-		{
-			description: [""]
-			id: "3DA1449117521889"
-			shape: "square"
-			tasks: [{
-				count: 4L
-				id: "70220441AFD0B171"
-				item: {
-					Count: 4
-					id: "gtceu:data_stick"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: -3.5d
 		}
 		{
 			dependencies: ["204EDA5F8B1C7580"]

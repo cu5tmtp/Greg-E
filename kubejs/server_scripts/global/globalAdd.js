@@ -45,4 +45,26 @@ ServerEvents.recipes((event) => {
         recipe.replaceInput('minecraft:leather', '#forge:leather')
     })
 
+    event.recipes.gtceu.compressor('gettowerboreressenceggggg')
+        .itemInputs(
+            '8x twilightforest:towerwood'
+        )
+        .itemOutputs(
+            'twilightforest:borer_essence'
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.MV])
+        .circuit(1)
+
+    event.recipes.gtceu.compressor('armorshardddsfdfdf')
+        .itemInputs(
+            '64x twilightforest:mossy_underbrick'
+        )
+        .itemOutputs(
+            'twilightforest:armor_shard'
+        )
+        .duration(400)
+        .EUt(GTValues.VA[GTValues.MV])
+        .circuit(1)
+
 })

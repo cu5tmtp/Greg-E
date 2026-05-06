@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             B: 'kubejs:dewvial',
             C: 'botania:runic_altar',
             D: 'botania:rune_air',
-            E: 'gtceu:hv_machine_hull',
+            E: 'gtceu:ev_machine_hull',
             F: 'minecraft:lantern'
         }
     )
@@ -76,27 +76,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'kubejs:dwre'
         )
-        .duration(200)  
-
-    event.recipes.gtceu
-        .offaltar('getbetterearth')
-        .itemInputs('2x kubejs:voiddust')
-        .itemOutputs(
-            'kubejs:blessedearth'
-        )
-        .notConsumable('relics:holy_locket')
-        .duration(100)  
-
-    event.recipes.gtceu
-        .offaltar('getbetterearthfaster')
-        .itemInputs('2x kubejs:voiddust')
-        .inputFluids(
-            'kubejs:acidinfusedlava 1000'
-        )
-        .itemOutputs(
-            'kubejs:blessedearth'
-        )
-        .notConsumable('relics:holy_locket')
-        .duration(5)  
+        .duration(200)
 
 })

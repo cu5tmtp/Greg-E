@@ -102,17 +102,5 @@ ServerEvents.recipes((event) =>{
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(7)
         .biome('ad_astra:mercury_orbit')
-
-    event.recipes.gtceu
-        .planetarygassiphon('siphongassydust')
-        .itemOutputs(
-            'kubejs:gassydust'
-        )
-        .itemInputs(
-            '2x kubejs:eidust'
-        )
-        .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
-        .circuit(8)
-        .biome('ad_astra:mercury_orbit')
+        
 });
