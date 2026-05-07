@@ -32,7 +32,14 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6805CC8AD6010F33"]
+			dependencies: [
+				"6805CC8AD6010F33"
+				"0D9D1462C676C050"
+				"3D9B7855B5616DCE"
+				"11AAA1DCB452DFFC"
+				"6445DEC19DD55A34"
+				"0262E0D49A12F817"
+			]
 			description: [""]
 			id: "2E47C92E3E8D826A"
 			shape: "pentagon"
@@ -46,52 +53,40 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"71D4B261AF487062"
-				"7ACC4E777A75E043"
-			]
+			dependencies: ["7ACC4E777A75E043"]
 			id: "0262E0D49A12F817"
 			tasks: [{
 				id: "4CB14D90753F710B"
 				item: "gtceu:smd_transistor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.5d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"71D4B261AF487062"
-				"7ACC4E777A75E043"
-			]
+			dependencies: ["7ACC4E777A75E043"]
 			id: "6445DEC19DD55A34"
 			tasks: [{
 				id: "466FF2FF107AFDFA"
 				item: "gtceu:smd_resistor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"71D4B261AF487062"
-				"7ACC4E777A75E043"
-			]
+			dependencies: ["7ACC4E777A75E043"]
 			id: "3D9B7855B5616DCE"
 			tasks: [{
 				id: "0774AA33B0CA149F"
 				item: "gtceu:smd_capacitor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"71D4B261AF487062"
-				"7C134F7838C23059"
-			]
+			dependencies: ["7C134F7838C23059"]
 			description: [""]
 			id: "0D9D1462C676C050"
 			tasks: [{
@@ -99,22 +94,19 @@
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"71D4B261AF487062"
-				"7ACC4E777A75E043"
-			]
+			dependencies: ["7ACC4E777A75E043"]
 			id: "11AAA1DCB452DFFC"
 			tasks: [{
 				id: "210478A03F540A6B"
 				item: "gtceu:smd_inductor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -144,8 +136,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.5d
+			x: 12.5d
+			y: -1.0d
 		}
 		{
 			description: [""]
@@ -156,8 +148,8 @@
 				item: "gtceu:tantalum_dust"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["60736D37F7705B39"]
@@ -223,7 +215,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -236,18 +228,6 @@
 			}]
 			x: 2.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["5241693278027FFD"]
-			description: [""]
-			id: "71D4B261AF487062"
-			tasks: [{
-				id: "51477D2CA4F05901"
-				item: "gtceu:ev_assembler"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["6A6BDA932E1104D1"]
@@ -289,7 +269,7 @@
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -11.0d
 			y: 2.5d
 		}
 		{
@@ -301,7 +281,7 @@
 				item: "gtceu:butadiene_bucket"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: 2.5d
 		}
 		{
@@ -313,7 +293,7 @@
 				item: "gtceu:styrene_bucket"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -11.0d
 			y: -0.5d
 		}
 		{
@@ -328,7 +308,7 @@
 				item: "gtceu:raw_styrene_butadiene_rubber_dust"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: -0.5d
 		}
 		{
@@ -340,7 +320,7 @@
 				item: "gtceu:styrene_butadiene_rubber_bucket"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: -3.0d
 		}
 		{
@@ -355,7 +335,7 @@
 				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -13.0d
 			y: 5.5d
 		}
 		{
@@ -367,7 +347,7 @@
 				item: "gtceu:naphtha_bucket"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -9.0d
 			y: 5.5d
 		}
 		{
@@ -391,7 +371,7 @@
 				item: "gtceu:steam_bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -13.0d
 			y: 7.5d
 		}
 		{
@@ -403,7 +383,7 @@
 				item: "gtceu:silicone_rubber_bucket"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -415,7 +395,7 @@
 				item: "gtceu:polydimethylsiloxane_dust"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -427,7 +407,7 @@
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: 2.5d
 		}
 		{
@@ -499,8 +479,8 @@
 				item: "kubejs:evalloy"
 				type: "item"
 			}]
-			x: -3.8214285714285694d
-			y: 1.9642857142857153d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -510,8 +490,8 @@
 				item: "gregecore:malachite_cable_single_wire"
 				type: "item"
 			}]
-			x: -3.8214285714285694d
-			y: 0.8571428571428612d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73D9404F8F598E84"]
@@ -521,8 +501,8 @@
 				item: "gregecore:malachite_coil"
 				type: "item"
 			}]
-			x: -3.8214285714285836d
-			y: -0.4642857142857153d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -540,7 +520,7 @@
 				id: "5607F9124909BEF8"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: 4.0d
 		}
 		{

@@ -322,7 +322,7 @@
 		}
 		{
 			dependencies: ["77C10DE6EDD33C6F"]
-			description: ["Smelt sand to glass in this, the small amount of oxygen can be aquired from centrifuging air. You can get air from air collector on circuit 1."]
+			description: ["Smelt sand to glass in this, the small amount of oxygen can be aquired from electrolyzing water."]
 			id: "455DE30BD4F0C74D"
 			tasks: [{
 				id: "3D473C5F5273D051"
@@ -557,7 +557,7 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
+			x: -6.0d
 			y: -1.0d
 		}
 		{

@@ -96,6 +96,22 @@
 			x: -0.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["46BFB99A88967002"]
+			description: [
+				"Some data models are craftable, but if you look closely, those are models only of hostile mobs. These crafts are aimed at peaceful players. "
+				""
+				"You still have to scan peaceful mobs manually."
+			]
+			id: "26798311A0F03F73"
+			tasks: [{
+				id: "71ABD97C75AEFA90"
+				title: "Craftable models?"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
 	]
 	title: "Hostile Neural Networks"
 }

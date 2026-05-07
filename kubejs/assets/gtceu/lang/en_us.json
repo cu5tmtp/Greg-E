@@ -80,7 +80,6 @@
   "block.gtceu.specmetheat": "Specialized Metal Heater",
   "gtceu.specmetheat": "Specialized Metal Heater",
 
-  
   "block.gtceu.industrialfilter": "Industrial Filter",
   "gtceu.industrialfilter": "Industrial Filter",
 
@@ -124,6 +123,14 @@
   "material.gtceu.44oda": "4,4'-Oxydianiline",
   "material.gtceu.pdc44o": "Poly(Pyromellitic Dianhydride-co-4,4'-Oxydianiline), Amic Acid Solution",
   "material.gtceu.kapton": "Kapton",
+
+  "material.gtceu.crushed_mars_stone": "Mars Stone",
+  "material.gtceu.culture_medium": "Culture Growth Medium",
+  "material.gtceu.extreme_medium": "Extremophile Growth Medium",
+  "material.gtceu.mars_air": "Mars Air",
+  "material.gtceu.mars_bacteria": "Mars Bacteria",
+  "block.gtceu.marsbacteriabreeder": "Mars Bacteria Breeder",
+  "gtceu.marsbacteriabreeder": "Mars Bacteria Breeder",
 
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 

@@ -144,6 +144,7 @@
 			dependencies: [
 				"124C2A904BF84254"
 				"0BAD21557994331D"
+				"1DFFC6CCB85F7867"
 			]
 			description: [""]
 			id: "5FAA73C52082DC48"
@@ -469,6 +470,18 @@
 			title: "Cube factories!"
 			x: -9.5d
 			y: -1.0d
+		}
+		{
+			id: "1DFFC6CCB85F7867"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "2513B876021AA137"
+				item: "gtceu:mars_bacteria_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
 		}
 	]
 	title: "HV"
