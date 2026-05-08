@@ -140,6 +140,15 @@
   "block.gtceu.specialpress": "Special Material Press",
   "gtceu.specialpress": "Special Material Press",
 
+  "material.gtceu.twilight_air": "Twilight Forest Air",
+  "material.gtceu.magic_gas": "Magic-Infused Gas",
+  "material.gtceu.mana_mist": "Residual Mana Mist",
+  "material.gtceu.crystal_shards": "Dull Crystal Shards",
+  "material.gtceu.energized_crystal_shards": "Energized Mana Crystals",
+  "material.gtceu.pixie_grits": "Unrefined Artificial Pixie Grits",
+  "material.gtceu.pixie_dust": "Artificial Pixie",
+  "material.gtceu.pixie_fluid": "Pixie Dust",
+
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",

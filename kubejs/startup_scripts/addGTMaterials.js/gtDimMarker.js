@@ -5,4 +5,9 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Mars")
 
+    event.create("twilightforest:twilight_forest")
+        .iconSupplier(() => Item.of("twilightforest:twilight_portal_miniature_structure").getItem())
+        .tier(0)
+        .overrideName("Twilight Forest")
+
 })

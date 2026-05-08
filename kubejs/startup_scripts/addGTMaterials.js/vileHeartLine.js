@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('pristine_vileheart_plate')
         .color(0x000000)
         .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create('primal_vileheart_plate')
         .color(0x1A0005)

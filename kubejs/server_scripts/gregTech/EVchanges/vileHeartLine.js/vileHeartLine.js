@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
             'gtceu:pristine_vileheart_plate_plate'
         )
         .itemOutputs(
-            '8x kubejs:vileheartwire'
+            '8x gtceu:fine_pristine_vileheart_plate_wire'
         )
         .EUt(GTValues.VA[GTValues.EV])
         .duration(200)
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.large_chemical_reactor('betteryaaayyyyyyayadfrf')
         .itemInputs(
             'gtceu:epoxy_circuit_board',
-            '4x kubejs:vileheartwire'
+            '4x gtceu:fine_pristine_vileheart_plate_wire'
         )
         .inputFluids(
             'gtceu:iron_iii_chloride 250'

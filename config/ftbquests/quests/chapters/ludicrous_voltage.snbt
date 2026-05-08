@@ -150,31 +150,11 @@
 			icon: "gtceu:alloy_blast_smelter"
 			id: "0E76B7095F12EF62"
 			optional: true
-			tasks: [
-				{
-					id: "59F1C28384FA8C70"
-					item: "gtceu:alloy_blast_smelter"
-					type: "item"
-				}
-				{
-					count: 34L
-					id: "14AFC166DC794710"
-					item: "gtceu:high_temperature_smelting_casing"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "202D3F02A45178E8"
-					item: "gtceu:heat_vent"
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "76562FB437F3F5FE"
-					item: "gtceu:hssg_coil_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59F1C28384FA8C70"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 3.5d
 		}
@@ -248,7 +228,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["785CB375F25F0715"]
+			dependencies: [
+				"785CB375F25F0715"
+				"669C9C5E03938E24"
+			]
 			description: [""]
 			id: "2E7E1278D9796141"
 			tasks: [{
@@ -314,25 +297,11 @@
 			id: "4B985901F63570C3"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "7A2FD48B56083951"
-					item: "gtceu:large_wiremill"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "76EF149AF21A4140"
-					item: "gtceu:titanium_gearbox"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "402DF4F80AEF0EB2"
-					item: "gtceu:stress_proof_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A2FD48B56083951"
+				item: "gtceu:large_wiremill"
+				type: "item"
+			}]
 			x: -5.0d
 			y: 7.5d
 		}
@@ -343,25 +312,11 @@
 			id: "485117517649336C"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "241067D7859C74A8"
-					item: "gtceu:large_solidifier"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "522B2AD4D72FCB81"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 59L
-					id: "53C4089B3E376127"
-					item: "gtceu:watertight_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "241067D7859C74A8"
+				item: "gtceu:large_solidifier"
+				type: "item"
+			}]
 			x: -10.0d
 			y: 7.5d
 		}
@@ -372,31 +327,11 @@
 			id: "7DF972754C48E22B"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "0372B13F787721C5"
-					item: "gtceu:large_extruder"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0FBCD53FF7B023D6"
-					item: "gtceu:titanium_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 57L
-					id: "7BC651CD9DC1AFF8"
-					item: "gtceu:stress_proof_casing"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "28683728989D035D"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0372B13F787721C5"
+				item: "gtceu:large_extruder"
+				type: "item"
+			}]
 			x: -7.0d
 			y: 7.5d
 		}
@@ -407,25 +342,11 @@
 			id: "492D28D6B81CAEE0"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "029A3079D12D31EA"
-					item: "gtceu:large_extractor"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "49A89DB3829416DF"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 34L
-					id: "5188A9E51A5DEFED"
-					item: "gtceu:watertight_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "029A3079D12D31EA"
+				item: "gtceu:large_extractor"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 7.5d
 		}
@@ -436,24 +357,11 @@
 			id: "6EF5C5FFF6BC26B7"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "42CABC89F5F08F6F"
-					item: "gtceu:large_distillery"
-					type: "item"
-				}
-				{
-					id: "464AD9CFD8203788"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 43L
-					id: "1C53CCB60AC84139"
-					item: "gtceu:watertight_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "42CABC89F5F08F6F"
+				item: "gtceu:large_distillery"
+				type: "item"
+			}]
 			x: -9.0d
 			y: 7.5d
 		}
@@ -464,31 +372,11 @@
 			id: "187281092C0BC9CE"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "723F3F70B3085C91"
-					item: "gtceu:large_cutter"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "63A2BB514441FFD5"
-					item: "gtceu:slicing_blades"
-					type: "item"
-				}
-				{
-					count: 77L
-					id: "0B8CA3FB9A579D7C"
-					item: "gtceu:shock_proof_cutting_casing"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "2DC0AF14D7554BD2"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "723F3F70B3085C91"
+				item: "gtceu:large_cutter"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 7.5d
 		}
@@ -513,31 +401,11 @@
 			id: "78CDA5B4A52FF5D8"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "62E7660C2E3DFA7D"
-					item: "gtceu:large_material_press"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "6879B4BA418A55E8"
-					item: "gtceu:steel_gearbox"
-					type: "item"
-				}
-				{
-					count: 50L
-					id: "22FF0E716BF51881"
-					item: "gtceu:stress_proof_casing"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "39C69857707C9880"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62E7660C2E3DFA7D"
+				item: "gtceu:large_material_press"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 7.5d
 		}
@@ -548,25 +416,11 @@
 			id: "04636DE704AD7B0B"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "1119B6F3558FD6AA"
-					item: "gtceu:large_autoclave"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7FF5AD0C636DF0BF"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 34L
-					id: "0E451120C9F40C21"
-					item: "gtceu:watertight_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1119B6F3558FD6AA"
+				item: "gtceu:large_autoclave"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 8.5d
 		}
@@ -577,25 +431,11 @@
 			id: "546100C879F45BB1"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "2B7B0941F811CE7C"
-					item: "gtceu:large_sifting_funnel"
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "431F59FE171503E6"
-					item: "gtceu:assembly_line_grating"
-					type: "item"
-				}
-				{
-					count: 63L
-					id: "418B079E39A4B88E"
-					item: "gtceu:vibration_safe_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B7B0941F811CE7C"
+				item: "gtceu:large_sifting_funnel"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 7.5d
 		}
@@ -606,36 +446,11 @@
 			id: "34EE220F1C2AC5EF"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "79D63027D6EDABE8"
-					item: "gtceu:large_engraving_laser"
-					type: "item"
-				}
-				{
-					id: "1F629BDA2AF0EBDC"
-					item: "gtceu:tungstensteel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "1CDB24C7B444C15B"
-					item: "gtceu:assembly_line_grating"
-					type: "item"
-				}
-				{
-					count: 60L
-					id: "50CC97A964D954BE"
-					item: "gtceu:laser_safe_engraving_casing"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4D7D9FFB85E894E0"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79D63027D6EDABE8"
+				item: "gtceu:large_engraving_laser"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.5d
 		}
@@ -660,37 +475,11 @@
 			id: "1569CD190336F5F6"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "66142EA734C105C0"
-					item: "gtceu:large_circuit_assembler"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "1D8BF7C96D34DF03"
-					item: "gtceu:tungstensteel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "68170402DEC73571"
-					item: "gtceu:assembly_line_grating"
-					type: "item"
-				}
-				{
-					count: 59L
-					id: "13CB21B21BA29CE7"
-					item: "gtceu:large_scale_assembler_casing"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4D767C20DB7BA129"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66142EA734C105C0"
+				item: "gtceu:large_circuit_assembler"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 7.5d
 		}
@@ -701,25 +490,11 @@
 			id: "6EF6D11ABBA34AE3"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "182A995A2776FE47"
-					item: "gtceu:large_assembler"
-					type: "item"
-				}
-				{
-					count: 56L
-					id: "3A10BD8B5BA27C93"
-					item: "gtceu:large_scale_assembler_casing"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "33D47D6BBBE88931"
-					item: "gtceu:tempered_glass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "182A995A2776FE47"
+				item: "gtceu:large_assembler"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 7.5d
 		}
@@ -730,25 +505,11 @@
 			id: "322FD8BB46FB653C"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "410E8B1ABF39CC67"
-					item: "gtceu:large_electromagnet"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "3CF6A2840DB20838"
-					item: "gtceu:electrolytic_cell"
-					type: "item"
-				}
-				{
-					count: 42L
-					id: "3B05544795F322D8"
-					item: "gtceu:nonconducting_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "410E8B1ABF39CC67"
+				item: "gtceu:large_electromagnet"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 7.5d
 		}
@@ -759,25 +520,11 @@
 			id: "76ECB0EF7A5E410A"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "38750C7764B43A29"
-					item: "gtceu:large_electrolyzer"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "679D59E0B8158189"
-					item: "gtceu:electrolytic_cell"
-					type: "item"
-				}
-				{
-					count: 40L
-					id: "6842FE133676D4B2"
-					item: "gtceu:nonconducting_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "38750C7764B43A29"
+				item: "gtceu:large_electrolyzer"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 7.5d
 		}
@@ -788,37 +535,11 @@
 			id: "7FA79ED5DABCF998"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "3DDB66CB95EDE62F"
-					item: "gtceu:large_mixer"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "59358B79A41D180D"
-					item: "gtceu:hastelloy_x_frame"
-					type: "item"
-				}
-				{
-					count: 11L
-					id: "4E81DDC65FBB6940"
-					item: "gtceu:titanium_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1244F888FB22A2A9"
-					item: "gtceu:stainless_steel_gearbox"
-					type: "item"
-				}
-				{
-					count: 61L
-					id: "6B25E62D8D304840"
-					item: "gtceu:reaction_safe_mixing_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DDB66CB95EDE62F"
+				item: "gtceu:large_mixer"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 7.5d
 		}
@@ -829,25 +550,11 @@
 			id: "29BDF6CA8FAAC390"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6D65DA04F1F90458"
-					item: "gtceu:large_centrifuge"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4B97B5B52F60E21F"
-					item: "gtceu:steel_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 50L
-					id: "4FC20F9228321721"
-					item: "gtceu:vibration_safe_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D65DA04F1F90458"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 7.5d
 		}
@@ -858,25 +565,11 @@
 			id: "63BFEE8B17688712"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "07CB2FB669EFE509"
-					item: "gtceu:large_chemical_bath"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "1CD649A3D234CBA6"
-					item: "gtceu:titanium_pipe_casing"
-					type: "item"
-				}
-				{
-					count: 67L
-					id: "4CABA61128AD6C68"
-					item: "gtceu:watertight_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07CB2FB669EFE509"
+				item: "gtceu:large_chemical_bath"
+				type: "item"
+			}]
 			x: -10.0d
 			y: 8.5d
 		}
@@ -887,25 +580,11 @@
 			id: "04291652780AEE72"
 			optional: true
 			shape: "diamond"
-			tasks: [
-				{
-					id: "57DC7ED33ADEEA34"
-					item: "gtceu:large_maceration_tower"
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "3BD0D835AA33C477"
-					item: "gtceu:crushing_wheels"
-					type: "item"
-				}
-				{
-					count: 67L
-					id: "1B9514566B6706ED"
-					item: "gtceu:secure_maceration_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57DC7ED33ADEEA34"
+				item: "gtceu:large_maceration_tower"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 7.5d
 		}
@@ -1092,7 +771,7 @@
 		{
 			dependencies: ["759446116655756C"]
 			id: "3FF94BD291433238"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "537DF2E297939203"
 				item: "gtceu:planetarygassiphon"
@@ -1155,6 +834,18 @@
 			}]
 			x: -3.5d
 			y: -2.0d
+		}
+		{
+			id: "669C9C5E03938E24"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "2FD2D2324AA30F6D"
+				item: "gtceu:pixie_fluid_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 	title: "LUV"

@@ -27,6 +27,8 @@ ServerEvents.recipes((event) => {
 
     event.remove({ id: 'projecte:philosophers_stone'})
     event.remove({ id: 'projecte:philosophers_stone_alt'})
+
+    event.remove({ id: 'gtceu:electrolyzer/bauxite_electrolysis'})
     
 });
 
