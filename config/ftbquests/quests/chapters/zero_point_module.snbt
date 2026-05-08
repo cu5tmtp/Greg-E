@@ -130,7 +130,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7EE14ED04C64E2AA"]
+			dependencies: [
+				"7EE14ED04C64E2AA"
+				"2D1644EC234BC912"
+			]
 			description: [""]
 			id: "41AE8AEA3EB144F3"
 			shape: "circle"
@@ -655,6 +658,18 @@
 			]
 			x: 0.7142857142857082d
 			y: 9.0d
+		}
+		{
+			id: "2D1644EC234BC912"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "30B289E0A4216CB0"
+				item: "gtceu:fine_coated_demonite_wire"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
 		}
 	]
 	title: "ZPM"

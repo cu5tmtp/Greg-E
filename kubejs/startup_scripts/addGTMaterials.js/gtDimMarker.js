@@ -10,4 +10,9 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Twilight Forest")
 
+    event.create("bloodmagic:dungeon")
+        .iconSupplier(() => Item.of("bloodmagic:inversion_pillar").getItem())
+        .tier(0)
+        .overrideName("Hidden Realm")
+
 })

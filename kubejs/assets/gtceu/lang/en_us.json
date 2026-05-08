@@ -149,6 +149,14 @@
   "material.gtceu.pixie_dust": "Artificial Pixie",
   "material.gtceu.pixie_fluid": "Pixie Dust",
 
+  "material.gtceu.demonic_air": "Demonic Air",
+  "material.gtceu.demonic_gas": "Demonic Gas",
+  "material.gtceu.dirty_demonite": "Dirty Demonite",
+  "material.gtceu.pure_demonite": "Pure Demonite",
+  "material.gtceu.coated_demonite": "Coated Demonite",
+  "block.gtceu.oreprocessor": "Specialized Ore Processor",
+  "gtceu.oreprocessor": "Specialized Ore Processor",
+
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",
