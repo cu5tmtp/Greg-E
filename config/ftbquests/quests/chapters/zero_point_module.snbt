@@ -101,50 +101,7 @@
 		}
 		{
 			dependencies: [
-				"4DDFD3BAA86DC342"
-				"574E65B7954A13D0"
-			]
-			description: [""]
-			id: "303A3AFA49DAC64F"
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "78EB177A110F9E51"
-				item: "gtceu:zpm_energy_input_hatch"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2036ED4A823C1456"]
-			description: [""]
-			hide_dependency_lines: true
-			id: "53C5CE6433E201BD"
-			tasks: [{
-				id: "12F678374AA282E7"
-				item: "gtceu:uhpic_wafer"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["53C5CE6433E201BD"]
-			description: [""]
-			id: "4DDFD3BAA86DC342"
-			tasks: [{
-				id: "461A7534464550FF"
-				item: "gtceu:uhpic_chip"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
 				"37A1137A59A2086B"
-				"4DDFD3BAA86DC342"
 				"6DA0ABBC89711536"
 				"551CD9E0FA2E62A7"
 			]
@@ -209,7 +166,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35FF7974C6DD1D9F"]
@@ -256,7 +213,7 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: -5.0d
 		}
 		{
@@ -268,7 +225,7 @@
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -10.5d
 			y: -5.0d
 		}
 		{
@@ -283,7 +240,7 @@
 				item: "gtceu:impure_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -9.5d
 			y: -3.0d
 		}
 		{
@@ -295,7 +252,7 @@
 				item: "gtceu:antimony_trifluoride_dust"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -10.5d
 			y: -7.0d
 		}
 		{
@@ -307,7 +264,7 @@
 				item: "gtceu:antimony_trioxide_dust"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -10.5d
 			y: -8.5d
 		}
 		{
@@ -319,7 +276,7 @@
 				item: "gtceu:trinium_sulfide_dust"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -9.5d
 			y: -1.5d
 		}
 		{
@@ -336,20 +293,8 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -7.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["61BC5BBD1657D409"]
-			description: [""]
-			id: "7936FF3ED75DCA59"
-			tasks: [{
-				id: "05267F2419255ADD"
-				item: "gtceu:zpm_machine_hull"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["7E697FE6A6C8B4EE"]
@@ -362,18 +307,6 @@
 			}]
 			x: -3.5d
 			y: -4.0d
-		}
-		{
-			dependencies: ["57D12E37E980FDBB"]
-			description: [""]
-			id: "61BC5BBD1657D409"
-			tasks: [{
-				id: "4BA9F1DA1ADA2496"
-				item: "gtceu:naquadah_alloy_plate"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["2F2B9938B63A7029"]
@@ -409,7 +342,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3B0BC233A6C81B73"]
@@ -421,7 +354,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			description: [""]
@@ -433,34 +366,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"49262C7C4E9EF712"
-				"664C2C33C22D372E"
-			]
-			description: [""]
-			id: "574E65B7954A13D0"
-			tasks: [{
-				id: "6A14169A3E8ADE2B"
-				item: "gtceu:zpm_voltage_coil"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7244FA69157727AF"]
-			description: [""]
-			id: "57D12E37E980FDBB"
-			tasks: [{
-				id: "1984C87F86501555"
-				item: "gtceu:naquadah_alloy_dust"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["603ABA13788E2216"]
@@ -471,8 +377,8 @@
 				item: "gtceu:fine_europium_wire"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["74510B6C9C16A628"]
@@ -483,8 +389,8 @@
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -523,7 +429,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -5.5d
 			y: -5.0d
 		}
 		{
@@ -535,7 +441,7 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: -7.0d
 		}
 		{
@@ -650,7 +556,7 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: -8.5d
 		}
 		{
@@ -664,18 +570,6 @@
 			}]
 			x: -2.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["7936FF3ED75DCA59"]
-			description: [""]
-			id: "664C2C33C22D372E"
-			tasks: [{
-				id: "2E07D7A9B8F8F5AE"
-				item: "gtceu:zpm_assembler"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -708,7 +602,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["57B5100C11F76EE9"]

@@ -682,6 +682,7 @@
 			description: ["Faster board production!"]
 			id: "3E7B60E26BB10291"
 			optional: true
+			shape: "square"
 			tasks: [{
 				id: "20D7B0EDE90472D2"
 				item: "gtceu:artificial_leather_plate"

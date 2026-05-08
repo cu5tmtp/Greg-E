@@ -89,18 +89,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5200F7792C378575"]
-			id: "5A98BDEF60616E89"
-			tasks: [{
-				id: "5ADC7B99D43A6FB5"
-				item: "kubejs:activatedrune"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.5d
+			y: -0.5d
 		}
 	]
 	title: "Blood Magic"

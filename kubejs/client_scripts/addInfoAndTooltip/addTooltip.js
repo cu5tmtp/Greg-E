@@ -171,6 +171,15 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:vileheart'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("This seems indestructible..."));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gregecore:tome2'
         ],
         (item, advanced, text) => {

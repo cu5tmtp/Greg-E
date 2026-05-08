@@ -8,7 +8,7 @@
     "mythicbotany:golden_fields"
   ],
   "step": "surface_structures",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
   "start_pool": "grege:mysteriouscabin",
   "size": 1,

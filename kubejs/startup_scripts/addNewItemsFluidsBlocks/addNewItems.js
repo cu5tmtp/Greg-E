@@ -82,6 +82,8 @@ StartupEvents.registry('item', event => {
     event.create('hotcloggrum').displayName('Hot Cloggrum Ingot')
     event.create('kaptonmirror').displayName('Kapton Mirror')
     event.create('earthlydust').displayName('Fine Ground Dust')
+    event.create('vileheart').displayName('Vile Heart')
+    event.create('vileheartwire').displayName('Pristine Vile Heart Wire')
 
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')

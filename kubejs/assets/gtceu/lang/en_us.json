@@ -132,6 +132,14 @@
   "block.gtceu.marsbacteriabreeder": "Mars Bacteria Breeder",
   "gtceu.marsbacteriabreeder": "Mars Bacteria Breeder",
 
+  "material.gtceu.vileheart_plate": "Vile Heart",
+  "material.gtceu.pure_vileheart_plate": "Pure Vile Heart",
+  "material.gtceu.pristine_vileheart_plate": "Pristine Vile Heart",
+  "material.gtceu.primal_vileheart_plate": "Primal Vile Heart",
+  "material.gtceu.proto_vileheart_plate": "Proto Vile Heart",
+  "block.gtceu.specialpress": "Special Material Press",
+  "gtceu.specialpress": "Special Material Press",
+
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",
