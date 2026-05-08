@@ -217,7 +217,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2462AE2029F3C8E8"]
@@ -229,7 +229,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -244,7 +244,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["17148E654DD28A94"]
@@ -256,7 +256,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			description: [""]
@@ -268,7 +268,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E73B4A4A1CC6B0F"]
@@ -280,7 +280,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -296,8 +296,8 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E697FE6A6C8B4EE"]
@@ -372,30 +372,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["603ABA13788E2216"]
-			description: [""]
-			id: "49262C7C4E9EF712"
-			tasks: [{
-				id: "4731362FCD25A516"
-				item: "gtceu:fine_europium_wire"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["74510B6C9C16A628"]
-			description: [""]
-			id: "603ABA13788E2216"
-			tasks: [{
-				id: "3F8CA5C8FDF15BCB"
-				item: "gtceu:europium_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"238CC42F61006CE9"
 				"29706E3681616E41"
@@ -445,7 +421,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -560,7 +536,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			description: [""]

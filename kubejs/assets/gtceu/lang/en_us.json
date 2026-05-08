@@ -165,6 +165,16 @@
   "block.gtceu.sednasampler": "Sedna Sampler",
   "gtceu.sednasampler": "Sedna Sampler",
 
+  "material.gtceu.metallurgical_grade_silicon": "Metallurgical Grade Silicon",
+  "material.gtceu.trichlorosilane": "Trichlorosilane",
+  "material.gtceu.distilled_trichlorosilane": "Distilled Trichlorosilane",
+  "material.gtceu.polycrystalline_silicon": "Polycrystalline Silicon",
+  "material.gtceu.electronic_grade_silicon": "Electronic Grade Silicon",
+  "material.gtceu.shiny_electronic_grade_silicon": "Shiny Electronic Grade Silicon",
+  "block.gtceu.czochralskipull": "Czochralski Pull",
+  "gtceu.czochralskipull": "Czochralski Pull",
+  
+
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 
   "material.gtceu.liquid_synthetic_leather_base": "Synthetic Leather Base",

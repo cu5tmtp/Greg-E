@@ -180,6 +180,7 @@
 			dependencies: [
 				"406C924820DE5473"
 				"773543FFEF631C5E"
+				"05D4A96C4093BBB7"
 			]
 			description: [""]
 			id: "6335DC1E7517E940"
@@ -761,6 +762,18 @@
 			}]
 			x: 11.5d
 			y: -6.0d
+		}
+		{
+			id: "05D4A96C4093BBB7"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "47747366ECCB9A43"
+				item: "gtceu:shiny_electronic_grade_silicon_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	title: "UV"
