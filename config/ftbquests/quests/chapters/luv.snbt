@@ -23,7 +23,11 @@
 		}
 		{
 			dependencies: ["2A8418DF626206D1"]
-			description: ["Look under the grass :) Also some items are banned from learning in transmutating table. They are also banned from taking them out of EMC links."]
+			description: [
+				"Look under the grass :)"
+				""
+				"(mine the living roots)"
+			]
 			id: "5A9E55C136BBC6F0"
 			tasks: [{
 				id: "166ADB80D829AB39"
@@ -48,7 +52,7 @@
 		}
 		{
 			dependencies: ["2CB54C8C443EF1D5"]
-			description: ["In each chapter you will be able to unlock new resources for the upcoming progression lines. They are gonna be exponentionaly expensive, so you better do every line :) ULV has just tree farming I'm afraid, so you will have to grind a bit for the good stuff."]
+			description: ["In each chapter you will be able to unlock new resources for the upcoming progression lines. They are going to be exponentionaly expensive, so you better do every line :) ULV has just tree farming I'm afraid, so you will have to grind a bit for the good stuff."]
 			id: "7C50AB499DDA3D52"
 			tasks: [{
 				id: "7B1CEC306BD075FB"
@@ -234,6 +238,8 @@
 		{
 			dependencies: ["777CDEA22C5A5412"]
 			description: [
+				"Use these machines to skip Steam Age."
+				""
 				"You might need more than one machine if you want to move to next chapter in normal amount of time."
 				""
 				"If you need any explanation about GT machines, head over to the Explanation quest page."

@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
-        { id: 'advanced_ae:quantum_core' },
+        { id: 'advanced_ae:quantumcore' },
         'ae2:singularity',
         '#gtceu:circuits/ev'
     )
@@ -37,8 +37,8 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
-        { id: 'advanced_ae:quantumcore' },
-        'ae2:singularity',
+        { id: 'advanced_ae:flight_card' },
+        'minecraft:tnt',
         '#gtceu:circuits/ev'
     )
 
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
     //Advanced aes reaction chamber recipie for matter balls
     event.custom({
         type: 'advanced_ae:reaction',
-        energy: 100000,
+        energy: 10000,
         fluid: {
             fluidStack: {
                 Amount: 500,
@@ -111,4 +111,44 @@ ServerEvents.recipes((event) => {
         }
     })
     .id('ae2:matter_ball_reaction_chamber');
+
+    event.remove({ id: 'advanced_ae:quantum_alloy_plate' } )
+
+    event.custom({
+        type: 'advanced_ae:reaction',
+        energy: 10000,
+        fluid: {
+            fluidStack: {
+                Amount: 500,
+                FluidName: 'minecraft:water',
+            },
+        },
+        input_items: [
+            {
+                amount: 8,
+                ingredient: { 
+                    item: 'advanced_ae:quantum_alloy'
+                },
+            },
+            {
+                amount: 4,
+                ingredient: { 
+                    item: 'gtceu:titanium_ingot'
+                },
+            },
+            {
+                amount: 1,
+                ingredient: { 
+                    item: 'minecraft:nether_star'
+                },
+            }
+        ],
+        output: { 
+            '#' : 1,
+            '#c': 'ae2:i',
+            id: 'advanced_ae:quantum_alloy_plate'
+        }
+    })
+    .id('rgfverfsgvrrfdg');
+
 });

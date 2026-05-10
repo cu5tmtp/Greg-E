@@ -7,8 +7,18 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'minecraft:netherite_block'
         )
-        .EUt(GTValues.VA[GTValues.EV])
-        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(1000)
+
+    event.recipes.gtceu.compressor('getcryiojngfobsidian')
+        .itemInputs(
+            '9x minecraft:obsidian'
+        )
+        .itemOutputs(
+            'minecraft:crying_obsidian'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(1000)
 
     event.replaceInput(
         'minecraft:beacon',
@@ -81,7 +91,6 @@ ServerEvents.recipes((event) => {
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.MV])
-        .circuit(1)
 
     event.recipes.gtceu.compressor('armorshardddsfdfdf')
         .itemInputs(
@@ -92,6 +101,5 @@ ServerEvents.recipes((event) => {
         )
         .duration(400)
         .EUt(GTValues.VA[GTValues.MV])
-        .circuit(1)
 
 })

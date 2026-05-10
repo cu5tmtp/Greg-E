@@ -92,4 +92,15 @@ ServerEvents.recipes((event) => {
         .circuit(8)
         .EUt(1680)
 
+    event.recipes.gtceu.oilrig('echoshardsssget')
+        .itemInputs(
+            '2x kubejs:earthlydust'
+        )
+        .itemOutputs(
+            '4x minecraft:echo_shard'
+        )
+        .duration(100)
+        .circuit(9)
+        .EUt(1680)
+
 })

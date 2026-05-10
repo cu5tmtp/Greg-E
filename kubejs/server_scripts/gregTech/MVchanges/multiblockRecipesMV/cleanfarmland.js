@@ -16,103 +16,55 @@ ServerEvents.recipes((event) => {
         }
     )
 
-    event.recipes.gtceu
-        .cleanfarmland('wheatslow')
-        .notConsumable('minecraft:wheat_seeds')   
-        .itemOutputs(
-            '16x minecraft:wheat',
-            '4x minecraft:wheat_seeds'
-        )
-        .duration(1000)
-        .EUt(120)
-        .circuit(1)
-        
-    event.recipes.gtceu
-        .cleanfarmland('wheatmedium')
-        .notConsumable('minecraft:wheat_seeds')
-        .inputFluids('minecraft:water 500')
-        .itemOutputs(
-            '64x minecraft:wheat',
-            '16x minecraft:wheat_seeds'
-        )
-        .duration(500)
-        .EUt(120)
-        .circuit(2)
+    function addGrainRecipe(name, crop, seed, seedOutputCount) {
+        const tiers = [
+            { suffix: 'slow',   mult: 1,   fluid: false, fert: false, dur: 1000, circ: 1 },
+            { suffix: 'medium', mult: 4,   fluid: true,  fert: false, dur: 500,  circ: 2 },
+            { suffix: 'fast',   mult: 16,  fluid: true,  fert: true,  dur: 250,  circ: 3 }
+        ];
 
-    event.recipes.gtceu
-        .cleanfarmland('wheatfast')
-        .notConsumable('minecraft:wheat_seeds')
-        .chancedInput('gtceu:fertilizer', 1000, -100)
-        .inputFluids('minecraft:water 500')
-        .itemOutputs(
-            '256x minecraft:wheat',
-            '64x minecraft:wheat_seeds'
-        )
-        .duration(250)
-        .EUt(120)
-        .circuit(3)
+        tiers.forEach(t => {
+            let r = event.recipes.gtceu.cleanfarmland(`${name}${t.suffix}`)
+                .notConsumable(seed)
+                .itemOutputs(`${16 * t.mult}x ${crop}`, `${seedOutputCount * t.mult}x ${seed}`)
+                .duration(t.dur)
+                .EUt(120)
+                .circuit(t.circ);
+            
+            if (t.fluid) r.inputFluids('minecraft:water 500');
+            if (t.fert) r.chancedInput('gtceu:fertilizer', 1000, -100);
+        });
+    }
 
-    event.recipes.gtceu
-        .cleanfarmland('carrotslow')
-        .notConsumable('minecraft:carrot') 
-        .itemOutputs('16x minecraft:carrot')
-        .chancedOutput('16x minecraft:carrot', 1000, 1000)
-        .duration(1000)
-        .EUt(120)
-        .circuit(1)
+    function addVeggieRecipe(name, item) {
+        const tiers = [
+            { suffix: 'slow',   mult: 1,   fluid: false, fert: false, dur: 1000, circ: 1 },
+            { suffix: 'medium', mult: 4,   fluid: true,  fert: false, dur: 500,  circ: 2 },
+            { suffix: 'fast',   mult: 16,  fluid: true,  fert: true,  dur: 250,  circ: 3 }
+        ];
 
-    event.recipes.gtceu
-        .cleanfarmland('carrotmedium')
-        .notConsumable('minecraft:carrot')
-        .inputFluids('minecraft:water 500')
-        .itemOutputs('64x minecraft:carrot')
-        .chancedOutput('64x minecraft:carrot', 1000, 1000)
-        .duration(500)
-        .EUt(120)
-        .circuit(2)
+        tiers.forEach(t => {
+            let r = event.recipes.gtceu.cleanfarmland(`${name}${t.suffix}`)
+                .notConsumable(item)
+                .itemOutputs(`${16 * t.mult}x ${item}`)
+                .chancedOutput(`${16 * t.mult}x ${item}`, 1000, 1000)
+                .duration(t.dur)
+                .EUt(120)
+                .circuit(t.circ);
+            
+            if (t.fluid) r.inputFluids('minecraft:water 500');
+            if (t.fert) r.chancedInput('gtceu:fertilizer', 1000, -100);
+        });
+    }
 
-    event.recipes.gtceu
-        .cleanfarmland('carrotfast')
-        .notConsumable('minecraft:carrot')
-        .chancedInput('gtceu:fertilizer', 1000, -100)
-        .inputFluids('minecraft:water 500')
-        .itemOutputs('256x minecraft:carrot')
-        .chancedOutput('256x minecraft:carrot', 1000, 1000)
-        .duration(250)
-        .EUt(120)
-        .circuit(3)
+    addGrainRecipe('wheat', 'minecraft:wheat', 'minecraft:wheat_seeds', 8);
+    addGrainRecipe('melon', 'minecraft:melon_slice', 'minecraft:melon_seeds', 8);
+    addGrainRecipe('pumpkin', 'minecraft:pumpkin', 'minecraft:pumpkin_seeds', 8);
+    addGrainRecipe('beetroot', 'minecraft:beetroot', 'minecraft:beetroot_seeds', 8);
 
-    event.recipes.gtceu.cleanfarmland('potatoslow')
-        .notConsumable('minecraft:potato') 
-        .itemOutputs('16x minecraft:potato')
-        .chancedOutput('16x minecraft:potato', 1000, 1000)
-        .duration(1000)
-        .EUt(120)
-        .circuit(1)
-
-    event.recipes.gtceu.cleanfarmland('potatomedium')
-        .notConsumable('minecraft:potato')
-        .inputFluids('minecraft:water 500')
-        .itemOutputs('64x minecraft:potato')
-        .chancedOutput('64x minecraft:potato', 1000, 1000)
-        .duration(500)
-        .EUt(120)
-        .circuit(2)
-
-    event.recipes.gtceu.cleanfarmland('potatofast')
-        .notConsumable(
-            'minecraft:potato'
-        )
-        .chancedInput('gtceu:fertilizer', 1000, -100)
-        .inputFluids(
-            'minecraft:water 500'
-        )
-        .itemOutputs(
-            '256x minecraft:potato'
-        )
-        .chancedOutput('256x minecraft:potato', 1000, 1000)
-        .duration(250)
-        .EUt(120)
-        .circuit(3)
+    addVeggieRecipe('carrot', 'minecraft:carrot');
+    addVeggieRecipe('potato', 'minecraft:potato');
+    addVeggieRecipe('sweet_berries', 'minecraft:sweet_berries');
+    addVeggieRecipe('glow_berries', 'minecraft:glow_berries');
 
 });

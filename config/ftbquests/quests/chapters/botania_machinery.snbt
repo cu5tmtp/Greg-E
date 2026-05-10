@@ -41,14 +41,7 @@
 			y: -0.5d
 		}
 		{
-			description: [
-				"Flowers I recommend:"
-				""
-				"Gourmaryllis - feed it food, cycle the food, mana scales with how good the food is"
-				"Rosa Arcana - feed it XP"
-				"Wither Aconite - feed it nether stars"
-				"Entropinnyum - feed it TNT (my favourite), the TNT needs to explode near the flower"
-			]
+			description: ["The easiest flower to get mana from is the Wither Aconite, while yes, it eats nether stars like no tomorrow, they are easy to source fron HNN."]
 			id: "55F32DBE055801EB"
 			tasks: [{
 				id: "54C9E718BA35E41A"
@@ -85,16 +78,106 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["20BBB8EBDEB1EB5C"]
-			description: ["This produces giant amount of mana. It can also be upgraded. It can produce crazy amounts of mana."]
+			dependencies: ["55F32DBE055801EB"]
+			description: [
+				"To actually start generating mana with Wither Aconite, you have to put mana storage upgrade in this, 1 process generates over 1 full Mana Pool (1.2 million mana). "
+				""
+				"Also you can connect this machine directly to your AE2 system equipped with mana cells."
+			]
 			id: "47B0DD05FC8BDCB1"
 			tasks: [{
 				id: "21802AF783DE2D08"
 				item: "botanicalextramachinery:greenhouse"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["47B0DD05FC8BDCB1"]
+			description: [
+				"This greenhouse upgrade allows you to stack multiple flowers of the same type on each other, meaning it boots your production multiplicatively. The consumtion of the fuel also increases though."
+				""
+				"The upgrades go up to 64x."
+			]
+			id: "10B65A6374B78580"
+			tasks: [{
+				id: "5BD26F4D915E4DD1"
+				item: "botanicalextramachinery:upgrade_flower_4x"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["47B0DD05FC8BDCB1"]
+			description: ["Flat % upgrades, very useful."]
+			id: "39363B4C62D5B9A7"
+			tasks: [
+				{
+					id: "45B237DA13EEFB37"
+					item: "botanicalextramachinery:upgrade_gen_mana"
+					type: "item"
+				}
+				{
+					id: "1363D43AB033284D"
+					item: "botanicalextramachinery:upgrade_heat_greenhouse"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["47B0DD05FC8BDCB1"]
+			description: ["Speed and energy upgrades."]
+			id: "336B6A6E092D22FE"
+			tasks: [
+				{
+					id: "3BC0625A7ADD36CE"
+					item: "botanicalextramachinery:upgrade_tick_gen_mana_1"
+					type: "item"
+				}
+				{
+					id: "5EE5A42D600B3070"
+					item: "botanicalextramachinery:upgrade_cost_energy"
+					type: "item"
+				}
+			]
+			title: "Speed and Energy upgrade"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["47B0DD05FC8BDCB1"]
+			description: ["Utility upgrades."]
+			id: "0D23E8C371650B89"
+			tasks: [
+				{
+					id: "082EA6FBEC9B4DE2"
+					item: "botanicalextramachinery:upgrade_slot_add"
+					type: "item"
+				}
+				{
+					id: "020A6B942099A555"
+					item: "botanicalextramachinery:upgrade_storage_energy_1"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3137CE868D2329EA"]
+			description: ["Accelerates the crafting."]
+			id: "244322CFF238A7F5"
+			tasks: [{
+				id: "178DEF852BCFADFB"
+				item: "botanicalextramachinery:catalyst_speed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
 		}
 	]
 	title: "Botania Extra Machinery"

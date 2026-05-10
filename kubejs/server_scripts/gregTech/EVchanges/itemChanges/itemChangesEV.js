@@ -97,4 +97,28 @@ ServerEvents.recipes((event) =>{
         'kubejs:vanaheimingotblock'
     )
 
+    event.replaceInput(
+        {id: 'gtceu:assembler/voltage_coil_ev'},
+        'gtceu:fine_platinum_wire',
+        'gtceu:fine_titanium_wire'
+    )
+
+    event.replaceInput(
+        {id: 'better_angel_ring:ring'},
+        'minecraft:gold_ingot',
+        'gtceu:titanium_ingot'
+    )
+
+    event.replaceInput(
+        {id: 'better_angel_ring:angel_ring'},
+        'minecraft:feather',
+        '#gtceu:circuits/ev'
+    )
+
+    event.replaceInput(
+        {id: 'better_angel_ring:angel_ring'},
+        'minecraft:nether_star',
+        'minecraft:elytra'
+    )
+
 })

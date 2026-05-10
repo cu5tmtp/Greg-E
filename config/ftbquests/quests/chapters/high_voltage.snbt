@@ -207,7 +207,6 @@
 		{
 			description: [""]
 			id: "6A2D7380E340B77D"
-			min_width: 250
 			shape: "square"
 			tasks: [{
 				id: "66B862CA537DB886"

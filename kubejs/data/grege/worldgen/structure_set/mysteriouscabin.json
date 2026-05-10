@@ -3,6 +3,10 @@
     {
       "structure": "grege:mysteriouscabin",
       "weight": 1
+    },    
+    {
+      "structure": "grege:burnedtree",
+      "weight": 1
     }
   ],
   "placement": {

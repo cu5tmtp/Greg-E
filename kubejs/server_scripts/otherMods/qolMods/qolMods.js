@@ -40,4 +40,16 @@ ServerEvents.recipes((event) => {
         'kubejs:voidhole'
     )
 
+    event.replaceInput( 
+        {id: "enchantinginfuser:enchanting_infuser"},
+        "minecraft:crying_obsidian",
+        "minecraft:obsidian"
+    )  
+
+    event.replaceInput( 
+        {id: "enchantinginfuser:advanced_enchanting_infuser"},
+        "minecraft:crying_obsidian",
+        "minecraft:obsidian"
+    )
+
 })

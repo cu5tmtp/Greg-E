@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.circuit_assembler('getwithermodel')
         .itemInputs(
             '16x minecraft:wither_skeleton_skull',
-            '4x botanicalextramachinery:crimson_dragonstone_block',
+            '32x gtceu:titanium_block',
             '2x minecraft:blaze_rod',
             '#gtceu:circuits/ev'
         )
@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(2000)
 
-    const terrasteel16 = Array(16).fill({ item: 'botania:terrasteel_ingot' });    
+    const terrasteel16 = Array(8).fill({ item: 'botania:terrasteel_ingot' });    
     event.recipes.botania.runic_altar(
         Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:botania/gaia_spirit",iterations:1}}'),
         terrasteel16,

@@ -1,21 +1,19 @@
 ServerEvents.recipes((event) =>{
 
-    event.shaped(
-        Item.of('kubejs:pelletmold', 1),
-        [
-            'A  ',
-            ' B ',
-            '   '
-        ],
-        {
-            A: 'gtceu:empty_mold',
-            B: '#gtceu:tools/crafting_hammers',
-        }
-    )
+    event.recipes.gtceu.bender('pelllettgtgfmvfofm')
+        .itemInputs(
+            'gtceu:empty_mold'
+        )
+        .itemOutputs(
+            'kubejs:pelletmold'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(200)
+        .circuit(24)
 
     event.recipes.gtceu.forming_press('getthebrasspellet')
         .itemInputs(
-            '8x gtceu:brass_ingot'
+            'gtceu:brass_ingot'
         )
         .itemOutputs(
             'gregecore:brass_pellet'
@@ -26,7 +24,7 @@ ServerEvents.recipes((event) =>{
 
     event.recipes.gtceu.forming_press('gettheamericiumpellet')
         .itemInputs(
-            '8x gtceu:americium_ingot'
+            'gtceu:americium_ingot'
         )
         .itemOutputs(
             'gregecore:americium_pellet'
@@ -37,7 +35,7 @@ ServerEvents.recipes((event) =>{
 
     event.recipes.gtceu.forming_press('gettheneutroniumpellet')
         .itemInputs(
-            '8x gtceu:neutronium_ingot'
+            'gtceu:neutronium_ingot'
         )
         .itemOutputs(
             'gregecore:neutronium_pellet'

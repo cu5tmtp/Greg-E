@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(400)
 
-    event.recipes.gtceu.pressing('pressspressitypress')
+    event.recipes.gtceu.compressor('pressspressitypress')
         .itemInputs(
             'gtceu:proto_vileheart_plate_plate'
         )

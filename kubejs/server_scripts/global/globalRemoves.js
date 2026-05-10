@@ -29,6 +29,8 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'projecte:philosophers_stone_alt'})
 
     event.remove({ id: 'gtceu:electrolyzer/bauxite_electrolysis'})
+
+    event.remove({ id: 'expatternprovider:silicon_block'})
     
 });
 

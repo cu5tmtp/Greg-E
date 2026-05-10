@@ -416,7 +416,7 @@
 				item: "gtceu:rare_earth_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -870,7 +870,7 @@
 				item: "gtceu:magnesium_dust"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -944,6 +944,39 @@
 			}]
 			x: 20.5d
 			y: -1.0d
+		}
+		{
+			id: "5AA1692BD628F493"
+			tasks: [
+				{
+					id: "5AD4BBCC86B827F3"
+					item: "solarflux:efficiency_upgrade"
+					type: "item"
+				}
+				{
+					id: "142B9F82D50A9359"
+					item: "solarflux:transfer_rate_upgrade"
+					type: "item"
+				}
+				{
+					id: "5B972A847D201875"
+					item: "solarflux:capacity_upgrade"
+					type: "item"
+				}
+			]
+			title: "Solar panel upgrades!"
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "6D69DA996D63BC0A"
+			tasks: [{
+				id: "0845518FF26F2B7B"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 	title: "Progression"

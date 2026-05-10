@@ -418,6 +418,28 @@
 			x: -2.5d
 			y: -2.5d
 		}
+		{
+			description: ["Change your tools fast!"]
+			id: "35186DEFD11319BC"
+			tasks: [{
+				id: "45E8ADAA3F53806E"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: ["Unlocks in EV."]
+			id: "6EA459EE6F54C75E"
+			tasks: [{
+				id: "45AAEB46AC6F7AD0"
+				item: "better_angel_ring:angel_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
 	]
 	title: "QOL"
 }
