@@ -31,6 +31,12 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'gtceu:electrolyzer/bauxite_electrolysis'})
 
     event.remove({ id: 'expatternprovider:silicon_block'})
+
+    event.remove({ id: 'gtceu:assembler/converter_64_a_uev'})
+    event.remove({ id: 'gtceu:assembler/converter_64_a_uiv'})
+    event.remove({ id: 'gtceu:assembler/converter_64_a_uxv'})
+    event.remove({ id: 'gtceu:assembler/converter_64_a_op_v'})
+    event.remove({ id: 'gtceu:assembler/converter_64_a_max'})
     
 });
 

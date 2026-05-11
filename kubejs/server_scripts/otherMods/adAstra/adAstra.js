@@ -43,9 +43,7 @@ ServerEvents.recipes((event) => {
         {output: 'uranium'},
         {output: 'neptunium'},
         {output: 'radium'},
-        {output: 'desh'},
         {output: 'plutonium'},
-        {output: 'desh'},
         {output: 'electrolyte'},
     ]
 
@@ -82,9 +80,7 @@ ServerEvents.recipes((event) => {
         {output: 'uranium'},
         {output: 'neptunium'},
         {output: 'radium'},
-        {output: 'desh'},
         {output: 'plutonium'},
-        {output: 'desh'},
         {output: 'electrolyte'},
     ]
 
@@ -104,9 +100,7 @@ ServerEvents.recipes((event) => {
         {output: 'uranium'},
         {output: 'neptunium'},
         {output: 'radium'},
-        {output: 'desh'},
         {output: 'plutonium'},
-        {output: 'desh'},
         {output: 'electrolyte'}
     ]
 
@@ -174,6 +168,12 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/hv'
     )
 
+    event.replaceInput(
+        'ad_astra:nasa_workbench',
+        'minecraft:crafting_table',
+        '#gtceu:circuits/hv'
+    )
+
     event.remove({ id: "ad_astra:oxygen_loading/oxygen_from_oxygen_loading_water"})
 
     event.forEachRecipe({ type: 'ad_astra:compressing' }, recipe => {
@@ -184,6 +184,10 @@ ServerEvents.recipes((event) => {
         let inputStr = Ingredient.of(input).toJson().toString()
 
         if (inputStr.includes('block')) {
+            return
+        }
+
+        if (inputStr.includes('uranium') || inputStr.includes('plutonium')) {
             return
         }
 
@@ -212,6 +216,28 @@ ServerEvents.recipes((event) => {
             'gtceu:steel_rod'
         )
     })
+
+    event.recipes.gtceu.bender('plutonium_converted')
+        .itemInputs(
+            'ad_extendra:plutonium_ingot'
+        )
+        .itemOutputs(
+            'ad_extendra:plutonium_plate'
+        )
+        .circuit(1)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    event.recipes.gtceu.bender('uranium_converted')
+        .itemInputs(
+            'ad_extendra:uranium_ingot'
+        )
+        .itemOutputs(
+            'ad_extendra:uranium_plate'
+        )
+        .circuit(1)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.HV])
 
     event.remove({ type: 'ad_astra:compressing' })
 
