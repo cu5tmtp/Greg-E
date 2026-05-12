@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.75d
+			y: -2.5d
 		}
 		{
 			description: [""]
@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -544,7 +544,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.0d
+			y: -0.5d
 		}
 	]
 	title: "EV"

@@ -582,6 +582,17 @@
 			x: -4.5d
 			y: -7.5d
 		}
+		{
+			description: ["This item automatically builds your GregTech multiblocks."]
+			id: "4B49EDB39C4F42A4"
+			tasks: [{
+				id: "1C03CF7CEFE8788D"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
 	]
 	title: "LV"
 }

@@ -440,6 +440,17 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			description: ["This item automatically builds your GregTech multiblocks."]
+			id: "3F20835C90736769"
+			tasks: [{
+				id: "66FF8FA8C8BD0B18"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
 	]
 	title: "QOL"
 }

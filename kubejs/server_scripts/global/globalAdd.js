@@ -102,4 +102,18 @@ ServerEvents.recipes((event) => {
         .duration(400)
         .EUt(GTValues.VA[GTValues.MV])
 
+    event.remove({id: 'gtceu:shaped/basic_terminal'})
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:book'
+        )
+        .itemOutputs(
+            'gtceu:terminal'
+        )
+        .duration(100)
+        .circuit(24)
+        .EUt(GTValues.VA[GTValues.LV])
+
+
 })

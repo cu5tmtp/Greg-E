@@ -22,7 +22,9 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:activatedrune',
         )
-        .chancedOutput('gtceu:raw_naquadah', 500, 0)
+        .itemOutputs(
+            '2x gtceu:raw_naquadah'
+        )
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(3)

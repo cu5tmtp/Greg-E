@@ -894,7 +894,6 @@ let emiBannedItems = [
     "item:gtceu:tiny_rarest_metal_mixture_dust",
     "item:gtceu:tiny_purified_rare_earth_dust",
     "item:gtceu:small_refined_rare_earth_dust"
-
 ];
 
 let getCorrectItem = (emiBannedItems) => {
