@@ -6,7 +6,7 @@ ServerEvents.recipes((event) =>{
         .outputFluids(
             'kubejs:ivcas 1000'
         )
-        .duration(500)
+        .duration(200)
         .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu.specmetheat('gethotcloggrum')
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) =>{
             'kubejs:hotcloggrum'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(150)
 
     event.recipes.gtceu.specmetheat('gethotfrosteel')
         .itemInputs(
@@ -33,9 +33,41 @@ ServerEvents.recipes((event) =>{
             'kubejs:hotfroststeel'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(200)
+        .duration(150)
 
-    event.recipes.gtceu.anvilf('getpurefroststeel')
+    event.recipes.gtceu.anvilf('getpurefroststeel1')
+        .itemInputs(
+            'kubejs:hotfroststeel'
+        )
+        .inputFluids(
+            'minecraft:lava 1000'
+        )
+        .itemOutputs(
+            'kubejs:purefroststeel',
+            'gtceu:ash_dust',
+            'gtceu:stone_dust'
+        )
+        .duration(200)
+        .circuit(1)
+
+
+    event.recipes.gtceu.anvilf('getpurecloggrum1')
+        .itemInputs(
+            'kubejs:hotcloggrum'
+        )
+        .inputFluids(
+            'minecraft:lava 1000'
+        )
+        .itemOutputs(
+            'kubejs:purecloggrum',
+            'gtceu:ash_dust',
+            'gtceu:stone_dust'
+        )
+        .duration(200)
+        .circuit(1)
+
+
+    event.recipes.gtceu.anvilf('getpurefroststeel2')
         .itemInputs(
             'kubejs:hotfroststeel'
         )
@@ -47,9 +79,11 @@ ServerEvents.recipes((event) =>{
             'gtceu:ash_dust',
             'gtceu:stone_dust'
         )
-        .duration(200)
+        .duration(5)
+        .circuit(2)
 
-    event.recipes.gtceu.anvilf('getpurecloggrum')
+
+    event.recipes.gtceu.anvilf('getpurecloggrum2')
         .itemInputs(
             'kubejs:hotcloggrum'
         )
@@ -61,6 +95,7 @@ ServerEvents.recipes((event) =>{
             'gtceu:ash_dust',
             'gtceu:stone_dust'
         )
-        .duration(200)
+        .duration(5)
+        .circuit(2)
 
 })

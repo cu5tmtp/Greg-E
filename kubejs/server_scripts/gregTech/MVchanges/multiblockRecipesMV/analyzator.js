@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
         .analyzator('researchthatdamncompound')
         .itemInputs('kubejs:uncomp')   
         .itemOutputs('kubejs:supingot')
-        .duration(2000)
+        .duration(250)
         .EUt(120)
 
     event.recipes.gtceu

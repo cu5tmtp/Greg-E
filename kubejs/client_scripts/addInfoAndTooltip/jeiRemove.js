@@ -871,7 +871,30 @@ let emiBannedItems = [
     "item:projecte:brown_alchemical_bag",
     "item:projecte:green_alchemical_bag",
     "item:projecte:red_alchemical_bag",
-    "item:projecte:black_alchemical_bag"
+    "item:projecte:black_alchemical_bag",
+    "item:gtceu:tiny_refined_rare_earth_dust",
+    "item:gtceu:small_clean_rare_earth_dust",
+    "item:gtceu:small_blasted_rare_earth_dust",
+    "item:gtceu:tiny_clean_rare_earth_dust",
+    "item:gtceu:tiny_blasted_rare_earth_dust",
+    "item:gtceu:small_decontaminated_rare_earth_dust",
+    "item:gtceu:small_distilled_rare_earth_dust",
+    "item:gtceu:tiny_decontaminated_rare_earth_dust",
+    "item:gtceu:tiny_distilled_rare_earth_dust",
+    "item:gtceu:small_strained_rare_earth_dust",
+    "item:gtceu:small_filtered_rare_earth_dust",
+    "item:gtceu:tiny_strained_rare_earth_dust",
+    "item:gtceu:tiny_filtered_rare_earth_dust",
+    "item:gtceu:small_rare_earth_dust",
+    "item:gtceu:small_boiled_rare_earth_dust",
+    "item:gtceu:tiny_rare_earth_dust",
+    "item:gtceu:tiny_boiled_rare_earth_dust",
+    "item:gtceu:small_rarest_metal_mixture_dust",
+    "item:gtceu:small_purified_rare_earth_dust",
+    "item:gtceu:tiny_rarest_metal_mixture_dust",
+    "item:gtceu:tiny_purified_rare_earth_dust",
+    "item:gtceu:small_refined_rare_earth_dust"
+
 ];
 
 let getCorrectItem = (emiBannedItems) => {

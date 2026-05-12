@@ -46,20 +46,8 @@ ServerEvents.recipes((event) =>{
         .itemOutputs(
             'kubejs:voidorga'
         )
-        .duration(2000)
+        .duration(200)
         .EUt(480)
         .circuit(1)
-
-    event.recipes.gtceu
-        .voidcrystalincubator('getvoideggopenedfaster')
-        .itemInputs(
-            'kubejs:voideggopen',
-            'kubejs:voidorgparts'
-        )
-        .itemOutputs(
-            'kubejs:voidorga'
-        )
-        .duration(1000)
-        .EUt(480)
-        .circuit(2)
+        
 });

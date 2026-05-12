@@ -176,7 +176,16 @@
   "material.gtceu.shiny_electronic_grade_silicon": "Shiny Electronic Grade Silicon",
   "block.gtceu.czochralskipull": "Czochralski Pull",
   "gtceu.czochralskipull": "Czochralski Pull",
-  
+
+  "material.gtceu.refined_rare_earth": "Refined Rare Earth",  
+  "material.gtceu.decontaminated_rare_earth": "Decontaminated Rare Earth",
+  "material.gtceu.filtered_rare_earth": "Filtered Rare Earth",
+  "material.gtceu.clean_rare_earth": "Clean Rare Earth",
+  "material.gtceu.blasted_rare_earth": "Blasted Rare Earth",
+  "material.gtceu.boiled_rare_earth": "Forged Rare Earth",
+  "material.gtceu.strained_rare_earth": "Fused Rare Earth",
+  "material.gtceu.distilled_rare_earth": "Distilled Rare Earth",
+  "material.gtceu.purified_rare_earth": "Flash-Freezed Rare Earth",
 
   "material.gtceu.reinforced_cobblestone": "Reinforced Cobblestone",
 

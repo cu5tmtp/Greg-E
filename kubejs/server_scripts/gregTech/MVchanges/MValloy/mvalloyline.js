@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
         )
         .duration(200)
         .EUt(120) 
+        .circuit(3)
 
     event.recipes.gtceu.wiremill('ultrawire')
         .itemInputs(
@@ -19,7 +20,7 @@ ServerEvents.recipes(event => {
         .itemOutputs(
             '8x kubejs:supcables'
         )
-        .duration(200)
+        .duration(150)
         .EUt(120)
         .circuit(3)
     

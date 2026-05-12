@@ -501,8 +501,8 @@
 				item: "gregecore:malachite_coil"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5241693278027FFD"]
@@ -533,6 +533,18 @@
 			}]
 			x: -2.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["5241693278027FFD"]
+			description: ["Rare Earth has a production line now! You can upgrade your chances in every tier. This should help with those pesky Rare Earth rare materials!"]
+			id: "1525DFB70347AEB5"
+			tasks: [{
+				id: "557ACBE630A268E1"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 	title: "EV"

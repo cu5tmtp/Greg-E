@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .netherdrillrig('drillnetherrrite')
         .itemInputs(
-            '2x kubejs:eidust'
+            'kubejs:eidust'
         )
         .chancedOutput('minecraft:ancient_debris', 200, 0)
         .duration(100)

@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('drilloil')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .outputFluids(
             'gtceu:oil_medium 1000'
@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('drillplatinum')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .itemOutputs(
             '4x gtceu:purified_pentlandite_ore'
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('drilltungstate')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .chancedOutput(
             'gtceu:raw_tungstate', 200, 0
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('getthemrareeart')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .chancedOutput('gtceu:rare_earth_dust', 200, 0)
         .duration(100)
@@ -58,25 +58,29 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('magnesiumgetttt')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:magnesium_dust', 200, 0)
+        .itemOutputs(
+           '2x gtceu:magnesium_dust' 
+        )
         .duration(100)
         .circuit(5)
         .EUt(1680)
 
     event.recipes.gtceu.oilrig('rutilegetttt')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
-        .chancedOutput('gtceu:rutile_dust', 200, 0)
+        .itemOutputs(
+            '2x gtceu:rutile_dust'
+        )
         .duration(100)
         .circuit(6)
         .EUt(1680)
 
     event.recipes.gtceu.oilrig('tantalumgetttt')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .chancedOutput('gtceu:tantalum_dust', 200, 0)
         .duration(100)
@@ -85,7 +89,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('bariumgetttt')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .chancedOutput('gtceu:barium_dust', 200, 0)
         .duration(100)
@@ -94,7 +98,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.oilrig('echoshardsssget')
         .itemInputs(
-            '2x kubejs:earthlydust'
+            'kubejs:earthlydust'
         )
         .itemOutputs(
             '4x minecraft:echo_shard'
