@@ -210,6 +210,15 @@
   "block.gtceu.solar_ray_particle_filter": "Solar Ray Particle Filter",
   "gtceu.solar_ray_filter": "Solar Ray Filtering",
 
+  "material.gtceu.aurelium": "Aurelium",
+  "material.gtceu.aurelium_nitrate_solution": "Aurelium Nitrate Solution",
+  "material.gtceu.refined_aurelium": "Refined Aurelium",
+  "material.gtceu.aurelium_sludge": "Aurelium Sludge",
+  "material.gtceu.purified_aurelium": "Purified Aurelium",
+  "material.gtceu.unstable_aurelium": "Unstable Aurelium",
+  "material.gtceu.vadricium": "Vadricium",
+  "material.gtceu.fluorovadric_acid": "Fluorovadric Acid",
+
   "block.gtceu.cube_wiremill": "Metal Factory",
   "block.gtceu.cube_extruder": "Industrial Factory",
   "block.gtceu.cube_assembler": "Assembler Factory",

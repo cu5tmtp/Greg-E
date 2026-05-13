@@ -102,8 +102,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.EMERALD)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
     
-    
-
     //₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
 
 })
