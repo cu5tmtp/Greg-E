@@ -40,4 +40,26 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(4)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:activatedrune',
+        )
+        .outputFluids(
+            'gtceu:voidium 1000'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .circuit(5)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:activatedrune',
+        )
+        .itemOutputs(
+            '2x gtceu:sturenium_35_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .circuit(6)
+
 });

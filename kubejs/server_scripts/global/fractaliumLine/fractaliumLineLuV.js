@@ -24,17 +24,6 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(200)
 
-    event.recipes.gtceu.centrifuge()
-        .itemInputs(
-            'kubejs:gassydust'
-        )
-        .itemOutputs(
-            '2x gtceu:chrono_percipitate_dust'
-        )
-        .EUt(GTValues.VA[GTValues.LuV])
-        .duration(150)
-        .circuit(2)
-
     event.recipes.gtceu.chemical_reactor()
         .itemInputs(
             "gtceu:beryllium_dust"
@@ -123,5 +112,11 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(400)
+
+    event.replaceInput(
+        'gtceu:shaped/parallel_hatch_mk1',
+        'gtceu:platinum_double_cable',
+        'gtceu:fractalium_block'
+    )
         
 })

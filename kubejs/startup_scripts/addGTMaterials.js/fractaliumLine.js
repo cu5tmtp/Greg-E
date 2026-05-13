@@ -44,6 +44,66 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.EMERALD)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('cleansed_fractalium')
+        .dust()
+        .formula('Fr')
+        .color(0x8e38f1)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('purified_fractalium')
+        .formula('Fr+')
+        .blastTemp(3700)
+        .color(0xa159f3)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('luminite_22')
+        .dust()
+        .liquid()
+        .formula('Lt')
+        .color(0xd7fa2f)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('sturenium_35')
+        .dust()
+        .liquid()
+        .formula('Sm')
+        .color(0x38c7af)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('synchro_plasma')
+        .plasma()
+        .formula('Sy')
+        .color(0x75e21d)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('voidium')
+        .fluid()
+        .formula('Vd')
+        .color(0x141413)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('fluorovoidic_acid')
+        .fluid()
+        .formula('H₃VdF₉')
+        .color(0x364d52)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('phase_acid')
+        .fluid()
+        .formula('Ph')
+        .color(0x84827b)
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+    
+    
+
     //₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
 
 })

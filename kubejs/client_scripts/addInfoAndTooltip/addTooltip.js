@@ -225,6 +225,15 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'gtceu:phase_acid_bucket'
+        ],
+        (item, advanced, text) => {
+            text.add(Text.yellow("Executing phase shift."));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gtceu:uhv_uhv_parallel_hatch'
         ],
         (item, advanced, text) => {

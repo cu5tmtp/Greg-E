@@ -850,7 +850,7 @@
 				item: "gtceu:bismuth_dust"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -890,7 +890,7 @@
 				item: "gtceu:boron_dust"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -977,6 +977,36 @@
 			}]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			id: "1378A038DD87BCE4"
+			tasks: [{
+				id: "7AA2420AC90C2D04"
+				item: "gtceu:raw_fractalium"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "23252A3151BAA5A8"
+			tasks: [{
+				id: "5F4EBE667347805D"
+				item: "gtceu:chrono_percipitate_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "4A2882656AB1D044"
+			tasks: [{
+				id: "17F2BF3C2B29259C"
+				item: "gtceu:voidium_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 	title: "Progression"

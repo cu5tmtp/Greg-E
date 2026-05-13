@@ -923,7 +923,16 @@ let emiBannedItems = [
     "item:gtceu:small_dirtied_fractalium_dust",
     "item:gtceu:small_muddied_fractalium_dust",
     "item:gtceu:tiny_chrono_percipitate_dust",
-    "item:gtceu:small_chrono_percipitate_dust"
+    "item:gtceu:small_chrono_percipitate_dust",
+    "item:gtceu:tiny_luminite_22_dust",
+    "item:gtceu:tiny_sturenium_35_dust",
+    "item:gtceu:small_sturenium_35_dust",
+    "item:gtceu:small_purified_fractalium_dust",
+    "item:gtceu:small_cleansed_fractalium_dust",
+    "item:gtceu:fractalium_nugget",
+    "item:gtceu:purified_fractalium_nugget",
+    "item:gtceu:tiny_purified_fractalium_dust",
+    "item:gtceu:tiny_cleansed_fractalium_dust"
 ];
 
 let getCorrectItem = (emiBannedItems) => {
