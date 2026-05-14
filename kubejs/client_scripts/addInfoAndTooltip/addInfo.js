@@ -3,7 +3,7 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:cpottery', ['You can get this from Dwarven Pottery Bundle.']);
     event.addItem('kubejs:vanaheimingotblock', ['Find this block in the Alfheim dimension, in a mysterious cabin. Use Explorers Compass to find it faster.']);
     event.addItem('kubejs:magicalseed', ['Find this item in the Alfheim dimension, in a burned tree. Use Explorers Compass to find it faster.']);
-    event.addItem('mythicbotany:fimbultyr_tablet', ['Drink from Well of Mimir to enable this drop from Guardian of Gaia II bossfight.']);
+    event.addItem('mythicbotany:fimbultyr_tablet', ['Drink from Well of Mimir to enable this drop from Guardian of Gaia II bossfight. Or alternatively, craft it in Runic Altar.']);
     event.addFluid('kubejs:acidinfusedlava', ['Find this lava on Venus, in special volcanoes. Use Explorers Compass to find it faster.']);
     event.addItem('kubejs:iceshard', ['Glacian Ram is found on Glacio in Proxima Centauri star system.']);
     event.addItem('gregecore:tome1', ['Found on a trans-neptunian object, that was discovered in 2005. Its MPC designation is 136472.']);

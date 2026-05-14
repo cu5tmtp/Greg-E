@@ -207,13 +207,12 @@
 			dependencies: ["5C1BB559DD83E88F"]
 			description: ["Oxygen line is for getting a lot of oxygen. Its passive and basically free once you invest in the machines."]
 			id: "0D99638C96AB2EEA"
-			min_width: 400
 			optional: true
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "3DC7749CEB00D806"
-				item: "cobblefordays:tier_2"
+				id: "1077E42CE36EA895"
+				item: "cobblefordays:tier_3"
 				type: "item"
 			}]
 			title: "Oxygen line"

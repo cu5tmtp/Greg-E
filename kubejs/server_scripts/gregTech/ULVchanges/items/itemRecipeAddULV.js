@@ -66,6 +66,25 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
+        Item.of('minecraft:coal_block', 1),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:coal',
+        }
+    )
+
+    event.shapeless(
+        Item.of('minecraft:coal', 9),
+        [
+            'minecraft:coal_block'
+        ]
+    )
+
+    event.shaped(
         Item.of('gtceu:tin_dust', 1),
         [
             'AAA',

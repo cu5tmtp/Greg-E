@@ -306,7 +306,7 @@
 				item: "gregecore:plutonium_hexafluoride_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -840,7 +840,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -965,8 +965,8 @@
 				}
 			]
 			title: "Solar panel upgrades!"
-			x: -6.0d
-			y: 8.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			id: "6D69DA996D63BC0A"
@@ -1037,6 +1037,135 @@
 			}]
 			x: 24.5d
 			y: -1.0d
+		}
+		{
+			id: "2350345CD7C9B986"
+			tasks: [
+				{
+					id: "6FDA85B477E7F354"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+				{
+					id: "5D025D96A79ECCF2"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			id: "24052F23A8BF8267"
+			tasks: [
+				{
+					id: "3DFC24F425307CD6"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+				{
+					id: "036402C0414F9C92"
+					item: "powah:thermo_generator_basic"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "6A6AA2225DBCFD74"
+			tasks: [
+				{
+					id: "7BC0573FD7B5E593"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+				{
+					id: "47D3FE301934A783"
+					item: "powah:thermo_generator_hardened"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "5FBAF3E84386B02C"
+			tasks: [
+				{
+					id: "548ABD6F8B6779CA"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+				{
+					id: "4E1125AF09A2BB2E"
+					item: "powah:thermo_generator_blazing"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "1037143463A9C2A2"
+			tasks: [
+				{
+					id: "5EFCD2B8FC40E514"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+				{
+					id: "46A0C3298F6C59CD"
+					item: "powah:thermo_generator_niotic"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			id: "2A8414AC68245081"
+			tasks: [
+				{
+					id: "0FC2FE003EA858FC"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+				{
+					id: "4F5C3A1AD3029563"
+					item: "powah:thermo_generator_spirited"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			id: "25A510D5F82F60DB"
+			tasks: [
+				{
+					id: "045BFDAFD8378D39"
+					item: "powah:reactor_nitro"
+					type: "item"
+				}
+				{
+					id: "3B7150FC8FA0FF5F"
+					item: "powah:thermo_generator_nitro"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "694EE550EF8DEBE9"
+			tasks: [{
+				id: "140DA309F1072E05"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 	title: "Progression"

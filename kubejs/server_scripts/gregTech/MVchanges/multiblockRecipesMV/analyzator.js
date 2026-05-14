@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
         .analyzator('researchthatdamnsentientpile')
         .itemInputs('kubejs:seniron')   
         .itemOutputs('kubejs:senplate')
-        .duration(2000)
+        .duration(300)
         .EUt(120)
 
     event.recipes.gtceu
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             'gtceu:mv_machine_hull'
         )   
         .itemOutputs('hostilenetworks:loot_fabricator')
-        .duration(2000)
+        .duration(500)
         .EUt(120)
         .circuit(1)
 
@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
             'gtceu:mv_machine_hull'
         )   
         .itemOutputs('hostilenetworks:sim_chamber')
-        .duration(2000)
+        .duration(500)
         .EUt(120)
         .circuit(2)
 

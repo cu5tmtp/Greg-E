@@ -27,6 +27,20 @@ ServerEvents.recipes((event) => {
         'botania:livingwood'
     )
 
+    event.recipes.botania.runic_altar(
+        'mythicbotany:fimbultyr_tablet',
+        [
+            'botanicalextramachinery:malachite_dragonstone',
+            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:twilightforest/snow_queen"}}').weakNBT(),
+            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:twilightforest/giant"}}').weakNBT(),
+            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:incision/seer"}}').weakNBT(),
+            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:wither"}}').weakNBT(),
+            'botania:mana_tablet',
+            'botania:terrasteel_block'
+        ],
+        50000
+    )
+
     const bm_machines = [
     'alfheim_market',
     'industrial_agglomeration_factory',

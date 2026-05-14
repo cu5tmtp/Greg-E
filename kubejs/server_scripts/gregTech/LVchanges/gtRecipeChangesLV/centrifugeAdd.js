@@ -274,7 +274,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('kubejs:dshard', 5000, 0)
         .chancedOutput('kubejs:lapisspeck', 5000, 0)
         .duration(100)
-        .EUt(120)
+        .EUt(30)
         .circuit(18)
 
     event.recipes.gtceu.centrifuge('commonearth_emerald2')
@@ -283,8 +283,19 @@ ServerEvents.recipes((event) => {
         )
         .chancedOutput('minecraft:emerald', 200, 0)
         .duration(100)
-        .EUt(120)
+        .EUt(30)
         .circuit(19)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:commonearth'
+        )
+        .itemOutputs(
+            '4x powah:uraninite'
+        )
+        .duration(100)
+        .EUt(30)
+        .circuit(20)
 
     
 

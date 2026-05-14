@@ -1057,6 +1057,18 @@
 			x: 4.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["23FC73D7D09493AE"]
+			description: ["Multiblock to get the last tier of components, has parallels and is overall crazy!"]
+			id: "0BBCADAF93516875"
+			tasks: [{
+				id: "5CAD217A5A96C2B2"
+				item: "gtceu:largecomponentmassassembler"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
 	]
 	title: "IV"
 }

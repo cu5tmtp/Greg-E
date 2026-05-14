@@ -187,7 +187,7 @@
 		{
 			dependencies: ["054D2D3C20C2D32F"]
 			id: "4D89A1A3BC682102"
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "1BA1C8B48FC6C1AF"

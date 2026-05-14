@@ -131,8 +131,8 @@
 			description: ["Get this!"]
 			id: "4D24F127B14533E4"
 			tasks: [{
-				id: "7173C99E847E49C0"
-				item: "cobblefordays:tier_2"
+				id: "21C322E2925E60A5"
+				item: "cobblefordays:tier_3"
 				type: "item"
 			}]
 			x: -6.0d
@@ -279,7 +279,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3DAD37FF47259B40"]
+			dependencies: ["6552E8737AAF9125"]
 			description: [
 				"Solar panels have boosted RF generation values, so they are really good! "
 				""
@@ -295,8 +295,8 @@
 				item: "solarflux:sp_1"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -14.5d
+			y: -4.0d
 		}
 		{
 			description: ["Okay, if you really want it..."]
@@ -378,6 +378,35 @@
 			title: "Rubber for cables?"
 			x: -12.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["6552E8737AAF9125"]
+			id: "551F8739987307E9"
+			tasks: [
+				{
+					id: "1C7052108222721F"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+				{
+					id: "65D2D1A0A74CE107"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DAD37FF47259B40"]
+			id: "6552E8737AAF9125"
+			tasks: [{
+				id: "125C5A320D74771A"
+				title: "Power options"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -3.0d
 		}
 	]
 	title: "ULV"

@@ -41,4 +41,15 @@ ServerEvents.recipes((event) =>{
         .duration(100)
         .EUt(480)
         .circuit(4)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '3x fluxnetworks:flux_dust'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(5)
 })
