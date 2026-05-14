@@ -381,6 +381,11 @@
 		}
 		{
 			dependencies: ["6552E8737AAF9125"]
+			description: [
+				"Reactors are harder to setup, but produce more energy than fully upgraded solar panel."
+				""
+				"Thermo generators are easy to setup, but produce lower amount of energy."
+			]
 			id: "551F8739987307E9"
 			tasks: [
 				{
@@ -399,6 +404,11 @@
 		}
 		{
 			dependencies: ["3DAD37FF47259B40"]
+			description: [
+				"You can choose between Powah and Solar Panels."
+				""
+				"Powah is harder to set up, but can produce more energy."
+			]
 			id: "6552E8737AAF9125"
 			tasks: [{
 				id: "125C5A320D74771A"
