@@ -65,7 +65,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('This machine is slow, but due to the precision of its laser, it can double the outputs of normal laser engraver.'));
-            text.add(2, Text.gray('Works best if left to work in the background.'));
+            text.add(2, Text.gray('Best to leave it working in the background.'));
         }
     );
 

@@ -101,6 +101,9 @@
   "block.gtceu.precisionlaserengraver": "Precision Laser Engraver",
   "gtceu.precisionlaserengraver": "Precision Laser Engraver",
 
+  "gtceu.component_mass_assembly": "Component Mass Assembly",
+  "block.gtceu.largecomponentmassassembler": "Large Component Assembly",
+
   "gtceu.pulverizing": "Pulverizer",
   "gtceu.pressing": "Multiservo Press",
   "gtceu.induction_smelting": "Induction Smelter",
