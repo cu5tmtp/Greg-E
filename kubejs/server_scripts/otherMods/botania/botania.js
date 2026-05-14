@@ -31,9 +31,9 @@ ServerEvents.recipes((event) => {
         'mythicbotany:fimbultyr_tablet',
         [
             'botanicalextramachinery:malachite_dragonstone',
+            'ad_astra:ostrum_ingot',
             Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:twilightforest/snow_queen"}}').weakNBT(),
             Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:twilightforest/giant"}}').weakNBT(),
-            Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:incision/seer"}}').weakNBT(),
             Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:wither"}}').weakNBT(),
             'botania:mana_tablet',
             'botania:terrasteel_block'
