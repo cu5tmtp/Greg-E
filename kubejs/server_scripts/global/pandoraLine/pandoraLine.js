@@ -206,7 +206,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.advanced_fusion()
         .inputFluids(
             'gtceu:skagium 16000',
-            'gtceu:europium 16000'
+            'gtceu:europium 200'
         )
         .outputFluids(
             'gtceu:rakkium 16000'

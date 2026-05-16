@@ -413,6 +413,7 @@
 				"62E7B8817D22678F"
 				"0C7BB04A467C27D6"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "46542F4A273E64EB"
 			tasks: [{
@@ -749,7 +750,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["13BAD4B9C69117C6"]
+			dependencies: [
+				"13BAD4B9C69117C6"
+				"22DA84E98C4F3CE4"
+			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "1896B90F5FD66AFA"
 			tasks: [{
@@ -1068,6 +1073,18 @@
 			}]
 			x: -11.0d
 			y: 8.5d
+		}
+		{
+			id: "22DA84E98C4F3CE4"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "6C994C319C7C8575"
+				item: "gtceu:gloomstone_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 	title: "IV"

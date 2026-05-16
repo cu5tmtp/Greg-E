@@ -154,6 +154,7 @@
 				"6C30EEA91FB21A3B"
 				"442CCD73C44C440A"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "406C924820DE5473"
 			tasks: [{
@@ -182,6 +183,7 @@
 				"773543FFEF631C5E"
 				"05D4A96C4093BBB7"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "6335DC1E7517E940"
 			tasks: [{

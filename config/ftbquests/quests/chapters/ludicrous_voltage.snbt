@@ -232,6 +232,7 @@
 				"785CB375F25F0715"
 				"669C9C5E03938E24"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "2E7E1278D9796141"
 			tasks: [{
@@ -243,6 +244,7 @@
 			y: 3.0d
 		}
 		{
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "17671346C7940CA8"
 			shape: "square"

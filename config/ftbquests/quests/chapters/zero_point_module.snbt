@@ -134,6 +134,7 @@
 				"7EE14ED04C64E2AA"
 				"2D1644EC234BC912"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "41AE8AEA3EB144F3"
 			shape: "circle"

@@ -146,6 +146,7 @@
 				"0BAD21557994331D"
 				"1DFFC6CCB85F7867"
 			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "5FAA73C52082DC48"
 			tasks: [{

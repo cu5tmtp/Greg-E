@@ -695,6 +695,7 @@
 				"0E603F1FE596DB2A"
 				"3E7B60E26BB10291"
 			]
+			dependency_requirement: "one_completed"
 			id: "72C43CB781D45EE2"
 			tasks: [
 				{

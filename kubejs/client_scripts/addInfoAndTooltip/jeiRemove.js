@@ -1180,7 +1180,14 @@ let emiBannedItems = [
     "item:gtceu:tiny_maliwanium_dust",
     "item:gtceu:maliwanium_nugget",
     "item:gtceu:maliwanium_plate",
-    "item:gtceu:double_maliwanium_plate"
+    "item:gtceu:double_maliwanium_plate",
+    "item:gtceu:eridium_plate",
+    "item:gtceu:double_eridium_plate",
+    "item:gtceu:hyperium_plate",
+    "item:gtceu:double_hyperium_plate",
+    "item:gtceu:tiny_gloomstone_dust",
+    "item:gtceu:small_gloomstone_dust",
+    "item:gtceu:gloomstone_block"
 ];
 
 let getCorrectItem = (emiBannedItems) => {
