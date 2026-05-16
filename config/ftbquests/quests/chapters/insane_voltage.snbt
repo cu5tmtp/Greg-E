@@ -85,7 +85,7 @@
 			description: [""]
 			id: "2ACB94B77EF072EB"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "7351298A63054CA3"
 				item: "gtceu:nano_processor_mainframe"
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -679,8 +679,8 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			description: [""]
@@ -691,8 +691,8 @@
 				item: "gtceu:tungstic_acid_dust"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.5d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19BA973FECFA3B06"]
@@ -730,7 +730,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -746,7 +746,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["13BAD4B9C69117C6"]
@@ -794,7 +794,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -806,7 +806,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2FDACD6F153D5B64"]
@@ -818,7 +818,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -833,7 +833,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7CC3BD5F3D66A637"]
@@ -852,7 +852,7 @@
 				}
 			]
 			x: -9.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["439556C571592D81"]
@@ -864,7 +864,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["40249CD28957E7EB"]
@@ -875,7 +875,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["41EE8B40BA43DADE"]
@@ -967,7 +967,7 @@
 				item: "gregecore:forgotten_coil"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 8.0d
 		}
 		{

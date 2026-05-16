@@ -168,6 +168,30 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/hv'
     )
 
+    event.replaceInput(
+        'ad_astra:netherite_space_helmet',
+        'minecraft:netherite_helmet',
+        'minecraft:diamond_helmet'
+    )
+
+    event.replaceInput(
+        'ad_astra:netherite_space_suit',
+        'minecraft:netherite_chestplate',
+        'minecraft:diamond_chestplate'
+    )
+
+    event.replaceInput(
+        'ad_astra:netherite_space_pants',
+        'minecraft:netherite_leggings',
+        'minecraft:diamond_leggings'
+    )
+
+    event.replaceInput(
+        'ad_astra:netherite_space_boots',
+        'minecraft:netherite_boots',
+        'minecraft:diamond_boots'
+    )
+
     const uraniumFixes = [
         { recipe: 'ad_extendra:uranium_engine', from: '#forge:plates/uranium', to: 'ad_extendra:uranium_plate' },
         { recipe: 'ad_extendra:uranium_tank',   from: '#forge:plates/uranium', to: 'ad_extendra:uranium_plate' },

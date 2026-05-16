@@ -13,7 +13,7 @@
 		rotation: 0.0d
 		width: 5.0d
 		x: -1.5d
-		y: -17.5d
+		y: -18.5d
 	}]
 	order_index: 10
 	quest_links: [ ]
@@ -188,6 +188,8 @@
 				"cu5tmtp"
 			]
 			id: "73EE77DC13D01ED7"
+			shape: "heart"
+			size: 2.5d
 			tasks: [
 				{
 					id: "795E7F1E9C1E4227"

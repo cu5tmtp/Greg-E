@@ -42,7 +42,7 @@
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "2C28217E1131A63A"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "3948D4991F8810F6"
@@ -720,8 +720,8 @@
 				item: "gtceu:precisionlaserengraver"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 8.5d
+			y: -3.0d
 		}
 	]
 	title: "MV"

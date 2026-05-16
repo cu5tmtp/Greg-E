@@ -33,35 +33,16 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 6.5d
-		}
-		{
-			dependencies: ["0EE652B280CB5F55"]
-			description: [""]
-			id: "210A0DC6D5CAC236"
-			tasks: [{
-				id: "68DB1231F3A96C65"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_4_rocket"
-					tag: {
-						BotariumData: { }
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.5d
 		}
 		{
 			dependencies: ["58452F7D73C30E72"]
 			description: [""]
 			id: "438E233A9014DA73"
 			tasks: [{
-				count: 4L
 				id: "1376E9EEBB16D83E"
-				item: { Count: 4, id: "ad_astra:desh_ingot" }
+				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
 			x: -6.0d
@@ -78,7 +59,7 @@
 				id: "5472FCE5D46313F4"
 				type: "advancement"
 			}]
-			x: -8.0d
+			x: -7.5d
 			y: 6.5d
 		}
 		{
@@ -86,17 +67,16 @@
 			description: [""]
 			id: "2A279B011D09A9EE"
 			tasks: [{
-				count: 4L
 				id: "65AE7D0A17C3DB4E"
-				item: { Count: 4, id: "ad_astra:ostrum_ingot" }
+				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["4EA0E385FF7E5FEB"]
-			description: [""]
+			description: ["Visit Mars."]
 			icon: "ad_astra:mars_globe"
 			id: "4E8E49EB9C83188E"
 			tasks: [{
@@ -105,34 +85,26 @@
 				id: "51EA8D3FA1966B84"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
-			description: [""]
+			description: ["Visit Venus."]
 			icon: "ad_astra:venus_globe"
 			id: "0EE652B280CB5F55"
-			tasks: [
-				{
-					advancement: "ad_astra:venus"
-					criterion: ""
-					id: "3A4B0885275DF89B"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "5435730E77B1B16F"
-					item: "ad_astra:raw_calorite"
-					type: "item"
-				}
-			]
-			x: 3.0d
+			tasks: [{
+				advancement: "ad_astra:venus"
+				criterion: ""
+				id: "3A4B0885275DF89B"
+				type: "advancement"
+			}]
+			x: 1.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
-			description: [""]
+			description: ["Visit Mercury."]
 			icon: "ad_astra:mercury_globe"
 			id: "32738F324B799879"
 			tasks: [{
@@ -141,15 +113,12 @@
 				id: "7302AF42EB62C1D2"
 				type: "advancement"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"210A0DC6D5CAC236"
-				"7B2A7B2298DAE8EC"
-			]
-			description: [""]
+			dependencies: ["7B2A7B2298DAE8EC"]
+			description: ["Visit Glacio."]
 			icon: "ad_astra:glacio_globe"
 			id: "0B407DE1771F3304"
 			size: 1.0d
@@ -159,14 +128,13 @@
 				id: "60ADF70F2398E2F8"
 				type: "advancement"
 			}]
-			x: 8.5d
+			x: 4.5d
 			y: 6.5d
 		}
 		{
 			dependencies: [
 				"64D8FB039D6E7339"
 				"4785659E5022FEE7"
-				"05B977269171EB06"
 				"12AC846277F88F3D"
 			]
 			description: [""]
@@ -194,8 +162,13 @@
 					match_nbt: false
 					type: "item"
 				}
+				{
+					id: "38FB59A42EA8BDF1"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
 			]
-			x: -10.0d
+			x: -9.0d
 			y: 6.5d
 		}
 		{
@@ -203,32 +176,18 @@
 			description: ["Put Ad Astra's oil in this machine, you will get fuel for rockets, even if EMI doesn't show it."]
 			icon: "ad_astra:fuel_refinery"
 			id: "4785659E5022FEE7"
-			min_width: 300
 			shape: "circle"
 			tasks: [{
 				id: "54E00D1DC618B0FB"
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7C9AE01973242410"]
-			description: [""]
-			id: "05B977269171EB06"
-			shape: "circle"
-			tasks: [{
-				id: "0DC1EA166270E3B6"
-				item: "ad_astra:launch_pad"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 7.0d
+			x: -12.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
-			description: [""]
+			description: ["Get this armor to survive on the planet."]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -291,7 +250,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -344,9 +303,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6804FFB0F773855B"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
-			x: 6.0d
-			y: 7.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C9AE01973242410"]
@@ -365,7 +333,7 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
+			x: -12.0d
 			y: 8.0d
 		}
 		{
@@ -418,7 +386,7 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
+			x: -12.0d
 			y: 5.0d
 		}
 		{

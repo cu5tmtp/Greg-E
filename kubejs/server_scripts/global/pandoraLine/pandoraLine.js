@@ -193,11 +193,11 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.fusion_reactor()
         .inputFluids(
-            'gtceu:skagium 16',
+            'gtceu:skagium 160',
             'gtceu:europium 2'
         )
         .outputFluids(
-            'gtceu:rakkium 16'
+            'gtceu:rakkium 160'
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(60)
@@ -205,11 +205,11 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.advanced_fusion()
         .inputFluids(
-            'gtceu:skagium 1600',
-            'gtceu:europium 1600'
+            'gtceu:skagium 16000',
+            'gtceu:europium 16000'
         )
         .outputFluids(
-            'gtceu:rakkium 1600'
+            'gtceu:rakkium 16000'
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(400)

@@ -29,7 +29,7 @@
 			description: [""]
 			id: "663DA87FDB10E2B8"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "51119998A84A7E62"
 				item: "gtceu:quantum_processor_mainframe"

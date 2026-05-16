@@ -40,7 +40,7 @@
 			description: ["Yay progress!"]
 			id: "4D6885EFA4EE272F"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "312B4A8B539DCD5D"
 				item: "gtceu:good_electronic_circuit"

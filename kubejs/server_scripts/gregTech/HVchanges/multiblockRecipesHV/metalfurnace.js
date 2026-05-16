@@ -31,7 +31,7 @@ ServerEvents.recipes((event) =>{
             '1x gtceu:lithium_dust'
         )
         .inputFluids(
-            'gtceu:mercury 3000'
+            'gtceu:mercury 1000'
         )
         .itemOutputs(
             'gregecore:lithium_amalgamation_dust'

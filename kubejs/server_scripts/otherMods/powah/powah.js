@@ -142,4 +142,10 @@ ServerEvents.recipes((event) => {
         'minecraft:redstone_block',
         '#gtceu:circuits/luv'
     )
+
+     event.replaceInput(
+        'pipez:energy_pipe',
+        'minecraft:redstone_block',
+        '#gtceu:circuits/mv'
+    )
 })

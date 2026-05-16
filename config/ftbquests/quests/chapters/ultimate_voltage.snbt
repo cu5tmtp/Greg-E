@@ -698,7 +698,7 @@
 			dependencies: ["65A075160D46BEF7"]
 			id: "283C1D5CEC444F02"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "66A25804567E0373"
 				item: "gtceu:wetware_processor_mainframe"

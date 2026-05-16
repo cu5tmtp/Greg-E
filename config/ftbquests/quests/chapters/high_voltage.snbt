@@ -73,7 +73,7 @@
 			description: [""]
 			id: "0DB4226BA23A5C09"
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "7497784245BE7D72"
 				item: "gtceu:micro_processor_computer"
