@@ -1167,6 +1167,26 @@
 			x: 2.5d
 			y: 0.0d
 		}
+		{
+			id: "671C3267DB7A9124"
+			tasks: [{
+				id: "00911699541D429A"
+				item: "gtceu:raw_pandora"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "0A388E2FB807C55A"
+			tasks: [{
+				id: "68D6CC9FCA3433FB"
+				item: "gtceu:raw_insanium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
 	]
 	title: "Progression"
 }

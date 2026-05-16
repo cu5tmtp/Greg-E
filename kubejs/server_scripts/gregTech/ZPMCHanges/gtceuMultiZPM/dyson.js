@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event.shaped(
         Item.of('gregecore:dysonswarmlauncher', 1),
         [
-            ' A ',
+            'FAF',
             'DCD',
             'CEC'
         ],
@@ -11,14 +11,15 @@ ServerEvents.recipes((event) => {
             A: '#gtceu:circuits/zpm',
             C: 'gregecore:solar_sail',
             D: 'gtceu:zpm_electric_pump',
-            E: 'gtceu:zpm_machine_hull'
+            E: 'gtceu:zpm_machine_hull',
+            F: 'gtceu:eridium_block'
         }
     )
 
     event.shaped(
         Item.of('gregecore:dysonswarmenergycollector', 1),
         [
-            ' A ',
+            'FAF',
             'DCD',
             'CEC'
         ],
@@ -26,7 +27,8 @@ ServerEvents.recipes((event) => {
             A: '#gtceu:circuits/zpm',
             C: 'kubejs:kaptonmirror',
             D: 'gtceu:zpm_electric_pump',
-            E: 'gtceu:zpm_machine_hull'
+            E: 'gtceu:zpm_machine_hull',
+            F: 'gtceu:eridium_block'
         }
     )
 

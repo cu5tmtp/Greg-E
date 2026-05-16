@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:bio_chaff'
         )
-        .EUt(GTValues.V[GTValues.ULV])
+        .EUt(GTValues.VA[GTValues.ULV])
         .duration(100)
 
 })

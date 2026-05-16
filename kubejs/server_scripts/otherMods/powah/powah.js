@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
         event.remove({ output: `powah:furnator_${tier}` });
         event.remove({ output: `powah:solar_panel_${tier}` });
         event.remove({ output: `powah:magmator_${tier}` });
-        event.remove({ output: `powah:energy_cable_${tier}` });
         event.remove({ output: `powah:ender_gate_${tier}` });
         event.remove({ output: `powah:player_transmitter_${tier}` });
         event.remove({ output: `powah:energy_hopper_${tier}` });
@@ -46,6 +45,12 @@ ServerEvents.recipes((event) => {
         )
 
         event.replaceInput(
+            { output: `powah:energy_cable_${tier}` },
+            `powah:energy_cable_${previousTier}`,
+            currentCircuit
+        )
+
+        event.replaceInput(
             { output: `powah:battery_${tier}` },
             `powah:battery_${previousTier}`,
             currentCircuit
@@ -58,6 +63,14 @@ ServerEvents.recipes((event) => {
         )
 
     });
+
+    event.remove('powah:crafting/cable_basic_2')
+    event.remove('powah:crafting/cable_hardened_2')
+    event.remove('powah:crafting/cable_blazing_2')
+    event.remove('powah:crafting/cable_niotic_2')
+    event.remove('powah:crafting/cable_spirited_2')
+    event.remove('powah:crafting/cable_nitro_2')
+
     event.remove('powah:crafting/ender_cell_starter')
     event.remove('powah:crafting/energy_cell_starter')
     event.remove('powah:crafting/energy_cell_basic')
@@ -122,5 +135,11 @@ ServerEvents.recipes((event) => {
         ],
         '2x powah:energized_steel_block',
         90000
+    )
+
+    event.replaceInput(
+        'powah:energizing/nitro_crystal',
+        'minecraft:redstone_block',
+        '#gtceu:circuits/luv'
     )
 })

@@ -64,8 +64,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:precisionlaserengraver'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('This machine is slow, but due to the precision of its laser, it can double the outputs of normal laser engraver.'));
-            text.add(2, Text.gray('Best to leave it working in the background.'));
+            text.add(1, Text.gray('This machine cleans its own air by itself, allowing it to not require Cleanroom to engrave wafers.'));
         }
     );
 

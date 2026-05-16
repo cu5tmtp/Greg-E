@@ -33,7 +33,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("h", Predicates.blocks("minecraft:red_stained_glass"))
         .where("i", Predicates.blocks("gtceu:steel_gearbox"))
         .where("j", Predicates.blocks('gtceu:solid_machine_casing')
-                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
+                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(15).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))  
                 .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1)))  
         .where("k", Predicates.controller(Predicates.blocks(definition.get())))

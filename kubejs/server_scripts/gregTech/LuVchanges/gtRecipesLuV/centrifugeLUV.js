@@ -29,4 +29,27 @@ ServerEvents.recipes((event) => {
         .duration(150)
         .circuit(3)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:gassydust'
+        )
+        .itemOutputs(
+            '2x gtceu:raw_pandora'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(150)
+        .circuit(4)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:gassydust'
+        )
+        .itemOutputs(
+            '2x gtceu:raw_insanium'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(150)
+        .circuit(5)
+
+
 })

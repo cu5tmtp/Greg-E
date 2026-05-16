@@ -31,8 +31,8 @@
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
 			"powah:blazing_crystal_block": 2800,
-			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000,
+			"minecraft:magma_block": 800,
 			"kubejs:heatingel": 3500,
 			"kubejs:acidinfusedlava": 8000,
 			"minecraft:coal_block": 500
@@ -219,11 +219,11 @@
 			"transfer_rates": {
 				"starter": 500,
 				"basic": 2000,
-				"hardened": 5000,
-				"blazing": 20000,
-				"niotic": 50000,
-				"spirited": 200000,
-				"nitro": 1000000
+				"hardened": 7000,
+				"blazing": 25000,
+				"niotic": 80000,
+				"spirited": 400000,
+				"nitro": 1500000
 			}
 		},
 		"dischargers": {

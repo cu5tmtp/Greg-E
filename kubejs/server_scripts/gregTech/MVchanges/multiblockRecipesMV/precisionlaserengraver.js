@@ -17,21 +17,21 @@ ServerEvents.recipes((event) => {
     )
 
     let waferAll = [
-        {id: 'gtceu:silicon_wafer', time: 2000, clean: false},
-        {id: 'gtceu:phosphorus_wafer', time: 1200, clean: true},
-        {id: 'gtceu:naquadah_wafer', time: 500, clean: true},
-        {id: 'gtceu:neutronium_wafer', time: 120, clean: true},
+        {id: 'gtceu:silicon_wafer', time: 1600, clean: false},
+        {id: 'gtceu:phosphorus_wafer', time: 800, clean: false},
+        {id: 'gtceu:naquadah_wafer', time: 300, clean: false},
+        {id: 'gtceu:neutronium_wafer', time: 80, clean: false},
     ]
 
     let waferTwo = [
-        {id: 'gtceu:phosphorus_wafer', time: 2000, clean: true},
-        {id: 'gtceu:naquadah_wafer', time: 1200, clean: true},
-        {id: 'gtceu:neutronium_wafer', time: 500, clean: true},
+        {id: 'gtceu:phosphorus_wafer', time: 1600, clean: false},
+        {id: 'gtceu:naquadah_wafer', time: 800, clean: false},
+        {id: 'gtceu:neutronium_wafer', time: 300, clean: false},
     ]
 
     let waferThree = [
-        {id: 'gtceu:naquadah_wafer', time: 2000, clean: true},
-        {id: 'gtceu:neutronium_wafer', time: 1200, clean: true},
+        {id: 'gtceu:naquadah_wafer', time: 1600, clean: false},
+        {id: 'gtceu:neutronium_wafer', time: 800, clean: false},
     ]
 
     let tierOneWafer = [
