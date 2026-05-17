@@ -880,7 +880,7 @@
 				item: "gtceu:raw_pyrochlore"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -1186,6 +1186,16 @@
 			}]
 			x: 13.5d
 			y: 0.0d
+		}
+		{
+			id: "2BA102DA86CB58E0"
+			tasks: [{
+				id: "314CEB198E2B26AA"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
 		}
 	]
 	title: "Progression"

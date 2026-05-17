@@ -56,4 +56,15 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(5)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:eidust'
+        )
+        .itemOutputs(
+            '2x gtceu:molybdenum_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.IV])
+        .circuit(6)
+
 });
