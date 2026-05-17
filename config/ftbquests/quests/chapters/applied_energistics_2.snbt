@@ -392,8 +392,8 @@
 				item: "ae2:wireless_crafting_terminal"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["16299B9AE87257DC"]
@@ -413,8 +413,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 3.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -480,6 +480,18 @@
 			}]
 			x: 5.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: ["This block is used to automatically request crafts from your AE2 system."]
+			id: "0EBB75DE2B6142B5"
+			tasks: [{
+				id: "56B73C22AE2ADC37"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
 		}
 	]
 	title: "AE2 - Basics"

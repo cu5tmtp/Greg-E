@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         .circuit(1)
 
     event.recipes.gtceu
-        .forgef('secondforgerecipe')
+        .anvilf('secondforgerecipe')
         .itemInputs('kubejs:hhead')   
         .inputFluids('gtceu:gold 432', 'minecraft:lava 100') 
         .itemOutputs('kubejs:hmold')
@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
         .circuit(1)
 
     event.recipes.gtceu
-        .forgef('thirdforgerecipe')
+        .anvilf('thirdforgerecipe')
         .itemInputs('kubejs:hmold')   
         .inputFluids(
             'gregecore:molten_franklinite 432', 'minecraft:lava 100'
@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
         .circuit(2)
 
     event.recipes.gtceu
-        .forgef('secondforgerecipeham')
+        .anvilf('secondforgerecipeham')
         .itemInputs('kubejs:hhead')   
         .inputFluids('gtceu:gold 432', 'minecraft:lava 300') 
         .itemOutputs('kubejs:hmold')
@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
         .circuit(2)
 
     event.recipes.gtceu
-        .forgef('thirdforgerecipeham')
+        .anvilf('thirdforgerecipeham')
         .itemInputs('kubejs:hmold')   
         .inputFluids('gregecore:molten_franklinite 432', 'minecraft:lava 300') 
         .itemOutputs('kubejs:fhhead')
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
         .inputFluids('kubejs:acidinfusedlava 3000') 
         .itemOutputs('gregecore:franklinite_ingot')
         .notConsumable('kubejs:fhammer')   
-        .duration(50)
+        .duration(5)
         .circuit(3)
 
     event.recipes.gtceu

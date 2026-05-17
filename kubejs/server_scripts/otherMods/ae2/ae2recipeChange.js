@@ -86,6 +86,24 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/iv'
     )
 
+    event.replaceInput(
+        'merequester:requester',
+        'minecraft:amethyst_shard',
+        '#gtceu:circuits/lv'
+    )
+
+    event.replaceInput(
+        'aeinfinitybooster:infinity_card',
+        'minecraft:netherite_ingot',
+        '#gtceu:circuits/ev'
+    )
+
+    event.replaceInput(
+        'aeinfinitybooster:dimension_card',
+        'minecraft:nether_star',
+        '#gtceu:circuits/ev'
+    )
+
     //Advanced aes reaction chamber recipie for matter balls
     event.custom({
         type: 'advanced_ae:reaction',

@@ -35,7 +35,7 @@ ServerEvents.recipes((event) =>{
         .EUt(GTValues.VA[GTValues.IV])
         .duration(150)
 
-    event.recipes.gtceu.anvilf('getpurefroststeel1')
+    event.recipes.gtceu.forgef('getpurefroststeel1')
         .itemInputs(
             'kubejs:hotfroststeel'
         )
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) =>{
         .circuit(1)
 
 
-    event.recipes.gtceu.anvilf('getpurecloggrum1')
+    event.recipes.gtceu.forgef('getpurecloggrum1')
         .itemInputs(
             'kubejs:hotcloggrum'
         )
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) =>{
         .circuit(1)
 
 
-    event.recipes.gtceu.anvilf('getpurefroststeel2')
+    event.recipes.gtceu.forgef('getpurefroststeel2')
         .itemInputs(
             'kubejs:hotfroststeel'
         )
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) =>{
         .circuit(2)
 
 
-    event.recipes.gtceu.anvilf('getpurecloggrum2')
+    event.recipes.gtceu.forgef('getpurecloggrum2')
         .itemInputs(
             'kubejs:hotcloggrum'
         )
