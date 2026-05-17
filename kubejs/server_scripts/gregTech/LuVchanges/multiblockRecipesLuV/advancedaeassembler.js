@@ -15,180 +15,89 @@ ServerEvents.recipes((event) =>{
         }
     )
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('8x ae2:printed_logic_processor', '8x minecraft:redstone', '8x ae2:printed_silicon')    
-        .itemOutputs('8x ae2:logic_processor')
-        .circuit(8)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
+    const presses = [
+        { in: 'minecraft:gold_ingot', press: 'ae2:logic_processor_press', out: 'ae2:printed_logic_processor' },
+        { in: 'minecraft:diamond', press: 'ae2:engineering_processor_press', out: 'ae2:printed_engineering_processor' },
+        { in: 'ae2:certus_quartz_crystal', press: 'ae2:calculation_processor_press', out: 'ae2:printed_calculation_processor' },
+        { in: 'ae2:silicon', press: 'ae2:silicon_press', out: 'ae2:printed_silicon' },
+        { in: 'advanced_ae:quantum_alloy', press: 'advanced_ae:quantum_processor_press', out: 'advanced_ae:printed_quantum_processor' },
+        { in: 'megacells:sky_steel_ingot', press: 'advanced_ae:quantum_processor_press', out: 'megacells:printed_accumulation_processor' }
+    ];
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('8x ae2:printed_engineering_processor', '8x minecraft:redstone', '8x ae2:printed_silicon')    
-        .itemOutputs('8x ae2:engineering_processor')
-        .circuit(8)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
+    presses.forEach(p => {
+        event.recipes.gtceu.advancedaeassembler()
+            .itemInputs(`8x ${p.in}`)
+            .notConsumable(p.press)
+            .itemOutputs(`8x ${p.out}`)
+            .circuit(4)
+            .duration(300)
+            .EUt(GTValues.VA[GTValues.LV]);
+    });
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('8x ae2:printed_calculation_processor', '8x minecraft:redstone', '8x ae2:printed_silicon')    
-        .itemOutputs('8x ae2:calculation_processor')
-        .circuit(8)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-        
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('8x advanced_ae:printed_quantum_processor', '8x minecraft:redstone', '8x ae2:printed_silicon')    
-        .itemOutputs('8x advanced_ae:quantum_processor')
-        .circuit(8)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])  
+    const processors = [
+        { printed: 'ae2:printed_logic_processor', out: 'ae2:logic_processor' },
+        { printed: 'ae2:printed_engineering_processor', out: 'ae2:engineering_processor' },
+        { printed: 'ae2:printed_calculation_processor', out: 'ae2:calculation_processor' },
+        { printed: 'advanced_ae:printed_quantum_processor', out: 'advanced_ae:quantum_processor' },
+        { printed: 'megacells:printed_accumulation_processor', out: 'megacells:accumulation_processor' }
+    ];
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('8x megacells:printed_accumulation_processor', '8x minecraft:redstone', '8x ae2:printed_silicon')    
-        .itemOutputs('8x megacells:accumulation_processor')
-        .circuit(8)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
+    processors.forEach(p => {
+        event.recipes.gtceu.advancedaeassembler()
+            .itemInputs(`8x ${p.printed}`, '8x minecraft:redstone', '8x ae2:printed_silicon')
+            .itemOutputs(`8x ${p.out}`)
+            .circuit(8)
+            .duration(300)
+            .EUt(GTValues.VA[GTValues.LV]);
+    });
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('12x ae2:certus_quartz_crystal', '16x minecraft:redstone', '3x ae2:logic_processor')    
+    event.recipes.gtceu.advancedaeassembler()
+        .itemInputs('12x ae2:certus_quartz_crystal', '16x minecraft:redstone', '3x ae2:logic_processor')
         .itemOutputs('3x ae2:cell_component_1k')
         .circuit(1)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.LV]);
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_glass', '12x minecraft:redstone', '3x ae2:cell_component_1k', '3x ae2:calculation_processor')    
-        .itemOutputs('3x ae2:cell_component_4k')
-        .circuit(4)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
+    const components = [
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:redstone', prev: 'ae2:cell_component_1k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_4k', c: 16 },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_4k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_16k', c: 16 },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_16k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_64k', c: 16 },
+        { glass: 'ae2:quartz_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_64k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_256k', c: 16 },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_256k', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_1m', c: 16 },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_1m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_4m', c: 16 },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_4m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_16m', c: 16 },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_16m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_64m', c: 16 },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_64m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_256m', c: 16 }
+    ];
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_glass', '12x minecraft:glowstone_dust', '3x ae2:cell_component_4k', '3x ae2:calculation_processor')    
-        .itemOutputs('3x ae2:cell_component_16k')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
+    components.forEach(c => {
+        event.recipes.gtceu.advancedaeassembler()
+            .itemInputs(`3x ${c.glass}`, `12x ${c.dust}`, `3x ${c.prev}`, `3x ${c.proc}`)
+            .itemOutputs(`${c.out}`)
+            .circuit(c.c)
+            .duration(300)
+            .EUt(GTValues.VA[GTValues.LV]);
+    });
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_glass', '12x minecraft:glowstone_dust', '3x ae2:cell_component_16k', '3x ae2:calculation_processor')    
-        .itemOutputs('3x ae2:cell_component_64k')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-    
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_glass', '12x ae2:sky_dust', '3x ae2:cell_component_64k', '3x ae2:calculation_processor')    
-        .itemOutputs('3x ae2:cell_component_256k')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
+    const componentsFaster = [
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:redstone', prev: 'ae2:cell_component_1k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_4k', c: 16, matSkip: '3x gtceu:refined_fluix_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_4k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_16k', c: 16, matSkip: '3x gtceu:enhanced_fluix_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_16k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_64k', c: 16, matSkip: '3x gtceu:end_certus_quartz_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_64k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_256k', c: 16, matSkip: '3x gtceu:venus_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_256k', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_1m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_1m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_4m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_4m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_16m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_16m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_64m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_64m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_256m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' }
+    ];
 
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_vibrant_glass', '12x ae2:sky_dust', '3x ae2:cell_component_256k', '3x megacells:accumulation_processor')    
-        .itemOutputs('3x megacells:cell_component_1m')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_vibrant_glass', '12x #forge:dusts/ender_pearl', '3x megacells:cell_component_1m', '3x megacells:accumulation_processor')    
-        .itemOutputs('3x megacells:cell_component_4m')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_vibrant_glass', '12x #forge:dusts/ender_pearl', '3x megacells:cell_component_4m', '3x megacells:accumulation_processor')    
-        .itemOutputs('3x megacells:cell_component_16m')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_vibrant_glass', '12x ae2:matter_ball', '3x megacells:cell_component_16m', '3x megacells:accumulation_processor')    
-        .itemOutputs('3x megacells:cell_component_64m')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-        
-    event.recipes.gtceu
-        .advancedaeassembler()
-        .itemInputs('3x ae2:quartz_vibrant_glass', '12x ae2:matter_ball', '3x megacells:cell_component_64m', '3x megacells:accumulation_processor')    
-        .itemOutputs('3x megacells:cell_component_256m')
-        .circuit(16)
-        .duration(400)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x minecraft:gold_ingot')
-        .notConsumable('ae2:logic_processor_press')
-        .itemOutputs('8x ae2:printed_logic_processor')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-    
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x minecraft:diamond')
-        .notConsumable('ae2:engineering_processor_press')
-        .itemOutputs('8x ae2:printed_engineering_processor')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x ae2:certus_quartz_crystal')
-        .notConsumable('ae2:calculation_processor_press')
-        .itemOutputs('8x ae2:printed_calculation_processor')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x ae2:silicon')
-        .notConsumable('ae2:silicon_press')
-        .itemOutputs('8x ae2:printed_silicon')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-    
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x advanced_ae:quantum_alloy')
-        .notConsumable('advanced_ae:quantum_processor_press') 
-        .itemOutputs('8x advanced_ae:printed_quantum_processor')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
-
-    event.recipes.gtceu
-        .advancedaeassembler() 
-        .itemInputs('8x megacells:sky_steel_ingot')
-        .notConsumable('advanced_ae:quantum_processor_press')
-        .itemOutputs('8x megacells:printed_accumulation_processor')
-        .circuit(4)
-        .duration(800)
-        .EUt(GTValues.VA[GTValues.LV])
+    componentsFaster.forEach(c => {
+        event.recipes.gtceu.advancedaeassembler()
+            .itemInputs(`3x ${c.glass}`, `12x ${c.dust}`, `3x ${c.prev}`, `3x ${c.proc}`, c.matSkip)
+            .itemOutputs(`3x ${c.out}`)
+            .circuit(c.c)
+            .duration(300)
+            .EUt(GTValues.VA[GTValues.LV]);
+    });
 
 })

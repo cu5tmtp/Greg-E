@@ -30,6 +30,21 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .EUt(GTValues.VA[GTValues.MV])
         .circuit(1)
-        
 
+    event.recipes.gtceu.mixer('getfluxcrystalgetgetf')
+        .itemInputs(
+            '16x ae2:charged_certus_quartz_crystal',
+            '16x minecraft:redstone',
+            '16x minecraft:quartz'
+        )
+        .inputFluids(
+            'minecraft:water 1600'
+        )
+        .itemOutputs(
+            '16x ae2:fluix_crystal'
+        )
+        .duration(1200)
+        .EUt(GTValues.VA[GTValues.LV])
+        .circuit(16)
+        
 })

@@ -77,6 +77,15 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+    event.addAdvanced(
+        [
+            'gtceu:advancedaeassembler'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch'));
+        }
+    );
+
     const factories = [
         {id: 'gtceu:cube_wiremill', tooltip: 'Machine modes: Wiremill, Bender'},
         {id: 'gtceu:cube_extruder', tooltip: 'Machine modes: Extruder, Cutter'},

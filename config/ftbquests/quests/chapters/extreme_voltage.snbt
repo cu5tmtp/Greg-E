@@ -156,7 +156,6 @@
 			description: [""]
 			id: "5500BDFA7A5D04EB"
 			tasks: [{
-				count: 16L
 				id: "261D5EF68A314309"
 				item: "gtceu:nichrome_coil_block"
 				type: "item"

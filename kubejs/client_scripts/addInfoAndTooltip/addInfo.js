@@ -10,5 +10,6 @@ JEIEvents.information((event) => {
     event.addItem('bloodmagic:basemonstersoul', ['You get this by killing an enemy with a Sentient Sword. The one from the blood altar doesnt work on crafts, it just serves as an automation for Evil Soul.']);
     event.addItem('gregecore:unstable', ['Find this in the Fractured Lands in the Floaty Rocks structure, you get there by using Reality Fracture Engine.']);
     event.addItem('kubejs:vileheart', ['Find this in the Nether, in the Eroded Yard biome. Use Explorers Compass to find the Vile Mouth structure faster.']);
+    event.addItem('gtceu:end_certus_quartz_gem', ['Find this in the End, in the End Cities. Use Explorers Compass to find the End Cities structure faster.']);
 
 })

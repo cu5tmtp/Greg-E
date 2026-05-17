@@ -76,6 +76,8 @@ ServerEvents.recipes((event) => {
     event.remove('powah:crafting/energy_cell_basic')
     event.remove({output: 'powah:uraninite'})
 
+    event.remove('powah:energizing/compat/certus_quartz_to_charged_certus_quartz')
+
     event.shapeless(
         Item.of('powah:uraninite', 1),
         [

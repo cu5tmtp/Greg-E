@@ -8,6 +8,6 @@ ServerEvents.recipes((event) => {
             'ae2:charged_certus_quartz_crystal'
         )
         .duration(100)
-        .EUt(GTValues.VA[GTValues.MV])
+        .EUt(GTValues.VA[GTValues.LV])
 
 })
