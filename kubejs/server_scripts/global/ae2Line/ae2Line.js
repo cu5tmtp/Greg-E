@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             'gtceu:oxygen 150'
         )
         .itemOutputs(
-            '4x gtceu:refined_fluix_dust'
+            '8x gtceu:refined_fluix_dust'
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(350)
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
             'kubejs:alchessence 150'
         )
         .itemOutputs(
-            '4x gtceu:enhanced_fluix_dust'
+            '7x gtceu:enhanced_fluix_dust'
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(350)

@@ -182,7 +182,7 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: 6.5d
 		}
 		{
@@ -333,7 +333,7 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -11.0d
 			y: 8.0d
 		}
 		{
@@ -386,7 +386,7 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -11.0d
 			y: 5.0d
 		}
 		{
@@ -398,7 +398,7 @@
 				title: "Space!"
 				type: "checkmark"
 			}]
-			x: -15.5d
+			x: -13.0d
 			y: 6.5d
 		}
 		{

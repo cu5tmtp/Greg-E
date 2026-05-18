@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4193303999597249"
+	autofocus_id: "7026E46FD8B3A81D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "twilight_forest"
@@ -14,7 +14,7 @@
 			dependencies: ["4DE575D037B05C92"]
 			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs MV circuit alloy ingot!"]
 			id: "4193303999597249"
-			shape: "octagon"
+			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
