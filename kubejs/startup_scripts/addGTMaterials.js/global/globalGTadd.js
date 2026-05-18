@@ -21,6 +21,41 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x818589)
         .iconSet(GTMaterialIconSet.ROUGH)
 
+    event.create('dielectric')
+        .ingot()
+        .color(0x010606)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('refined_dielectric')
+        .ingot()
+        .color(0x091727)
+        .blastTemp(3700)
+        .iconSet(GTMaterialIconSet.SHINY)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('pyrostellit')
+        .ingot()
+        .formula('Ps')
+        .color(0xd7d628)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
+
+    event.create('aethelosil')
+        .ingot()
+        .color(0xfadb05)
+        .formula('Ae')
+        .blastTemp(3700)
+        .iconSet(GTMaterialIconSet.SHINY)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
+
+    event.create('solar_bronze')
+        .ingot()
+        .color(0xdbac36)
+        .formula('Cu4SnAg')
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });

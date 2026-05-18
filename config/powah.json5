@@ -33,8 +33,8 @@
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000,
-			"kubejs:heatingel": 3500,
-			"kubejs:acidinfusedlava": 8000,
+			"kubejs:heatingel": 2500,
+			"kubejs:acidinfusedlava": 4000,
 			"minecraft:coal_block": 500
 		},
 		// Energy produced per fuel tick in the Furnator.
@@ -120,18 +120,18 @@
 				"basic": 4000,
 				"hardened": 10000,
 				"blazing": 40000,
-				"niotic": 100000,
-				"spirited": 400000,
-				"nitro": 2000000
+				"niotic": 200000,
+				"spirited": 700000,
+				"nitro": 3000000
 			},
 			"generation_rates": {
-				"starter": 350,
-				"basic": 1500,
-				"hardened": 5000,
-				"blazing": 19000,
-				"niotic": 72000,
-				"spirited": 300000,
-				"nitro": 1200000
+				"starter": 500,
+				"basic": 2000,
+				"hardened": 8000,
+				"blazing": 32000,
+				"niotic": 120000,
+				"spirited": 520000,
+				"nitro": 2500000
 			}
 		},
 		"solar_panels": {
@@ -174,7 +174,7 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 80,
+				"starter": 150,
 				"basic": 3200,
 				"hardened": 8000,
 				"blazing": 32000,
@@ -183,13 +183,13 @@
 				"nitro": 1600000
 			},
 			"generation_rates": {
-				"starter": 100,
-				"basic": 400,
-				"hardened": 1500,
-				"blazing": 7200,
-				"niotic": 25000,
-				"spirited": 100000,
-				"nitro": 400000
+				"starter": 120,
+				"basic": 150,
+				"hardened": 450,
+				"blazing": 1500,
+				"niotic": 6000,
+				"spirited": 25000,
+				"nitro": 100000
 			}
 		}
 	},

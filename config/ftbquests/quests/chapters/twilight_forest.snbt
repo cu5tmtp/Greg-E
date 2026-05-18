@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["703D1ECFDDD7ABEF"]
+			dependencies: ["4DE575D037B05C92"]
 			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs MV circuit alloy ingot!"]
 			id: "4193303999597249"
 			shape: "octagon"

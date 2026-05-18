@@ -2,7 +2,7 @@ ServerEvents.recipes((event) =>{
  event.shaped(
         Item.of('gtceu:advancedaeassembler', 1),
         [
-            ' A ',
+            'FAF',
             'BCB',
             'DED'
         ],
@@ -11,7 +11,8 @@ ServerEvents.recipes((event) =>{
             B: 'gtceu:luv_electric_motor',
             C: 'gtceu:luv_robot_arm',
             D: 'gtceu:nonconducting_casing',
-            E: 'gtceu:luv_machine_hull'
+            E: 'gtceu:luv_machine_hull',
+            F: 'gtceu:magical_certus_quartz_frame'
         }
     )
 
@@ -25,13 +26,23 @@ ServerEvents.recipes((event) =>{
     ];
 
     presses.forEach(p => {
-        event.recipes.gtceu.advancedaeassembler()
-            .itemInputs(`8x ${p.in}`)
-            .notConsumable(p.press)
-            .itemOutputs(`8x ${p.out}`)
-            .circuit(4)
-            .duration(300)
-            .EUt(GTValues.VA[GTValues.LV]);
+            let cleanName = p.out.replace(':', '_');
+
+            event.recipes.gtceu.advancedaeassembler(`8x_${cleanName}`)
+                .itemInputs(`8x ${p.in}`)
+                .notConsumable(p.press)
+                .itemOutputs(`8x ${p.out}`)
+                .circuit(4)
+                .duration(300)
+                .EUt(GTValues.VA[GTValues.LV]);
+                
+            event.recipes.gtceu.advancedaeassembler(`64x_${cleanName}`)
+                .itemInputs(`64x ${p.in}`)
+                .notConsumable(p.press)
+                .itemOutputs(`64x ${p.out}`)
+                .circuit(24)
+                .duration(2000)
+                .EUt(GTValues.VA[GTValues.LV]);
     });
 
     const processors = [
@@ -42,12 +53,21 @@ ServerEvents.recipes((event) =>{
         { printed: 'megacells:printed_accumulation_processor', out: 'megacells:accumulation_processor' }
     ];
 
-    processors.forEach(p => {
-        event.recipes.gtceu.advancedaeassembler()
+processors.forEach(p => {
+        let cleanName = p.out.replace(':', '_');
+
+        event.recipes.gtceu.advancedaeassembler(`8processorx_${cleanName}`)
             .itemInputs(`8x ${p.printed}`, '8x minecraft:redstone', '8x ae2:printed_silicon')
             .itemOutputs(`8x ${p.out}`)
             .circuit(8)
             .duration(300)
+            .EUt(GTValues.VA[GTValues.LV]);
+
+        event.recipes.gtceu.advancedaeassembler(`64processorx_${cleanName}`)
+            .itemInputs(`64x ${p.printed}`, '64x minecraft:redstone', '64x ae2:printed_silicon')
+            .itemOutputs(`64x ${p.out}`)
+            .circuit(24)
+            .duration(2000)
             .EUt(GTValues.VA[GTValues.LV]);
     });
 
@@ -75,7 +95,7 @@ ServerEvents.recipes((event) =>{
             .itemInputs(`3x ${c.glass}`, `12x ${c.dust}`, `3x ${c.prev}`, `3x ${c.proc}`)
             .itemOutputs(`${c.out}`)
             .circuit(c.c)
-            .duration(300)
+            .duration(600)
             .EUt(GTValues.VA[GTValues.LV]);
     });
 

@@ -20,6 +20,8 @@ ServerEvents.recipes((event) => {
         let previousTier = powahTiers[i]; 
         let currentCircuit = circuits[i];
 
+        let reactorIngot = (i < 3) ? 'gtceu:dielectric_ingot' : 'gtceu:refined_dielectric_ingot';
+
         event.replaceInput(
             { output: `powah:thermo_generator_${tier}` },
             `powah:thermo_generator_${previousTier}`,
@@ -27,8 +29,20 @@ ServerEvents.recipes((event) => {
         )
 
         event.replaceInput(
+            { output: `powah:thermo_generator_${tier}` },
+            'powah:dielectric_paste',
+            reactorIngot
+        )
+
+        event.replaceInput(
             { output: `powah:reactor_${tier}` },
             `powah:reactor_${previousTier}`,
+            reactorIngot
+        )
+
+        event.replaceInput(
+            { output: `powah:reactor_${tier}` },
+            'powah:uraninite',
             currentCircuit
         )
 
@@ -150,4 +164,68 @@ ServerEvents.recipes((event) => {
         'minecraft:redstone_block',
         '#gtceu:circuits/mv'
     )
+
+    event.recipes.gtceu.forming_press()
+        .itemInputs(
+            '4x powah:dielectric_paste'
+        )
+        .itemOutputs(
+            'gtceu:dielectric_ingot'
+        )
+        .notConsumable('gtceu:ingot_casting_mold')
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(350)
+
+    event.recipes.gtceu.extruder()
+        .itemInputs(
+            '2x powah:dielectric_paste'
+        )
+        .itemOutputs(
+            'gtceu:dielectric_ingot'
+        )
+        .notConsumable('gtceu:ingot_extruder_mold')
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(150)
+
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            '4x powah:dielectric_paste',
+            'gtceu:titanium_dust',
+            '2x gtceu:stainless_steel_dust'
+        )
+        .inputFluids(
+            'gtceu:silicone_rubber 144'
+        )
+        .itemOutputs(
+            '3x gtceu:refined_dielectric_dust'
+        )
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(400)
+        .circuit(4)
+
+    event.recipes.gtceu.electric_blast_furnace()
+        .itemInputs(
+            'gtceu:refined_dielectric_dust'
+        )
+        .inputFluids(
+            'gtceu:nitrogen 150'
+        )
+        .itemOutputs(
+            'gtceu:hot_refined_dielectric_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(500)
+        .blastFurnaceTemp(1500)
+
+    event.recipes.gtceu.vacuum_freezer()
+        .itemInputs(
+            'gtceu:hot_refined_dielectric_ingot'
+        )
+        .itemOutputs(
+            'gtceu:refined_dielectric_ingot'
+        )
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(100)
+
+
 })

@@ -237,6 +237,13 @@
   "material.gtceu.venus_certus_quartz2": "Venus Certus Quartz",
   "material.gtceu.magical_certus_quartz2": "Magical Certus Quartz",
 
+  "material.gtceu.dielectric": "Dielectric",
+  "material.gtceu.refined_dielectric": "Refined Dielectric",
+
+  "material.gtceu.pyrostellit": "Pyrostellite",
+  "material.gtceu.aethelosil": "Aethelosill",
+  "material.gtceu.solar_bronze": "Solar Bronze",
+
   "material.gtceu.pandora": "Pandora",
   "material.gtceu.hyperium": "Hyperium",
   "material.gtceu.maliwanium": "Maliwanium",

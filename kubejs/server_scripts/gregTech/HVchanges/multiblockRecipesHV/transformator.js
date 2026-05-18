@@ -38,8 +38,8 @@ ServerEvents.recipes((event) =>{
     
     event.recipes.gtceu
         .transformator('howtogetpuf')
-        .itemInputs('2x kubejs:voiddust')   
-        .itemOutputs('gregecore:plutonium_hexafluoride_dust')
+        .itemInputs('kubejs:voiddust')   
+        .itemOutputs('2x gregecore:plutonium_hexafluoride_dust')
         .duration(100)
         .EUt(480)
 });

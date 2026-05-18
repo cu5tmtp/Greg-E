@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
         .itemInputs('12x ae2:certus_quartz_crystal', '16x minecraft:redstone', '3x ae2:logic_processor')
         .itemOutputs('3x ae2:cell_component_1k')
         .circuit(1)
-        .duration(400)
+        .duration(600)
         .EUt(GTValues.VA[GTValues.LV])
 
     const components = [
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
             .itemInputs(`3x ${c.glass}`, c.dust, `3x ${c.prev}`, `3x ${c.proc}`)
             .itemOutputs(`1x ${c.out}`)
             .circuit(1)
-            .duration(400)
+            .duration(800)
             .EUt(GTValues.VA[c.tier])
     });
 
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
             .itemInputs(`3x ${c.glass}`, c.dust, `3x ${c.prev}`, `3x ${c.proc}`, c.matSkip)
             .itemOutputs(`3x ${c.out}`)
             .circuit(24)
-            .duration(400)
+            .duration(600)
             .EUt(GTValues.VA[c.tier])
     });
 });
