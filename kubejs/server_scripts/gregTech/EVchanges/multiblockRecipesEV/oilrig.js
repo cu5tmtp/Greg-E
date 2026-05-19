@@ -107,4 +107,15 @@ ServerEvents.recipes((event) => {
         .circuit(9)
         .EUt(1680)
 
+    event.recipes.gtceu.oilrig('getmolybdenumdustyay')
+        .itemInputs(
+            'kubejs:earthlydust'
+        )
+        .itemOutputs(
+            '2x gtceu:molybdenum_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.EV])
+        .circuit(10)
+
 })

@@ -16,4 +16,5 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .EUt(1680)
         .circuit(10)
+        
 })

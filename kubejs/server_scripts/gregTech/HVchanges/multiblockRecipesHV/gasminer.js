@@ -25,7 +25,6 @@ ServerEvents.recipes((event) =>{
         .circuit(1)
         .EUt(480)
 
-    event.remove( {id:"gtceu:distillery/getheliuminhv"})
     event.recipes.gtceu.distillery('getheliummmmminhv')
         .inputFluids(
             'gtceu:ender_air 1000'
@@ -35,6 +34,17 @@ ServerEvents.recipes((event) =>{
         )
         .circuit(1)
         .duration(400)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    event.recipes.gtceu.distillery('getradonaltinhv')
+        .inputFluids(
+            'gtceu:ender_air 1000'
+        )
+        .outputFluids(
+            'gtceu:radon 50'
+        )
+        .circuit(16)
+        .duration(350)
         .EUt(GTValues.VA[GTValues.HV])
         
 

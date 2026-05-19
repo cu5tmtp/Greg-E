@@ -19,5 +19,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.IV])
         .duration(2000)
+        .disableDistilleryRecipes(true)
 
 })

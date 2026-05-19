@@ -96,7 +96,7 @@ ServerEvents.recipes((event) => {
             'gtceu:enhanced_fluix_ingot'
         )
         .EUt(GTValues.VA[GTValues.MV])
-        .duration(600)
+        .duration(400)
         .blastFurnaceTemp(1500)
 
     event.recipes.gtceu.lathe()
