@@ -289,6 +289,8 @@
   "material.gtceu.stellarium": "Stellarium",
   "material.gtceu.astrophage_fuel": "Astrophage",
   "material.gtceu.activated_astrophage_fuel": "Activated Astrophage Fuel",
+  "gtceu.astrophage_charging": "Astrophage Charging",
+  "block.gtceu.astrophage_charger": "Astrophage Charger",
 
   "material.gtceu.aurelium": "Aurelium",
   "material.gtceu.aurelium_nitrate_solution": "Aurelium Nitrate Solution",

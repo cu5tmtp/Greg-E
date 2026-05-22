@@ -86,9 +86,12 @@ StartupEvents.registry('item', event => {
     event.create('demonicgascan').displayName('Demonic Gas Coating')
     event.create('magicalseed').displayName('Magical Seed')
     event.create('magicallaserlens').displayName('Magical Laser Lens')
+    event.create('mellodiumscience').displayName('Mellodium Science Kit')
+    event.create('lasermining').displayName('Laser Mining Tool')
 
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')
+    event.create('prismaliumfilter').displayName('Prismalium Filter')
 
     event.create('rawcalculationpress').displayName('Raw Calculation Press')
     event.create('rawengineeringpress').displayName('Raw Engineering Press')
@@ -106,6 +109,15 @@ StartupEvents.registry('item', event => {
     event.create('dcluster').displayName('Diamond Cluster')
     event.create('lapisspeck').displayName('Speck of Lapis Lazuli')
     event.create('lapisspile').displayName('Small Pile of Lapis Lazuli')
+
+    event.create('orbit/mercury')
+    event.create('orbit/venus')
+    event.create('orbit/earth')
+    event.create('orbit/mars')
+    event.create('orbit/jupiter')
+    event.create('orbit/saturn')
+    event.create('orbit/uranus')
+    event.create('orbit/neptune')
 
     event.create('tomes/withertoken').displayName('Wither Token')
     event.create('tomes/gaiatoken').displayName('Gaia Token')

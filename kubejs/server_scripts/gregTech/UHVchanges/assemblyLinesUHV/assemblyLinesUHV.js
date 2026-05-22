@@ -143,5 +143,39 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('ad_astra:rocket_nose_cone')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
 
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '32x #gtceu:circuits/uhv',
+            '16x gtceu:mellodium_foil',
+            '4x gtceu:mellodium_gear',
+            '8x gtceu:mellodium_plate',
+            '4x gtceu:neutronium_frame',
+            'gtceu:gray_dye_spray_can'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:spaceship2')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship1')).EUt(GTValues.VA[GTValues.UHV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '64x #gtceu:circuits/uhv',
+            '32x gtceu:prismalium_foil',
+            '8x gtceu:prismalium_gear',
+            '16x gtceu:prismalium_plate',
+            '16x gtceu:neutronium_frame',
+            'gtceu:black_dye_spray_can'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 10000'
+        )
+        .itemOutputs('gregecore:spaceship3')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gregecore:spaceship2')).EUt(GTValues.VA[GTValues.UHV]).CWUt(1024))
+
 
 })

@@ -35,6 +35,18 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(3)
 
+    event.recipes.gtceu.industrialfilter('getstrainedndinebulon4')
+        .inputFluids(
+            'gtceu:dinebulon_zeta_omni_fluid 144'
+        )
+        .outputFluids(
+            'gtceu:dinebulon_zeta 566'
+        )
+        .notConsumable('kubejs:prismaliumfilter')
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(4)
+
     event.recipes.gtceu.industrialfilter('getstrainednebulon1')
         .inputFluids(
             'gtceu:dinebulon_zeta 144'
@@ -69,6 +81,18 @@ ServerEvents.recipes(event => {
         .duration(400)
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(3)
+
+    event.recipes.gtceu.industrialfilter('getstrainednebulon4')
+        .inputFluids(
+            'gtceu:dinebulon_zeta 144'
+        )
+        .outputFluids(
+            'gtceu:nebulon_zeta 566'
+        )
+        .notConsumable('kubejs:prismaliumfilter')
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(4)
 
     
 

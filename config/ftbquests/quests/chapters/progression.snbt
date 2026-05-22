@@ -850,8 +850,8 @@
 				item: "gtceu:bismuth_dust"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			id: "55711CBCF5F78B8A"
@@ -880,7 +880,7 @@
 				item: "gtceu:raw_pyrochlore"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -1176,8 +1176,8 @@
 				item: "gtceu:raw_pandora"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			id: "0A388E2FB807C55A"
@@ -1186,7 +1186,7 @@
 				item: "gtceu:raw_insanium"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: 0.0d
 		}
 		{

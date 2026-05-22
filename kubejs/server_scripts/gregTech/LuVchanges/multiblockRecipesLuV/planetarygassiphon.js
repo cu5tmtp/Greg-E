@@ -26,7 +26,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(1)
-        .biome('ad_astra:orbit')
+        .dimension('ad_astra:earth_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonvenus')
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(2)
-        .biome('ad_astra:venus_orbit')
+        .dimension('ad_astra:venus_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonjupiter')
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(3)
-        .biome('ad_extendra:jupiter_orbit')
+        .dimension('ad_extendra:jupiter_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonsaturn')
@@ -64,7 +64,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(4)
-        .biome('ad_extendra:saturn_orbit')
+        .dimension('ad_extendra:saturn_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonuranus')
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(5)
-        .biome('ad_extendra:uranus_orbit')
+        .dimension('ad_extendra:uranus_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonneptune')
@@ -90,7 +90,7 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(6)
-        .biome('ad_extendra:neptune_orbit')
+        .dimension('ad_extendra:neptune_orbit')
 
     event.recipes.gtceu
         .planetarygassiphon('siphonsolarstorms')
@@ -101,6 +101,6 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(7)
-        .biome('ad_astra:mercury_orbit')
+        .dimension('ad_astra:mercury_orbit')
         
 });

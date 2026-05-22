@@ -32,6 +32,6 @@ ServerEvents.recipes((event) =>{
         .duration(1000)
         .EUt(GTValues.VA[GTValues.LuV])
         .circuit(1)
-        .biome('ad_astra:mars_orbit')
+        .dimension('ad_astra:mars_orbit')
 
 });

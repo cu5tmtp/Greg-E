@@ -264,14 +264,41 @@ ServerEvents.recipes((event) =>{
         },
         F: {
             item: 'gtceu:neutronium_block'
+        },
+        G: {
+            item: 'gtceu:mellodium_gear'
+        },
+        H: {
+            item: 'gtceu:small_mellodium_gear'
+        },
+        I: {
+            item: 'gtceu:mellodium_plate'
+        },
+        J: {
+            item: 'gtceu:prismalium_plate'
+        },
+        K: {
+            item: 'gtceu:small_prismalium_gear'
+        },
+        L: {
+            item: 'gtceu:prismalium_gear'
+        },
+        M: {
+            item: 'gtceu:small_stellarium_gear'
+        },
+        N: {
+            item: 'gtceu:stellarium_plate'
+        },
+        O: {
+            item: 'gtceu:stellarium_gear'
         }
         },
         pattern: [
         'AAAFFFAAA',
-        'AABCDCBAA',
-        'ABCCDCCBA',
-        'FCCCDCCCF',
-        'FDDDEDDDF',
+        'AABCOCBAA',
+        'ABCCMCCBA',
+        'FCCCNCCCF',
+        'FGHIEJKLF',
         'FCCCDCCCF',
         'ABCCDCCBA',
         'AABCDCBAA',

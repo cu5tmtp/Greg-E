@@ -8,14 +8,14 @@ ServerEvents.recipes((event) => {
 
     const solar_systems = [
         {
-            id: 1,
-            items: ['512x gtceu:carbon_dust', '512x ae2:silicon', '512x gtceu:quartz_sand_dust'],
-            fluids: ['gtceu:methane 35000', 'gtceu:ammonia 35000', 'gtceu:cygnium 3000']
+            id: 3,
+            items: ['64x gtceu:iridium_dust', '512x gtceu:platinum_dust', '512x powah:uraninite'],
+            fluids: ['gtceu:krypton 80000', 'gtceu:helium 50000', 'gtceu:helium_3 4000', 'gtceu:krypton 5000', 'gtceu:lacallium 3000']
         },
         {
-            id: 2,
-            items: ['512x gtceu:cobaltite_dust', '512x gtceu:gallium_dust', '512x gtceu:iron_dust'],
-            fluids: ['gtceu:argon 35000', 'gtceu:krypton 35000', 'gtceu:struvium 3000']
+            id: 4,
+            items: ['512x gtceu:bauxite_dust', '512x gtceu:magnesium_dust', '512x gtceu:silver_dust', '512x gtceu:lead_dust'],
+            fluids: ['gtceu:hydrogen 100000', 'gtceu:nitrogen 85000', 'gtceu:ammonia 35000', 'gtceu:deuterium 5000', 'gtceu:gliesium 3000']
         }
     ];
 
@@ -25,7 +25,8 @@ ServerEvents.recipes((event) => {
 
             let recipe = event.recipes.gtceu.deep_space_explore(`deep_space_explore/${system.id}/${fuel.amount}`)
                 .inputFluids(`${fuel.fluid} ${fuel.amount}`)
-                .addData('drone', 1)
+                .itemInputs('kubejs:mellodiumscience')
+                .addData('drone', 2)
                 .addData('system', system.id)
                 .duration(Math.floor(3000 * fuel.timeMult))
                 .circuit(uniqueCircuit);
@@ -38,14 +39,15 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.large_chemical_reactor()
         .inputFluids(
-            'gtceu:struvium 1000',
-            'gtceu:cygnium 1000'
+            'gtceu:lacallium 1000',
+            'gtceu:gliesium 1000'
         )
         .itemInputs(
-            '512x gtceu:iron_dust'
+            '256x powah:uraninite',
+            '96x gtceu:iridium_dust'
         )
         .outputFluids(
-            'gtceu:mellodium 5000'
+            'gtceu:prismalium 3000'
         )
         .duration(650)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -53,10 +55,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.autoclave()
         .inputFluids(
-            'gtceu:mellodium 144'
+            'gtceu:prismalium 144'
         )
         .itemOutputs(
-            'gtceu:mellodium_dust'
+            'gtceu:prismalium_dust'
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -64,13 +66,13 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
-            'gtceu:mellodium_dust'
+            'gtceu:prismalium_dust'
         )
         .inputFluids(
             'gtceu:krypton 350'
         )
         .itemOutputs(
-            'gtceu:hot_mellodium_ingot'
+            'gtceu:hot_prismalium_ingot'
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -78,20 +80,20 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.vacuum_freezer()
         .itemInputs(
-            'gtceu:hot_mellodium_ingot'
+            'gtceu:hot_prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:prismalium_ingot'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            '4x gtceu:mellodium_foil'
+            '4x gtceu:prismalium_foil'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -99,10 +101,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_plate'
+            'gtceu:prismalium_plate'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -110,10 +112,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            '2x gtceu:mellodium_ingot'
+            '2x gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:double_mellodium_plate'
+            'gtceu:double_prismalium_plate'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -121,10 +123,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            '4x gtceu:mellodium_ingot'
+            '4x gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_gear'
+            'gtceu:prismalium_gear'
         )
         .notConsumable('gtceu:gear_extruder_mold')
         .EUt(GTValues.VA[GTValues.HV])
@@ -132,10 +134,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:small_mellodium_gear'
+            'gtceu:small_prismalium_gear'
         )
         .notConsumable('gtceu:small_gear_extruder_mold')
         .EUt(GTValues.VA[GTValues.MV])
@@ -143,20 +145,20 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.lathe()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            '2x gtceu:mellodium_rod'
+            '2x gtceu:prismalium_rod'
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(200)
 
     event.recipes.gtceu.compressor()
         .itemInputs(
-            '9x gtceu:mellodium_ingot'
+            '9x gtceu:prismalium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_block'
+            'gtceu:prismalium_block'
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(300)

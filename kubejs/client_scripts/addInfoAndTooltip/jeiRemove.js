@@ -1284,4 +1284,9 @@ JEIEvents.hideItems((event) => {
         event.hide(getCorrectItem(item))
     });
 
+    event.hide('enderio:filled_soul_vial')
+    event.hide('enderio:broken_spawner')
+    event.hide('/^enderio:.*clear_glass.*/')
+    event.hide('/^enderio:.*fused_quartz.*/')
+
 })

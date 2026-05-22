@@ -25,7 +25,10 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '4x avaritia:infinity_catalyst',
             '64x gtceu:neutronium_block',
-            '64x avaritia:crystal_matrix'
+            '64x avaritia:crystal_matrix',
+            '64x gtceu:mellodium_block',
+            '32x gtceu:prismalium_block',
+            '16x gtceu:stellarium_block'
         )
         .itemOutputs(
             'avaritia:infinity_ingot'

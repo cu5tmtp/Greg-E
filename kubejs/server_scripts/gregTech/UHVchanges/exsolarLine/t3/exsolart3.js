@@ -8,14 +8,14 @@ ServerEvents.recipes((event) => {
 
     const solar_systems = [
         {
-            id: 1,
-            items: ['512x gtceu:carbon_dust', '512x ae2:silicon', '512x gtceu:quartz_sand_dust'],
-            fluids: ['gtceu:methane 35000', 'gtceu:ammonia 35000', 'gtceu:cygnium 3000']
+            id: 5,
+            items: ['512x gtceu:chromium_dust', '512x gtceu:antimony_dust', '512x gtceu:gypsum_dust', '512x gtceu:platinum_raw_dust'],
+            fluids: ['gtceu:mercury 60000', 'gtceu:hydrochloric_acid 50000', 'gtceu:methanol 4000', 'gtceu:dinitrogen_tetroxide 5000', 'gtceu:ophiuchium 3000']
         },
         {
-            id: 2,
-            items: ['512x gtceu:cobaltite_dust', '512x gtceu:gallium_dust', '512x gtceu:iron_dust'],
-            fluids: ['gtceu:argon 35000', 'gtceu:krypton 35000', 'gtceu:struvium 3000']
+            id: 6,
+            items: ['512x gtceu:ammonium_chloride_dust', '512x gtceu:magnesium_chloride_dust', '512x gtceu:barium_dust', '512x gtceu:rutile_dust'],
+            fluids: ['gtceu:naquadah 5000', 'gtceu:enriched_naquadah 3200', 'gtceu:enriched_naquadah_solution 1500', 'gtceu:steinium 3000']
         }
     ];
 
@@ -25,7 +25,8 @@ ServerEvents.recipes((event) => {
 
             let recipe = event.recipes.gtceu.deep_space_explore(`deep_space_explore/${system.id}/${fuel.amount}`)
                 .inputFluids(`${fuel.fluid} ${fuel.amount}`)
-                .addData('drone', 1)
+                .itemInputs('kubejs:lasermining')
+                .addData('drone', 3)
                 .addData('system', system.id)
                 .duration(Math.floor(3000 * fuel.timeMult))
                 .circuit(uniqueCircuit);
@@ -38,14 +39,16 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.large_chemical_reactor()
         .inputFluids(
-            'gtceu:struvium 1000',
-            'gtceu:cygnium 1000'
+            'gtceu:ophiuchium 1000',
+            'gtceu:steinium 1000'
         )
         .itemInputs(
-            '512x gtceu:iron_dust'
+            '512x gtceu:ammonium_chloride_dust',
+            '512x gtceu:platinum_dust',
+            '512x gtceu:chromium_dust'
         )
         .outputFluids(
-            'gtceu:mellodium 5000'
+            'gtceu:stellarium 3000'
         )
         .duration(650)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -53,10 +56,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.autoclave()
         .inputFluids(
-            'gtceu:mellodium 144'
+            'gtceu:stellarium 144'
         )
         .itemOutputs(
-            'gtceu:mellodium_dust'
+            'gtceu:stellarium_dust'
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -64,13 +67,13 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
-            'gtceu:mellodium_dust'
+            'gtceu:stellarium_dust'
         )
         .inputFluids(
             'gtceu:krypton 350'
         )
         .itemOutputs(
-            'gtceu:hot_mellodium_ingot'
+            'gtceu:hot_stellarium_ingot'
         )
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -78,20 +81,20 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.vacuum_freezer()
         .itemInputs(
-            'gtceu:hot_mellodium_ingot'
+            'gtceu:hot_stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:stellarium_ingot'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            '4x gtceu:mellodium_foil'
+            '4x gtceu:stellarium_foil'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -99,10 +102,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_plate'
+            'gtceu:stellarium_plate'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -110,10 +113,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.bender()
         .itemInputs(
-            '2x gtceu:mellodium_ingot'
+            '2x gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:double_mellodium_plate'
+            'gtceu:double_stellarium_plate'
         )
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
@@ -121,10 +124,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            '4x gtceu:mellodium_ingot'
+            '4x gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_gear'
+            'gtceu:stellarium_gear'
         )
         .notConsumable('gtceu:gear_extruder_mold')
         .EUt(GTValues.VA[GTValues.HV])
@@ -132,10 +135,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:small_mellodium_gear'
+            'gtceu:small_stellarium_gear'
         )
         .notConsumable('gtceu:small_gear_extruder_mold')
         .EUt(GTValues.VA[GTValues.MV])
@@ -143,20 +146,20 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.lathe()
         .itemInputs(
-            'gtceu:mellodium_ingot'
+            'gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            '2x gtceu:mellodium_rod'
+            '2x gtceu:stellarium_rod'
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(200)
 
     event.recipes.gtceu.compressor()
         .itemInputs(
-            '9x gtceu:mellodium_ingot'
+            '9x gtceu:stellarium_ingot'
         )
         .itemOutputs(
-            'gtceu:mellodium_block'
+            'gtceu:stellarium_block'
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(300)

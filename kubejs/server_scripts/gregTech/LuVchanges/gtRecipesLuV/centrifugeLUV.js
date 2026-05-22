@@ -1,14 +1,5 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.centrifuge('getthebismuth')
-        .itemInputs(
-            'kubejs:gassydust'
-        )
-        .chancedOutput('gtceu:bismuth_dust', 200, 0)
-        .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
-        .circuit(1)
-
     event.recipes.gtceu.centrifuge()
         .itemInputs(
             'kubejs:gassydust'
@@ -16,7 +7,7 @@ ServerEvents.recipes((event) => {
         .chancedOutput('gtceu:raw_fractalium', 200, 0)
         .duration(100)
         .EUt(GTValues.VA[GTValues.LuV])
-        .circuit(2)
+        .circuit(1)
 
     event.recipes.gtceu.centrifuge()
         .itemInputs(
@@ -27,7 +18,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(150)
-        .circuit(3)
+        .circuit(2)
 
     event.recipes.gtceu.centrifuge()
         .itemInputs(
@@ -38,7 +29,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(150)
-        .circuit(4)
+        .circuit(3)
 
     event.recipes.gtceu.centrifuge()
         .itemInputs(
@@ -49,7 +40,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(150)
-        .circuit(5)
+        .circuit(4)
 
 
 })
