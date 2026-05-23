@@ -131,6 +131,42 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.recipes.gtceu.macerator()
+        .itemInputs(
+            'advanced_ae:shattered_singularity'
+        )
+        .itemOutputs(
+            'advanced_ae:quantum_infused_dust'
+        )
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(50)
+
+    let inscriberPress = [
+        {in: ['ae2:engineering_processor_press', 'ae2:logic_processor_press'], out: 'advanced_ae:quantum_processor_press', duration: 1000, EU: GTValues.VA[GTValues.HV], id: 1},
+        {in: ['advanced_ae:quantum_processor_press', 'minecraft:iron_block'], out: 'advanced_ae:quantum_processor_press', duration: 300, EU: GTValues.VA[GTValues.HV], id: 2},
+        {in: ['ae2:engineering_processor_press', 'minecraft:iron_block'], out: 'ae2:engineering_processor_press', duration: 300, EU: GTValues.VA[GTValues.LV], id: 3},
+        {in: ['ae2:logic_processor_press', 'minecraft:iron_block'], out: 'ae2:logic_processor_press', duration: 300, EU: GTValues.VA[GTValues.LV], id: 4},
+        {in: ['ae2:silicon_press', 'minecraft:iron_block'], out: 'ae2:silicon_press', duration: 300, EU: GTValues.VA[GTValues.LV], id: 5},
+        {in: ['ae2:calculation_processor_press', 'minecraft:iron_block'], out: 'ae2:calculation_processor_press', duration: 300, EU: GTValues.VA[GTValues.LV], id: 6},
+        {in: ['megacells:accumulation_processor_press', 'minecraft:iron_block'], out: 'megacells:accumulation_processor_press', duration: 300, EU: GTValues.VA[GTValues.MV], id: 7},
+        {in: ['ae2:silicon_press', 'ae2:calculation_processor_press'], out: 'megacells:accumulation_processor_press', duration: 1000, EU: GTValues.VA[GTValues.MV], id: 8},
+    ]
+
+    inscriberPress.forEach((items) => {
+
+        event.recipes.gtceu.alloy_smelter(items.out + items.id)
+            .itemInputs(
+                items.in
+            )
+            .itemOutputs(
+                items.out
+            )
+            .duration(items.duration)
+            .EUt(items.EU)
+
+    })
+
+
     event.replaceInput(
         'expatternprovider:wireless_connector',
         'ae2:sky_dust',

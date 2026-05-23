@@ -10,6 +10,7 @@ ServerEvents.tags('item', (event) => {
     event.remove('forge:plates/plutonium', 'ad_extendra:plutonium_plate')
     event.remove('forge:dusts/obsidian', 'enderio:silicon')
     event.remove('forge:silicon', 'enderio:silicon')
+    event.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
 
     let materialy = [
         'iron', 'gold', 'copper', 'tin', 'ender_pearl', 'obsidian', 'cobalt', 'coal', 'lapis',

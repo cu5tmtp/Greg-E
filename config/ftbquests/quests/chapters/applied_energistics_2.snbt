@@ -28,7 +28,6 @@
 		{
 			dependencies: ["2893F483C10293E6"]
 			description: [""]
-			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
 			shape: "circle"
 			size: 1.0d
@@ -54,6 +53,7 @@
 					type: "item"
 				}
 			]
+			title: "Presses"
 			x: 2.5d
 			y: 1.5d
 		}

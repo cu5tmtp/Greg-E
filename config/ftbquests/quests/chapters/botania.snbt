@@ -367,6 +367,25 @@
 			x: 15.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: ["Great food!"]
+			id: "0EE026153FB4B623"
+			tasks: [
+				{
+					id: "0E56CF712D51CB09"
+					item: "kubejs:manaapple"
+					type: "item"
+				}
+				{
+					id: "6C1FA660580856F7"
+					item: "kubejs:manabread"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
 	]
 	title: "Botania"
 }

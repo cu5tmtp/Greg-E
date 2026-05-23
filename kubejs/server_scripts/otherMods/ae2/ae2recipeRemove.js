@@ -42,6 +42,8 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'expatternprovider:cobblestone_cell'})
     event.remove({ id: 'expatternprovider:water_cell'})
 
+    event.remove({type: 'ae2:inscriber'})
+
     event.remove({ id: 'ae2:misc/tiny_tnt'})
 
 });

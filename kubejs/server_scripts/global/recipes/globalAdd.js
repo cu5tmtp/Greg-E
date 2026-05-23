@@ -121,5 +121,17 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/lv'
     )
 
+    event.recipes.botania.mana_infusion(
+        'kubejs:manaapple',
+        'minecraft:apple',
+        2000
+    )
+
+    event.recipes.botania.mana_infusion(
+        'kubejs:manabread',
+        'minecraft:bread',
+        2000
+    )
+
 
 })

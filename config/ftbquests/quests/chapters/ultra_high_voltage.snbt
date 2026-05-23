@@ -136,7 +136,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["625B5E3CDDAECFFD"]
@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3CD4AF46B8A50D6A"]
@@ -181,7 +181,7 @@
 				item: "kubejs:animated/draconicprocessor"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -15.0d
 			y: 7.0d
 		}
 		{
@@ -398,7 +398,7 @@
 				item: "gregecore:deep_space_explorer"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.0d
 			y: 7.0d
 		}
 	]
