@@ -456,6 +456,56 @@
 			x: -2.5d
 			y: 1.5d
 		}
+		{
+			description: [
+				"Alternative to Pipez."
+				""
+				"Allows better filtering, and you can fit both fluid and item conduits on the same block."
+			]
+			id: "271B0AE3F87A3D8F"
+			tasks: [
+				{
+					id: "38733877ABCC93F8"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					id: "535618FBE99CBC28"
+					item: "enderio:ender_fluid_conduit"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Move around your world quickly!"]
+			id: "1097A6B02DFE1513"
+			tasks: [
+				{
+					id: "0F7415BBA9C37766"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "772E14644BA1F757"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
 	]
 	title: "QOL"
 }

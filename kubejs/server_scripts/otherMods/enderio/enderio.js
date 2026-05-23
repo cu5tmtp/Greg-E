@@ -113,6 +113,11 @@ ServerEvents.recipes((event) => {
     event.remove('enderio:extraction_speed_upgrade_2_upgrade')
     event.remove('enderio:extraction_speed_upgrade_3_upgrade')
 
+    event.remove('enderio:ender_fluid_conduit_upgrade')
+    event.remove('enderio:pressurized_fluid_conduit_upgrade')
+    event.remove('enderio:pressurized_fluid_conduit')
+    event.remove('enderio:fluid_conduit')
+
     event.recipes.botania.runic_altar(
         'minecraft:zombie_head',
         [
@@ -206,6 +211,12 @@ ServerEvents.recipes((event) => {
         'enderio:soul_chain',
         'enderio:powdered_quartz',
         'gtceu:quartz_sand_dust'
+    )
+
+    event.replaceInput(
+        'enderio:ender_fluid_conduit',
+        '#enderio:fused_quartz',
+        'enderio:fused_quartz'
     )
 
     event.shaped(

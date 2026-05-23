@@ -275,7 +275,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:giantabs'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.white('Abilities: Perfect Overclock and Parallel Hatch.'));
+            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch.'));
         }
     );
 

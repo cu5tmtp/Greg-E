@@ -1421,6 +1421,8 @@ let emiBannedItems = [
     "item:enderio:painted_sand",
     "item:enderio:painted_stairs",
     "item:enderio:painted_crafting_table",
+    "item:enderio:fluid_conduit",
+    "item:enderio:pressurized_fluid_conduit"
 ];
 
 let getCorrectItem = (emiBannedItems) => {
