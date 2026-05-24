@@ -133,5 +133,17 @@ ServerEvents.recipes((event) => {
         2000
     )
 
+    event.replaceInput(
+        'enchantinginfuser:enchanting_infuser',
+        'minecraft:amethyst_shard',
+        'gtceu:aluminium_ingot'
+    )
+
+    event.replaceInput(
+        'enchantinginfuser:advanced_enchanting_infuser',
+        'minecraft:netherite_ingot',
+        'gtceu:stainless_steel_ingot'
+    )
+
 
 })

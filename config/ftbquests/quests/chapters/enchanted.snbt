@@ -20,7 +20,7 @@
 				item: "enchanted:witch_cauldron"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -118,7 +118,7 @@
 				item: "enchanted:mystic_unguent"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -130,7 +130,7 @@
 				item: "enchanted:kettle"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 	]

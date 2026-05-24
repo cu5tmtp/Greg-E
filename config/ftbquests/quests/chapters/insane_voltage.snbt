@@ -901,10 +901,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"3124B071FC69F8CB"
-				"23FC73D7D09493AE"
-			]
+			dependencies: ["23FC73D7D09493AE"]
 			id: "7187C0DDA4485F07"
 			tasks: [{
 				id: "125E529F2D94D77E"
@@ -924,25 +921,6 @@
 			}]
 			x: -7.0d
 			y: 8.5d
-		}
-		{
-			description: ["If you're like wtf how do I make those models better, use this, with this upgrade."]
-			id: "3124B071FC69F8CB"
-			shape: "square"
-			tasks: [
-				{
-					id: "45A61D02747989BB"
-					item: "extrahnn:simulator_modeling"
-					type: "item"
-				}
-				{
-					id: "3E1C417E291C0B3E"
-					item: "extrahnn:upgrade_module_stack"
-					type: "item"
-				}
-			]
-			x: -13.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["7A53B96FCA3DB440"]
@@ -979,6 +957,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
+			description: ["Check out the Hostile Neural Networks chapter to learn how to upgrade the Data Models fast."]
 			id: "23FC73D7D09493AE"
 			tasks: [
 				{

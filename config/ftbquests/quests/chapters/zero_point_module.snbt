@@ -208,7 +208,7 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.0d
 			y: -3.0d
 		}
 		{
@@ -541,7 +541,11 @@
 				"6AFA62A63FC44CCF"
 				"586266B2096D27A7"
 			]
-			description: [""]
+			description: [
+				"Allows only 1 computation data input hatch."
+				""
+				"How to connect more HPCA for more CWU? You have to use Network Switch to un-fork the optical fiber cables, and you have to use Bridging Component on the HPCA."
+			]
 			icon: "gtceu:research_station"
 			id: "18DF12E242210030"
 			tasks: [{

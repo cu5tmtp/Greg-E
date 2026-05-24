@@ -18,7 +18,7 @@
 				item: "botanicalextramachinery:malachite_ingot"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -38,7 +38,7 @@
 				item: "botanicalextramachinery:base_industrial_agglomeration_factory"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -64,7 +64,7 @@
 				title: "Scale up those machines"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -75,7 +75,7 @@
 				item: "botanicalextramachinery:crimson_dragonstone_block"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -0.5d
 		}
 		{
@@ -177,7 +177,7 @@
 				item: "botanicalextramachinery:catalyst_speed"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -189,7 +189,7 @@
 				item: "gregecore:malachite_coil"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -3.5d
 		}
 	]
