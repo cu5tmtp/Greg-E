@@ -1422,7 +1422,23 @@ let emiBannedItems = [
     "item:enderio:painted_stairs",
     "item:enderio:painted_crafting_table",
     "item:enderio:fluid_conduit",
-    "item:enderio:pressurized_fluid_conduit"
+    "item:enderio:pressurized_fluid_conduit",
+    "item:ae2:ender_dust",
+    "item:gtceu:tiny_dirty_ancient_debris_dust",
+    "item:gtceu:tiny_purified_ancient_debris_dust",
+    "item:gtceu:small_purified_ancient_debris_dust",
+    "item:gtceu:tiny_stygian_slag_dust",
+    "item:gtceu:small_stygian_slag_dust",
+    "item:gtceu:tiny_muddy_infernit_dust",
+    "item:gtceu:tiny_infernit_dust",
+    "item:gtceu:small_muddy_infernit_dust",
+    "item:gtceu:small_infernit_dust",
+    "item:gtceu:tiny_ignisium_dust",
+    "item:gtceu:tiny_ignisium_sulfide_dust",
+    "item:gtceu:small_ignisium_dust",
+    "item:gtceu:small_ignisium_sulfide_dust",
+    "item:ae2:inscriber",
+    "item:expatternprovider:ex_inscriber"
 ];
 
 let getCorrectItem = (emiBannedItems) => {
