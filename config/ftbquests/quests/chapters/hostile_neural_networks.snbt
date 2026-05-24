@@ -113,6 +113,22 @@
 			x: -9.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["46BFB99A88967002"]
+			description: [
+				"Does the amount of netherite for these machines seem high?"
+				""
+				"If yes, check out recipes for this dust, if you complete the production line, you can end up with a lot of netherite!"
+			]
+			id: "72F73D072168A441"
+			tasks: [{
+				id: "1506B24DA5E936DE"
+				item: "gtceu:netherite_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
 	]
 	title: "Hostile Neural Networks"
 }

@@ -52,4 +52,15 @@ ServerEvents.recipes((event) =>{
         .duration(100)
         .EUt(480)
         .circuit(5)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:voiddust'
+        )
+        .itemOutputs(
+            '3x gtceu:raw_blue_topaz'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(6)
 })

@@ -244,6 +244,18 @@
   "material.gtceu.aethelosil": "Aethelosill",
   "material.gtceu.solar_bronze": "Solar Bronze",
 
+  "material.gtceu.dirty_ancient_debris": "Dirty Ancient Debris",
+  "material.gtceu.purified_ancient_debris": "Purified Ancient Debris",
+  "material.gtceu.ignisium_sulfide": "Ignisium Sulfide",
+  "material.gtceu.ignisium": "Ignisium",
+  "material.gtceu.stygian_slag": "Stygian Slag",
+  "material.gtceu.stygian_solution": "Stygian Solution",
+  "material.gtceu.muddy_infernit": "Muddy Infernit",
+  "material.gtceu.infernit_slurry": "Infernit Slurry",
+  "material.gtceu.infernit": "Infernit",
+  "block.gtceu.specthermalcentrifuge": "Specialized Thermal Centrifuge",
+  "gtceu.specthermalcentrifuge": "Specialized Thermal Centrifuge",
+
   "item.kubejs.manaapple": "Mana Apple",
   "item.kubejs.manabread": "Mana Bread",
 

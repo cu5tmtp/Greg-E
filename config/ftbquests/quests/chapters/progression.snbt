@@ -1209,6 +1209,16 @@
 			x: 23.5d
 			y: 0.0d
 		}
+		{
+			id: "302AE4E5592D49EF"
+			tasks: [{
+				id: "0F51F50E7DBC3517"
+				item: "gtceu:raw_blue_topaz"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
 	]
 	title: "Progression"
 }
