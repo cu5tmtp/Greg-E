@@ -1,6 +1,5 @@
 {
     "entity": "minecraft:blaze",
-    "variants": [],
     "name": "Blaze",
     "name_color": "#FFBF00",
     "gui_scale": 1,

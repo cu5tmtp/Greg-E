@@ -1,6 +1,5 @@
 {
     "entity": "twilightforest:minoshroom",
-    "variants": [],
     "name": "entity.twilightforest.minoshroom",
     "name_color": "#ff0000",
     "gui_scale": 0.8,

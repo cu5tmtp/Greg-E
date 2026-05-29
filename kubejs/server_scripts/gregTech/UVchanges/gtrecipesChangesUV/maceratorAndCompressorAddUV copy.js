@@ -19,5 +19,16 @@ ServerEvents.recipes((event) => {
         )
         .duration(100)
         .EUt(GTValues.VA[GTValues.UV])
+
+    event.recipes.gtceu.extractor()
+        .itemInputs(
+            '#gtceu:circuits/uv'
+        )
+        .outputFluids(
+            'kubejs:uvcas'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UV])
+
     
 });

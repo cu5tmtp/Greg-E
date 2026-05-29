@@ -1,6 +1,5 @@
 {
     "entity": "twilightforest:armored_giant",
-    "variants": [],
     "name": "entity.twilightforest.armored_giant",
     "name_color": "#807F80",
     "gui_scale": 0.3,

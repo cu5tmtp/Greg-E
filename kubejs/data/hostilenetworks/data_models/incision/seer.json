@@ -1,6 +1,5 @@
 {
     "entity": "incision:seer",
-    "variants": [],
     "name": "Seer",
     "name_color": "#DC143C",
     "gui_scale": 0.7,

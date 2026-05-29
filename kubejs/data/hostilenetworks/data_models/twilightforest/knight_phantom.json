@@ -1,6 +1,5 @@
 {
     "entity": "twilightforest:knight_phantom",
-    "variants": [],
     "name": "entity.twilightforest.knight_phantom",
     "name_color": "#03fc30",
     "gui_scale": 1.25,

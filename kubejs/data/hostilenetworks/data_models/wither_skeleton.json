@@ -1,6 +1,5 @@
 {
     "entity": "minecraft:wither_skeleton",
-    "variants": [],
     "name": "entity.minecraft.wither_skeleton",
     "name_color": "#101010",
     "gui_scale": 1,

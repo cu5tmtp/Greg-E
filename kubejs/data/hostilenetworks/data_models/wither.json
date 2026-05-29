@@ -1,6 +1,5 @@
 {
     "entity": "minecraft:wither",
-    "variants": [],
     "name": "entity.minecraft.wither",
     "name_color": "#101010",
     "gui_scale": 0.6,

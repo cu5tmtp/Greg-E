@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.assembly_line('parallellboosterfirst')
+    event.recipes.gtceu.assembler('parallellboosterfirst')
         .itemInputs(
             '16x #gtceu:circuits/zpm',
             '32x gregecore:blood_infused_cable_double_wire',
@@ -11,9 +11,9 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:parallel_booster_machine')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.ZPM])
-        ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:iv_parallel_hatch')).EUt(GTValues.VA[GTValues.LuV]).duration(400))
+        .circuit(1)
 
-    event.recipes.gtceu.assembly_line()
+    event.recipes.gtceu.assembler()
         .itemInputs(
             '32x #gtceu:circuits/zpm',
             '32x gregecore:blood_infused_cable_double_wire',
@@ -25,6 +25,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gtceu:giantabs')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.ZPM])
-        ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:alloy_blast_smelter')).EUt(GTValues.VA[GTValues.LuV]).duration(400))
+        .circuit(2)
 
 });

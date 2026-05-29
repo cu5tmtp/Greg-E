@@ -1,6 +1,5 @@
 {
     "entity": "minecraft:shulker",
-    "variants": [],
     "name": "entity.minecraft.shulker",
     "name_color": "#800080",
     "gui_scale": 1.0,

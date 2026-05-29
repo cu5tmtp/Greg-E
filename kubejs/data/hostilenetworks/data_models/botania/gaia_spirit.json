@@ -1,6 +1,5 @@
 {
     "entity": "botania:doppleganger",
-    "variants": [],
     "name": "entity.botania.doppleganger",
     "name_color": "#04d63c",
     "gui_scale": 0.85,
