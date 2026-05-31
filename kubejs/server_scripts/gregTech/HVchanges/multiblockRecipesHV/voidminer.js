@@ -22,6 +22,7 @@ ServerEvents.recipes((event) =>{
         .itemOutputs('kubejs:voiddust')
         .duration(100)
         .EUt(480)
+        .circuit(1)
 
     event.recipes.gtceu
         .voidminer('voidtentacle')

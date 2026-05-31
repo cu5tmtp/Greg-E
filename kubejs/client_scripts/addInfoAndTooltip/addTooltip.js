@@ -65,7 +65,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Wood plank that underwent difficult Draenei technique of cultivating wood.'));
-            text.add(2, Text.gray('This technique is impossible to recreate, as it needs expertese and environment on Mercury.'));
+            text.add(2, Text.gray('This technique is impossible to recreate, as it needs expertise and environment on Mercury.'));
         }
     );
 

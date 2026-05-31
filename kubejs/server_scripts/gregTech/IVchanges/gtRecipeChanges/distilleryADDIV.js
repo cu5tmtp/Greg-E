@@ -11,7 +11,6 @@ ServerEvents.recipes((event) => {
             'gtceu:krypton 1000',
             'gtceu:xenon 1000',
             'gtceu:nitrogen_dioxide 122000',
-            'gtceu:deuterium 50000',
             'gtceu:helium 130000'
         )
         .chancedOutput(

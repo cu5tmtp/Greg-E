@@ -23,6 +23,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('kubejs:deepslateearth')
         .duration(100)
         .EUt(120)
+        .circuit(1)
 
     event.recipes.gtceu
         .alchtransformer('cobbleonecompression')

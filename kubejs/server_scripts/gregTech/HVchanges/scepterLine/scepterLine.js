@@ -43,6 +43,7 @@ ServerEvents.recipes((event) => {
             '3x kubejs:voiddust'
         )
         .duration(50)
-        .EUt(GTValues.VA[GTValues.EV])
+        .EUt(GTValues.VA[GTValues.HV])
+        .circuit(2)
         
 })

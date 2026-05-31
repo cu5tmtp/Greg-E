@@ -311,6 +311,24 @@
   "material.gtceu.nickel_tetracarbonyl": "Nickel Tetracarbonyl",
   "material.gtceu.pure_nickelish": "Pure Nickel",
 
+  "material.gtceu.aniline": "Aniline",
+  "material.gtceu.p_phenylenediamine": "p-Phenylenediamine",
+  "material.gtceu.proto_p_xylene": "Proto p-Xylene",
+  "material.gtceu.terephthalic_acid": "Terephtalic Acid",
+  "material.gtceu.phosgene": "Phosgene",
+  "material.gtceu.terephthaloyl_chloride": "Terephthaloyl Chloride",
+  "material.gtceu.kevlar": "Kevlar",
+
+  "material.gtceu.semi_heavy_water": "Semi-Heavy Water",
+  "material.gtceu.depleted_hydrogen_sulfide": "Depleted Hydrogen Sulfide",
+  "material.gtceu.heavy_water": "Heavy Water",
+
+  "material.gtceu.anthraquinone": "Anthraquinone",
+  "material.gtceu.anthracene": "Anthracene",
+  "material.gtceu.anthrahydroquinone": "Anthrahydroquinone",
+  "material.gtceu.crude_hydrogen_peroxide": "Crude Hydrogen Peroxide",
+  "material.gtceu.waste_water": "Waste Water",
+
   "material.gtceu.cygnium": "Cygnium",
   "material.gtceu.struvium": "Struvium",
   "material.gtceu.mellodium": "Mellodium",

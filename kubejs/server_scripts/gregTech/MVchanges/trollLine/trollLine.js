@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:troglodyum_ingot',
         )
-        .blastFurnaceTemp(2500)
+        .blastFurnaceTemp(1800)
         .EUt(GTValues.VA[GTValues.MV])
         .duration(200)
 
@@ -60,5 +60,6 @@ ServerEvents.recipes((event) => {
         )
         .duration(100)
         .EUt(120)
+        .circuit(2)
 
 })

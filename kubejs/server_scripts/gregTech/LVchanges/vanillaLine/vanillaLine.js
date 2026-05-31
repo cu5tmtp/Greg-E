@@ -56,10 +56,10 @@ ServerEvents.recipes((event) => {
             'gtceu:vanilla_extract 250'
         )
         .itemOutputs(
-            '4x kubejs:commonearth'
+            '6x kubejs:commonearth'
         )
         .duration(100)
         .EUt(15)
-        .circuit(1)
+        .circuit(2)
 
 })
