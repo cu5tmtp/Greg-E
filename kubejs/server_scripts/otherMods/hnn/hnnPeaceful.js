@@ -52,6 +52,19 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(2000)
 
+    event.recipes.gtceu.circuit_assembler('gettrollmodel')
+        .itemInputs(
+            '16x minecraft:stone',
+            '4x twilightforest:fluffy_cloud',
+            '2x twilightforest:torchberries',
+            '#gtceu:circuits/mv'
+        )
+        .itemOutputs(
+            Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:twilightforest/troll",iterations:1}}')
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(2000)
+
     event.recipes.gtceu.circuit_assembler('gethydramodel')
         .itemInputs(
             '16x twilightforest:twilight_oak_log',

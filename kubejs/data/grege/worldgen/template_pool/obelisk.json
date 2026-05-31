@@ -1,5 +1,5 @@
 {
-  "name": "grege:woodyard",
+  "name": "grege:obelisk",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "grege:woodyard",
+        "location": "grege:obelisk",
         "processors": "minecraft:empty"
       }
     }

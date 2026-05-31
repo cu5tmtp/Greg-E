@@ -11,5 +11,8 @@ JEIEvents.information((event) => {
     event.addItem('gregecore:unstable', ['Find this in the Fractured Lands in the Floaty Rocks structure, you get there by using Reality Fracture Engine.']);
     event.addItem('kubejs:vileheart', ['Find this in the Nether, in the Eroded Yard biome. Use Explorers Compass to find the Vile Mouth structure faster.']);
     event.addItem('gtceu:end_certus_quartz_gem', ['Find this in the End, in the End Cities. Use Explorers Compass to find the End Cities structure faster.']);
+    event.addItem('kubejs:alkhalaclaw', ['Find this on Ceres, in the obelisk. Use Explorers Compass to find the obelisk structure faster.']);
+    event.addItem('kubejs:deleriancoin', ['Find this on Mars, in the destroyed temple. Use Explorers Compass to find destroyed temple structure faster.']);
+    event.addItem('kubejs:draeneiwood', ['Find this on Mercury, in the woodyard structure. Use Explorers Compass to find the woodyard structure faster.']);
 
 })

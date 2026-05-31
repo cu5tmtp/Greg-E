@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             'gtceu:reinforced_cobblestone_ingot'
         )
         .itemOutputs(
-            'gtceu:reinforced_cobblestone_plate'
+            '2x gtceu:reinforced_cobblestone_plate'
         )
         .circuit(1)
         .EUt(GTValues.VA[GTValues.LuV])
@@ -21,6 +21,6 @@ ServerEvents.recipes((event) => {
         )
         .circuit(1)
         .EUt(GTValues.VA[GTValues.LuV])
-        .duration(100)
+        .duration(50)
 
 })

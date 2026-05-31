@@ -34,6 +34,43 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:alkhalaclaw'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Relic from a long extinct animal that used to live on Ceres.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:deleriancoin'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Coin from an ancient Mars civilization that left for better planets long before life on Earth formed.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:scepterofsand'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray("Scepter made from alien relics and modern technology. Doesn't need a dragon to form."));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:draeneiwood'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Wood plank that underwent difficult Draenei technique of cultivating wood.'));
+            text.add(2, Text.gray('This technique is impossible to recreate, as it needs expertese and environment on Mercury.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:dewvial'
         ],
         (item, advanced, text) => {

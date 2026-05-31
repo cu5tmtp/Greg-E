@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'kubejs:activatedrune'
         )
-        .duration(200)
+        .duration(50)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(1)
 

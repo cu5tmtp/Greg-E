@@ -88,6 +88,12 @@ StartupEvents.registry('item', event => {
     event.create('magicallaserlens').displayName('Magical Laser Lens')
     event.create('mellodiumscience').displayName('Mellodium Science Kit')
     event.create('lasermining').displayName('Laser Mining Tool')
+    event.create('vanilla').displayName('Vanilla Pod')
+    event.create('tooth').displayName('Troll Tooth')
+    event.create('alkhalaclaw').displayName('Alkhala Claw')
+    event.create('deleriancoin').displayName('Delerian Coin')
+    event.create('draeneiwood').displayName('Draenei Wood Plank')
+    event.create('scepterofsand').displayName('Scepter Of The Shifting Sands')
 
     event.create('naquadahfilter').displayName('Naquadah Filter')
     event.create('nebulonfilter').displayName('Nebulon-Alpha Filter')

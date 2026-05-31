@@ -296,6 +296,21 @@
   "material.gtceu.hydrovalhallium_acid": "Hydrovalhallium Acid",
   "material.gtceu.vibranium": "Vibranium",
 
+  "material.gtceu.vanilla_pod": "Vanilla Pod",
+  "material.gtceu.impure_vanilla_extract": "Impure Vanilla Extract",
+  "material.gtceu.vanilla_extract": "Vanilla Extract",
+
+  "material.gtceu.troll_tooth": "Troll Tooth",
+  "material.gtceu.purified_troll_tooth": "Purified Troll Tooth",
+  "material.gtceu.troglodyum": "Troglodyum",
+
+  "material.gtceu.moving_sand": "Moving Sand",
+
+  "material.gtceu.nickel_oxide": "Nickel Oxide",
+  "material.gtceu.dirty_nickelish": "Dirty Nickel",
+  "material.gtceu.nickel_tetracarbonyl": "Nickel Tetracarbonyl",
+  "material.gtceu.pure_nickelish": "Pure Nickel",
+
   "material.gtceu.cygnium": "Cygnium",
   "material.gtceu.struvium": "Struvium",
   "material.gtceu.mellodium": "Mellodium",
