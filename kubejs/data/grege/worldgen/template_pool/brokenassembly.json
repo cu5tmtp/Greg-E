@@ -1,5 +1,5 @@
 {
-  "name": "grege:vilemouth",
+  "name": "grege:brokenassembly",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "grege:vilemouth",
+        "location": "grege:brokenassembly",
         "processors": "minecraft:empty"
       }
     }

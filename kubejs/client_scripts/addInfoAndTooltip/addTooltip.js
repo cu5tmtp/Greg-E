@@ -43,6 +43,44 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:robotarm'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('How did this get here?'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:sensor'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Powered by unknown dwarven technology.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:computation_matrix'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Left behind by the ancient civilization of Undergarden.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gtceu:adrobstat'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Abilities: Perfect Overclock, Parallelization and Mass Machine Parts assembly.'));
+            text.add(2, Text.gray('This multiblock will make recipes for machine parts cheaper by 1/4.'));
+        }
+        
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:deleriancoin'
         ],
         (item, advanced, text) => {

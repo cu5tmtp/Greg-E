@@ -21,7 +21,7 @@ ServerEvents.recipes((event) =>{
             '6x gregecore:plutonium_hexafluoride_dust',
             'kubejs:li'
         )   
-        .itemOutputs('kubejs:pu')
+        .itemOutputs('3x kubejs:pu')
         .duration(250)
         .EUt(480)
 

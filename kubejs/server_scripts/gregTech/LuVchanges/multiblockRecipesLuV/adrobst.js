@@ -103,6 +103,111 @@ ServerEvents.recipes((event) =>{
             .EUt(GTValues.VA[GTValues.LuV]);
     });
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'kubejs:robotarm',
+            'kubejs:sensor',
+            'kubejs:computation_matrix',
+            '8x #gtceu:circuits/luv',
+            '4x gtceu:luv_electric_motor',
+            'gtceu:luv_emitter',
+            '16x gtceu:large_scale_assembler_casing',
+            '8x gregecore:superelement27_single_wire'
+        )
+        .inputFluids(
+            'gregecore:superelement27 1000'
+        )
+        .itemOutputs(
+            'gtceu:adrobstat'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(600)
+        .circuit(8)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '8x gtceu:luv_electric_motor',
+            '8x gtceu:luv_electric_pump',
+            '8x gtceu:luv_conveyor_module',
+            '8x gtceu:luv_electric_piston',
+            '8x gtceu:luv_robot_arm',
+            '8x gtceu:luv_field_generator',
+            '8x gtceu:luv_emitter',
+            '8x gtceu:luv_sensor'
+        )
+        .itemOutputs(
+            'kubejs:luvpermit'
+        )
+        .inputFluids(
+            'gregecore:superelement27 1000'
+        )
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(600)
+        .circuit(8)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '8x gtceu:zpm_electric_motor',
+            '8x gtceu:zpm_electric_pump',
+            '8x gtceu:zpm_conveyor_module',
+            '8x gtceu:zpm_electric_piston',
+            '8x gtceu:zpm_robot_arm',
+            '8x gtceu:zpm_field_generator',
+            '8x gtceu:zpm_emitter',
+            '8x gtceu:zpm_sensor'
+        )
+        .itemOutputs(
+            'kubejs:zpmpermit'
+        )
+        .inputFluids(
+            'gtceu:europium 1000'
+        )
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(600)
+        .circuit(8)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '8x gtceu:uv_electric_motor',
+            '8x gtceu:uv_electric_pump',
+            '8x gtceu:uv_conveyor_module',
+            '8x gtceu:uv_electric_piston',
+            '8x gtceu:uv_robot_arm',
+            '8x gtceu:uv_field_generator',
+            '8x gtceu:uv_emitter',
+            '8x gtceu:uv_sensor'
+        )
+        .itemOutputs(
+            'kubejs:uvpermit'
+        )
+        .inputFluids(
+            'gtceu:darmstadtium 1000'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(600)
+        .circuit(8)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '8x gtceu:uhv_electric_motor',
+            '8x gtceu:uhv_electric_pump',
+            '8x gtceu:uhv_conveyor_module',
+            '8x gtceu:uhv_electric_piston',
+            '8x gtceu:uhv_robot_arm',
+            '8x gtceu:uhv_field_generator',
+            '8x gtceu:uhv_emitter',
+            '8x gtceu:uhv_sensor'
+        )
+        .itemOutputs(
+            'kubejs:uhvpermit'
+        )
+        .inputFluids(
+            'gtceu:neutronium 1000'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(600)
+        .circuit(8)
+
     const motorInputs = [
         { 
             longrodn: 12, 
@@ -408,9 +513,9 @@ ServerEvents.recipes((event) =>{
             smallg: 'gtceu:small_nebulon_alpha_gear', smallgn: 72,
             motor: 'gtceu:uhv_electric_motor', motorn: 48, 
             piston: 'gtceu:uhv_electric_piston', pistonn: 24, 
-            circuit1: '#gtceu:circuits/uhv', circuit1n: 24, 
-            circuit2: '#gtceu:circuits/uv', circuit2n: 48, 
-            circuit3:'#gtceu:circuits/zpm', circuit3n: 72, 
+            circuit1: 'kubejs:animated/draconicprocessor', circuit1n: 24, 
+            circuit2: '#gtceu:circuits/uhv', circuit2n: 48, 
+            circuit3: '#gtceu:circuits/uv', circuit3n: 72, 
             cable: 'gregecore:draconium_cable_single_wire', cablen: 56, 
             fluids: ['gtceu:soldering_alloy 9000', 'gtceu:lubricant 6000', 'gtceu:naquadria 3000'], 
             eut: GTValues.VA[GTValues.UHV],
@@ -418,7 +523,7 @@ ServerEvents.recipes((event) =>{
             circuit: 2,
             duration: 150,
             permit: 'kubejs:uhvpermit'
-        },
+        }
     ]
 
     armsInputs.forEach(items => {
@@ -432,6 +537,342 @@ ServerEvents.recipes((event) =>{
                 `${items.circuit1n}x ${items.circuit1}`,
                 `${items.circuit2n}x ${items.circuit2}`,
                 `${items.circuit3n}x ${items.circuit3}`,
+                `${items.cablen}x ${items.cable}`
+            )
+            .inputFluids(
+                items.fluids
+            )
+            .notConsumable(items.permit)
+            .itemOutputs(items.output)
+            .circuit(items.circuit)
+            .duration(items.duration)
+            .EUt(items.eut);
+    })
+
+    const emitterInputs = [
+        { 
+            frame: 'gtceu:hsss_frame', framen: 12,
+            motor: 'gtceu:luv_electric_motor', motorn: 12, 
+            rod: 'gtceu:long_ruridit_rod', rodn: 48,
+            star: 'gtceu:quantum_star', starn: 12,
+            circuit1: '#gtceu:circuits/luv', circuit1n: 24, 
+            foil: 'gtceu:palladium_foil', foiln: 1000,
+            cable: 'gtceu:niobium_titanium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 2000'], 
+            eut: GTValues.VA[GTValues.LuV],
+            output: '16x gtceu:luv_emitter',
+            circuit: 5,
+            duration: 200,
+            permit: 'kubejs:luvpermit'
+        },
+        { 
+            frame: 'gtceu:naquadah_alloy_frame', framen: 12,
+            motor: 'gtceu:zpm_electric_motor', motorn: 12, 
+            rod: 'gtceu:long_osmiridium_rod', rodn: 48,
+            star: 'gtceu:quantum_star', starn: 24,
+            circuit1: '#gtceu:circuits/zpm', circuit1n: 24, 
+            foil: 'gtceu:trinium_foil', foiln: 1000,
+            cable: 'gtceu:vanadium_gallium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 3000'], 
+            eut: GTValues.VA[GTValues.ZPM],
+            output: '16x gtceu:zpm_emitter',
+            circuit: 5,
+            duration: 200,
+            permit: 'kubejs:zpmpermit'
+        },
+        { 
+            frame: 'gtceu:tritanium_frame', framen: 12,
+            motor: 'gtceu:uv_electric_motor', motorn: 12, 
+            rod: 'gtceu:long_tritanium_rod', rodn: 48,
+            star: 'gtceu:gravi_star', starn: 12,
+            circuit1: '#gtceu:circuits/uv', circuit1n: 24, 
+            foil: 'gtceu:naquadria_foil', foiln: 1000,
+            cable: 'gtceu:yttrium_barium_cuprate_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 4000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UV],
+            output: '16x gtceu:uv_emitter',
+            circuit: 5,
+            duration: 200,
+            permit: 'kubejs:uvpermit'
+        },
+        { 
+            frame: 'gtceu:nebulon_alpha_frame', framen: 12,
+            motor: 'gtceu:uhv_electric_motor', motorn: 12, 
+            rod: 'gtceu:long_nebulon_alpha_rod', rodn: 96,
+            star: 'gtceu:gravi_star', starn: 24,
+            circuit1: '#gtceu:circuits/uhv', circuit1n: 24, 
+            foil: 'gtceu:naquadria_foil', foiln: 1000,
+            cable: 'gregecore:draconium_cable_single_wire', cablen: 96, 
+            fluids: ['gtceu:soldering_alloy 5000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UHV],
+            output: '16x gtceu:uhv_emitter',
+            circuit: 5,
+            duration: 200,
+            permit: 'kubejs:uhvpermit'
+        }
+    ]
+
+    emitterInputs.forEach(items => {
+        event.recipes.gtceu.adrobstat()
+            .itemInputs(
+                `${items.framen}x ${items.frame}`,
+                `${items.motorn}x ${items.motor}`,
+                `${items.rodn}x ${items.rod}`,
+                `${items.starn}x ${items.star}`,
+                `${items.circuit1n}x ${items.circuit1}`,
+                `${items.foiln}x ${items.foil}`,
+                `${items.cablen}x ${items.cable}`
+            )
+            .inputFluids(
+                items.fluids
+            )
+            .notConsumable(items.permit)
+            .itemOutputs(items.output)
+            .circuit(items.circuit)
+            .duration(items.duration)
+            .EUt(items.eut);
+    })
+
+    const sensorInputs = [
+        { 
+            frame: 'gtceu:hsss_frame', framen: 12,
+            motor: 'gtceu:luv_electric_motor', motorn: 12, 
+            plate: 'gtceu:ruridit_plate', platen: 48,
+            star: 'gtceu:quantum_star', starn: 12,
+            circuit1: '#gtceu:circuits/luv', circuit1n: 24, 
+            foil: 'gtceu:palladium_foil', foiln: 1000,
+            cable: 'gtceu:niobium_titanium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 2000'], 
+            eut: GTValues.VA[GTValues.LuV],
+            output: '16x gtceu:luv_sensor',
+            circuit: 7,
+            duration: 200,
+            permit: 'kubejs:luvpermit'
+        },
+        { 
+            frame: 'gtceu:naquadah_alloy_frame', framen: 12,
+            motor: 'gtceu:zpm_electric_motor', motorn: 12, 
+            plate: 'gtceu:osmiridium_plate', platen: 48,
+            star: 'gtceu:quantum_star', starn: 24,
+            circuit1: '#gtceu:circuits/zpm', circuit1n: 24, 
+            foil: 'gtceu:trinium_foil', foiln: 1000,
+            cable: 'gtceu:vanadium_gallium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 3000'], 
+            eut: GTValues.VA[GTValues.ZPM],
+            output: '16x gtceu:zpm_sensor',
+            circuit: 7,
+            duration: 200,
+            permit: 'kubejs:zpmpermit'
+        },
+        { 
+            frame: 'gtceu:tritanium_frame', framen: 12,
+            motor: 'gtceu:uv_electric_motor', motorn: 12, 
+            plate: 'gtceu:tritanium_plate', platen: 48,
+            star: 'gtceu:gravi_star', starn: 12,
+            circuit1: '#gtceu:circuits/uv', circuit1n: 24, 
+            foil: 'gtceu:naquadria_foil', foiln: 1000,
+            cable: 'gtceu:yttrium_barium_cuprate_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 4000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UV],
+            output: '16x gtceu:uv_sensor',
+            circuit: 7,
+            duration: 200,
+            permit: 'kubejs:uvpermit'
+        },
+        { 
+            frame: 'gtceu:nebulon_alpha_frame', framen: 12,
+            motor: 'gtceu:uhv_electric_motor', motorn: 12, 
+            plate: 'gtceu:nebulon_alpha_plate', platen: 96,
+            star: 'gtceu:gravi_star', starn: 24,
+            circuit1: '#gtceu:circuits/uhv', circuit1n: 24, 
+            foil: 'gtceu:naquadria_foil', foiln: 1000,
+            cable: 'gregecore:draconium_cable_single_wire', cablen: 96, 
+            fluids: ['gtceu:soldering_alloy 5000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UHV],
+            output: '16x gtceu:uhv_sensor',
+            circuit: 7,
+            duration: 200,
+            permit: 'kubejs:uhvpermit'
+        }
+    ]
+
+    sensorInputs.forEach(items => {
+        event.recipes.gtceu.adrobstat()
+            .itemInputs(
+                `${items.framen}x ${items.frame}`,
+                `${items.motorn}x ${items.motor}`,
+                `${items.platen}x ${items.plate}`,
+                `${items.starn}x ${items.star}`,
+                `${items.circuit1n}x ${items.circuit1}`,
+                `${items.foiln}x ${items.foil}`,
+                `${items.cablen}x ${items.cable}`
+            )
+            .inputFluids(
+                items.fluids
+            )
+            .notConsumable(items.permit)
+            .itemOutputs(items.output)
+            .circuit(items.circuit)
+            .duration(items.duration)
+            .EUt(items.eut);
+    })
+
+    const generatorInputs = [
+        { 
+            frame: 'gtceu:hsss_frame', framen: 12,
+            plate: 'gtceu:ruridit_plate', platen: 72,
+            star: 'gtceu:quantum_star', starn: 12,
+            emitter: 'gtceu:luv_emitter', emittern: 24, 
+            circuit1: '#gtceu:circuits/luv', circuit1n: 24, 
+            wire: 'gtceu:fine_indium_tin_barium_titanium_cuprate_wire', wiren: 1000,
+            cable: 'gtceu:niobium_titanium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 5000'], 
+            eut: GTValues.VA[GTValues.LuV],
+            output: '16x gtceu:luv_field_generator',
+            circuit: 6,
+            duration: 200,
+            permit: 'kubejs:luvpermit'
+        },
+        { 
+            frame: 'gtceu:naquadah_alloy_frame', framen: 12,
+            plate: 'gtceu:naquadah_alloy_plate', platen: 72,
+            star: 'gtceu:quantum_star', starn: 12,
+            emitter: 'gtceu:zpm_emitter', emittern: 24, 
+            circuit1: '#gtceu:circuits/zpm', circuit1n: 24, 
+            wire: 'gtceu:fine_uranium_rhodium_dinaquadide_wire', wiren: 1000,
+            cable: 'gtceu:vanadium_gallium_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 8000'], 
+            eut: GTValues.VA[GTValues.ZPM],
+            output: '16x gtceu:zpm_field_generator',
+            circuit: 6,
+            duration: 200,
+            permit: 'kubejs:zpmpermit'
+        },
+        { 
+            frame: 'gtceu:tritanium_frame', framen: 12,
+            plate: 'gtceu:tritanium_plate', platen: 72,
+            star: 'gtceu:gravi_star', starn: 12,
+            emitter: 'gtceu:uv_emitter', emittern: 24, 
+            circuit1: '#gtceu:circuits/uv', circuit1n: 24, 
+            wire: 'gtceu:fine_enriched_naquadah_trinium_europium_duranide_wire', wiren: 1000,
+            cable: 'gtceu:yttrium_barium_cuprate_single_cable', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 10000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UV],
+            output: '16x gtceu:uv_field_generator',
+            circuit: 6,
+            duration: 200,
+            permit: 'kubejs:uvpermit'
+        },
+        { 
+            frame: 'gtceu:nebulon_alpha_frame', framen: 12,
+            plate: 'gtceu:nebulon_alpha_plate', platen: 144,
+            star: 'gtceu:gravi_star', starn: 12,
+            emitter: 'gtceu:uhv_emitter', emittern: 24, 
+            circuit1: '#gtceu:circuits/uhv', circuit1n: 24, 
+            wire: 'gtceu:fine_tritanium_wire', wiren: 1000,
+            cable: 'gregecore:draconium_cable_single_wire', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 12000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UHV],
+            output: '16x gtceu:uhv_field_generator',
+            circuit: 6,
+            duration: 200,
+            permit: 'kubejs:uhvpermit'
+        }
+    ]
+
+    generatorInputs.forEach(items => {
+        event.recipes.gtceu.adrobstat()
+            .itemInputs(
+                `${items.framen}x ${items.frame}`,
+                `${items.platen}x ${items.plate}`,
+                `${items.starn}x ${items.star}`,
+                `${items.emittern}x ${items.emitter}`,
+                `${items.circuit1n}x ${items.circuit1}`,
+                `${items.wiren}x ${items.wire}`,
+                `${items.cablen}x ${items.cable}`
+            )
+            .inputFluids(
+                items.fluids
+            )
+            .notConsumable(items.permit)
+            .itemOutputs(items.output)
+            .circuit(items.circuit)
+            .duration(items.duration)
+            .EUt(items.eut);
+    })
+
+    const pumpInputs = [
+        { 
+            motor: 'gtceu:luv_electric_motor', motorn: 12,
+            pipe: 'gtceu:niobium_titanium_small_fluid_pipe', pipen: 12,
+            plate: 'gtceu:hsss_plate', platen: 24,
+            screw: 'gtceu:hsss_screw', screwn: 96, 
+            ring: 'gtceu:silicone_rubber_ring', ringn: 48, 
+            rotor: 'gtceu:hsss_rotor', rotorn: 12,
+            cable: 'gtceu:niobium_titanium_single_cable', cablen: 24, 
+            fluids: ['gtceu:soldering_alloy 1000', 'gtceu:lubricant 2000'], 
+            eut: GTValues.VA[GTValues.LuV],
+            output: '16x gtceu:luv_electric_pump',
+            circuit: 8,
+            duration: 100,
+            permit: 'kubejs:luvpermit'
+        },
+        { 
+            motor: 'gtceu:zpm_electric_motor', motorn: 12,
+            pipe: 'gtceu:polybenzimidazole_normal_fluid_pipe', pipen: 12,
+            plate: 'gtceu:osmiridium_plate', platen: 24,
+            screw: 'gtceu:osmiridium_screw', screwn: 96, 
+            ring: 'gtceu:silicone_rubber_ring', ringn: 96, 
+            rotor: 'gtceu:osmiridium_rotor', rotorn: 12,
+            cable: 'gtceu:vanadium_gallium_single_cable', cablen: 24, 
+            fluids: ['gtceu:soldering_alloy 2000', 'gtceu:lubricant 4000'], 
+            eut: GTValues.VA[GTValues.ZPM],
+            output: '16x gtceu:zpm_electric_pump',
+            circuit: 8,
+            duration: 100,
+            permit: 'kubejs:zpmpermit'
+        },
+        { 
+            motor: 'gtceu:uv_electric_motor', motorn: 12,
+            pipe: 'gtceu:naquadah_large_fluid_pipe', pipen: 12,
+            plate: 'gtceu:tritanium_plate', platen: 24,
+            screw: 'gtceu:tritanium_screw', screwn: 96, 
+            ring: 'gtceu:silicone_rubber_ring', ringn: 196, 
+            rotor: 'gtceu:naquadah_alloy_rotor', rotorn: 12,
+            cable: 'gtceu:yttrium_barium_cuprate_single_cable', cablen: 24, 
+            fluids: ['gtceu:soldering_alloy 3000', 'gtceu:lubricant 6000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UV],
+            output: '16x gtceu:uv_electric_pump',
+            circuit: 8,
+            duration: 100,
+            permit: 'kubejs:uvpermit'
+        },
+        { 
+            motor: 'gtceu:uhv_electric_motor', motorn: 12,
+            pipe: 'gregecore:draconium_cable_octal_wire', pipen: 96,
+            plate: 'gtceu:nebulon_alpha_plate', platen: 48,
+            screw: 'gtceu:nebulon_alpha_screw', screwn: 192, 
+            ring: 'gtceu:silicone_rubber_ring', ringn: 196, 
+            rotor: 'gtceu:naquadah_alloy_rotor', rotorn: 12,
+            cable: 'gregecore:draconium_cable_single_wire', cablen: 48, 
+            fluids: ['gtceu:soldering_alloy 3000', 'gtceu:lubricant 6000', 'gtceu:naquadria 3000'], 
+            eut: GTValues.VA[GTValues.UHV],
+            output: '16x gtceu:uhv_electric_pump',
+            circuit: 8,
+            duration: 100,
+            permit: 'kubejs:uhvpermit'
+        },
+    ]
+
+    pumpInputs.forEach(items => {
+        event.recipes.gtceu.adrobstat()
+            .itemInputs(
+                `${items.motorn}x ${items.motor}`,
+                `${items.pipen}x ${items.pipe}`,
+                `${items.platen}x ${items.plate}`,
+                `${items.screwn}x ${items.screw}`,
+                `${items.ringn}x ${items.ring}`,
+                `${items.rotorn}x ${items.rotor}`,
                 `${items.cablen}x ${items.cable}`
             )
             .inputFluids(

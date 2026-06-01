@@ -1438,7 +1438,24 @@ let emiBannedItems = [
     "item:gtceu:small_ignisium_dust",
     "item:gtceu:small_ignisium_sulfide_dust",
     "item:ae2:inscriber",
-    "item:expatternprovider:ex_inscriber"
+    "item:expatternprovider:ex_inscriber",
+    "item:gtceu:tiny_vanilla_pod_dust",
+    "item:gtceu:small_vanilla_pod_dust",
+    "item:gtceu:double_kevlar_plate",
+    "item:gtceu:small_kevlar_dust",
+    "item:gtceu:tiny_kevlar_dust",
+    "item:gtceu:kevlar_nugget",
+    "item:gtceu:kevlar_block",
+    "item:gtceu:tiny_p_xylene_dust",
+    "item:gtceu:small_p_xylene_dust",
+    "item:gtceu:tiny_proto_p_xylene_dust",
+    "item:gtceu:small_proto_p_xylene_dust",
+    "item:gtceu:tiny_tennessineish_dust",
+    "item:gtceu:small_tennessineish_dust",
+    "item:gtceu:tiny_berkeliumish_dust",
+    "item:gtceu:small_berkeliumish_dust",
+    "item:gtceu:tiny_calcium48_dust",
+    "item:gtceu:small_calcium48_dust"
 ];
 
 let getCorrectItem = (emiBannedItems) => {

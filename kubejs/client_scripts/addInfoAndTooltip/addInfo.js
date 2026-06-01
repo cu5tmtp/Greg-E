@@ -14,5 +14,7 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:alkhalaclaw', ['Find this on Ceres, in the obelisk. Use Explorers Compass to find the obelisk structure faster.']);
     event.addItem('kubejs:deleriancoin', ['Find this on Mars, in the destroyed temple. Use Explorers Compass to find destroyed temple structure faster.']);
     event.addItem('kubejs:draeneiwood', ['Find this on Mercury, in the woodyard structure. Use Explorers Compass to find the woodyard structure faster.']);
+    event.addItem('kubejs:robotarm', ['Find this on Quaoar, in the broken assembly line structure. Use Explorers Compass to find the broken assembly line faster.']);
+    event.addItem('kubejs:computation_matrix', ['Find this in Undergarden, in the mystery cube structure. Use Explorers Compass to find the mystery cube faster.']);
 
 })

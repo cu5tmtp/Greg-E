@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             '2x gregecore:lithium_amalgamation_dust'
         )
         .itemOutputs(
-            'kubejs:li'
+            '3x kubejs:li'
         )
         .duration(100)
         .EUt(480)

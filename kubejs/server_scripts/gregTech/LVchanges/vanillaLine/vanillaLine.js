@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             'kubejs:vanilla'
         )
         .itemOutputs(
-            'gtceu:vanilla_pod_dust'
+            '3x gtceu:vanilla_pod_dust'
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(200)
@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
             'minecraft:redstone'
         )
         .inputFluids(
-            'gtceu:vanilla_extract 250'
+            'gtceu:vanilla_extract 150'
         )
         .itemOutputs(
             '6x kubejs:commonearth'

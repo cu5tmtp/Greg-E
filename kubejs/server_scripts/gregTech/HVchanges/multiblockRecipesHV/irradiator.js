@@ -21,7 +21,7 @@ ServerEvents.recipes((event) =>{
             'kubejs:pu',
             'kubejs:he'
         )   
-        .itemOutputs('kubejs:cm')
+        .itemOutputs('2x kubejs:cm')
         .duration(200)
         .EUt(480)
 

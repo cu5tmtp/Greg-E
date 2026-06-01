@@ -817,7 +817,7 @@
 				item: "gregecore:superelement_coil"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -829,7 +829,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "669C9C5E03938E24"
@@ -842,6 +842,18 @@
 			}]
 			x: 4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["68B8595DDA68D9B0"]
+			description: ["Pretty hard to setup, but once running, this will speed up your production of machine parts really hard!"]
+			id: "019E70C74E3ADCA6"
+			tasks: [{
+				id: "08D7795BE5C7C0E3"
+				item: "gtceu:adrobstat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 	title: "LUV"

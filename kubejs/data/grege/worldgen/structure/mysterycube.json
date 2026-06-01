@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "undergarden:forgotten_field"
+  ],
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "start_pool": "grege:mysterycube",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:biased_to_bottom",
+    "min_inclusive": {
+      "above_bottom": 30
+    },
+    "max_inclusive": {
+      "above_bottom": 100
+    }
+  },
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false
+}

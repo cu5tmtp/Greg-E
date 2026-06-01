@@ -94,6 +94,9 @@ StartupEvents.registry('item', event => {
     event.create('deleriancoin').displayName('Delerian Coin')
     event.create('draeneiwood').displayName('Draenei Wood Plank')
     event.create('scepterofsand').displayName('Scepter Of The Shifting Sands')
+    event.create('robotarm').displayName('Quaorian Robot Arm')
+    event.create('sensor').displayName('Dwarven Sensor')
+    event.create('computation_matrix').displayName('Computation Matrix')
 
     event.create('luvpermit').displayName('LuV Crafting Blueprints')
     event.create('zpmpermit').displayName('ZPM Crafting Blueprints')
