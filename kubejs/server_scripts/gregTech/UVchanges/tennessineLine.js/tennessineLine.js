@@ -107,7 +107,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
 
-    event.recipes.gtceu.atmosphericsampler('getbetterdustststsdtstfdtftdvtcvbncvhjb2')
+    event.recipes.gtceu.atmosphericsampler('getbetterdustststsdtstfdtftdvtcvbncvhjb2222222')
         .itemInputs(
             '2x kubejs:activatedrune',
             'ad_astra:rocket_nose_cone'

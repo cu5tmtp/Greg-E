@@ -281,6 +281,9 @@
   "block.gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
   "gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
 
+  "block.gtceu.smdforge": "Ultimate Component Workstation",
+  "gtceu.smdforge": "Ultimate Component Workstation",
+
   "material.gtceu.californiumish": "Californium",
   "material.gtceu.alfa_particles": "Alfa Particles",
   "material.gtceu.oganessonish": "Oganesson",
@@ -320,6 +323,11 @@
   "material.gtceu.dirty_nickelish": "Dirty Nickel",
   "material.gtceu.nickel_tetracarbonyl": "Nickel Tetracarbonyl",
   "material.gtceu.pure_nickelish": "Pure Nickel",
+
+  "material.gtceu.zenithium": "Zenithium",
+  "material.gtceu.zenithium_slurry": "Zenithium Slurry",
+  "material.gtceu.niobium_zenithium": "Niobium Zenithium",
+  "material.gtceu.niobium_coated": "Niobium Zenithium Coated Zenithium",
 
   "material.gtceu.aniline": "Aniline",
   "material.gtceu.p_phenylenediamine": "p-Phenylenediamine",

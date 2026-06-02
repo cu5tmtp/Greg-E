@@ -68,4 +68,5 @@ ServerEvents.recipes((event) => {
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:parallel_booster_machine')).EUt(GTValues.VA[GTValues.UV]).CWUt(64))
+        
 });

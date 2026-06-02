@@ -42,6 +42,29 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .circuit(4)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '2x gtceu:raw_zenithium'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(5)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '5x gtceu:niobium_dust'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(6)
+
+
     
 
 })

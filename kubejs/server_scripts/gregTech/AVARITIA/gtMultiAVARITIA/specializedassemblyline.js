@@ -15,6 +15,25 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(20)
+        .circuit(1)
+
+    event.recipes.gtceu.specializedassemblyline('specialized1dot5')
+        .itemInputs(
+            '8x gtceu:neuro_processing_unit',
+            '8x gtceu:highly_advanced_soc',
+            '64x gtceu:fine_yttrium_barium_cuprate_wire',
+            '64x gtceu:naquadah_bolt',
+            '32x kubejs:ultimatecapacitor'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
+        .itemOutputs(
+            '64x gtceu:wetware_processor'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(20)
+        .circuit(2)
 
     event.recipes.gtceu.specializedassemblyline('specialized2')
         .itemInputs(
@@ -33,6 +52,25 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(20)
+        .circuit(1)
+
+    event.recipes.gtceu.specializedassemblyline('specialized2dot5')
+        .itemInputs(
+            '16x gtceu:wetware_printed_circuit_board',
+            '48x gtceu:wetware_processor',
+            '16x gtceu:highly_advanced_soc',
+            '64x gtceu:fine_yttrium_barium_cuprate_wire',
+            '16x kubejs:ultimatediode'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
+        .itemOutputs(
+            '32x gtceu:wetware_processor_assembly'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(20)
+        .circuit(2)
 
     event.recipes.gtceu.specializedassemblyline('specialized3')
         .itemInputs(

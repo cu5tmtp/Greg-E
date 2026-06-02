@@ -97,6 +97,13 @@ StartupEvents.registry('item', event => {
     event.create('robotarm').displayName('Quaorian Robot Arm')
     event.create('sensor').displayName('Dwarven Sensor')
     event.create('computation_matrix').displayName('Computation Matrix')
+    event.create('niobiumcoating').displayName('Niobium Zenithium Coating')
+
+    event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
+    event.create('ultimatediode').displayName('Ultimate SMD Diode')
+    event.create('ultimateinductor').displayName('Ultimate SMD Inductor')
+    event.create('ultimateresistor').displayName('Ultimate SMD Resistor')
+    event.create('ultimatetransistor').displayName('Ultimate SMD Transistor')
 
     event.create('luvpermit').displayName('LuV Crafting Blueprints')
     event.create('zpmpermit').displayName('ZPM Crafting Blueprints')

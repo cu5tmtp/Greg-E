@@ -12,29 +12,37 @@ ServerEvents.recipes((event) =>{
         let combined = {}
 
         rawIngredients.forEach(ing => {
-            let id = ing.getFirst().getId()
+            let id;
+            let json = ing.toJson();
 
-            if (id.includes('wrench') || id.includes('screwdriver') || id.includes('hammer') || id.includes('cutter') || id.includes('mallet')) {
-                return 
+            if (json.has('tag')) {
+                id = '#' + json.get('tag').getAsString();
+            } else if (json.has('item')) {
+                id = json.get('item').getAsString();
+            } else {
+                id = ing.getFirst().getId();
             }
 
-            combined[id] = (combined[id] || 0) + 1
-        })
+            if (id.includes('wrench') || id.includes('screwdriver') || id.includes('hammer') || id.includes('cutter') || id.includes('mallet')) {
+                return;
+            }
 
-        let finalInputs = []
+            combined[id] = (combined[id] || 0) + 1;
+        });
+
+        let finalInputs = [];
         for (let id in combined) {
-            finalInputs.push(Item.of(id, combined[id] * 12))
+            finalInputs.push(`${combined[id] * 12}x ${id}`);
         }
 
-        let finalOutput = Item.of(output.getId(), output.getCount() * 16)
+        let finalOutput = Item.of(output.getId(), output.getCount() * 16);
 
         event.recipes.gtceu.adrobstat(recipeID.replace(':', '_') + '_manual_conv')
             .itemInputs(finalInputs)
             .itemOutputs(finalOutput)
             .circuit(circuit)
             .duration(duration)
-            .EUt(EUt)
-                
+            .EUt(EUt);
     }
 
     const tiers = ['lv', 'mv', 'hv', 'ev', 'iv'];

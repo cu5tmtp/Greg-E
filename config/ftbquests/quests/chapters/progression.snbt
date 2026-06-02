@@ -1027,7 +1027,7 @@
 				item: "gtceu:vadricium_dust"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -1206,7 +1206,7 @@
 				item: "gtceu:raw_decursium"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 23.0d
 			y: 0.0d
 		}
 		{
@@ -1227,6 +1227,36 @@
 				type: "item"
 			}]
 			x: 17.5d
+			y: 0.0d
+		}
+		{
+			id: "571CB106D745312B"
+			tasks: [{
+				id: "50727C6059F3D3DE"
+				item: "gtceu:raw_zenithium"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "5AA81069C53683AA"
+			tasks: [{
+				id: "72AE4E20DE629F8B"
+				item: "gtceu:raw_dirty_vibranium"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			id: "2B99FC86B80BEABC"
+			tasks: [{
+				id: "631E45CE55074E7D"
+				item: "gtceu:niobium_dust"
+				type: "item"
+			}]
+			x: 21.0d
 			y: 0.0d
 		}
 	]

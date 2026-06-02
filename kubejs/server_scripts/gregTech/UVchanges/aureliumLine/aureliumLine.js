@@ -116,6 +116,17 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(400)
 
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            'gtceu:aurelium_ingot'
+        )
+        .itemOutputs(
+            '8x gtceu:fine_aurelium_wire'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+        .circuit(3)
+
     event.replaceInput(
         'gtceu:shaped/parallel_hatch_mk3',
         'gtceu:vanadium_gallium_double_cable',
