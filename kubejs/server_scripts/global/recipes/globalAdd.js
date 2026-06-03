@@ -26,6 +26,23 @@ ServerEvents.recipes((event) => {
         'botania:spark'
     )
 
+    event.replaceInput(
+        'minecraft:writable_book',
+        'minecraft:ink_sac',
+        'minecraft:black_dye'
+    )
+
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            'avaritia:blaze_cube'
+        )
+        .itemOutputs(
+            '8x gtceu:fine_blaze_cubeish_wire'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(100)
+        .circuit(3)
+
     const circuitsToAdd = [
         {item: 'kubejs:universal/lv', tag: '#gtceu:circuits/lv', tier: GTValues.VA[GTValues.LV]},
         {item: 'kubejs:universal/mv', tag: '#gtceu:circuits/mv', tier: GTValues.VA[GTValues.MV]},

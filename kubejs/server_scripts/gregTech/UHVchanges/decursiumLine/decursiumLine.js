@@ -87,9 +87,15 @@ ServerEvents.recipes((event) => {
         .duration(250)
         .EUt(GTValues.VA[GTValues.UHV])
 
-
-    
-
-    
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            'gtceu:decursium_ingot'
+        )
+        .itemOutputs(
+            '8x gtceu:fine_decursium_wire'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(3)
 
 })

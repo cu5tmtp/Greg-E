@@ -46,5 +46,16 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .EUt(GTValues.VA[GTValues.UV])
         .circuit(1)
+
+    event.recipes.gtceu.bender()
+        .itemInputs(
+            'draconicevolution:awakened_draconium_ingot'
+        )
+        .itemOutputs(
+            '4x gregecore:awakened_draconium_cable_foil'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(10)
         
 })

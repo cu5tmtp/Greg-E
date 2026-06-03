@@ -91,6 +91,28 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(20)
+        .circuit(1)
+
+    event.recipes.gtceu.specializedassemblyline('specialized3dot5')
+        .itemInputs(
+            '8x gtceu:wetware_printed_circuit_board',
+            '12x gtceu:wetware_processor_assembly',
+            '8x gtceu:highly_advanced_soc',
+            '8x kubejs:ultimatecapacitor',
+            '8x kubejs:ultimateinductor',
+            '64x gtceu:fine_yttrium_barium_cuprate_wire',
+            '64x gtceu:polybenzimidazole_foil',
+            '16x gtceu:europium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 1500'
+        )
+        .itemOutputs(
+            '16x gtceu:wetware_processor_computer'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(20)
+        .circuit(2)
 
     event.recipes.gtceu.specializedassemblyline('specialized4')
         .itemInputs(
@@ -114,6 +136,29 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(20)
+        .circuit(1)
+
+    event.recipes.gtceu.specializedassemblyline('specialized4dot5')
+        .itemInputs(
+            '8x gtceu:tritanium_frame',
+            '6x gtceu:wetware_processor_computer',
+            '12x kubejs:ultimatediode',
+            '12x kubejs:ultimatetransistor',
+            '64x gtceu:polybenzimidazole_foil',
+            '8x gtceu:highly_advanced_soc',
+            '64x gtceu:ram_chip',
+            '32x gtceu:enriched_naquadah_trinium_europium_duranide_double_wire',
+            '64x gtceu:europium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 3500'
+        )
+        .itemOutputs(
+            '8x gtceu:wetware_processor_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(20)
+        .circuit(2)
 
     event.recipes.gtceu.specializedassemblyline('specialized5')
         .itemInputs(
@@ -139,6 +184,34 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(20)
+        .circuit(1)
+
+    event.recipes.gtceu.specializedassemblyline('specialized5dot5')
+        .itemInputs(
+            '3x #gtceu:circuits/uhv',
+            'gtceu:neutronium_frame',
+            '16x kubejs:ultimatecapacitor',
+            '16x kubejs:ultimatediode',
+            '16x kubejs:ultimateinductor',
+            '16x kubejs:ultimatetransistor',
+            '16x kubejs:ultimateresistor',
+            '64x gtceu:polybenzimidazole_foil',
+            '2x gtceu:highly_advanced_soc',
+            '16x gregecore:awakened_draconium_cable_double_wire',
+            '8x gtceu:neutronium_plate',
+            '16x gtceu:stellarium_rod',
+            '16x gtceu:stellarium_plate',
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 5000',
+            'gtceu:polybenzimidazole 3000'
+        )
+        .itemOutputs(
+            '6x kubejs:animated/draconicprocessor'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(20)
+        .circuit(2)
 
 
 })

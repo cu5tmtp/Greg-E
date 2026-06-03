@@ -1,0 +1,63 @@
+GTCEuStartupEvents.registry('gtceu:material', event => {
+
+    event.create('aldecaldium')
+        .ore()
+        .formula("Al")
+        .color(0x7c736e)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+
+    event.create('panamium')
+        .liquid()
+        .ingot()
+        .formula("Pn")
+        .color(0x863b83)
+        .blastTemp(3500)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+    event.create('saulium')
+        .gas()
+        .formula("Su")
+        .color(0xa5b847)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('scorpium')
+        .gas()
+        .formula("So")
+        .color(0x664cb3)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dakotium')
+        .gas()
+        .formula("Dk")
+        .color(0xdcb523)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('mitchium')
+        .gas()
+        .formula("Mc")
+        .color(0x4bb485)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dirty_basiliskium')
+        .dust()
+        .formula("Bs-")
+        .color(0x7a1c16)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('basiliskium')
+        .ingot()
+        .formula("Bs")
+        .color(0xcd2e25)
+        .blastTemp(3500)
+        .iconSet(GTMaterialIconSet.FINE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+
+})

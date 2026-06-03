@@ -41,4 +41,15 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .circuit(3)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:neutroniuminfused'
+        )
+        .itemOutputs(
+            '3x gtceu:raw_aldecaldium'
+        )
+        .EUt(GTValues.VA[GTValues.UHV])
+        .duration(200)
+        .circuit(4)
+
 })

@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .formula("Ds")
         .color(0x43bc99)
         .iconSet(GTMaterialIconSet.FINE)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create('decursium_oxide')
         .fluid()

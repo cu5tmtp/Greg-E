@@ -1207,7 +1207,7 @@
 				type: "item"
 			}]
 			x: 23.0d
-			y: 0.0d
+			y: -5.5d
 		}
 		{
 			id: "302AE4E5592D49EF"
@@ -1247,7 +1247,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 0.0d
+			y: -5.5d
 		}
 		{
 			id: "2B99FC86B80BEABC"
@@ -1258,6 +1258,26 @@
 			}]
 			x: 21.0d
 			y: 0.0d
+		}
+		{
+			id: "51D6D3FA558F9755"
+			tasks: [{
+				id: "5DB2C08E0E8F58EC"
+				item: "gtceu:raw_aldecaldium"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			id: "586A0D10165BE12D"
+			tasks: [{
+				id: "21F5A57E7EC14458"
+				item: "gregecore:spaceelevator"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.0d
 		}
 	]
 	title: "Progression"

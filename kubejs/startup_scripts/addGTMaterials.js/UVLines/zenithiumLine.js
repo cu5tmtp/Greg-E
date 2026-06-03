@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x252726)
         .blastTemp(3700)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
 
     event.create('zenithium_slurry')
         .dust()

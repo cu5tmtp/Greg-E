@@ -14,8 +14,8 @@ ServerEvents.recipes((event) => {
             '64x gtceu:ram_chip',
             '16x gregecore:awakened_draconium_cable_double_wire',
             '8x gtceu:neutronium_plate',
-            '8x gtceu:stellarium_rod',
-            '8x gtceu:stellarium_plate',
+            '4x gtceu:stellarium_rod',
+            '4x gtceu:stellarium_plate',
         )
         .inputFluids(
             'gtceu:soldering_alloy 5000',
@@ -25,6 +25,31 @@ ServerEvents.recipes((event) => {
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_mainframe')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+
+    event.recipes.gtceu.assembly_line('getdraconiumprocessor2')
+        .itemInputs(
+            '3x #gtceu:circuits/uhv',
+            'gtceu:neutronium_frame',
+            '16x kubejs:ultimatecapacitor',
+            '16x kubejs:ultimatediode',
+            '16x kubejs:ultimateinductor',
+            '16x kubejs:ultimatetransistor',
+            '16x kubejs:ultimateresistor',
+            '64x gtceu:polybenzimidazole_foil',
+            '2x gtceu:highly_advanced_soc',
+            '16x gregecore:awakened_draconium_cable_double_wire',
+            '8x gtceu:neutronium_plate',
+            '4x gtceu:stellarium_rod',
+            '4x gtceu:stellarium_plate',
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 5000',
+            'gtceu:polybenzimidazole 3000'
+        )
+        .itemOutputs('2x kubejs:animated/draconicprocessor')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .stationResearch(b => b.researchStack(Item.of('kubejs:ultimateresistor')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
     event.recipes.gtceu.assembly_line('getavaritiat4crafting')
         .itemInputs(

@@ -284,9 +284,20 @@
   "block.gtceu.smdforge": "Ultimate Component Workstation",
   "gtceu.smdforge": "Ultimate Component Workstation",
 
+  "material.gtceu.aldecaldium": "Aldecaldium",
+  "material.gtceu.panamium": "Panamium",
+  "material.gtceu.saulium": "Saulium",
+  "material.gtceu.scorpium": "Scorpium",
+  "material.gtceu.dakotium": "Dakotium",
+  "material.gtceu.mitchium": "Mitchium",
+  "material.gtceu.dirty_basiliskium": "Dirty Basiliskium",
+  "material.gtceu.basiliskium": "Basiliskium",
+
   "material.gtceu.californiumish": "Californium",
   "material.gtceu.alfa_particles": "Alfa Particles",
   "material.gtceu.oganessonish": "Oganesson",
+
+  "material.gtceu.blaze_cubeish": "Blaze Cube",
 
   "material.gtceu.berkeliumish": "Berkelium",
   "material.gtceu.calcium48": "Calcium-48",

@@ -56,6 +56,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FOIL)
 
+    event.create('blaze_cubeish')
+        .ingot()
+        .color(0xe5b01a)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });

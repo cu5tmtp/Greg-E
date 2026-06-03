@@ -78,14 +78,14 @@
 		}
 		{
 			description: [
-				"Thank you to jijing000 for finding unintended walls!"
+				"Thank you to &2jijing000&r for finding unintended walls!"
 				""
-				"Thank you to ComboBreaker for giving great feedback!"
+				"Thank you to &2ComboBreaker&r for giving great feedback!"
 				""
-				"Thank you to NLGibson for giving great feedback and testing the endgame!"
+				"Thank you to &2NLGibson&r and his friends for giving great feedback and testing the endgame!"
 				""
-				"Thank you theo_artin for beatufiul textures!"
-				"Thank you to eyecats for beatiful coil textures!"
+				"Thank you &9theo_artin&r for beautiful textures!"
+				"Thank you to &9eyecats&r for beautiful coil textures!"
 			]
 			id: "378F8C860737A944"
 			tasks: [{

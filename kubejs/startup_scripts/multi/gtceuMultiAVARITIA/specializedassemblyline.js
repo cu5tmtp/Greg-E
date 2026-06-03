@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     .create("specializedassemblyline")
     .category("multiblock")
     .setEUIO("in")
-    .setMaxIOSize(12, 1, 3, 0)
+    .setMaxIOSize(15, 1, 3, 0)
     .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.COOLING);

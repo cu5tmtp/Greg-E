@@ -35,6 +35,46 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:coolant_input_machine')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
 
+    event.recipes.gtceu.assembly_line('getbettericircuit1111')
+        .itemInputs(
+            'gtceu:wetware_printed_circuit_board',
+            '2x gtceu:wetware_processor_assembly',
+            'gtceu:highly_advanced_soc',
+            '2x kubejs:ultimatecapacitor',
+            '2x kubejs:ultimateinductor',
+            '24x gtceu:fine_yttrium_barium_cuprate_wire',
+            '32x gtceu:polybenzimidazole_foil',
+            '4x gtceu:europium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 1000'
+        )
+        .itemOutputs('2x gtceu:wetware_processor_computer')
+        .duration(350)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('kubejs:ultimateinductor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+
+    event.recipes.gtceu.assembly_line('getbettericircuit222222')
+        .itemInputs(
+            '2x gtceu:tritanium_frame',
+            '2x gtceu:wetware_processor_computer',
+            '4x kubejs:ultimatediode',
+            '4x kubejs:ultimatetransistor',
+            '64x gtceu:polybenzimidazole_foil',
+            'gtceu:highly_advanced_soc',
+            '64x gtceu:ram_chip',
+            '16x gtceu:enriched_naquadah_trinium_europium_duranide_double_wire',
+            '8x gtceu:europium_plate'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 3000',
+            'gtceu:polybenzimidazole 1000'
+        )
+        .itemOutputs('2x gtceu:wetware_processor_mainframe')
+        .duration(850)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('kubejs:ultimatetransistor')).EUt(GTValues.VA[GTValues.UHV]).CWUt(256))
+
     event.recipes.gtceu.assembly_line('getenhancedinput')
         .itemInputs(
             '4x #gtceu:circuits/uhv',
