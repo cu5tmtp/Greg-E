@@ -25,7 +25,8 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '4x #gtceu:circuits/uhv',
             '2x gtceu:gravi_star',
-            '16x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
+            '6x gregecore:dense_draconium_cable_plate',
             '2x gtceu:uv_sensor',
             '2x gtceu:uv_field_generator',
             '8x gregecore:draconiumfusion'
