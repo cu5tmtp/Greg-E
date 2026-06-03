@@ -172,4 +172,15 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .addData('weight', 250)
 
+    event.recipes.gtceu.star_maykr_singularities("starmaykr14")
+        .itemInputs(
+            '16x avaritia:diamond_lattice'
+        )
+        .itemOutputs(
+            '16x gtceu:diamond_lattice_ingot'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .addData('weight', 5)
+
 });

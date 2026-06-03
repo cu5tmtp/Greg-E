@@ -172,7 +172,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3CD4AF46B8A50D6A"]
+			dependencies: [
+				"3CD4AF46B8A50D6A"
+				"6031F8A122A84855"
+			]
 			id: "4D89A1A3BC682102"
 			shape: "pentagon"
 			size: 2.0d
@@ -400,6 +403,30 @@
 			}]
 			x: -11.0d
 			y: 7.0d
+		}
+		{
+			description: [
+				"These help with the CWU needed. "
+				""
+				"Best combination - 4 Greg-E Coolers, 2 Greg-E Computations, 1 Advanced Computation, 1 Heat Sink."
+			]
+			id: "6031F8A122A84855"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "732D983253E49A9D"
+					item: "gregecore:grege_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "35DC7C6595FA4101"
+					item: "gregecore:grege_computation_component"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 4.5d
 		}
 	]
 	title: "UHV"

@@ -761,6 +761,18 @@
 			x: -8.214285714285715d
 			y: 3.5d
 		}
+		{
+			dependencies: ["5D1B9EACB654BDF8"]
+			description: ["This is a bit of a \"Did you do this?\" check, but the rewards are insane, as you can start crafting new circuits so much cheaper."]
+			id: "1A907246B5A18AED"
+			tasks: [{
+				id: "49AF51ED6B6F73BF"
+				item: "gtceu:smdforge"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
 	]
 	title: "UV"
 }

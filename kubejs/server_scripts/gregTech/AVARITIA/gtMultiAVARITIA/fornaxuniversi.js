@@ -39,10 +39,20 @@ ServerEvents.recipes((event) => {
     event.remove('avaritia:blaze_cube')    
     event.recipes.gtceu.fornax_universi_acceleration("fornax3")
         .itemInputs(
-            '9x minecraft:blaze_rod'
+            '900x minecraft:blaze_rod'
         )
         .itemOutputs(
-            'avaritia:blaze_cube'
+            '100x avaritia:blaze_cube'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UEV])
+
+    event.recipes.gtceu.fornax_universi_acceleration("fornax5")
+        .itemInputs(
+            '400x avaritia:diamond_lattice'
+        )
+        .itemOutputs(
+            '100x avaritia:crystal_matrix_ingot'
         )
         .duration(600)
         .EUt(GTValues.VA[GTValues.UEV])

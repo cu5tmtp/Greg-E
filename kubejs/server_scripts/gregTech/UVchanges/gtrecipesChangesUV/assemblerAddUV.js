@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.circuit_assembler('ultimatesmdassembler1')
         .itemInputs(
             'gtceu:neuro_processing_unit',
-            'gtceu:highly_advanced_soc',
+            'gtceu:crystal_cpu',
             '8x gtceu:fine_yttrium_barium_cuprate_wire',
             '8x gtceu:naquadah_bolt',
             '2x kubejs:ultimatecapacitor'
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'gtceu:wetware_printed_circuit_board',
             '2x gtceu:wetware_processor',
-            'gtceu:highly_advanced_soc',
+            'gtceu:crystal_cpu',
             '8x gtceu:fine_yttrium_barium_cuprate_wire',
             '2x kubejs:ultimatediode'
         )

@@ -68,5 +68,32 @@ ServerEvents.recipes((event) => {
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:parallel_booster_machine')).EUt(GTValues.VA[GTValues.UV]).CWUt(64))
+
+    event.recipes.gtceu.assembly_line()
+        .itemInputs(
+            '8x #gtceu:circuits/uv',
+            '16x gtceu:artificial_leather_plate',
+            '16x gtceu:gloomstone_plate',
+            '16x gtceu:shiny_electronic_grade_silicon_plate',
+            '16x gtceu:fine_coated_demonite_wire',
+            '16x gtceu:fine_sednium_wire',
+            '16x gtceu:fine_pristine_vileheart_plate_wire',
+            '16x gregecore:manasteel_cable_single_wire',
+            '16x gregecore:twilight_alloy_cable_single_wire',
+            '16x gregecore:desh_cable_single_wire',
+            '16x gregecore:malachite_cable_single_wire',
+            '16x gregecore:forgotten_ingot_cable_single_wire',
+            '16x gregecore:blood_infused_cable_single_wire',
+            '16x gregecore:bacterial_matter_cable_single_wire',
+            '64x gtceu:prometheum_ingot'
+        )
+        .inputFluids(
+            'gtceu:mars_bacteria 5000',
+            'gtceu:pixie_fluid 5000'
+        )
+        .itemOutputs('gtceu:smdforge')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:hyperium_ingot')).EUt(GTValues.VA[GTValues.UV]).CWUt(128))
         
 });

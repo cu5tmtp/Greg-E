@@ -1206,8 +1206,8 @@
 				item: "gtceu:raw_decursium"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -5.5d
+			x: 27.0d
+			y: -1.0d
 		}
 		{
 			id: "302AE4E5592D49EF"
@@ -1246,8 +1246,8 @@
 				item: "gtceu:raw_dirty_vibranium"
 				type: "item"
 			}]
-			x: 24.0d
-			y: -5.5d
+			x: 26.0d
+			y: -1.0d
 		}
 		{
 			id: "2B99FC86B80BEABC"
@@ -1276,8 +1276,8 @@
 				item: "gregecore:spaceelevator"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -4.0d
+			x: 26.5d
+			y: -2.5d
 		}
 	]
 	title: "Progression"

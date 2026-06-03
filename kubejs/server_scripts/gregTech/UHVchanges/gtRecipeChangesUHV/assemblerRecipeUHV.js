@@ -37,5 +37,31 @@ ServerEvents.recipes((event) => {
         )
         .duration(2000)
         .EUt(GTValues.VA[GTValues.UHV])
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:hpca_advanced_computation_component',
+            '4x #gtceu:circuits/uhv',
+            'gtceu:uhv_field_generator',
+            '8x gregecore:draconium_cable_single_wire'
+        )
+        .itemOutputs(
+            'gregecore:grege_computation_component'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UHV])
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:hpca_active_cooler_component',
+            '4x #gtceu:circuits/uhv',
+            'gtceu:uhv_emitter',
+            '8x gregecore:draconium_cable_single_wire'
+        )
+        .itemOutputs(
+            'gregecore:grege_heat_sink_component'
+        )
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.UHV])
         
 })

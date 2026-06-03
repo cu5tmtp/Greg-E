@@ -1,5 +1,21 @@
 ServerEvents.recipes(event => {
 
+        event.shaped(
+        Item.of('gtceu:industrialfilter', 1),
+        [
+            ' A ',
+            'DBD',
+            'CEC'
+        ],
+        {
+            A: '#gtceu:circuits/uhv',
+            B: 'gtceu:sturdy_machine_casing',
+            C: 'gtceu:reaction_safe_mixing_casing',
+            D: 'gtceu:high_temperature_smelting_casing',
+            E: 'gtceu:uhv_machine_hull'
+        }
+    )
+
     event.recipes.gtceu.industrialfilter('getstrainedndinebulon1')
         .inputFluids(
             'gtceu:dinebulon_zeta_omni_fluid 144'

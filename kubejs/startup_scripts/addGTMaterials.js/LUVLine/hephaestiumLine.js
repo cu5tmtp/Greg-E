@@ -1,0 +1,42 @@
+GTCEuStartupEvents.registry('gtceu:material', event => {
+
+    event.create('proxima_centauri_b_stone')
+        .dust()
+        .gas()
+        .color(0xc5903a)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('prometheum')
+        .ingot()
+        .gas()
+        .liquid()
+        .formula('Ph')
+        .color(0xb4ff00)
+        .blastTemp(3500)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('cadmium_acid')
+        .liquid()
+        .formula('H2Cd4O6')
+        .color(0x77639c)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('diluted_cadmium_acid')
+        .liquid()
+        .formula('HCd2O3')
+        .color(0x77639c)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('hephaestium')
+        .ingot()
+        .formula('Hf')
+        .color(0xd3952c)
+        .blastTemp(3500)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+})

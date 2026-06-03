@@ -281,8 +281,26 @@
   "block.gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
   "gtceu.insaniumtreatmentfacilty": "Insanium Treatment Facility",
 
+  "block.gtceu.uev_machine_casing": "AVARITIA Machine Casing",
+  "block.gtceu.uev_machine_hull": "AVARITIA Machine Hull",
+  "block.gtceu.uev_1a_energy_converter": "AVARITIA 1A Energy Converter",
+  "block.gtceu.uev_4a_energy_converter": "AVARITIA 4A Energy Converter",
+  "block.gtceu.uev_8a_energy_converter": "AVARITIA 8A Energy Converter",
+  "block.gtceu.uev_16a_energy_converter": "AVARITIA 16A Energy Converter",
+  "block.gtmutils.uev_64a_energy_converter": "AVARITIA 64A Energy Converter",
+  "block.gtceu.uev_energy_input_hatch": "AVARITIA Energy Input Hatch",
+  "block.gtceu.uev_energy_input_hatch_4a": "AVARITIA 4A Energy Input Hatch",
+  "block.gtceu.uev_energy_input_hatch_16a": "AVARITIA 16A Energy Input Hatch",
+  "block.gtceu.uev_energy_output_hatch": "AVARITIA Dynamo Hatch",
+  "block.gtceu.uev_energy_output_hatch_4a": "AVARITIA 4A Dynamo Hatch",
+  "block.gtceu.uev_energy_output_hatch_16a": "AVARITIA 16A Dynamo Hatch",
+
   "block.gtceu.smdforge": "Ultimate Component Workstation",
   "gtceu.smdforge": "Ultimate Component Workstation",
+
+  "material.gtceu.diamond_lattice": "Diamond Lattice",
+
+  "material.gtceu.dragons_breath": "Dragon's Breath",
 
   "material.gtceu.aldecaldium": "Aldecaldium",
   "material.gtceu.panamium": "Panamium",
@@ -298,6 +316,13 @@
   "material.gtceu.oganessonish": "Oganesson",
 
   "material.gtceu.blaze_cubeish": "Blaze Cube",
+
+  "material.gtceu.proxima_centauri_b_stone": "Proxima Centauri B Stone",
+  "material.gtceu.prometheum": "Prometheum",
+  "material.gtceu.cadmium_acid": "Cadmium Acid",
+  "material.gtceu.diluted_cadmium_acid": "Diluted Cadmium Acid",
+  "material.gtceu.hephaestium": "Hephaestium",
+
 
   "material.gtceu.berkeliumish": "Berkelium",
   "material.gtceu.calcium48": "Calcium-48",
