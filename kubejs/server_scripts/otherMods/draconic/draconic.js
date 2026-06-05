@@ -30,23 +30,9 @@ ServerEvents.recipes((event) => {
       'gtceu:stainless_steel_ingot'
     )
 
-    event.remove({id: 'draconicevolution:tools/advanced_dislocator'})
     event.remove({id: 'draconicevolution:celestial_manipulator'})
     event.remove({id: 'draconicevolution:awakened_draconium_block'})
     event.remove({id: 'draconicevolution:components/awakened_core'})
-
-    event.shaped(
-      Item.of('draconicevolution:advanced_dislocator', 1),
-      [
-        'CBC',
-        'BAB',
-        'CBC'
-      ],
-      {
-        B: '#gtceu:circuits/hv',
-        A: 'draconicevolution:dislocator',
-        C: 'gtceu:stainless_steel_ingot'
-      })
     
     event.shaped(
       Item.of('draconicevolution:celestial_manipulator', 1),

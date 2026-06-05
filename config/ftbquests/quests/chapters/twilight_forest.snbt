@@ -11,21 +11,21 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs MV circuit alloy ingot!"]
+			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs Twilight Flame!"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "4193303999597249"
 			shape: "circle"
 			size: 1.0d
 			tasks: [
 				{
-					id: "3247EF6B0A272ED6"
-					item: "kubejs:mvalloy"
-					type: "item"
-				}
-				{
 					dimension: "twilightforest:twilight_forest"
 					id: "180D0767D9C68DA0"
 					type: "dimension"
+				}
+				{
+					id: "1472EA69F187C094"
+					item: "kubejs:twilight_flame"
+					type: "item"
 				}
 			]
 			title: "Enter the twilight forest!"

@@ -98,6 +98,7 @@ StartupEvents.registry('item', event => {
     event.create('sensor').displayName('Dwarven Sensor')
     event.create('computation_matrix').displayName('Computation Matrix')
     event.create('niobiumcoating').displayName('Niobium Zenithium Coating')
+    event.create('twilight_flame').displayName('Twilight Flame')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

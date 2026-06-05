@@ -1,18 +1,5 @@
 ServerEvents.recipes((event) => {
 
-  event.shaped(
-      Item.of('enchanted:witch_cauldron', 1),
-      [
-        '   ',
-        'ABA',
-        'AAA'
-      ],
-      {
-        B: '#gtceu:circuits/uv',
-        A: 'minecraft:iron_ingot',
-      }
-  )
-
   event.custom({
     type: "enchanted:witch_cauldron",
     cookingColor: [

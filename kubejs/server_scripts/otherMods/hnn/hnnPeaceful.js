@@ -229,40 +229,4 @@ ServerEvents.recipes(event => {
         75000        
     )
 
-
-    event.custom({
-      type: 'draconicevolution:fusion_crafting',
-      catalyst: {
-            item: 'avaritia:record_fragment'
-      },
-      ingredients: [
-        {
-          item: 'avaritia:eternal_singularity'
-        },
-        {
-          item: 'avaritia:eternal_singularity'
-        },
-        {
-          item: 'avaritia:eternal_singularity'
-        },
-        {
-          item: 'avaritia:eternal_singularity'
-        },
-        {
-          item: 'avaritia:eternal_singularity'
-        },
-        {
-          item: 'avaritia:eternal_singularity'
-        }
-      ],
-      result: {
-        item: 'hostilenetworks:data_model',
-        nbt: '{data_model:{data:1,id:"hostilenetworks:draconicevolution/draconic_guardian",iterations:1}}'
-      },
-      tier: 'WYVERN',
-      total_energy: 1280000,
-    })
-    .id('chaosgurdin');
-
-
 })

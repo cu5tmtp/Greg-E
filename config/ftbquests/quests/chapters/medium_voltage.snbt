@@ -584,18 +584,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["40766ACBD18F14D8"]
-			description: ["This ingot unlocks Twilight Forest, it acts as a opener of the portal instead of diamond."]
-			id: "4DE575D037B05C92"
-			tasks: [{
-				id: "6F1AC4A28BB20A0B"
-				item: "kubejs:mvalloy"
-				type: "item"
-			}]
-			x: -19.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["262AE37765B139BE"]
 			description: ["Get these machines, they will speed up your progress!"]
 			id: "476D91B8B72763DB"
@@ -712,6 +700,17 @@
 			}]
 			x: 8.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["40766ACBD18F14D8"]
+			id: "51E1F39E24031541"
+			tasks: [{
+				id: "4887F9C61C37FBDA"
+				item: "kubejs:mvalloy"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
 		}
 	]
 	title: "MV"

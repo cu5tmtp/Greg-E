@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
             'gtceu:terminal'
         )
         .duration(100)
-        .circuit(24)
+        .circuit(20)
         .EUt(GTValues.VA[GTValues.LV])
 
     event.replaceInput(

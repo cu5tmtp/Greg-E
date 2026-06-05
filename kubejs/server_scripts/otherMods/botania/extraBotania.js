@@ -1,22 +1,5 @@
 ServerEvents.recipes((event) => {
-
-    event.remove( {id: 'botanicalextramachinery:greenhouse'})
-    event.recipes.gtceu.assembler()
-        .itemInputs(
-            'kubejs:magicalseed',
-            '4x kubejs:vanaheimingotblock',
-            '4x #gtceu:circuits/ev',
-            '4x botania:terrasteel_ingot',
-            '2x gtceu:ev_robot_arm',
-            '8x gtceu:ev_electric_motor'
-        )
-        .itemOutputs(
-            'botanicalextramachinery:greenhouse'
-        )
-        .EUt(GTValues.VA[GTValues.EV])
-        .duration(2000)
-        .circuit(5)
-
+    
     event.replaceInput(
         {id: 'botanicalextramachinery:upgrade_pattern'},
         'minecraft:netherite_ingot',

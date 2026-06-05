@@ -298,6 +298,9 @@
   "block.gtceu.smdforge": "Ultimate Component Workstation",
   "gtceu.smdforge": "Ultimate Component Workstation",
 
+  "block.gtceu.essentia_smelter": "Essentia Smelter",
+  "gtceu.essentia_smelting": "Essentia Smelting",
+
   "material.gtceu.diamond_lattice_cable": "Diamond Lattice",
 
   "material.gtceu.dragons_breath": "Dragon's Breath",

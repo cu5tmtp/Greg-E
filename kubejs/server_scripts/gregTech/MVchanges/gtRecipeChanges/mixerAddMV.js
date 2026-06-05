@@ -43,8 +43,8 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '16x ae2:fluix_crystal'
         )
-        .duration(1200)
-        .EUt(GTValues.VA[GTValues.LV])
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.MV])
         .circuit(16)
         
 })
