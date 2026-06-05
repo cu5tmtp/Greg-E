@@ -506,6 +506,48 @@
 			x: 0.5d
 			y: -1.5d
 		}
+		{
+			description: ["Inifity cells! All of them are definetly useful."]
+			id: "71B93092F10EF3C0"
+			tasks: [
+				{
+					id: "38AF345D3F8A9D93"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF522F6D7FA7139"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C60CCF26B62C9B"
+					item: "kubejs:infinity_lava_cell"
+					type: "item"
+				}
+			]
+			title: "Infinity AE cells!"
+			x: 0.5d
+			y: 0.5d
+		}
 	]
 	title: "QOL"
 }

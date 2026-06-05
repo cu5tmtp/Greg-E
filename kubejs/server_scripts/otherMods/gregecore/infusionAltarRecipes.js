@@ -218,6 +218,104 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "1,1,1,1,1,1")
 
+    event.remove('projecte:repair_talisman')
+    event.remove('projecte:repair_talisman_alt')
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '6x projecte:low_covalence_dust',
+            '6x projecte:medium_covalence_dust',
+            '6x projecte:high_covalence_dust',
+            'minecraft:paper',
+            '2x minecraft:string'
+        )
+        .inputFluids(
+            'gregecore:aqua_essentia 100',
+            'gregecore:aer_essentia 100',
+            'gregecore:terra_essentia 100',
+            'gregecore:perditio_essentia 100',
+            'gregecore:ignis_essentia 100',
+            'gregecore:ordo_essentia 100',
+        )
+        .itemOutputs(
+            'projecte:repair_talisman'
+        )
+        .duration(600)
+        .addData('essentia', "1,1,1,1,1,1")
+
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            'minecraft:fire_charge',
+            '#gtceu:circuits/mv',
+            'minecraft:coal',
+            'gtceu:sintercoke_ingot',
+            'gtceu:coke_gem'
+        )
+        .inputFluids(
+            'gregecore:ignis_essentia 100'
+        )
+        .itemOutputs(
+            'kubejs:twilight_flame'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,1,0,0")
+
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '4x gtceu:clean_machine_casing',
+            '4x gtceu:nonconducting_casing',
+            '4x gtceu:stainless_steel_gearbox',
+            '4x gregecore:ptfe_firebox_casing',
+            '4x gtceu:rtm_alloy_coil_block',
+            '4x gtceu:tempered_glass', 
+            '4x gregecore:ptfe_engine_intake',
+            '8x #gtceu:circuits/luv',
+            '2x kubejs:essentia_filter'
+        )
+        .inputFluids(
+            'gregecore:ordo_essentia 3000',
+            'gregecore:perditio_essentia 4000',
+            'gregecore:ignis_essentia 2000',
+        )
+        .itemOutputs(
+            'gtceu:giantesssmelter'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,1,1,1")
+
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '4x #gtceu:circuits/ev',
+            'megacells:mega_fluid_cell_housing'
+        )
+        .inputFluids(
+            'gregecore:ignis_essentia 30000',
+        )
+        .itemOutputs(
+            'kubejs:infinity_lava_cell'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,1,0,0")
+
+    event.remove('ad_astra:nasa_workbench')
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '#gtceu:circuits/hv',
+            '2x gtceu:iron_rod',
+            'gtceu:steel_block',
+            '4x gtceu:steel_plate',
+            'minecraft:redstone_torch'
+        )
+        .inputFluids(
+            'gregecore:ignis_essentia 1000',
+            'gregecore:aer_essentia 500',
+            'gregecore:perditio_essentia 800'
+        )
+        .itemOutputs(
+            'ad_astra:nasa_workbench'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,1,1,1,0")
+
 
 
     //aqua, terra, aer, ignis, perditio, ordo

@@ -163,12 +163,6 @@ ServerEvents.recipes((event) => {
     )
 
     event.replaceInput(
-        'ad_astra:nasa_workbench',
-        'minecraft:crafting_table',
-        '#gtceu:circuits/hv'
-    )
-
-    event.replaceInput(
         'ad_astra:netherite_space_helmet',
         'minecraft:netherite_helmet',
         'minecraft:diamond_helmet'

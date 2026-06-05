@@ -121,4 +121,94 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(500)
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:item_filter',
+            '4x gtceu:magical_certus_quartz2_ingot'
+        )
+        .inputFluids(
+            'gtceu:rubber 100'
+        )
+        .itemOutputs(
+            'kubejs:essentia_filter'
+        )
+        .circuit(8)
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(500)
+
+    event.shaped(
+        Item.of('gtceu:lv_essentia_smelter', 1),
+        [
+            'DAD',
+            'DBD',
+            'DCD'
+        ],
+        {
+            A: 'gtceu:item_filter',
+            B: 'gtceu:lv_machine_hull',
+            C: '#gtceu:circuits/lv',
+            D: 'gtceu:steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:mv_essentia_smelter', 1),
+        [
+            'DAD',
+            'DBD',
+            'DCD'
+        ],
+        {
+            A: 'gtceu:item_filter',
+            B: 'gtceu:mv_machine_hull',
+            C: '#gtceu:circuits/mv',
+            D: 'gtceu:aluminium_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:hv_essentia_smelter', 1),
+        [
+            'DAD',
+            'DBD',
+            'DCD'
+        ],
+        {
+            A: 'gtceu:item_filter',
+            B: 'gtceu:hv_machine_hull',
+            C: '#gtceu:circuits/hv',
+            D: 'gtceu:stainless_steel_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:ev_essentia_smelter', 1),
+        [
+            'DAD',
+            'DBD',
+            'DCD'
+        ],
+        {
+            A: 'gtceu:item_filter',
+            B: 'gtceu:ev_machine_hull',
+            C: '#gtceu:circuits/ev',
+            D: 'gtceu:titanium_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('gtceu:iv_essentia_smelter', 1),
+        [
+            'DAD',
+            'DBD',
+            'DCD'
+        ],
+        {
+            A: 'gtceu:item_filter',
+            B: 'gtceu:iv_machine_hull',
+            C: '#gtceu:circuits/iv',
+            D: 'gtceu:tungsten_steel_ingot'
+        }
+    )
+
 })

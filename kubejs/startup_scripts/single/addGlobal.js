@@ -3,9 +3,9 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     event.create("essentia_smelting")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(1, 0, 1, 6)
+        .setMaxIOSize(1, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
-        .setProgressBar(GuiTextures.PROGRESS_BAR_MAGNET, FillDirection.LEFT_TO_RIGHT)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_COMPRESS, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC);
 
 })
@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
     event.create('essentia_smelter', 'simple')
-        .tiers([GTValues.LV, GTValues.MV, GTValues.EV, GTValues.IV])
+        .tiers([GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV])
         .definition((tier, builder) => {
             return builder
                 .recipeType('essentia_smelting')

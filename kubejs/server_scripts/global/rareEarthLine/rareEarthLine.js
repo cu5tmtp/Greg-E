@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
         .duration(500)
         .EUt(GTValues.VA[GTValues.LV])
 
-    event.recipes.gtceu.distillery()
+    event.recipes.gtceu.autoclave()
         .itemInputs(
             'gtceu:refined_rare_earth_dust'
         )

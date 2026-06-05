@@ -24,7 +24,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6E7D9D3DC0E9F8E6"]
+			dependencies: [
+				"6E7D9D3DC0E9F8E6"
+				"3C53F59910EA246A"
+			]
 			description: ["This is the most important structure of this mod. The altar is 6 blocks next to each other, when it forms, a red carpet covers it. The altar is your power generation method for this mod. You get more altar power by placing more flowers and trees next to the altar."]
 			id: "771E45EEB84B4678"
 			tasks: [{
@@ -132,6 +135,17 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: ["Use Mutandis on sapling, and roll it to get all of the Enchanted flowers/saplings. All of them are described the mods guidebook."]
+			id: "3C53F59910EA246A"
+			tasks: [{
+				id: "598E180142B66CD9"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "Enchanted"

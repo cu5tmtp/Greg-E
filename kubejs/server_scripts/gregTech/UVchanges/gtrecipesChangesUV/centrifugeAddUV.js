@@ -64,6 +64,17 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .circuit(6)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '8x enchanted:mandrake_root'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(7)
+
 
     
 
