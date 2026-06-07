@@ -29,4 +29,8 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:leather', 'gtceu:artificial_leather_plate')
 
+    //cataclysm imitation ingots tagging
+    event.add('grege:witherite', 'cataclysm:witherite_ingot')
+    event.add('grege:witherite', 'gtceu:imitation_witherite_ingot')
+
 })

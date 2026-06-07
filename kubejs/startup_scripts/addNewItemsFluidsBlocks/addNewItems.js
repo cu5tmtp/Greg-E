@@ -103,6 +103,7 @@ StartupEvents.registry('item', event => {
     event.create('cc').displayName('cu5tm Coin')
     event.create('legwepcore').displayName('Legendary Weapon Core')
     event.create('magicdust').displayName('Magical Dust')
+    event.create('imitationegg').displayName('Abyssal Egg Imitation')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

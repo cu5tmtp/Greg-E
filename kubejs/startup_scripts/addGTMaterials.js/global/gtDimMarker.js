@@ -72,5 +72,18 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Neptune Orbit")
 
+    //cataclysm dims
+
+    event.create('cataclysm_dimension:cataclysm_forge_of_aeons')
+        .iconSupplier(() => Item.of('cataclysm:mech_eye').getItem())
+        .tier(0)
+        .overrideName("Forge of Aeons")
+
+    event.create('cataclysm_dimension:cataclysm_abyssal_depths')
+        .iconSupplier(() => Item.of("cataclysm:abyss_eye").getItem())
+        .tier(0)
+        .overrideName("Abyssal Depths")
+
+
 
 })

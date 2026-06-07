@@ -1,3 +1,5 @@
+const BlockStateProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties');
+
 StartupEvents.registry('block', event => {
 
     event.create('slurry_squeezer')
@@ -93,11 +95,19 @@ StartupEvents.registry('block', event => {
 
     event.create('vending_machine')
         .box(0, 0, 0, 16, 32, 16, true)
-        .model('kubejs:block/vending')
         .displayName('Vending Machine')
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
         .fullBlock(false)
+        .property(BlockStateProperties.HORIZONTAL_FACING)
+        .placementState(ctx => {
+            return ctx.set(BlockStateProperties.HORIZONTAL_FACING, ctx.horizontalDirection);
+        })
+        .item(item => {
+        item.modelJson({
+            "parent": "kubejs:block/vending"
+        });
+    });
         
 })

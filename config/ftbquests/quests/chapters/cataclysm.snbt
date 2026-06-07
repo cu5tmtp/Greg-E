@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "1DD75D8B702CB0A0"
+	icon: "cataclysm:the_incinerator"
+	id: "47D3721983231947"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Be sure to be prepared! There are a lots of things you can do to get stronger! Better weapons, stronger trinkets etc."
+				""
+				"But don't worry too much, bosses have uncapped dmg taken, and they are a bit nerfed."
+			]
+			id: "524740E4D1F809CE"
+			tasks: [{
+				id: "22946CC4AB42D4F1"
+				title: "Tough bossfights ahead!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["524740E4D1F809CE"]
+			description: [
+				"This item will teleport you to your bed."
+				""
+				"It is useful since the boss arenas are in new dimensions, which you can't get out of if you don't have teleport avaible."
+			]
+			id: "397EA737351E8A35"
+			tasks: [{
+				id: "1100C3CCB4E04802"
+				item: "kubejs:recall_pendant"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["524740E4D1F809CE"]
+			description: [
+				"Main boss: Harbinger"
+				""
+				"Start the bossfight by giving the boss nether star."
+			]
+			id: "1D05AA4DBF4D10A7"
+			tasks: [{
+				id: "285751676799F097"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D05AA4DBF4D10A7"]
+			id: "5EC0E487577E40FB"
+			tasks: [{
+				id: "5BE7BE7C69BB088F"
+				item: "kubejs:strength_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D05AA4DBF4D10A7"]
+			description: [
+				"Main boss: Leviathan"
+				""
+				"Start the bossfight by inserting Abyssal Scrifice into the Altar of Abyss."
+			]
+			id: "24FB8333EAFE3672"
+			tasks: [{
+				id: "195ACBDDEDE47C22"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24FB8333EAFE3672"]
+			id: "42BA11FE7723CD09"
+			tasks: [{
+				id: "73FE16846C9C847A"
+				item: "kubejs:regen_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24FB8333EAFE3672"]
+			description: [
+				"Main boss: Ancient Remnant"
+				""
+				"Start the bossfight by giving the boss Desert Necklace."
+			]
+			id: "52B904F6CB4572C9"
+			tasks: [{
+				id: "095C07223FCBB0D9"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B904F6CB4572C9"]
+			id: "1EE2F953977A374C"
+			tasks: [{
+				id: "4198465BB2738C70"
+				item: "kubejs:resist_bracelet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D05AA4DBF4D10A7"]
+			description: ["This gives you acess to better Good Integrated Circuit recipe!"]
+			id: "030A68B5FF9CD45B"
+			tasks: [{
+				id: "172AC4DDE0906568"
+				item: "gtceu:witherite_wire_single_wire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24FB8333EAFE3672"]
+			description: ["This gives you acess to better Advanced Integrated Circuit recipe!"]
+			id: "76A8C9B2D75D3E57"
+			tasks: [{
+				id: "311ECADB5ACCF0C8"
+				item: "gtceu:abyssal_wire_single_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "Cataclysm"
+}
