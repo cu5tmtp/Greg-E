@@ -1,10 +1,11 @@
 const SHOP_ITEMS = [
-    { item: 'kubejs:universal/lv', price: 8, label: 'LV_Universal', unlock: 'ulv_chapter_completed', questName: 'ULV Chapter pentagon quest' },
-    { item: 'kubejs:universal/mv', price: 9, label: 'MV_Universal', unlock: 'lv_chapter_completed', questName: 'LV Chapter pentagon quest' },
-    { item: 'kubejs:universal/hv', price: 10, label: 'HV_Universal', unlock: 'mv_chapter_completed', questName: 'MV Chapter pentagon quest' },
-    { item: 'kubejs:universal/ev', price: 12, label: 'EV_Universal', unlock: 'hv_chapter_completed', questName: 'HV Chapter pentagon quest' },
-    { item: 'kubejs:universal/iv', price: 14, label: 'IV_Universal', unlock: 'ev_chapter_completed', questName: 'EV Chapter pentagon quest' },
-    { item: 'kubejs:universal/luv', price: 16, label: 'LUV_Universal', unlock: 'iv_chapter_completed', questName: 'IV Chapter pentagon quest' },
+    { item: '4x gtceu:steel_ingot', price: 2, label: 'LV_Universalsteel', unlock: '0CEC51F03B40A107', questName: 'ULV Chapter pentagon quest' },
+    { item: 'kubejs:universal/lv', price: 4, label: 'LV_Universal', unlock: '0CEC51F03B40A107', questName: 'ULV Chapter pentagon quest' },
+    { item: 'kubejs:universal/mv', price: 5, label: 'MV_Universal', unlock: '4D6885EFA4EE272F', questName: 'LV Chapter pentagon quest' },
+    { item: 'kubejs:universal/hv', price: 6, label: 'HV_Universal', unlock: '2C28217E1131A63A', questName: 'MV Chapter pentagon quest' },
+    { item: 'kubejs:universal/ev', price: 8, label: 'EV_Universal', unlock: '0DB4226BA23A5C09', questName: 'HV Chapter pentagon quest' },
+    { item: 'kubejs:universal/iv', price: 10, label: 'IV_Universal', unlock: '2E47C92E3E8D826A', questName: 'EV Chapter pentagon quest' },
+    { item: 'kubejs:universal/luv', price: 12, label: 'LUV_Universal', unlock: '2ACB94B77EF072EB', questName: 'IV Chapter pentagon quest' },
 ];
 
 const CURRENCY_ITEM = 'kubejs:cc';
@@ -50,7 +51,7 @@ function createShopUI(e) {
         }
     }
 
-    moneyLabel.setText("cu5tom Coins in inventory: " + getEmeraldCount());
+    moneyLabel.setText("cu5tm Coins in inventory: " + getEmeraldCount());
     root.addWidgets(moneyLabel);
 
     let scrollableRoot = new DraggableScrollableWidgetGroup();
@@ -70,6 +71,7 @@ function createShopUI(e) {
 
         let itemTexture = new ItemStackTexture();
         itemTexture.setItems(Item.of(shopItem.item));
+        itemTexture.scale(0.6)
         
         let normalBg = ResourceBorderTexture.BUTTON_COMMON;
         let hoverBg = normalBg.copy().setColor(ColorPattern.CYAN.color);
@@ -80,7 +82,7 @@ function createShopUI(e) {
         itemButton.setOnPressCallback(clickData => {
 
             if (player.level.isClientSide()) return;
-            if (shopItem.unlock && !player.persistentData.getBoolean(shopItem.unlock)) {
+            if (!FTBQuests.getServerDataFromPlayer(player).isCompleted(shopItem.unlock)) {
                 player.tell(`You need to complete ${shopItem.questName} first!`);
                 return;
             }
@@ -89,7 +91,7 @@ function createShopUI(e) {
             if (currentMoney >= shopItem.price) {
                 deductEmeralds(shopItem.price);
                 player.give(shopItem.item);
-                moneyLabel.setText("cu5tom Coins in inventory: " + getEmeraldCount());
+                moneyLabel.setText("cu5tm Coins in inventory: " + getEmeraldCount());
             } else {
                 moneyLabel.setText("Not enough coins!");
             }
@@ -101,15 +103,15 @@ function createShopUI(e) {
 
         let priceLabel = new LabelWidget();
         priceLabel.setSelfPosition(10 + (col * 90) + 28, 10 + (row * 35) + 8);
-        priceLabel.setText(shopItem.price + " CC");
+        priceLabel.setText(shopItem.price + " cC");
 
         scrollableRoot.addWidgets(itemButton, priceLabel);
     });
 
     for (let row = 0; row < 3; row++) {
         for (let col = 0; col < 9; col++) {
-            let posX = 10 + col * 18;
-            let posY = 150 + row * 18;
+            let posX = 10 + col * 20;
+            let posY = 150 + row * 20;
             
             let bg = new ButtonWidget();
             bg.setSelfPosition(posX - 1, posY - 1);
@@ -128,8 +130,8 @@ function createShopUI(e) {
     }
 
     for (let col = 0; col < 9; col++) {
-        let posX = 10 + col * 18;
-        let posY = 210;
+        let posX = 10 + col * 20;
+        let posY = 220;
         
         let bg = new ButtonWidget();
         bg.setSelfPosition(posX - 1, posY - 1);
