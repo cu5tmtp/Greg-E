@@ -1,0 +1,8 @@
+{
+  "shop_open": {
+    "category": "master",
+    "sounds": [
+      "kubejs:shop_open"
+    ]
+  }
+}

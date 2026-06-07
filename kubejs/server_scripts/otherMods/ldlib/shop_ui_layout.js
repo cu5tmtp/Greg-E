@@ -24,6 +24,8 @@ function createShopUI(e) {
     root.setSize(200, 250);
     root.setBackground(ResourceBorderTexture.BORDERED_BACKGROUND);
 
+    player.playSound('kubejs:shop_open', 1.0, 1.0);
+
     let availableItems = SHOP_ITEMS;
 
     let moneyLabel = new LabelWidget();
