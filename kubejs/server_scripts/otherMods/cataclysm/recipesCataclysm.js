@@ -62,4 +62,59 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.recipes.botania.mana_infusion(
+        '2x cataclysm:ancient_metal_ingot',
+        'cataclysm:ancient_metal_ingot',
+        1000,
+        'botania:conjuration_catalyst'
+    )
+
+    event.shaped(
+        Item.of('cataclysm:necklace_of_the_desert', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: '#forge:sand',
+            B: 'cataclysm:ancient_metal_ingot'
+        }
+    )
+
+    event.shaped(
+        Item.of('kubejs:resist_bracelet', 1),
+        [
+            'CAC',
+            'ABA',
+            'CAC'
+        ],
+        {
+            A: 'cataclysm:ancient_metal_ingot',
+            B: 'minecraft:red_dye',
+            C: '#forge:leather'
+        }
+    )
+
+    event.recipes.botania.mana_infusion(
+        '2x cataclysm:ignitium_ingot',
+        'cataclysm:ignitium_ingot',
+        1000,
+        'botania:conjuration_catalyst'
+    )
+
+    event.shaped(
+        Item.of('kubejs:damage_belt', 1),
+        [
+            'CAC',
+            'ABA',
+            'CAC'
+        ],
+        {
+            A: 'cataclysm:ignitium_ingot',
+            B: 'minecraft:gold_ingot',
+            C: '#forge:leather'
+        }
+    )
+
 })

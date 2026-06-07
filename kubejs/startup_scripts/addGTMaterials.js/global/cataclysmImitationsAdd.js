@@ -40,4 +40,55 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('ancient_metal_imitation')
+        .ingot()
+        .color(0xa29c10)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('impure_ancient_metal')
+        .dust()
+        .color(0x79801b)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dirty_ancient_metal')
+        .dust()
+        .color(0x98981f)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('ancient_metal')
+        .color(0xa29c10)
+        .cableProperties(GTValues.VA[GTValues.HV], 12, 2, false)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('ignitium_imitation')
+        .ingot()
+        .color(0xd24a2d)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('ignitium_infused_lava')
+        .fluid()
+        .color(0xd78728)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dirty_ignitium_lava')
+        .fluid()
+        .color(0xc58f3a)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('ignitium_wire')
+        .color(0xd24a2d)
+        .cableProperties(GTValues.VA[GTValues.EV], 16, 2, false)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+
+    
+
 })

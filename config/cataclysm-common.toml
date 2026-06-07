@@ -562,21 +562,21 @@
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 200000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 14000.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
 			#Range Cap
 			#Range: 1.0 ~ 1000000.0
-			range_cap = 15.0
+			range_cap = 150.0
 
 		[mobs.ignis.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 0.0
 
 		[mobs.ignis.ignore_mobgriefing_config]
 			#Ignore MobGriefing

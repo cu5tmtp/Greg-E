@@ -47,6 +47,55 @@ StartupEvents.registry('item', event => {
                 })
     );
 
+    event.create('damage_belt')
+        .displayName('Belt of Striking')
+        .maxStackSize(1)
+        .glow(true)
+        .tooltip('§7When equipped, grants +10 Attack Damage.')
+        .tag("curios:belt")
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('minecraft:generic.attack_damage', 'belt_damage_bonus', 10.0, 'addition')
+        );
+
+    event.create('earring1')
+        .displayName('Golden Earring')
+        .maxStackSize(1)
+        .tag("curios:earring")
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('minecraft:generic.max_health', 'earring_health_bonus', 5.0, 'addition')
+        );
+
+    event.create('earring2')
+        .displayName('Feather Earring')
+        .maxStackSize(1)
+        .tag("curios:earring")
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('minecraft:generic.max_health', 'earring_health_bonus', 5.0, 'addition')
+        );
+
+    event.create('trinket1')
+        .displayName('Plushie Bear of Reach')
+        .maxStackSize(1)
+        .tag("curios:trinket")
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('forge:reach_distance', 'reach_bonus', 1.0, 'addition')
+        );
+
+    event.create('trinket2')
+        .displayName('Tesseract')
+        .maxStackSize(1)
+        .glow(true)
+        .tag("curios:trinket")
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .addAttribute('minecraft:generic.armor', 'armor_percent_bonus', 0.25, 'multiply_total')
+                .addAttribute('minecraft:generic.max_health', 'health_percent_bonus', 0.25, 'multiply_total')
+        );
+
     event.create('recall_pendant')
         .displayName('Hearthstone')
         .maxStackSize(1)

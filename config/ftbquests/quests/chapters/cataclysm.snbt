@@ -12,7 +12,7 @@
 			description: [
 				"Be sure to be prepared! There are a lots of things you can do to get stronger! Better weapons, stronger trinkets etc."
 				""
-				"But don't worry too much, bosses have uncapped dmg taken, and they are a bit nerfed."
+				"But don't worry too much, bosses have disabled capped dmg, and they are a bit HP nerfed."
 			]
 			id: "524740E4D1F809CE"
 			tasks: [{
@@ -143,6 +143,109 @@
 			}]
 			x: 1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["52B904F6CB4572C9"]
+			description: [
+				"Main boss: Ignis"
+				""
+				"Start the bossfight by donating Burning Ashes to the middle altar."
+				""
+				"From now on bosses will not be HP nerfed, as in EV you have access to good armor."
+				""
+				"The cap on DMG is still disabled, as that is a dumb mechanic."
+			]
+			id: "0CE2A663946D774B"
+			tasks: [{
+				id: "3CEB6B98E37D521E"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B904F6CB4572C9"]
+			id: "57CB8341FF89026F"
+			tasks: [{
+				id: "6CBAC5043497A227"
+				item: "gtceu:ancient_metal_single_wire"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CE2A663946D774B"]
+			id: "38219D5BBB1F5EEF"
+			tasks: [{
+				id: "5D5CF0DAC59D377A"
+				item: "kubejs:damage_belt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "5C6B687AF6C6630E"
+			tasks: [{
+				id: "19E3E92F8F3AA3F0"
+				item: "kubejs:earring1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "3414FBCB71552FD7"
+			tasks: [{
+				id: "5D200063CF420220"
+				item: "kubejs:earring2"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "2875B8CBE29450D1"
+			tasks: [{
+				id: "71E0BD2D233B8981"
+				item: "kubejs:trinket1"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "02542474632569E3"
+			tasks: [{
+				id: "42803D196EF8C3B2"
+				item: "kubejs:trinket2"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CE2A663946D774B"]
+			id: "4191666C0B85D816"
+			tasks: [{
+				id: "609C417F3B1DC291"
+				item: "gtceu:ignitium_wire_single_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "53BAF825D0BC199B"
+			tasks: [{
+				id: "01D2AEA0116168DE"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	title: "Cataclysm"

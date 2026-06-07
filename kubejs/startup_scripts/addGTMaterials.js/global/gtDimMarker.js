@@ -84,6 +84,16 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
         .tier(0)
         .overrideName("Abyssal Depths")
 
+    event.create('cataclysm_dimension:cataclysm_pharaohs_bane')
+        .iconSupplier(() => Item.of('cataclysm:desert_eye').getItem())
+        .tier(0)
+        .overrideName("Pharaohs Bane")
+
+    event.create('cataclysm_dimension:cataclysm_infernos_maw')
+        .iconSupplier(() => Item.of('cataclysm:flame_eye').getItem())
+        .tier(0)
+        .overrideName("Inferno's Maw")
+
 
 
 })

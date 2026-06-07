@@ -105,9 +105,7 @@ StartupEvents.registry('block', event => {
             return ctx.set(BlockStateProperties.HORIZONTAL_FACING, ctx.horizontalDirection);
         })
         .item(item => {
-        item.modelJson({
-            "parent": "kubejs:block/vending"
+            item.modelJson({"parent": "kubejs:block/vending"});
         });
-    });
         
 })

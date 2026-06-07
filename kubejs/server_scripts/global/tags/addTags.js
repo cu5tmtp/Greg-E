@@ -33,4 +33,11 @@ ServerEvents.tags('item', event => {
     event.add('grege:witherite', 'cataclysm:witherite_ingot')
     event.add('grege:witherite', 'gtceu:imitation_witherite_ingot')
 
+    event.add('grege:ancientmetal', 'cataclysm:ancient_metal_ingot')
+    event.add('grege:ancientmetal', 'gtceu:ancient_metal_imitation_ingot')
+
+    event.add('grege:ignitium', 'cataclysm:ignitium_ingot')
+    event.add('grege:ignitium', 'gtceu:ignitium_imitation_ingot')
+
+
 })
