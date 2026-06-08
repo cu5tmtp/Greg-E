@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
         .blastFurnaceTemp(5000)
         .duration(300)
 
-    event.recipes.gtceu.fusion_reactor()
+    event.recipes.gtceu.fusion_reactor('dvef2d1v2fd1cv21212212121')
         .inputFluids(
             'gtceu:pandora_gas 16',
             'gtceu:helium 16'

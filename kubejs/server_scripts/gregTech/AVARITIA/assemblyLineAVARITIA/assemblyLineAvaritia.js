@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('kubejs:animated/draconicprocessor')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_mainframe')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_mainframe')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
     event.recipes.gtceu.assembly_line('getdraconiumprocessor2')
         .itemInputs(
@@ -49,20 +49,19 @@ ServerEvents.recipes((event) => {
         .itemOutputs('2x kubejs:animated/draconicprocessor')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('kubejs:ultimateresistor')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('kubejs:ultimateresistor')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
     event.recipes.gtceu.assembly_line('getavaritiat4crafting')
         .itemInputs(
             '4x kubejs:animated/draconicprocessor',
             '4x gtceu:neutronium_frame',
-            '32x avaritia:crystal_matrix',
             '8x gtceu:neutronium_plate',
             'minecraft:beacon'
         )
         .itemOutputs('avaritia:extreme_crafting_table')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('avaritia:double_compressed_crafting_table')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('avaritia:double_compressed_crafting_table')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
     event.recipes.gtceu.assembly_line('getstarfeeder')
         .itemInputs(
@@ -75,7 +74,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:star_feeder')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_input_bus')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_input_bus')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
     event.recipes.gtceu.assembly_line('getrepairpart')
         .itemInputs(
@@ -87,7 +86,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:repair_part_input_machine')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('gregecore:star_feeder')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
+        .stationResearch(b => b.researchStack(Item.of('gregecore:star_feeder')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
     event.recipes.gtceu.assembly_line('getspecializedassemblyline')
         .itemInputs(
@@ -101,7 +100,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gtceu:specializedassemblyline')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_ingot')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
+        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_ingot')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
     event.recipes.gtceu.assembly_line('getepicparallel')
         .itemInputs(
@@ -117,7 +116,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gtceu:uhv_uhv_parallel_hatch')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_catalyst')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
+        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_catalyst')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
     event.recipes.gtceu.assembly_line('getdonationaltarrrrrr')
         .itemInputs(
@@ -128,6 +127,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs('gregecore:ascencion_holder')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
-        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity')).EUt(GTValues.VA[GTValues.UEV]).CWUt(1024))
+        .stationResearch(b => b.researchStack(Item.of('avaritia:infinity')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
 })

@@ -321,6 +321,11 @@
   "material.gtceu.ignitium_infused_lava": "Ignitium Infused Lava",
   "material.gtceu.dirty_ignitium_lava": "Dirty Ignitium Lava",
   "material.gtceu.ignitium_wire": "Ignitium",
+  "material.gtceu.lava_battery_acid": "Lava Power Cell Acid",
+  "material.gtceu.enderium": "Enderium",
+  "material.gtceu.enderium_imitation": "Enderium Imitation",
+  "material.gtceu.enderium_air": "Enderium Air",
+  "material.gtceu.dirty_enderium": "Dirty Enderium",
 
   "material.gtceu.aldecaldium": "Aldecaldium",
   "material.gtceu.panamium": "Panamium",

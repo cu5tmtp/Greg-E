@@ -199,6 +199,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.HV])
         .duration(450)
+        .blastFurnaceTemp(2000)
 
     event.recipes.gtceu.wiremill()
         .itemInputs(
@@ -217,7 +218,7 @@ ServerEvents.recipes((event) => {
             'gtceu:micro_processor_assembly',
             '2x #gtceu:diodes',
             '2x gtceu:ram_chip',
-            '2x gtceu:ancient_metal_single_wire',
+            '4x gtceu:ancient_metal_single_wire',
             '12x gregecore:nobelium_bolt'
         )
         .itemOutputs(
@@ -319,5 +320,84 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(300)
         .cleanroom(CleanroomType.CLEANROOM)
+
+    event.recipes.gtceu.chemical_reactor()
+        .inputFluids(
+            'gtceu:sulfuric_acid 1000',
+            'gtceu:distilled_water 500'
+        )
+        .outputFluids(
+            'gtceu:diluted_sulfuric_acid 1200'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(200)
+
+    event.recipes.gtceu.sifter()
+        .itemInputs(
+            '16x minecraft:netherrack'
+        )
+        .itemOutputs(
+            'kubejs:emptybattery'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(300)
+        .dimension('cataclysm_dimension:cataclysm_souls_anvil')
+
+    event.recipes.gtceu.chemical_reactor()
+        .inputFluids(
+            'gtceu:diluted_sulfuric_acid 750',
+            'minecraft:lava 750'
+        )
+        .outputFluids(
+            'gtceu:lava_battery_acid 500'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(200)
+
+    event.recipes.gtceu.canner()
+        .itemInputs(
+            'kubejs:emptybattery'
+        )
+        .inputFluids(
+            'gtceu:lava_battery_acid 1000'
+        )
+        .itemOutputs(
+            'kubejs:imitationbattery'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(400)
+
+    event.recipes.gtceu.circuit_assembler('fvgrdfgfdg453534v35f4ydss')
+        .itemInputs(
+            '2x gtceu:aluminium_frame',
+            'gtceu:nano_processor_computer',
+            '2x gtceu:advanced_smd_inductor',
+            '4x gtceu:advanced_smd_capacitor',
+            '8x gtceu:ram_chip',
+            '8x #grege:powcell'
+        )
+        .itemOutputs(
+            'gtceu:nano_processor_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(700)
+        .cleanroom(CleanroomType.CLEANROOM)
+
+    event.recipes.gtceu.circuit_assembler('fvgrdfgfdg453534v35f4gvvggvydss')
+        .itemInputs(
+            '2x gtceu:aluminium_frame',
+            'gtceu:nano_processor_computer',
+            '8x gtceu:smd_inductor',
+            '16x gtceu:smd_capacitor',
+            '8x gtceu:ram_chip',
+            '12x #grege:powcell'
+        )
+        .itemOutputs(
+            'gtceu:nano_processor_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(300)
+        .cleanroom(CleanroomType.CLEANROOM)
+
 
 })

@@ -25,7 +25,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
       .aisle("haaaaah", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdcccdb", "bdcccdb", "bcceccb", "bcceccb", "bcceccb", "bcceccb", "bbcccbb", "bbbbbbb")
       .aisle("hhhghhh", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb")
       .where("a", Predicates.blocks("gtceu:high_temperature_smelting_casing"))
-      .where("b", Predicates.blocks("minecraft:air"))
+      .where("b", Predicates.any())
       .where("c", Predicates.blocks("gtceu:reaction_safe_mixing_casing"))
       .where("d", Predicates.blocks("gtceu:sturdy_machine_casing"))
       .where("e", Predicates.blocks("gtceu:fusion_glass"))

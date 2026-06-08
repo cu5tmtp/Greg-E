@@ -77,22 +77,32 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
     event.create('cataclysm_dimension:cataclysm_forge_of_aeons')
         .iconSupplier(() => Item.of('cataclysm:mech_eye').getItem())
         .tier(0)
-        .overrideName("Forge of Aeons")
+        .overrideName("Ancient Factory")
 
     event.create('cataclysm_dimension:cataclysm_abyssal_depths')
         .iconSupplier(() => Item.of("cataclysm:abyss_eye").getItem())
         .tier(0)
-        .overrideName("Abyssal Depths")
+        .overrideName("Sunken City")
 
     event.create('cataclysm_dimension:cataclysm_pharaohs_bane')
         .iconSupplier(() => Item.of('cataclysm:desert_eye').getItem())
         .tier(0)
-        .overrideName("Pharaohs Bane")
+        .overrideName("Curse Pyramid")
 
     event.create('cataclysm_dimension:cataclysm_infernos_maw')
         .iconSupplier(() => Item.of('cataclysm:flame_eye').getItem())
         .tier(0)
-        .overrideName("Inferno's Maw")
+        .overrideName("Burning Arena")
+
+    event.create('cataclysm_dimension:cataclysm_souls_anvil')
+        .iconSupplier(() => Item.of('cataclysm:monstrous_eye').getItem())
+        .tier(0)
+        .overrideName("Soul Forge")
+
+    event.create('cataclysm_dimension:cataclysm_bastion_lost')
+        .iconSupplier(() => Item.of('cataclysm:void_eye').getItem())
+        .tier(0)
+        .overrideName("Ruined Citadel")
 
 
 

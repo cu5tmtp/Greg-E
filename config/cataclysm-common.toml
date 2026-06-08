@@ -510,10 +510,10 @@
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 25.0
+			damage_cap = 100000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 20.0
+			dps_cap = 20000.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -524,7 +524,7 @@
 		[mobs.netherite_monstrosity.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 0.0
 
 		[mobs.netherite_monstrosity.respawner_config]
 			#Respawner

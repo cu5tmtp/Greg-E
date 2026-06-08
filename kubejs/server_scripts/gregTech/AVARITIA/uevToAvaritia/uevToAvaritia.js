@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
         }
     )
 
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('vfdg2bv2fg1b2dfv1df211')
         .itemInputs(
             'gtceu:uev_machine_hull',
             'kubejs:animated/draconicprocessor',
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
         }
     )
 
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('vf45v45dfv54df5454554656bb')
         .itemInputs(
             '8x gtceu:vibranium_plate'
         )
@@ -114,7 +114,7 @@ ServerEvents.recipes((event) => {
         }
     )
 
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('v4cfd5v4d5f4vxxvhsahxvhvhv')
         .itemInputs(
             'gtceu:uev_machine_casing',
             '2x gtceu:diamond_lattice_cable_single_wire',
@@ -130,7 +130,7 @@ ServerEvents.recipes((event) => {
         .duration(40)
         .circuit(8)
 
-    event.recipes.gtceu.assembly_line()
+    event.recipes.gtceu.assembly_line('dcx45c5dsf4v5ds4vhvhjvhv')
         .itemInputs(
             'gtceu:uev_machine_hull',
             '4x gtceu:diamond_lattice_cable_single_wire',
@@ -147,7 +147,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_energy_input_hatch')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
-    event.recipes.gtceu.assembly_line()
+    event.recipes.gtceu.assembly_line('dvfd4v52dcf4v2424')
         .itemInputs(
             'gtceu:uev_machine_hull',
             '4x gtceu:diamond_lattice_cable_spring',
@@ -165,7 +165,7 @@ ServerEvents.recipes((event) => {
         .stationResearch(b => b.researchStack(Item.of('gtceu:uhv_energy_output_hatch')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))
 
     event.remove({id: 'gtceu:assembler/uev_transformer'})
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('c2d1v21dsgbvlmipefvfdpop')
         .itemInputs(
             'gtceu:uev_machine_hull',
             '4x gtceu:diamond_lattice_cable_single_wire',
@@ -178,7 +178,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.remove({id: 'gtceu:assembler/energy_hatch_4a_uev'})
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('cd4vcf5vb4df5454csdkjbjkb')
         .itemInputs(
             'gtceu:uev_energy_input_hatch',
             '2x gtceu:diamond_lattice_cable_quadruple_wire',
@@ -191,7 +191,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.remove({id: 'gtceu:assembler/energy_hatch_16a_uev'})
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('dsvcsdf4v5dfs4v5df4v2cx1121vhvh')
         .itemInputs(
             'gtceu:uev_transformer_1a',
             'gtceu:uev_energy_input_hatch_4a',
@@ -205,7 +205,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
 
         event.remove({id: 'gtceu:assembler/dynamo_hatch_4a_uev'})
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('vb1fd21d2c12ds1cs21cshvjjhvjvhvjh')
         .itemInputs(
             'gtceu:uev_energy_output_hatch',
             '2x gtceu:diamond_lattice_cable_quadruple_wire',
@@ -218,7 +218,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.remove({id: 'gtceu:assembler/dynamo_hatch_16a_uev'})
-    event.recipes.gtceu.assembler()
+    event.recipes.gtceu.assembler('dsvc21dfv2d1fv3c1v1322121vhvhvhj')
         .itemInputs(
             'gtceu:uev_transformer_1a',
             'gtceu:uev_energy_output_hatch_4a',

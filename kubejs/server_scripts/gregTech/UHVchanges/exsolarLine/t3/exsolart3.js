@@ -37,6 +37,20 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    event.remove({id: 'gtceu:chemical_reactor/formic_acid'})
+    event.recipes.gtceu.large_chemical_reactor()
+        .inputFluids(
+            'gtceu:carbon_dioxide 1000',
+            'minecraft:water 1000'
+        )
+        .outputFluids(
+            'gtceu:formic_acid 1000',
+            'gtceu:oxygen 1000'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(100)
+        .circuit(9)
+
     event.recipes.gtceu.large_chemical_reactor()
         .inputFluids(
             'gtceu:ophiuchium 1000',
@@ -52,7 +66,6 @@ ServerEvents.recipes((event) => {
         )
         .duration(650)
         .EUt(GTValues.VA[GTValues.UHV])
-        .circuit(4)
 
     event.recipes.gtceu.autoclave()
         .inputFluids(

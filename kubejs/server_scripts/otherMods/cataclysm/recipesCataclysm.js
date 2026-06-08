@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
             ' A '
         ],
         {
-            A: '#grege:witherite',
+            A: 'cataclysm:witherite_ingot',
             B: 'minecraft:redstone_block'
         }
     )
@@ -114,6 +114,26 @@ ServerEvents.recipes((event) => {
             A: 'cataclysm:ignitium_ingot',
             B: 'minecraft:gold_ingot',
             C: '#forge:leather'
+        }
+    )
+
+    event.recipes.botania.mana_infusion(
+        '2x cataclysm:lava_power_cell',
+        'cataclysm:lava_power_cell',
+        100,
+        'botania:conjuration_catalyst'
+    )
+
+    event.shaped(
+        Item.of('kubejs:earring1', 1),
+        [
+            ' A ',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:gold_nugget',
+            B: 'cataclysm:lava_power_cell'
         }
     )
 

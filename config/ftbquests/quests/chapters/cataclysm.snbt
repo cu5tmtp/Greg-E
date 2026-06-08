@@ -1,4 +1,5 @@
 {
+	autofocus_id: "524740E4D1F809CE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cataclysm"
@@ -187,6 +188,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["53BAF825D0BC199B"]
 			id: "5C6B687AF6C6630E"
 			tasks: [{
 				id: "19E3E92F8F3AA3F0"
@@ -197,6 +199,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["2DEECCC953F702A2"]
 			id: "3414FBCB71552FD7"
 			tasks: [{
 				id: "5D200063CF420220"
@@ -238,6 +241,12 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["0CE2A663946D774B"]
+			description: [
+				"Main boss: Netherite Monstrosity"
+				""
+				"Just walk up to it and it will wake up."
+			]
 			id: "53BAF825D0BC199B"
 			tasks: [{
 				id: "01D2AEA0116168DE"
@@ -245,6 +254,42 @@
 				type: "item"
 			}]
 			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53BAF825D0BC199B"]
+			id: "523D0B060D8E7925"
+			tasks: [
+				{
+					id: "54F9F3B4A99524E9"
+					item: "cataclysm:lava_power_cell"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "442EA4C62629F70E"
+					item: "kubejs:imitationbattery"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53BAF825D0BC199B"]
+			description: [
+				"Main boss: Ender Guardian"
+				""
+				"Dig under the Ender Golem, this will lead you to a secret room where the boss resides."
+			]
+			id: "2DEECCC953F702A2"
+			tasks: [{
+				id: "48860C78301A769A"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 11.0d
 			y: 0.0d
 		}
 	]

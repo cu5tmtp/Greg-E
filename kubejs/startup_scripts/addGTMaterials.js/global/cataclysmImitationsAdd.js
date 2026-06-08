@@ -88,6 +88,36 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('lava_battery_acid')
+        .fluid()
+        .color(0xd18b0f)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('enderium')
+        .ingot()
+        .color(0x387e67)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('enderium_imitation')
+        .ingot()
+        .color(0x43997d)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('enderium_air')
+        .fluid()
+        .color(0x77c3aa)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('dirty_enderium')
+        .dust()
+        .color(0x5ab698)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
 
     
 

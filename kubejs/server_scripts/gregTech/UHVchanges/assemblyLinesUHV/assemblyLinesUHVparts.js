@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
             'gtceu:gravi_star',
             '4x #gtceu:circuits/uhv',
             '64x gtceu:naquadria_foil',
-            '64x gtceu:naquadria_foil',
+            '32x gtceu:naquadria_foil',
             '8x gregecore:draconium_cable_single_wire'
         )
         .inputFluids(
@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
             'gtceu:gravi_star',
             '4x #gtceu:circuits/uhv',
             '64x gtceu:naquadria_foil',
-            '64x gtceu:naquadria_foil',
+            '32x gtceu:naquadria_foil',
             '8x gregecore:draconium_cable_single_wire'
         )
         .inputFluids(

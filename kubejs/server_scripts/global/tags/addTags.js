@@ -39,5 +39,8 @@ ServerEvents.tags('item', event => {
     event.add('grege:ignitium', 'cataclysm:ignitium_ingot')
     event.add('grege:ignitium', 'gtceu:ignitium_imitation_ingot')
 
+    event.add('grege:powcell', 'cataclysm:lava_power_cell')
+    event.add('grege:powcell', 'kubejs:imitationbattery')
+
 
 })

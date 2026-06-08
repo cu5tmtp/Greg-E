@@ -68,6 +68,23 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "1,0,0,1,0,0")
 
+    event.remove('cataclysm:monstrous_eye')
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '#gtceu:circuits/iv',
+            'minecraft:compass',
+            '16x #grege:ignitium'
+        )
+        .inputFluids(
+            'gregecore:perditio_essentia 5000',
+            'gregecore:ignis_essentia 5000'
+        )
+        .itemOutputs(
+            'cataclysm:monstrous_eye'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,1,1,0")
+
     //aqua, terra, aer, ignis, perditio, ordo
 
 })
