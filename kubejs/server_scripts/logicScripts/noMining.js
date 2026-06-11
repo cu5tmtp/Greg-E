@@ -24,3 +24,22 @@ BlockEvents.leftClicked(event => {
 
 })
 
+//no ore drops for any mod apart from where it is needed >:(
+LootJS.modifiers((event) => {
+    let ignoredMods = ['undergarden', 'ad_astra', 'ad_extendra'];
+
+    let ores = Ingredient.of('#forge:ores').itemIds;
+
+    ores.forEach(id => {
+        let modId = String(id).split(':')[0];
+
+        if (!ignoredMods.includes(modId)) {
+            event.addBlockLootModifier(id).removeLoot(Ingredient.all);
+        }
+    });
+});
+
+//no gt ore gen >:(
+GTCEuServerEvents.oreVeins(event => {
+    event.removeAll()
+})
