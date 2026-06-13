@@ -76,6 +76,30 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('sodium_coolant')
+        .fluid()
+        .color(0x5f6cd2)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('superheated_sodium')
+        .fluid()
+        .color(0xa98d7f)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('signalum')
+        .ingot()
+        .color(0xde7f21)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('lumium')
+        .ingot()
+        .color(0xfdff3e)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });

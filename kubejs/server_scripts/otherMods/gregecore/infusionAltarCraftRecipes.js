@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             B: '#gtceu:circuits/lv',
             C: 'gtceu:solid_machine_casing',
             D: 'botania:manasteel_block',
-            E: 'ae2:fluix_pearl'
+            E: 'botania:purple_petal'
         }
     )
 
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:perditio_essentia 100'
+            'gregecore:perditio_essentia 10'
         )
         .itemOutputs(
             'gregecore:perditio_input_machine'
@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:aer_essentia 100'
+            'gregecore:aer_essentia 10'
         )
         .itemOutputs(
             'gregecore:aer_input_machine'
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:terra_essentia 100'
+            'gregecore:terra_essentia 10'
         )
         .itemOutputs(
             'gregecore:terra_input_machine'
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:aqua_essentia 100'
+            'gregecore:aqua_essentia 10'
         )
         .itemOutputs(
             'gregecore:aqua_input_machine'
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:ordo_essentia 100'
+            'gregecore:ordo_essentia 10'
         )
         .itemOutputs(
             'gregecore:ordo_input_machine'
@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
             'gtceu:lv_super_tank'
         )
         .inputFluids(
-            'gregecore:ignis_essentia 100'
+            'gregecore:ignis_essentia 10'
         )
         .itemOutputs(
             'gregecore:ignis_input_machine'

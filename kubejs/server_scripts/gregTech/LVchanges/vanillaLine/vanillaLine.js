@@ -60,6 +60,6 @@ ServerEvents.recipes((event) => {
         )
         .duration(100)
         .EUt(15)
-        .circuit(2)
+        .circuit(9)
 
 })

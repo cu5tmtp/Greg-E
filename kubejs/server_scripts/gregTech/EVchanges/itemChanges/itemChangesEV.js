@@ -92,6 +92,23 @@ ServerEvents.recipes((event) =>{
         }
     )
 
+    event.shaped(
+        Item.of('gregecore:coolant_output_machine', 1),
+        [
+            'CAC',
+            'DED',
+            ' B '
+        ],
+        {
+            A: '#gtceu:circuits/ev',
+            B: 'gtceu:ev_machine_hull',
+            C: 'gtceu:tungsten_steel_ingot',
+            D: 'gtceu:steel_large_fluid_pipe',
+            E: 'minecraft:bucket'
+
+        }
+    )
+
     event.shapeless(
         Item.of('kubejs:vanaheimingot', 9), 
         'kubejs:vanaheimingotblock'
@@ -119,6 +136,12 @@ ServerEvents.recipes((event) =>{
         {id: 'better_angel_ring:angel_ring'},
         'minecraft:nether_star',
         'minecraft:elytra'
+    )
+
+    event.replaceInput(
+        {id: 'gtceu:shaped/ev_electrolyzer'},
+        'gtceu:platinum_single_wire',
+        'gtceu:aluminium_single_cable'
     )
 
 })

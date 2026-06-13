@@ -11,6 +11,16 @@ ServerEvents.recipes((event) => {
         .duration(200)
 
     event.recipes.gtceu.essentia_smelting()
+        .inputFluids(
+            'gregecore:deionized_water 100'
+        )
+        .outputFluids(
+            'gregecore:aqua_essentia 10'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+
+    event.recipes.gtceu.essentia_smelting()
         .itemInputs(
             '#minecraft:logs'
         )

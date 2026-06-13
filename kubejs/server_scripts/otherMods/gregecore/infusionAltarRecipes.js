@@ -244,7 +244,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.infusion_altar_infusing()
         .itemInputs(
-            'minecraft:fire_charge',
+            'botania:red_petal',
             '#gtceu:circuits/mv',
             'minecraft:coal',
             'gtceu:sintercoke_ingot',
