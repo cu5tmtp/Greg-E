@@ -35,6 +35,29 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:coolant_input_machine')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
+    event.recipes.gtceu.assembly_line('getcartrdiedgd23323')
+        .itemInputs(
+            '16x #gtceu:circuits/uhv',
+            '4x gtceu:large_scale_assembler_casing',
+            '4x gregecore:assembly_engine_intake',
+            '8x gtceu:atomic_casing',
+            '4x gtceu:uhv_sensor',
+            '4x gtceu:uhv_field_generator',
+            '8x gtceu:uhv_robot_arm',
+            '8x gtceu:uhv_emitter',
+            '32x gregecore:draconium_cable_single_wire',
+            'ae2:controller'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 5000',
+            'gtceu:polybenzimidazole 1000'
+        )
+        .itemOutputs('gregecore:cartridgecase')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('kubejs:animated/uhvalloy')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
+
+
     event.recipes.gtceu.assembly_line('getbettericircuit1111')
         .itemInputs(
             'gtceu:wetware_printed_circuit_board',

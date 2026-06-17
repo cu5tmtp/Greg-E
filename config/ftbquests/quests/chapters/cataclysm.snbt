@@ -508,6 +508,28 @@
 			x: -4.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["57CB8341FF89026F"]
+			id: "2A8CDE8A0B3D2D2F"
+			tasks: [{
+				id: "42E78E2A46D0F28C"
+				item: "gregecore:threading_one_machine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52554241FBE71F48"]
+			id: "5E39AF7EDA6C9232"
+			tasks: [{
+				id: "5197E5D8F8D06811"
+				item: "gregecore:threading_two_machine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
 	]
 	title: "Cataclysm"
 }

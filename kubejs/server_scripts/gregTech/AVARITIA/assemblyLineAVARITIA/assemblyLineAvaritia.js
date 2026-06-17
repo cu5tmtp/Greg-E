@@ -51,6 +51,23 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('kubejs:ultimateresistor')).EUt(GTValues.VA[GTValues.UEV]).CWUt(256))
 
+    event.recipes.gtceu.assembly_line('getstreilecleanhatch')
+        .itemInputs(
+            '3x kubejs:animated/draconicprocessor',
+            'gtceu:cleaning_maintenance_hatch',
+            'gtceu:uev_machine_hull',
+            '4x gtceu:uhv_robot_arm',
+            '8x gregecore:awakened_draconium_cable_single_wire'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 1000',
+            'gtceu:polybenzimidazole 500'
+        )
+        .itemOutputs('gtmutils:sterile_cleaning_maintenance_hatch')
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .stationResearch(b => b.researchStack(Item.of('gtceu:cleaning_maintenance_hatch')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
+
     event.recipes.gtceu.assembly_line('getavaritiat4crafting')
         .itemInputs(
             '4x kubejs:animated/draconicprocessor',

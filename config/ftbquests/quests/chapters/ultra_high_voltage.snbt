@@ -516,8 +516,8 @@
 				item: "gregecore:awakened_draconium_coil"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["27AF6C28D64017A6"]
@@ -777,6 +777,17 @@
 			}]
 			x: 8.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["7021E6B5D8D23163"]
+			id: "237F8AD69E1C4159"
+			tasks: [{
+				id: "45503240437D4309"
+				item: "gregecore:threading_three_machine"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.0d
 		}
 	]
 	title: "UHV"

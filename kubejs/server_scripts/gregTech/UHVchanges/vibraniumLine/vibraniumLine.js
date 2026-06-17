@@ -162,5 +162,18 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .circuit(2)
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:double_vibranium_plate'
+        )
+        .inputFluids(
+            'gtceu:nebulon_alpha 30'
+        )
+        .itemOutputs(
+            'kubejs:heatshield'
+        )
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(200)
+
 
 })

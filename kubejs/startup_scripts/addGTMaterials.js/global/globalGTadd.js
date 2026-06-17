@@ -7,6 +7,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Copper.addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
     GTMaterials.Naquadria.addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
     GTMaterials.Titanium.addFlags(GTMaterialFlags.GENERATE_FINE_WIRE)
+    GTMaterials.Stellite100.addFlags(GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME)
 
     event.create('reinforced_cobblestone')
         .ingot()

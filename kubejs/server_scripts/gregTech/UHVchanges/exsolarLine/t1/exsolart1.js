@@ -25,6 +25,7 @@ ServerEvents.recipes((event) => {
 
             let recipe = event.recipes.gtceu.deep_space_explore(`deep_space_explore/${system.id}/${fuel.amount}`)
                 .inputFluids(`${fuel.fluid} ${fuel.amount}`)
+                .itemInputs('kubejs:heatshield')
                 .addData('drone', 1)
                 .addData('system', system.id)
                 .duration(Math.floor(3000 * fuel.timeMult))

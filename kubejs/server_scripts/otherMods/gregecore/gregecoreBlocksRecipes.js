@@ -50,6 +50,32 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .EUt(GTValues.VA[GTValues.LuV])
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '2x gtceu:steel_rotor',
+            'gtceu:solid_machine_casing',
+            '4x gtceu:steel_rod',
+            'gtceu:steel_frame'
+        )
+        .itemOutputs(
+            'gregecore:solid_engine_intake'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LuV])
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '2x gtceu:stellite_100_rotor',
+            'gtceu:large_scale_assembler_casing',
+            '4x gtceu:stellite_100_rod',
+            'gtceu:stellite_100_frame'
+        )
+        .itemOutputs(
+            'gregecore:assembly_engine_intake'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LuV])
+
 
     event.recipes.gtceu.assembler('getdraconiumfusioncasing')
         .itemInputs(
