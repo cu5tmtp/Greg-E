@@ -35,6 +35,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('gregecore:coolant_input_machine')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
 
+    /*
     event.recipes.gtceu.assembly_line('getcartrdiedgd23323')
         .itemInputs(
             '16x #gtceu:circuits/uhv',
@@ -56,6 +57,7 @@ ServerEvents.recipes((event) => {
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b.researchStack(Item.of('kubejs:animated/uhvalloy')).EUt(GTValues.VA[GTValues.UHV]).CWUt(128))
+    */
 
 
     event.recipes.gtceu.assembly_line('getbettericircuit1111')
