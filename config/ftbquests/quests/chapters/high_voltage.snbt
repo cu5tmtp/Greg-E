@@ -721,6 +721,33 @@
 			x: -9.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["62BBF61C9849CA26"]
+			description: [
+				"By replacing the Filter Casings in the Cleanroom with these Filters, it will begin functioning as a Dimensional Simulator. "
+				""
+				"Next, add a Dimensional Relic Input and supply the required items to unlock the recipe. Once unlocked, you can insert any Gas Collector, allowing the recipe to be crafted regardless of the cleanroom's current dimension."
+				""
+				"This is not needed, as the Gas Collectors will still work normally. This is just a QOL that can save some lag."
+				""
+				"If you want to use this feature, and don't want to use a cleanroom, in LuV there is a multiblock called Anti-Mass Spectrometer, that offers this same functionality. But you need to add a Dimensional Simulator Maintenance Hatch to it."
+			]
+			id: "61A84ED388F290AB"
+			tasks: [
+				{
+					id: "29056975BDED9F5B"
+					item: "gregecore:dimensional_filter_casing"
+					type: "item"
+				}
+				{
+					id: "31CC6E2CF9AF64F4"
+					item: "gregecore:dimensional_relics_machine"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
 	]
 	title: "HV"
 }

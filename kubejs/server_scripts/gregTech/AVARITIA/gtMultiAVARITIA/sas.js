@@ -1,12 +1,71 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.sascrafting()
-        .itemInputs(
-            'minecraft:dirt'
-        )
-        .itemOutputs(
-            'minecraft:stick'
-        )
-        .duration(1000)
+    const itemValues = {
+        "minecraft:totem_of_undying": 0,
+        "avaritia:neutron_pile": 0,
+        "minecraft:filled_map": 0,
+        "minecraft:oak_log": 1,
+        "minecraft:apple": 4,
+        "minecraft:oak_leaves": 4,
+        "minecraft:oak_sapling": 1,
+        "minecraft:iron_ingot": 4,
+        "minecraft:copper_ingot": 4,
+        "minecraft:redstone": 4,
+        "minecraft:coal": 4,
+        "minecraft:slime_ball": 4,
+        "minecraft:sugar_cane": 4,
+        "ae2:certus_quartz_crystal": 64,
+        "minecraft:diamond": 64,
+        "minecraft:quartz": 64,
+        "minecraft:gold_ingot": 64,
+        "minecraft:emerald": 64,
+        "kubejs:lvalloy": 256,
+        "kubejs:seniron": 512,
+        "minecraft:lapis_lazuli": 64,
+        "kubejs:mvalloy": 1024,
+        "gtceu:uranium_ingot": 2048,
+        "kubejs:hvalloy": 4096,
+        "kubejs:evalloy": 32192,
+        "gtceu:tantalum_dust": 8048,
+        "gtceu:barium_dust": 8048,
+        "gtceu:raw_tungstate": 8048,
+        "kubejs:ivalloy": 128768,
+        "minecraft:ancient_debris": 32192,
+        "gtceu:raw_topaz": 32192,
+        "gtceu:raw_pyrochlore": 32192,
+        "gtceu:raw_apatite": 32192,
+        "kubejs:luvalloy": 515072,
+        "gtceu:rare_earth_dust": 4024,
+        "gtceu:bismuth_dust": 32192,
+        "gtceu:raw_fractalium": 128768,
+        "kubejs:animated/zpmalloy": 4120576,
+        "gtceu:raw_beryllium": 515072,
+        "gtceu:raw_stibnite": 515072,
+        "kubejs:animated/uvalloy": 16482304,
+        "kubejs:animated/uhvalloy": 65929216,
+        "gtceu:raw_aurelium": 2060288,
+        "gtceu:raw_nyxium": 8241152,
+        "draconicevolution:draconium_dust": 8241152,
+        "gtceu:raw_nebulon_omega": 8241152
+    }
+
+    const antimatterFluidID = 'gtceu:antimatter'
+
+    for (const [item, value] of Object.entries(itemValues)) {
+        if (value >= 100000) {
+
+            let fluidAmount = Math.floor(value / 100000);
+            let isCircuitAlloy = item.includes('alloy');
+            let mult = isCircuitAlloy ? 2 : 1;
+
+            fluidAmount *= mult;
+            
+            event.recipes.gtceu.sascrafting()
+                .itemInputs(item)
+                .outputFluids(Fluid.of(antimatterFluidID, fluidAmount))
+                .duration(500)
+                .EUt(GTValues.VA[GTValues.UEV])
+        }
+    }
 
 })

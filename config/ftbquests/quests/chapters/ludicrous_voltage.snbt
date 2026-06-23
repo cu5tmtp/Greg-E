@@ -1171,6 +1171,29 @@
 			x: -4.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["68B8595DDA68D9B0"]
+			id: "5294D7DCFF045708"
+			tasks: [{
+				id: "76EFAE82FDE479CB"
+				item: "gregecore:antimass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68B8595DDA68D9B0"]
+			description: ["You can get this earlier!"]
+			id: "504F52D394D426CC"
+			tasks: [{
+				id: "610C449B9FBE81E0"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
 	]
 	title: "LUV"
 }
