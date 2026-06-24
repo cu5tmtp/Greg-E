@@ -144,6 +144,16 @@ ServerEvents.recipes((event) =>{
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(200)
 
+    event.recipes.gtceu.fluid_solidifier()
+        .inputFluids(
+            'gtceu:antimatter 100000'
+        )
+        .itemOutputs(
+            'gtceu:antimatter_block'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(200)
+
 
 
 })

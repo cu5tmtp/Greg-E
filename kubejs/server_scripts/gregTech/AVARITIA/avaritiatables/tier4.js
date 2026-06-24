@@ -87,6 +87,47 @@ ServerEvents.recipes((event) =>{
         tier: 4,
     });
 
+    event.custom({
+        type: 'avaritia:shaped_table',
+        category: 'equipment',
+        key: {
+        A: {
+            item: 'gtceu:secure_maceration_casing'
+        },
+        B: {
+            item: 'gtceu:uhv_field_generator'
+        },
+        C: {
+            item: 'gtceu:neutronium_gear'
+        },
+        D: {
+            item: 'gtceu:reaction_safe_mixing_casing'
+        },
+        X: {
+            item: 'kubejs:animated/draconicprocessor'
+        },
+        Y: {
+            item: 'gregecore:awakened_draconium_coil'
+        },
+        },
+        pattern: [
+        'CCDDDDDCC',
+        'CDDBBBDDC',
+        'DDAAAAADD',
+        'DBAXXXABD',
+        'DBAXYXABD',
+        'DBAXXXABD',
+        'DDAAAAADD',
+        'CDDBBBDDC',
+        'CCDDDDDCC',
+        ],
+        result: {
+        item: 'gregecore:sasynth'
+        },
+        show_notification: true,
+        tier: 4,
+    });
+
     event.remove('avaritia:ultimate_stew')
 
     event.custom({
@@ -291,17 +332,21 @@ ServerEvents.recipes((event) =>{
         },
         O: {
             item: 'gtceu:stellarium_gear'
+        },
+        P: {
+            item: 'gtceu:antimatter_block'
         }
+
         },
         pattern: [
         'AAAFFFAAA',
-        'AABCOCBAA',
+        'ADBCOCBDA',
         'ABCCMCCBA',
         'FCCCNCCCF',
         'FGHIEJKLF',
-        'FCCCDCCCF',
-        'ABCCDCCBA',
-        'AABCDCBAA',
+        'FCCCPCCCF',
+        'ABCCPCCBA',
+        'ADBCPCBDA',
         'AAAFFFAAA',
         ],
         result: {
@@ -333,17 +378,48 @@ ServerEvents.recipes((event) =>{
         },
         F: {
             item: 'gtceu:neutronium_block'
+        },
+        G: {
+            item: 'gtceu:mellodium_gear'
+        },
+        H: {
+            item: 'gtceu:small_mellodium_gear'
+        },
+        I: {
+            item: 'gtceu:mellodium_plate'
+        },
+        J: {
+            item: 'gtceu:prismalium_plate'
+        },
+        K: {
+            item: 'gtceu:small_prismalium_gear'
+        },
+        L: {
+            item: 'gtceu:prismalium_gear'
+        },
+        M: {
+            item: 'gtceu:small_stellarium_gear'
+        },
+        N: {
+            item: 'gtceu:stellarium_plate'
+        },
+        O: {
+            item: 'gtceu:stellarium_gear'
+        },
+        P: {
+            item: 'gtceu:antimatter_block'
         }
+
         },
         pattern: [
         'AAAFFFAAA',
-        'AABCDCBAA',
-        'ABCCDCCBA',
-        'FCCCDCCCF',
-        'FDDDEDDDF',
-        'FCCCDCCCF',
-        'ABCCDCCBA',
-        'AABCDCBAA',
+        'ADBCOCBDA',
+        'ABCCMCCBA',
+        'FCCCNCCCF',
+        'FGHIEJKLF',
+        'FCCCPCCCF',
+        'ABCCPCCBA',
+        'ADBCPCBDA',
         'AAAFFFAAA',
         ],
         result: {

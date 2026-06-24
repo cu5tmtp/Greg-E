@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:perditio_essentia 10'
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:aer_essentia 10'
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:terra_essentia 10'
@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:aqua_essentia 10'
@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:ordo_essentia 10'
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',
-            'gtceu:lv_super_tank'
+            'mob_grinding_utils:jumbo_tank'
         )
         .inputFluids(
             'gregecore:ignis_essentia 10'

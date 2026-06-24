@@ -109,6 +109,10 @@ StartupEvents.registry('item', event => {
     event.create('lightninginabottle').displayName('Lightning in a Bottle')
     event.create('heatshield').displayName('Vibranium Heat Shield')
     event.create('burialmask').displayName('Delerian Burial Mask')
+    event.create('eyeofpride').displayName('Eye of Pride')
+    event.create('eyeofsin').displayName('Eye of Sin')
+    event.create('stoneofhorus').displayName('Stone of Horus')
+    event.create('charmofguilliman').displayName('Charm of Guilliman')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

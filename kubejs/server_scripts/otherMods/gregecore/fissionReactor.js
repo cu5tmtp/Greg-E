@@ -74,4 +74,28 @@ ServerEvents.recipes((event) => {
         .addData('heatgen', 200)
         .duration(1000)
 
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            '2x gtceu:vadricium_dust',
+            'gtceu:lithium_dust'
+        )
+        .inputFluids(
+            'gtceu:sodium_coolant 250'
+        )
+        .outputFluids(
+            'gtceu:bose_einstein_condensate 750'
+        )
+        .duration(250)
+        .EUt(GTValues.VA[GTValues.UV])
+
+    event.recipes.gtceu.vacuum_freezer()
+        .inputFluids(
+            'gtceu:superheated_bose_einstein_condensate 1000'
+        )
+        .outputFluids(
+            'gtceu:bose_einstein_condensate 1000'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+
 })

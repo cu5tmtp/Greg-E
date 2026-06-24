@@ -1,14 +1,3 @@
-GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
-  event
-    .create("planetarygassiphon")
-    .category("multiblock")
-    .setEUIO("in")
-    .setMaxIOSize(3, 3, 6, 6)
-    .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
-    .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
-    .setSound(GTSoundEntries.COMPRESSOR);
-});
-
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
   event
     .create("planetarygassiphon", "multiblock")

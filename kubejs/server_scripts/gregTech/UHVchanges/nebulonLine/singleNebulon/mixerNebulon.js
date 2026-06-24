@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(4)
 
-    event.recipes.gtceu.zerogravmixer('getfluoronaquadicacid')
+    event.recipes.gtceu.large_chemical_reactor('getfluoronaquadicacid')
         .inputFluids(
             'gtceu:fluorine 432',
             'gtceu:hydrogen 576',

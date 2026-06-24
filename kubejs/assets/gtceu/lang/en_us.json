@@ -56,13 +56,11 @@
   "gtceu.oilrig": "Drilling Rig",
 
   "block.gtceu.planetarygassiphon": "Planetary Gas Siphon",
-  "gtceu.planetarygassiphon": "Gas Siphoning",
 
   "block.gtceu.netherdrillrig": "Nether Drill Rig",
   "gtceu.netherdrillrig": "Nether Drill Rig",
 
   "block.gtceu.zerogravmixer": "Zero Gravity Mixer",
-  "gtceu.zerogravmixer": "Zero Gravity Mixer",
 
   "block.gtceu.laboratory": "Laboratory",
   "gtceu.laboratory": "Laboratory",
@@ -172,7 +170,6 @@
   "material.gtceu.sednium": "Sednium",
   "material.gtceu.stygian_aqua_regia": "Stygian Aqua Regia",
   "block.gtceu.sednasampler": "Sedna Sampler",
-  "gtceu.sednasampler": "Sedna Sampler",
 
   "material.gtceu.metallurgical_grade_silicon": "Metallurgical Grade Silicon",
   "material.gtceu.trichlorosilane": "Trichlorosilane",
