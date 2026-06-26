@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     .setMaxIOSize(2, 1, 0, 0)
     .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_RESEARCH_STATION_2, FillDirection.LEFT_TO_RIGHT)
-    .setSound(GTSoundEntries.SCIENCE);
+    .setSound(GTSoundEntries.ARC);
 });
 
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
