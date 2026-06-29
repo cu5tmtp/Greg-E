@@ -98,7 +98,6 @@ ServerEvents.recipes((event) => {
             '12x gtceu:annealed_copper_foil'
         )
         .inputFluids(
-            'gtceu:iron_iii_chloride 500',
             'gtceu:pixie_fluid 250'
         )
         .itemOutputs(

@@ -1,5 +1,5 @@
 //No mining ores !!!! >:(
-BlockEvents.leftClicked(event => {
+BlockEvents.broken(event => {
 
     const block = event.block
     const id = block.id.toString()
