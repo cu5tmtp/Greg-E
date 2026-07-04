@@ -419,6 +419,25 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:seniron',
+            'kubejs:senplate',
+            'kubejs:waterone',
+            'kubejs:watertwo',
+            'kubejs:waterthree',
+            'kubejs:waterfour',
+            'kubejs:waterfive',
+            'kubejs:tornconveyor',
+            'gregecore:brass_pellet',
+            'gregecore:americium_pellet',
+            'gregecore:neutronium_pellet'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Texture made by: ').append(Text.red('DiggyPT')));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gregecore:manasteel_coil',
             'gregecore:twilight_coil',
             'gregecore:desh_coil',

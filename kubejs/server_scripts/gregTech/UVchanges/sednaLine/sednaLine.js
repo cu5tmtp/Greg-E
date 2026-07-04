@@ -18,16 +18,26 @@ ServerEvents.recipes((event) => {
 
     event.recipes.botania.mana_infusion('2x ad_extendra:sedna_stone', 'ad_extendra:sedna_stone', 1000, 'botania:conjuration_catalyst')
 
-    event.recipes.gtceu.sednasampler()
+    event.recipes.gtceu.sifter()
         .itemInputs(
             '4x ad_extendra:sedna_stone'
+        )
+        .itemOutputs(
+            '2x gtceu:sifted_sedna_stone'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(200)
+        .dimension('ad_extendra:sedna')
+
+    event.recipes.gtceu.sednasampler()
+        .itemInputs(
+            'gtceu:sifted_sedna_stone'
         )
         .itemOutputs(
             'gtceu:sedna_sample_dust'
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(500)
-        .dimension('ad_extendra:sedna')
 
     event.recipes.gtceu.centrifuge()
         .itemInputs(
@@ -41,7 +51,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(500)
-        .dimension('ad_extendra:sedna')
 
     event.recipes.gtceu.electrolyzer()
         .itemInputs(
@@ -53,7 +62,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(400)
-        .dimension('ad_extendra:sedna')
 
     event.recipes.gtceu.extractor()
         .itemInputs(
@@ -77,7 +85,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(400)
-        .dimension('minecraft:overworld')
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(

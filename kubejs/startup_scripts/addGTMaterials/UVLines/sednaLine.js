@@ -1,5 +1,12 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
+    event.create('sifted_sedna_stone')
+        .dust()
+        .formula('C₃H₄Fe₂PNa₅Sd')
+        .color(0x8B4000)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     event.create('sedna_sample')
         .dust()
         .formula('C₃H₄Fe₂PNa₅Sd')
