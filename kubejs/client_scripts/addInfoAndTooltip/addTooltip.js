@@ -409,7 +409,26 @@ ItemEvents.tooltip((event) => {
             'kubejs:supingot',
             'kubejs:mushroomingot',
             'kubejs:cursedin',
-            'kubejs:bacterialmatteringot'
+            'kubejs:bacterialmatteringot',
+            'kubejs:machine_casing_block_cyan', 
+            'kubejs:machine_casing_block_dark_blue', 
+            'kubejs:machine_casing_block_diamond', 
+            'kubejs:machine_casing_block_gold', 
+            'kubejs:machine_casing_block_green', 
+            'kubejs:machine_casing_block_lime', 
+            'kubejs:machine_casing_block_magenta', 
+            'kubejs:machine_casing_block_orange', 
+            'kubejs:machine_casing_block_purple', 
+            'kubejs:machine_casing_block_red', 
+            'kubejs:machine_casing_tiled_dark_gray', 
+            'kubejs:machine_casing_tiled_gray', 
+            'kubejs:machine_casing_tiled_green', 
+            'kubejs:machine_casing_tiled_light_gray', 
+            'kubejs:machine_casing_tiled_lime', 
+            'kubejs:machine_casing_tiled_orange', 
+            'kubejs:machine_casing_tiled_red', 
+            'kubejs:machine_casing_tiled_very_dark_gray', 
+            'kubejs:machine_casing_tiled_yellow'
 
         ],
         (item, advanced, text) => {

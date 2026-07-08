@@ -97,16 +97,6 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .addData('heat_level', 1700)
 
-    event.recipes.gtceu.autoclave()
-        .inputFluids(
-            'gtceu:tennessineish 144'
-        )
-        .itemInputs(
-            'gtceu:tennessineish_dust'
-        )
-        .EUt(GTValues.VA[GTValues.UV])
-        .duration(100)
-
     event.recipes.gtceu.atmosphericsampler('getbetterdustststsdtstfdtftdvtcvbncvhjb2222222')
         .itemInputs(
             '2x kubejs:activatedrune',

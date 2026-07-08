@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             '4x ad_extendra:sedna_stone'
         )
         .itemOutputs(
-            '2x gtceu:sifted_sedna_stone'
+            '2x gtceu:sifted_sedna_stone_dust'
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(200)
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.sednasampler()
         .itemInputs(
-            'gtceu:sifted_sedna_stone'
+            'gtceu:sifted_sedna_stone_dust'
         )
         .itemOutputs(
             'gtceu:sedna_sample_dust'
