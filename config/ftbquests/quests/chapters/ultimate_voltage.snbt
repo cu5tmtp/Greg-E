@@ -6,7 +6,7 @@
 	group: "6915D00C186DB378"
 	icon: "gtceu:crystal_processor_mainframe"
 	id: "754B57DEA4C711A5"
-	order_index: 8
+	order_index: 9
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

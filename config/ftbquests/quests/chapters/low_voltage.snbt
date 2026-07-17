@@ -14,12 +14,11 @@
 		x: 1.5d
 		y: -6.5d
 	}]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0CEC51F03B40A107"]
 			description: ["Yay LV!"]
 			id: "5C1BB559DD83E88F"
 			rewards: [{
@@ -873,6 +872,23 @@
 			}]
 			x: -3.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["6AD1A5844541BBF2"]
+			description: ["For now, this is the way to get aluminium. But you will be able to get it way faster in MV."]
+			id: "71F313D56EF649B5"
+			rewards: [{
+				id: "649EC5842E7ACE20"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ADE8E31BB7B2F6E"
+				item: "gtceu:aluminium_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
 		}
 	]
 	title: "LV"

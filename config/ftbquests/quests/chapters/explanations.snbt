@@ -5,11 +5,10 @@
 	group: "6915D00C186DB378"
 	icon: "botania:cosmetic_questgiver_mark"
 	id: "082AE046406EBB5C"
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2A8418DF626206D1"]
 			description: ["Behind this quest you will see some other quests teaching you how to work with GregTech."]
 			id: "40E6805C66BACAA1"
 			tasks: [{

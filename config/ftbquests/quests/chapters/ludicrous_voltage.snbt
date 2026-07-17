@@ -6,7 +6,7 @@
 	group: "6915D00C186DB378"
 	icon: "gtceu:nano_processor_mainframe"
 	id: "403105E8F21D82C7"
-	order_index: 6
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

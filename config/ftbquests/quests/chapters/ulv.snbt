@@ -115,7 +115,11 @@
 		}
 		{
 			dependencies: ["51DADABE18E42408"]
-			description: ["In this GregTech pack, you have to smelt 1x iron nugget to 1x wrought iron nugget. Better make a few furnaces!"]
+			description: [
+				"In this GregTech pack, you have to smelt 1x iron nugget to 1x wrought iron nugget. Better make a few furnaces!"
+				""
+				"If used on tools, they have higher durability than iron tools."
+			]
 			id: "7AB7609419E41CF9"
 			optional: true
 			rewards: [{
@@ -147,107 +151,113 @@
 			subtitle: "Basics"
 			tasks: [
 				{
-					id: "2C827B0BDDA87B3E"
+					id: "06ED9A2C412A0566"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_hammers)"
+							value: "gtceu:tools/crafting_files"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/mining_hammers"
 					type: "item"
 				}
 				{
-					id: "380604F38E491681"
+					id: "07C9EB6B36D2C48B"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_mortars)"
+							value: "gtceu:tools/crafting_crowbars"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_mortars"
 					type: "item"
 				}
 				{
-					id: "1356F5FA2D12E69F"
+					id: "775D9578E2F50975"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_saws)"
+							value: "gtceu:tools/crafting_hammers"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_saws"
 					type: "item"
 				}
 				{
-					id: "180BBC431488AC9B"
+					id: "6A73409BC730D4A9"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_knives)"
+							value: "gtceu:tools/crafting_knives"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_knives"
 					type: "item"
 				}
 				{
-					id: "62D39D966EE4A08B"
+					id: "2139120C68F345FC"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_screwdrivers)"
+							value: "gtceu:tools/crafting_mallets"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_screwdrivers"
 					type: "item"
 				}
 				{
-					id: "7A73D5AFA5A976EE"
+					id: "0A604BD900D1B60B"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_wire_cutters)"
+							value: "gtceu:tools/crafting_mortars"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_wire_cutters"
 					type: "item"
 				}
 				{
-					id: "110711D645AC20A0"
+					id: "623EFB0EB6C9A1F1"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_mallets)"
+							value: "gtceu:tools/crafting_saws"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_mallets"
 					type: "item"
 				}
 				{
-					id: "451C823478E14603"
+					id: "0D16ED69E91910CF"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "itemfilters:tag"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_wrenches)"
+							value: "gtceu:tools/crafting_screwdrivers"
 						}
 					}
-					optional_task: true
-					title: "Any #gtceu:tools/crafting_wrenches"
+					type: "item"
+				}
+				{
+					id: "04AB831CBB773655"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:tools/crafting_wire_cutters"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37D30D8B5EE6770D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:tools/crafting_wrenches"
+						}
+					}
 					type: "item"
 				}
 			]

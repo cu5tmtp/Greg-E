@@ -6,7 +6,7 @@
 	group: "6915D00C186DB378"
 	icon: "gtceu:micro_processor_mainframe"
 	id: "00E59A3B38CB7EEA"
-	order_index: 5
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

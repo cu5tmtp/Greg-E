@@ -30,7 +30,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where('E', Predicates.blocks('gregecore:conveyorbelt'))   
         .where('F', Predicates.blocks('gregecore:itemtranslocator')) 
         .where('G', Predicates.blocks('gtceu:uranium_block'))
-        .where('H', Predicates.blocks('chisel_chipped_integration:factory_grinder')
+        .where('H', Predicates.blocks('kubejs:machine_casing_tiled_dark_gray')
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))  
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))

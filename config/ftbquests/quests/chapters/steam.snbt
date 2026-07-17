@@ -24,6 +24,7 @@
 				"CHAPTER W.I.P"
 			]
 			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "0F9910D36E4395FC"
 			rewards: [{
 				id: "5C640A1E6645D2B3"

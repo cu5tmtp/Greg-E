@@ -7,7 +7,7 @@
 	hide_quest_details_until_startable: true
 	icon: "kubejs:voidseed"
 	id: "497638B43FD1ECEB"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
