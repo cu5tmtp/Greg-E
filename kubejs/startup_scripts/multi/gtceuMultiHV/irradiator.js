@@ -17,12 +17,13 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
     .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
-        .aisle('HHHHHHHHHH', 'AAAAAAAAAA', 'AAAAAAAAAA', 'AAAAAAAAAA', 'AAAAAAAAAA')
-        .aisle('HAAAAAAAAH', 'D########D', 'D##GGGG##D', 'D########D', 'AAAAAAAAAA')
-        .aisle('HAAAAAAAAH', 'DBEEEEEEBD', 'DF######FD', 'D########D', 'AAAAAAAAAA')
-        .aisle('HCCCCCCCCH', 'D########D', 'D########D', 'D########D', 'AAAAAAAAAA')
+        .aisle('HHHHHHHHHH', 'AJJJJJJJJA', 'AJJJJJJJJA', 'AJJJJJJJJA', 'AAAAAAAAAA')
+        .aisle('HJJJJJJJJH', 'D########D', 'D##GGGG##D', 'D########D', 'AJJJJJJJJA')
+        .aisle('HJJJJJJJJH', 'DBEEEEEEBD', 'DF######FD', 'D########D', 'AJJJJJJJJA')
+        .aisle('HCCCCCCCCH', 'D########D', 'D########D', 'D########D', 'AJJJJJJJJA')
         .aisle('HIHHHHHHHH', 'ADDDDDDDDA', 'ADDDDDDDDA', 'ADDDDDDDDA', 'AAAAAAAAAA')
-        .where("A", Predicates.blocks('chisel_chipped_integration:factory_grinder'))
+        .where("A", Predicates.blocks('kubejs:machine_casing_tiled_dark_gray'))
+        .where("J", Predicates.blocks('kubejs:machine_casing_block_cyan'))
         .where('B', Predicates.blocks('chisel_chipped_integration:laboratory_large_steel'))  
         .where('C', Predicates.blocks('chisel_chipped_integration:factory_yellow_black_caution_stripes')) 
         .where('D', Predicates.blocks('connectedglass:clear_glass'))    
@@ -40,7 +41,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where('#', Predicates.any())
     .build())
     .workableCasingModel(
-      "kubejs:block/chisel/grinder",
+      "kubejs:block/ctm/machine_casing_tiled_dark_gray",
       "gtceu:block/multiblock/distillation_tower"
     );
 });

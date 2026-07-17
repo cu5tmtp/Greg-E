@@ -19,17 +19,16 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("A###A", "A###A", "A###A", "GGGGG", "D###D", "D###D", "#DDD#", "##D##", "#####", "#####", "#####", "#####", "#####", "#####")
-        .aisle("#####", "#####", "#####", "GCCCG", "#####", "#####", "D#D#D", "#####", "##D##", "##D##", "#####", "#####", "#####", "#####")
-        .aisle("##E##", "##E##", "##E##", "GCECG", "##E##", "##E##", "DDEDD", "D#C#D", "#DDD#", "#DDD#", "##D##", "##D##", "##F##", "##F##")
-        .aisle("#####", "#####", "#####", "GCCCG", "#####", "#####", "D#D#D", "#####", "##D##", "##D##", "#####", "#####", "#####", "#####")
+        .aisle("#####", "#####", "#####", "GGGGG", "#####", "#####", "D#D#D", "#####", "##D##", "##D##", "#####", "#####", "#####", "#####")
+        .aisle("##E##", "##E##", "##E##", "GGEGG", "##E##", "##E##", "DDEDD", "D#C#D", "#DDD#", "#DDD#", "##D##", "##D##", "##F##", "##F##")
+        .aisle("#####", "#####", "#####", "GGGGG", "#####", "#####", "D#D#D", "#####", "##D##", "##D##", "#####", "#####", "#####", "#####")
         .aisle("A###A", "A###A", "A###A", "GGHGG", "D###D", "D###D", "#DDD#", "##D##", "#####", "#####", "#####", "#####", "#####", "#####")
-        .where("A", Predicates.blocks('chisel_chipped_integration:technical_sturdy'))
-        .where("B", Predicates.blocks('chisel_chipped_integration:technical_vent'))
+        .where("A", Predicates.blocks('kubejs:machine_casing_tiled_light_gray'))
         .where("C", Predicates.blocks('chisel_chipped_integration:technical_exhaust_plating'))
         .where("D", Predicates.blocks('gtceu:stainless_steel_frame'))
         .where("E", Predicates.blocks('chisel_chipped_integration:technical_large_pipes'))
         .where("F", Predicates.blocks('minecraft:iron_bars'))
-        .where("G", Predicates.blocks('chisel_chipped_integration:technical_exhaust_plating')
+        .where("G", Predicates.blocks('kubejs:machine_casing_tiled_dark_gray')
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
@@ -39,7 +38,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("#", Predicates.any())
     .build())
     .workableCasingModel(
-      'kubejs:block/chisel/exhaustplating',
+      'kubejs:block/ctm/machine_casing_tiled_dark_gray',
       'gtceu:block/multiblock/distillation_tower'
     );
 });

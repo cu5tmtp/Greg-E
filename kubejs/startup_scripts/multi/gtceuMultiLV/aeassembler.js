@@ -18,25 +18,22 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
-        .aisle("CCCCCC", "AAAAAA", "AAAAAA")
-        .aisle("CCCCCC", "AFFFFA", "AAAAAA")
-        .aisle("CCCCCC", "ABBBEA", "AGGGAA")
-        .where("A", Predicates.blocks("chisel_chipped_integration:factory_slighly_rusty_plate"))
-        .where("B", Predicates.blocks("minecraft:glass"))
-        .where("C", Predicates.blocks("chisel_chipped_integration:factory_slighly_rusty_plate")
+        .aisle("aaaaa", "accca", "aaaaa")
+        .aisle("accca", "cdddc", "accca")
+        .aisle("aacaa", "aadaa", "aacaa")
+        .aisle("baaab", "baEab", "baaab")
+        .where("a", Predicates.blocks("kubejs:machine_casing_tiled_very_dark_gray")
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
+        .where("b", Predicates.any())
+        .where("c", Predicates.blocks("kubejs:machine_casing_block_purple"))
+        .where("d", Predicates.blocks("gtceu:steel_frame"))
         .where("E", Predicates.controller(Predicates.blocks(definition.get())))
-        .where("F", Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_0")
-                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_1"))
-                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_2"))
-                .or(Predicates.blocks("chisel_chipped_integration:technical_engineering_pipes_3")))
-        .where("G", Predicates.blocks("chisel_chipped_integration:technical_fan"))
     .build())
     .workableCasingModel(
-      'kubejs:block/chisel/platex',
+      'kubejs:block/ctm/machine_casing_tiled_very_dark_gray',
       "gtceu:block/machines/circuit_assembler"
     );
 

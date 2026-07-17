@@ -20,7 +20,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .aisle('CCC', 'AAA', 'AAA')
         .aisle('CBC', 'A#A', 'AEA')
         .aisle('CDC', 'AAA', 'AAA')
-        .where("A", Predicates.blocks('chisel_chipped_integration:factory_slighly_rusty_plate'))
+        .where("A", Predicates.blocks('kubejs:machine_casing_block_dark_blue'))
         .where('B', Predicates.blocks('kubejs:heatingel'))   
         .where('C', Predicates.blocks(GTBlocks.FIREBOX_STEEL.get())
               .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))

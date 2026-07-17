@@ -60,7 +60,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
-        .circuit(1)
 
     event.recipes.gtceu.extractor()
         .itemInputs(
@@ -71,7 +70,6 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
-        .circuit(1)
 
     event.recipes.gtceu.fusion_reactor()
         .inputFluids(

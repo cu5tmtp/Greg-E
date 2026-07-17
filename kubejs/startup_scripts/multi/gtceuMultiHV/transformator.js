@@ -21,10 +21,10 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .aisle('DCD', 'A#A', 'A#A')
         .aisle('DCD', 'A#A', 'A#A')
         .aisle('DED', 'AAA', 'BBB')
-        .where("A", Predicates.blocks('chisel_chipped_integration:technical_sturdy'))
+        .where("A", Predicates.blocks('kubejs:machine_casing_tiled_gray'))
         .where('B', Predicates.blocks('chisel_chipped_integration:technical_malfunction_fan'))   
         .where('C', Predicates.blocks('kubejs:heatingel'))   
-        .where('D', Predicates.blocks('chisel_chipped_integration:technical_vent')
+        .where('D', Predicates.blocks('kubejs:machine_casing_tiled_orange')
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))  
@@ -35,7 +35,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where('#', Predicates.any())
     .build())
     .workableCasingModel(
-      "kubejs:block/chisel/vent",
+      "kubejs:block/ctm/machine_casing_tiled_orange",
       "gtceu:block/multiblock/distillation_tower"
     );
 });

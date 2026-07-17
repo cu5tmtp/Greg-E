@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
 
     event.shaped(
-        Item.of('gtceu:netherdrillrig', 1),
+        Item.of('gregecore:netherdrillrig', 1),
         [
             ' A ',
             'BBB',

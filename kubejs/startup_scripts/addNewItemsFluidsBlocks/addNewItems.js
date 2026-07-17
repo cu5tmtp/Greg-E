@@ -113,6 +113,7 @@ StartupEvents.registry('item', event => {
     event.create('eyeofsin').displayName('Eye of Sin')
     event.create('stoneofhorus').displayName('Stone of Horus')
     event.create('charmofguilliman').displayName('Charm of Guilliman')
+    event.create('magnifying').displayName('Examining Glass')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

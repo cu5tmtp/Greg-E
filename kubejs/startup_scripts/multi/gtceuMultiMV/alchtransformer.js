@@ -24,14 +24,14 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .aisle('H#CCC#H', '##DDD##', '##DDD##', '#######', '#######', '#######', 'A#####A')
         .aisle('HB###BH', '#######', '#######', '#######', '#######', '#######', 'A#####A')
         .aisle('AHHIHHA', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A')
-        .where("A", Predicates.blocks('chisel_chipped_integration:technical_rusty_bolted_plates'))
+        .where("A", Predicates.blocks('kubejs:machine_casing_tiled_dark_gray'))
         .where("B", Predicates.blocks('chisel_chipped_integration:technical_transparent_rusty_scaffold'))
         .where("C", Predicates.blocks('chisel_chipped_integration:technical_vent'))
         .where("D", Predicates.blocks('chisel_chipped_integration:metal_gold_shipping_crate'))
         .where("E", Predicates.blocks('minecraft:chain'))
         .where("F", Predicates.blocks('minecraft:cauldron'))
         .where("G", Predicates.blocks('kubejs:heatingel'))
-        .where("H", Predicates.blocks('chisel_chipped_integration:technical_rusty_bolted_plates')
+        .where("H", Predicates.blocks('kubejs:machine_casing_tiled_dark_gray')
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(2))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(2))  
@@ -41,7 +41,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("#", Predicates.any())
     .build())
     .workableCasingModel(
-      "kubejs:block/chisel/rustyboltedplates",
+      "kubejs:block/ctm/machine_casing_tiled_dark_gray",
       "gtceu:block/multiblock/distillation_tower"
     );
 });

@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("B", Predicates.blocks('chisel_chipped_integration:laboratory_small_steel'))
         .where("C", Predicates.blocks('chisel_chipped_integration:technical_transparent_rusty_scaffold'))
         .where('D', Predicates.blocks('minecraft:target'))   
-        .where('E', Predicates.blocks('chisel_chipped_integration:laboratory_tiles')
+        .where('E', Predicates.blocks('kubejs:machine_casing_tiled_light_gray')
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))  
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))
@@ -38,7 +38,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where('#', Predicates.any())
     .build())
     .workableCasingModel(
-      "kubejs:block/chisel/largetile",
+      "kubejs:block/ctm/machine_casing_tiled_light_gray",
       "gtceu:block/multiblock/distillation_tower"
     );
 });
