@@ -26,15 +26,15 @@
 			"minecraft:water": 1,
 			"gtceu:pcb_coolant": -50,
 			"gregecore:deionized_water": -25,
-			"ad_astra:cryo_fuel": -100
+			"ad_astra:cryo_fuel": -75
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
-			"minecraft:magma_block": 800,
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:lava": 1000,
-			"kubejs:heatingel": 2500,
-			"kubejs:acidinfusedlava": 4000,
+			"minecraft:magma_block": 800,
+			"kubejs:heatingel": 1500,
+			"kubejs:acidinfusedlava": 2000,
 			"minecraft:coal_block": 500
 		},
 		// Energy produced per fuel tick in the Furnator.
@@ -116,22 +116,22 @@
 				"nitro": 500000000
 			},
 			"transfer_rates": {
+				"starter": 10000,
+				"basic": 40000,
+				"hardened": 100000,
+				"blazing": 400000,
+				"niotic": 2000000,
+				"spirited": 7000000,
+				"nitro": 10000000
+			},
+			"generation_rates": {
 				"starter": 1000,
 				"basic": 4000,
 				"hardened": 10000,
 				"blazing": 40000,
 				"niotic": 200000,
-				"spirited": 700000,
+				"spirited": 600000,
 				"nitro": 3000000
-			},
-			"generation_rates": {
-				"starter": 500,
-				"basic": 2000,
-				"hardened": 8000,
-				"blazing": 32000,
-				"niotic": 120000,
-				"spirited": 520000,
-				"nitro": 2500000
 			}
 		},
 		"solar_panels": {
@@ -188,8 +188,8 @@
 				"hardened": 450,
 				"blazing": 1500,
 				"niotic": 6000,
-				"spirited": 25000,
-				"nitro": 100000
+				"spirited": 12500,
+				"nitro": 35000
 			}
 		}
 	},
