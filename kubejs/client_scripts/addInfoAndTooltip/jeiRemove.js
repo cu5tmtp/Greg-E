@@ -1737,7 +1737,16 @@ let emiBannedItems = [
     "item:gtceu:nectium_nugget",
     "item:gtceu:tiny_nectium_dust",
     "item:gtceu:small_nectium_dust",
-    "item:gtceu:nectium_block"
+    "item:gtceu:nectium_block",
+    "item:meinfinitycell:infinity_cobblestone_cell",
+    "item:meinfinitycell:infinity_water_cell",
+    "item:mae2:4x_crafting_accelerator",
+    "item:mae2:16x_crafting_accelerator",
+    "item:mae2:64x_crafting_accelerator",
+    "item:mae2:256x_crafting_accelerator",
+    "item:mae2:cloud_chamber",
+    "item:mae2:pattern_p2p_tunnel",
+    "item:mae2:faulty_card{}"
 ];
 
 let getCorrectItem = (emiBannedItems) => {

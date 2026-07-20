@@ -147,6 +147,20 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.giantreactionchamber()
         .itemInputs(
+            '4x advanced_ae:quantum_alloy',
+            '2x ae2:pattern_provider'
+        )
+        .inputFluids(
+            'gtceu:epichlorohydrin 100'
+        )
+        .itemOutputs(
+            'mae2:pattern_multi_p2p_tunnel'
+        )
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(100)
+
+    event.recipes.gtceu.giantreactionchamber()
+        .itemInputs(
             '64x ae2:matter_ball'
         )
         .inputFluids(
