@@ -335,6 +335,36 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "0,0,0,0,1,0")
 
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            'minecraft:glass',
+            '4x gtceu:iron_plate',
+            'minecraft:stick'
+        )
+        .inputFluids(
+            'gregecore:perditio_essentia 10'
+        )
+        .itemOutputs(
+            'kubejs:magnifying'
+        )
+        .duration(600)
+        .addData('essentia', "0,0,0,0,1,0")
+
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '2x minecraft:gold_ingot',
+            '4x minecraft:emerald',
+            'gtceu:titanium_ingot'
+        )
+        .inputFluids(
+            'gregecore:terra_essentia 500'
+        )
+        .itemOutputs(
+            'minecraft:totem_of_undying'
+        )
+        .duration(600)
+        .addData('essentia', "0,1,0,0,0,0")
+
     //aqua, terra, aer, ignis, perditio, ordo
 
 })

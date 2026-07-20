@@ -396,7 +396,7 @@ ServerEvents.recipes((event) => {
             'gtceu:maliwanium_ingot'
         )
         .itemOutputs(
-            '8x gtceu:maliwanium_foil'
+            '32x gtceu:maliwanium_foil'
         )
         .EUt(GTValues.VA[GTValues.ZPM])
         .duration(200)

@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
             'gtceu:neutron_reflector'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.MV])
         .duration(4000)
 
     event.recipes.gtceu.assembler('reflector2')
@@ -179,7 +179,7 @@ ServerEvents.recipes((event) => {
             '3x gtceu:neutron_reflector'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.MV])
         .duration(3000)
 
     event.remove({output: 'gtceu:superconducting_coil'})
@@ -195,7 +195,7 @@ ServerEvents.recipes((event) => {
             'gtceu:superconducting_coil'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil2')
@@ -211,7 +211,7 @@ ServerEvents.recipes((event) => {
             '2x gtceu:superconducting_coil'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil3')
@@ -257,7 +257,7 @@ ServerEvents.recipes((event) => {
             'gtceu:superconducting_coil'
         )
         .circuit(1)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
 
     event.recipes.gtceu.assembler('coil6')
@@ -273,7 +273,7 @@ ServerEvents.recipes((event) => {
             '8x gtceu:superconducting_coil'
         )
         .circuit(2)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
 
 })

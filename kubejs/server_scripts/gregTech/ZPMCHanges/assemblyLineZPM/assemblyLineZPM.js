@@ -45,4 +45,21 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.ZPM])
         .stationResearch(b => b.researchStack(Item.of('gtceu:assembly_line')).EUt(GTValues.VA[GTValues.ZPM]).CWUt(16))
 
+    event.recipes.gtceu.assembly_line('getcathedrall')
+        .itemInputs(
+            'bloodmagic:altar',
+            'gtceu:zpm_machine_hull',
+            '16x #gtceu:circuits/zpm',
+            '16x gtceu:luv_field_generator',
+            '64x gtceu:cursium_wire_single_wire',
+            '16x gtceu:europium_foil'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 2500'
+        )
+        .itemOutputs('gregecore:bloodcathedral')
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .stationResearch(b => b.researchStack(Item.of('gregecore:tinyblood')).EUt(GTValues.VA[GTValues.ZPM]).CWUt(16))
+
 });

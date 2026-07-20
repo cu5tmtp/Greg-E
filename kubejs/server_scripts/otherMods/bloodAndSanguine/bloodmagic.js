@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
 
     event.custom({
       type: 'bloodmagic:altar',
-      altarSyphon: 200000,
+      altarSyphon: 100000,
       consumptionRate: 10000,
       drainRate: 10000,
       input: {

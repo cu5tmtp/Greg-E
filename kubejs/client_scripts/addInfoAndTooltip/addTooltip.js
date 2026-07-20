@@ -391,6 +391,15 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+    event.addAdvanced(
+        [
+            'kubejs:magnifying'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Right click to destroy End Portal Frame Block or Reinforced Deepslate.'));
+        }
+    );
+
     //Thank you to these artists:
 
     event.addAdvanced(

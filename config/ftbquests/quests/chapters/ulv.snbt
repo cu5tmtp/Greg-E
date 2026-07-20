@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: ["Use your wrought iron to make these tools. If they break, you can either use iron to make new ones, or use wrought iron, which gives more durability."]
+			description: ["You have 2 choices for now: Wrought Iron tools (better durability but takes longer to craft) or Iron Tools (bad durability but cheap to craft)."]
 			id: "51DADABE18E42408"
 			rewards: [{
 				count: 2
