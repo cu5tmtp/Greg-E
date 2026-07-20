@@ -28,7 +28,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
               .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))
               .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))  
               .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(2).setPreviewCount(1))
-              .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(2).setPreviewCount(1)))  
+              .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(2).setPreviewCount(2)))  
         .where('D', Predicates.controller(Predicates.blocks(definition.get())))
         .where('E', Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1).setPreviewCount(1))
         .where('#', Predicates.any())
