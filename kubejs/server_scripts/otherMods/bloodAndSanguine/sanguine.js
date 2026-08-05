@@ -93,6 +93,24 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.IV])
         .circuit(1)
 
+      event.recipes.gtceu.assembler('virtualsacrificeererer2')
+        .itemInputs(
+            '#gtceu:circuits/zpm',
+            '4x ad_extendra:electrolyte_block',
+            'bloodmagic:blankslate',
+            '4x gtceu:enderium_wire_single_wire',
+            'gtceu:inert_machine_casing'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 144'
+        )
+        .itemOutputs(
+            'sanguine_networks:virtual_sacrificer'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.IV])
+        .circuit(1)
+
 });
 
 

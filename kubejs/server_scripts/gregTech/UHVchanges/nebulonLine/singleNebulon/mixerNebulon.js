@@ -15,19 +15,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(4)
 
-    event.recipes.gtceu.large_chemical_reactor('getfluoronaquadicacid')
-        .inputFluids(
-            'gtceu:fluorine 432',
-            'gtceu:hydrogen 576',
-            'gtceu:naquadria 432'
-        )
-        .outputFluids(
-            'gtceu:fluoronaquadic_acid 288'
-        )
-        .duration(200)
-        .EUt(GTValues.VA[GTValues.UHV])
-        .circuit(4)
-
     event.recipes.gtceu.mixer('getdinebulonomni')
         .inputFluids(
             'gtceu:excited_naquadic_solution 432',

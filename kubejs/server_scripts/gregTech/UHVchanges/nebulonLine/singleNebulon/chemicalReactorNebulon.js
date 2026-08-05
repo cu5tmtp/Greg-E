@@ -27,4 +27,17 @@ ServerEvents.recipes(event => {
         .duration(300)
         .circuit(12)
 
+    event.recipes.gtceu.large_chemical_reactor('getfluoronaquadicacid')
+        .inputFluids(
+            'gtceu:fluorine 432',
+            'gtceu:oxygen 576',
+            'gtceu:naquadria 432'
+        )
+        .outputFluids(
+            'gtceu:fluoronaquadic_acid 288'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .circuit(4)
+
 })

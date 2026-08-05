@@ -174,7 +174,61 @@ ServerEvents.recipes((event) => {
         }
     })
 
+    const p2pTypes = [
+        'item',
+        'fluid',
+        'fe',
+        'redstone'
+    ];
 
+    p2pTypes.forEach((type, index) => {
+        
+        event.recipes.gtceu.assembler()
+            .itemInputs('ae2:me_p2p_tunnel')
+            .itemOutputs(`ae2:${type}_p2p_tunnel`)
+            .duration(10)
+            .EUt(480)
+            .circuit(index + 1)
+    });
+
+    event.recipes.gtceu.assembler()
+        .itemInputs('ae2:me_p2p_tunnel')
+        .itemOutputs('ae2:light_p2p_tunnel')
+        .duration(10)
+        .EUt(480)
+        .circuit(5)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs('ae2:me_p2p_tunnel')
+        .itemOutputs('appbot:mana_p2p_tunnel')
+        .duration(10)
+        .EUt(480)
+        .circuit(6)
+
+    p2pTypes.forEach((type, index) => {
+        
+        event.recipes.gtceu.assembler()
+            .itemInputs('mae2:pattern_multi_p2p_tunnel')
+            .itemOutputs(`mae2:${type}_multi_p2p_tunnel`)
+            .duration(10)
+            .EUt(480)
+            .circuit(index + 1)
+    });
+
+    event.recipes.gtceu.assembler()
+        .itemInputs('ae2:me_p2p_tunnel')
+        .itemOutputs(Item.of('mae2:eu_p2p_tunnel'))
+        .duration(10)
+        .EUt(480)
+        .circuit(12)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs('mae2:pattern_multi_p2p_tunnel')
+        .itemOutputs(Item.of('mae2:eu_multi_p2p_tunnel'))
+        .duration(10)
+        .EUt(480)
+        .circuit(13)
+        
     event.replaceInput(
         'expatternprovider:wireless_connector',
         'ae2:sky_dust',

@@ -17,7 +17,7 @@ const ctmBlocks = [
     'machine_casing_tiled_orange', 
     'machine_casing_tiled_red', 
     'machine_casing_tiled_very_dark_gray', 
-    'machine_casing_tiled_yellow', 
+    'machine_casing_tiled_yellow',
 ]; 
 
 StartupEvents.registry('block', event => {
@@ -34,6 +34,7 @@ StartupEvents.registry('block', event => {
             .stoneSoundType()
             .hardness(2.0)
             .resistance(1.0)
+            .requiresTool(true)
             .textureAll(`kubejs:block/ctm/${blockId}`)
             
             

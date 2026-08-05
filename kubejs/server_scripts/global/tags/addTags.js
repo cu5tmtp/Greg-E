@@ -31,7 +31,8 @@ ServerEvents.tags('item', event => {
 
     event.add('grege:blood', 'gregecore:tinyblood')
     event.add('grege:blood', 'gregecore:mediumblood')
-    event.add('grege:blood', 'gregecore:largeblood')
+    event.add('grege:blood', 'gregecore:largeblood')           
+    
 
     //cataclysm imitation ingots tagging
     event.add('grege:witherite', 'cataclysm:witherite_ingot')
@@ -57,3 +58,51 @@ ServerEvents.tags('item', event => {
 
 
 })
+
+ServerEvents.tags('block', event => {
+    const ctmBlocks = [ 
+        'machine_casing_block_cyan', 
+        'machine_casing_block_dark_blue', 
+        'machine_casing_block_diamond', 
+        'machine_casing_block_gold', 
+        'machine_casing_block_green', 
+        'machine_casing_block_lime', 
+        'machine_casing_block_magenta', 
+        'machine_casing_block_orange', 
+        'machine_casing_block_purple', 
+        'machine_casing_block_red', 
+        'machine_casing_tiled_dark_gray', 
+        'machine_casing_tiled_gray', 
+        'machine_casing_tiled_green', 
+        'machine_casing_tiled_light_gray', 
+        'machine_casing_tiled_lime', 
+        'machine_casing_tiled_orange', 
+        'machine_casing_tiled_red', 
+        'machine_casing_tiled_very_dark_gray', 
+        'machine_casing_tiled_yellow',
+        'slurry_squeezer',
+        'heatingel',
+        'researchlens',
+        'laservoid'
+    ]; 
+
+    ctmBlocks.forEach(block => {
+        event.add('gtceu:mineable/pickaxe_or_wrench', `kubejs:${block}`);
+    });
+
+    const blocksToTag = [ 
+        'cobbleone',
+        'cobbletwo',
+        'cobblethree',
+        'cobblefour',
+        'cobblefive',
+        'voidseed',
+        'vanaheimingotblock',
+        'solidacidinfusedlava',
+        'vending_machine'
+    ]; 
+
+    blocksToTag.forEach(block => {
+        event.add('minecraft:mineable/pickaxe', `kubejs:${block}`);
+    });
+});

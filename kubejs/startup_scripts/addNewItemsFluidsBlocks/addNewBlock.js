@@ -1,24 +1,26 @@
 const BlockStateProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties');
 
 StartupEvents.registry('block', event => {
-
     event.create('slurry_squeezer')
         .displayName('Squeezer')
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .texture('up', 'kubejs:block/slurrypressertopbot')
         .texture('down', 'kubejs:block/slurrypressertopbot')
         .texture('north', 'kubejs:block/slurrypresserside')
         .texture('south', 'kubejs:block/slurrypresserside')
         .texture('west', 'kubejs:block/slurrypresserside')
         .texture('east', 'kubejs:block/slurrypresserside')
+        
 
     event.create('heatingel')
         .displayName('Heating Element')
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/heatingel')
 
     event.create('cobbleone')
@@ -26,6 +28,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/cobbleone')
     
     event.create('cobbletwo')
@@ -33,6 +36,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/cobbletwo')
 
     event.create('cobblethree')
@@ -40,6 +44,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/cobblethree')
     
     event.create('cobblefour')
@@ -47,6 +52,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/cobblefour')
 
     event.create('cobblefive')
@@ -54,6 +60,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/cobblefive')
 
     event.create('researchlens')
@@ -61,6 +68,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/sprinklertopbot')
         .texture('down', 'kubejs:block/lensdown')
         
@@ -69,6 +77,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/sprinklertopbot')
         .texture('down', 'kubejs:block/laserdown')
 
@@ -77,6 +86,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/voidseed')
 
     event.create('vanaheimingotblock')
@@ -84,6 +94,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/vanaheim')
 
     event.create('solidacidinfusedlava')
@@ -91,6 +102,7 @@ StartupEvents.registry('block', event => {
         .stoneSoundType()
         .hardness(2.0) 
         .resistance(1.0)
+        .requiresTool(true)
         .textureAll('kubejs:block/crystacidlava')
 
     event.create('vending_machine')
@@ -100,6 +112,7 @@ StartupEvents.registry('block', event => {
         .hardness(2.0) 
         .resistance(1.0)
         .fullBlock(false)
+        .requiresTool(true)
         .property(BlockStateProperties.HORIZONTAL_FACING)
         .placementState(ctx => {
             return ctx.set(BlockStateProperties.HORIZONTAL_FACING, ctx.horizontalDirection);
