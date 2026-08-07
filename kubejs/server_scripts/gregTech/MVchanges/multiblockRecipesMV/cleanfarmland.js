@@ -69,6 +69,8 @@ ServerEvents.recipes((event) => {
     addVeggieRecipe('potato', 'minecraft:potato');
     addVeggieRecipe('sweet_berries', 'minecraft:sweet_berries');
     addVeggieRecipe('glow_berries', 'minecraft:glow_berries');
+    addVeggieRecipe('nether_wart', 'minecraft:nether_wart');
+    addVeggieRecipe('belladonna_flower', 'enchanted:belladonna_flower');
 
     //remove due to a easy emc gain
     event.remove({id: 'botania:mana_infusion/cactus_to_slime'})

@@ -12,6 +12,16 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.essentia_smelting()
         .inputFluids(
+            'gtceu:distilled_water 100'
+        )
+        .outputFluids(
+            'gregecore:aqua_essentia 5'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+
+    event.recipes.gtceu.essentia_smelting()
+        .inputFluids(
             'gregecore:deionized_water 100'
         )
         .outputFluids(
@@ -148,6 +158,26 @@ ServerEvents.recipes((event) => {
         )
         .outputFluids(
             'gregecore:aqua_essentia 10'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+
+    event.recipes.gtceu.essentia_smelting()
+        .inputFluids(
+            'gtceu:distilled_water 100'
+        )
+        .outputFluids(
+            'gregecore:aqua_essentia 50'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(200)
+
+    event.recipes.gtceu.essentia_smelting()
+        .inputFluids(
+            'gregecore:deionized_water 100'
+        )
+        .outputFluids(
+            'gregecore:aqua_essentia 100'
         )
         .EUt(GTValues.VA[GTValues.LV])
         .duration(200)

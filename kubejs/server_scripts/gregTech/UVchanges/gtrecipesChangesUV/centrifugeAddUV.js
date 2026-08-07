@@ -75,6 +75,28 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .circuit(7)
 
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '4x enchanted:tongue_of_dog'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(8)
+
+    event.recipes.gtceu.centrifuge()
+        .itemInputs(
+            'kubejs:dustwithbroom'
+        )
+        .itemOutputs(
+            '4x enchanted:wool_of_bat'
+        )
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.UV])
+        .circuit(9)
+
 
     
 

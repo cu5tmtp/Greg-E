@@ -258,7 +258,6 @@ let emiBannedItems = [
     "item:projectexpansion:white_relay",
     "item:projectexpansion:fading_relay",
     "item:projectexpansion:final_relay",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"projectexpansion:alchemical_collection\",lvl:1s}]}",
     "item:projectextended:red_matter_trident",
     "item:projectextended:dark_matter_trident",
     "item:projecte:rm_sword",

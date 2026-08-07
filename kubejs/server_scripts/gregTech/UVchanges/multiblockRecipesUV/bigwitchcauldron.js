@@ -68,4 +68,42 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(100)
 
+    event.recipes.gtceu.bigwitchcauldron()
+        .itemInputs(
+            'enchanted:mandrake_root',
+            'minecraft:nether_wart',
+            'enchanted:tear_of_the_goddess',
+            'enchanted:refined_evil',
+            'enchanted:mutandis_extremis'
+        )
+        .itemOutputs(
+            'enchanted:drop_of_luck'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+
+    event.recipes.gtceu.bigwitchcauldron()
+        .itemInputs(
+            'enchanted:mutandis',
+            'minecraft:nether_wart'
+        )
+        .itemOutputs(
+            'enchanted:mutandis_extremis'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+
+    event.recipes.gtceu.bigwitchcauldron()
+        .itemInputs(
+            'enchanted:mandrake_root',
+            'enchanted:exhale_of_the_horned_one',
+            'minecraft:egg'
+        )
+        .itemOutputs(
+            '6x enchanted:mutandis'
+        )
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
+
+
 });

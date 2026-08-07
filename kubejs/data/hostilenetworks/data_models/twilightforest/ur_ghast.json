@@ -23,6 +23,10 @@
         {
             "item": "twilightforest:carminite",
             "count": 1
+        },
+        {
+            "item": "minecraft:ghast_tear",
+            "count": 4
         }
     ],
     "tier_data": [1, 54, 354, 1254],
