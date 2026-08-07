@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("atmosphericsampler", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("atmosphericsampler")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_SECURE_MACERATION)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aaagggggggaaa", "aaaaaacaaaaaa", "aaaaaacaaaaaa", "aaaaaacaaaaaa", "aaaaaacaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa", "aaaaaaaaaaaaa")

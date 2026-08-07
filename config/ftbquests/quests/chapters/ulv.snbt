@@ -138,7 +138,11 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: ["You have 2 choices for now: Wrought Iron tools (better durability but takes longer to craft) or Iron Tools (bad durability but cheap to craft)."]
+			description: [
+				"You don't have to craft all of the tools right now, but when you need them. This quest serves as a visual indicator of what tools you need."
+				""
+				"You have 2 choices for now: Wrought Iron tools (better durability but takes longer to craft) or Iron Tools (bad durability but cheap to craft)."
+			]
 			id: "51DADABE18E42408"
 			rewards: [{
 				count: 2
@@ -159,6 +163,7 @@
 							value: "gtceu:tools/crafting_files"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -170,6 +175,7 @@
 							value: "gtceu:tools/crafting_crowbars"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -181,6 +187,7 @@
 							value: "gtceu:tools/crafting_hammers"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -192,6 +199,7 @@
 							value: "gtceu:tools/crafting_knives"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -203,6 +211,7 @@
 							value: "gtceu:tools/crafting_mallets"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -214,6 +223,7 @@
 							value: "gtceu:tools/crafting_mortars"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -225,6 +235,7 @@
 							value: "gtceu:tools/crafting_saws"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -236,6 +247,7 @@
 							value: "gtceu:tools/crafting_screwdrivers"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -247,6 +259,7 @@
 							value: "gtceu:tools/crafting_wire_cutters"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -258,6 +271,7 @@
 							value: "gtceu:tools/crafting_wrenches"
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]

@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("specializedcrystallizer", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("specializedcrystallizer")
-    .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
+    .appearanceBlock(GTBlocks.FIREBOX_TUNGSTENSTEEL)
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aiiia", "accca", "accca", "accca", "accca", "accca", "aaaaa")

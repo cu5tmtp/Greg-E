@@ -15,4 +15,17 @@ ServerEvents.recipes((event) => {
         .duration(20)
         .EUt(GTValues.VA[GTValues.IV])
 
+    event.recipes.gtceu.assembler('gethartofdsi')
+        .itemInputs(
+            'kubejs:vileheart'
+        )
+        .itemOutputs(
+            'minecraft:heart_of_the_sea'
+        )
+        .inputFluids(
+            'kubejs:holywater 10000'
+        )
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.IV])
+
 });

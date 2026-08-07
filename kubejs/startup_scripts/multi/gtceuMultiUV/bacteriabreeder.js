@@ -25,7 +25,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("bacteriabreeder", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeTypes(["bacteriabreeder", "bacteriabreedercycle"])
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_REACTION_SAFE)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('HHHHHHH', 'ABBBBBA', 'ABBBBBA', 'ABBBBBA', 'ABBBBBA', 'AAAAAAA')

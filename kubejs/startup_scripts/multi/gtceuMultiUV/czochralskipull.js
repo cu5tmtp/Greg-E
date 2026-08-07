@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("czochralskipull", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeTypes("czochralskipull")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_WATERTIGHT)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("abbba", "aggga", "accca", "accca", "bbbbb", "bbbbb", "bbbbb")

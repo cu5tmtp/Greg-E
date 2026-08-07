@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("smdforge", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("smdforge")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_STRESS_PROOF)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aiiiiiiiiia", "bcccdcdcccb", "bcccdcdcccb", "bccdcccdccb", "bddcccccddb", "bcccceccccb", "bddcccccddb", "bccddccdccb", "bcccdcdcccb", "bcccdcdcccb", "abbbbbbbbba")

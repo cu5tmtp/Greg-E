@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("zerogravmixer", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("zerogravmixer")
-    .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
+    .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('       ', '  EEE  ', ' E   E ', ' E   E ', ' E   E ', '  EEE  ', '       ')

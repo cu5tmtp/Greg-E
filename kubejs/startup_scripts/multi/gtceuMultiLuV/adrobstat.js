@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("adrobstat", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("adrobstat")
-    .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
+    .appearanceBlock(GCYMBlocks.CASING_LARGE_SCALE_ASSEMBLING)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("blllllllllllb", "accccccccccca", "accccccccccca", "accccccccccca", "accccccccccca", "accccccccccca", "baaaaaaaaaaab")

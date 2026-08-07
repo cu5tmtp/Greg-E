@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("largecomponentmassassembler", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('component_mass_assembly')
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_TURBINE)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("hhhhhhhh", "adddddda", "adddddda", "adddddda", "aaaaaaaa")

@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("specthermalcentrifuge", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("specthermalcentrifuge")
-    .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
+    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
     .recipeModifiers(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("hhhhh", "bcccb", "bcccb", "bcccb", "bcccb", "ddddd", "ddddd")

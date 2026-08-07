@@ -1,5 +1,5 @@
 {
-	autofocus_id: "313BDDDAF1E08965"
+	autofocus_id: "7FBC4C2FAE832E2E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ad_astra"
@@ -775,6 +775,66 @@
 			}]
 			x: 1.0d
 			y: 11.0d
+		}
+		{
+			description: [
+				"This addon adds few useful items:"
+				""
+				"1) Enchantments for your armor to survive in space."
+				"2) Fuel loader."
+			]
+			id: "0CD24B78F5E98512"
+			tasks: [{
+				id: "04CDCC3B7857D117"
+				title: "Giselle Addon"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0CD24B78F5E98512"]
+			id: "49CBE42A937512F7"
+			tasks: [{
+				id: "4417C8FC1AF5F56F"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:creative_oxygen_can"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 2147483647L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0CD24B78F5E98512"]
+			description: [
+				"There is:"
+				""
+				"1) Space Breathing"
+				"2) Space Fire Proof"
+				"3) Acid Rain Proof"
+				"4) Gravity Normalizing"
+				""
+				"Each gets unlocked at a different planet."
+				"Or enchanting maybe?..."
+			]
+			id: "79E2A00525A8FBF2"
+			tasks: [{
+				id: "2F6C3967E2E9E18D"
+				title: "Enchantments"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 17.0d
 		}
 	]
 	title: "Ad Astra"

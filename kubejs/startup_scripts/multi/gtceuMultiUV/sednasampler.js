@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("sednasampler", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeTypes("sednasampler")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_STRESS_PROOF)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("gggggggggg", "aeeeeabbba", "aeeeeabbba", "aeeeeabbba", "aaaaaaaaaa")

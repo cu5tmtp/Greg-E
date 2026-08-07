@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("insaniumtreatmentfacilty", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("insaniumtreatmentfacilty")
-    .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
+    .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaaaaaaa", "aaaaeeeaaa", "aaaaaaaaaa", "aaaaaaaaaa")

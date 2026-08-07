@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("oreprocessor", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("oreprocessor")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("iiiii", "bcccb", "bcccb", "bbbbb", "aaaaa", "bbbbb", "bcccb", "bcccb", "ggggg")

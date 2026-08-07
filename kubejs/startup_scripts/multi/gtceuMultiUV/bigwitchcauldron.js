@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("bigwitchcauldron", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("bigwitchcauldron")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(GCYMBlocks.CASING_NONCONDUCTING)
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle(' AAAAA ', ' HHHHH ', ' BBBBB ', ' BBBBB ', '  BBB  ')
