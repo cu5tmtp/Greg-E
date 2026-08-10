@@ -16,6 +16,12 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.replaceInput(
+        {id: 'gtceu:shaped/item_filter'},
+        'gtceu:zinc_foil',
+        'gtceu:wrought_iron_foil'
+    )
+
     event.recipes.gtceu.assembler()
         .itemInputs(
             'gtceu:ulv_machine_hull',

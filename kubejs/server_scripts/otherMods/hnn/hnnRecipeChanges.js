@@ -254,7 +254,7 @@ ServerEvents.recipes((event) => {
             'extrahnn:upgrade_speed',
             'extrahnn:upgrade_data_kill',
             '#gtceu:circuits/iv',
-            '8x minecraft:nether_star',
+            '8x gtceu:quantum_star',
             '4x minecraft:netherite_ingot'
         )
         .inputFluids(

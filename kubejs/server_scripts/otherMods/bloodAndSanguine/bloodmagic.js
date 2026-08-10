@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
       output: {
         item: 'bloodmagic:basemonstersoul',
       },
-      upgradeLevel: 3,
+      upgradeLevel: 2,
     });
 
 });

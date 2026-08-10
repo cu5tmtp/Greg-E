@@ -2,6 +2,8 @@ ServerEvents.recipes((event) => {
 
     event.remove({output: 'ad_astra_giselle_addon:automation_nasa_workbench'})
     event.remove({output: 'ad_astra_giselle_addon:gravity_normalizer'})
+    event.remove({id: 'ad_astra_giselle_addon:compat/ae2/inscriber/sky_stone_dust'})
+    event.remove({id: 'ad_astra_giselle_addon:compat/ae2/smelting/smooth_sky_stone_block'})
 
     event.recipes.gtceu.pressuring()
         .itemInputs(
