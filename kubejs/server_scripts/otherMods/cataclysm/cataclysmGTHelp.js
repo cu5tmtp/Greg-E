@@ -459,7 +459,7 @@ ServerEvents.recipes((event) => {
             '#grege:enderium'
         )
         .itemOutputs(
-            'gtceu:enderium_wire_single_wire'
+            '2x gtceu:enderium_wire_single_wire'
         )
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(100)

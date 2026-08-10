@@ -92,6 +92,18 @@ ServerEvents.recipes((event) =>{
         'kubejs:animated/draconicprocessor'
     )
 
+    event.replaceInput(
+        {id: 'expatternprovider:ex_emc_interface_upgrade'},
+        'projecte:red_matter',
+        'kubejs:lvalloy'
+    )
+
+    event.replaceInput(
+        {id: 'expatternprovider:ex_emc_import_bus_upgrade'},
+        'projecte:red_matter',
+        'kubejs:lvalloy'
+    )
+
     event.remove({ id: 'projectexpansion:emc_link/yellow'})
 
     event.remove({id: 'appliede:emc_module'})

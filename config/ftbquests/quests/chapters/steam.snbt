@@ -15,13 +15,6 @@
 				"By clicking this button, you agree to acknowledge the following:"
 				""
 				"You are mentally insane"
-				""
-				""
-				""
-				""
-				""
-				""
-				"CHAPTER W.I.P"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -149,6 +142,112 @@
 			}]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["7C68D4FC81DC1C0D"]
+			id: "67CD3A1705B6E4F2"
+			tasks: [{
+				id: "27B194AB21E8DA8A"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C68D4FC81DC1C0D"]
+			id: "1E484E8C101543A3"
+			optional: true
+			tasks: [{
+				id: "7D1CE629D92D20C8"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"67CD3A1705B6E4F2"
+				"1E484E8C101543A3"
+			]
+			id: "323401FEF364D10B"
+			tasks: [{
+				id: "48508A604926324D"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["744DFD4A90BA6A25"]
+			id: "1956785A4F03E9C5"
+			tasks: [{
+				id: "417927C4893FCBF2"
+				item: "gtceu:red_alloy_single_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1956785A4F03E9C5"
+				"3A5E1B8D0273D3A6"
+				"6C207BF29EE954CE"
+			]
+			description: ["Well done!"]
+			id: "7339F1E89CC87439"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "32AE82E8D3ED13D4"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7339F1E89CC87439"]
+			id: "0EF26DC80A16B2C8"
+			rewards: [{
+				command: "/ftbquests change_progress @a complete 39F60EC48A6DC6D5"
+				elevate_perms: true
+				id: "1307F4FB0AF1A8E4"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "2B4F66850E4FC155"
+				title: "Click this to autocomplete ULV chapter!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["744DFD4A90BA6A25"]
+			id: "3A5E1B8D0273D3A6"
+			tasks: [{
+				id: "4A030B368C170DAF"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["744DFD4A90BA6A25"]
+			id: "6C207BF29EE954CE"
+			tasks: [{
+				id: "3176C6D5E8C7EE67"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
 		}
 	]
 	title: "Steam"
