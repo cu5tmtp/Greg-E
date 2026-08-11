@@ -875,7 +875,7 @@
 		}
 		{
 			dependencies: ["6AD1A5844541BBF2"]
-			description: ["For now, this is the way to get aluminium. But you will be able to get it way faster in MV."]
+			description: ["For now, this is the way to get aluminium. But you will be able to get it way faster in MV with the clay line."]
 			id: "71F313D56EF649B5"
 			rewards: [{
 				id: "649EC5842E7ACE20"

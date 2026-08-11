@@ -111,15 +111,11 @@
 			]
 			title: "Cobblestone"
 			x: 0.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["51DADABE18E42408"]
-			description: [
-				"In this GregTech pack, you have to smelt 1x iron nugget to 1x wrought iron nugget. Better make a few furnaces!"
-				""
-				"If used on tools, they have higher durability than iron tools."
-			]
+			dependencies: ["6AFBB35EB073CAEF"]
+			description: ["If used on tools, they have higher durability than iron tools."]
 			id: "7AB7609419E41CF9"
 			optional: true
 			rewards: [{
@@ -127,14 +123,13 @@
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			subtitle: "The E doesn't stand for Easy"
 			tasks: [{
 				id: "3D8A4C80E9DE7BCD"
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
@@ -150,8 +145,7 @@
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			shape: "hexagon"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Basics"
 			tasks: [
 				{
@@ -276,11 +270,11 @@
 				}
 			]
 			title: "GT Tools"
-			x: 0.0d
-			y: 8.125d
+			x: 2.5d
+			y: 6.25d
 		}
 		{
-			dependencies: ["51DADABE18E42408"]
+			dependencies: ["4A922F1103B983C8"]
 			description: ["If you want to get to LV in a reasonable amount of time, I recommend you make a few of these."]
 			id: "44429CAC9ECB5887"
 			rewards: [{
@@ -509,7 +503,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["51DADABE18E42408"]
+			dependencies: ["4A922F1103B983C8"]
 			description: ["There is quite some things to do to get glass. I encourage you to use EMI to look how to make this. &oHINT: You'll need a campfire!&r"]
 			id: "747D71E15C76C703"
 			subtitle: "EMI"
@@ -519,10 +513,10 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.125d
+			y: 7.0d
 		}
 		{
-			dependencies: ["51DADABE18E42408"]
+			dependencies: ["4A922F1103B983C8"]
 			description: ["You'll need a ton of this, it's probably wise to get some."]
 			id: "0F153D1267A6574A"
 			rewards: [{
@@ -537,7 +531,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.125d
+			y: 8.0d
 		}
 		{
 			dependencies: ["747D71E15C76C703"]
@@ -561,8 +555,8 @@
 					type: "item"
 				}
 			]
-			x: -4.967857142857142d
-			y: 8.139285714285748d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]

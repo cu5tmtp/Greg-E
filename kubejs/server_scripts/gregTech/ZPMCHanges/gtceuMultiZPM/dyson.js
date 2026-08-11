@@ -33,6 +33,22 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
+        Item.of('gregecore:dyswarmoutput_machine', 1),
+        [
+            'GAG',
+            'DED',
+            'FDF'
+        ],
+        {
+            A: '#gtceu:circuits/zpm',
+            D: 'gregecore:blood_infused_cable_single_wire',
+            E: 'gtceu:zpm_machine_hull',
+            F: 'gtceu:eridium_block',
+            G: 'kubejs:kaptonmirror'
+        }
+    )
+
+    event.shaped(
         Item.of('gregecore:solar_sail', 1),
         [
             ' A ',

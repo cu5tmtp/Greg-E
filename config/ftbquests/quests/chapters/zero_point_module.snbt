@@ -895,6 +895,11 @@
 					item: "gregecore:dysonswarmenergycollector"
 					type: "item"
 				}
+				{
+					id: "790DBB92251C69CA"
+					item: "gregecore:dyswarmoutput_machine"
+					type: "item"
+				}
 			]
 			x: 0.7142857142857082d
 			y: 9.0d
