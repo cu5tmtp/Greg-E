@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "euclid"
+	group: "6915D00C186DB378"
+	id: "11863A6021F6B8B0"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "Euclid"
+}

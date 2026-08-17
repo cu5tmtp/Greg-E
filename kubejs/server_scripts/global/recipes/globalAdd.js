@@ -162,17 +162,6 @@ ServerEvents.recipes((event) => {
         'gtceu:stainless_steel_ingot'
     )
 
-    event.recipes.gtceu.wiremill()
-        .itemInputs(
-            'ad_astra:desh_plate'
-        )
-        .itemOutputs(
-            '4x kubejs:deshfoil'
-        )
-        .duration(200)
-        .EUt(GTValues.VA[GTValues.HV])
-        .circuit(1)
-
     event.remove({id: 'gtceu:compressor/compress_plate_dust_awakened_draconium_cable'})
     event.recipes.gtceu.wiremill()
         .itemInputs(

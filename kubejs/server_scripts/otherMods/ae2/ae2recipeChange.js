@@ -205,6 +205,13 @@ ServerEvents.recipes((event) => {
         .EUt(480)
         .circuit(6)
 
+    event.recipes.gtceu.assembler()
+        .itemInputs('ae2:me_p2p_tunnel')
+        .itemOutputs('mae2:pattern_p2p_tunnel')
+        .duration(10)
+        .EUt(480)
+        .circuit(14)
+
     p2pTypes.forEach((type, index) => {
         
         event.recipes.gtceu.assembler()
