@@ -316,6 +316,44 @@
 			x: -5.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["73EE77DC13D01ED7"]
+			description: [
+				".....he...lo?...."
+				""
+				"...an..one...the...e?"
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:radio"
+			id: "7F51CADDE4E91E5E"
+			tasks: [{
+				id: "30FEFCF6E6444488"
+				title: "bzzt.....bzz"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7F51CADDE4E91E5E"]
+			description: [
+				"Make....rea...ity......fra....re.....engine....."
+				""
+				"Trave.....to.....&4Fractured Lands&r......"
+				""
+				"Fin.......the......ans.....wers.....there...."
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:radio"
+			id: "0C2221B77B832113"
+			tasks: [{
+				id: "3158CA28C688BF5C"
+				title: "don....fall..for...hi.....lies"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -20.5d
+		}
 	]
 	title: "AVARITIA"
 }

@@ -6,6 +6,17 @@
 	id: "11863A6021F6B8B0"
 	order_index: 13
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["04EF27D0C8F33788"]
+		hide_until_deps_complete: true
+		id: "228C7AA8FC81B93D"
+		tasks: [{
+			id: "3EFE94155224B984"
+			item: "gregecore:genesiscrucible"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Euclid"
 }

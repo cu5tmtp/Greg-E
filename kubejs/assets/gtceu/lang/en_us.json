@@ -99,6 +99,9 @@
   "block.gtceu.bigdistillery": "Big Distillery",
   "gtceu.bigdistillery": "Big Distillery",
 
+  "block.gtceu.tectonicdisruptor": "Tectonic Disruptor",
+  "gtceu.tectonicdisruptor": "Tectonic Disruptor",
+
   "block.gtceu.bigoven": "Big Oven",
   "gtceu.bigoven": "Big Oven",
 
@@ -147,6 +150,8 @@
   "material.gtceu.44oda": "4,4'-Oxydianiline",
   "material.gtceu.pdc44o": "Poly(Pyromellitic Dianhydride-co-4,4'-Oxydianiline), Amic Acid Solution",
   "material.gtceu.kapton": "Kapton",
+
+  "material.gtceu.delirium": "Delirium",
 
   "material.gtceu.crushed_mars_stone": "Mars Stone",
   "material.gtceu.culture_medium": "Culture Growth Medium",

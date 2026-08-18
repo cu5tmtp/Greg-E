@@ -11,9 +11,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["73EE77DC13D01ED7"]
+			dependencies: ["0C2221B77B832113"]
 			description: [
-				"Or is it GG?"
+				"Just as the voice in the radio said, the plans to this giant machine suddenly appeared in my mind."
 				""
 				"Open the rift and find Unstable Shard."
 			]
@@ -31,15 +31,14 @@
 		{
 			dependencies: ["3349077A4E664DD8"]
 			description: [
-				"You're not a noob now! "
+				"What to do with this now?"
 				""
-				"Now its really GG,"
-				"thank you again for playing my pack!"
+				"This could be the beggining to something big."
 			]
 			id: "04EF27D0C8F33788"
 			tasks: [{
-				id: "0D405A4EC948327C"
-				item: "gtceu:nan_certificate"
+				id: "3F0BE3D5752F82C1"
+				item: "gregecore:unstable"
 				type: "item"
 			}]
 			x: 0.0d
