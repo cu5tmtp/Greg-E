@@ -603,6 +603,8 @@
 				"Don't think too hard about this..."
 				""
 				"This is the way you're going to get new resources. Dusts can't be learned, but they are 100% drop rate. The specks can be combined to the resource and that can be learned!"
+				""
+				"For every resource dust there is also a alternate recipe that awards you with more of the resource dust. But it requires you to do a additional production line."
 			]
 			id: "6AD1A5844541BBF2"
 			rewards: [{

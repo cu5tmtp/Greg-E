@@ -1848,3 +1848,9 @@ JEIEvents.hideItems((event) => {
     event.hide('/^enderio:.*fused_quartz.*/')
 
 })
+
+JEIEvents.removeCategories((event) => {
+
+    event.remove('bloodmagic:arcfurnace')
+
+})

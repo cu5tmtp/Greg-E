@@ -152,6 +152,16 @@
   "material.gtceu.kapton": "Kapton",
 
   "material.gtceu.delirium": "Delirium",
+  "material.gtceu.delirium_slurry": "Delirium Slurry",
+  "material.gtceu.delirium_gem": "Delirium Gem",
+  "material.gtceu.poly_atarax_acid": "Poly-Atarax-Psi Acid",
+  "material.gtceu.atarax": "Atarax",
+  "material.gtceu.psi_particles": "Psi Particles",
+  "material.gtceu.poly_atarium_solution": "Poly-Atarium Solution",
+  "material.gtceu.reinforced_delirium": "Reinforced Delirium",
+  "material.gtceu.reinforced_delirium_bad": "Wrongly Made Reinforced Delirium",
+  "gtceu.auxillaryfiltrator": "Auxillary Filtrator",
+  "block.gtceu.auxillaryfiltrator": "Auxillary Filtrator",
 
   "material.gtceu.crushed_mars_stone": "Mars Stone",
   "material.gtceu.culture_medium": "Culture Growth Medium",

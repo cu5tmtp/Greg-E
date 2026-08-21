@@ -16,5 +16,6 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:draeneiwood', ['Find this on Mercury, in the woodyard structure. Use Explorers Compass to find the woodyard structure faster.']);
     event.addItem('kubejs:robotarm', ['Find this on Quaoar, in the broken assembly line structure. Use Explorers Compass to find the broken assembly line faster.']);
     event.addItem('kubejs:computation_matrix', ['Find this in Undergarden, in the mystery cube structure. Use Explorers Compass to find the mystery cube faster.']);
+    event.addItem('kubejs:mirrorofkalandra', ['This item has a 0.00001% chance to drop from any mob. Only a few exiles can get this item this way, if you do, consider yourself very lucky.']);
 
 })
