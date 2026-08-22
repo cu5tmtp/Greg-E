@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "euclid"
 	group: "6915D00C186DB378"
+	icon: "gregecore:unstable"
 	id: "11863A6021F6B8B0"
 	order_index: 13
 	quest_links: [ ]

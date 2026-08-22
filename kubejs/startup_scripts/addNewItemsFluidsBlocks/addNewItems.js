@@ -117,6 +117,11 @@ StartupEvents.registry('item', event => {
     event.create('mirrorofkalandra').displayName('Mirror of Kalandra')
     event.create('unstabledrillhead').displayName('Unstable Shard Drill Head')
 
+    event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
+    event.create('euclid/euclid_integrated').displayName('Euclid Integrated Circuit')
+    event.create('euclid/euclid_computer').displayName('Euclid Processor Computer')
+    event.create('euclid/euclid_mainframe').displayName('Euclid Processor Mainframe')
+
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')
     event.create('ultimateinductor').displayName('Ultimate SMD Inductor')

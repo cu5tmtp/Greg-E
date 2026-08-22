@@ -9,4 +9,13 @@ ServerEvents.recipes((event) => {
         )
         .duration(1000)
 
+    event.recipes.gtceu.open_rift('opentheshard')
+        .itemInputs(
+            'gregecore:unstable'
+        )
+        .itemOutputs(
+           'kubejs:unstabledrillhead'
+        )
+        .duration(100)
+
 })
