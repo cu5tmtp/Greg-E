@@ -151,6 +151,12 @@
   "material.gtceu.pdc44o": "Poly(Pyromellitic Dianhydride-co-4,4'-Oxydianiline), Amic Acid Solution",
   "material.gtceu.kapton": "Kapton",
 
+  "material.gtceu.delta_latgrium": "Delta Latgrium",
+  "material.gtceu.latgrium_oxide": "Latgrium Oxide",
+  "material.gtceu.particle_nu": "Particlie Nu",
+  "material.gtceu.element_356": "Element-356",
+  "material.gtceu.latgrium": "Latgrium",
+
   "material.gtceu.delirium": "Delirium",
   "material.gtceu.delirium_slurry": "Delirium Slurry",
   "material.gtceu.delirium_gem": "Delirium Gem",

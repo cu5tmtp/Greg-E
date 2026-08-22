@@ -411,8 +411,6 @@ let emiBannedItems = [
     "item:gtceu:uev_4096a_laser_source_hatch",
     "item:gtceu:uiv_chemical_bath",
     "item:gtceu:uiv_chemical_reactor",
-    "item:gtceu:uiv_machine_casing",
-    "item:gtceu:uiv_machine_hull",
     "item:gtceu:uiv_compressor",
     "item:gtceu:uiv_cutter",
     "item:gtceu:uiv_electric_furnace",

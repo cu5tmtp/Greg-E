@@ -211,4 +211,14 @@ ServerEvents.recipes((event) => {
         .duration(400)
         .addData('heat_level', 3700)
 
+    event.recipes.gtceu.wiremill()
+        .itemInputs(
+            'gtceu:reinforced_delirium_ingot'
+        )
+        .outputFluids(
+            '2x gtceu:reinforced_delirium_single_wire'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(400)
+
 })

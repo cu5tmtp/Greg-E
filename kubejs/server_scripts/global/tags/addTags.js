@@ -34,6 +34,17 @@ ServerEvents.tags('item', event => {
     event.add('grege:blood', 'gregecore:largeblood')
     
     event.add('forge:dusts/quicklime', 'enchanted:quicklime')
+
+    event.add('gtceu:circuits', 'kubejs:animated/draconicprocessor')
+    event.add('grege:circuits/avaritia', 'kubejs:animated/draconicprocessor')
+    event.add('gtceu:circuits', 'kubejs:euclid/euclid_circuit')
+    event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_circuit')
+    event.add('gtceu:circuits', 'kubejs:euclid/euclid_integrated')
+    event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_integrated')
+    event.add('gtceu:circuits', 'kubejs:euclid/euclid_computer')
+    event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_computer')
+    event.add('gtceu:circuits', 'kubejs:euclid/euclid_mainframe')
+    event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_mainframe')
     
 
     //cataclysm imitation ingots tagging

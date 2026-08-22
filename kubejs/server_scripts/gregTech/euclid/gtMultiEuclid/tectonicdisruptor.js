@@ -40,4 +40,24 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(100)
 
+    event.recipes.gtceu.tectonicdisruptor()
+        .itemOutputs(
+            '4x gtceu:raw_delta_latgrium'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(400)
+        .circuit(5)
+        .dimension("gregecore:fracture_dimension")
+
+    event.recipes.gtceu.tectonicdisruptor()
+        .itemInputs(
+            'kubejs:mirrorofkalandra'
+        )
+        .itemOutputs(
+            '32x gtceu:raw_delta_latgrium'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(100)
+        .circuit(6)
+
 })

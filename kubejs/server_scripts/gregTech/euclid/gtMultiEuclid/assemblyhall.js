@@ -62,6 +62,8 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.assemblyhall()
         .itemInputs(
             '8x gtceu:reinforced_delirium_block',
+            '4x kubejs:euclid/euclid_circuit',
+            'gtceu:fusion_glass'
         )
         .itemOutputs(
             'gregecore:genesiscruciblecaseone'

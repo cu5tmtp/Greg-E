@@ -118,6 +118,57 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:animated/draconicprocessor'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Draconic soul lingers in the circuit.'));
+            text.add(2, Text.green('AVARITIA-Tier Circuit'));
+        }
+        
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:euclid/euclid_circuit'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('One half of the puzzle.'));
+            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:euclid/euclid_integrated'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('One half of the puzzle.'));
+            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:euclid/euclid_computer'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Where theoretical science meets reality.'));
+            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'kubejs:euclid/euclid_mainframe'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('At the end of the Golden Ratio.'))
+            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:deleriancoin'
         ],
         (item, advanced, text) => {
