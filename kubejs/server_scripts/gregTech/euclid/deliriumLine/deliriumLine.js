@@ -136,10 +136,10 @@ ServerEvents.recipes((event) => {
             '2x gtceu:hot_reinforced_delirium_bad_ingot'
         )
         .inputFluids(
-            'gtceu:nebulon_alpha 500'
+            'gtceu:nebulon_alpha 50'
         )
         .itemOutputs(
-            'gtceu:hot_reinforced_delirium_bad_ingot'
+            'gtceu:hot_reinforced_delirium_ingot'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)

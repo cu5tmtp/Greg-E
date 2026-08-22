@@ -115,6 +115,7 @@ StartupEvents.registry('item', event => {
     event.create('charmofguilliman').displayName('Charm of Guilliman')
     event.create('magnifying').displayName('Examining Glass')
     event.create('mirrorofkalandra').displayName('Mirror of Kalandra')
+    event.create('unstabledrillhead').displayName('Unstable Shard Drill Head')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')
