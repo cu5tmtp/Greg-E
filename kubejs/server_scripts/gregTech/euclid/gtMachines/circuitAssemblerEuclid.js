@@ -12,4 +12,16 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
 
+    event.recipes.gtceu.circuit_assembler('euclid_integrated')
+        .itemInputs(
+            'kubejs:redsedimentcircuitboard',
+            '8x gtceu:redrockium_single_wire',
+            'kubejs:animated/draconicprocessor'
+        )
+        .itemOutputs(
+            'kubejs:euclid/euclid_integrated'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+
 })
