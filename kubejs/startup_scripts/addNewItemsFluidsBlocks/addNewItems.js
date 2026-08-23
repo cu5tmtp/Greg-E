@@ -124,6 +124,8 @@ StartupEvents.registry('item', event => {
     event.create('latgriumboard').displayName('Printed Latgrium Circuit Board')
     event.create('latgriumraw').displayName('Latgrium Circuit Board')
     event.create('latgriummold').displayName('Latgrium Circuit Board Mold')
+    event.create('redsedimentboard').displayName('Redsediment Circuit Board')
+    event.create('redsedimentcircuitboard').displayName('Printed Redsediment Circuit Board')
 
     event.create('ultimatecapacitor').displayName('Ultimate SMD Capacitor')
     event.create('ultimatediode').displayName('Ultimate SMD Diode')

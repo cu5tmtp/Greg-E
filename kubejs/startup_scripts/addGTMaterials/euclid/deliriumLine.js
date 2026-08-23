@@ -57,7 +57,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .formula('Dm2')
         .cableProperties(GTValues.VA[GTValues.MV], 64, 1, false)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
     event.create('reinforced_delirium_bad')
         .ingot()

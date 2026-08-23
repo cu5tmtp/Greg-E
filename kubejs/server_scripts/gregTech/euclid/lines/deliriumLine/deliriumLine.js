@@ -130,6 +130,7 @@ ServerEvents.recipes((event) => {
         .chancedItemOutputLogic(ChanceLogic.XOR)
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(500)
+        .blastFurnaceTemp(10000)
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
@@ -143,6 +144,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
+        .blastFurnaceTemp(10000)
 
     event.recipes.gtceu.vacuum_freezer()
         .itemInputs(
@@ -164,6 +166,13 @@ ServerEvents.recipes((event) => {
         {
             A: 'gtceu:reinforced_delirium_ingot'
         }
+    )
+
+    event.shapeless(
+        Item.of('gtceu:reinforced_delirium_ingot', 9),
+        [
+            'gtceu:reinforced_delirium_block'
+        ]
     )
 
     event.recipes.gtceu.compressor()
@@ -215,10 +224,11 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'gtceu:reinforced_delirium_ingot'
         )
-        .outputFluids(
+        .itemOutputs(
             '2x gtceu:reinforced_delirium_single_wire'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(400)
+        .circuit(1)
 
 })

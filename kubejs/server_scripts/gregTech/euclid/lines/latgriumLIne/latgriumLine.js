@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(400)
 
-    event.recipes.gtceu.gccrafting()
+    event.recipes.gtceu.auxillaryfiltrator()
         .itemInputs(
             'gtceu:particle_nu_dust'
         )
@@ -43,8 +43,7 @@ ServerEvents.recipes((event) => {
             'gtceu:element_356_dust'
         )
         .EUt(GTValues.VA[GTValues.UIV])
-        .duration(400)
-        .addData("insertedc", "genesiscruciblecaseone")
+        .duration(200)
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
@@ -55,6 +54,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(3000)
+        .blastFurnaceTemp(10000)
 
     event.recipes.gtceu.vacuum_freezer()
         .itemInputs(

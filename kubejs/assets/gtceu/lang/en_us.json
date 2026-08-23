@@ -153,9 +153,13 @@
 
   "material.gtceu.delta_latgrium": "Delta Latgrium",
   "material.gtceu.latgrium_oxide": "Latgrium Oxide",
-  "material.gtceu.particle_nu": "Particlie Nu",
+  "material.gtceu.particle_nu": "Particle Nu",
   "material.gtceu.element_356": "Element-356",
   "material.gtceu.latgrium": "Latgrium",
+
+  "material.gtceu.high_temp_redstone": "High Temperature Redstone",
+  "material.gtceu.redrockium": "Redbedrock",
+  "material.gtceu.redsediment": "Redsediment",
 
   "material.gtceu.delirium": "Delirium",
   "material.gtceu.delirium_slurry": "Delirium Slurry",

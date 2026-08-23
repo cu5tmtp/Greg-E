@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.circuit_assembler()
+    event.recipes.gtceu.circuit_assembler('euclid_circuit')
         .itemInputs(
             'kubejs:latgriumboard',
             '8x gtceu:reinforced_delirium_single_wire',
