@@ -72,4 +72,17 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .addData("cube_block", "kubejs:machine_casing_tiled_dark_gray")
 
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            '8x gtceu:reinforced_kamenium_block',
+            '4x kubejs:euclid/euclid_integrated',
+            'gtceu:fusion_glass'
+        )
+        .itemOutputs(
+            'gregecore:genesiscruciblecasetwo'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "kubejs:machine_casing_tiled_dark_gray")
+
 })

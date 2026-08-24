@@ -14,6 +14,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .formula('Km+')
         .cableProperties(GTValues.VA[GTValues.UIV], 64, 0, false)
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROTOR)
 
 });

@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(350)
         .addData("insertedc", "genesiscruciblecaseone")
+        .circuit(1)
 
     event.recipes.gtceu.gccrafting()
         .itemInputs(
@@ -22,5 +23,37 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(350)
         .addData("insertedc", "genesiscruciblecaseone")
+        .circuit(1)
+
+    event.recipes.gtceu.gccrafting('cvhdwjscvcgxfdysdjvj')
+        .itemInputs(
+            '4x gtceu:solid_machine_casing',
+            '8x gtceu:laminated_glass',
+            '16x kubejs:euclid/euclid_circuit',
+            '16x kubejs:euclid/euclid_integrated'
+        )
+        .itemOutputs(
+            'gregecore:pfarray'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(350)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo")
+        .circuit(2)
+
+    event.recipes.gtceu.gccrafting('cvhdwjscvsdjvj')
+        .itemInputs(
+            Item.of('kubejs:euclid/euclid_circuit'),
+            Item.of('kubejs:euclid/euclid_integrated'),
+            '2x gtceu:uiv_electric_motor',
+            '4x kubejs:ultimatediode',
+            '4x kubejs:ultimateresistor'
+        )
+        .itemOutputs(
+            Item.of('kubejs:euclid/euclid_computer')
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(400)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo")
+        .circuit(2)
 
 })

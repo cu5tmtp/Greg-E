@@ -96,4 +96,15 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('kubejs:latgriummold')
 
+    event.recipes.gtceu.extruder()
+        .itemInputs(
+            '3x gtceu:redsediment_ingot'
+        )
+        .itemOutputs(
+            'gtceu:redsediment_normal_fluid_pipe'
+        )
+        .notConsumable('gtceu:normal_pipe_extruder_mold')
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(300)
+
 })

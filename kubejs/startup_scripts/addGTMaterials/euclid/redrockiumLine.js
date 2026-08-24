@@ -23,6 +23,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .blastTemp(3700)
         .color(0xe8172c)
         .formula('Si(FeS3)4(Cr2Al2O4)Hg5')
+        .fluidPipeProperties(125000, 60000, true, true, true, true)
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 

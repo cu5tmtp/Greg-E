@@ -116,6 +116,7 @@ StartupEvents.registry('item', event => {
     event.create('magnifying').displayName('Examining Glass')
     event.create('mirrorofkalandra').displayName('Mirror of Kalandra')
     event.create('unstabledrillhead').displayName('Unstable Shard Drill Head')
+    event.create('long_rod_extruder').displayName('Extruder Mold (Long Rod)')
 
     event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
     event.create('euclid/euclid_integrated').displayName('Euclid Integrated Circuit')

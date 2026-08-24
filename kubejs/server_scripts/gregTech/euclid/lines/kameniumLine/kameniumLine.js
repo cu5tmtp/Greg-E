@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.advanced_fusion("kameniumgetyes")
         .itemInputs(
             '16x gtceu:amethyst_dust',
-            '16x gtceu:amethyst_dust'
+            '16x gtceu:ruby_dust'
         )
         .itemOutputs(
             '4x gtceu:kamenium_dust'
@@ -129,5 +129,16 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(500)
+
+    event.recipes.gtceu.extruder()
+        .itemInputs(
+            '4x gtceu:reinforced_kamenium_ingot'
+        )
+        .itemOutputs(
+            'gtceu:reinforced_kamenium_rotor'
+        )
+        .notConsumable('gtceu:rotor_extruder_mold')
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(400)
 
 })
