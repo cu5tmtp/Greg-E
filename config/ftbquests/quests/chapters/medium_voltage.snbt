@@ -537,10 +537,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"63621F0189B6EB1B"
-				"7963008B930D84BB"
-			]
+			dependencies: ["63621F0189B6EB1B"]
 			description: [""]
 			hide_dependent_lines: true
 			id: "707EBA5717938515"
@@ -574,23 +571,6 @@
 			}]
 			x: -4.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["262AE37765B139BE"]
-			description: [""]
-			id: "7963008B930D84BB"
-			rewards: [{
-				id: "20F15FC5D328CFCA"
-				item: "kubejs:cc"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0AEB920BEAD1C447"
-				item: "gtceu:mv_electrolyzer"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.0d
 		}
 		{
 			dependencies: ["63621F0189B6EB1B"]

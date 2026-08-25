@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             'kubejs:latgriumboard',
             '8x gtceu:reinforced_delirium_single_wire',
             'kubejs:animated/draconicprocessor',
-            '4x kubejs:ultimatecapacitor'
+            '2x kubejs:ultimatecapacitor'
         )
         .itemOutputs(
             'kubejs:euclid/euclid_circuit'
@@ -18,8 +18,8 @@ ServerEvents.recipes((event) => {
             'kubejs:redsedimentcircuitboard',
             '8x gtceu:redrockium_single_wire',
             'kubejs:animated/draconicprocessor',
-            '2x kubejs:ultimateinductor',
-            '2x kubejs:ultimatetransistor'
+            'kubejs:ultimateinductor',
+            'kubejs:ultimatetransistor'
         )
         .itemOutputs(
             'kubejs:euclid/euclid_integrated'

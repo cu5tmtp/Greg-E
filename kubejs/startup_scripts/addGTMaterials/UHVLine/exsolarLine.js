@@ -64,7 +64,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .dust()
         .blastTemp(3700)
-        .formula("Pr")
+        .formula("Sl")
         .color(0xbdc4c3)
         .iconSet(GTMaterialIconSet.FINE)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FOIL)

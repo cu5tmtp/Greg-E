@@ -42,10 +42,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.gccrafting('cvhdwjscvsdjvj')
         .itemInputs(
-            Item.of('kubejs:euclid/euclid_circuit'),
-            Item.of('kubejs:euclid/euclid_integrated'),
-            '2x gtceu:uiv_electric_motor',
-            '4x kubejs:ultimatediode',
+            '2x kubejs:euclid/euclid_circuit',
+            '2x kubejs:euclid/euclid_integrated',
+            'gtceu:uiv_electric_motor',
+            '2x kubejs:ultimatediode',
             '4x kubejs:ultimateresistor'
         )
         .itemOutputs(

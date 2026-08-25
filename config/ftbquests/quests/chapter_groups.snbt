@@ -1,6 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "6915D00C186DB378", title: "GregTech" }
+		{ id: "6915D00C186DB378", title: "Act I" }
+		{ id: "1050CB41182C9BAA", title: "Act I Epilogue" }
+		{ id: "676EB8AAF4E726B1", title: "Act II" }
 		{ id: "2254075BD6985AA4", title: "AE2" }
 		{ id: "1DD75D8B702CB0A0", title: "Sidequests" }
 	]
