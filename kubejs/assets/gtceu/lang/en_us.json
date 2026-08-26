@@ -158,6 +158,21 @@
   "material.gtceu.latgrium": "Latgrium",
 
   "material.gtceu.arboretum": "Arboretum",
+  "material.gtceu.stabilizedarboretum": "Stabilized Mirrored Arboretum",
+  "material.gtceu.spacetime": "Space-Time Synchronization",
+  "material.gtceu.atomicmesh": "Atomic Mesh",
+  "material.gtceu.bindingdust": "Atom Binding",
+  "material.gtceu.antidestabilizant": "Anti-Destabilizant",
+
+  "material.gtceu.carcosa": "Carcosa",
+
+  "material.gtceu.fracturedoil": "Fractured Oil",
+  "material.gtceu.fracturedheavyoil": "Fractured Heavy Oil",
+  "material.gtceu.fracturedlightoil": "Fractured Light Oil",
+  "material.gtceu.fracturednaphta": "Fractured Naphta",
+  "material.gtceu.purifiedfracturedheavyoil": "Purified Fractured Heavy Oil",
+  "material.gtceu.fracturedlubricantbase": "Fractured Lubricant Base",
+  "material.gtceu.fracturedlubricant": "Fractured Lubricant",
 
   "gtceu.atomicreversator": "Atomic Reversator",
   "block.gtceu.atomicreversator": "Atomic Reversator",

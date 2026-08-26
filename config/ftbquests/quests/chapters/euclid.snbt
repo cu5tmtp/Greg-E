@@ -1,5 +1,5 @@
 {
-	autofocus_id: "228C7AA8FC81B93D"
+	autofocus_id: "187A61D5599538E4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "euclid"
@@ -10,8 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["04EF27D0C8F33788"]
-			hide_until_deps_complete: true
+			dependencies: ["664C96D3BA05C77C"]
 			id: "228C7AA8FC81B93D"
 			tasks: [{
 				id: "3EFE94155224B984"
@@ -22,15 +21,320 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["228C7AA8FC81B93D"]
-			id: "653865BDC68FC216"
+			dependencies: ["04EF27D0C8F33788"]
+			hide_until_deps_complete: true
+			id: "664C96D3BA05C77C"
 			tasks: [{
-				id: "205B3BF2B0D6D5AC"
-				item: "gregecore:genesiscruciblecaseone"
+				id: "243D47BD2CEB9AB8"
+				item: "gregecore:assemblyhall"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["228C7AA8FC81B93D"]
+			id: "17F1212792479278"
+			tasks: [{
+				id: "5A8E3B3118F0F742"
+				item: "gtceu:raw_delta_latgrium"
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["228C7AA8FC81B93D"]
+			id: "78375195111DC934"
+			tasks: [{
+				id: "78D5537CD5B2CA04"
+				item: "gtceu:raw_delirium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17F1212792479278"]
+			id: "43F9E39CEF53E924"
+			tasks: [{
+				id: "6B8AC50941F361A1"
+				item: "gtceu:element_356_single_wire"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17F1212792479278"]
+			id: "37E3AB1A9809BDE8"
+			tasks: [{
+				id: "1A5FBD35281264B7"
+				item: "kubejs:latgriumraw"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"37E3AB1A9809BDE8"
+				"43F9E39CEF53E924"
+			]
+			id: "0EFF146C4256BA1C"
+			tasks: [{
+				id: "4C6B4D75F74AA351"
+				item: "kubejs:latgriumboard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"78375195111DC934"
+				"677BC5FF1BFECE24"
+			]
+			id: "6F8C2862F2FAB35E"
+			tasks: [{
+				id: "14E3D85402F910F8"
+				item: "gtceu:reinforced_delirium_single_wire"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["228C7AA8FC81B93D"]
+			id: "677BC5FF1BFECE24"
+			tasks: [{
+				id: "488B9A5077E63957"
+				item: "gtceu:raw_atarax"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0EFF146C4256BA1C"
+				"6F8C2862F2FAB35E"
+			]
+			id: "637A80389050E7EC"
+			tasks: [{
+				id: "6ECD7B796DADA7A9"
+				item: "kubejs:euclid/euclid_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["228C7AA8FC81B93D"]
+			id: "22D500D461F6AE00"
+			tasks: [{
+				id: "013FDECE688CD8E3"
+				item: "gtceu:kamenium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["228C7AA8FC81B93D"]
+			id: "3C34C0C77024C45E"
+			tasks: [{
+				id: "69E874A928705B60"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67B34BCABFE84E52"]
+			id: "02BE387505534533"
+			tasks: [{
+				id: "6B1A8B01AD02C8D0"
+				item: "kubejs:redsedimentboard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22D500D461F6AE00"]
+			id: "44B8BCA2B71571E5"
+			tasks: [{
+				id: "52449B3DF5740420"
+				item: "gtceu:reinforced_kamenium_single_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"44B8BCA2B71571E5"
+				"02BE387505534533"
+			]
+			id: "5F01705DDB791A6F"
+			tasks: [{
+				id: "4D4C8B58A711EB28"
+				item: "kubejs:euclid/euclid_integrated"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C34C0C77024C45E"]
+			id: "67B34BCABFE84E52"
+			tasks: [{
+				id: "5B53A49A0EB46458"
+				item: "gtceu:redsediment_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["187A61D5599538E4"]
+			id: "3EC4D5192EB17D86"
+			tasks: [{
+				id: "21FDF81D33F9769F"
+				item: "kubejs:euclid/euclid_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EC4D5192EB17D86"]
+			id: "05EE4CE09CAD7F41"
+			tasks: [{
+				id: "2D3BD18E568F2920"
+				item: "gtceu:raw_grympl3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5F01705DDB791A6F"]
+			id: "0E741909500EBD65"
+			tasks: [{
+				id: "0BC2CB0AF4749FEA"
+				item: "gregecore:genesiscruciblecasetwo"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["637A80389050E7EC"]
+			id: "751E2CDF9C84A6D7"
+			tasks: [{
+				id: "58D81B1398559DBF"
+				item: "gregecore:genesiscruciblecaseone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["751E2CDF9C84A6D7"]
+			id: "67E6C3C33DB547F3"
+			tasks: [{
+				id: "721D7F9DF9028BE9"
+				item: "kubejs:mirrorofkalandra"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5F01705DDB791A6F"
+				"637A80389050E7EC"
+			]
+			id: "187A61D5599538E4"
+			tasks: [{
+				id: "3C7FA0C6359C336C"
+				item: "gregecore:pfarray"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3EC4D5192EB17D86"]
+			id: "6391060B5D92A663"
+			tasks: [{
+				id: "0A7A0CBDAFCBDFA3"
+				item: "gtceu:arboretum_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05EE4CE09CAD7F41"]
+			id: "6315C301D6C1ABB1"
+			tasks: [{
+				id: "7D61DEDC50797F40"
+				item: "gregecore:genesiscruciblecasethree"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"5BD794A62AF7A012"
+				"67D725973ACB8855"
+			]
+			id: "5FFCE0DFC693FEF8"
+			tasks: [{
+				id: "1D9A0FB172F312B5"
+				item: "gtceu:uiv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6391060B5D92A663"]
+			id: "67D725973ACB8855"
+			tasks: [{
+				id: "45575858D489EBFA"
+				item: "gtceu:stabilizedarboretum_single_wire"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["05EE4CE09CAD7F41"]
+			id: "5BD794A62AF7A012"
+			tasks: [{
+				id: "7924E6B9CFBF9AF7"
+				item: "gtceu:supergrympl_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5FFCE0DFC693FEF8"]
+			id: "05617DF4914F7544"
+			tasks: [{
+				id: "4041CDDCFE5AC6F2"
+				item: "kubejs:euclid/euclid_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
 		}
 	]
 	title: "Euclid"

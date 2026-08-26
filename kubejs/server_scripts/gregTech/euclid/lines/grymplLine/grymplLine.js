@@ -271,4 +271,15 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
 
+    event.recipes.gtceu.extruder()
+        .itemInputs(
+            '4x gtceu:supergrympl_ingot'
+        )
+        .itemOutputs(
+            'gtceu:supergrympl_gear'
+        )
+        .notConsumable('gtceu:gear_extruder_mold')
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+
 })

@@ -118,6 +118,13 @@ StartupEvents.registry('item', event => {
     event.create('unstabledrillhead').displayName('Unstable Shard Drill Head')
     event.create('long_rod_extruder').displayName('Extruder Mold (Long Rod)')
     event.create('fading').displayName('Fading Mirrored Arboretum Dust')
+    event.create('euclidcoil').displayName('Euclid Voltage Coil')
+    event.create('carcosaboule').displayName('Carcosa-doped Boule')
+    event.create('carcosawafer').displayName('Carcosa-doped Wafer')
+    event.create('carcosaram').displayName('Cognitive RAM Wafer')
+    event.create('carcosacpu').displayName('Cognitive CPU Wafer')
+    event.create('carcosacpuchip').displayName('Cognitive CPU Chip')
+    event.create('carcosaramchip').displayName('Cognitive RAM Chip')
 
     event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
     event.create('euclid/euclid_integrated').displayName('Euclid Integrated Circuit')

@@ -60,4 +60,16 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .circuit(6)
 
+    event.recipes.gtceu.tectonicdisruptor()
+        .itemInputs(
+            'kubejs:mirrorofkalandra'
+        )
+        .outputFluids(
+            'gtceu:fracturedoil 10000'
+        )
+        .EUt(GTValues.VA[GTValues.UEV])
+        .duration(1200)
+        .circuit(8)
+
+
 })

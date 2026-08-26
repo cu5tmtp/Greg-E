@@ -12,4 +12,37 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
 
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            'kubejs:fading'
+        )
+        .itemOutputs(
+            '2x gtceu:atomicmesh_dust'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(1)
+
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            'kubejs:fading'
+        )
+        .itemOutputs(
+            '2x gtceu:bindingdust_dust'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(2)
+
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            'kubejs:fading'
+        )
+        .itemOutputs(
+            '3x gtceu:carcosa_dust'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(3)
+
 })

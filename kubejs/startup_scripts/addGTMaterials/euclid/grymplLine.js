@@ -71,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xe9df16)
         .formula('GRYMPL!')
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
 
     event.create('grymploxideepoxilidas')
         .ingot()

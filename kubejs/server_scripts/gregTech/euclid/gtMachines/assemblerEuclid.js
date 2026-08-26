@@ -16,7 +16,8 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'gtceu:uiv_machine_casing',
             '2x gtceu:mirrored_grympl1_plate',
-            'gtceu:reinforced_kamenium_plate'
+            'gtceu:reinforced_kamenium_plate',
+            '2x gtceu:stabilizedarboretum_single_wire'
         )
         .inputFluids(
             'gtceu:grymploxideepoxilidas 288'
@@ -26,5 +27,17 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:grymploxideepoxilidas_rod',
+            '16x gtceu:fine_stabilizedarboretum_wire'
+        )
+        .itemOutputs(
+            'kubejs:euclidcoil'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(1)
 
 })

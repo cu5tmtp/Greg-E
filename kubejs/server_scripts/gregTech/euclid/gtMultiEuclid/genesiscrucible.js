@@ -56,4 +56,38 @@ ServerEvents.recipes((event) => {
         .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo")
         .circuit(2)
 
+    event.recipes.gtceu.gccrafting()
+        .itemInputs(
+            'gtceu:uiv_machine_hull',
+            'kubejs:euclidcoil',
+            '8x kubejs:carcosacpuchip',
+            '2x kubejs:euclid/euclid_computer',
+            '4x gtceu:stabilizedarboretum_single_wire'
+        )
+        .inputFluids(
+            'gtceu:fracturedlubricant 1000'
+        )
+        .itemOutputs(
+            'gtceu:uiv_energy_input_hatch'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(200)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree")
+        .circuit(3)
+
+    event.recipes.gtceu.gccrafting()
+        .itemInputs(
+            '2x kubejs:carcosacpuchip',
+            '2x kubejs:carcosaramchip',
+            '2x kubejs:euclid/euclid_computer',
+            '4x gtceu:stabilizedarboretum_single_wire'
+        )
+        .itemOutputs(
+            'kubejs:euclid/euclid_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(400)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree")
+        .circuit(3)
+
 })
