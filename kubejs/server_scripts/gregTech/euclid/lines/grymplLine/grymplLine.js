@@ -29,10 +29,11 @@ ServerEvents.recipes((event) => {
             'kubejs:mirrorofkalandra'
         )
         .itemOutputs(
-            'gtceu:raw_grympl3'
+            '8x gtceu:raw_grympl3'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(250)
+        .circuit(7)
 
     event.recipes.gtceu.specialoreprocessingplant()
         .itemInputs(
@@ -180,6 +181,17 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:supergrympl_block'
         )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+
+    event.recipes.gtceu.bender()
+        .itemInputs(
+            'gtceu:supergrympl_ingot'
+        )
+        .itemOutputs(
+            'gtceu:supergrympl_plate'
+        )
+        .circuit(1)
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
 

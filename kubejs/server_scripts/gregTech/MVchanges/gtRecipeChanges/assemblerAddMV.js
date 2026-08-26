@@ -26,6 +26,20 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(1)
 
+    event.recipes.gtceu.assembler('heatecvfevcdeft')
+        .itemInputs(
+            'minecraft:iron_ingot',
+            'minecraft:gold_ingot',
+            'minecraft:clay_ball',
+            '4x minecraft:glass_pane'
+        )
+        .itemOutputs(
+            '16x hostilenetworks:prediction_matrix'
+        )
+        .duration(50)
+        .EUt(120)
+        .circuit(24)
+
     event.recipes.gtceu.assembler('researchlens')
         .itemInputs(
             'gtceu:glass_lens',

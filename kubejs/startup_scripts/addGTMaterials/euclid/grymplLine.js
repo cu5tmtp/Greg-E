@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ore()
         .color(0x72a857)
         .formula('Gr3')
-        .iconSet(GTMaterialIconSet.METALLIC)
+        .iconSet(GTMaterialIconSet.DULL)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
 
     event.create('lambda_particles')
@@ -61,7 +61,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .liquid()
         .color(0x94936b)
-        .formula('Gr₋1')
+        .formula('1rG')
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
 
@@ -71,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xe9df16)
         .formula('GRYMPL!')
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_PLATE)
 
     event.create('grymploxideepoxilidas')
         .ingot()

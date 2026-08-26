@@ -157,12 +157,15 @@
   "material.gtceu.element_356": "Element-356",
   "material.gtceu.latgrium": "Latgrium",
 
+  "material.gtceu.arboretum": "Arboretum",
+
   "gtceu.atomicreversator": "Atomic Reversator",
   "block.gtceu.atomicreversator": "Atomic Reversator",
   "material.gtceu.grympl3": "Grympl-3",
   "material.gtceu.lambda_particles": "Lambda Particles",
   "material.gtceu.lambda_hydronyxium_solution": "Lambda-Hydronyxium Solution",
   "material.gtceu.impuregrympl2": "Impure Grympl-2",
+  "material.gtceu.grympl2": "Grympl-2",
   "material.gtceu.stellarium_grympl2": "Stellaric Grympl-2",
   "material.gtceu.sgrympl_slurry": "Stellaric SuperGrympl Slurry",
   "material.gtceu.grympl1": "Grympl-1",

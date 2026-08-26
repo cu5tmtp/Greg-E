@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ore()
         .color(0x626361)
         .formula('Dm')
-        .iconSet(GTMaterialIconSet.METALLIC)
+        .iconSet(GTMaterialIconSet.DULL)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.NO_ORE_PROCESSING_TAB)
 
     event.create('delirium_slurry')

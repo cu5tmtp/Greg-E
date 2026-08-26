@@ -85,4 +85,17 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .addData("cube_block", "kubejs:machine_casing_tiled_dark_gray")
 
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            '8x gtceu:inert_machine_casing',
+            '3x kubejs:euclid/euclid_computer',
+            '4x gtceu:uiv_electric_motor'
+        )
+        .itemOutputs(
+            'gtceu:atomicreversator'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "kubejs:machine_casing_tiled_orange")
+
 })

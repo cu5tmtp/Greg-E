@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_2"
+	group: "676EB8AAF4E726B1"
+	icon: "kubejs:fading"
+	id: "005348A36BC6132C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FD1D7B54342A2B8"
+			tasks: [{
+				id: "009A5FFDA71CDE52"
+				item: "kubejs:fading"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "6D224D67E59C27A4"
+			tasks: [{
+				id: "394A10C645DE6B2A"
+				item: "gtceu:tectonicdisruptor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "59BDCF48DB62BBED"
+			tasks: [{
+				id: "15036647FF9AA8CF"
+				item: "gtceu:raw_grympl3"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "259B9E7B17EF98B1"
+			tasks: [{
+				id: "27FC9AE2A5AAB183"
+				item: "gtceu:raw_atarax"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "3572A4A186EF39B2"
+			tasks: [{
+				id: "7AAC045D140A5F05"
+				item: "gtceu:raw_delta_latgrium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "75F01FF23409FC8E"
+			tasks: [{
+				id: "3F7C7CEE3B5E0F2B"
+				item: "gtceu:raw_delirium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+	]
+	title: "Progression"
+}

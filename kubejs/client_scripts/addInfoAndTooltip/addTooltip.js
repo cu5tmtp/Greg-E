@@ -149,6 +149,15 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:fading'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.yellow('₂brA'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:euclid/euclid_computer'
         ],
         (item, advanced, text) => {
