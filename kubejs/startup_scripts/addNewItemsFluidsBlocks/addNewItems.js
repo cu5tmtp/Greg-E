@@ -126,6 +126,13 @@ StartupEvents.registry('item', event => {
     event.create('carcosacpuchip').displayName('Cognitive CPU Chip')
     event.create('carcosaramchip').displayName('Cognitive RAM Chip')
 
+    event.create('quarterone').displayName('Past')
+    event.create('quartertwo').displayName('Present')
+    event.create('quarterthree').displayName('Future')
+    event.create('quarterfour').displayName('???')
+
+    event.create('euclid/quarrystar').displayName('Quarry-Star')
+    event.create('euclid/nullingot').displayName('.//null')
     event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
     event.create('euclid/euclid_integrated').displayName('Euclid Integrated Circuit')
     event.create('euclid/euclid_computer').displayName('Euclid Processor Computer')

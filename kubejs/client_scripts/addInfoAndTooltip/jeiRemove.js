@@ -150,7 +150,6 @@ let emiBannedItems = [
     "item:projecte:mobius_fuel_block",
     "item:projecte:alchemical_coal_block",
     "item:projecte:aeternalis_fuel_block",
-    "item:projecte:philosophers_stone",
     "item:projecte:alchemical_coal",
     "item:projecte:mobius_fuel",
     "item:projecte:aeternalis_fuel",

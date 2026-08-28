@@ -45,4 +45,15 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .circuit(3)
 
+    event.recipes.gtceu.mixer()
+        .itemInputs(
+            'kubejs:fading'
+        )
+        .itemOutputs(
+            '4x gtceu:raw_xynred'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(4)
+
 })

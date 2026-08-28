@@ -166,6 +166,13 @@
 
   "material.gtceu.carcosa": "Carcosa",
 
+  "material.gtceu.xynred": "Xynred",
+  "material.gtceu.xynred_lava": "Molten Xynred",
+  "material.gtceu.xynred_mob": "Bloody Xynred",
+  "material.gtceu.xynred_water": "Cool Xynred",
+  "material.gtceu.xynredder": "Xynredder",
+  "material.gtceu.xynredar": "Xynredar",
+
   "material.gtceu.fracturedoil": "Fractured Oil",
   "material.gtceu.fracturedheavyoil": "Fractured Heavy Oil",
   "material.gtceu.fracturedlightoil": "Fractured Light Oil",

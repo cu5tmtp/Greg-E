@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
 
 
-    event.recipes.gtceu.circuit_assembler('guidancecompthree')
+    event.recipes.gtceu.assembler('guidancecompthree')
         .itemInputs(
             '2x #gtceu:circuits/ev',
             '16x gtceu:smd_capacitor',
