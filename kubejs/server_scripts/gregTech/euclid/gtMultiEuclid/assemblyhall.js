@@ -126,19 +126,4 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .addData("cube_block", "kubejs:machine_casing_tiled_dark_gray")
 
-    event.recipes.gtceu.assemblyhall()
-        .itemInputs(
-            '8x gtceu:nonconducting_casing',
-            '4x kubejs:euclid/euclid_mainframe',
-            '4x gtceu:uiv_robot_arm',
-            '2x gtceu:uiv_electric_piston'
-        )
-        .itemOutputs(
-            'gregecore:quantumsynergizer'
-        )
-        .EUt(GTValues.VA[GTValues.UIV])
-        .duration(300)
-        .addData("cube_block", "gtceu:nonconducting_casing")
-
-
 })

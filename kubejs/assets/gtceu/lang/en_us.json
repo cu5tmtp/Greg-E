@@ -166,6 +166,10 @@
 
   "material.gtceu.carcosa": "Carcosa",
 
+  "material.gtceu.fracturedsludge": "Fractured Sludge",
+  "material.gtceu.fracturedsludgedust": "Fractured Dust",
+  "material.gtceu.fracturedfossilmaterial": "Fractured Fossil Remains",
+
   "material.gtceu.xynred": "Xynred",
   "material.gtceu.xynred_lava": "Molten Xynred",
   "material.gtceu.xynred_mob": "Bloody Xynred",

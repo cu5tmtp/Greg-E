@@ -131,7 +131,11 @@ StartupEvents.registry('item', event => {
     event.create('quarterthree').displayName('Future')
     event.create('quarterfour').displayName('???')
 
-    event.create('euclid/quarrystar').displayName('Quarry-Star')
+    event.create('euclid/elementium').displayName('Omni-Alloy')
+    event.create('euclid/elementiumone').displayName('Omni-Alloy Part One')
+    event.create('euclid/elementiumtwo').displayName('Omni-Alloy Part Two')
+    event.create('euclid/elementiumthree').displayName('Omni-Alloy Part Three')
+    event.create('euclid/quarrystar').displayName('Fractured-Star')
     event.create('euclid/nullingot').displayName('.//null')
     event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
     event.create('euclid/euclid_integrated').displayName('Euclid Integrated Circuit')

@@ -299,6 +299,22 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'gregecore:avaritia_wand_of_puppetry'
+        ],
+        (item, advanced, text) => {
+            if(!event.shift){
+                text.add(2, Text.white('Hold SHIFT for more info.'));
+            } else {
+                text.add(1, Text.yellow('Blocks avaible to awaken:'));
+                text.add(2, Text.lightPurple('Infinity Block'));
+                text.add(3, Text.lightPurple('Block of Neutronium'));
+                text.add(4, Text.lightPurple('Block of Nebulon-Alpha'));
+            }
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gregecore:manasteel_coil'
         ],
         (item, advanced, text) => {

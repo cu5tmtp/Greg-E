@@ -90,4 +90,40 @@ ServerEvents.recipes((event) => {
         .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree")
         .circuit(3)
 
+    event.recipes.gtceu.gccrafting()
+        .itemInputs(
+            '8x gtceu:nonconducting_casing',
+            '4x kubejs:euclid/euclid_mainframe',
+            '4x gtceu:uiv_sensor',
+            '2x gtceu:uiv_emitter',
+            '8x gtceu:fracturedfossilmaterial_single_wire'
+        )
+        .inputFluids(
+            'gtceu:fracturedlubricant 1000'
+        )
+        .itemOutputs(
+            'gregecore:quantumsynergizer'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree,genesiscruciblecasefour")
+        .circuit(4)
+
+    event.recipes.gtceu.gccrafting()
+        .itemInputs(
+            '16x kubejs:euclid/nullingot',
+            '16x kubejs:euclid/elementium',
+            'kubejs:euclid/euclid_mainframe'
+        )
+        .inputFluids(
+            'gtceu:fracturedlubricant 10000'
+        )
+        .itemOutputs(
+            'kubejs:quarterone'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree,genesiscruciblecasefour")
+        .circuit(4)
+
 })

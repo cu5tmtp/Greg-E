@@ -107,4 +107,64 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(200)
 
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:fracturedfossilmaterial_frame',
+            'gtceu:uiv_electric_motor',
+            'kubejs:euclid/quarrystar',
+            'kubejs:euclid/euclid_mainframe',
+            '32x gtceu:xynredder_foil',
+            '8x gtceu:fracturedfossilmaterial_single_wire'
+        )
+        .itemOutputs(
+            'gtceu:uiv_emitter'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(200)
+
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:fracturedfossilmaterial_frame',
+            'gtceu:uiv_electric_motor',
+            'kubejs:euclid/quarrystar',
+            'kubejs:euclid/euclid_mainframe',
+            '32x gtceu:xynredder_foil',
+            '8x gtceu:fracturedfossilmaterial_single_wire'
+        )
+        .itemOutputs(
+            'gtceu:uiv_emitter'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(200)
+
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:fracturedfossilmaterial_frame',
+            'gtceu:uiv_electric_motor',
+            'kubejs:euclid/quarrystar',
+            'kubejs:euclid/euclid_mainframe',
+            '8x gtceu:supergrympl_plate',
+            '8x gtceu:fracturedfossilmaterial_single_wire'
+        )
+        .itemOutputs(
+            'gtceu:uiv_sensor'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(200)
+
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:fracturedfossilmaterial_frame',
+            '8x gtceu:supergrympl_plate',
+            'kubejs:euclid/quarrystar',
+            'gtceu:uiv_emitter',
+            'kubejs:euclid/euclid_mainframe',
+            '32x gtceu:fine_xynredder_wire'
+        )
+        .itemOutputs(
+            'gtceu:uiv_field_generator'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(200)
+
 })

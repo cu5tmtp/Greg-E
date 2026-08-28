@@ -86,6 +86,17 @@
 			x: -2.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["04EF27D0C8F33788"]
+			id: "007AC9400F8B9009"
+			tasks: [{
+				id: "31D9CDE415B8A8D1"
+				item: "gtceu:raw_xynred"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
 	]
 	title: "Progression"
 }

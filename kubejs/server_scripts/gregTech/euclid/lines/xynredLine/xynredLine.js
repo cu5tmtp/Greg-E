@@ -105,6 +105,17 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .circuit(3)
 
+    event.recipes.gtceu.bender()
+        .itemInputs(
+            'gtceu:xynredder_ingot'
+        )
+        .itemOutputs(
+            '4x gtceu:xynredder_foil'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .circuit(10)
+
     event.recipes.gtceu.compressor()
         .itemInputs(
             '9x gtceu:xynredar_ingot'

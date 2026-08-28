@@ -334,7 +334,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 16.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["05617DF4914F7544"]
@@ -344,8 +344,8 @@
 				item: "gtceu:raw_xynred"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 16.5d
+			x: 1.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["25E61AC91CAC3BF5"]
@@ -355,8 +355,51 @@
 				item: "gregecore:genesiscruciblecasefour"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 16.5d
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["05617DF4914F7544"]
+			id: "5C7F97A68FDF2FA1"
+			tasks: [
+				{
+					id: "5AF86830DB89ECEF"
+					item: "gtceu:fracturedsludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C6AE302BEB1236B"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5C7F97A68FDF2FA1"]
+			id: "3FD92EBD833DC9C6"
+			tasks: [{
+				id: "7DF17DFA1B1CEF34"
+				item: "gtceu:fracturedfossilmaterial_single_wire"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"1B058CAE7808BBD6"
+				"3FD92EBD833DC9C6"
+			]
+			id: "4BC14793FBA5B33D"
+			tasks: [{
+				id: "61646248E3C4801A"
+				item: "gregecore:quantumsynergizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
 		}
 	]
 	title: "Euclid"
