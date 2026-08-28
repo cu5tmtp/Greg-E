@@ -1,3 +1,6 @@
+/*
+//cu5tmtp commentary: Yes this is working code, but the result doesn't take on the texture of a formed multiblock, 
+// you have to use Java (look into my Greg-E-Core github - gregstuff/GregMachines/machines/single, there is the code for the working one.)
 const $ParallelHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine")
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
@@ -16,3 +19,4 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         )
 
 })
+*/

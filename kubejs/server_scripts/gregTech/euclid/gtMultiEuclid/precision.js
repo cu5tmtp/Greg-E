@@ -119,21 +119,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'gtceu:uiv_emitter'
         )
-        .EUt(GTValues.VA[GTValues.UIV])
-        .duration(200)
-
-    event.recipes.gtceu.pfarraycraft()
-        .itemInputs(
-            'gtceu:fracturedfossilmaterial_frame',
-            'gtceu:uiv_electric_motor',
-            'kubejs:euclid/quarrystar',
-            'kubejs:euclid/euclid_mainframe',
-            '32x gtceu:xynredder_foil',
-            '8x gtceu:fracturedfossilmaterial_single_wire'
-        )
-        .itemOutputs(
-            'gtceu:uiv_emitter'
-        )
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(200)
 
@@ -165,6 +150,31 @@ ServerEvents.recipes((event) => {
             'gtceu:uiv_field_generator'
         )
         .EUt(GTValues.VA[GTValues.UXV])
+        .duration(200)
+
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:uiv_energy_input_hatch',
+            '2x gtceu:uiv_electric_motor',
+            '4x gtceu:element_356_single_wire',
+            'kubejs:euclid/euclid_computer'
+        )
+        .itemOutputs(
+            'gtceu:uiv_energy_output_hatch'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(200)
+
+    event.recipes.gtceu.pfarraycraft()
+        .itemInputs(
+            'gtceu:uiv_energy_input_hatch',
+            'gtceu:uiv_sensor',
+            'kubejs:euclid/euclid_mainframe'
+        )
+        .itemOutputs(
+            'gregecore:dyswarmoutputeuclid_machine'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
         .duration(200)
 
 })

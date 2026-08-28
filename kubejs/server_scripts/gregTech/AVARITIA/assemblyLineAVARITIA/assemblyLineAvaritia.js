@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
             '8x gtceu:uhv_sensor',
             '4x gtceu:uhv_field_generator'
         )
-        .itemOutputs('gtceu:uhv_uhv_parallel_hatch')
+        .itemOutputs('gregecore:epic_parallel_hatch')
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b.researchStack(Item.of('avaritia:infinity_catalyst')).EUt(GTValues.VA[GTValues.UEV]).CWUt(512))

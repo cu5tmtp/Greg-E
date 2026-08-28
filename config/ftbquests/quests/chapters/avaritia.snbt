@@ -137,35 +137,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["1E327381D3FB9CAA"]
-			description: ["Get the creative chest first."]
-			id: "1D4417AF061FFAC6"
-			rewards: [{
-				id: "7ACB9D359CB38B2A"
-				item: "kubejs:cc"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4FD4662F69989109"
-					item: "gtceu:creative_chest"
-					type: "item"
-				}
-				{
-					id: "2F75BF4D79611584"
-					item: "gtceu:creative_tank"
-					type: "item"
-				}
-				{
-					id: "6E44EAB8AFFD11F4"
-					item: "gtceu:creative_energy"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -10.5d
-		}
-		{
 			dependencies: ["29E007A7BC7E6B4E"]
 			description: ["Automating Extreme table is very easy with this. Place it next to a ME packaging provider, and put the pattern into that."]
 			id: "309B7134B2CDC66D"
@@ -183,7 +154,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1D4417AF061FFAC6"]
+			dependencies: ["3814078428FC7AC9"]
 			description: ["Your last hurdle before you complete the pack. Be prepared - this requires that you do everything."]
 			id: "3B6843F5FDB109B8"
 			rewards: [{
@@ -229,13 +200,9 @@
 		{
 			dependencies: ["3B6843F5FDB109B8"]
 			description: [
-				"Thank you for playing this pack. It means a lot to me, this is my first try on something this big."
+				"Well done!"
 				""
-				"If you have any ideas, suggestions or other opinions, feel free to message me on CurseForge or Discord."
-				""
-				"Once again, thank you for playing my pack!"
-				""
-				"cu5tmtp"
+				"This armor marks the end of the modpack and there definetly isn't another act!"
 			]
 			id: "73EE77DC13D01ED7"
 			rewards: [{
@@ -353,6 +320,36 @@
 			}]
 			x: -5.0d
 			y: -20.5d
+		}
+		{
+			dependencies: ["1E327381D3FB9CAA"]
+			description: ["Right click with the Wand to awaken a allowed block, then capture it and spawn it again and again to get the block drop!"]
+			id: "3814078428FC7AC9"
+			tasks: [
+				{
+					id: "313368C7E13D2072"
+					item: {
+						Count: 1
+						id: "gregecore:avaritia_wand_of_puppetry"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27C690972935BF11"
+					item: "industrialforegoing:mob_duplicator"
+					type: "item"
+				}
+				{
+					id: "1D23C504F3746613"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -10.5d
 		}
 	]
 	title: "AVARITIA"

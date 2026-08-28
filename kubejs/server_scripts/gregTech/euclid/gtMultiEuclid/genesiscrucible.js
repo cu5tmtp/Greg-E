@@ -113,7 +113,9 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '16x kubejs:euclid/nullingot',
             '16x kubejs:euclid/elementium',
-            'kubejs:euclid/euclid_mainframe'
+            '16x kubejs:euclid/euclid_mainframe',
+            '16x #gtceu:circuits/uhv',
+            '16x #grege:circuits/avaritia'
         )
         .inputFluids(
             'gtceu:fracturedlubricant 10000'

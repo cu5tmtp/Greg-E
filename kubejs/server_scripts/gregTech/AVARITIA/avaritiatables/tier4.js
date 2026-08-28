@@ -295,13 +295,13 @@ ServerEvents.recipes((event) =>{
             item: 'avaritia:diamond_lattice'
         },
         C: {
-            item: 'avaritia:infinity_ingot'
+            item: 'avaritia:crystal_matrix_ingot'
         },
         D: {
             item: 'megacells:cell_component_256m'
         },
         E: {
-            item: 'gtceu:uhv_quantum_chest'
+            item: 'minecraft:stick'
         },
         F: {
             item: 'gtceu:neutronium_block'
@@ -350,121 +350,7 @@ ServerEvents.recipes((event) =>{
         'AAAFFFAAA',
         ],
         result: {
-        item: 'gtceu:creative_chest'
-        },
-        show_notification: true,
-        tier: 4,
-    });
-
-
-    event.custom({
-        type: 'avaritia:shaped_table',
-        category: 'equipment',
-        key: {
-        A: {
-            item: 'kubejs:animated/draconicprocessor'
-        },
-        B: {
-            item: 'avaritia:diamond_lattice'
-        },
-        C: {
-            item: 'avaritia:infinity_ingot'
-        },
-        D: {
-            item: 'megacells:cell_component_256m'
-        },
-        E: {
-            item: 'gtceu:uhv_quantum_tank'
-        },
-        F: {
-            item: 'gtceu:neutronium_block'
-        },
-        G: {
-            item: 'gtceu:mellodium_gear'
-        },
-        H: {
-            item: 'gtceu:small_mellodium_gear'
-        },
-        I: {
-            item: 'gtceu:mellodium_plate'
-        },
-        J: {
-            item: 'gtceu:prismalium_plate'
-        },
-        K: {
-            item: 'gtceu:small_prismalium_gear'
-        },
-        L: {
-            item: 'gtceu:prismalium_gear'
-        },
-        M: {
-            item: 'gtceu:small_stellarium_gear'
-        },
-        N: {
-            item: 'gtceu:stellarium_plate'
-        },
-        O: {
-            item: 'gtceu:stellarium_gear'
-        },
-        P: {
-            item: 'gtceu:antimatter_block'
-        }
-
-        },
-        pattern: [
-        'AAAFFFAAA',
-        'ADBCOCBDA',
-        'ABCCMCCBA',
-        'FCCCNCCCF',
-        'FGHIEJKLF',
-        'FCCCPCCCF',
-        'ABCCPCCBA',
-        'ADBCPCBDA',
-        'AAAFFFAAA',
-        ],
-        result: {
-        item: 'gtceu:creative_tank'
-        },
-        show_notification: true,
-        tier: 4,
-    });
-
-    event.custom({
-        type: 'avaritia:shaped_table',
-        category: 'equipment',
-        key: {
-        A: {
-            item: 'kubejs:animated/draconicprocessor'
-        },
-        B: {
-            item: 'avaritia:diamond_lattice'
-        },
-        C: {
-            item: 'avaritia:infinity'
-        },
-        D: {
-            item: 'gregecore:awakened_draconium_cable_hex_wire'
-        },
-        E: {
-            item: 'gtceu:uhv_energy_input_hatch_16a'
-        },
-        F: {
-            item: 'gtceu:neutronium_block'
-        }
-        },
-        pattern: [
-        'AAAFFFAAA',
-        'AABCDCBAA',
-        'ABCCDCCBA',
-        'FCCCDCCCF',
-        'FDDDEDDDF',
-        'FCCCDCCCF',
-        'ABCCDCCBA',
-        'AABCDCBAA',
-        'AAAFFFAAA',
-        ],
-        result: {
-        item: 'gtceu:creative_energy'
+        item: 'gregecore:avaritia_wand_of_puppetry'
         },
         show_notification: true,
         tier: 4,

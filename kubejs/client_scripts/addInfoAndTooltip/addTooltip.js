@@ -303,6 +303,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             if(!event.shift){
+                text.add(1, Text.white('Right click to awaken a block.'));
                 text.add(2, Text.white('Hold SHIFT for more info.'));
             } else {
                 text.add(1, Text.yellow('Blocks avaible to awaken:'));

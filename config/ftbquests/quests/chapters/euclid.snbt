@@ -275,7 +275,7 @@
 				item: "gtceu:arboretum_dust"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 9.5d
 		}
 		{
@@ -293,6 +293,7 @@
 			dependencies: [
 				"5BD794A62AF7A012"
 				"67D725973ACB8855"
+				"35F894C3B5ECAF5A"
 			]
 			id: "5FFCE0DFC693FEF8"
 			tasks: [{
@@ -311,7 +312,7 @@
 				item: "gtceu:stabilizedarboretum_single_wire"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 11.5d
 		}
 		{
@@ -400,6 +401,143 @@
 			}]
 			x: 0.0d
 			y: 22.5d
+		}
+		{
+			dependencies: ["4BC14793FBA5B33D"]
+			hide_until_deps_complete: true
+			id: "795CCD9DF6A697FB"
+			tasks: [{
+				id: "79B85E676F1C4C05"
+				item: "kubejs:euclid/elementium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4BC14793FBA5B33D"]
+			hide_until_deps_complete: true
+			id: "2AFFBC21E51AFE75"
+			tasks: [{
+				id: "3EFBD539A6B96745"
+				item: "kubejs:euclid/nullingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"2AFFBC21E51AFE75"
+				"795CCD9DF6A697FB"
+			]
+			id: "5591AACF1E71775E"
+			tasks: [
+				{
+					id: "63D6D45871C534D3"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					id: "3108BAB048342F7D"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["5591AACF1E71775E"]
+			description: ["Goo.....job, you made th....Gene.....Crucible, the connection is more stable now."]
+			hide_until_deps_complete: true
+			id: "3D9974A62C66439D"
+			tasks: [{
+				id: "4266656B63A8CB09"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			title: "bzzt....bzzz...."
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3D9974A62C66439D"]
+			description: ["That doesn........ matter, you wi...... fi..... answers soon. Now is the time to push on to higher tiers!"]
+			id: "5CAD7869D49711D9"
+			tasks: [{
+				id: "6E613AC560662E96"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			title: "Who a....I?"
+			x: 0.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["5CAD7869D49711D9"]
+			description: [
+				"This is the ending of the modpack for the version 0.6.*."
+				""
+				"Next tiers will be added in future updates."
+				""
+				"Thank you for playing this pack. It means a lot to me, this is my first try on something this big."
+				""
+				"If you have any ideas, suggestions or other opinions, feel free to message me on CurseForge or Discord."
+				""
+				"Once again, thank you for playing my pack!"
+				""
+				"cu5tmtp"
+			]
+			hide_until_deps_complete: true
+			id: "04D657457ABE6BE7"
+			shape: "heart"
+			size: 3.0d
+			tasks: [{
+				id: "1EDDAC44FFB91C5D"
+				item: "kubejs:quarterone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3EC4D5192EB17D86"]
+			icon: "gtceu:fracturedoil_bucket"
+			id: "34DD9C150E1E63C5"
+			tasks: [
+				{
+					id: "2CD248C3ABE16CB1"
+					item: "gtceu:fracturedoil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "238621E8646405F9"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["34DD9C150E1E63C5"]
+			icon: "gtceu:fracturedlubricant_bucket"
+			id: "35F894C3B5ECAF5A"
+			tasks: [
+				{
+					id: "40259629BE6AFE8D"
+					item: "gtceu:fracturedlubricant_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64226FEF2DD8AF17"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 11.5d
 		}
 	]
 	title: "Euclid"

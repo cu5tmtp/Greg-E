@@ -2,13 +2,16 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.specializedassemblyline()
         .itemInputs(
+            'gtceu:uev_machine_hull',
             'gregecore:unstable',
             '16x gtceu:uhv_electric_motor',
             '16x gtceu:uhv_electric_piston',
             '16x gtceu:uhv_robot_arm',
             '16x gtceu:uhv_sensor',
             '16x kubejs:animated/draconicprocessor',
-            'gtceu:uev_machine_hull'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 1000'
         )
         .itemOutputs(
             'gregecore:assemblyhall'
@@ -24,6 +27,9 @@ ServerEvents.recipes((event) => {
             '8x gtceu:uhv_robot_arm',
             '8x gtceu:uhv_electric_piston'
         )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
         .itemOutputs(
             'gtceu:tectonicdisruptor'
         )
@@ -38,6 +44,9 @@ ServerEvents.recipes((event) => {
             '8x gtceu:uhv_conveyor_module',
             '8x kubejs:nebulonfilter',
         )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
         .itemOutputs(
             'gtceu:auxillaryfiltrator'
         )
@@ -52,6 +61,9 @@ ServerEvents.recipes((event) => {
             '8x gtceu:uhv_conveyor_module',
             '8x kubejs:nebulonfilter',
         )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
         .itemOutputs(
             'gtceu:auxillaryfiltrator'
         )
@@ -64,6 +76,9 @@ ServerEvents.recipes((event) => {
             '8x gtceu:reinforced_delirium_block',
             '4x kubejs:euclid/euclid_circuit',
             'gtceu:fusion_glass'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
         )
         .itemOutputs(
             'gregecore:genesiscruciblecaseone'
@@ -78,6 +93,9 @@ ServerEvents.recipes((event) => {
             '4x kubejs:euclid/euclid_integrated',
             'gtceu:fusion_glass'
         )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
         .itemOutputs(
             'gregecore:genesiscruciblecasetwo'
         )
@@ -90,6 +108,9 @@ ServerEvents.recipes((event) => {
             '8x gtceu:inert_machine_casing',
             '3x kubejs:euclid/euclid_computer',
             '4x gtceu:uiv_electric_motor'
+        )
+        .inputFluids(
+            'gtceu:fracturedlubricant 1000'
         )
         .itemOutputs(
             'gtceu:atomicreversator'
@@ -105,6 +126,9 @@ ServerEvents.recipes((event) => {
             '2x gtceu:uiv_robot_arm',
             'gtceu:fusion_glass'
         )
+        .inputFluids(
+            'gtceu:fracturedlubricant 1000'
+        )
         .itemOutputs(
             'gregecore:genesiscruciblecasethree'
         )
@@ -119,11 +143,33 @@ ServerEvents.recipes((event) => {
             '2x gtceu:uiv_field_generator',
             'gtceu:fusion_glass'
         )
+        .inputFluids(
+            'gtceu:fracturedlubricant 1000'
+        )
         .itemOutputs(
             'gregecore:genesiscruciblecasefour'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
         .addData("cube_block", "kubejs:machine_casing_tiled_dark_gray")
+
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            '4x gtceu:uhv_electric_motor',
+            '4x gtceu:uhv_electric_piston',
+            '4x gtceu:uhv_robot_arm',
+            '4x gtceu:uhv_sensor',
+            '4x kubejs:animated/draconicprocessor',
+            'gtceu:uev_machine_hull'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300'
+        )
+        .itemOutputs(
+            'gregecore:genesiscrucible'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "avaritia:infinity")
 
 })
