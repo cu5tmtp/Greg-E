@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("cleanfarmland")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('BIIIIIB', 'BHHHHHB', 'BHHHHHB', 'BHHHHHB', 'BDDDDDB')
         .aisle('IEEEEEI', 'H#####H', 'H#####H', 'H#####H', 'DAAAAAD')

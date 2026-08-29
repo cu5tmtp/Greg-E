@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("mechanical_sap_tap")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifier(GTRecipeModifiers.OC_PERFECT)
+    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("AAA", "###", "#F#", "###")
         .aisle("ABA", "#E#", "FEF", "#F#")

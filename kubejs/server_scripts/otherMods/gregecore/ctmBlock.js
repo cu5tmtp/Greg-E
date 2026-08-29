@@ -1,48 +1,51 @@
 ServerEvents.recipes((event) => {
 
     const ctmBlocks = [ 
-        'machine_casing_block_cyan', 
-        'machine_casing_block_dark_blue', 
-        'machine_casing_block_diamond', 
-        'machine_casing_block_gold', 
-        'machine_casing_block_green', 
-        'machine_casing_block_lime', 
-        'machine_casing_block_magenta', 
-        'machine_casing_block_orange', 
-        'machine_casing_block_purple', 
-        'machine_casing_block_red', 
-        'machine_casing_tiled_dark_gray', 
-        'machine_casing_tiled_gray', 
-        'machine_casing_tiled_green', 
-        'machine_casing_tiled_light_gray', 
-        'machine_casing_tiled_lime', 
-        'machine_casing_tiled_orange', 
-        'machine_casing_tiled_red', 
-        'machine_casing_tiled_very_dark_gray', 
-        'machine_casing_tiled_yellow', 
+        '16x kubejs:machine_casing_block_cyan',
+        '16x kubejs:machine_casing_block_dark_blue', 
+        '16x kubejs:machine_casing_block_diamond', 
+        '16x kubejs:machine_casing_block_gold', 
+        '16x kubejs:machine_casing_block_green', 
+        '16x kubejs:machine_casing_block_lime', 
+        '16x kubejs:machine_casing_block_magenta', 
+        '16x kubejs:machine_casing_block_orange', 
+        '16x kubejs:machine_casing_block_purple', 
+        '16x kubejs:machine_casing_block_red', 
+        '16x kubejs:machine_casing_tiled_dark_gray', 
+        '16x kubejs:machine_casing_tiled_gray', 
+        '16x kubejs:machine_casing_tiled_green', 
+        '16x kubejs:machine_casing_tiled_light_gray', 
+        '16x kubejs:machine_casing_tiled_lime', 
+        '16x kubejs:machine_casing_tiled_orange', 
+        '16x kubejs:machine_casing_tiled_red', 
+        '16x kubejs:machine_casing_tiled_very_dark_gray', 
+        '16x kubejs:machine_casing_tiled_yellow', 
     ]; 
 
-    const namespace = 'kubejs'; 
+    ctmBlocks.forEach((inputBlock, index) => {
+        event.recipes.gtceu.casing_creator()
+            .itemInputs(
+                '8x gtceu:steel_plate',
+                'minecraft:redstone'
+            )
+            .itemOutputs(
+                inputBlock
+            )
+            .EUt(GTValues.V[GTValues.ULV])
+            .duration(100)
+            .circuit(index + 1)
 
-    ctmBlocks.forEach(inputBlock => {
-        ctmBlocks.forEach(outputBlock => {
-            if (inputBlock !== outputBlock) {
-                event.stonecutting(`${namespace}:${outputBlock}`, `${namespace}:${inputBlock}`);
-            }
-        });
+        event.recipes.gtceu.assembler()
+            .itemInputs(
+                '8x gtceu:steel_plate',
+                'minecraft:redstone'
+            )
+            .itemOutputs(
+                inputBlock
+            )
+            .EUt(GTValues.V[GTValues.LV])
+            .duration(100)
+            .circuit(index + 1)
     });
-
-    event.shaped(
-        Item.of('kubejs:machine_casing_block_cyan', 16),
-        [
-            'AAA',
-            'ABA',
-            'AAA'
-        ],
-        {
-            A: 'gtceu:steel_plate',
-            B: 'minecraft:redstone'
-        }
-    )
 
 })

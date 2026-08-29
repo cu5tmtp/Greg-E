@@ -68,7 +68,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["51236544BFEF487B"]
+			dependencies: [
+				"51236544BFEF487B"
+				"13E80F3DAC9654B9"
+			]
 			description: [""]
 			id: "15564C11744D6AA0"
 			rewards: [{
@@ -502,8 +505,8 @@
 				item: "ae2:wireless_crafting_terminal"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["16299B9AE87257DC"]
@@ -528,8 +531,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 3.5d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -661,6 +664,41 @@
 			}]
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3DAEC53352F804FA"]
+			id: "13E80F3DAC9654B9"
+			tasks: [{
+				id: "2A9852F167C5F0F4"
+				item: "gtceu:aeassembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["777B90FCD2A91628"]
+			description: [
+				"You can get these blocks 2 ways:"
+				""
+				"1) ULV machine, that is very cheap, recommended for the start"
+				"2) Assemblers, these are more expensive to get, but it scales better."
+			]
+			id: "3DAEC53352F804FA"
+			tasks: [
+				{
+					id: "64F47BBB4F08677A"
+					item: "kubejs:machine_casing_tiled_very_dark_gray"
+					type: "item"
+				}
+				{
+					id: "286448836E88A9C1"
+					item: "kubejs:machine_casing_block_purple"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "AE2 - Basics"

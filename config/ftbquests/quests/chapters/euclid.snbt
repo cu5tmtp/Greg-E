@@ -361,6 +361,7 @@
 		}
 		{
 			dependencies: ["05617DF4914F7544"]
+			icon: "gtceu:fracturedsludge_bucket"
 			id: "5C7F97A68FDF2FA1"
 			tasks: [
 				{
@@ -451,11 +452,11 @@
 			dependencies: ["5591AACF1E71775E"]
 			description: ["Goo.....job, you made th....Gene.....Crucible, the connection is more stable now."]
 			hide_until_deps_complete: true
+			icon: "ad_astra:radio"
 			id: "3D9974A62C66439D"
 			tasks: [{
-				id: "4266656B63A8CB09"
-				item: "ad_astra:radio"
-				type: "item"
+				id: "5DCCF7DA638E44E4"
+				type: "checkmark"
 			}]
 			title: "bzzt....bzzz...."
 			x: 0.0d
@@ -464,12 +465,8 @@
 		{
 			dependencies: ["3D9974A62C66439D"]
 			description: ["That doesn........ matter, you wi...... fi..... answers soon. Now is the time to push on to higher tiers!"]
+			icon: "ad_astra:radio"
 			id: "5CAD7869D49711D9"
-			tasks: [{
-				id: "6E613AC560662E96"
-				item: "ad_astra:radio"
-				type: "item"
-			}]
 			title: "Who a....I?"
 			x: 0.0d
 			y: 30.5d

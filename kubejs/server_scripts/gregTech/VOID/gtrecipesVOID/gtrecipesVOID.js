@@ -2,15 +2,12 @@ ServerEvents.recipes((event) => {
 
     event.remove({ id: 'gtceu:extruder/nan_certificate'})
     event.recipes.gtceu.mixer('notnoobanymore')
-        .itemInputs(
-            'gregecore:unstable'
-        )
         .inputFluids(
             'gtceu:nlgibsonium 1000',
             'gtceu:waidaoium 1000'
         )
         .itemOutputs(
-            'gtceu:nan_certificate'
+            'gregecore:unstable'
         )
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(1000)

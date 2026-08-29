@@ -24,6 +24,14 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MACERATOR);
 
+    event.create("casing_creator")
+        .category("multiblock")
+        .setEUIO("in")
+        .setMaxIOSize(3, 1, 0, 0)
+        .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ASSEMBLER);
+
     event.create("waterwell")
         .category("multiblock")
         .setEUIO("in")
@@ -60,6 +68,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .workableTieredHullModel("gtceu:block/machines/macerator")
         })
 
+    event.create('casing_creator', 'simple')
+        .tiers(GTValues.ULV)
+        .definition((tier, builder) => {
+            return builder
+                .recipeType('casing_creator')
+                .workableTieredHullModel("gtceu:block/machines/assembler")
+        })
+
     event.create('water_well', 'simple')
         .tiers(GTValues.ULV)
         .definition((tier, builder) => {
@@ -68,5 +84,4 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .workableTieredHullModel("gtceu:block/machines/extractor")
         })
 
-    
 })

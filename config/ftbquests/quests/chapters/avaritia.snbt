@@ -155,7 +155,7 @@
 		}
 		{
 			dependencies: ["3814078428FC7AC9"]
-			description: ["Your last hurdle before you complete the pack. Be prepared - this requires that you do everything."]
+			description: ["Be prepared - this requires that you do everything."]
 			id: "3B6843F5FDB109B8"
 			rewards: [{
 				id: "639C46BA0FEE3CE3"
@@ -259,8 +259,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "417F2C7469F0C404"
-				item: "gtceu:uhv_uhv_parallel_hatch"
+				id: "37A8697D141AB67A"
+				item: "gregecore:epic_parallel_hatch"
 				type: "item"
 			}]
 			x: 0.5d

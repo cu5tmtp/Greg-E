@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("voidminer")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('EEEEE', 'EB#BE', 'B###B', 'B###B', '#BBB#', '##B##', '#####', '#####', '#####', '#####', '#####')
         .aisle('EAAAE', 'B###B', '#####', '#####', 'B#B#B', '#####', '##B##', '##B##', '#####', '#####', '#####')

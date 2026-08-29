@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('dragonalloykiln')
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("##IIIII##", "##AAAAA##", "##AAAAA##", "##AAAAA##", "#########", "#########", "#########", "#A#####A#", "#A#####A#")
         .aisle("#IAAEAAI#", "#A#G#G#A#", "#A#FGF#A#", "#A##H##A#", "#AAAAAAA#", "#AA###AA#", "#AA###AA#", "#A#####A#", "#########")

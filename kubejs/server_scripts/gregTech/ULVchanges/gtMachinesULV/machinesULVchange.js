@@ -50,6 +50,22 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
+        Item.of('gtceu:ulv_casing_creator', 1),
+        [
+            ' A ',
+            'BEB',
+            'CDC'
+        ],
+        {
+            A: 'gtceu:vacuum_tube',
+            B: 'minecraft:copper_ingot',
+            C: 'gtceu:small_copper_gear',
+            D: 'minecraft:redstone',
+            E: 'gtceu:ulv_machine_casing'
+        }
+    )
+
+    event.shaped(
         Item.of('gtceu:ulv_machine_casing', 1),
         [
             'ABA',

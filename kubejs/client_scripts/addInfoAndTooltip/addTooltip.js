@@ -451,22 +451,74 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
-            'gtceu:uhv_uhv_parallel_hatch'
-        ],
-        (item, advanced, text) => {
-            text.add(1, Text.white('Allows to run up to 1024 recipes in parallel.'));
-            text.add(2, Text.white('Multiblock Sharing ').append(Text.darkRed('Disabled')));
-        }
-    );
-
-    event.addAdvanced(
-        [
-            'gtceu:giantabs'
+            'gtceu:giantabs',
+            'gtceu:giantreactionchamber',
+            'gtceu:largecomponentmassassembler',
+            'gtceu:adrobstat',
+            'gtceu:advancedaeassembler',
+            'gtceu:giantesssmelter',
+            'gtceu:planetarygassiphon',
+            'gtceu:specialoreprocessingplant',
+            'gtceu:zerogravmixer',
+            'gtceu:alchtransformer',
+            'gtceu:analyzator',
+            'gtceu:industrialfilter',
+            'gtceu:laboratory',
+            'gtceu:smdforge',
+            'gtceu:runecarver'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch.'));
         }
     );
+
+    event.addAdvanced(
+        [
+            'gtceu:gasminer',
+            'gtceu:irradiator',
+            'gtceu:linearaccel',
+            'gtceu:metalfurnace',
+            'gtceu:transformator',
+            'gtceu:voidcrystal',
+            'gtceu:voidminer',
+            'gtceu:giant_squeezer',
+            
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Ability: Parallel Hatch.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gtceu:atomicreversator',
+            'gtceu:auxillaryfiltrator',
+            'gtceu:tectonicdisruptor',
+            'gtceu:specialpress',
+            'gtceu:oilrig',
+            'gtceu:marsbacteriabreeder',
+            'gtceu:specmetheat',
+            'gtceu:specthermalcentrifuge',
+            'gtceu:insaniumtreatmentfacilty',
+            'gtceu:specializedcrystallizer',
+            'gtceu:aeassembler',
+            'gtceu:cleanfarmland',
+            'gtceu:atmosphericsampler',
+            'gtceu:bacteriabreeder',
+            'gtceu:bigdistillery',
+            'gtceu:bigoven',
+            'gtceu:bigwitchcauldron',
+            'gtceu:czochralskipull',
+            'gtceu:sednasampler',
+            'gtceu:mobpurgatory',
+            'gtceu:oreprocessor',
+            'gtceu:tartarustower'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Ability: Perfect Overclock.'));
+        }
+    );
+
 
     event.addAdvanced(
         [

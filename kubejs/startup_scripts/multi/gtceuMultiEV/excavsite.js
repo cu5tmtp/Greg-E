@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('excavsite')
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("DEEEEEEEEEEED", "DEEEEEEEEEEED", "DJJJJJJJJJJJD", "DIIIIIIIIIIID", "C###########C")
         .aisle("EGGGGGGGGGGGE", "EBBBBBFFFAAAE", "JBBB##F###AAJ", "I###########I", "#############")
