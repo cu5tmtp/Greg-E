@@ -405,13 +405,23 @@
 					type: "item"
 				}
 				{
+					id: "722B4A6971F7CEE0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "721B7EF535590876"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+				{
 					id: "039B8D149A074374"
 					item: "minecraft:redstone"
 					type: "item"
 				}
 				{
-					id: "722B4A6971F7CEE0"
-					item: "minecraft:copper_ingot"
+					id: "16F67330DB21F8A0"
+					item: "minecraft:coal"
 					type: "item"
 				}
 				{
@@ -422,11 +432,6 @@
 				{
 					id: "2E5A4C78A59C88EF"
 					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "16F67330DB21F8A0"
-					item: "minecraft:coal"
 					type: "item"
 				}
 				{

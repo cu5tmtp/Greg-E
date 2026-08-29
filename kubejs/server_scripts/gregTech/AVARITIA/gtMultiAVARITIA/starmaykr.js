@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr1")
         .itemInputs(
-            '350x #gtceu:circuits/lv'
+            '300x #gtceu:circuits/lv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:lvcircuitsingularity"}')
@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr2")
         .itemInputs(
-            '300x #gtceu:circuits/mv'
+            '250x #gtceu:circuits/mv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:mvcircuitsingularity"}')
@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr3")
         .itemInputs(
-            '250x #gtceu:circuits/hv'
+            '200x #gtceu:circuits/hv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:hvcircuitsingularity"}')
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr4")
         .itemInputs(
-            '200x #gtceu:circuits/ev'
+            '150x #gtceu:circuits/ev'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:evcircuitsingularity"}')
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr5")
         .itemInputs(
-            '150x #gtceu:circuits/iv'
+            '100x #gtceu:circuits/iv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:ivcircuitsingularity"}')
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr6")
         .itemInputs(
-            '100x #gtceu:circuits/luv'
+            '50x #gtceu:circuits/luv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:luvcircuitsingularity"}')
@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr7")
         .itemInputs(
-            '75x #gtceu:circuits/zpm'
+            '35x #gtceu:circuits/zpm'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:zpmcircuitsingularity"}')
@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr8")
         .itemInputs(
-            '50x #gtceu:circuits/uv'
+            '25x #gtceu:circuits/uv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:uvcircuitsingularity"}')
@@ -90,7 +90,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr9")
         .itemInputs(
-            '25x #gtceu:circuits/uhv'
+            '15x #gtceu:circuits/uhv'
         )
         .itemOutputs(
             Item.of('avaritia:singularity', '{Id:"avaritia:uhvcircuitsingularity"}')
@@ -141,12 +141,12 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.star_maykr_singularities("starmaykr12")
         .itemInputs(
-            '64x botanicalextramachinery:crimson_dragonstone_block',
+            '16x botanicalextramachinery:crimson_dragonstone_block',
             '64x draconicevolution:awakened_draconium_block',
-            '8x ad_extendra:electrolyte_block',
+            '4x ad_extendra:electrolyte_block',
             '4x twilightforest:arctic_fur_block',
-            '16x bloodmagic:dungeon_metal',
-            '64x avaritia:crystal_matrix',
+            '4x bloodmagic:dungeon_metal',
+            '16x avaritia:crystal_matrix',
             '16x avaritia:infinity'
         )
         .itemOutputs(

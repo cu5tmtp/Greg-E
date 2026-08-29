@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
         {
             id: 1,
             items: ['512x gtceu:carbon_dust', '512x ae2:silicon', '512x gtceu:quartz_sand_dust'],
-            fluids: ['gtceu:methane 35000', 'gtceu:ammonia 35000', 'gtceu:cygnium 3000']
+            fluids: ['gtceu:methane 35000', 'gtceu:ammonia 35000', 'gtceu:cygnium 10000']
         },
         {
             id: 2,
             items: ['512x gtceu:cobaltite_dust', '512x gtceu:gallium_dust', '512x gtceu:iron_dust'],
-            fluids: ['gtceu:argon 35000', 'gtceu:krypton 35000', 'gtceu:struvium 3000']
+            fluids: ['gtceu:argon 35000', 'gtceu:krypton 35000', 'gtceu:struvium 10000']
         }
     ];
 

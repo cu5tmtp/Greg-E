@@ -2097,7 +2097,25 @@ let emiBannedItems = [
     "item:gtceu:uiv_input_hatch_4x",
     "item:gtceu:uiv_input_hatch",
     "item:gtceu:uiv_output_bus",
-    "item:gtceu:uiv_input_bus"
+    "item:gtceu:uiv_input_bus",
+    "item:backpacked:unlock_token",
+    "item:gregecore:tiny_malachite_rotor_dust",
+    "item:gregecore:tiny_malachite_cable_dust",
+    "item:gregecore:malachite_rotor_dust",
+    "item:gregecore:malachite_rotor_rotor",
+    "item:gregecore:malachite_rotor_ring",
+    "item:gregecore:small_malachite_cable_dust",
+    "item:gregecore:small_malachite_rotor_dust",
+    "item:gregecore:malachite_rotor_ingot",
+    "item:gregecore:malachite_rotor_nugget",
+    "item:gregecore:desh_rotor_ingot",
+    "item:gregecore:desh_rotor_rotor",
+    "item:gregecore:desh_rotor_ring",
+    "item:gregecore:desh_rotor_plate",
+    "item:gregecore:tiny_desh_rotor_dust",
+    "item:gregecore:desh_rotor_dust",
+    "item:gregecore:small_desh_rotor_dust",
+    "item:gregecore:desh_rotor_nugget"
 ];
 
 let getCorrectItem = (emiBannedItems) => {

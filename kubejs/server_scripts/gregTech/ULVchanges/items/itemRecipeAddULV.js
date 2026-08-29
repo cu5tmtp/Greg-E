@@ -85,19 +85,6 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
-        Item.of('gtceu:tin_dust', 1),
-        [
-            'AAA',
-            'ABA',
-            'AAA'
-        ],
-        {
-            A: 'minecraft:cobblestone',
-            B: '#gtceu:tools/crafting_mortars'
-        }
-    )
-
-    event.shaped(
         Item.of('minecraft:iron_block', 1),
         [
             'AAA',

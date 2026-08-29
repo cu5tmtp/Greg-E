@@ -5,14 +5,14 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.fornax_universi_acceleration("fornax1")
         .itemInputs(
             'avaritia:eternal_singularity',
-            '16x avaritia:record_fragment',
-            '16x avaritia:endest_pearl',
-            '16x avaritia:ultimate_stew',
-            '16x avaritia:cosmic_meatballs',
-            '64x avaritia:crystal_matrix',
+            '8x avaritia:record_fragment',
+            '8x avaritia:endest_pearl',
+            '8x avaritia:ultimate_stew',
+            '8x avaritia:cosmic_meatballs',
+            '32x avaritia:crystal_matrix',
             '4x gtceu:neutronium_block',
-            '16x gtceu:tritanium_block',
-            '16x gtceu:decursium_block'
+            '8x gtceu:tritanium_block',
+            '4x gtceu:decursium_block'
         )
         .itemOutputs(
             'avaritia:infinity_catalyst'
@@ -24,11 +24,11 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.fornax_universi_acceleration("fornax2")
         .itemInputs(
             '4x avaritia:infinity_catalyst',
-            '64x gtceu:neutronium_block',
-            '64x avaritia:crystal_matrix',
-            '64x gtceu:mellodium_block',
-            '32x gtceu:prismalium_block',
-            '16x gtceu:stellarium_block'
+            '16x gtceu:neutronium_block',
+            '32x avaritia:crystal_matrix',
+            '16x gtceu:mellodium_block',
+            '8x gtceu:prismalium_block',
+            '4x gtceu:stellarium_block'
         )
         .itemOutputs(
             'avaritia:infinity_ingot'
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.fornax_universi_acceleration("fornax5")
         .itemInputs(
-            '400x avaritia:diamond_lattice'
+            '200x avaritia:diamond_lattice'
         )
         .itemOutputs(
             '100x avaritia:crystal_matrix_ingot'

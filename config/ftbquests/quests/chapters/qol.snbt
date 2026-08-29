@@ -708,6 +708,27 @@
 			x: 0.5d
 			y: 0.5d
 		}
+		{
+			description: [
+				"Unlock more slots in a backpack with the item called Backpack Inventory Slot."
+				""
+				"Unlock more Backpack slots with the item Backpack Slot."
+				""
+				"Everything unlocks in LV."
+			]
+			id: "79D15BEC6BED96E1"
+			tasks: [{
+				id: "5776485E975AD607"
+				item: {
+					Count: 1
+					id: "backpacked:backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
 	]
 	title: "QOL"
 }

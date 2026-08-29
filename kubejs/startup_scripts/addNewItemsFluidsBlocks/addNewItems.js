@@ -125,6 +125,8 @@ StartupEvents.registry('item', event => {
     event.create('carcosacpu').displayName('Cognitive CPU Wafer')
     event.create('carcosacpuchip').displayName('Cognitive CPU Chip')
     event.create('carcosaramchip').displayName('Cognitive RAM Chip')
+    event.create('backpackslot').displayName('Backpack Inventory Slot')
+    event.create('backpackplusoneslot').displayName('Backpack Slot')
 
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')

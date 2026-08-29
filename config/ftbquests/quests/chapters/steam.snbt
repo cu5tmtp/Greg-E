@@ -72,11 +72,7 @@
 		}
 		{
 			dependencies: ["0F9910D36E4395FC"]
-			description: [
-				"Take 8x cobblestone and craft it with a mortar to get 1x tin dust."
-				""
-				"Also grab some copper and combine it with a mortar to get copper dust. You'll need this too."
-			]
+			description: ["Get these dusts by combining raw ingots with mortar."]
 			id: "6B0ACCAF9C50CE94"
 			rewards: [{
 				id: "6FD681218FF3FA20"
