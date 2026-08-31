@@ -254,7 +254,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:advancedaeassembler'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch'));
+            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch.'));
         }
     );
 
@@ -455,7 +455,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:giantreactionchamber',
             'gtceu:largecomponentmassassembler',
             'gtceu:adrobstat',
-            'gtceu:advancedaeassembler',
             'gtceu:giantesssmelter',
             'gtceu:planetarygassiphon',
             'gtceu:specialoreprocessingplant',

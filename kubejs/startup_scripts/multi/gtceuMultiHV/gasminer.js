@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("gasminer")
     .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("hhhhh", "bcacb", "bcacb", "bcccb", "bcccb", "ccccc", "ccccc", "ccccc", "ccccc", "ccccc", "ccccc")
         .aisle("haaah", "ccccc", "ccccc", "ccacc", "ccacc", "cbcbc", "cbcbc", "ccccc", "ccccc", "ccccc", "ccccc")

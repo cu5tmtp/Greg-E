@@ -700,6 +700,18 @@
 			x: 0.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["16299B9AE87257DC"]
+			description: ["This terminal contains all of the other terminals in 1 single page. It might seem overwhelming at first, but this will help you with AE2 stuff."]
+			id: "5BA3E6D90F5AA62A"
+			tasks: [{
+				id: "106DE41651DB5D00"
+				item: "wcwt:wireless_comprehensive_work_terminal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
 	]
 	title: "AE2 - Basics"
 }
