@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("analyzator", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("analyzator")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock('chisel_chipped_integration:factory_wireframe'))
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.BATCH_MODE])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('BJJJJJB', 'BIIIIIB', 'BIIIIIB', 'BIIIIIB', 'BIIIIIB', 'BBBBBBB')

@@ -808,7 +808,7 @@
 				}
 			]
 			x: -6.0d
-			y: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5C1BB559DD83E88F"]
@@ -889,8 +889,8 @@
 				item: "gtceu:aluminium_nugget"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "LV"

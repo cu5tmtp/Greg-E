@@ -740,6 +740,29 @@
 			x: -1.5d
 			y: 0.5d
 		}
+		{
+			description: [
+				"Reforge your equipment for even more stats!"
+				""
+				"Best reforge on tools: &dLegendary&r"
+				"Best reforge on armor: &dMasterful&r"
+			]
+			id: "125BE5B20480E2BA"
+			tasks: [
+				{
+					id: "195EA7021F19A38D"
+					item: "quality_forked:reforging_station"
+					type: "item"
+				}
+				{
+					id: "253CE7E4BC9509A1"
+					item: "justdirethings:portal_fluid_catalyst"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
 	]
 	title: "QOL"
 }

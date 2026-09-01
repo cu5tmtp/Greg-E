@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("oilrig", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('oilrig')
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_dark_gray"))
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("A###A", "A###A", "A###A", "GGGGG", "D###D", "D###D", "#DDD#", "##D##", "#####", "#####", "#####", "#####", "#####", "#####")

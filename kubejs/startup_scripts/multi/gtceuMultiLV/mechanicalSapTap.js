@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("mechanical_sap_tap", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("mechanical_sap_tap")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock("chisel_chipped_integration:factory_dotted_rusty_plate"))
     .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("AAA", "###", "#F#", "###")

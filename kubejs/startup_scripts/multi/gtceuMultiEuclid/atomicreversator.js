@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("atomicreversator", "multiblock")
     .rotationState(RotationState.ALL)
     .recipeType('atomicreversator')
-    .appearanceBlock(GTBlocks.CASING_INVAR_HEATPROOF)
+    .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_orange"))
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("abbbaaaaaaabbba", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbba", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbba", "aaaaaaaaaaaaaaa", "aaaaabaaabaaaaa", "aaaaabbbbbaaaaa", "aaaaabaaabaaaaa", "aaaaaaaaaaaaaaa")

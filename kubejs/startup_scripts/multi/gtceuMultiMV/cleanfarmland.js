@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("cleanfarmland", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("cleanfarmland")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock('chisel_chipped_integration:laboratory_tiles'))
     .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('BIIIIIB', 'BHHHHHB', 'BHHHHHB', 'BHHHHHB', 'BDDDDDB')

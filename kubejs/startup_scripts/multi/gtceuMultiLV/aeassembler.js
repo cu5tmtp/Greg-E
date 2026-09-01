@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("aeassembler", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("aeassembler")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_dark_gray"))
     .recipeModifier(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aaaaa", "accca", "aaaaa")

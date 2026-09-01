@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("mobpurgatory", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("mobpurgatory")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock('kubejs:machine_casing_tiled_very_dark_gray'))
     .recipeModifiers(GTRecipeModifiers.OC_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("aaaaa", "abbba", "abbba", "abbba", "abbba", "aaaaa")

@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .create("transformator", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("transformator")
-    .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_orange"))
     .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('DDD', 'AAA', 'AAA')

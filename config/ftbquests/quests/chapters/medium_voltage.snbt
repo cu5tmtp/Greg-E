@@ -891,8 +891,8 @@
 				item: "gregecore:twilight_alloy_cable_single_wire"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5AE58782A1600FC2"]
@@ -907,8 +907,8 @@
 				item: "gregecore:twilight_coil"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			description: ["Faster board production!"]
