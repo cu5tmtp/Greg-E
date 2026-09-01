@@ -155,6 +155,24 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.assemblyhall()
         .itemInputs(
+            '8x gtceu:inert_machine_casing',
+            '4x kubejs:euclid/euclid_mainframe',
+            '2x gtceu:uiv_field_generator',
+            '4x gtceu:uiv_emitter',
+            '4x gtceu:uiv_robot_arm'
+        )
+        .inputFluids(
+            'justdirethings:polymorphic_fluid 1500'
+        )
+        .itemOutputs(
+            'gtceu:biocomponents'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "gtceu:inert_machine_casing")
+
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
             '4x gtceu:uhv_electric_motor',
             '4x gtceu:uhv_electric_piston',
             '4x gtceu:uhv_robot_arm',

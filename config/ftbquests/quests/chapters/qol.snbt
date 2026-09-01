@@ -314,18 +314,29 @@
 			y: -3.5d
 		}
 		{
-			description: ["Wireless AE2! Really useful, also you can combine different wireless terminals, my favourite combination is crafting, pattern encoding and extended pattern access terminal."]
+			description: [
+				"Wireless AE2! Really useful, also you can combine different wireless terminals, my favourite combination is crafting, pattern encoding and extended pattern access terminal."
+				""
+				"Alternatively, if you want everything on 1 screen so you dont have to cycle the wireless terminals, get the ME WCWT!"
+			]
 			id: "5783E1DD2A4537D1"
 			rewards: [{
 				id: "1C2712445859AC56"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "48052F294B018B01"
-				item: "ae2:wireless_crafting_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48052F294B018B01"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "273E30865B367C96"
+					item: "wcwt:wireless_comprehensive_work_terminal"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -5.0d
 		}

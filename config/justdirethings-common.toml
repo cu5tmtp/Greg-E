@@ -12,10 +12,10 @@
 #Goo settings
 [goo]
 	#If true, goo blocks have a chance to deactivate after each successful block conversion
-	goo_can_die = true
+	goo_can_die = false
 	#The chance (0.0 to 1.0) that a goo block deactivates after each block conversion. Default is 0.1 (10%)
 	#Range: 0.0 ~ 1.0
-	goo_death_chance = 0.1
+	goo_death_chance = 0.0
 	#Restricts goo spreading for specific input blocks to only work in certain dimensions.
 	#Each entry is a pair ["block_id", "dimension_id"].
 	#A block listed here will ONLY be converted by goo while the goo is in the specified dimension.

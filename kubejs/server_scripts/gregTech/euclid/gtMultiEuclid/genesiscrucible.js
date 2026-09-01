@@ -56,6 +56,21 @@ ServerEvents.recipes((event) => {
         .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo")
         .circuit(2)
 
+    event.recipes.gtceu.gccrafting('cvhdwjscvshvghvhdjvj')
+        .itemInputs(
+            'kubejs:euclid/euclid_circuit',
+            'kubejs:euclid/euclid_integrated',
+            'gtceu:uiv_electric_motor',
+            'kubejs:bioresistor'
+        )
+        .itemOutputs(
+            Item.of('kubejs:euclid/euclid_computer')
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(400)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo")
+        .circuit(2)
+
     event.recipes.gtceu.gccrafting()
         .itemInputs(
             'gtceu:uiv_machine_hull',
@@ -81,6 +96,22 @@ ServerEvents.recipes((event) => {
             '2x kubejs:carcosaramchip',
             '2x kubejs:euclid/euclid_computer',
             '4x gtceu:stabilizedarboretum_single_wire'
+        )
+        .itemOutputs(
+            'kubejs:euclid/euclid_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(400)
+        .addData("insertedc", "genesiscruciblecaseone,genesiscruciblecasetwo,genesiscruciblecasethree")
+        .circuit(3)
+
+    event.recipes.gtceu.gccrafting()
+        .itemInputs(
+            'kubejs:carcosacpuchip',
+            'kubejs:carcosaramchip',
+            'kubejs:euclid/euclid_computer',
+            '2x gtceu:stabilizedarboretum_single_wire',
+            '2x kubejs:biocapacitor'
         )
         .itemOutputs(
             'kubejs:euclid/euclid_mainframe'

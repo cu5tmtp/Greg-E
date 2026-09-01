@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x8d9729)
         .formula('? + Km+')
         .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_RING)
 
     event.create('bio_welded_supergrympl')
         .ingot()

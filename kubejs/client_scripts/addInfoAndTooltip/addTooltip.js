@@ -275,6 +275,7 @@ ItemEvents.tooltip((event) => {
             ],
             (item, advanced, text) => {
                 text.add(1, Text.white(tip.tooltip));
+                text.add(2, Text.white('Abilities: Subtick Overclock.'))
             }
     );
 

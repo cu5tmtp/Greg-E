@@ -161,4 +161,31 @@ ServerEvents.recipes((event) => {
         )
         .duration(100)
 
+    event.recipes.gtceu.robotic_fabrication()
+        .itemInputs(
+            'kubejs:euclid/euclid_circuit',
+            'kubejs:euclid/euclid_integrated',
+            'gtceu:uiv_electric_motor',
+            'kubejs:bioresistor'
+        )
+        .itemOutputs(
+            Item.of('kubejs:euclid/euclid_computer')
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(400)
+
+    event.recipes.gtceu.robotic_fabrication()
+        .itemInputs(
+            'kubejs:carcosacpuchip',
+            'kubejs:carcosaramchip',
+            'kubejs:euclid/euclid_computer',
+            '2x gtceu:stabilizedarboretum_single_wire',
+            '2x kubejs:biocapacitor'
+        )
+        .itemOutputs(
+            'kubejs:euclid/euclid_mainframe'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(400)
+
 })
