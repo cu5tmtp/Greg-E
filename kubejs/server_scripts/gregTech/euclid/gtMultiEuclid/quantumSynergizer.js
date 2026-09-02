@@ -171,8 +171,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             Item.of('kubejs:euclid/euclid_computer')
         )
-        .EUt(GTValues.VA[GTValues.UIV])
-        .duration(400)
+        .duration(100)
 
     event.recipes.gtceu.robotic_fabrication()
         .itemInputs(
@@ -185,7 +184,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             'kubejs:euclid/euclid_mainframe'
         )
-        .EUt(GTValues.VA[GTValues.UXV])
-        .duration(400)
+        .duration(100)
 
 })

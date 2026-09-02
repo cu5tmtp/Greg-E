@@ -78,6 +78,61 @@ ServerEvents.recipes((event) => {
         id: 'polymorficraft'
     }).id('polymorficraft')
 
+    event.remove({id: 'justdirethings:gooblock_tier1'})
+    event.shaped(Item.of('justdirethings:gooblock_tier1', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:plant_ball',
+            B: 'gtceu:element_356_ingot',
+            C: 'minecraft:echo_shard',
+            D: 'kubejs:euclid/euclid_circuit'
+        })
+    event.remove({id: 'justdirethings:gooblock_tier2'})
+    event.shaped(Item.of('justdirethings:gooblock_tier2', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:plant_ball',
+            B: 'gtceu:redsediment_ingot',
+            C: 'justdirethings:gooblock_tier1',
+            D: 'kubejs:euclid/euclid_integrated'
+        })
+
+    event.remove({id: 'justdirethings:gooblock_tier3'})
+    event.shaped(Item.of('justdirethings:gooblock_tier3', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:plant_ball',
+            B: 'gtceu:supergrympl_ingot',
+            C: 'justdirethings:gooblock_tier2',
+            D: 'kubejs:euclid/euclid_computer'
+        })
+
+    event.remove({id: 'justdirethings:gooblock_tier4'})
+    event.shaped(Item.of('justdirethings:gooblock_tier4', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:plant_ball',
+            B: 'gtceu:stabilizedarboretum_ingot',
+            C: 'justdirethings:gooblock_tier3',
+            D: 'kubejs:euclid/euclid_mainframe'
+        })
+
     event.shapeless(Item.of('gtceu:bio_welded_reinforced_kamenium_ingot', 9),
         [
             'gtceu:bio_welded_reinforced_kamenium_block'

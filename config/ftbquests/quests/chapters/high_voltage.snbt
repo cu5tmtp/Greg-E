@@ -673,6 +673,11 @@
 					item: "gtceu:cube_oreprocesser"
 					type: "item"
 				}
+				{
+					id: "338D411F029D1A56"
+					item: "gtceu:cube_chemical"
+					type: "item"
+				}
 			]
 			title: "Cube factories!"
 			x: -13.5d

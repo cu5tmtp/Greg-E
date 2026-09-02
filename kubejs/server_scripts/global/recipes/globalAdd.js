@@ -46,13 +46,13 @@ ServerEvents.recipes((event) => {
     const circuitsToAdd = [
         {item: 'kubejs:universal/lv', tag: '#gtceu:circuits/lv', tier: GTValues.VA[GTValues.LV]},
         {item: 'kubejs:universal/mv', tag: '#gtceu:circuits/mv', tier: GTValues.VA[GTValues.LV]},
-        {item: 'kubejs:universal/hv', tag: '#gtceu:circuits/hv', tier: GTValues.VA[GTValues.MV]},
-        {item: 'kubejs:universal/ev', tag: '#gtceu:circuits/ev', tier: GTValues.VA[GTValues.HV]},
-        {item: 'kubejs:universal/iv', tag: '#gtceu:circuits/iv', tier: GTValues.VA[GTValues.EV]},
-        {item: 'kubejs:universal/luv', tag: '#gtceu:circuits/luv', tier: GTValues.VA[GTValues.IV]},
-        {item: 'kubejs:universal/zpm', tag: '#gtceu:circuits/zpm', tier: GTValues.VA[GTValues.LuV]},
-        {item: 'kubejs:universal/uv', tag: '#gtceu:circuits/uv', tier: GTValues.VA[GTValues.ZPM]},
-        {item: 'kubejs:universal/uhv', tag: '#gtceu:circuits/uhv', tier: GTValues.VA[GTValues.UV]}
+        {item: 'kubejs:universal/hv', tag: '#gtceu:circuits/hv', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/ev', tag: '#gtceu:circuits/ev', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/iv', tag: '#gtceu:circuits/iv', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/luv', tag: '#gtceu:circuits/luv', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/zpm', tag: '#gtceu:circuits/zpm', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/uv', tag: '#gtceu:circuits/uv', tier: GTValues.VA[GTValues.LV]},
+        {item: 'kubejs:universal/uhv', tag: '#gtceu:circuits/uhv', tier: GTValues.VA[GTValues.LV]}
     ]
 
     circuitsToAdd.forEach(add => {
@@ -111,7 +111,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.compressor('armorshardddsfdfdf')
         .itemInputs(
-            '64x twilightforest:mossy_underbrick'
+            '8x twilightforest:mossy_underbrick'
         )
         .itemOutputs(
             'twilightforest:armor_shard'
@@ -185,4 +185,8 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(1)
 
+    event.shapeless(Item.of('minecraft:moss_block', 4),
+        [
+            Item.of('gtceu:bio_chaff', 4)
+        ])
 })

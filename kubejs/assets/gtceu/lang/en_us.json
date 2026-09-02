@@ -589,6 +589,7 @@
   "block.gtceu.cube_ore": "Ore Grinding Factory",
   "block.gtceu.cube_mixer": "Mixer Factory",
   "block.gtceu.cube_oreprocesser": "Ore Processing Factory",
+  "block.gtceu.cube_chemical": "Chemical Factory",
 
   "biome.ad_astra.venus_orbit": "Venus Orbit",
   "biome.ad_extendra.jupiter_orbit": "Jupiter Orbit",
