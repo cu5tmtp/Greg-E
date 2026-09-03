@@ -103,7 +103,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     registerCube(
         event, 
         "cube_chemical",
-        [GTRecipeTypes.CHEMICAL_RECIPES, GTRecipeTypes.CHEMICAL_BATH_RECIPES],
+        [GTRecipeTypes.CHEMICAL_BATH_RECIPES],
         "botania:elementium_block",
         "botania:block/elementium_block",
         "distillation_tower"

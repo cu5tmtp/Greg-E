@@ -266,7 +266,7 @@ ItemEvents.tooltip((event) => {
         {id: 'gtceu:cube_mixer', tooltip: 'Machine modes: Mixer'},
         {id: 'gtceu:cube_assembler', tooltip: 'Machine modes: Assembler, Circuit Assembler'},
         {id: 'gtceu:cube_oreprocesser', tooltip: 'Machine modes: Centrifuge, Electrolyzer'},
-        {id: 'gtceu:cube_chemical', tooltip: 'Machine modes: Chemical Reactor, Chemical Bath'}
+        {id: 'gtceu:cube_chemical', tooltip: 'Machine modes: Chemical Bath'}
     ]
 
     factories.forEach(tip => {
