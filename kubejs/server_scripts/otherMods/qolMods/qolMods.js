@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
 
 
     //tf
-    event.shaped(Item.of(Item.of('twilightforest:giant_pickaxe'), 1), 
+    event.shaped(Item.of('twilightforest:giant_pickaxe', 1), 
         [
             'AAA',
             ' B ',
@@ -97,7 +97,13 @@ ServerEvents.recipes((event) => {
         ], 
         {
             A: Item.of('kubejs:cobblethree', 1),
-            B: Item.of('64x minecraft:oak_log', 64)
+            B: Item.of('minecraft:oak_log', 64)
         })
+
+    //modular nbt reset
+    event.shapeless(Item.of('modularrouters:modular_router', 1),
+    [
+        Item.of('modularrouters:modular_router', 1)
+    ])
 
 })
