@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             .itemInputs(color.input)
             .itemOutputs(color.output)
             .duration(100)
-            .EUt(15)
+            .EUt(GTValues.VA[GTValues.LV])
     })
 
 })

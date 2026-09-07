@@ -514,7 +514,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:mobpurgatory',
             'gtceu:oreprocessor',
             'gtceu:tartarustower',
-            'gtceu:magicalgarden'
+            'gtceu:magicalgarden',
+            'gtceu:magicalassembler'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Ability: Perfect Overclock.'));

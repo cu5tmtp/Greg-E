@@ -9,6 +9,18 @@ ServerEvents.recipes((event) => {
         'kubejs:lvalloy'
     )
 
+    event.remove({ id: 'botania:apothecary_deepslate'})
+    event.remove({ id: 'botania:apothecary_desert'})
+    event.remove({ id: 'botania:apothecary_forest'})
+    event.remove({ id: 'botania:apothecary_fungal'})
+    event.remove({ id: 'botania:apothecary_livingrock'})
+    event.remove({ id: 'botania:apothecary_mesa'})
+    event.remove({ id: 'botania:apothecary_mountain'})
+    event.remove({ id: 'botania:apothecary_plains'})
+    event.remove({ id: 'botania:apothecary_taiga'})
+    event.remove({ id: 'botania:apothecary_swamp'})
+    event.remove({ id: 'botania:apothecary_mossy'})
+
     event.replaceInput(
         { id: 'botanicalmachinery:mana_battery' },
         'botanicalmachinery:mana_emerald_block',
