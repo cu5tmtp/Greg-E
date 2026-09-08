@@ -39,6 +39,19 @@ ServerEvents.recipes((event) => {
         'botania:livingwood'
     )
 
+    event.remove({id: 'botania:spark'})
+    event.recipes.botania.runic_altar(
+        '2x botania:spark',
+        [
+            '#botania:petals',
+            '#botania:petals',
+            'gtceu:sulfur_dust',
+            'gtceu:sulfur_dust',
+            'minecraft:gold_nugget'
+        ],
+        100
+    )
+
     event.recipes.botania.runic_altar(
         'mythicbotany:fimbultyr_tablet',
         [
