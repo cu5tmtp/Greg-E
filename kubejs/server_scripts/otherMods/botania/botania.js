@@ -3,12 +3,7 @@ ServerEvents.recipes((event) => {
     event.remove({ type: 'botania:orechid' })
     event.remove({ type: 'botania:orechid_ignem' })
 
-    event.replaceInput(
-        { id: 'botania:apothecary_default' },
-        '#botania:petals',
-        'kubejs:lvalloy'
-    )
-
+    event.remove({ id: 'botania:apothecary_default'})
     event.remove({ id: 'botania:apothecary_deepslate'})
     event.remove({ id: 'botania:apothecary_desert'})
     event.remove({ id: 'botania:apothecary_forest'})

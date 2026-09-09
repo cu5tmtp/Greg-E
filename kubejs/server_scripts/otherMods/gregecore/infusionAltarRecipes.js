@@ -365,6 +365,20 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "0,1,0,0,0,0")
 
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '5x minecraft:stone_bricks',
+            'minecraft:bucket'
+        )
+        .inputFluids(
+            'gregecore:aqua_essentia 10'
+        )
+        .itemOutputs(
+            'botania:apothecary_default'
+        )
+        .duration(600)
+        .addData('essentia', "1,0,0,0,0,0")
+
     //aqua, terra, aer, ignis, perditio, ordo
 
 })

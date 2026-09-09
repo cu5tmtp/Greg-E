@@ -44,8 +44,6 @@ ServerEvents.recipes((event) => {
 
     event.remove({type: 'ae2:inscriber'})
 
-    event.remove({ id: 'ae2:misc/tiny_tnt'})
-
     event.remove({ id: 'ae2:transform/certus_quartz_crystals'})
 
 });

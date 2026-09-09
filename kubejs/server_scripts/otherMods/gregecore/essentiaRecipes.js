@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(200)
 
-    event.recipes.gtceu.essentia_smelting()
+    event.recipes.gtceu.giantesssmelter()
         .inputFluids(
             'gtceu:distilled_water 100'
         )
@@ -172,7 +172,7 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(200)
 
-    event.recipes.gtceu.essentia_smelting()
+    event.recipes.gtceu.giantesssmelter()
         .inputFluids(
             'gregecore:deionized_water 100'
         )
