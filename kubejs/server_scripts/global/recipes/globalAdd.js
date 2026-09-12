@@ -189,4 +189,5 @@ ServerEvents.recipes((event) => {
         [
             Item.of('gtceu:bio_chaff', 4)
         ])
+
 })

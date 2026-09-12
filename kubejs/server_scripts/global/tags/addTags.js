@@ -45,7 +45,6 @@ ServerEvents.tags('item', event => {
     event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_computer')
     event.add('gtceu:circuits', 'kubejs:euclid/euclid_mainframe')
     event.add('grege:circuits/euclid', 'kubejs:euclid/euclid_mainframe')
-    
 
     //cataclysm imitation ingots tagging
     event.add('grege:witherite', 'cataclysm:witherite_ingot')

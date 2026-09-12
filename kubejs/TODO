@@ -1,7 +1,5 @@
 TODO:
 0.6.3
-- check the magic mods
-    - double check botania (move apothecary to infusion)
 - tf + hnn
 - ad astra
 - extra botania
@@ -13,6 +11,10 @@ TODO:
 - redo water sfm recipe for steam age
 - nobelium - redo the textures for it
 - check the ad astra tags and remove
+- add sodium to better boards recipes
+- rework Fusion
+- add tooltip to nether drill rig
+- check the long rod recipes
 
 0.7
 - next tier Sun Dimension
