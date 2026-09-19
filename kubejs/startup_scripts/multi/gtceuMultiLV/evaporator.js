@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("evaporator")
     .appearanceBlock(() => new Block.getBlock("chisel_chipped_integration:technical_exhaust_plating"))
-    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("CCC", "BBB", "BBB", "AAA")
         .aisle("CAC", "B#B", "B#B", "AAA")

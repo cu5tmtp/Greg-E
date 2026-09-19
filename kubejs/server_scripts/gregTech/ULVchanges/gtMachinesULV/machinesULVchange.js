@@ -95,4 +95,10 @@ ServerEvents.recipes((event) => {
         }
     )
 
+    event.replaceInput(
+        {id: 'gtceu:shaped/steam_macerator_bronze'},
+        'diamond',
+        'brick'
+    )
+
 });

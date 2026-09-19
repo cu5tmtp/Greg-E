@@ -1,3 +1,14 @@
+ServerEvents.tags('item', event => {
+
+    event.removeAllTagsFrom('ad_astra:steel_ingot')
+    event.removeAllTagsFrom('ad_astra:steel_nugget')
+    event.removeAllTagsFrom('ad_astra:steel_plate')
+    event.removeAllTagsFrom('ad_astra:steel_rod')
+    event.removeAllTagsFrom('ad_astra:iron_rod')
+    event.removeAllTagsFrom('ad_astra:iron_plate')
+
+})
+
 ServerEvents.recipes((event) => {
 
     //Remove unvanted recipes from Ad Astra
@@ -20,24 +31,13 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'ad_extendra:nasa_workbench/tier_10_rocket_from_nasa_workbench' })
     event.remove({ id: 'ad_extendra:nasa_workbench/tier_11_rocket_from_nasa_workbench' })
 
-    const tankReplaceAdAstra = [
-        {output: 'steel'},
+    const toAssemblerBasic = [
         {output: 'desh'},
         {output: 'ostrum'},
         {output: 'calorite'}
     ]
 
-    tankReplaceAdAstra.forEach( item => {
-
-        event.replaceInput(
-            `ad_astra:${item.output}_tank`,
-            'ad_astra:steel_rod',
-            'gtceu:steel_rod'
-        )
-
-    })
-
-    const tankReplaceAdExtendra = [
+    const toAssemblerExtendra = [
         {output: 'juperium'},
         {output: 'saturlyte'},
         {output: 'uranium'},
@@ -47,34 +47,155 @@ ServerEvents.recipes((event) => {
         {output: 'electrolyte'},
     ]
 
-    tankReplaceAdExtendra.forEach( item => {
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            `gtceu:steel_plate`,
+            '8x gtceu:steel_rod'
+        )
+        .itemOutputs(
+            'ad_astra:engine_frame'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 288'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150)
+        .circuit(16)
 
-        event.replaceInput(
-            `ad_extendra:${item.output}_tank`,
-            'ad_astra:steel_rod',
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            '4x gtceu:iron_plate',
+            'gtceu:iron_rod'
+        )
+        .itemOutputs(
+            'ad_astra:gas_tank'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 288'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150)
+        .circuit(16)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            `5x gtceu:steel_plate`,
+            'ad_astra:gas_tank',
             'gtceu:steel_rod'
         )
+        .itemOutputs(
+            'ad_astra:steel_tank'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 288'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150)
+        .circuit(16)
 
-    })
-
-    const enigneReplaceAdAstra = [
-        {output: 'steel'},
-        {output: 'desh'},
-        {output: 'ostrum'},
-        {output: 'calorite'}
-    ]
-
-    enigneReplaceAdAstra.forEach( item => {
-
-        event.replaceInput(
-            `ad_astra:${item.output}_engine`,
-            'ad_astra:fan',
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            `5x gtceu:steel_plate`,
+            'ad_astra:engine_frame',
             'gtceu:steel_rotor'
         )
+        .itemOutputs(
+            'ad_astra:steel_engine'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 288'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150)
+        .circuit(16)
+
+    let lastTank = 'ad_astra:steel_tank'
+    let lastEngine = 'ad_astra:steel_engine'
+
+    toAssemblerBasic.forEach(item => {
+
+        event.recipes.gtceu.assembler()
+            .itemInputs(
+                `5x ad_astra:${item.output}_plate`,
+                lastTank,
+                'gtceu:steel_rod'
+            )
+            .itemOutputs(
+                `ad_astra:${item.output}_tank`
+            )
+            .inputFluids(
+                'gtceu:soldering_alloy 288'
+            )
+            .EUt(GTValues.VA[GTValues.HV])
+            .duration(100)
+            .circuit(16)
+
+        lastTank = `ad_astra:${item.output}_tank`
+
+        event.recipes.gtceu.assembler()
+            .itemInputs(
+                `5x ad_astra:${item.output}_plate`,
+                lastEngine,
+                'gtceu:steel_rotor'
+            )
+            .itemOutputs(
+                `ad_astra:${item.output}_engine`
+            )
+            .inputFluids(
+                'gtceu:soldering_alloy 288'
+            )
+            .EUt(GTValues.VA[GTValues.HV])
+            .duration(100)
+            .circuit(16)
+
+        lastEngine = `ad_astra:${item.output}_engine`
 
     })
 
-    const enigneReplaceAdExtendra = [
+    toAssemblerExtendra.forEach(item => {
+
+        event.recipes.gtceu.assembler()
+            .itemInputs(
+                `5x ad_extendra:${item.output}_plate`,
+                lastTank,
+                'gtceu:steel_rod'
+            )
+            .itemOutputs(
+                `ad_extendra:${item.output}_tank`
+            )
+            .inputFluids(
+                'gtceu:soldering_alloy 288'
+            )
+            .EUt(GTValues.VA[GTValues.HV])
+            .duration(100)
+            .circuit(16)
+
+        lastTank = `ad_extendra:${item.output}_tank`
+
+        event.recipes.gtceu.assembler()
+            .itemInputs(
+                `5x ad_extendra:${item.output}_plate`,
+                lastEngine,
+                'gtceu:steel_rotor'
+            )
+            .itemOutputs(
+                `ad_extendra:${item.output}_engine`
+            )
+            .inputFluids(
+                'gtceu:soldering_alloy 288'
+            )
+            .EUt(GTValues.VA[GTValues.HV])
+            .duration(100)
+            .circuit(16)
+
+        lastEngine = `ad_extendra:${item.output}_engine`
+
+    })
+
+    const removeUnvanted = [
+        {output: 'desh'},
+        {output: 'ostrum'},
+        {output: 'calorite'},
         {output: 'juperium'},
         {output: 'saturlyte'},
         {output: 'uranium'},
@@ -84,15 +205,17 @@ ServerEvents.recipes((event) => {
         {output: 'electrolyte'},
     ]
 
-    enigneReplaceAdExtendra.forEach( item => {
+    removeUnvanted.forEach((item => {
+        event.remove(`ad_astra:${item.output}_tank`)
+        event.remove(`ad_astra:${item.output}_engine`)
+        event.remove(`ad_extendra:${item.output}_tank`)
+        event.remove(`ad_extendra:${item.output}_engine`)
+    }))
 
-        event.replaceInput(
-            `ad_extendra:${item.output}_engine`,
-            'ad_astra:fan',
-            'gtceu:steel_rotor'
-        )
-
-    })
+    event.remove('ad_astra:gas_tank')
+    event.remove('ad_astra:engine_frame')
+    event.remove('ad_astra:steel_engine')
+    event.remove('ad_astra:steel_tank')
 
     const plateblockReplaceAdExtendra = [
         {output: 'juperium'},
@@ -128,6 +251,12 @@ ServerEvents.recipes((event) => {
             `ad_astra:${item.output}_plateblock`,
             'ad_astra:steel_rod',
             'gtceu:steel_rod'
+        )
+
+        event.replaceInput(
+            `ad_astra:${item.output}_plateblock`,
+            'ad_astra:iron_rod',
+            'gtceu:iron_rod'
         )
 
     })

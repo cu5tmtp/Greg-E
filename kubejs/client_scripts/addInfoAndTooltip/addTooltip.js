@@ -456,7 +456,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:giantabs',
             'gtceu:giantreactionchamber',
             'gtceu:largecomponentmassassembler',
-            'gtceu:adrobstat',
             'gtceu:giantesssmelter',
             'gtceu:planetarygassiphon',
             'gtceu:specialoreprocessingplant',
@@ -482,11 +481,19 @@ ItemEvents.tooltip((event) => {
             'gtceu:transformator',
             'gtceu:voidcrystal',
             'gtceu:voidminer',
-            'gtceu:giant_squeezer',
-            
+            'gtceu:giant_squeezer'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Ability: Parallel Hatch.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gtceu:evaporator'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Ability: Subtick Overclock and Parallel Hatch.'));
         }
     );
 
@@ -515,7 +522,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:oreprocessor',
             'gtceu:tartarustower',
             'gtceu:magicalgarden',
-            'gtceu:magicalassembler'
+            'gtceu:magicalassembler',
+            'gregecore:netherdrillrig'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Ability: Perfect Overclock.'));

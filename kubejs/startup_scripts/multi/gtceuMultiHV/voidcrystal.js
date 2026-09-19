@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeTypes(["voidcrystal", 'voidcrystalincubator'])
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('FFFFFFF', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'BBBBBBB')
         .aisle('FCCCCCF', '#######', '#######', '#######', '#######', '#######', '#######', '#######', 'BCCCCCB')

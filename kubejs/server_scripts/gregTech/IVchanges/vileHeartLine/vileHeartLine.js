@@ -98,4 +98,20 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(600)
         .circuit(24)
+
+    event.recipes.gtceu.large_chemical_reactor('betteryaaayyyyyyayadfrf2')
+        .itemInputs(
+            'gtceu:epoxy_circuit_board',
+            '4x gtceu:fine_pristine_vileheart_plate_wire'
+        )
+        .inputFluids(
+            'gtceu:sodium_persulfate 500'
+        )
+        .itemOutputs(
+            '4x gtceu:epoxy_printed_circuit_board'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(600)
+        .circuit(24)
+
 })

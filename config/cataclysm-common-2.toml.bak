@@ -1,4 +1,60 @@
 
+[spawning]
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	deepling_spawn_weight = 2
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	deepling_spawn_rolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	deepling_brute_spawn_weight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	deepling_brute_spawn_rolls = 50
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	deepling_angler_spawn_weight = 2
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	deepling_angler_spawn_rolls = 30
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	deepling_priest_spawn_weight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	deepling_priest_spawn_rolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	deepling_warlock_spawn_weight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	deepling_warlock_spawn_rolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	coral_golem_spawn_weight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	coral_golem_spawn_rolls = 70
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	amethyst_crab_spawn_weight = 1
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	amethyst_crab_spawn_rolls = 20
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	koboleton_spawn_weight = 15
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	koboleton_spawn_rolls = 1
+	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+	#Range: 0 ~ 1000
+	ignited_berserker_spawn_weight = 7
+	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+	#Range: > 0
+	ignited_berserker_spawn_rolls = 2
+
 [tools_and_abilities]
 
 	[tools_and_abilities.ignitium_armor]
@@ -454,7 +510,7 @@
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 25.0
+			damage_cap = 25000000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
 			dps_cap = 20.0
@@ -506,21 +562,21 @@
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 200000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 14000.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
 			#Range Cap
 			#Range: 1.0 ~ 1000000.0
-			range_cap = 15.0
+			range_cap = 150.0
 
 		[mobs.ignis.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 0.0
 
 		[mobs.ignis.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -650,21 +706,21 @@
 		tail_swing_hp_damage = 0.06
 		#Tentacle Hp Damage
 		#Range: 0.0 ~ 1.0
-		tentacle_hp_damage = 0.03
+		tentacle_hp_damage = 0.06
 		#Dimensional Rift Damage
 		#Range: 0.0 ~ 1000000.0
-		dimensional_rift_damage = 5.0
+		dimensional_rift_damage = 10.0
 		#Abyss Blast Damage
 		#Range: 0.0 ~ 1000000.0
-		abyss_blast_damage = 5.0
+		abyss_blast_damage = 10.0
 		#Abyss Blast HP Damage
 		#Range: 0.0 ~ 1.0
-		abyss_blast_hp_damage = 0.1
+		abyss_blast_hp_damage = 0.05
 		#Abyss Orb Damage
 		#Range: 0.0 ~ 1000000.0
-		abyss_orb_damage = 4.0
+		abyss_orb_damage = 2.0
 		#Leviathan Immune Out of Water.
-		immune_out_of_water = true
+		immune_out_of_water = false
 		#Enable separate music per boss phase
 		separate_phase_music = true
 
@@ -675,18 +731,18 @@
 		[mobs.leviathan.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.7
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.7
 
 		[mobs.leviathan.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 20.0
+			damage_cap = 20000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 15.0
+			dps_cap = 150000.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -697,7 +753,7 @@
 		[mobs.leviathan.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 0.0
 
 	[mobs.baby_leviathan]
 
@@ -712,46 +768,46 @@
 	[mobs.ancient_remnant]
 		#Charge Hp Damage
 		#Range: 0.0 ~ 1.0
-		charge_hp_damage = 0.1
+		charge_hp_damage = 0.05
 		#Hp Damage
 		#Range: 0.0 ~ 1.0
-		hp_damage = 0.05
+		hp_damage = 0.02
 		#Stomp Hp Damage
 		#Range: 0.0 ~ 1.0
-		stomp_hp_damage = 0.03
+		stomp_hp_damage = 0.015
 		#EarthQuake Damage
 		#Range: 0.0 ~ 1000000.0
-		earthquake_damage = 11.0
+		earthquake_damage = 5.0
 		#Ancient Desert Stele Damage
 		#Range: 0.0 ~ 1000000.0
-		ancient_desert_stele_damage = 11.0
+		ancient_desert_stele_damage = 5.0
 
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.7
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.7
 
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
 			#Range Cap
 			#Range: 1.0 ~ 1000000.0
-			range_cap = 14.0
+			range_cap = 140.0
 
 		[mobs.ancient_remnant.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 25.0
+			nature_heal = 0.0
 
 		[mobs.ancient_remnant.respawner_config]
 			#Respawner
@@ -781,10 +837,10 @@
 		[mobs.kobolediator.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.5
 
 		[mobs.kobolediator.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -801,10 +857,10 @@
 		[mobs.wadjet.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 0.5
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 0.5
 
 	[mobs.maledictus]
 		#Phantom Halberd Damage
@@ -980,60 +1036,4 @@
 		#Cursed Tombstone Cooldown
 		#Range: 0 ~ 30
 		cursed_tombstone_cooldown = 1
-
-[spawning]
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	deepling_spawn_weight = 2
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	deepling_spawn_rolls = 30
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	deepling_brute_spawn_weight = 1
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	deepling_brute_spawn_rolls = 50
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	deepling_angler_spawn_weight = 2
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	deepling_angler_spawn_rolls = 30
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	deepling_priest_spawn_weight = 1
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	deepling_priest_spawn_rolls = 70
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	deepling_warlock_spawn_weight = 1
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	deepling_warlock_spawn_rolls = 70
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	coral_golem_spawn_weight = 1
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	coral_golem_spawn_rolls = 70
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	amethyst_crab_spawn_weight = 1
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	amethyst_crab_spawn_rolls = 20
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	koboleton_spawn_weight = 15
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	koboleton_spawn_rolls = 1
-	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-	#Range: 0 ~ 1000
-	ignited_berserker_spawn_weight = 7
-	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-	#Range: > 0
-	ignited_berserker_spawn_rolls = 2
 

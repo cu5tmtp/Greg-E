@@ -7,6 +7,12 @@ ServerEvents.recipes((event) => {
         '#gtceu:circuits/hv'
     )
 
+    event.replaceInput(
+        {id: 'sfm:water_tank'},
+        'minecraft:light_weighted_pressure_plate',
+        'gtceu:bronze_ingot'
+    )
+
     //building wand
     event.replaceInput(
         'constructionwand:infinity_wand',

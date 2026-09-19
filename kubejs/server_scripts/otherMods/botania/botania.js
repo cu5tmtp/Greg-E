@@ -61,24 +61,6 @@ ServerEvents.recipes((event) => {
         50000
     )
 
-    const bm_machines = [
-    'alfheim_market',
-    'industrial_agglomeration_factory',
-    'mechanical_apothecary',
-    'mechanical_brewery',
-    'mechanical_daisy',
-    'mechanical_mana_pool',
-    'mechanical_runic_altar'
-    ]
-
-    bm_machines.forEach(machine => {
-    event.replaceInput(
-        { id: 'botanicalmachinery:' + machine },
-        'botania:aura_ring_greater',
-        'kubejs:vanaheimingotblock'
-        )
-    })
-
     event.remove({ id: 'botania:mana_infusion/coal_dupe'})
     event.remove({ id: 'botania:mana_infusion/quartz_dupe'})
     event.remove({ id: 'botania:mana_infusion/redstone_dupe'})

@@ -1290,7 +1290,6 @@ let emiBannedItems = [
     "item:gtceu:red_sand_decursium_ore",
     "item:gtceu:purified_decursium_ore",
     "item:gtceu:impure_decursium_dust",
-    "item:gtceu:small_decursium_dust",
     "item:gtceu:pure_decursium_dust",
     "item:gtceu:tiny_decursium_dust",
     "item:gtceu:refined_decursium_ore",

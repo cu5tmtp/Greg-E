@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes((event) => {
 
     let convertToMagicalForge = (recipeID, duration) => {
@@ -209,3 +210,4 @@ ServerEvents.recipes((event) => {
     })
 
 })
+*/

@@ -245,6 +245,18 @@
 			x: 1.5d
 			y: 8.0d
 		}
+		{
+			dependencies: ["744DFD4A90BA6A25"]
+			description: ["You can extract water from this block."]
+			id: "4FF4F5E9D76A11BA"
+			tasks: [{
+				id: "461168A32B529676"
+				item: "sfm:water_tank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
 	]
 	title: "Steam"
 }

@@ -49,6 +49,22 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(100)
+        .circuit(24)
+
+    event.recipes.gtceu.chemical_reactor('getbetterboardeasymulti3')
+        .itemInputs(
+            'gtceu:artificial_leather_plate',
+            '4x gtceu:silver_foil'
+        )
+        .inputFluids(
+            'gtceu:iron_iii_chloride 25',
+        )
+        .itemOutputs(
+            '4x gtceu:phenolic_printed_circuit_board'
+        )
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(100)
+        .circuit(24)
 
     event.recipes.gtceu.chemical_reactor('getbetterboardeasymulti2')
         .itemInputs(
@@ -63,4 +79,5 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.MV])
         .duration(100)
+        .circuit(24)
 })

@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("irradiator")
     .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_dark_gray"))
-    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('HHHHHHHHHH', 'AJJJJJJJJA', 'AJJJJJJJJA', 'AJJJJJJJJA', 'AAAAAAAAAA')
         .aisle('HJJJJJJJJH', 'D########D', 'D##GGGG##D', 'D########D', 'AJJJJJJJJA')

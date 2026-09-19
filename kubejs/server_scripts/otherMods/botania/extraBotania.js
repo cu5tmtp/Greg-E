@@ -28,8 +28,15 @@ ServerEvents.recipes((event) => {
         }
 
         let assemblerRecipe = event.recipes.gtceu.assembler(recipeID.replace(':', '_') + '_manual_conv')
-            .itemInputs(finalInputs)
-            .itemOutputs(output)
+            .itemInputs(
+                finalInputs
+            )
+            .itemOutputs(
+                output
+            )
+            .inputFluids(
+                'gtceu:soldering_alloy 144'
+            )
             .EUt(GTValues.VA[GTValues.EV])
             .duration(duration)
             .circuit(circuit)

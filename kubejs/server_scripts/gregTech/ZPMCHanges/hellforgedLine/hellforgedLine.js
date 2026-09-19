@@ -131,5 +131,21 @@ ServerEvents.recipes((event) => {
         .circuit(24)
         .cleanroom(CleanroomType.CLEANROOM)
 
+    event.recipes.gtceu.large_chemical_reactor('getthefufinallyldcsddsxxs2')
+        .itemInputs(
+            'gtceu:multilayer_fiber_reinforced_circuit_board',
+            '4x gtceu:fine_coated_demonite_wire'
+        )
+        .inputFluids(
+            'gtceu:sodium_persulfate 2000'
+        )
+        .itemOutputs(
+            '4x gtceu:multilayer_fiber_reinforced_printed_circuit_board'
+        )
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(1200)
+        .circuit(24)
+        .cleanroom(CleanroomType.CLEANROOM)
+
 
 })

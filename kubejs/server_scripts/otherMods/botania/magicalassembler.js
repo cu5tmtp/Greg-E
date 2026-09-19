@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes((event) => {
 
     let convertToMagicalAssembler = (recipeID, circuit, duration) => {
@@ -90,3 +91,4 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'botania:fabulous_pool_upgrade'})
 
 })
+*/

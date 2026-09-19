@@ -87,7 +87,7 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -104,7 +104,7 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -121,7 +121,7 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -138,7 +138,7 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -155,7 +155,7 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -205,7 +205,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -229,7 +229,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -253,7 +253,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -270,7 +270,7 @@
 				item: "gregecore:twilight_coil"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -286,7 +286,7 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{

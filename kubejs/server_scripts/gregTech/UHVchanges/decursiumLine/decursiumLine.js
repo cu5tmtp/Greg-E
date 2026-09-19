@@ -98,4 +98,25 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UHV])
         .circuit(3)
 
+    event.recipes.gtceu.compressor()
+        .itemInputs(
+            '4x gtceu:small_decursium_dust'
+        )
+        .itemOutputs(
+            'gtceu:decursium_dust'
+        )
+        .duration(50)
+        .EUt(GTValues.VA[GTValues.UHV])
+
+    event.recipes.gtceu.centrifuge()
+        .inputFluids(
+            'gtceu:decursium_oxide 1000'
+        )
+        .chancedOutput('gtceu:small_decursium_dust', 2000, 0)
+        .outputFluids(
+            'gtceu:oxygen 550'
+        )
+        .duration(250)
+        .EUt(GTValues.VA[GTValues.UHV])
+
 })

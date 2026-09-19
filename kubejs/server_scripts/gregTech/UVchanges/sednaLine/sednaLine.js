@@ -111,13 +111,29 @@ ServerEvents.recipes((event) => {
         .duration(200)
         .circuit(3)
 
-    event.recipes.gtceu.large_chemical_reactor()
+    event.recipes.gtceu.large_chemical_reactor('recipeforthis1dfvcdef')
         .itemInputs(
             'gtceu:wetware_circuit_board',
             '4x gtceu:fine_sednium_wire'
         )
         .inputFluids(
             'gtceu:iron_iii_chloride 3500'
+        )
+        .itemOutputs(
+            '4x gtceu:wetware_printed_circuit_board'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(1200)
+        .circuit(24)
+        .cleanroom(CleanroomType.CLEANROOM)
+
+    event.recipes.gtceu.large_chemical_reactor('recipeforthis2hgchgchgc')
+        .itemInputs(
+            'gtceu:wetware_circuit_board',
+            '4x gtceu:fine_sednium_wire'
+        )
+        .inputFluids(
+            'gtceu:sodium_persulfate 7000'
         )
         .itemOutputs(
             '4x gtceu:wetware_printed_circuit_board'

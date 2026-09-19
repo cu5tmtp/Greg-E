@@ -15,6 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("precisionlaserengraver")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+    .recipeModifier(GTRecipeModifiers.OC_NON_PERFECT)
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("jjjjjjj", "abbabba", "abbabba", "abbabba", "abbabba", "aaaaaaa")
         .aisle("jeeeeej", "bfffffb", "bfffffb", "bfffffb", "bfffffb", "aaaaaaa")

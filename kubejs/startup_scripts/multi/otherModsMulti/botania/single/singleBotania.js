@@ -1,3 +1,4 @@
+/*
 GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
 
     event.create("magicalforge")
@@ -37,4 +38,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         })
 
 })
+*/
 
