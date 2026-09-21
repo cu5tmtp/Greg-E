@@ -15,22 +15,24 @@ ServerEvents.recipes((event) =>{
         }
     )
 
-    event.recipes.gtceu
-        .irradiator('irradiatorthatdamnpu')
+    event.recipes.gtceu.irradiator('irradiatorthatdamnpu')
         .itemInputs(
-            'kubejs:pu',
-            'kubejs:he'
+            'gtceu:plutonium_dust'
         )   
-        .itemOutputs('2x kubejs:cm')
+        .inputFluids(
+            'gtceu:helium 144'
+        )
+        .itemOutputs(
+            '2x gtceu:curiuum_dust'
+        )
         .duration(200)
-        .EUt(480)
+        .EUt(GTValues.VA[GTValues.HV])
 
-    event.recipes.gtceu
-        .irradiator('irradiatorthatdamnegg')
+    event.recipes.gtceu.irradiator('irradiatorthatdamnegg')
         .itemInputs(
             'kubejs:voidegg'
         )   
         .itemOutputs('kubejs:voideggopen')
         .duration(200)
-        .EUt(480)   
+        .EUt(GTValues.VA[GTValues.HV])
 });

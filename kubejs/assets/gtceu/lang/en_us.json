@@ -136,6 +136,8 @@
   "gtceu.induction_smelting": "Induction Smelter",
   "gtceu.waterwell": "Water Well",
 
+  "material.gtceu.curiuum": "Curium",
+  "material.gtceu.lithiumsix": "Lithium-6",
   "material.gtceu.predictionfluid": "Prediction Composition",
   "material.gtceu.sintercoke": "Sintercoke",
   "material.gtceu.nebulon_omega": "Nebulon-Omega",

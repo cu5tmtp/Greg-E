@@ -413,8 +413,8 @@
 				title: "Maaaaan, botania??"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]

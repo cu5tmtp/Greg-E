@@ -342,7 +342,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('5400K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('45%')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('40%')));
         }
     );
 
@@ -352,7 +352,7 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('7400K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('20%')));
+            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('25%')));
             text.add(3, Text.green('Coil parallels: ').append(Text.yellow('2')));
         }
     );

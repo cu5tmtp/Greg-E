@@ -19,9 +19,9 @@ ServerEvents.recipes((event) =>{
         .metalfurnace('metallurgingpu')
         .itemInputs(
             '6x gregecore:plutonium_hexafluoride_dust',
-            'kubejs:li'
+            'gtceu:lithiumsix_dust'
         )   
-        .itemOutputs('3x kubejs:pu')
+        .itemOutputs('3x gtceu:plutonium_dust')
         .duration(250)
         .EUt(480)
 

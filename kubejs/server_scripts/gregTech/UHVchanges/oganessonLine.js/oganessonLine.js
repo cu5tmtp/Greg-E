@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.linearaccel()
         .itemInputs(
-            'kubejs:cm'
+            'gtceu:curiuum_dust'
         )
         .inputFluids(
             'gtceu:alfa_particles 100'

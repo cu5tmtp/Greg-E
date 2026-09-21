@@ -6,7 +6,17 @@ ServerEvents.recipes((event) => {
             '2x gregecore:lithium_amalgamation_dust'
         )
         .itemOutputs(
-            '3x kubejs:li'
+            '3x gtceu:lithiumsix_dust'
+        )
+        .duration(100)
+        .EUt(480)
+
+    event.recipes.gtceu.mixer('howtogetpuf')
+        .itemInputs(
+            'kubejs:voiddust'
+        )   
+        .itemOutputs(
+            '4x gregecore:plutonium_hexafluoride_dust'
         )
         .duration(100)
         .EUt(480)

@@ -15,6 +15,7 @@ ServerEvents.recipes((event) =>{
         }
     )
 
+    /*
     event.recipes.gtceu
         .transformator('heliumapoule')
         .inputFluids('gtceu:helium 100')   
@@ -42,4 +43,67 @@ ServerEvents.recipes((event) =>{
         .itemOutputs('2x gregecore:plutonium_hexafluoride_dust')
         .duration(100)
         .EUt(480)
+    */
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:he'
+        )
+        .outputFluids(
+            'gtceu:helium 100'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:cm'
+        )
+        .itemOutputs(
+            'gtceu:curiuum_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:pu'
+        )
+        .itemOutputs(
+            'gtceu:plutonium_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:li'
+        )
+        .itemOutputs(
+            'gtceu:lithiumsix_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:li'
+        )
+        .itemOutputs(
+            'gtceu:lithiumsix_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:c'
+        )
+        .itemOutputs(
+            'gtceu:carbon_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+    
 });

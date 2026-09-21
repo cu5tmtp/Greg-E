@@ -17,8 +17,13 @@ ServerEvents.recipes((event) =>{
 
     event.recipes.gtceu
         .linearaccel('yayfinally')
-        .itemInputs('kubejs:cm', 'kubejs:c')   
-        .itemOutputs('kubejs:no')
+        .itemInputs(
+            'gtceu:curiuum_dust', 
+            'gtceu:carbon_dust'
+        )   
+        .itemOutputs(
+            'gregecore:small_nobelium_dust'
+        )
         .duration(100)
         .EUt(480)
         .cleanroom(CleanroomType.CLEANROOM)

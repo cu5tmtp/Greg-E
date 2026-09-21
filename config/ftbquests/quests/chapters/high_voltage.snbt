@@ -10,8 +10,8 @@
 		height: 5.0d
 		image: "kubejs:textures/quests/multiblocks.png"
 		rotation: 0.0d
-		width: 7.0d
-		x: -5.5d
+		width: 6.0d
+		x: -6.0d
 		y: 7.0d
 	}]
 	order_index: 4
@@ -437,21 +437,6 @@
 			y: 8.5d
 		}
 		{
-			id: "7D4DABB9E8E9C36C"
-			rewards: [{
-				id: "11AEFFCF3B40AF13"
-				item: "kubejs:cc"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2F1B6B4C521426A5"
-				item: "gtceu:transformator"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 8.5d
-		}
-		{
 			id: "7E6C27602D1E2EDE"
 			rewards: [{
 				id: "2B722D5B1807AC97"
@@ -463,7 +448,7 @@
 				item: "gtceu:metalfurnace"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 8.5d
 		}
 		{
@@ -478,7 +463,7 @@
 				item: "gtceu:irradiator"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
@@ -493,13 +478,17 @@
 				item: "gtceu:voidcrystal"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["1D668061E99D565B"]
 			description: [
 				"Fun little production line :)"
+				""
+				"Look at the recipes from the multiblocks in this chapter. You will need almost all of them."
+				""
+				"Also you get Small Piles of Nobelium, not the full dusts."
 				""
 				"It simulates how Nobelium is created in real life."
 			]
