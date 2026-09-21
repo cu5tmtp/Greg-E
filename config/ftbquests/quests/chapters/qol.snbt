@@ -763,6 +763,40 @@
 			x: -0.5d
 			y: -1.5d
 		}
+		{
+			description: ["Better terminals for all your Greggy needs!"]
+			id: "3ACCE23386822DC0"
+			tasks: [
+				{
+					id: "529A49ADE31B4357"
+					item: "gtceuterminal:multi_structure_manager"
+					type: "item"
+				}
+				{
+					id: "7F600391FB7F7971"
+					item: "gtceuterminal:schematic_interface"
+					type: "item"
+				}
+				{
+					id: "5E9F8D76C8F33D23"
+					item: "gtceuterminal:dismantler"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["Little tool with a lot of potential!"]
+			id: "19E828F703925685"
+			tasks: [{
+				id: "7BE84F22E68E726A"
+				item: "spatialtoolscmp:portable_spatial_tool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
 	]
 	title: "QOL"
 }

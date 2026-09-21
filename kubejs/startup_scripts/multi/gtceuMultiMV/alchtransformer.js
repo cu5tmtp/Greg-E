@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("alchtransformer")
     .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_dark_gray"))
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK, GTRecipeModifiers.PARALLEL_HATCH])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('AHHHHHA', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A', 'A#####A')
         .aisle('HB###BH', '#######', '#######', '#######', '#######', '#######', 'A#####A')

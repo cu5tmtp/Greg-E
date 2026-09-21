@@ -1270,7 +1270,6 @@ let emiBannedItems = [
     "item:enderio:impulse_hopper",
     "item:enderio:plant_matter_green",
     "item:enderio:plant_matter_brown",
-    "item:ae2:tiny_tnt",
     "item:gtceu:gravel_decursium_ore",
     "item:gtceu:basalt_decursium_ore",
     "item:gtceu:raw_decursium_block",

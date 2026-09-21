@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
             '4x gtceu:berkeliumish_dust'
         )
         .EUt(GTValues.VA[GTValues.UV])
-        .duration(500)
+        .duration(300)
 
     event.recipes.gtceu.centrifuge()
         .itemInputs(

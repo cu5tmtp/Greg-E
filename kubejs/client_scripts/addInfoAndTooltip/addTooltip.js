@@ -460,7 +460,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:planetarygassiphon',
             'gtceu:specialoreprocessingplant',
             'gtceu:zerogravmixer',
-            'gtceu:alchtransformer',
             'gtceu:analyzator',
             'gtceu:industrialfilter',
             'gtceu:laboratory',
@@ -474,13 +473,25 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'gtceu:alchtransformer',
+            'gtceu:voidminer',
+            'gregecore:netherdrillrig',
+            'gtceu:specializedcrystallizer',
+            'gtceu:atmosphericsampler',
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Abilities: Perfect Overclock, Subtick Overclock and Parallel Hatch.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gtceu:gasminer',
             'gtceu:irradiator',
             'gtceu:linearaccel',
             'gtceu:metalfurnace',
             'gtceu:transformator',
             'gtceu:voidcrystal',
-            'gtceu:voidminer',
             'gtceu:giant_squeezer'
         ],
         (item, advanced, text) => {
@@ -502,7 +513,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:twilightenergyconcentrator'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Ability: Subtick Overclock'));
+            text.add(1, Text.gray('Ability: Subtick Overclock.'));
         }
     );
 
@@ -517,10 +528,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:specmetheat',
             'gtceu:specthermalcentrifuge',
             'gtceu:insaniumtreatmentfacilty',
-            'gtceu:specializedcrystallizer',
             'gtceu:aeassembler',
             'gtceu:cleanfarmland',
-            'gtceu:atmosphericsampler',
             'gtceu:bacteriabreeder',
             'gtceu:bigdistillery',
             'gtceu:bigoven',
@@ -532,7 +541,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:tartarustower',
             'gtceu:magicalgarden',
             'gtceu:magicalassembler',
-            'gregecore:netherdrillrig'
         ],
         (item, advanced, text) => {
             text.add(1, Text.gray('Ability: Perfect Overclock.'));

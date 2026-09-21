@@ -380,7 +380,7 @@ ServerEvents.recipes((event) => {
             'gtceu:nano_processor_mainframe'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(700)
+        .duration(300)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.circuit_assembler('fvgrdfgfdg453534v35f4gvvggvydss')
@@ -396,7 +396,7 @@ ServerEvents.recipes((event) => {
             'gtceu:nano_processor_mainframe'
         )
         .EUt(GTValues.VA[GTValues.EV])
-        .duration(300)
+        .duration(700)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.gas_collector()
@@ -478,7 +478,7 @@ ServerEvents.recipes((event) => {
             'gtceu:quantum_processor_mainframe'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(700)
+        .duration(300)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.circuit_assembler('dsfvdfsv1xfxfdxfvc521g5f1yxa1b51nj')
@@ -494,7 +494,7 @@ ServerEvents.recipes((event) => {
             'gtceu:quantum_processor_mainframe'
         )
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(300)
+        .duration(700)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.gas_collector()

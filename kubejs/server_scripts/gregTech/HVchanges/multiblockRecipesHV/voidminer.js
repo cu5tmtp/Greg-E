@@ -15,8 +15,7 @@ ServerEvents.recipes((event) =>{
         }
     )
 
-    event.recipes.gtceu
-        .voidminer('voidustdrillfor')
+    event.recipes.gtceu.voidminer('voidustdrillfor')
         .inputFluids('kubejs:deepdrill 500')
         .notConsumable('gtceu:glass_lens')
         .itemOutputs('kubejs:voiddust')
@@ -24,8 +23,7 @@ ServerEvents.recipes((event) =>{
         .EUt(480)
         .circuit(1)
 
-    event.recipes.gtceu
-        .voidminer('voidtentacle')
+    event.recipes.gtceu.voidminer('voidtentacle')
         .inputFluids('kubejs:deepdrill 500')
         .notConsumable('gtceu:black_glass_lens')
         .itemOutputs('kubejs:voidtent')
@@ -33,8 +31,7 @@ ServerEvents.recipes((event) =>{
         .EUt(480)
         .circuit(1)
 
-    event.recipes.gtceu
-        .voidminer('oildrillforfueladastra')
+    event.recipes.gtceu.voidminer('oildrillforfueladastra')
         .inputFluids('kubejs:deepdrill 500')
         .notConsumable('gtceu:black_glass_lens')
         .outputFluids('ad_astra:oil 1000')
