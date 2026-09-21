@@ -129,6 +129,7 @@ StartupEvents.registry('item', event => {
     event.create('backpackplusoneslot').displayName('Backpack Slot')
     event.create('bioresistor').displayName('Bio-Resistor')
     event.create('biocapacitor').displayName('Bio-Capacitor')
+    event.create('emptyprediction').displayName('Empty Prediction')
 
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')

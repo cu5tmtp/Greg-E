@@ -141,6 +141,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('predictionfluid')
+        .fluid()
+        .color(0x2c2b2d)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     addFluid(GTMaterials.SodiumHydroxide, $FluidStorageKeys.LIQUID)
 
 });

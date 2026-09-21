@@ -72,6 +72,9 @@
   "block.gtceu.bigwitchcauldron": "Big Witch’s Cauldron",
   "gtceu.bigwitchcauldron": "Big Witch’s Cauldron",
 
+  "block.gtceu.twilightenergyconcentrator": "Twilight Energy Concentrator",
+  "gtceu.twilightenergyconcentrator": "Twilight Energy Concentrator",
+
   "block.gtceu.specializedassemblyline": "Specialized Assembly Line",
   "gtceu.specializedassemblyline": "Specialized Assembly Line",
 
@@ -133,6 +136,7 @@
   "gtceu.induction_smelting": "Induction Smelter",
   "gtceu.waterwell": "Water Well",
 
+  "material.gtceu.predictionfluid": "Prediction Composition",
   "material.gtceu.sintercoke": "Sintercoke",
   "material.gtceu.nebulon_omega": "Nebulon-Omega",
   "material.gtceu.nebulon_omega_dissolved": "Dissolved Nebulon-Omega",

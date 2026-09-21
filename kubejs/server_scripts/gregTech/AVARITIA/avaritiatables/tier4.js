@@ -373,7 +373,7 @@ ServerEvents.recipes((event) =>{
             item: 'gtceu:uhv_sensor'
         },
         E: {
-            item: 'gtceu:creative_chest'
+            item: 'avaritia:infinity_ingot'
         },
         F: {
             item: 'gtceu:neutronium_block'

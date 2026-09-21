@@ -89,13 +89,14 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.fission_reaction()
         .itemInputs(
-            '2x gtceu:long_retium_rod'
+            '4x gtceu:long_retium_rod'
         )
         .itemOutputs(
-            '2x gtceu:corelium_dust'
+            '4x gtceu:corelium_dust'
         )
-        .addData('heatgen', 250)
-        .duration(1000)
+        .addData('heatgen', 650)
+        .EUt(-GTValues.VA[GTValues.IV])
+        .duration(500)
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
@@ -149,13 +150,14 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.fission_reaction()
         .itemInputs(
-            '2x gtceu:long_syncrium_rod'
+            '4x gtceu:long_syncrium_rod'
         )
         .itemOutputs(
-            '2x gtceu:nectium_dust'
+            '4x gtceu:nectium_dust'
         )
-        .addData('heatgen', 350)
-        .duration(1000)
+        .addData('heatgen', 700)
+        .EUt(-GTValues.VA[GTValues.UV])
+        .duration(500)
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(

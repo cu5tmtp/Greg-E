@@ -493,7 +493,16 @@ ItemEvents.tooltip((event) => {
             'gtceu:evaporator'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Ability: Subtick Overclock and Parallel Hatch.'));
+            text.add(1, Text.gray('Abilities: Subtick Overclock and Parallel Hatch.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gtceu:twilightenergyconcentrator'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.gray('Ability: Subtick Overclock'));
         }
     );
 

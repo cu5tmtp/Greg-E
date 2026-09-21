@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'cataclysm:witherite_ingot',
-            B: 'gtceu:ruby_gem'
+            B: 'minecraft:redstone_block'
         }
     )
 
@@ -198,7 +198,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'gtceu:gold_ring',
-            B: 'gtceu:sapphire_gem'
+            B: 'minecraft:diamond'
         }
     )
 

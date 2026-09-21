@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
             'gregecore:shockproof_engine'
         )
         .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.assembler('getvibrationengine')
         .itemInputs(
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
             'gregecore:vibration_engine_intake'
         )
         .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.assembler()
         .itemInputs(
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
             'gregecore:solid_engine_intake'
         )
         .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.assembler()
         .itemInputs(
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
             'gregecore:assembly_engine_intake'
         )
         .duration(100)
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.LV])
 
 
     event.recipes.gtceu.assembler('getdraconiumfusioncasing')

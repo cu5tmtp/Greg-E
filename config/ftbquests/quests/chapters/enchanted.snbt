@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["771E45EEB84B4678"]
-			description: ["The items, when placed on the altar, will provide some sort of boost for it."]
+			description: ["These items, when placed on the altar, will provide some sort of boost for it."]
 			id: "2252AA1F0F27C2F7"
 			rewards: [{
 				id: "013441012E7B36E0"

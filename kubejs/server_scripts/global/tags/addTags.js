@@ -32,6 +32,8 @@ ServerEvents.tags('item', event => {
     event.add('grege:blood', 'gregecore:tinyblood')
     event.add('grege:blood', 'gregecore:mediumblood')
     event.add('grege:blood', 'gregecore:largeblood')
+
+    event.add('grege:predictions', 'hostilenetworks:prediction')
     
     event.add('forge:dusts/quicklime', 'enchanted:quicklime')
 
