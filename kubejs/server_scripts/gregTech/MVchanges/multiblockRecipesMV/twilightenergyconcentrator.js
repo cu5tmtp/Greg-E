@@ -1,5 +1,20 @@
 ServerEvents.recipes((event) => {
 
+    event.shaped(
+        Item.of('gtceu:twilightenergyconcentrator', 1),
+        [
+            'BCB',
+            'DAD',
+            'BCB'
+        ],
+        {
+            A: 'gtceu:mv_machine_hull',
+            B: 'kubejs:machine_casing_block_green',
+            C: 'gtceu:mv_electric_motor',
+            D: '#gtceu:circuits/mv'
+        }
+    )
+
     event.recipes.gtceu.extractor()
         .itemInputs(
             '#grege:predictions'

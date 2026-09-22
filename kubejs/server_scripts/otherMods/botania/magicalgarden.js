@@ -1,5 +1,20 @@
 ServerEvents.recipes((event) => {
 
+    event.shaped(
+        Item.of('gtceu:magicalgarden', 1),
+        [
+            'BCB',
+            'DAD',
+            'BCB'
+        ],
+        {
+            A: 'gtceu:lv_machine_hull',
+            B: 'minecraft:oak_wood',
+            C: 'gtceu:lv_electric_motor',
+            D: '#gtceu:circuits/lv'
+        }
+    )
+
     const mycolors = [
         { input: 'botania:white_petal', output: '4x botania:white_mystical_flower' },
         { input: 'botania:orange_petal', output: '4x botania:orange_mystical_flower' },

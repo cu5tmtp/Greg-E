@@ -43,6 +43,190 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'bloodmagic:speedrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases all of the crafting operations in the Blood Altar.'));
+            text.add(2, Text.red('20% additive speed per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:speedrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases all of the crafting operations in the Blood Altar.'));
+            text.add(2, Text.red('40% additive speed per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:sacrificerune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood from health from non-player entities.'));
+            text.add(2, Text.red('10% additive amount of blood per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:sacrificerune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood from health from non-player entities.'));
+            text.add(2, Text.red('20% additive amount of blood per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:selfsacrificerune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood from health from player.'));
+            text.add(2, Text.red('10% additive amount of blood per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:selfsacrificerune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood from health from player.'));
+            text.add(2, Text.red('20% additive amount of blood per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:dislocationrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood flowing in and out of altar.'));
+            text.add(2, Text.red('20% multiplicatively per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:dislocationrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood flowing in and out of altar.'));
+            text.add(2, Text.red('40% multiplicatively per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:altarcapacityrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
+            text.add(2, Text.red('20% additive per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:altarcapacityrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
+            text.add(2, Text.red('40% additive per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:bettercapacityrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
+            text.add(2, Text.red('7.5% multiplicatively per rune.'));
+            text.add(3, Text.red('Applies after Capacity Rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:bettercapacityrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
+            text.add(2, Text.red('15% multiplicatively per rune.'));
+            text.add(3, Text.red('Applies after Capacity Rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:orbcapacityrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the capacity of Blood Orb in altar.'));
+            text.add(2, Text.red('2% additive per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:orbcapacityrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Increases the capacity of Blood Orb in altar.'));
+            text.add(2, Text.red('4% additive per rune.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:accelerationrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Decreases the time one operation takes in the Blood Altar.'));
+            text.add(2, Text.red('1 tick reduction.'));
+            text.add(3, Text.red('Maximum 19 runes in one Blood Altar.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:accelerationrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Decreases the time one operation takes in the Blood Altar.'));
+            text.add(2, Text.red('2 tick reduction.'));
+            text.add(3, Text.red('Maximum 9 runes in one Blood Altar.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:chargingrune'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Stores Blood in the internal buffer of the Blood Altar.'));
+            text.add(2, Text.red('1000 LP per Rune, then multiplied by (Capacity of Blood Altar)/20000.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'bloodmagic:chargingrune2'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.red('Stores Blood in the internal buffer of the Blood Altar.'));
+            text.add(2, Text.red('2000 LP per Rune, then multiplied by (Capacity of Blood Altar)/20000.'));
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:vending_machine'
         ],
         (item, advanced, text) => {
