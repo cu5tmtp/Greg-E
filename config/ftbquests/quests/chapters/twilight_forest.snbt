@@ -39,7 +39,11 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [""]
+			description: [
+				"Found in a Naga Courtyard."
+				""
+				"Use Explorer Compass to find the structures faster."
+			]
 			hide_until_deps_visible: true
 			id: "3531B28F14CF72A2"
 			rewards: [{
@@ -57,7 +61,7 @@
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
-			description: [""]
+			description: ["Found in a Lich Tower."]
 			id: "0107D516E038E0DB"
 			rewards: [{
 				id: "623AA95AC2B9105F"
@@ -74,7 +78,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [""]
+			description: ["Found in a Labyrinth."]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "04440BB2EFFD6DD9"
 			rewards: [{
@@ -92,7 +96,7 @@
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: [""]
+			description: ["Found in a Hydra Lair."]
 			id: "7026E46FD8B3A81D"
 			rewards: [{
 				id: "4F7E4318ABA26559"
@@ -109,7 +113,7 @@
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
-			description: [""]
+			description: ["Found in a Knight Stronghold."]
 			id: "3DCF26B53AE1EBF6"
 			rewards: [{
 				id: "47B768F890BA2E24"
@@ -126,7 +130,7 @@
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: [""]
+			description: ["Found in a Dark Tower."]
 			id: "688C911ECFB2F134"
 			rewards: [{
 				id: "6D1796752E5E823B"
@@ -143,7 +147,7 @@
 		}
 		{
 			dependencies: ["45FF5E769CC5D057"]
-			description: [""]
+			description: ["Found in a Aurora Tower."]
 			id: "6FD41DF7704466A4"
 			rewards: [{
 				id: "5B3F4BCC2CC0E3A5"
@@ -275,6 +279,7 @@
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
+			description: ["Found in a Yeti Cave."]
 			id: "45FF5E769CC5D057"
 			rewards: [{
 				id: "5BD93163E9A86123"
