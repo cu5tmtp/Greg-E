@@ -22,6 +22,7 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals' })
     event.remove({ id: 'ad_astra:coal_generator' }),
     event.remove({ id: 'ad_astra:compressor' }),
+    event.remove({ id: 'ad_astra:large_gas_tank' })
 
     event.remove({ id: 'ad_extendra:nasa_workbench/tier_5_rocket_from_nasa_workbench' })
     event.remove({ id: 'ad_extendra:nasa_workbench/tier_6_rocket_from_nasa_workbench' })
@@ -69,6 +70,22 @@ ServerEvents.recipes((event) => {
         )
         .itemOutputs(
             'ad_astra:gas_tank'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 288'
+        )
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150)
+        .circuit(16)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'ad_astra:gas_tank',
+            'gtceu:steel_rod',
+            '4x gtceu:steel_plate'
+        )
+        .itemOutputs(
+            'ad_astra:large_gas_tank'
         )
         .inputFluids(
             'gtceu:soldering_alloy 288'
