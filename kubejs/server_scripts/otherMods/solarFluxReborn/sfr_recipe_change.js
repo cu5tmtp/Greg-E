@@ -366,7 +366,7 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'gtceu:solar_bronze_plate',
-            B: '#gtceu:circuits/mv',
+            B: '#gtceu:circuits/hv',
             C: 'solarflux:blank_upgrade'
         }
     )
@@ -380,27 +380,13 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'gtceu:solar_bronze_plate',
-            B: '#gtceu:circuits/hv',
-            C: 'solarflux:blank_upgrade'
-        }
-    )
-
-    event.shaped(
-        Item.of('solarflux:efficiency_upgrade', 8),
-        [
-            'CAC',
-            'ABA',
-            'CAC'
-        ],
-        {
-            A: 'gtceu:solar_bronze_plate',
             B: '#gtceu:circuits/ev',
             C: 'solarflux:blank_upgrade'
         }
     )
 
     event.shaped(
-        Item.of('solarflux:efficiency_upgrade', 16),
+        Item.of('solarflux:efficiency_upgrade', 8),
         [
             'CAC',
             'ABA',
