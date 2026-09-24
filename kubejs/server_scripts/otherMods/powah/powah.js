@@ -120,11 +120,36 @@ ServerEvents.recipes((event) => {
         'gtceu:sintercoke_ingot'
     )
 
-    event.replaceInput(
-        'powah:crafting/thermoelectric_plate',
-        'minecraft:blaze_powder',
-        'minecraft:copper_ingot'
-    )
+    event.remove({ id: 'powah:crafting/thermoelectric_plate' })
+    event.shaped('3x powah:thermoelectric_plate', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'minecraft:copper_ingot',
+        B: 'minecraft:redstone',
+        C: 'powah:capacitor_basic_tiny',
+    })
+
+    event.remove({ id: 'powah:crafting/dielectric_rod' })
+    event.shaped('16x powah:dielectric_rod', [
+        'AAA',
+        'BBB',
+        'AAA'
+    ], {
+        A: 'powah:dielectric_paste',
+        B: 'minecraft:iron_bars'
+    })
+
+    event.remove({ id: 'powah:crafting/dielectric_rod_h' })
+    event.shaped('16x powah:dielectric_rod_horizontal', [
+        'ABA',
+        'ABA',
+        'ABA'
+    ], {
+        A: 'powah:dielectric_paste',
+        B: 'minecraft:iron_bars'
+    })
 
     event.recipes.powah.energizing(
         ['minecraft:emerald_block'],

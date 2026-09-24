@@ -63,4 +63,16 @@ ServerEvents.recipes((event) =>{
         .duration(100)
         .EUt(480)
         .circuit(6)
+
+    event.recipes.gtceu.centrifuge('howtogetpuf222')
+        .itemInputs(
+            'kubejs:voiddust'
+        )   
+        .itemOutputs(
+            '4x gregecore:plutonium_hexafluoride_dust'
+        )
+        .duration(100)
+        .EUt(480)
+        .circuit(7)
+
 })

@@ -41,7 +41,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.pressuring()
         .itemInputs(
-            '8x powah:dielectric_paste'
+            '8x powah:dielectric_paste',
+            'iron_ingot'
         )
         .itemOutputs(
             '3x gtceu:dielectric_ingot'

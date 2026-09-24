@@ -11,14 +11,4 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .EUt(480)
 
-    event.recipes.gtceu.mixer('howtogetpuf')
-        .itemInputs(
-            'kubejs:voiddust'
-        )   
-        .itemOutputs(
-            '4x gregecore:plutonium_hexafluoride_dust'
-        )
-        .duration(100)
-        .EUt(480)
-
 })

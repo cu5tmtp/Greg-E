@@ -105,5 +105,16 @@ ServerEvents.recipes((event) =>{
         .duration(1)
         .EUt(GTValues.VA[GTValues.LV])
 
+    event.recipes.gtceu.transformator()
+        .itemInputs(
+            'kubejs:no'
+        )
+        .itemOutputs(
+            'gregecore:small_nobelium_dust'
+        )
+        .duration(1)
+        .EUt(GTValues.VA[GTValues.LV])
+
+
     
 });
