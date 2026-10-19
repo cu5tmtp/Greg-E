@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .EUt(30)
 
-    event.recipes.gtceu.extractor()
+    event.recipes.gtceu.electrolyzer()
         .itemInputs(
             Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:cow"}}').weakNBT()
         )

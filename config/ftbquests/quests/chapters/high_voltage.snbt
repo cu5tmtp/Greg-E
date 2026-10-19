@@ -523,6 +523,7 @@
 				"5) You're in the End"
 				"6) Get Ender Air and distill it"
 			]
+			icon: "gtceu:helium_bucket"
 			id: "1D668061E99D565B"
 			rewards: [{
 				id: "12B51A53C3C1BFDE"
@@ -530,11 +531,18 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "2305B8BEC5DD0060"
-				item: "kubejs:he"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7854C052C5926F27"
+					item: "gtceu:helium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19C5F1EDAD3DA658"
+					type: "checkmark"
+				}
+			]
 			x: 10.0d
 			y: 6.5d
 		}

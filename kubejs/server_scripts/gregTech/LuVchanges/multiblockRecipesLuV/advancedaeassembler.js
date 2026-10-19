@@ -100,15 +100,15 @@ processors.forEach(p => {
     });
 
     const componentsFaster = [
-        { glass: 'ae2:quartz_glass', dust: 'minecraft:redstone', prev: 'ae2:cell_component_1k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_4k', c: 16, matSkip: '3x gtceu:refined_fluix_frame' },
-        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_4k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_16k', c: 16, matSkip: '3x gtceu:enhanced_fluix_frame' },
-        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_16k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_64k', c: 16, matSkip: '3x gtceu:end_certus_quartz_frame' },
-        { glass: 'ae2:quartz_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_64k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_256k', c: 16, matSkip: '3x gtceu:venus_certus_quartz_frame' },
-        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_256k', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_1m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
-        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_1m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_4m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
-        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_4m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_16m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
-        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_16m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_64m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' },
-        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_64m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_256m', c: 16, matSkip: '3x gtceu:magical_certus_quartz_frame' }
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:redstone', prev: 'ae2:cell_component_1k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_4k', c: 24, matSkip: '3x gtceu:refined_fluix_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_4k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_16k', c: 24, matSkip: '3x gtceu:enhanced_fluix_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'minecraft:glowstone_dust', prev: 'ae2:cell_component_16k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_64k', c: 24, matSkip: '3x gtceu:end_certus_quartz_frame' },
+        { glass: 'ae2:quartz_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_64k', proc: 'ae2:calculation_processor', out: 'ae2:cell_component_256k', c: 24, matSkip: '3x gtceu:venus_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:sky_dust', prev: 'ae2:cell_component_256k', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_1m', c: 24, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_1m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_4m', c: 24, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: '#forge:dusts/ender_pearl', prev: 'megacells:cell_component_4m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_16m', c: 24, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_16m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_64m', c: 24, matSkip: '3x gtceu:magical_certus_quartz_frame' },
+        { glass: 'ae2:quartz_vibrant_glass', dust: 'ae2:matter_ball', prev: 'megacells:cell_component_64m', proc: 'megacells:accumulation_processor', out: 'megacells:cell_component_256m', c: 24, matSkip: '3x gtceu:magical_certus_quartz_frame' }
     ];
 
     componentsFaster.forEach(c => {

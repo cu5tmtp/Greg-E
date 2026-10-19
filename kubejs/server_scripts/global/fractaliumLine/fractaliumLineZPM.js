@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
         .inputFluids(
             'gtceu:fluorine 1000',
             'gtceu:voidium 1500',
-            'gtceu:hydrogen 500'
+            'gtceu:nitrogen 500'
         )
         .outputFluids(
             'gtceu:fluorovoidic_acid 1000'
