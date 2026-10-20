@@ -131,15 +131,18 @@ StartupEvents.registry('item', event => {
     event.create('biocapacitor').displayName('Bio-Capacitor')
     event.create('emptyprediction').displayName('Empty Prediction')
 
+    event.create('animated/morpher').displayName('Space-Time Anomaly')
+    event.create('animated/thatfrombehind').displayName('That From Behind The Veil')
+
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')
     event.create('quarterthree').displayName('Future')
     event.create('quarterfour').displayName('???')
 
     event.create('euclid/elementium').displayName('Omni-Alloy')
-    event.create('euclid/elementiumone').displayName('Omni-Alloy Part One')
-    event.create('euclid/elementiumtwo').displayName('Omni-Alloy Part Two')
-    event.create('euclid/elementiumthree').displayName('Omni-Alloy Part Three')
+    event.create('euclid/elementiumone').displayName('Omni-Alloy Part I')
+    event.create('euclid/elementiumtwo').displayName('Omni-Alloy Part II')
+    event.create('euclid/elementiumthree').displayName('Omni-Alloy Part III')
     event.create('euclid/quarrystar').displayName('Fractured-Star')
     event.create('euclid/nullingot').displayName('.//null')
     event.create('euclid/euclid_circuit').displayName('Basic Euclid Circuit')
