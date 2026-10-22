@@ -105,7 +105,7 @@
 		}
 		{
 			dependencies: ["1E327381D3FB9CAA"]
-			description: ["If you want to complete this pack in a normal amount of time, get this multiblock. If you dont want to, get ready to spam assembly lines."]
+			description: ["{quest.grege.avaritia1}"]
 			id: "04BAB1AF2E370022"
 			rewards: [{
 				id: "0E6A5DFD182D3637"
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["29E007A7BC7E6B4E"]
-			description: ["Automating Extreme table is very easy with this. Place it next to a ME packaging provider, and put the pattern into that."]
+			description: ["{quest.grege.avaritia2}"]
 			id: "309B7134B2CDC66D"
 			rewards: [{
 				id: "0E71D6843B09B764"
@@ -155,7 +155,7 @@
 		}
 		{
 			dependencies: ["3814078428FC7AC9"]
-			description: ["Be prepared - this requires that you do everything."]
+			description: ["{quest.grege.avaritia3}"]
 			id: "3B6843F5FDB109B8"
 			rewards: [{
 				id: "639C46BA0FEE3CE3"
@@ -200,9 +200,7 @@
 		{
 			dependencies: ["3B6843F5FDB109B8"]
 			description: [
-				"Well done!"
-				""
-				"This armor marks the end of the modpack and there definetly isn't another act!"
+				"{quest.grege.avaritia4}"
 			]
 			id: "73EE77DC13D01ED7"
 			rewards: [{
@@ -268,7 +266,7 @@
 		}
 		{
 			dependencies: ["433308CADCABF703"]
-			description: ["Last tier of energy hatches!"]
+			description: ["{quest.grege.avaritia5}"]
 			id: "7B182B011D77AFE9"
 			rewards: [{
 				id: "19F815553CDE68FD"
@@ -285,11 +283,7 @@
 		}
 		{
 			dependencies: ["73EE77DC13D01ED7"]
-			description: [
-				".....he...lo?...."
-				""
-				"...an..one...the...e?"
-			]
+			description: ["{quest.grege.avaritia6}"]
 			hide_until_deps_complete: true
 			icon: "ad_astra:radio"
 			id: "7F51CADDE4E91E5E"
@@ -303,13 +297,7 @@
 		}
 		{
 			dependencies: ["7F51CADDE4E91E5E"]
-			description: [
-				"Make....rea...ity......fra....re.....engine....."
-				""
-				"Trave.....to.....&4Fractured Lands&r......"
-				""
-				"Fin.......the......ans.....wers.....there...."
-			]
+			description: ["{quest.grege.avaritia7}"]
 			hide_until_deps_complete: true
 			icon: "ad_astra:radio"
 			id: "0C2221B77B832113"
@@ -323,7 +311,7 @@
 		}
 		{
 			dependencies: ["1E327381D3FB9CAA"]
-			description: ["Right click with the Wand to awaken a allowed block, then capture it and spawn it again and again to get the block drop!"]
+			description: ["{quest.grege.avaritia8}"]
 			id: "3814078428FC7AC9"
 			tasks: [
 				{

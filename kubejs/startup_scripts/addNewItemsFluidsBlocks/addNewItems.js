@@ -133,6 +133,7 @@ StartupEvents.registry('item', event => {
 
     event.create('animated/morpher').displayName('Space-Time Anomaly')
     event.create('animated/thatfrombehind').displayName('That From Behind The Veil')
+    event.create('animated/tools').displayName('Morphed Tools')
 
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')

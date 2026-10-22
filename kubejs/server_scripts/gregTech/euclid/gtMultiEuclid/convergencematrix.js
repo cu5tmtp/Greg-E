@@ -17,6 +17,4 @@ ServerEvents.recipes((event) => {
             'gtceu:atomic_casing'
         )
         .duration(30000000)
-
-
 })

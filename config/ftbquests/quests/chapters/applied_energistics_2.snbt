@@ -489,8 +489,8 @@
 		{
 			dependencies: ["2B31E6C1707D8195"]
 			description: [
-				"You can combine terminals in any crafting table."
-				"I recommend combining crafting terminal, pattern encoding terminal and extended pattern access terminal."
+				"{quest.grege.ae1}",
+				"{quest.grege.ae2}"
 			]
 			id: "16299B9AE87257DC"
 			rewards: [{
@@ -572,7 +572,7 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["If you want challenge, use channels. I won't blame you if you won't!"]
+			description: ["{quest.grege.ae3}"]
 			id: "799B2C10605FF2C1"
 			rewards: [
 				{
@@ -597,7 +597,7 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["This mod features direct link between ProjectE and AE2. Place this item anywhere on your network, and you will be able to see your EMC in AE2. Also this is way better on your world stability over using storage bus on transmutation interface."]
+			description: ["{quest.grege.ae4}"]
 			id: "44022D055063DE74"
 			rewards: [{
 				id: "391661C958416CEF"
@@ -615,7 +615,7 @@
 		}
 		{
 			dependencies: ["4597D3B3BDC2BED5"]
-			description: ["Put this in pattern provider next to a GT machine. Then you can start using circuits (meaning circuit 1, cirucit 2) in recipes, meaning that machine is not locked into doing only 1 circuit recipes."]
+			description: ["{quest.grege.ae5}"]
 			id: "36DA4A4EA8ED8DC0"
 			rewards: [{
 				id: "319179BDA04AA7B7"
@@ -633,7 +633,7 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["This block is used to automatically request crafts from your AE2 system."]
+			description: ["{quest.grege.ae6}"]
 			id: "0EBB75DE2B6142B5"
 			rewards: [{
 				id: "183A3B2BAC73CA7A"
@@ -650,7 +650,7 @@
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
-			description: ["This block is more useful than you think - it can instantly put items in your network, output them and also if you put storage bus on this block, you have a recursive storage system! Very useful for Assembly Line automation."]
+			description: ["{quest.grege.ae7}"]
 			id: "7F2E2CA9BEC549E1"
 			rewards: [{
 				id: "779B5B6E3343BF92"
@@ -679,10 +679,10 @@
 		{
 			dependencies: ["777B90FCD2A91628"]
 			description: [
-				"You can get these blocks 2 ways:"
-				""
-				"1) ULV machine, that is very cheap, recommended for the start"
-				"2) Assemblers, these are more expensive to get, but it scales better."
+				"{quest.grege.ae8}",
+				"{quest.grege.blank}",
+				"{quest.grege.ae9}",
+				"{quest.grege.ae10}"
 			]
 			id: "3DAEC53352F804FA"
 			tasks: [
@@ -702,7 +702,7 @@
 		}
 		{
 			dependencies: ["16299B9AE87257DC"]
-			description: ["This terminal contains all of the other terminals in 1 single page. It might seem overwhelming at first, but this will help you with AE2 stuff."]
+			description: ["{quest.grege.ae11}"]
 			id: "5BA3E6D90F5AA62A"
 			tasks: [{
 				id: "106DE41651DB5D00"

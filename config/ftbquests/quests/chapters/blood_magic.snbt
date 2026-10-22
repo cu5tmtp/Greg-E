@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Get the altar, its your 'crafting' bench for this mod. Look in the book for the correct multiblock placement."]
+			description: ["{quest.grege.bloodmagic1}"]
 			id: "61FFFBD9D57C59E9"
 			rewards: [{
 				id: "22CB05A427C5D792"
@@ -39,11 +39,7 @@
 		}
 		{
 			dependencies: ["6917575637E01ECE"]
-			description: [
-				"I recommend getting 2 altars. One is for generating blood (max it out on runes of sacrifice, then combination of transfer, capacity and acceleration runes), the other for crafting - acceleration, capacity runes will be your friend."
-				""
-				"You can check the maximum amounts of runes in the Blood Magic book."
-			]
+			description: ["{quest.grege.bloodmagic2}"]
 			id: "5200F7792C378575"
 			rewards: [{
 				id: "6715C0FB645A6B28"
@@ -60,15 +56,7 @@
 		}
 		{
 			dependencies: ["61FFFBD9D57C59E9"]
-			description: [
-				"You can start off Blood Magic with this."
-				""
-				"This is the best way to generate blood. Give it fully maxed out model (you can see which ones are really good if you right click Virtual Sacrificer, more energy = more blood)."
-				""
-				"Also check out the catalyst, those give you multipliers on the blood recieved (-1 uses means its infinite). You can have multiple Sacrificers per altar."
-				""
-				"To bind a Sacrificer to a altar, make a wrench from the same mod, and shift+right click the altar, then right click the Sacrificer."
-			]
+			description: ["{quest.grege.bloodmagic3}"]
 			id: "5F9E4A0D889D77F0"
 			rewards: [{
 				id: "753A97639F9E00B8"
@@ -85,11 +73,7 @@
 		}
 		{
 			dependencies: ["61FFFBD9D57C59E9"]
-			description: [
-				"This is the original way to get started on your Blood Altar."
-				""
-				"Right click this to get blood in your altar. It drains HP, but there are multiple ways to regenerate that fast."
-			]
+			description: ["{quest.grege.bloodmagic4}"]
 			id: "3D14ABE6B08AB394"
 			rewards: [{
 				id: "2F6E25A2424FF4A1"
@@ -131,7 +115,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Place 8 Blank Runes in a ring below the altar."
+				"{quest.grege.bloodmagic5}"
 				""
 				"{image:kubejs:textures/quests/altar2.png width:150 height:100 align:center}"
 			]
@@ -147,10 +131,7 @@
 		{
 			dependencies: ["64EAABE2C3F1D3A7"]
 			description: [
-				"Add another ring, then add Stone Bricks with Glowstone on top."
-				""
-				"Remember, you can change the Blank Runes to any other rune that gives a bonus to the altar."
-				"The abilities of the runes are described in their tooltips, you can also check the book for better description."
+				"{quest.grege.bloodmagic6}"
 				""
 				"{image:kubejs:textures/quests/altar3.png width:150 height:100 align:center}"
 			]
@@ -169,7 +150,7 @@
 				"7FA3936441742AB9"
 			]
 			description: [
-				"Add another ring of runes, with Stone Bricks and Large Bloodstone Tiles on top."
+				"{quest.grege.bloodmagic7}"
 				""
 				"{image:kubejs:textures/quests/altar4.png width:150 height:100 align:center}"
 			]
@@ -188,9 +169,7 @@
 				"07B47CEFC2A4465F"
 			]
 			description: [
-				"The last tier of the altar."
-				""
-				"The gap between the last rings are 2 blocks! Also the edge blocks are from Demonite."
+				"{quest.grege.bloodmagic8}"
 				""
 				"{image:kubejs:textures/quests/altar5.png width:150 height:120 align:center}"
 			]
@@ -205,7 +184,7 @@
 		}
 		{
 			dependencies: ["64EAABE2C3F1D3A7"]
-			description: ["With this item, you can check the tier and stored blood in your altar."]
+			description: ["{quest.grege.bloodmagic9}"]
 			id: "53C75605DF070CB7"
 			tasks: [{
 				id: "5F6852BE997EFB3E"
@@ -217,18 +196,7 @@
 		}
 		{
 			dependencies: ["116822CE750D3639"]
-			description: [
-				"How to get this fruit?"
-				""
-				"1) Get a Ritual Diviner"
-				"2) Shift+Right Click it until it say Edge of the Hidden Realm"
-				"3) Make a Master Ritual Stone and some Ritual Stones"
-				"4) Right click the Master with Ritual Diviner to assemble the ritual."
-				"5) Right click the Master with Ritual Activator (You need to have enough LP in your blood network - place Orb in a Altar to charge it)"
-				"6) Get inside the dungeon, unlock the doors with keys, and get a Tau Fruit"
-				"7) Place the Tau Fruit, then make a animal stand upon it, it will die and feed the fruit. You might need to repeat it a few times, the fruit damages the animal when it grows."
-				"8) You can harvest the Saturated Tau Fruit now!"
-			]
+			description: ["{quest.grege.bloodmagic10}"]
 			id: "7FA3936441742AB9"
 			tasks: [{
 				id: "28C0185AEB620DD8"
@@ -240,17 +208,7 @@
 		}
 		{
 			dependencies: ["2CC40C44B9A38134"]
-			description: [
-				"How to get this?"
-				""
-				"Its similar to Tau Fruit, you need to find it in a dungeon."
-				""
-				"1) Upgrade your Ritual Diviner to Ritual Diviner [Dusk]"
-				"2) Change it to Pathway to the Endless Realm ritual"
-				"3) Assemble the ritual and start it"
-				"4) Find special key (Foreman's or Miner's) in chests, then find the special room"
-				"5) Mine the ore! (you can double it)"
-			]
+			description: ["{quest.grege.bloodmagic11}"]
 			id: "07B47CEFC2A4465F"
 			tasks: [{
 				id: "0BF7FCF8B4D0CC64"

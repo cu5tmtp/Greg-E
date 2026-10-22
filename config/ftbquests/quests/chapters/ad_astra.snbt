@@ -122,7 +122,7 @@
 		}
 		{
 			dependencies: ["7C9AE01973242410"]
-			description: ["Put Ad Astra's oil in this machine, you will get fuel for rockets, even if EMI doesn't show it."]
+			description: ["{quest.grege.adastra1}"]
 			icon: "ad_astra:fuel_refinery"
 			id: "4785659E5022FEE7"
 			rewards: [{
@@ -141,7 +141,7 @@
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
-			description: ["Get this armor to survive on the planet."]
+			description: ["{quest.grege.adastra2}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["7C9AE01973242410"]
-			description: ["Place oxygen in the oxygen loader, then put in the spacesuit or oxygen tank you want to fill and it fills up automatically!"]
+			description: ["{quest.grege.adastra3}]
 			id: "12AC846277F88F3D"
 			rewards: [{
 				id: "62B17BAEAD4C08C5"
@@ -364,7 +364,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["Hope you like rockets :)"]
+			description: ["{quest.grege.adastra4}]
 			id: "7C9AE01973242410"
 			rewards: [{
 				id: "416BB0F0FDBCAC4F"
@@ -382,7 +382,7 @@
 		}
 		{
 			dependencies: ["438E233A9014DA73"]
-			description: ["3rd tier of Magical Coils."]
+			description: ["{quest.grege.adastra5}]
 			id: "370B0622AED33FC4"
 			rewards: [{
 				id: "4C558DD1BEE80E00"
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["7CA42B3CA84A21B5"]
-			description: ["Mercury is optional for now, in LuV you need to visit though."]
+			description: ["{quest.grege.adastra6}"]
 			icon: "ad_astra:mercury_globe"
 			id: "3AD8032D75DDB50D"
 			rewards: [{
@@ -484,7 +484,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["This Ad Astra addon unlocks in LuV."]
+			description: ["{quest.grege.adastra7}"]
 			id: "3492204F73657F99"
 			rewards: [{
 				id: "6652137E502897F7"
@@ -501,7 +501,7 @@
 		}
 		{
 			dependencies: ["3492204F73657F99"]
-			description: ["Use Tier 4 rocket to get here."]
+			description: ["{quest.grege.adastra8}"]
 			icon: "ad_extendra:jupiter_globe"
 			id: "26901950F02E83F3"
 			rewards: [{
@@ -650,7 +650,7 @@
 		}
 		{
 			dependencies: ["438E233A9014DA73"]
-			description: ["The Ad Astra's raw ores are actually duplicable via Botania, even though its pretty expensive."]
+			description: ["{quest.grege.adastra9}"]
 			id: "028A83967A3AD437"
 			rewards: [{
 				id: "70EA87DF3FD84432"
@@ -778,10 +778,10 @@
 		}
 		{
 			description: [
-				"This addon adds few useful items:"
-				""
-				"1) Enchantments for your armor to survive in space."
-				"2) Fuel loader."
+				"{quest.grege.adastra10}",
+				"{quest.grege.blank}",
+				"{quest.grege.adastra11}",
+				"{quest.grege.adastra12}"
 			]
 			id: "0CD24B78F5E98512"
 			tasks: [{
@@ -817,15 +817,7 @@
 		{
 			dependencies: ["0CD24B78F5E98512"]
 			description: [
-				"There is:"
-				""
-				"1) Space Breathing"
-				"2) Space Fire Proof"
-				"3) Acid Rain Proof"
-				"4) Gravity Normalizing"
-				""
-				"Each gets unlocked at a different planet."
-				"Or enchanting maybe?..."
+				"{quest.grege.adastra13}"
 			]
 			id: "79E2A00525A8FBF2"
 			tasks: [{

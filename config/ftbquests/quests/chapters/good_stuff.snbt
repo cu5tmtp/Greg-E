@@ -42,22 +42,46 @@
 		}
 		{
 			dependencies: ["767B0154C41FE771"]
+			description: [
+				"These form the outer shell."
+				""
+				"Frame blocks need to be on the edge, wall on the inside."
+				""
+				"Hold G over the item to open the guide."
+			]
 			id: "43F53FF551641773"
 			rewards: [{
 				id: "17C00D5EB2F722CC"
 				item: "kubejs:cc"
 				type: "item"
 			}]
-			tasks: [{
-				id: "20346CD014933AA6"
-				item: "expatternprovider:assembler_matrix_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20346CD014933AA6"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "0A3E946A20430C2E"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "3D69E9AA6B946CB4"
+					item: "expatternprovider:assembler_matrix_glass"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["01E51F98F9D04AEC"]
+			description: [
+				"Core of the multiblock, can work on its own but when you make the full multiblock, gets so much better."
+				""
+				"Maximum size is 7x7x7."
+			]
 			id: "5E9B4EC518EE1232"
 			rewards: [{
 				id: "60404D09B1E871DD"
@@ -103,6 +127,86 @@
 			}]
 			x: -2.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["43F53FF551641773"]
+			description: ["Maximum of 5 in 1 matrix assembler, more does nothing."]
+			id: "607D79CB888B77C9"
+			tasks: [{
+				id: "3A98C435539D77AB"
+				item: "expatternprovider:assembler_matrix_speed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43F53FF551641773"]
+			description: ["Each of these inside a Matrix Assembler adds 36 pattern spaces."]
+			id: "6783392D58622277"
+			tasks: [{
+				id: "0371BF45D2CE3F24"
+				item: "expatternprovider:assembler_matrix_pattern"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43F53FF551641773"]
+			description: ["Each of these can do 8 jobs at once."]
+			id: "5E0A9CC46106E0DF"
+			tasks: [{
+				id: "29480EFFA2FD3EC2"
+				item: "expatternprovider:assembler_matrix_crafter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["194D1B1226F18E3C"]
+			id: "0387D66DEDF1F255"
+			tasks: [{
+				id: "03075EA36207713D"
+				item: "advanced_ae:quantum_multi_threader"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E9B4EC518EE1232"]
+			id: "194D1B1226F18E3C"
+			tasks: [{
+				id: "3F6C07864C37DB89"
+				item: "advanced_ae:quantum_accelerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E9B4EC518EE1232"]
+			id: "742B99E34F90787B"
+			tasks: [{
+				id: "3A2B07F73AB17ACC"
+				item: "advanced_ae:quantum_storage_256"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["742B99E34F90787B"]
+			id: "3EDC813F9B37691A"
+			tasks: [{
+				id: "777DA5E507A4D253"
+				item: "advanced_ae:data_entangler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	title: "AE2 - Advanced"
