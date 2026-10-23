@@ -784,14 +784,7 @@
 		}
 		{
 			dependencies: ["5241693278027FFD"]
-			description: [
-				"How to get to the nether:"
-				"1) Get 10 Titanium Blocks"
-				"2) Get EV robotic arm"
-				"3) Make a nether portal shape out of Titanium Blocks"
-				"4) Use the EV robotic arm as a lighter"
-				"5) You're in the nether!"
-			]
+			description: ["{quest.grege.ev1}"]
 			icon: "minecraft:netherrack"
 			id: "72113C2A16D3AB1B"
 			rewards: [{
@@ -825,7 +818,7 @@
 		}
 		{
 			dependencies: ["5241693278027FFD"]
-			description: ["Rare Earth has a production line now! You can upgrade your chances in every tier. This should help with those pesky Rare Earth rare materials!"]
+			description: ["{quest.grege.ev2}"]
 			id: "1525DFB70347AEB5"
 			rewards: [{
 				id: "2A522B41AB896362"
@@ -842,15 +835,7 @@
 		}
 		{
 			dependencies: ["5241693278027FFD"]
-			description: [
-				"These hatches will start to unlock from EV."
-				""
-				"How are they different from normal hatches? These send 4 Amps to a machine, meaning it will act as if you use 2 normal energy hatches. But! Using only 1 hatch will NOT overclock the machine, meaning you can only use recipes on tier with the energy hatch. If you use 2 hatches, it will overclock normally."
-				""
-				"These come in 4, 8 and 16 Amp variants."
-				""
-				"The fastest combo of hatches is using 2 16 Amp hatches, but if you don't have the energy generation, this will eat through your power."
-			]
+			description: ["{quest.grege.ev3}"]
 			id: "58DBAEA21C1B90E5"
 			rewards: [{
 				id: "11B61CB39C0292A6"
@@ -866,5 +851,5 @@
 			y: 3.5d
 		}
 	]
-	title: "EV"
+	title: "{quest.grege.ev4}"
 }

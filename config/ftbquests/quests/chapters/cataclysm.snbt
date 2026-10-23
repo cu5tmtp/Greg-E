@@ -10,13 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Be sure to be prepared! There are a lots of things you can do to get stronger! Better weapons, stronger trinkets etc."
-				""
-				"But don't worry too much, bosses have disabled capped dmg, and they have their HP nerfed."
-				""
-				"For peaceful players, you can enter the dimensions and create the materials needed for the better crafting recipes. It will be harder, but you can still do it."
-			]
+			description: ["{quest.grege.cataclysm1}"]
 			id: "524740E4D1F809CE"
 			rewards: [{
 				id: "5650672EEE2F6EAD"
@@ -33,11 +27,7 @@
 		}
 		{
 			dependencies: ["524740E4D1F809CE"]
-			description: [
-				"This item will teleport you to your bed."
-				""
-				"It is useful since the boss arenas are in new dimensions, which you can't get out of if you don't have teleport avaible."
-			]
+			description: ["{quest.grege.cataclysm2}"]
 			id: "397EA737351E8A35"
 			rewards: [{
 				id: "356B0C9608333BE4"
@@ -54,11 +44,7 @@
 		}
 		{
 			dependencies: ["524740E4D1F809CE"]
-			description: [
-				"Main boss: Harbinger"
-				""
-				"Start the bossfight by giving the boss nether star."
-			]
+			description: ["{quest.grege.cataclysm3}"]
 			id: "1D05AA4DBF4D10A7"
 			rewards: [{
 				id: "76DB39B6877E222F"
@@ -91,11 +77,7 @@
 		}
 		{
 			dependencies: ["1D05AA4DBF4D10A7"]
-			description: [
-				"Main boss: Leviathan"
-				""
-				"Start the bossfight by inserting Abyssal Scrifice into the Altar of Abyss."
-			]
+			description: ["{quest.grege.cataclysm4}"]
 			id: "24FB8333EAFE3672"
 			rewards: [{
 				id: "3B44534EABEC3489"
@@ -128,11 +110,7 @@
 		}
 		{
 			dependencies: ["24FB8333EAFE3672"]
-			description: [
-				"Main boss: Ancient Remnant"
-				""
-				"Start the bossfight by giving the boss Desert Necklace."
-			]
+			description: ["{quest.grege.cataclysm5}"]
 			id: "52B904F6CB4572C9"
 			rewards: [{
 				id: "7AEC217395B337F4"
@@ -165,7 +143,7 @@
 		}
 		{
 			dependencies: ["1D05AA4DBF4D10A7"]
-			description: ["This gives you acess to better Good Integrated Circuit recipe!"]
+			description: ["{quest.grege.cataclysm6}"]
 			id: "030A68B5FF9CD45B"
 			rewards: [{
 				id: "7EDBCBFFA981CA3B"
@@ -182,7 +160,7 @@
 		}
 		{
 			dependencies: ["24FB8333EAFE3672"]
-			description: ["This gives you acess to better Advanced Integrated Circuit recipe!"]
+			description: ["{quest.grege.cataclysm7}"]
 			id: "76A8C9B2D75D3E57"
 			rewards: [{
 				id: "66C3A766908876FB"
@@ -199,15 +177,7 @@
 		}
 		{
 			dependencies: ["52B904F6CB4572C9"]
-			description: [
-				"Main boss: Ignis"
-				""
-				"Start the bossfight by donating Burning Ashes to the middle altar."
-				""
-				"From now on bosses will not be HP nerfed, as in EV you have access to good armor."
-				""
-				"The cap on DMG is still disabled, as that is a dumb mechanic."
-			]
+			description: ["{quest.grege.cataclysm8}"]
 			id: "0CE2A663946D774B"
 			rewards: [{
 				id: "00E32EF298FB026E"
@@ -336,11 +306,7 @@
 		}
 		{
 			dependencies: ["0CE2A663946D774B"]
-			description: [
-				"Main boss: Netherite Monstrosity"
-				""
-				"Just walk up to it and it will wake up."
-			]
+			description: ["{quest.grege.cataclysm9}"]
 			id: "53BAF825D0BC199B"
 			rewards: [{
 				id: "7A3B50725A23AF86"
@@ -382,11 +348,7 @@
 		}
 		{
 			dependencies: ["53BAF825D0BC199B"]
-			description: [
-				"Main boss: Ender Guardian"
-				""
-				"Dig under the Ender Golem, this will lead you to a secret room where the boss resides."
-			]
+			description: ["{quest.grege.cataclysm10}"]
 			id: "2DEECCC953F702A2"
 			rewards: [{
 				id: "445C9B9E7C9F74B3"
@@ -419,11 +381,7 @@
 		}
 		{
 			dependencies: ["2DEECCC953F702A2"]
-			description: [
-				"Main boss: Maledictus"
-				""
-				"Defeat the big enemies infront of the door, they will drop a key, use it on the door, then on the tombstone to spawn the boss."
-			]
+			description: ["{quest.grege.cataclysm11}"]
 			id: "4D6D06C1C789CA7D"
 			rewards: [{
 				id: "66A530DE1B2A04E0"
@@ -456,11 +414,7 @@
 		}
 		{
 			dependencies: ["4D6D06C1C789CA7D"]
-			description: [
-				"Main boss: Scylla"
-				""
-				"Fly up to the highest floor, you're gonna find an anchor on the ground. Step towards it to spawn the boss."
-			]
+			description: ["{quest.grege.cataclysm12}"]
 			id: "0C16BB7E81A7FC1F"
 			rewards: [{
 				id: "49F8EE4E24783BF1"
@@ -493,7 +447,7 @@
 		}
 		{
 			dependencies: ["524740E4D1F809CE"]
-			description: ["Remember - you can craft a lot of strong swords from the mod Simply Swords!"]
+			description: ["{quest.grege.cataclysm13}"]
 			id: "224EFD18A75C457B"
 			rewards: [{
 				id: "77B191A762A70A5D"

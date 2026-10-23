@@ -98,5 +98,5 @@
 			y: 0.5d
 		}
 	]
-	title: "Progression"
+	title: "{quest.grege.progression3}"
 }

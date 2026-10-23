@@ -42,7 +42,7 @@
 				"5FAA73C52082DC48"
 				"70C952B8FF3418F6"
 			]
-			description: ["Because the EV circuits are from new age, we don't have so start with LV circuits. Be careful though, you will still need them for EMC alloys."]
+			description: ["{quest.grege.hv1}"]
 			id: "19DB4970B3D11C1B"
 			rewards: [{
 				id: "1992BAE740F2F562"
@@ -106,7 +106,7 @@
 				"1DF42E30A24A9DEC"
 				"70C952B8FF3418F6"
 			]
-			description: ["The description on this multi is a bit weird, I think it has to be a cube otherwise it won't form. Because you need to fit a Linear Particle Accelerator into this, I suggest you make this 15x15, height doesn't matter, though for later uses I suggest at least 5 high."]
+			description: ["{quest.grege.hv2}"]
 			icon: "gtceu:cleanroom"
 			id: "62BBF61C9849CA26"
 			min_width: 300
@@ -483,15 +483,7 @@
 		}
 		{
 			dependencies: ["1D668061E99D565B"]
-			description: [
-				"Fun little production line :)"
-				""
-				"Look at the recipes from the multiblocks in this chapter. You will need almost all of them."
-				""
-				"Also you get Small Piles of Nobelium, not the full dusts."
-				""
-				"It simulates how Nobelium is created in real life."
-			]
+			description: ["{quest.grege.hv3}"]
 			id: "2F09F581D2D91CAB"
 			rewards: [{
 				id: "7AA6EA40DC205B3B"
@@ -508,21 +500,7 @@
 			y: 5.0d
 		}
 		{
-			description: [
-				"You kinda need to get helium for Nobelium, and there are 2 ways to get it:"
-				""
-				"a) This is easy to do but it yields low Helium"
-				"1) Craft Void Gas Extractor"
-				"2) Start extracting Natural Gasses and as a byproduct you get a bit of Helium"
-				""
-				"b) This gets you a lot of Helium but its more complicated:"
-				"1) Get T1 rocket and visit Moon"
-				"2) On moon you can get Desh (find 1 ore and then use mod Scannable to find others)"
-				"3) While searching for Desh, get Moon Cobblestone, which you can smelt to stone"
-				"4) Make a End Portal Frame block out of Moon Stone and Eye of Ender"
-				"5) You're in the End"
-				"6) Get Ender Air and distill it"
-			]
+			description: ["{quest.grege.hv4}"]
 			icon: "gtceu:helium_bucket"
 			id: "1D668061E99D565B"
 			rewards: [{
@@ -596,15 +574,7 @@
 		}
 		{
 			dependencies: ["62BBF61C9849CA26"]
-			description: [
-				"How to get AE2 channels in a cleanroom?"
-				""
-				"2 ways:"
-				""
-				"1) Place any machine hull in the Cleanroom wall, now it can act as a passthrough for a ME cable."
-				""
-				"2) Wireless AE2: either Wireless Connectors from ExtendedAE or just the ol' reliable quantum ring."
-			]
+			description: ["{quest.grege.hv5}"]
 			id: "1ED08BAC597A0650"
 			rewards: [{
 				id: "2AA5577DAB8CB1FD"
@@ -621,13 +591,7 @@
 		}
 		{
 			dependencies: ["487F9415CA8F687A"]
-			description: [
-				"Huh, this seems familiar from a different universe..."
-				""
-				"Well, can't go wrong with good ideas."
-				""
-				"Though, they don't have perfect overclock, its still good QOL."
-			]
+			description: ["{quest.grege.hv6}"]
 			id: "4ED4C73899D40C22"
 			rewards: [{
 				id: "53CD18ECA4C8BFE2"
@@ -708,7 +672,7 @@
 		}
 		{
 			dependencies: ["70C952B8FF3418F6"]
-			description: ["This will help with component creation."]
+			description: ["{quest.grege.hv7}"]
 			id: "35368EFD2BC63DAC"
 			rewards: [{
 				id: "1E76E8979E8E2B10"
@@ -725,15 +689,7 @@
 		}
 		{
 			dependencies: ["62BBF61C9849CA26"]
-			description: [
-				"By replacing the Filter Casings in the Cleanroom with these Filters, it will begin functioning as a Dimensional Simulator. "
-				""
-				"Next, add a Dimensional Relic Input and supply the required items to unlock the recipe. Once unlocked, you can insert any Gas Collector, allowing the recipe to be crafted regardless of the cleanroom's current dimension."
-				""
-				"This is not needed, as the Gas Collectors will still work normally. This is just a QOL that can save some lag."
-				""
-				"If you want to use this feature, and don't want to use a cleanroom, in LuV there is a multiblock called Anti-Mass Spectrometer, that offers this same functionality. But you need to add a Dimensional Simulator Maintenance Hatch to it."
-			]
+			description: ["{quest.grege.hv8}"]
 			id: "61A84ED388F290AB"
 			tasks: [
 				{
@@ -751,5 +707,5 @@
 			y: 6.0d
 		}
 	]
-	title: "HV"
+	title: "{quest.grege.hv9}"
 }

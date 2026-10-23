@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This chapter shows you which QOL mods are in the pack. "]
+			description: ["{quest.grege.qol1}"]
 			id: "4544150184F72389"
 			rewards: [{
 				id: "787D20FEF6A63D47"
@@ -26,7 +26,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["Not really that useful overall, but the mod has a mob spawning option and XP farm can be used for Rosa Arcanas."]
+			description: ["{quest.grege.qol2}"]
 			id: "6A520F4F316998E7"
 			rewards: [{
 				id: "46FB29F62B753DB3"
@@ -42,7 +42,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["Don't want mobs spawning near you? Get this!"]
+			description: ["{quest.grege.qol3}"]
 			id: "129C3EB5A39F5C68"
 			rewards: [{
 				id: "7ACA332BE72A56A2"
@@ -58,7 +58,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Build same blocks really fast!"]
+			description: ["{quest.grege.qol4}"]
 			id: "643885F32F87F528"
 			rewards: [{
 				id: "66DA339800410CE4"
@@ -80,7 +80,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["If you want to copy some structures, get this!"]
+			description: ["{quest.grege.qol5}"]
 			id: "355BB4790891430E"
 			rewards: [{
 				id: "217A015456EF09EC"
@@ -96,7 +96,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["+40 hearts!"]
+			description: ["{quest.grege.qol6}"]
 			id: "65B1C0EC2A26BD74"
 			rewards: [{
 				id: "752A4EE2F63A6C03"
@@ -112,7 +112,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["I'm sure you can find some uses for this."]
+			description: ["{quest.grege.qol7}"]
 			id: "0D49B60DEC940DFC"
 			rewards: [{
 				id: "281111298D0CB635"
@@ -128,7 +128,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["For the ultimate factory managment."]
+			description: ["{quest.grege.qol8}"]
 			id: "21005F2851811554"
 			rewards: [{
 				id: "1713F9D5D20E710B"
@@ -144,13 +144,7 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"+10 hearts, also some other Artifacts and Relics are really useful."
-				""
-				"1st tier unlocks in MV."
-				"2nd tier unlocks in EV."
-				"3rd tier unlocks in LuV."
-			]
+			description: ["{quest.grege.qol9}"]
 			id: "2E1E5E8A96F7A1C9"
 			rewards: [{
 				id: "6661010D77C47009"
@@ -179,7 +173,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Wireless FE, what more do I need to say?"]
+			description: ["{quest.grege.qol10}"]
 			id: "36C270F3D8F292D2"
 			rewards: [{
 				id: "540218D3559C6CA4"
@@ -195,7 +189,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["Free cobblestone!"]
+			description: ["{quest.grege.qol11}"]
 			id: "4F20AD0E87D43D50"
 			rewards: [{
 				id: "6B742D2F2051D5C7"
@@ -211,7 +205,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["My second favourite botania item, portable ender chest!"]
+			description: ["{quest.grege.qol12}"]
 			id: "70A711337532FF2A"
 			rewards: [{
 				id: "2F8BCA3B45F61DE3"
@@ -227,7 +221,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["Teleporter, you can get this in HV, waaaay earlier than the whole Draconic Evolution unlock!"]
+			description: ["{quest.grege.qol13}"]
 			id: "2333D4BAC0ADBA62"
 			rewards: [{
 				id: "7114A65F5E8EB469"
@@ -247,11 +241,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"Flight!"
-				""
-				"Also look at the other upgrades, a lot of them are really useful. Especially the regeneration one, its really good for healing up after sacrificing blood to altar in Blood Magic!"
-			]
+			description: ["{quest.grege.qol14}"]
 			id: "3BEDFF33E8189F13"
 			rewards: [{
 				id: "5E925B64B878330E"
@@ -314,11 +304,7 @@
 			y: -3.5d
 		}
 		{
-			description: [
-				"Wireless AE2! Really useful, also you can combine different wireless terminals, my favourite combination is crafting, pattern encoding and extended pattern access terminal."
-				""
-				"Alternatively, if you want everything on 1 screen so you dont have to cycle the wireless terminals, get the ME WCWT!"
-			]
+			description: ["{quest.grege.qol15}"]
 			id: "5783E1DD2A4537D1"
 			rewards: [{
 				id: "1C2712445859AC56"
@@ -341,11 +327,7 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"For the AVARITIA chapter."
-				""
-				"Get the ME packaging provider, it counts as a packager and unpackager, meaning you only need 1 pattern. Also its waaaay faster."
-			]
+			description: ["{quest.grege.qol16}"]
 			id: "519A2DC4DBC99FA6"
 			rewards: [{
 				id: "36F49086C06B2D9E"
@@ -361,11 +343,7 @@
 			y: -6.5d
 		}
 		{
-			description: [
-				"Use this to find ores. First find the ore block which you want to find. Then get a block card, right click the block, then shift+right click the scanner and insert the block card. I recommend getting some range extenders, and then hold right click to find the ores."
-				""
-				"This is really useful for the Ad Astra ores!"
-			]
+			description: ["{quest.grege.qol17}"]
 			id: "2C3ACCA597518508"
 			rewards: [{
 				id: "4D3ADD7659D2CE44"
@@ -387,7 +365,7 @@
 			y: -5.0d
 		}
 		{
-			description: ["Use this to automate buying items from Transmutation Tablet. Right click it with item that you learned, and it will start producing the item by the rate written in the tooltip on the block."]
+			description: ["{quest.grege.qol18}"]
 			id: "1C6F65123CF1E43D"
 			rewards: [{
 				id: "5F0E758320141C09"
@@ -403,7 +381,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["Use the entangler on a block and rightclick with it this block. The entangled block starts to act as the selected block. Use this to access more sides of a block in tight areas."]
+			description: ["{quest.grege.qol19}"]
 			id: "0497A423274FF5B8"
 			rewards: [{
 				id: "171E92BC7D905A4D"
@@ -423,7 +401,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Great early game storage!"]
+			description: ["{quest.grege.qol20}"]
 			id: "24D5BA6EC2B100DC"
 			rewards: [{
 				id: "2970C7D0BCED38BD"
@@ -439,11 +417,7 @@
 			y: -0.5d
 		}
 		{
-			description: [
-				"Use these for better AE2 autocrafting, so you don't have to change recipes every 2 seconds."
-				""
-				"There is universal circuit for every tier."
-			]
+			description: ["{quest.grege.qol21}"]
 			id: "0741647F701C2CE0"
 			rewards: [{
 				id: "243D9EEED50D1213"
@@ -459,7 +433,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["Put this in pattern provider next to a GT machine. Then you can start using circuits (meaning circuit 1, cirucit 2) in recipes, meaning that machine is not locked into doing only 1 circuit recipes."]
+			description: ["{quest.grege.qol22}"]
 			id: "41A944297559F5B1"
 			rewards: [{
 				id: "5E0443BCD807E5A4"
@@ -475,11 +449,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"Use this to carry machines around without reseting their settings!"
-				""
-				"It needs paper to work."
-			]
+			description: ["{quest.grege.qol23}"]
 			id: "21AE16CFCA36EBE7"
 			rewards: [{
 				id: "01AFE76CCA38D34E"
@@ -501,7 +471,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["With this you can choose your enchantments on your gear!"]
+			description: ["{quest.grege.qol24}"]
 			id: "736A4A5C84E1C6A9"
 			rewards: [{
 				id: "70835BFA3238FFCF"
@@ -529,7 +499,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["I recommend using the resource pack 'Smooth Font', that is preinstalled with the pack. It makes reading the recipes from GT way easier."]
+			description: ["{quest.grege.qol25}"]
 			id: "71A03FF1AC26DC78"
 			rewards: [{
 				id: "2FC553320057EB57"
@@ -545,11 +515,7 @@
 			y: -0.5d
 		}
 		{
-			description: [
-				"Pipez are in the pack as well!"
-				""
-				"Just do not use the netherite upgrade frequently!"
-			]
+			description: ["quest.grege.qol26"]
 			id: "3168E61EC40F1C05"
 			rewards: [{
 				id: "00DC904EB5EBF14C"
@@ -565,7 +531,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Change your tools fast!"]
+			description: ["{quest.grege.qol27}"]
 			id: "35186DEFD11319BC"
 			rewards: [{
 				id: "5811F78B7F583DA8"
@@ -581,7 +547,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Unlocks in EV."]
+			description: ["{quest.grege.qol28}"]
 			id: "6EA459EE6F54C75E"
 			rewards: [{
 				id: "03D8F36EC129BE23"
@@ -597,7 +563,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["This item automatically builds your GregTech multiblocks."]
+			description: ["{quest.grege.qol29}"]
 			id: "3F20835C90736769"
 			rewards: [{
 				id: "6178B99021CC7F93"
@@ -613,11 +579,7 @@
 			y: 1.5d
 		}
 		{
-			description: [
-				"Alternative to Pipez."
-				""
-				"Allows better filtering, and you can fit both fluid and item conduits on the same block."
-			]
+			description: ["{quest.grege.qol30}"]
 			id: "271B0AE3F87A3D8F"
 			rewards: [{
 				id: "2EA1AB30145207B9"
@@ -640,7 +602,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Move around your world quickly!"]
+			description: ["{quest.grege.qol31}"]
 			id: "1097A6B02DFE1513"
 			rewards: [{
 				id: "4CCE0B16DAA26843"
@@ -673,7 +635,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Inifity cells! All of them are definetly useful."]
+			description: ["{quest.grege.qol32}"]
 			id: "71B93092F10EF3C0"
 			rewards: [{
 				id: "4FC3446EED7F34E6"
@@ -720,13 +682,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"Unlock more slots in a backpack with the item called Backpack Inventory Slot."
-				""
-				"Unlock more Backpack slots with the item Backpack Slot."
-				""
-				"Everything unlocks in LV."
-			]
+			description: ["{quest.grege.qol33}"]
 			id: "79D15BEC6BED96E1"
 			tasks: [{
 				id: "5776485E975AD607"
@@ -741,12 +697,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"Reforge your equipment for even more stats!"
-				""
-				"Best reforge on tools: &dLegendary&r"
-				"Best reforge on armor: &dMasterful&r"
-			]
+			description: ["{quest.grege.qol34}"]
 			id: "125BE5B20480E2BA"
 			tasks: [
 				{
@@ -764,7 +715,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Better terminals for all your Greggy needs!"]
+			description: ["{quest.grege.qol35}"]
 			id: "3ACCE23386822DC0"
 			tasks: [
 				{
@@ -787,7 +738,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["Little tool with a lot of potential!"]
+			description: ["{quest.grege.qol36}"]
 			id: "19E828F703925685"
 			tasks: [{
 				id: "7BE84F22E68E726A"
@@ -798,5 +749,5 @@
 			y: 0.5d
 		}
 	]
-	title: "QOL"
+	title: "{quest.grege.qol37}"
 }

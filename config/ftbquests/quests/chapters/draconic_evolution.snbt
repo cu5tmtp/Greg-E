@@ -114,7 +114,7 @@
 		}
 		{
 			dependencies: ["0657A8B103DEE3FB"]
-			description: ["Try to get this maxed out, otherwise chaos guardian might be a bit hard."]
+			description: ["{quest.grege.de1}"]
 			id: "6E071E5E36C675E5"
 			rewards: [{
 				id: "7407BB1BD52A2C23"
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["6E071E5E36C675E5"]
-			description: ["Chaos Island is located in the End, every 10000 blocks in any direction."]
+			description: ["{quest.grege.de2}"]
 			id: "7F1F92A8E4BB052E"
 			rewards: [{
 				id: "1FA9B019F8F470BB"
@@ -220,7 +220,7 @@
 		}
 		{
 			dependencies: ["0657A8B103DEE3FB"]
-			description: ["Just connect the fusion crafter to ME packaging provider. Dont forget to change the injectors to marked ones."]
+			description: ["{quest.grege.de3}"]
 			id: "5452BE7EBE36794A"
 			rewards: [{
 				id: "0999340CEBC7BD7E"
@@ -244,5 +244,5 @@
 			y: -6.5d
 		}
 	]
-	title: "Draconic Evolution"
+	title: "{quest.grege.de4}"
 }

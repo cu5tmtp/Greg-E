@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["1064F83D0222138C"]
-			description: ["Drink this. Now you can do rune rituals."]
+			description: ["{quest.grege.mythicbotany1}"]
 			id: "2344D045A014F6FF"
 			rewards: [{
 				id: "7C678DAB50FC17B6"
@@ -27,7 +27,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["Supply branch of Yggdrasil with mana and place Gjallarhorn on it. Wait until its filled."]
+			description: ["{quest.grege.mythicbotany2}"]
 			id: "1064F83D0222138C"
 			rewards: [{
 				id: "7201036BB7386682"
@@ -51,7 +51,7 @@
 		}
 		{
 			dependencies: ["2344D045A014F6FF"]
-			description: ["This is a drop from Guardian of Gaia - harder version. That one is activated by inserting Gaia Spirit Ingot instead of Terrasteel."]
+			description: ["{quest.grege.mythicbotany3}"]
 			id: "60514AD9EE7304FA"
 			rewards: [{
 				id: "1A44AEB89C1661FA"
@@ -68,11 +68,7 @@
 		}
 		{
 			dependencies: ["60514AD9EE7304FA"]
-			description: [
-				"Drink this."
-				""
-				"Also in the recipe page the items that are below the rune placements mean that you have to throw them on the middle pedestal."
-			]
+			description: ["{quest.grege.mythicbotany4}"]
 			id: "2044419B21EEFABE"
 			rewards: [{
 				id: "10BE5BD08244C046"
@@ -89,7 +85,7 @@
 		}
 		{
 			dependencies: ["2044419B21EEFABE"]
-			description: ["Now enter the Elven Portal. You have to drink the mead to actually teleport through."]
+			description: ["{quest.grege.mythicbotany5}"]
 			id: "635ED4231C547DAD"
 			rewards: [{
 				id: "63A9B93253985E97"
@@ -106,7 +102,7 @@
 		}
 		{
 			dependencies: ["635ED4231C547DAD"]
-			description: ["Find this in mysterious cabin. Use explorers compass."]
+			description: ["{quest.grege.mythicbotany6}"]
 			id: "00C6B1C582D3C0E7"
 			rewards: [{
 				id: "3F5604A75323889A"
@@ -122,5 +118,5 @@
 			y: 1.0d
 		}
 	]
-	title: "MythicBotany"
+	title: "{quest.grege.mythicbotany7}"
 }

@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["054D2D3C20C2D32F"]
-			description: ["Nebulon line, the end products are used in UHV motors, pumps... etc!"]
+			description: ["{quest.grege.uhv1}"]
 			id: "7768C3462C0EBFD3"
 			rewards: [{
 				id: "2E990B5C691F238C"
@@ -653,11 +653,7 @@
 		}
 		{
 			dependencies: ["054D2D3C20C2D32F"]
-			description: [
-				"This multiblock is your ticket to new, previously unreachable heights."
-				""
-				"Somehow the rocket in multiblock preview is bugged, but when the multi is assembled, its fine."
-			]
+			description: ["{quest.grege.uhv2}"]
 			id: "3CD4AF46B8A50D6A"
 			rewards: [{
 				id: "5228AD0DD7559AEE"
@@ -673,11 +669,7 @@
 			y: 7.0d
 		}
 		{
-			description: [
-				"These help with the CWU needed. "
-				""
-				"Best combination - 4 Greg-E Coolers, 2 Greg-E Computations, 1 Advanced Computation, 1 Heat Sink."
-			]
+			description: ["{quest.grege.uhv3}"]
 			id: "6031F8A122A84855"
 			optional: true
 			rewards: [{
@@ -933,5 +925,5 @@
 			y: -1.0d
 		}
 	]
-	title: "UHV"
+	title: "{quest.grege.uhv4}"
 }

@@ -12,11 +12,7 @@
 	quests: [
 		{
 			dependencies: ["0C2221B77B832113"]
-			description: [
-				"Just as the voice in the radio said, the plans to this giant machine suddenly appeared in my mind."
-				""
-				"Open the rift and find Unstable Shard."
-			]
+			description: ["{quest.grege.void1}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "3349077A4E664DD8"
@@ -30,11 +26,7 @@
 		}
 		{
 			dependencies: ["3349077A4E664DD8"]
-			description: [
-				"What to do with this now?"
-				""
-				"This could be the beggining to something big."
-			]
+			description: ["{quest.grege.void2}"]
 			id: "04EF27D0C8F33788"
 			tasks: [{
 				id: "3F0BE3D5752F82C1"
@@ -78,5 +70,5 @@
 			y: 2.5d
 		}
 	]
-	title: "Void"
+	title: "{quest.grege.void3}"
 }

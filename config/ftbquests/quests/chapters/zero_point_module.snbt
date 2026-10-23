@@ -118,7 +118,7 @@
 				"6DA0ABBC89711536"
 				"551CD9E0FA2E62A7"
 			]
-			description: ["This is a huge milestone!"]
+			description: ["{quest.grege.zpm1}"]
 			icon: "gtceu:luv_fusion_reactor"
 			id: "2F4258088CBFC399"
 			rewards: [{
@@ -786,11 +786,7 @@
 				"6AFA62A63FC44CCF"
 				"586266B2096D27A7"
 			]
-			description: [
-				"Allows only 1 computation data input hatch."
-				""
-				"How to connect more HPCA for more CWU? You have to use Network Switch to un-fork the optical fiber cables, and you have to use Bridging Component on the HPCA."
-			]
+			description: ["{quest.grege.zpm2}"]
 			icon: "gtceu:research_station"
 			id: "18DF12E242210030"
 			rewards: [{
@@ -877,7 +873,7 @@
 		}
 		{
 			dependencies: ["57B5100C11F76EE9"]
-			description: ["Best energy source. Scales well if you spend the resources needed."]
+			description: ["{quest.grege.zpm3}"]
 			id: "149950A5117C59DA"
 			rewards: [{
 				id: "2573A1E7C9DA2B11"
@@ -981,5 +977,5 @@
 			y: 3.0d
 		}
 	]
-	title: "ZPM"
+	title: "{quest.grege.zpm4}"
 }

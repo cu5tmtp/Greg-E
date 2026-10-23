@@ -42,13 +42,7 @@
 		}
 		{
 			dependencies: ["767B0154C41FE771"]
-			description: [
-				"These form the outer shell."
-				""
-				"Frame blocks need to be on the edge, wall on the inside."
-				""
-				"Hold G over the item to open the guide."
-			]
+			description: ["{quest.grege.goodstuff1}"]
 			id: "43F53FF551641773"
 			rewards: [{
 				id: "17C00D5EB2F722CC"
@@ -77,11 +71,7 @@
 		}
 		{
 			dependencies: ["01E51F98F9D04AEC"]
-			description: [
-				"Core of the multiblock, can work on its own but when you make the full multiblock, gets so much better."
-				""
-				"Maximum size is 7x7x7."
-			]
+			description: ["{quest.grege.goodstuff2}"]
 			id: "5E9B4EC518EE1232"
 			rewards: [{
 				id: "60404D09B1E871DD"
@@ -130,7 +120,7 @@
 		}
 		{
 			dependencies: ["43F53FF551641773"]
-			description: ["Maximum of 5 in 1 matrix assembler, more does nothing."]
+			description: ["{quest.grege.goodstuff3}"]
 			id: "607D79CB888B77C9"
 			tasks: [{
 				id: "3A98C435539D77AB"
@@ -142,7 +132,7 @@
 		}
 		{
 			dependencies: ["43F53FF551641773"]
-			description: ["Each of these inside a Matrix Assembler adds 36 pattern spaces."]
+			description: ["{quest.grege.goodstuff4}"]
 			id: "6783392D58622277"
 			tasks: [{
 				id: "0371BF45D2CE3F24"
@@ -154,7 +144,7 @@
 		}
 		{
 			dependencies: ["43F53FF551641773"]
-			description: ["Each of these can do 8 jobs at once."]
+			description: ["{quest.grege.goodstuff5}"]
 			id: "5E0A9CC46106E0DF"
 			tasks: [{
 				id: "29480EFFA2FD3EC2"
@@ -209,5 +199,5 @@
 			y: 1.0d
 		}
 	]
-	title: "AE2 - Advanced"
+	title: "{quest.grege.goodstuff6}"
 }

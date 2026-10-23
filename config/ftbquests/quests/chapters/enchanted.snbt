@@ -9,11 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Your Witche- ups, I mean Enchanted journey starts here."
-				""
-				"Put the cauldron over campfire, and bubbles should come up from it."
-			]
+			description: ["{quest.grege.enchanted1}"]
 			id: "6E7D9D3DC0E9F8E6"
 			rewards: [{
 				id: "5C0D7F1FC8F484E9"
@@ -33,7 +29,7 @@
 				"6E7D9D3DC0E9F8E6"
 				"3C53F59910EA246A"
 			]
-			description: ["This is the most important structure of this mod. The altar is 6 blocks next to each other, when it forms, a red carpet covers it. The altar is your power generation method for this mod. You get more altar power by placing more flowers and trees next to the altar."]
+			description: ["{quest.grege.enchanted2}"]
 			id: "771E45EEB84B4678"
 			rewards: [{
 				id: "5FCCC81621AD49C0"
@@ -51,7 +47,7 @@
 		}
 		{
 			dependencies: ["2252AA1F0F27C2F7"]
-			description: ["Filled chalice is better."]
+			description: ["{quest.grege.enchanted3}"]
 			id: "0F99695AAE93D543"
 			rewards: [{
 				id: "189D7C09D4125B31"
@@ -75,7 +71,7 @@
 		}
 		{
 			dependencies: ["771E45EEB84B4678"]
-			description: ["These items, when placed on the altar, will provide some sort of boost for it."]
+			description: ["{quest.grege.enchanted4}"]
 			id: "2252AA1F0F27C2F7"
 			rewards: [{
 				id: "013441012E7B36E0"
@@ -92,7 +88,7 @@
 		}
 		{
 			dependencies: ["2252AA1F0F27C2F7"]
-			description: ["There might be candles in the Twilight Forest."]
+			description: ["{quest.grege.enchanted5}"]
 			id: "114D5B3EF800A667"
 			rewards: [{
 				id: "2E8AC70A8DA1F023"
@@ -109,7 +105,7 @@
 		}
 		{
 			dependencies: ["2252AA1F0F27C2F7"]
-			description: ["Player head is stronger."]
+			description: ["{quest.grege.enchanted6}"]
 			id: "27091D3ED618729B"
 			rewards: [{
 				id: "2150ACCDAF927603"
@@ -133,7 +129,7 @@
 		}
 		{
 			dependencies: ["2252AA1F0F27C2F7"]
-			description: ["Provides 250 altar power. Place is next to the altar, not on it, as it acts as a flower."]
+			description: ["{quest.grege.enchanted7}"]
 			id: "41F64C89676D6167"
 			rewards: [{
 				id: "127EDB6AA79F1F81"
@@ -166,7 +162,7 @@
 		}
 		{
 			dependencies: ["771E45EEB84B4678"]
-			description: ["Some recipes are made in the kettle, not cauldron, so be careful!"]
+			description: ["{quest.grege.enchanted8}"]
 			id: "3C341B31A43D6DE5"
 			rewards: [{
 				id: "7FFFD47643580A78"
@@ -182,7 +178,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Use Mutandis on sapling, and roll it to get all of the Enchanted flowers/saplings. All of them are described the mods guidebook."]
+			description: ["{quest.grege.enchanted9}"]
 			id: "3C53F59910EA246A"
 			rewards: [{
 				id: "2EE8BA38D3634F68"
@@ -199,7 +195,7 @@
 		}
 		{
 			dependencies: ["46AAC2B7211A1149"]
-			description: ["These machines will help with automating Enchanted!"]
+			description: ["{quest.grege.enchanted10}"]
 			id: "6DB092900C16E610"
 			tasks: [
 				{
@@ -222,5 +218,5 @@
 			y: -1.5d
 		}
 	]
-	title: "Enchanted"
+	title: "{quest.grege.enchanted11}"
 }

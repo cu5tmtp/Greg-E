@@ -701,13 +701,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: [
-				"Passive line for aluminium, silicon, lithium."
-				""
-				"Seems short, but you kinda have to set up a production for clay."
-				""
-				"How to get clay? Apples can be EMC'd, then biochaff, then... You can find out by yourself."
-			]
+			description: ["{quest.grege.mv1}"]
 			id: "000B82E40C0FA958"
 			rewards: [{
 				id: "5063271DBF9A34E1"
@@ -811,7 +805,7 @@
 		}
 		{
 			dependencies: ["262AE37765B139BE"]
-			description: ["Get these machines, they will speed up your progress!"]
+			description: ["{quest.grege.mv2}"]
 			id: "476D91B8B72763DB"
 			rewards: [{
 				id: "22FB07C645514AA9"
@@ -911,7 +905,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["Faster board production!"]
+			description: ["{quest.grege.mv3}"]
 			id: "3E7B60E26BB10291"
 			optional: true
 			rewards: [{
@@ -957,7 +951,7 @@
 		}
 		{
 			dependencies: ["11F7D3DDF5683EB3"]
-			description: ["This multiblock can help in your wafer production."]
+			description: ["{quest.grege.mv4}"]
 			id: "1A734B328D5C7EFC"
 			rewards: [{
 				id: "5CD56BADF5697527"
@@ -989,5 +983,5 @@
 			y: -1.5d
 		}
 	]
-	title: "MV"
+	title: "{quest.grege.mv5}"
 }

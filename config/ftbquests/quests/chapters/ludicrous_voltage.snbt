@@ -195,11 +195,7 @@
 				"277464BE6F96C082"
 				"5A658F239928850E"
 			]
-			description: [
-				"Finally!"
-				""
-				"I recomment getting at least one of each, but definetly get at least 4 mixers."
-			]
+			description: ["{quest.grege.luv1}"]
 			id: "29417616D8F673D5"
 			rewards: [{
 				id: "7BD96C4F087C5EF6"
@@ -1007,7 +1003,7 @@
 		}
 		{
 			dependencies: ["204EDA5F8B1C7580"]
-			description: ["Place data storage in the assembly line, on the upper part. Then put data stick with researched item in."]
+			description: ["{quest.grege.luv2}"]
 			id: "3639A936B5930517"
 			rewards: [{
 				id: "1E447ACFF6AB8EA8"
@@ -1156,7 +1152,7 @@
 		}
 		{
 			dependencies: ["68B8595DDA68D9B0"]
-			description: ["Pretty hard to setup, but once running, this will speed up your production of machine parts really hard!"]
+			description: ["{quest.grege.luv3}"]
 			id: "019E70C74E3ADCA6"
 			rewards: [{
 				id: "3C0E5DDE59F84731"
@@ -1184,7 +1180,7 @@
 		}
 		{
 			dependencies: ["68B8595DDA68D9B0"]
-			description: ["You can get this earlier!"]
+			description: ["{quest.grege.luv4}"]
 			id: "504F52D394D426CC"
 			tasks: [{
 				id: "610C449B9FBE81E0"
@@ -1195,5 +1191,5 @@
 			y: 0.0d
 		}
 	]
-	title: "LUV"
+	title: "{quest.grege.luv5}"
 }

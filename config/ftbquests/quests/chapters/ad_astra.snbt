@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["7C9AE01973242410"]
-			description: ["{quest.grege.adastra3}]
+			description: ["{quest.grege.adastra3}"]
 			id: "12AC846277F88F3D"
 			rewards: [{
 				id: "62B17BAEAD4C08C5"
@@ -364,7 +364,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{quest.grege.adastra4}]
+			description: ["{quest.grege.adastra4}"]
 			id: "7C9AE01973242410"
 			rewards: [{
 				id: "416BB0F0FDBCAC4F"
@@ -382,7 +382,7 @@
 		}
 		{
 			dependencies: ["438E233A9014DA73"]
-			description: ["{quest.grege.adastra5}]
+			description: ["{quest.grege.adastra5}"]
 			id: "370B0622AED33FC4"
 			rewards: [{
 				id: "4C558DD1BEE80E00"
@@ -829,5 +829,5 @@
 			y: 17.0d
 		}
 	]
-	title: "Ad Astra"
+	title: "{quest.grege.adastra14}"
 }

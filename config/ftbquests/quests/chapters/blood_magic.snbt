@@ -219,5 +219,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Blood Magic"
+	title: "{quest.grege.bloodmagic12}"
 }

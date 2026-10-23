@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This portal is kinda picky, it doesn't want diamond to open, it needs Twilight Flame!"]
+			description: ["{quest.grege.tf1}"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "4193303999597249"
 			rewards: [{
@@ -39,11 +39,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"Found in a Naga Courtyard."
-				""
-				"Use Explorer Compass to find the structures faster."
-			]
+			description: ["{quest.grege.tf2}"]
 			hide_until_deps_visible: true
 			id: "3531B28F14CF72A2"
 			rewards: [{
@@ -61,7 +57,7 @@
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
-			description: ["Found in a Lich Tower."]
+			description: ["{quest.grege.tf3}"]
 			id: "0107D516E038E0DB"
 			rewards: [{
 				id: "623AA95AC2B9105F"
@@ -78,7 +74,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: ["Found in a Labyrinth."]
+			description: ["{quest.grege.tf4}"]
 			icon: "twilightforest:minoshroom_trophy"
 			id: "04440BB2EFFD6DD9"
 			rewards: [{
@@ -96,7 +92,7 @@
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: ["Found in a Hydra Lair."]
+			description: ["{quest.grege.tf5}"]
 			id: "7026E46FD8B3A81D"
 			rewards: [{
 				id: "4F7E4318ABA26559"
@@ -113,7 +109,7 @@
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
-			description: ["Found in a Knight Stronghold."]
+			description: ["{quest.grege.tf6}"]
 			id: "3DCF26B53AE1EBF6"
 			rewards: [{
 				id: "47B768F890BA2E24"
@@ -130,7 +126,7 @@
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["Found in a Dark Tower."]
+			description: ["{quest.grege.tf7}"]
 			id: "688C911ECFB2F134"
 			rewards: [{
 				id: "6D1796752E5E823B"
@@ -147,7 +143,7 @@
 		}
 		{
 			dependencies: ["45FF5E769CC5D057"]
-			description: ["Found in a Aurora Tower."]
+			description: ["{quest.grege.tf8}"]
 			id: "6FD41DF7704466A4"
 			rewards: [{
 				id: "5B3F4BCC2CC0E3A5"
@@ -164,7 +160,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: ["Get this, I recommend getting it 5 times. Though right now, it will be enough once."]
+			description: ["{quest.grege.tf9}"]
 			id: "6711EF7350732556"
 			rewards: [{
 				id: "0FFE4A3E1BB61326"
@@ -189,7 +185,7 @@
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: ["This one and the next ones 1 is fine, though 4 is optimal for later."]
+			description: ["{quest.grege.tf10}"]
 			id: "4F5A7CA6D9B47F75"
 			rewards: [{
 				id: "63CD1A4E3C1AAD37"
@@ -262,7 +258,7 @@
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["Second tier of Magical Coils."]
+			description: ["{quest.grege.tf11}"]
 			id: "039D82EEDE78096A"
 			rewards: [{
 				id: "5E8C723EA37E77F2"
@@ -279,7 +275,7 @@
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
-			description: ["Found in a Yeti Cave."]
+			description: ["{quest.grege.tf12}"]
 			id: "45FF5E769CC5D057"
 			rewards: [{
 				id: "5BD93163E9A86123"
@@ -296,11 +292,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"This is for players that use peaceful difficulty."
-				""
-				"Use this command to disable Twilight Forests progression. It disables the damage walls in every biome. Now you will be able to access the biomes, and craft the data models."
-			]
+			description: ["{quest.grege.tf13}"]
 			id: "4F40C0482745085B"
 			rewards: [
 				{
@@ -324,11 +316,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"Simply Swords is in the pack, you can choose between a lot of unique weapons."
-				""
-				"There are also legendary weapons with unique abilities."
-			]
+			description: ["{quest.grege.tf14}"]
 			id: "0D1AB1C324C15259"
 			rewards: [{
 				id: "57074AC0C5727F87"
@@ -345,5 +333,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Twilight Forest"
+	title: "{quest.grege.tf15}"
 }

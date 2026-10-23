@@ -1524,7 +1524,7 @@
 		}
 		{
 			dependencies: ["64F77D41B2D057B8"]
-			description: ["Check out the Hostile Neural Networks chapter to learn how to upgrade the Data Models fast."]
+			description: ["{quest.grege.iv1}"]
 			id: "23FC73D7D09493AE"
 			rewards: [{
 				id: "2889090979283C65"
@@ -1570,7 +1570,7 @@
 		}
 		{
 			dependencies: ["23FC73D7D09493AE"]
-			description: ["Multiblock to get the last tier of components, has parallels and is overall crazy!"]
+			description: ["{quest.grege.iv2}"]
 			id: "0BBCADAF93516875"
 			rewards: [{
 				id: "35591D1FF7F8D95E"
@@ -1603,5 +1603,5 @@
 			y: 2.5d
 		}
 	]
-	title: "IV"
+	title: "{quest.grege.iv3}"
 }

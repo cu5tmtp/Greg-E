@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Everyone knows this mod."]
+			description: ["{quest.grege.hnn1}"]
 			id: "46BFB99A88967002"
 			rewards: [{
 				id: "34912DBC6EDA89ED"
@@ -34,13 +34,7 @@
 		}
 		{
 			dependencies: ["46BFB99A88967002"]
-			description: [
-				"This one, not so much."
-				""
-				"Okay so basically, these can process 64 operation at one time. How can you get there? Next quest."
-				""
-				"Ultimate Simulation Chamber can only accept Extra Data Model (combined 4 models)"
-			]
+			description: ["{quest.grege.hnn2}"]
 			id: "710D20D8A2D840B1"
 			rewards: [{
 				id: "022927C1BF6FC36D"
@@ -64,11 +58,7 @@
 		}
 		{
 			dependencies: ["710D20D8A2D840B1"]
-			description: [
-				"This machine can upgrade your models without giving you anything back. Why would you want to and not do it the original way? Because this is much faster, especially with the speed and data upgrades."
-				""
-				"Now if you look at Chaos Guardian, it needs 32000 data. How to get there within normal time? Tier upgrade. That one uses so much energy but directly upgrades the model to next tier."
-			]
+			description: ["{quest.grege.hnn3}"]
 			id: "5A1519B823651468"
 			rewards: [{
 				id: "73E447EA69418B57"
@@ -85,7 +75,7 @@
 		}
 		{
 			dependencies: ["710D20D8A2D840B1"]
-			description: ["With this machine you can combine 4 self-aware models to 1 model. It can be different mobs, but they all need to be self-aware. Then that model will be able to create 64 matrixes in 1 operation. Use Simulation Modeling to get it to best tier fast."]
+			description: ["{quest.grege.hnn4}"]
 			id: "38C392348087494A"
 			rewards: [{
 				id: "402F8567C1C03C0A"
@@ -102,7 +92,7 @@
 		}
 		{
 			dependencies: ["710D20D8A2D840B1"]
-			description: ["Speed + Data upgrades first, then Tier."]
+			description: ["{quest.grege.hnn5}"]
 			id: "696B78C31F41F6E9"
 			rewards: [{
 				id: "6A5EBFD5A3990887"
@@ -126,11 +116,7 @@
 		}
 		{
 			dependencies: ["46BFB99A88967002"]
-			description: [
-				"Some data models are craftable, but if you look closely, those are models only of hostile mobs. These crafts are aimed at peaceful players. "
-				""
-				"You still have to scan peaceful mobs manually."
-			]
+			description: ["{quest.grege.hnn6}"]
 			id: "26798311A0F03F73"
 			rewards: [{
 				id: "52A47C53BDB7992E"
@@ -147,11 +133,7 @@
 		}
 		{
 			dependencies: ["46BFB99A88967002"]
-			description: [
-				"Does the amount of netherite for these machines seem high?"
-				""
-				"If yes, check out recipes for this dust, if you complete the production line, you can end up with a lot of netherite!"
-			]
+			description: ["{quest.grege.hnn7}"]
 			id: "72F73D072168A441"
 			rewards: [{
 				id: "323F7391D9729F12"
@@ -167,5 +149,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Hostile Neural Networks"
+	title: "{quest.grege.hnn8}"
 }

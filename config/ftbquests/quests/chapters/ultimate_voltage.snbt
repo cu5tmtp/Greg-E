@@ -1124,7 +1124,7 @@
 		}
 		{
 			dependencies: ["5D1B9EACB654BDF8"]
-			description: ["This is a bit of a \"Did you do this?\" check, but the rewards are insane, as you can start crafting new circuits so much cheaper."]
+			description: ["{quest.grege.uv1}"]
 			id: "1A907246B5A18AED"
 			rewards: [{
 				id: "2B748616E3BE7C2B"
@@ -1140,5 +1140,5 @@
 			y: -2.0d
 		}
 	]
-	title: "UV"
+	title: "{quest.grege.uv2}"
 }

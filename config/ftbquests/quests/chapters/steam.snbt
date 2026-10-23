@@ -11,11 +11,7 @@
 	quests: [
 		{
 			dependencies: ["28C44A694D969950"]
-			description: [
-				"By clicking this button, you agree to acknowledge the following:"
-				""
-				"You are mentally insane"
-			]
+			description: ["{quest.grege.steam1}"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "0F9910D36E4395FC"
@@ -37,7 +33,7 @@
 		}
 		{
 			dependencies: ["0F9910D36E4395FC"]
-			description: ["In order to get bricks for steam machines, you need to get mud to convert to brick."]
+			description: ["{quest.grege.steam2}"]
 			id: "379DD11485B13D3C"
 			rewards: [{
 				id: "79F776033B88088E"
@@ -55,7 +51,7 @@
 		}
 		{
 			dependencies: ["379DD11485B13D3C"]
-			description: ["Put your mud on a campfire to get clay, turn the clay into clay balls, and then smelt each one and combine the products."]
+			description: ["{quest.grege.steam3}"]
 			id: "7C68D4FC81DC1C0D"
 			rewards: [{
 				id: "156AAF325C8F3B1F"
@@ -72,7 +68,7 @@
 		}
 		{
 			dependencies: ["0F9910D36E4395FC"]
-			description: ["Get these dusts by combining raw ingots with mortar."]
+			description: ["{quest.grege.steam4}"]
 			id: "6B0ACCAF9C50CE94"
 			rewards: [{
 				id: "6FD681218FF3FA20"
@@ -97,7 +93,7 @@
 		}
 		{
 			dependencies: ["6B0ACCAF9C50CE94"]
-			description: ["After combining tin and copper dust, you now got bronze! Hooray!"]
+			description: ["{quest.grege.steam5}"]
 			id: "337597BFFF927DD5"
 			rewards: [{
 				id: "6CF7AF9300EDA9F2"
@@ -118,12 +114,7 @@
 				"7C68D4FC81DC1C0D"
 				"337597BFFF927DD5"
 			]
-			description: [
-				"Okay, here are steps to follow to make sure this doesn't blow up. And yes, they can blow up."
-				""
-				"- You MUST give them water when heating up, or else they will blow."
-				"- that's all :D"
-			]
+			description: ["{quest.grege.steam6}"]
 			id: "744DFD4A90BA6A25"
 			rewards: [{
 				id: "3C16610DD1A2B53C"
@@ -193,7 +184,7 @@
 				"3A5E1B8D0273D3A6"
 				"6C207BF29EE954CE"
 			]
-			description: ["Well done!"]
+			description: ["{quest.grege.steam7}"]
 			id: "7339F1E89CC87439"
 			shape: "pentagon"
 			size: 2.0d
@@ -247,7 +238,7 @@
 		}
 		{
 			dependencies: ["744DFD4A90BA6A25"]
-			description: ["You can extract water from this block."]
+			description: ["{quest.grege.steam8}"]
 			id: "4FF4F5E9D76A11BA"
 			tasks: [{
 				id: "461168A32B529676"
@@ -258,5 +249,5 @@
 			y: 6.0d
 		}
 	]
-	title: "Steam"
+	title: "{quest.grege.steam9}"
 }

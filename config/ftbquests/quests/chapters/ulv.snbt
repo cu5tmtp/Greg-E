@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This is where it all starts. The intended way to progress is with primitive GregTech machines to quickly get you to LV, but you can go the normal GregTech way (steam age)."]
+			description: ["{quest.grege.ulv1}"]
 			id: "3DF11F5215868F26"
 			rewards: [{
 				id: "66F49159ED3EB92C"
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["3DF11F5215868F26"]
-			description: ["If you look under your island, you will find some living root. Mine them, and use 4x living root to craft a sapling."]
+			description: ["{quest.grege.ulv2}"]
 			id: "79A1F38B66243370"
 			rewards: [{
 				id: "5598DD4DE1E24BD5"
@@ -47,11 +47,7 @@
 		}
 		{
 			dependencies: ["79A1F38B66243370"]
-			description: [
-				"Grow some trees and get some logs."
-				""
-				"Learn this item in your tablet."
-			]
+			description: ["{quest.grege.ulv3}"]
 			id: "68C37EC1636352FA"
 			rewards: [{
 				id: "03DEF952885D9D46"
@@ -69,11 +65,7 @@
 		}
 		{
 			dependencies: ["68C37EC1636352FA"]
-			description: [
-				"By Shift+Right Clicking, you can get stone pebbles. 4x pebbles = 1x cobblestone."
-				""
-				"After that, make a hammer and crush some cobblestone."
-			]
+			description: ["{quest.grege.ulv4}"]
 			id: "4A922F1103B983C8"
 			rewards: [{
 				id: "5878980598B2A2B4"
@@ -115,7 +107,7 @@
 		}
 		{
 			dependencies: ["6AFBB35EB073CAEF"]
-			description: ["If used on tools, they have higher durability than iron tools."]
+			description: ["{quest.grege.ulv5}"]
 			id: "7AB7609419E41CF9"
 			optional: true
 			rewards: [{
@@ -133,11 +125,7 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: [
-				"You don't have to craft all of the tools right now, but when you need them. This quest serves as a visual indicator of what tools you need."
-				""
-				"You have 2 choices for now: Wrought Iron tools (better durability but takes longer to craft) or Iron Tools (bad durability but cheap to craft)."
-			]
+			description: ["{quest.grege.ulv6}"]
 			id: "51DADABE18E42408"
 			rewards: [{
 				count: 2
@@ -275,7 +263,7 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: ["If you want to get to LV in a reasonable amount of time, I recommend you make a few of these."]
+			description: ["{quest.grege.ulv7}"]
 			id: "44429CAC9ECB5887"
 			rewards: [{
 				id: "222759C84B074B1C"
@@ -305,7 +293,7 @@
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]
-			description: ["LV Circuit Component."]
+			description: ["{quest.grege.ulv8}"]
 			id: "05485092D83CA495"
 			rewards: [{
 				id: "47323B853B8F9F2E"
@@ -327,7 +315,7 @@
 				"6306613B166A256A"
 				"266763194D51C9D7"
 			]
-			description: ["LV Circuit Component. Your last."]
+			description: ["{quest.grege.ulv9}"]
 			id: "5C3A756A1059967E"
 			rewards: [{
 				id: "433D5302AA5DBBDF"
@@ -345,11 +333,7 @@
 		}
 		{
 			dependencies: ["5C3A756A1059967E"]
-			description: [
-				"This is the culmination of everything in ULV. Now that you have this, move to the LV chapter. But first, take a lil break."
-				""
-				"Also, you'd probably want to make quite a few of these. It's better to spend more time crafting so that progressing is quicker."
-			]
+			description: ["{quest.grege.ulv10}"]
 			id: "2AF98F98E6C710C7"
 			rewards: [
 				{
@@ -377,7 +361,7 @@
 		}
 		{
 			dependencies: ["68C37EC1636352FA"]
-			description: ["By making some shears, you can get oak leaves. This is the best way to farm emc pre-lv."]
+			description: ["{quest.grege.ulv11}"]
 			id: "3BE88EE723AF536F"
 			rewards: [{
 				id: "644BEFA178489B72"
@@ -396,7 +380,7 @@
 		}
 		{
 			dependencies: ["68C37EC1636352FA"]
-			description: ["Be careful with the water and lava! BTW, these material unlocks are the only freebies in the pack, you will have to work for others!"]
+			description: ["{quest.grege.ulv12}"]
 			id: "5D43381BD4A2F8B9"
 			rewards: [
 				{
@@ -474,7 +458,7 @@
 		}
 		{
 			dependencies: ["3DF11F5215868F26"]
-			description: ["This is arguably one of the most useful mods in this pack. It allows you to view recipes, crafting trees to mitigate microcrafting, and do loads of other cool things. Make sure to use it to make your experience enjoyable."]
+			description: ["{quest.grege.ulv13}"]
 			id: "0487392CF36E0B88"
 			shape: "hexagon"
 			size: 1.25d
@@ -489,7 +473,7 @@
 		}
 		{
 			dependencies: ["3DF11F5215868F26"]
-			description: ["If you love the purity of GregTech, click on this checkmark to enable the steam questline."]
+			description: ["{quest.grege.ulv14}"]
 			id: "28C44A694D969950"
 			rewards: [{
 				id: "71FD3FAB4B714605"
@@ -509,7 +493,7 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: ["There is quite some things to do to get glass. I encourage you to use EMI to look how to make this. &oHINT: You'll need a campfire!&r"]
+			description: ["{quest.grege.ulv15}"]
 			id: "747D71E15C76C703"
 			subtitle: "EMI"
 			tasks: [{
@@ -522,7 +506,7 @@
 		}
 		{
 			dependencies: ["4A922F1103B983C8"]
-			description: ["You'll need a ton of this, it's probably wise to get some."]
+			description: ["{quest.grege.ulv16}"]
 			id: "0F153D1267A6574A"
 			rewards: [{
 				id: "50B0BFE329731413"
@@ -540,7 +524,7 @@
 		}
 		{
 			dependencies: ["747D71E15C76C703"]
-			description: ["Using some iron, glass, lava bucket, and water (pls tell me you've made an infinite source), make this for unlimited cobblestone. You should probably make a drawer to store all of it."]
+			description: ["{quest.grege.ulv17}"]
 			id: "4F5FAA5E31B219A9"
 			rewards: [{
 				id: "444B3C7AF1AC8EE1"
@@ -565,7 +549,7 @@
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]
-			description: ["You should make an energy converter, as GT machines do not natively accept FE. A converter will turn FE into EU at a cost of 4 FE to 1 EU"]
+			description: ["{quest.grege.ulv18}"]
 			icon: "gtceu:ulv_1a_energy_converter"
 			id: "676652907F0EC1E4"
 			rewards: [{
@@ -585,7 +569,7 @@
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]
-			description: ["By getting this, you improve your ability to make wrought iron. It is now ingot to ingot again."]
+			description: ["{quest.grege.ulv19}"]
 			id: "6AFBB35EB073CAEF"
 			rewards: [{
 				id: "19F370EF638DB887"
@@ -603,7 +587,7 @@
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]
-			description: ["LV Circuit Component."]
+			description: ["{quest.grege.ulv20}"]
 			id: "6306613B166A256A"
 			rewards: [{
 				id: "46D7188952B26615"
@@ -621,7 +605,7 @@
 		}
 		{
 			dependencies: ["44429CAC9ECB5887"]
-			description: ["LV Circuit Component."]
+			description: ["{quest.grege.ulv21}"]
 			id: "266763194D51C9D7"
 			rewards: [{
 				id: "4ECFFE314247CF79"
@@ -639,7 +623,7 @@
 		}
 		{
 			dependencies: ["676652907F0EC1E4"]
-			description: ["This is one method to making some early game power. It makes one amp of LV power (32EU/t), but only in daylight."]
+			description: ["{quest.grege.ulv22}"]
 			id: "5D8098981CEAF141"
 			optional: true
 			rewards: [{
@@ -658,11 +642,7 @@
 		}
 		{
 			dependencies: ["676652907F0EC1E4"]
-			description: [
-				"Reactors are harder to setup, but produce more energy than fully upgraded solar panel."
-				""
-				"Thermo generators are easy to setup, but produce lower amount of energy."
-			]
+			description: ["{quest.grege.ulv23}"]
 			id: "6D0B15951F40F3F1"
 			optional: true
 			rewards: [{
@@ -689,5 +669,5 @@
 			y: 12.5d
 		}
 	]
-	title: "ULV"
+	title: "{quest.grege.ulv24}"
 }

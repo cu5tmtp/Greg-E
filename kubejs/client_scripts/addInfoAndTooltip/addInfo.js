@@ -1,21 +1,21 @@
 JEIEvents.information((event) => {
 
-    event.addItem('kubejs:cpottery', ['You can get this from Dwarven Pottery Bundle.']);
-    event.addItem('kubejs:vanaheimingotblock', ['Find this block in the Alfheim dimension, in a mysterious cabin. Use Explorers Compass to find it faster.']);
-    event.addItem('kubejs:magicalseed', ['Find this item in the Alfheim dimension, in a burned tree. Use Explorers Compass to find it faster.']);
-    event.addItem('mythicbotany:fimbultyr_tablet', ['Drink from Well of Mimir to enable this drop from Guardian of Gaia II bossfight. Or alternatively, craft it in Runic Altar.']);
-    event.addFluid('kubejs:acidinfusedlava', ['Find this lava on Venus, in special volcanoes. Use Explorers Compass to find it faster.']);
-    event.addItem('kubejs:iceshard', ['Glacian Ram is found on Glacio in Proxima Centauri star system.']);
-    event.addItem('gregecore:tome1', ['Found on a trans-neptunian object, that was discovered in 2005. Its MPC designation is 136472.']);
-    event.addItem('bloodmagic:basemonstersoul', ['You get this by killing an enemy with a Sentient Sword. The one from the blood altar doesnt work on crafts, it just serves as an automation for Evil Soul.']);
-    event.addItem('gregecore:unstable', ['Find this in the Fractured Lands in the Floaty Rocks structure, you get there by using Reality Fracture Engine.']);
-    event.addItem('kubejs:vileheart', ['Find this in the Nether, in the Eroded Yard biome. Use Explorers Compass to find the Vile Mouth structure faster.']);
-    event.addItem('gtceu:end_certus_quartz_gem', ['Find this in the End, in the End Cities. Use Explorers Compass to find the End Cities structure faster.']);
-    event.addItem('kubejs:alkhalaclaw', ['Find this on Ceres, in the obelisk. Use Explorers Compass to find the obelisk structure faster.']);
-    event.addItem('kubejs:deleriancoin', ['Find this on Mars, in the destroyed temple. Use Explorers Compass to find destroyed temple structure faster.']);
-    event.addItem('kubejs:draeneiwood', ['Find this on Mercury, in the woodyard structure. Use Explorers Compass to find the woodyard structure faster.']);
-    event.addItem('kubejs:robotarm', ['Find this on Quaoar, in the broken assembly line structure. Use Explorers Compass to find the broken assembly line faster.']);
-    event.addItem('kubejs:computation_matrix', ['Find this in Undergarden, in the mystery cube structure. Use Explorers Compass to find the mystery cube faster.']);
-    event.addItem('kubejs:mirrorofkalandra', ['This item has a 0.00001% chance to drop from any mob. Only a few exiles can get this item this way, if you do, consider yourself very lucky.']);
+    event.addItem('kubejs:cpottery', [Text.translatable("infotab.grege.info1")]);
+    event.addItem('kubejs:vanaheimingotblock', [Text.translatable("infotab.grege.info2")]);
+    event.addItem('kubejs:magicalseed', [Text.translatable("infotab.grege.info3")]);
+    event.addItem('mythicbotany:fimbultyr_tablet', [Text.translatable("infotab.grege.info4")]);
+    event.addFluid('kubejs:acidinfusedlava', [Text.translatable("infotab.grege.info5")]);
+    event.addItem('kubejs:iceshard', [Text.translatable("infotab.grege.info6")]);
+    event.addItem('gregecore:tome1', [Text.translatable("infotab.grege.info7")]);
+    event.addItem('bloodmagic:basemonstersoul', [Text.translatable("infotab.grege.info8")]);
+    event.addItem('gregecore:unstable', [Text.translatable("infotab.grege.info9")]);
+    event.addItem('kubejs:vileheart', [Text.translatable("infotab.grege.info10")]);
+    event.addItem('gtceu:end_certus_quartz_gem', [Text.translatable("infotab.grege.info11")]);
+    event.addItem('kubejs:alkhalaclaw', [Text.translatable("infotab.grege.info12")]);
+    event.addItem('kubejs:deleriancoin', [Text.translatable("infotab.grege.info13")]);
+    event.addItem('kubejs:draeneiwood', [Text.translatable("infotab.grege.info14")]);
+    event.addItem('kubejs:robotarm', [Text.translatable("infotab.grege.info15")]);
+    event.addItem('kubejs:computation_matrix', [Text.translatable("infotab.grege.info16")]);
+    event.addItem('kubejs:mirrorofkalandra', [Text.translatable("infotab.grege.info17")]);
 
 })

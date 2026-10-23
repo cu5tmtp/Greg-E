@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Sup! Welcome to a skyblock modpack mainly focused on GregTech with unique material production featuring ProjectE."]
+			description: ["{quest.grege.welcome1}"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -37,7 +37,7 @@
 		}
 		{
 			dependencies: ["690DF85A2DBB2C21"]
-			description: ["ProjectE has a somewhat bad name, that you can become OP really easily. Honestly, its not far from the truth, but here you can't really buy circuits with EMC. Those has to be crafted the normal way."]
+			description: ["{quest.grege.welcome2}"]
 			id: "1D8171083FBB255A"
 			tasks: [{
 				id: "638E1185D42BABB2"
@@ -49,11 +49,7 @@
 		}
 		{
 			dependencies: ["1D8171083FBB255A"]
-			description: [
-				"This pack will use EMC as a buying power. That means that all resources won't be mineable (you are on skyblock after all), but whats interesting is that there are always new ways to generate EMC in each tier. "
-				""
-				"In each new tier you will need to make a new alloy to sell for more EMC to buy more raw materials. I'll try to balance it to the best of my ability so you need to do every new generating line."
-			]
+			description: ["{quest.grege.welcome3}"]
 			id: "6D640340351A76C3"
 			tasks: [{
 				id: "19A863459230ACF9"
@@ -65,7 +61,7 @@
 		}
 		{
 			dependencies: ["6D640340351A76C3"]
-			description: ["Quests serve as a path that guides your progression, but you dont really have to complete them. You might have to experiment on your own."]
+			description: ["{quest.grege.welcome4}"]
 			id: "082290BAAD2128A9"
 			tasks: [{
 				id: "368554DD599D39B4"
@@ -77,23 +73,7 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"Thank you to &2jijing000&r for finding unintended walls!"
-				""
-				"Thank you to &2ComboBreaker&r for giving great feedback!"
-				""
-				"Thank you to &2NLGibson&r, &2waidao&r and their friends for giving great feedback and testing the endgame!"
-				""
-				"Thank you to &eSirEdvin&r to contributing to the coremod's code!"
-				""
-				"Thank you to &5turtles82&r for creating the ULV quest page!"
-				""
-				"Thank you &9theo_artin&r for beautiful textures!"
-				""
-				"Thank you &9DiggyPT&r for beautiful textures!"
-				""
-				"Thank you to &9eyecats&r for beautiful coil textures!"
-			]
+			description: ["{quest.grege.welcome5}"]
 			id: "378F8C860737A944"
 			tasks: [{
 				id: "5FA77C1BD80DF3D0"
@@ -104,5 +84,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Welcome"
+	title: "{quest.grege.welcome6}"
 }

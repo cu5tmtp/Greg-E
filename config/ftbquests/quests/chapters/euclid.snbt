@@ -450,7 +450,7 @@
 		}
 		{
 			dependencies: ["5591AACF1E71775E"]
-			description: ["Goo.....job, you made th....Gene.....Crucible, the connection is more stable now."]
+			description: ["{quest.grege.euclid1}"]
 			hide_until_deps_complete: true
 			icon: "ad_astra:radio"
 			id: "3D9974A62C66439D"
@@ -464,7 +464,7 @@
 		}
 		{
 			dependencies: ["3D9974A62C66439D"]
-			description: ["That doesn........ matter, you wi...... fi..... answers soon. Now is the time to push on to higher tiers!"]
+			description: ["{quest.grege.euclid2}"]
 			icon: "ad_astra:radio"
 			id: "5CAD7869D49711D9"
 			title: "Who a....I?"
@@ -473,19 +473,7 @@
 		}
 		{
 			dependencies: ["5CAD7869D49711D9"]
-			description: [
-				"This is the ending of the modpack for the version 0.6.*."
-				""
-				"Next tiers will be added in future updates."
-				""
-				"Thank you for playing this pack. It means a lot to me, this is my first try on something this big."
-				""
-				"If you have any ideas, suggestions or other opinions, feel free to message me on CurseForge or Discord."
-				""
-				"Once again, thank you for playing my pack!"
-				""
-				"cu5tmtp"
-			]
+			description: ["{quest.grege.euclid3}"]
 			hide_until_deps_complete: true
 			id: "04D657457ABE6BE7"
 			shape: "heart"
@@ -537,5 +525,5 @@
 			y: 11.5d
 		}
 	]
-	title: "Euclid"
+	title: "{quest.grege.euclid4}"
 }

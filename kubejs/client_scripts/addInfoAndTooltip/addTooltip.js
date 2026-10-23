@@ -28,7 +28,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:seniron'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('It formed on its own...'));
+            text.add(1, Text.translatable("tooltip.grege.info1").gray())
         }
     );
 
@@ -37,7 +37,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:cc'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gold('Spend me in the Vending Machine!'));
+            text.add(1, Text.translatable("tooltip.grege.info2").gold());
         }
     );
 
@@ -46,8 +46,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:speedrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases all of the crafting operations in the Blood Altar.'));
-            text.add(2, Text.red('20% additive speed per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info3").red());
+            text.add(2, Text.translatable("tooltip.grege.info4").red());
         }
     );
 
@@ -56,8 +56,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:speedrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases all of the crafting operations in the Blood Altar.'));
-            text.add(2, Text.red('40% additive speed per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info5").red());
+            text.add(2, Text.translatable("tooltip.grege.info6").red());
         }
     );
 
@@ -66,8 +66,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:sacrificerune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood from health from non-player entities.'));
-            text.add(2, Text.red('10% additive amount of blood per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info7").red());
+            text.add(2, Text.translatable("tooltip.grege.info8").red());
         }
     );
 
@@ -76,8 +76,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:sacrificerune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood from health from non-player entities.'));
-            text.add(2, Text.red('20% additive amount of blood per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info9").red());
+            text.add(2, Text.translatable("tooltip.grege.info10").red());
         }
     );
 
@@ -86,8 +86,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:selfsacrificerune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood from health from player.'));
-            text.add(2, Text.red('10% additive amount of blood per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info11").red());
+            text.add(2, Text.translatable("tooltip.grege.info12").red());
         }
     );
 
@@ -96,8 +96,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:selfsacrificerune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood from health from player.'));
-            text.add(2, Text.red('20% additive amount of blood per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info13").red());
+            text.add(2, Text.translatable("tooltip.grege.info14").red());
         }
     );
 
@@ -106,8 +106,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:dislocationrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood flowing in and out of altar.'));
-            text.add(2, Text.red('20% multiplicatively per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info15").red());
+            text.add(2, Text.translatable("tooltip.grege.info16").red());
         }
     );
 
@@ -116,8 +116,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:dislocationrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood flowing in and out of altar.'));
-            text.add(2, Text.red('40% multiplicatively per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info17").red());
+            text.add(2, Text.translatable("tooltip.grege.info18").red());
         }
     );
 
@@ -126,8 +126,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:altarcapacityrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
-            text.add(2, Text.red('20% additive per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info19").red());
+            text.add(2, Text.translatable("tooltip.grege.info20").red());
         }
     );
 
@@ -136,8 +136,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:altarcapacityrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
-            text.add(2, Text.red('40% additive per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info21").red());
+            text.add(2, Text.translatable("tooltip.grege.info22").red());
         }
     );
 
@@ -146,9 +146,9 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:bettercapacityrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
-            text.add(2, Text.red('7.5% multiplicatively per rune.'));
-            text.add(3, Text.red('Applies after Capacity Rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info23").red());
+            text.add(2, Text.translatable("tooltip.grege.info24").red());
+            text.add(3, Text.translatable("tooltip.grege.info25").red());
         }
     );
 
@@ -157,9 +157,9 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:bettercapacityrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the amount of blood stored in altar.'));
-            text.add(2, Text.red('15% multiplicatively per rune.'));
-            text.add(3, Text.red('Applies after Capacity Rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info26").red());
+            text.add(2, Text.translatable("tooltip.grege.info27").red());
+            text.add(3, Text.translatable("tooltip.grege.info28").red());
         }
     );
 
@@ -168,8 +168,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:orbcapacityrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the capacity of Blood Orb in altar.'));
-            text.add(2, Text.red('2% additive per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info29").red());
+            text.add(2, Text.translatable("tooltip.grege.info30").red());
         }
     );
 
@@ -178,8 +178,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:orbcapacityrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Increases the capacity of Blood Orb in altar.'));
-            text.add(2, Text.red('4% additive per rune.'));
+            text.add(1, Text.translatable("tooltip.grege.info31").red());
+            text.add(2, Text.translatable("tooltip.grege.info32").red());
         }
     );
 
@@ -188,9 +188,9 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:accelerationrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Decreases the time one operation takes in the Blood Altar.'));
-            text.add(2, Text.red('1 tick reduction.'));
-            text.add(3, Text.red('Maximum 19 runes in one Blood Altar.'));
+            text.add(1, Text.translatable("tooltip.grege.info33").red());
+            text.add(2, Text.translatable("tooltip.grege.info34").red());
+            text.add(3, Text.translatable("tooltip.grege.info35").red());
         }
     );
 
@@ -199,9 +199,9 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:accelerationrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Decreases the time one operation takes in the Blood Altar.'));
-            text.add(2, Text.red('2 tick reduction.'));
-            text.add(3, Text.red('Maximum 9 runes in one Blood Altar.'));
+            text.add(1, Text.translatable("tooltip.grege.info36").red());
+            text.add(2, Text.translatable("tooltip.grege.info37").red());
+            text.add(3, Text.translatable("tooltip.grege.info38").red());
         }
     );
 
@@ -210,8 +210,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:chargingrune'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Stores Blood in the internal buffer of the Blood Altar.'));
-            text.add(2, Text.red('1000 LP per Rune, then multiplied by (Capacity of Blood Altar)/20000.'));
+            text.add(1, Text.translatable("tooltip.grege.info39").red());
+            text.add(2, Text.translatable("tooltip.grege.info40").red());
         }
     );
 
@@ -220,8 +220,8 @@ ItemEvents.tooltip((event) => {
             'bloodmagic:chargingrune2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.red('Stores Blood in the internal buffer of the Blood Altar.'));
-            text.add(2, Text.red('2000 LP per Rune, then multiplied by (Capacity of Blood Altar)/20000.'));
+            text.add(1, Text.translatable("tooltip.grege.info41").red());
+            text.add(2, Text.translatable("tooltip.grege.info42").red());
         }
     );
 
@@ -230,8 +230,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:vending_machine'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.lightPurple('Right click on the bottom block to open GUI.'));
-            text.add(2, Text.lightPurple('Items are unlocked by completing the pentagon chapter quests.'));
+            text.add(1, Text.translatable("tooltip.grege.info43").lightPurple());
+            text.add(2, Text.translatable("tooltip.grege.info44").lightPurple());
         }
     );
 
@@ -240,7 +240,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:legwepcore'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.lightPurple('Either craft this or purchase this from Vending Machine.'));
+            text.add(1, Text.translatable("tooltip.grege.info45").lightPurple());
         }
     );
 
@@ -249,7 +249,7 @@ ItemEvents.tooltip((event) => {
             'tiab:time_in_a_bottle'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.lightPurple('Purchasable from Vending Machine.'));
+            text.add(1, Text.translatable("tooltip.grege.info46").lightPurple());
         }
     );
 
@@ -258,7 +258,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:alkhalaclaw'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Relic from a long extinct animal that used to live on Ceres.'));
+            text.add(1, Text.translatable("tooltip.grege.info47").gray());
         }
     );
 
@@ -267,7 +267,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:robotarm'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('How did this get here?'));
+            text.add(1, Text.translatable("tooltip.grege.info48").gray());
         }
     );
 
@@ -276,7 +276,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:sensor'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Powered by unknown dwarven technology.'));
+            text.add(1, Text.translatable("tooltip.grege.info49").gray());
         }
     );
 
@@ -285,7 +285,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:computation_matrix'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Left behind by the ancient civilization of Undergarden.'));
+            text.add(1, Text.translatable("tooltip.grege.info50").gray());
         }
     );
 
@@ -294,8 +294,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:adrobstat'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Perfect Overclock, Parallelization and Mass Machine Parts assembly.'));
-            text.add(2, Text.gray('This multiblock will make recipes for machine parts cheaper by 1/4.'));
+            text.add(1, Text.translatable("tooltip.grege.info51").gray());
+            text.add(2, Text.translatable("tooltip.grege.info52").gray());
         }
         
     );
@@ -305,8 +305,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:animated/draconicprocessor'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Draconic soul lingers in the circuit.'));
-            text.add(2, Text.green('AVARITIA-Tier Circuit'));
+            text.add(1, Text.translatable("tooltip.grege.info53").gray());
+            text.add(2, Text.translatable("tooltip.grege.info54").green());
         }
         
     );
@@ -316,8 +316,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:euclid/euclid_circuit'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('One half of the puzzle.'));
-            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+            text.add(1, Text.translatable("tooltip.grege.info55").gray());
+            text.add(2, Text.translatable("tooltip.grege.info56").darkRed());
         }
     );
 
@@ -326,8 +326,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:euclid/euclid_integrated'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('One half of the puzzle.'));
-            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+            text.add(1, Text.translatable("tooltip.grege.info57").gray());
+            text.add(2, Text.translatable("tooltip.grege.info58").darkRed());
         }
     );
 
@@ -336,7 +336,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:fading'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.yellow('₂brA'));
+            text.add(1, Text.translatable("tooltip.grege.info59").yellow());
         }
     );
 
@@ -345,8 +345,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:euclid/euclid_computer'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Where theoretical science meets reality.'));
-            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+            text.add(1, Text.translatable("tooltip.grege.info60").gray());
+            text.add(2, Text.translatable("tooltip.grege.info61").darkRed());
         }
     );
 
@@ -355,8 +355,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:euclid/euclid_mainframe'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('At the end of the Golden Ratio.'))
-            text.add(2, Text.darkRed('Euclid-Tier Circuit'));
+            text.add(1, Text.translatable("tooltip.grege.info62").gray())
+            text.add(2, Text.translatable("tooltip.grege.info63").darkRed());
         }
     );
 
@@ -365,7 +365,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:deleriancoin'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Coin from an ancient Mars civilization that left for better planets long before life on Earth formed.'));
+            text.add(1, Text.translatable("tooltip.grege.info64").gray());
         }
     );
 
@@ -374,7 +374,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:scepterofsand'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("Scepter made from alien relics and modern technology. Doesn't need a dragon to form."));
+            text.add(1, Text.translatable("tooltip.grege.info65").gray());
         }
     );
 
@@ -383,8 +383,8 @@ ItemEvents.tooltip((event) => {
             'kubejs:draeneiwood'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Wood plank that underwent difficult Draenei technique of cultivating wood.'));
-            text.add(2, Text.gray('This technique is impossible to recreate, as it needs expertise and environment on Mercury.'));
+            text.add(1, Text.translatable("tooltip.grege.info66").gray());
+            text.add(2, Text.translatable("tooltip.grege.info67").gray());
         }
     );
 
@@ -393,7 +393,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:dewvial'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('This could be useful in a pixelated dungeon...'));
+            text.add(1, Text.translatable("tooltip.grege.info68").gray());
         }
     );
 
@@ -402,7 +402,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:voidcrystal'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.white('Machine modes: Void Crystal, Void Crystal Incubator'));
+            text.add(1, Text.translatable("tooltip.grege.info69").white());
         }
     );
 
@@ -411,7 +411,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:forgef'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.white('Machine modes: Dwarven Anvil, Dwarven Forge'));
+            text.add(1, Text.translatable("tooltip.grege.info70").white());
         }
     );
 
@@ -420,7 +420,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:precisionlaserengraver'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('This machine cleans its own air by itself, allowing it to not require Cleanroom to engrave wafers.'));
+            text.add(1, Text.translatable("tooltip.grege.info71").gray());
         }
     );
 
@@ -429,7 +429,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:bacteriabreeder'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.white('Machine modes: Bacteria Breeding, Bacteria Multiplying'));
+            text.add(1, Text.translatable("tooltip.grege.info72").white());
         }
     );
 
@@ -438,19 +438,19 @@ ItemEvents.tooltip((event) => {
             'gtceu:advancedaeassembler'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch.'));
+            text.add(1, Text.translatable("tooltip.grege.info73").gray());
         }
     );
 
     const factories = [
-        {id: 'gtceu:cube_wiremill', tooltip: 'Machine modes: Wiremill, Bender'},
-        {id: 'gtceu:cube_extruder', tooltip: 'Machine modes: Extruder, Cutter'},
-        {id: 'gtceu:cube_extractor', tooltip: 'Machine modes: Extractor, Fluid Solidifier'},
-        {id: 'gtceu:cube_ore', tooltip: 'Machine modes: Macerator, Ore Washer'},
-        {id: 'gtceu:cube_mixer', tooltip: 'Machine modes: Mixer'},
-        {id: 'gtceu:cube_assembler', tooltip: 'Machine modes: Assembler, Circuit Assembler'},
-        {id: 'gtceu:cube_oreprocesser', tooltip: 'Machine modes: Centrifuge, Electrolyzer'},
-        {id: 'gtceu:cube_chemical', tooltip: 'Machine modes: Chemical Bath'}
+        {id: 'gtceu:cube_wiremill', tooltip: "tooltip.grege.info74"},
+        {id: 'gtceu:cube_extruder', tooltip: "tooltip.grege.info75"},
+        {id: 'gtceu:cube_extractor', tooltip: "tooltip.grege.info76"},
+        {id: 'gtceu:cube_ore', tooltip: "tooltip.grege.info77"},
+        {id: 'gtceu:cube_mixer', tooltip: "tooltip.grege.info78"},
+        {id: 'gtceu:cube_assembler', tooltip: "tooltip.grege.info79"},
+        {id: 'gtceu:cube_oreprocesser', tooltip: "tooltip.grege.info80"},
+        {id: 'gtceu:cube_chemical', tooltip: "tooltip.grege.info81"}
     ]
 
     factories.forEach(tip => {
@@ -459,8 +459,8 @@ ItemEvents.tooltip((event) => {
                 tip.id
             ],
             (item, advanced, text) => {
-                text.add(1, Text.white(tip.tooltip));
-                text.add(2, Text.white('Abilities: Subtick Overclock.'))
+                text.add(1, Text.translatable(tip.tooltip).white());
+                text.add(2, Text.translatable("tooltip.grege.info82").white())
             }
     );
 
@@ -472,13 +472,13 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             if(!event.shift){
-                text.add(1, Text.white('Right click to open!'));
-                text.add(2, Text.white('Hold SHIFT for more info.'));
+                text.add(1, Text.translatable("tooltip.grege.info83").white());
+                text.add(2, Text.translatable("tooltip.grege.info84").white());
             } else {
-                text.add(1, Text.white('Chances:'));
-                text.add(2, Text.yellow('10% Curious Pottery Shard'));
-                text.add(3, Text.gray('30% Clay Block'));
-                text.add(4, Text.gray('60% Stick'));
+                text.add(1, Text.translatable("tooltip.grege.info85").white());
+                text.add(2, Text.translatable("tooltip.grege.info86").yellow());
+                text.add(3, Text.translatable("tooltip.grege.info87").gray());
+                text.add(4, Text.translatable("tooltip.grege.info88").gray());
             }
         }
     );
@@ -489,13 +489,13 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             if(!event.shift){
-                text.add(1, Text.white('Right click to awaken a block.'));
-                text.add(2, Text.white('Hold SHIFT for more info.'));
+                text.add(1, Text.translatable("tooltip.grege.info89").white());
+                text.add(2, Text.translatable("tooltip.grege.info90").white());
             } else {
-                text.add(1, Text.yellow('Blocks avaible to awaken:'));
-                text.add(2, Text.lightPurple('Infinity Block'));
-                text.add(3, Text.lightPurple('Block of Neutronium'));
-                text.add(4, Text.lightPurple('Block of Nebulon-Alpha'));
+                text.add(1, Text.translatable("tooltip.grege.info91").yellow());
+                text.add(2, Text.translatable("tooltip.grege.info92").lightPurple());
+                text.add(3, Text.translatable("tooltip.grege.info93").lightPurple());
+                text.add(4, Text.translatable("tooltip.grege.info94").lightPurple());
             }
         }
     );
@@ -505,8 +505,8 @@ ItemEvents.tooltip((event) => {
             'gregecore:manasteel_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('1800K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('15%')));
+            text.add(1, Text.translatable("tooltip.grege.info95").green().append(Text.translatable("tooltip.grege.info96").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info97").green().append(Text.translatable("tooltip.grege.info98").yellow()));
         }
     );
 
@@ -515,8 +515,8 @@ ItemEvents.tooltip((event) => {
             'gregecore:twilight_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('3600K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('30%')));
+            text.add(1, Text.translatable("tooltip.grege.info99").green().append(Text.translatable("tooltip.grege.info100").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info101").green().append(Text.translatable("tooltip.grege.info102").yellow()));
         }
     );
 
@@ -525,8 +525,8 @@ ItemEvents.tooltip((event) => {
             'gregecore:desh_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('5400K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('40%')));
+            text.add(1, Text.translatable("tooltip.grege.info103").green().append(Text.translatable("tooltip.grege.info104").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info105").green().append(Text.translatable("tooltip.grege.info106").yellow()));
         }
     );
 
@@ -535,9 +535,9 @@ ItemEvents.tooltip((event) => {
             'gregecore:malachite_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('7400K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('25%')));
-            text.add(3, Text.green('Coil parallels: ').append(Text.yellow('2')));
+            text.add(1, Text.translatable("tooltip.grege.info107").green().append(Text.translatable("tooltip.grege.info108").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info109").green().append(Text.translatable("tooltip.grege.info110").yellow()));
+            text.add(3, Text.translatable("tooltip.grege.info111").green().append(Text.translatable("tooltip.grege.info112").yellow()));
         }
     );
 
@@ -546,9 +546,9 @@ ItemEvents.tooltip((event) => {
             'gregecore:forgotten_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('9200K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('40%')));
-            text.add(3, Text.green('Coil parallels: ').append(Text.yellow('4')));
+            text.add(1, Text.translatable("tooltip.grege.info113").green().append(Text.translatable("tooltip.grege.info114").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info115").green().append(Text.translatable("tooltip.grege.info116").yellow()));
+            text.add(3, Text.translatable("tooltip.grege.info117").green().append(Text.translatable("tooltip.grege.info118").yellow()));
         }
     );
 
@@ -557,9 +557,9 @@ ItemEvents.tooltip((event) => {
             'gregecore:superelement_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('11000K')));
-            text.add(2, Text.green('Coil recipe time reduction: ').append(Text.yellow('60%')));
-            text.add(3, Text.green('Coil parallels: ').append(Text.yellow('8')));
+            text.add(1, Text.translatable("tooltip.grege.info119").green().append(Text.translatable("tooltip.grege.info120").yellow()));
+            text.add(2, Text.translatable("tooltip.grege.info121").green().append(Text.translatable("tooltip.grege.info122").yellow()));
+            text.add(3, Text.translatable("tooltip.grege.info123").green().append(Text.translatable("tooltip.grege.info124").yellow()));
         }
     );
 
@@ -568,7 +568,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:awakened_draconium_coil'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.green('Coil heat capacity: ').append(Text.yellow('12000K')));
+            text.add(1, Text.translatable("tooltip.grege.info125").green().append(Text.translatable("tooltip.grege.info126").yellow()));
         }
     );
 
@@ -577,7 +577,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:vileheart'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("This seems indestructible..."));
+            text.add(1, Text.translatable("tooltip.grege.info127").gray());
         }
     );
 
@@ -586,7 +586,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:tome2'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("You can feel intense pressure from this book, maybe the souls of strong enemies don't fade away that easily..."));
+            text.add(1, Text.translatable("tooltip.grege.info128").gray());
         }
     );
 
@@ -595,7 +595,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:tome1'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("Ancient alien race left this book behind because they could not comprehend its secrets... maybe you can."));
+            text.add(1, Text.translatable("tooltip.grege.info129").gray());
         }
     );
 
@@ -604,7 +604,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:tome4'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("This tome is hiding in the subatomic particles of several combined blocks that are pressured together in a star. How it got there is a mystery..."));
+            text.add(1, Text.translatable("tooltip.grege.info130").gray());
         }
     );
 
@@ -613,7 +613,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:tome5'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("This tome is hiding in the subatomic particles of several combined items that are pressured together in a star. How it got there is a mystery..."));
+            text.add(1, Text.translatable("tooltip.grege.info131").gray());
         }
     );
 
@@ -622,7 +622,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:tome3'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray("The recipe for this book has been in the witch coven for a long time, but none were able to create it. You can be the first person to do it..."));
+            text.add(1, Text.translatable("tooltip.grege.info132").gray());
         }
     );
 
@@ -631,7 +631,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:phase_acid_bucket'
         ],
         (item, advanced, text) => {
-            text.add(Text.yellow("Executing phase shift."));
+            text.add(Text.translatable("tooltip.grege.info133").yellow());
         }
     );
 
@@ -651,7 +651,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:runecarver'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Perfect Overclock and Parallel Hatch.'));
+            text.add(1, Text.translatable("tooltip.grege.info134").gray());
         }
     );
 
@@ -664,7 +664,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:atmosphericsampler',
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Perfect Overclock, Subtick Overclock and Parallel Hatch.'));
+            text.add(1, Text.translatable("tooltip.grege.info135").gray());
         }
     );
 
@@ -679,7 +679,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:giant_squeezer'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Ability: Parallel Hatch.'));
+            text.add(1, Text.translatable("tooltip.grege.info136").gray());
         }
     );
 
@@ -688,7 +688,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:evaporator'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Abilities: Subtick Overclock and Parallel Hatch.'));
+            text.add(1, Text.translatable("tooltip.grege.info137").gray());
         }
     );
 
@@ -697,7 +697,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:twilightenergyconcentrator'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Ability: Subtick Overclock.'));
+            text.add(1, Text.translatable("tooltip.grege.info138").gray());
         }
     );
 
@@ -727,7 +727,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:magicalassembler',
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Ability: Perfect Overclock.'));
+            text.add(1, Text.translatable("tooltip.grege.info139").gray());
         }
     );
 
@@ -737,7 +737,7 @@ ItemEvents.tooltip((event) => {
             'kubejs:magnifying'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Right click to destroy End Portal Frame Block or Reinforced Deepslate.'));
+            text.add(1, Text.translatable("tooltip.grege.info140").gray());
         }
     );
 
@@ -782,7 +782,7 @@ ItemEvents.tooltip((event) => {
 
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Texture made by: ').append(Text.blue('theo_artin')));
+            text.add(1, Text.translatable("tooltip.grege.info141").gray().append(Text.translatable("tooltip.grege.info142").blue()));
         }
     );
 
@@ -801,7 +801,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:neutronium_pellet'
         ],
         (item, advanced, text) => {
-            text.add(1, Text.gray('Texture made by: ').append(Text.red('DiggyPT')));
+            text.add(1, Text.translatable("tooltip.grege.info143").gray().append(Text.translatable("tooltip.grege.info144").red()));
         }
     );
 
@@ -816,7 +816,7 @@ ItemEvents.tooltip((event) => {
             'gregecore:awakened_draconium_coil'
         ],
         (item, advanced, text) => {
-            text.add(Text.gray('Texture made by: ').append(Text.lightPurple('eyecats')));
+            text.add(Text.translatable("tooltip.grege.info145").gray().append(Text.translatable("tooltip.grege.info146").lightPurple()));
         }
     );
 
