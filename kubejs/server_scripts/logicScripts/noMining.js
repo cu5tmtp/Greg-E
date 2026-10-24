@@ -24,6 +24,29 @@ BlockEvents.broken(event => {
 
 })
 
+BlockEvents.rightClicked(event => {
+    if (event.hand != 'MAIN_HAND') return
+    if (event.item.id != 'gtmutils:omnibreaker') return
+
+    const block = event.block
+    const id = block.id.toString()
+
+    if (id.startsWith('ad_astra:') || id.startsWith('ad_extendra:')) return
+    if (id.startsWith('undergarden:')) return
+
+    if (block.hasTag('forge:ores')) {
+        block.set('minecraft:air')
+
+        event.player.tell({
+            text: "The ancient skyblock gods say that ore mining is forbidden...",
+            color: "gray",
+            italic: true
+        })
+
+        event.cancel()
+    }
+})
+
 //no ore drops for any mod apart from where it is needed >:(
 LootJS.modifiers((event) => {
     let ignoredMods = ['undergarden', 'ad_astra', 'ad_extendra'];

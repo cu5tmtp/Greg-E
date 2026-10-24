@@ -748,6 +748,22 @@
 			x: -0.5d
 			y: 0.5d
 		}
+		{
+			id: "4458430D327C927A"
+			tasks: [{
+				id: "3DD20AD25128AEB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
 	]
 	title: "{quest.grege.qol37}"
 }

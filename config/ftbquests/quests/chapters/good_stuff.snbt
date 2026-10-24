@@ -12,7 +12,7 @@
 			dependencies: ["70C952B8FF3418F6"]
 			id: "767B0154C41FE771"
 			rewards: [{
-				id: "4903CD35CA1172E5"
+				id: "1B4F6AD05600E5B1"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -28,7 +28,7 @@
 			dependencies: ["5241693278027FFD"]
 			id: "01E51F98F9D04AEC"
 			rewards: [{
-				id: "3258128F1D0A55E8"
+				id: "73CC6E066EABAE5A"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -45,7 +45,7 @@
 			description: ["{quest.grege.goodstuff1}"]
 			id: "43F53FF551641773"
 			rewards: [{
-				id: "17C00D5EB2F722CC"
+				id: "640A274B2271894D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -74,7 +74,7 @@
 			description: ["{quest.grege.goodstuff2}"]
 			id: "5E9B4EC518EE1232"
 			rewards: [{
-				id: "60404D09B1E871DD"
+				id: "18FF0CE3100C0770"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -90,7 +90,7 @@
 			dependencies: ["64F77D41B2D057B8"]
 			id: "1D086D1AB9E23D06"
 			rewards: [{
-				id: "5EB93040FF010A14"
+				id: "6ACDC1955DD56B30"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -106,7 +106,7 @@
 			dependencies: ["1D086D1AB9E23D06"]
 			id: "4D46195F00CCE930"
 			rewards: [{
-				id: "299599189D7B51D7"
+				id: "498A0838730B1ADE"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -122,6 +122,11 @@
 			dependencies: ["43F53FF551641773"]
 			description: ["{quest.grege.goodstuff3}"]
 			id: "607D79CB888B77C9"
+			rewards: [{
+				id: "31AD6FD8E95E735F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A98C435539D77AB"
 				item: "expatternprovider:assembler_matrix_speed"
@@ -134,6 +139,11 @@
 			dependencies: ["43F53FF551641773"]
 			description: ["{quest.grege.goodstuff4}"]
 			id: "6783392D58622277"
+			rewards: [{
+				id: "6ED1E7BB70D11FF1"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0371BF45D2CE3F24"
 				item: "expatternprovider:assembler_matrix_pattern"
@@ -146,6 +156,11 @@
 			dependencies: ["43F53FF551641773"]
 			description: ["{quest.grege.goodstuff5}"]
 			id: "5E0A9CC46106E0DF"
+			rewards: [{
+				id: "4C3009038DC95040"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "29480EFFA2FD3EC2"
 				item: "expatternprovider:assembler_matrix_crafter"
@@ -157,6 +172,11 @@
 		{
 			dependencies: ["194D1B1226F18E3C"]
 			id: "0387D66DEDF1F255"
+			rewards: [{
+				id: "11C2C9BD8EEEB8DF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "03075EA36207713D"
 				item: "advanced_ae:quantum_multi_threader"
@@ -168,6 +188,11 @@
 		{
 			dependencies: ["5E9B4EC518EE1232"]
 			id: "194D1B1226F18E3C"
+			rewards: [{
+				id: "0C6AF7A56F8C9989"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F6C07864C37DB89"
 				item: "advanced_ae:quantum_accelerator"
@@ -179,6 +204,11 @@
 		{
 			dependencies: ["5E9B4EC518EE1232"]
 			id: "742B99E34F90787B"
+			rewards: [{
+				id: "09EC6E968500354E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A2B07F73AB17ACC"
 				item: "advanced_ae:quantum_storage_256"
@@ -190,6 +220,11 @@
 		{
 			dependencies: ["742B99E34F90787B"]
 			id: "3EDC813F9B37691A"
+			rewards: [{
+				id: "6DE39D220288CEDB"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "777DA5E507A4D253"
 				item: "advanced_ae:data_entangler"

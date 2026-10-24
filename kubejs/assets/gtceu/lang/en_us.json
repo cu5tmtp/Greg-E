@@ -104,6 +104,9 @@
 
   "block.gtceu.bigdistillery": "Big Distillery",
   "gtceu.bigdistillery": "Big Distillery",
+  
+  "block.gtceu.candyomatic": "Candy-O-Matic",
+  "gtceu.candyomatic": "Candy-O-Matic",
 
   "block.gtceu.tectonicdisruptor": "Tectonic Disruptor",
   "gtceu.tectonicdisruptor": "Tectonic Disruptor",
@@ -188,6 +191,20 @@
   "material.gtceu.xynred_water": "Cool Xynred",
   "material.gtceu.xynredder": "Xynredder",
   "material.gtceu.xynredar": "Xynredar",
+
+  "material.gtceu.starch": "Starch",
+  "material.gtceu.sucrose": "Sucrose",
+  "material.gtceu.fructose": "Fructose",
+  "material.gtceu.lactose": "Lactose",
+  "material.gtceu.milk_powder": "Milk Powder",
+  "material.gtceu.watery_glucose_syrup": "Watery Gluctose Syrup",
+  "material.gtceu.glucose_syrup": "Gluctose Syrup",
+  "material.gtceu.molasses": "Molasses",
+  "material.gtceu.caramel": "Caramel",
+  "material.gtceu.chocolate_milk": "Chocolate Milk",
+  "material.gtceu.nougat": "Nougat",
+  "material.gtceu.eggwhite": "Egg White",
+  "material.gtceu.eggyolk": "Egg Yolk",
 
   "material.gtceu.fracturedoil": "Fractured Oil",
   "material.gtceu.fracturedheavyoil": "Fractured Heavy Oil",

@@ -177,9 +177,7 @@
 		}
 		{
 			dependencies: ["214AF983D9546F5B"]
-			description: [
-				"{quest.grege.explanation21}"
-			]
+			description: ["{quest.grege.explanation21}"]
 			id: "53E9326397CBEF52"
 			tasks: [{
 				id: "4EB5A7E53C029C49"

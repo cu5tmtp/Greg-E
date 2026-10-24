@@ -599,7 +599,11 @@
 		}
 		{
 			dependencies: ["2BE4B6F1CCAA36AC"]
-			description: ["{quest.grege.lv14}"]
+			description: [
+				"{quest.grege.lv14}"
+				""
+				"{quest.grege.lv23}"
+			]
 			id: "6AD1A5844541BBF2"
 			rewards: [{
 				id: "135C2D421AE56020"
@@ -796,10 +800,11 @@
 				}
 			]
 			x: -6.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["5C1BB559DD83E88F"]
+			dependencies: ["47644902693B6D55"]
+			description: ["{quest.grege.lv25}"]
 			id: "2A68B3BFA376D6E6"
 			rewards: [{
 				id: "3647E631A94E19B7"
@@ -847,7 +852,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["5C1BB559DD83E88F"]
+			dependencies: ["47644902693B6D55"]
 			description: ["{quest.grege.lv20}"]
 			id: "4E841BC22EFDA4BC"
 			rewards: [{
@@ -861,7 +866,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6AD1A5844541BBF2"]
@@ -879,6 +884,23 @@
 			}]
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["5C1BB559DD83E88F"]
+			description: ["{quest.grege.lv24}"]
+			id: "47644902693B6D55"
+			rewards: [{
+				id: "292F74074BFB805D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CC73BA557C6A403"
+				item: "gregecore:infusion_altar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
 		}
 	]
 	title: "{quest.grege.lv22}"

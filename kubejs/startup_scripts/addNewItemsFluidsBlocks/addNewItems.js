@@ -131,9 +131,14 @@ StartupEvents.registry('item', event => {
     event.create('biocapacitor').displayName('Bio-Capacitor')
     event.create('emptyprediction').displayName('Empty Prediction')
 
+    event.create('choccybar').displayName('Chocolate Bar')
+    event.create('peanuts').displayName('Peanuts')
+    event.create('mashedpotato').displayName('Mashed Potato')
+
     event.create('animated/morpher').displayName('Space-Time Anomaly')
     event.create('animated/thatfrombehind').displayName('That From Behind The Veil')
-    event.create('animated/tools').displayName('Morphed Tools')
+    event.create('animated/var2').displayName('Volatile Metal Convergence')
+    event.create('animated/diacircuit').displayName('Encased Circuit')
 
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')

@@ -644,7 +644,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:planetarygassiphon',
             'gtceu:specialoreprocessingplant',
             'gtceu:zerogravmixer',
-            'gtceu:analyzator',
             'gtceu:industrialfilter',
             'gtceu:laboratory',
             'gtceu:smdforge',
@@ -725,6 +724,7 @@ ItemEvents.tooltip((event) => {
             'gtceu:tartarustower',
             'gtceu:magicalgarden',
             'gtceu:magicalassembler',
+            'gtceu:analyzator'
         ],
         (item, advanced, text) => {
             text.add(1, Text.translatable("tooltip.grege.info139").gray());

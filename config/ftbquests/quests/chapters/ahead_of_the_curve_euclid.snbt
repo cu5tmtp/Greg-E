@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ahead_of_the_curve_euclid"
+	group: "11FCFA418C37D834"
+	icon: "gregecore:unstable"
+	id: "0D41E4BFBD3A78D6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ahead of the Curve: Euclid"
+}

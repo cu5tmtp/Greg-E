@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             '64x gtceu:uhv_emitter',
             '64x gtceu:qbit_cpu_chip',
             '64x gregecore:awakened_draconium_coil',
-            '64x gtceu:double_neutronium_plate'
+            '32x gtceu:double_neutronium_plate'
         )
         .inputFluids(
             'gtceu:soldering_alloy 50000',

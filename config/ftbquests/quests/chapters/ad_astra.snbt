@@ -21,7 +21,7 @@
 			description: [""]
 			id: "4EA0E385FF7E5FEB"
 			rewards: [{
-				id: "29F0C8A01378A9DB"
+				id: "60EAFB608DBA9DE2"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -46,7 +46,7 @@
 			description: [""]
 			id: "438E233A9014DA73"
 			rewards: [{
-				id: "2A7B1ACF2C86C6F9"
+				id: "589B6C6752450B11"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -63,7 +63,7 @@
 			description: [""]
 			id: "2A279B011D09A9EE"
 			rewards: [{
-				id: "33C48CCDA7FFEA6A"
+				id: "63FC7C55640E6AFA"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -89,7 +89,7 @@
 			}
 			id: "313BDDDAF1E08965"
 			rewards: [{
-				id: "47647FD73FAE0C93"
+				id: "5172C547DF780624"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -126,7 +126,7 @@
 			icon: "ad_astra:fuel_refinery"
 			id: "4785659E5022FEE7"
 			rewards: [{
-				id: "661487A41AC15320"
+				id: "058D2740FCC8360A"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -149,7 +149,7 @@
 			}
 			id: "7CA42B3CA84A21B5"
 			rewards: [{
-				id: "243B15C0EB80C39A"
+				id: "34C161D5320E163A"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -217,7 +217,7 @@
 			description: [""]
 			id: "7B2A7B2298DAE8EC"
 			rewards: [{
-				id: "566709D4CA0A1953"
+				id: "68AC237920CC63AD"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -285,7 +285,7 @@
 			description: ["{quest.grege.adastra3}"]
 			id: "12AC846277F88F3D"
 			rewards: [{
-				id: "62B17BAEAD4C08C5"
+				id: "0DF8E4978B0FD665"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -309,7 +309,7 @@
 			dependencies: ["7C9AE01973242410"]
 			id: "64D8FB039D6E7339"
 			rewards: [{
-				id: "1AAC1840A3CE4112"
+				id: "659CB86880AE9E3F"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -367,7 +367,7 @@
 			description: ["{quest.grege.adastra4}"]
 			id: "7C9AE01973242410"
 			rewards: [{
-				id: "416BB0F0FDBCAC4F"
+				id: "23498F2D369C49B6"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -385,7 +385,7 @@
 			description: ["{quest.grege.adastra5}"]
 			id: "370B0622AED33FC4"
 			rewards: [{
-				id: "4C558DD1BEE80E00"
+				id: "1CEDDD8C17DC796E"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -402,7 +402,7 @@
 			icon: "ad_astra:moon_globe"
 			id: "6ACF89A89C077413"
 			rewards: [{
-				id: "02C789FB20CDF617"
+				id: "69A08C8725250D64"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -419,7 +419,7 @@
 			icon: "ad_astra:mars_globe"
 			id: "56A7D6F094316F38"
 			rewards: [{
-				id: "0E0D648E2D6ACC2A"
+				id: "10CDB0F589EAE86D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -437,7 +437,7 @@
 			icon: "ad_astra:mercury_globe"
 			id: "3AD8032D75DDB50D"
 			rewards: [{
-				id: "2F760E9F8C576D0A"
+				id: "70E22697869A85F1"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -454,7 +454,7 @@
 			icon: "ad_astra:venus_globe"
 			id: "6294183FB96FF06F"
 			rewards: [{
-				id: "5CEB2F9F149D5585"
+				id: "0579AA7436156742"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -471,7 +471,7 @@
 			icon: "ad_astra:glacio_globe"
 			id: "02C7716B1B67C893"
 			rewards: [{
-				id: "6D1EAF7CE063F91A"
+				id: "44C3A021E21D0DE3"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -487,7 +487,7 @@
 			description: ["{quest.grege.adastra7}"]
 			id: "3492204F73657F99"
 			rewards: [{
-				id: "6652137E502897F7"
+				id: "6E2C55104EBA67DE"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -505,7 +505,7 @@
 			icon: "ad_extendra:jupiter_globe"
 			id: "26901950F02E83F3"
 			rewards: [{
-				id: "41B710B6456D86D2"
+				id: "07F2D3BAC0569540"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -521,7 +521,7 @@
 			dependencies: ["26901950F02E83F3"]
 			id: "57AE51DD05D8305F"
 			rewards: [{
-				id: "341BE3F119B7FA7D"
+				id: "2B644CA620790F2E"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -542,7 +542,7 @@
 			icon: "ad_extendra:saturn_globe"
 			id: "7FBC4C2FAE832E2E"
 			rewards: [{
-				id: "59441786A1C761D8"
+				id: "6F77370D27C5307A"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -558,7 +558,7 @@
 			dependencies: ["7FBC4C2FAE832E2E"]
 			id: "7C7C8FF92C9CDF33"
 			rewards: [{
-				id: "254B9A58DFE759C2"
+				id: "6316012E8FDC49F7"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -579,7 +579,7 @@
 			icon: "ad_extendra:uranus_globe"
 			id: "1490D21DC080B320"
 			rewards: [{
-				id: "27D81E630F52306A"
+				id: "6FC643F53A38533F"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -595,7 +595,7 @@
 			dependencies: ["1490D21DC080B320"]
 			id: "23B5A97746607231"
 			rewards: [{
-				id: "64D49458D934AF0F"
+				id: "2FD15B14ED033B2D"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -616,7 +616,7 @@
 			icon: "ad_extendra:neptune_globe"
 			id: "29CA86742E9369C2"
 			rewards: [{
-				id: "0EF1BA320FA4744E"
+				id: "69008C313DFAAC19"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -632,7 +632,7 @@
 			dependencies: ["29CA86742E9369C2"]
 			id: "75A2CAA38530E8D0"
 			rewards: [{
-				id: "5D9D2986720E7345"
+				id: "16825C04856B63BE"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -653,7 +653,7 @@
 			description: ["{quest.grege.adastra9}"]
 			id: "028A83967A3AD437"
 			rewards: [{
-				id: "70EA87DF3FD84432"
+				id: "57DC8F3B737D8C30"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -670,7 +670,7 @@
 			icon: "ad_extendra:orcus_globe"
 			id: "57E5706D527A185A"
 			rewards: [{
-				id: "4FEDD39E75D68C0F"
+				id: "504C3FB415C32083"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -686,7 +686,7 @@
 			dependencies: ["57E5706D527A185A"]
 			id: "38F8B7900041030E"
 			rewards: [{
-				id: "3488E71D0AF29529"
+				id: "5EA5ADED6D94EB3C"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -706,7 +706,7 @@
 			dependencies: ["4AAB5CB2015F572E"]
 			id: "5785BAE5647795FB"
 			rewards: [{
-				id: "79D6CFCF5B2A7EE4"
+				id: "1DDC19C0A477C4F4"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -726,7 +726,7 @@
 			dependencies: ["2FCED2BDD4F10C46"]
 			id: "7DD729D7BE5E18B9"
 			rewards: [{
-				id: "5388935271E3A601"
+				id: "03E4B4DAE326489A"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -747,7 +747,7 @@
 			icon: "ad_extendra:pluto_globe"
 			id: "4AAB5CB2015F572E"
 			rewards: [{
-				id: "046D3F7D1F448966"
+				id: "523FECB00368E847"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -764,7 +764,7 @@
 			icon: "ad_extendra:sedna_globe"
 			id: "2FCED2BDD4F10C46"
 			rewards: [{
-				id: "79C95F86C358675E"
+				id: "2A4E0070E24BABF7"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -778,12 +778,17 @@
 		}
 		{
 			description: [
-				"{quest.grege.adastra10}",
-				"{quest.grege.blank}",
-				"{quest.grege.adastra11}",
+				"{quest.grege.adastra10}"
+				"{quest.grege.blank}"
+				"{quest.grege.adastra11}"
 				"{quest.grege.adastra12}"
 			]
 			id: "0CD24B78F5E98512"
+			rewards: [{
+				id: "79981094165F147C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04CDCC3B7857D117"
 				title: "Giselle Addon"
@@ -795,6 +800,11 @@
 		{
 			dependencies: ["0CD24B78F5E98512"]
 			id: "49CBE42A937512F7"
+			rewards: [{
+				id: "0743C604B2286E41"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4417C8FC1AF5F56F"
 				item: {
@@ -816,10 +826,13 @@
 		}
 		{
 			dependencies: ["0CD24B78F5E98512"]
-			description: [
-				"{quest.grege.adastra13}"
-			]
+			description: ["{quest.grege.adastra13}"]
 			id: "79E2A00525A8FBF2"
+			rewards: [{
+				id: "7DEC1DE70E256D99"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F6C3967E2E9E18D"
 				title: "Enchantments"

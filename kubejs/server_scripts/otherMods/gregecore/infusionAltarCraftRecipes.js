@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
             A: 'gtceu:lv_machine_hull',
             B: '#gtceu:circuits/lv',
             C: 'gtceu:solid_machine_casing',
-            D: 'gtceu:lv_machine_hull',
+            D: 'botania:purple_petal',
             E: 'minecraft:stone_bricks'
         }
     )

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "events"
+	group: "11FCFA418C37D834"
+	icon: "cataclysm:altar_of_fire"
+	id: "78C447E1C6EBD8F8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Halloween"
+}

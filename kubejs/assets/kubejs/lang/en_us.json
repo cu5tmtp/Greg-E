@@ -194,6 +194,9 @@
     "quest.grege.lv20": "Use this block to spend your cu5tm Coins!",
     "quest.grege.lv21": "For now, this is the way to get aluminium. But you will be able to get it way faster in MV with the clay line.",
     "quest.grege.lv22": "LV",
+    "quest.grege.lv23": "You can see all the resources you can get from the dust in the Progression quest chapter.",
+    "quest.grege.lv24": "This is the gate to all of the side mods.",
+    "quest.grege.lv25": "You get these superconductors by doind the side mods.",
 
     "quest.grege.luv1": "Finally!\n\nI recomment getting at least one of each, but definetly get at least 4 mixers.",
     "quest.grege.luv2": "Place data storage in the assembly line, on the upper part. Then put data stick with researched item in.",
@@ -312,7 +315,7 @@
     "quest.grege.ulv19": "By getting this, you improve your ability to make wrought iron. It is now ingot to ingot again.",
     "quest.grege.ulv20": "LV Circuit Component.",
     "quest.grege.ulv21": "LV Circuit Component.",
-    "quest.grege.ulv22": "This is one method to making some early game power. It makes one amp of LV power (32EU/t), but only in daylight.",
+    "quest.grege.ulv22": "This is one method to making some early game power. It makes one half amp of LV power (16EU/t), but only in daylight.",
     "quest.grege.ulv23": "Reactors are harder to setup, but produce more energy than fully upgraded solar panel.\n\nThermo generators are easy to setup, but produce lower amount of energy.",
     "quest.grege.ulv24": "ULV",
 
