@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "events"
 	group: "11FCFA418C37D834"
-	icon: "cataclysm:altar_of_fire"
+	icon: "kubejs:animated/halloweentoken"
 	id: "78C447E1C6EBD8F8"
 	order_index: 0
 	quest_links: [ ]
@@ -67,6 +67,11 @@
 		{
 			dependencies: ["181DB1FD332B61FB"]
 			id: "0824238E6C700445"
+			rewards: [{
+				id: "324A164CB531AF36"
+				item: "kubejs:animated/halloweentoken"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53C40EE3BDB7F3FD"
 				item: "kubejs:halloweensecret"
