@@ -120,5 +120,24 @@ StartupEvents.registry('block', event => {
         .item(item => {
             item.modelJson({"parent": "kubejs:block/vending"});
         });
+
+    event.create('trophyeuclid')
+    .displayName('Ahead of the Curve: Euclid')
+    .stoneSoundType()
+    .hardness(2.0)
+    .resistance(1.0)
+    .fullBlock(false)
+    .notSolid()
+    .opaque(false)
+    .requiresTool(true)
+    .property(BlockStateProperties.HORIZONTAL_FACING)
+    .placementState(ctx => {
+        return ctx.set(BlockStateProperties.HORIZONTAL_FACING, ctx.horizontalDirection);
+    })
+    .item(item => {
+        item.modelJson({
+            "parent": "kubejs:block/trophyeuclid"
+        });
+    });
         
 })

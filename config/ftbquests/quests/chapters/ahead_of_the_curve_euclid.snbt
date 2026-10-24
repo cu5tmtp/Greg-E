@@ -7,6 +7,20 @@
 	id: "0D41E4BFBD3A78D6"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "62E176157E615DED"
+		rewards: [{
+			id: "7A228B1B545BD232"
+			item: "kubejs:trophyeuclid"
+			type: "item"
+		}]
+		tasks: [{
+			id: "56C83F3AD3BA670F"
+			item: "kubejs:quarterone"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Ahead of the Curve: Euclid"
 }

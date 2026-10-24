@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "kubejs:block/trophyeuclid" },
+    "facing=east":  { "model": "kubejs:block/trophyeuclid", "y": 90 },
+    "facing=south": { "model": "kubejs:block/trophyeuclid", "y": 180 },
+    "facing=west":  { "model": "kubejs:block/trophyeuclid", "y": 270 }
+  }
+}

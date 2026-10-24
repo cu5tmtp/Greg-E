@@ -53,5 +53,11 @@
   "kubejs:luvalloy": 1030144,
   "kubejs:animated/zpmalloy": 4120576,
   "kubejs:animated/uvalloy": 16482304,
-  "kubejs:animated/uhvalloy": 65929216
+  "kubejs:animated/uhvalloy": 65929216,
+  "kubejs:peanuts": 1,
+  "kubejs:licoriceplant": 1,
+  "kubejs:rottenapple": 32,
+  "kubejs:witchhat": 64,
+  "kubejs:vampirefang": 256,
+  "kubejs:halloweensecret": 4096
 }

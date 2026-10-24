@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
     .create("candyomatic")
     .category("multiblock")
     .setEUIO("in")
-    .setMaxIOSize(6, 3, 3, 3)
+    .setMaxIOSize(6, 1, 3, 0)
     .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.MIXER);

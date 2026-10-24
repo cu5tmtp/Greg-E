@@ -30,3 +30,36 @@ ItemEvents.rightClicked('kubejs:dwre', event => {
         item.count--; 
     }
 });
+
+ItemEvents.rightClicked('kubejs:candybag', event => {
+
+    const player = event.player;
+    const item = event.item;
+        
+    const lootTable = [
+        { id: 'kubejs:halloweensecret', weight: 5 },
+        { id: 'kubejs:vampirefang', weight: 25 },
+        { id: 'kubejs:witchhat', weight: 70 }
+    ];
+
+    let totalWeight = 0;
+    lootTable.forEach(entry => {
+        totalWeight += entry.weight;
+    });
+
+    let randomNumber = Math.floor(Math.random() * totalWeight);
+    let selectedItem = null;
+
+    for (const entry of lootTable) {
+        if (randomNumber < entry.weight) {
+            selectedItem = entry.id;
+            break;
+        }
+        randomNumber -= entry.weight;
+    }
+
+    if (selectedItem) {
+        player.give(selectedItem);
+        item.count--; 
+    }
+});

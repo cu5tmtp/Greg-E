@@ -7,33 +7,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
-    event.create('sucrose')
-        .dust()
-        .color(0xa7adaa)
-        .formula('C12H22O11')
-        .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
-
-    event.create('fructose')
-        .dust()
-        .color(0xa7adaa)
-        .formula('C6H12O6')
-        .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
-
-    event.create('lactose')
-        .dust()
-        .color(0xa7adaa)
-        .formula('C12H22O11')
-        .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
-
-    event.create('milk_powder')
-        .dust()
-        .color(0xa7adaa)
-        .iconSet(GTMaterialIconSet.ROUGH)
-        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
-
     event.create('watery_glucose_syrup')
         .fluid()
         .color(0x8d9491)
@@ -46,9 +19,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
-    event.create('molasses')
+    event.create('caramel_mixture')
         .fluid()
-        .color(0x8e5d16)
+        .color(0xaf721b)
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
@@ -58,9 +31,27 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
+    event.create('soft_caramel')
+        .fluid()
+        .color(0xaf721b)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('molten_sugar')
+        .fluid()
+        .color(0x845614)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('apple_extract')
+        .fluid()
+        .color(0xb1b04e)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
     event.create('chocolate_milk')
         .fluid()
-        .color(0x927416)
+        .color(0x964B00)
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
@@ -82,5 +73,17 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 
-        
+    event.create('licorice_extract')
+        .fluid()
+        .color(0x5e615c)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('licorice_mixture')
+        .fluid()
+        .color(0x4c4f4b)
+        .iconSet(GTMaterialIconSet.ROUGH)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    
 });

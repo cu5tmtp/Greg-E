@@ -190,4 +190,19 @@ ServerEvents.recipes((event) => {
             Item.of('gtceu:bio_chaff', 4)
         ])
 
+    event.shaped(
+        Item.of('gtceu:candyomatic', 1),
+        [
+            'CCC',
+            'CDC',
+            'BAB'
+        ],
+        {
+            A: 'gtceu:lv_machine_hull',
+            B: 'minecraft:pumpkin',
+            C: 'minecraft:acacia_planks',
+            D: '#gtceu:circuits/lv',
+        }
+    )
+
 })

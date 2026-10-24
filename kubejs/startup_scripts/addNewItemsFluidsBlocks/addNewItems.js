@@ -130,10 +130,13 @@ StartupEvents.registry('item', event => {
     event.create('bioresistor').displayName('Bio-Resistor')
     event.create('biocapacitor').displayName('Bio-Capacitor')
     event.create('emptyprediction').displayName('Empty Prediction')
-
-    event.create('choccybar').displayName('Chocolate Bar')
-    event.create('peanuts').displayName('Peanuts')
-    event.create('mashedpotato').displayName('Mashed Potato')
+    event.create('licoriceplant').displayName('Licorice Plant')
+    event.create('candybag').displayName('Halloween Candy Bag')
+    event.create('witchhat').displayName('Witch Hat')
+    event.create('vampirefang').displayName('Vampire Fangs')
+    event.create('halloweensecret').displayName('Halloween Secret')
+    event.create('rottenapple').displayName('Rotten Apple')
+    event.create('animated/halloweentoken').displayName('Halloween Coin')
 
     event.create('animated/morpher').displayName('Space-Time Anomaly')
     event.create('animated/thatfrombehind').displayName('That From Behind The Veil')

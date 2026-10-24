@@ -73,6 +73,8 @@ ServerEvents.recipes((event) => {
     event.recipes.botania.mana_infusion('minecraft:red_mushroom', 'botania:red_petal', 100)
     event.recipes.botania.mana_infusion('2x kubejs:vanaheimingot', 'kubejs:vanaheimingot', 10000, 'botania:conjuration_catalyst')
     event.recipes.botania.mana_infusion('2x kubejs:solidacidinfusedlava', 'kubejs:solidacidinfusedlava', 1000, 'botania:conjuration_catalyst')
+    event.recipes.botania.mana_infusion('kubejs:peanuts', 'kubejs:vanilla', 100, 'botania:conjuration_catalyst')
+    event.recipes.botania.mana_infusion('kubejs:licoriceplant', 'kubejs:peanuts', 100, 'botania:conjuration_catalyst')
 
     event.recipes.botania.runic_altar(
         'minecraft:nether_star',

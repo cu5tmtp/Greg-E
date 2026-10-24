@@ -62,6 +62,7 @@ ServerEvents.recipes((event) => {
     addGrainRecipe('pumpkin', 'minecraft:pumpkin', 'minecraft:pumpkin_seeds', 8);
     addGrainRecipe('beetroot', 'minecraft:beetroot', 'minecraft:beetroot_seeds', 8);
 
+    addVeggieRecipe('peanuts', 'kubejs:peanuts');
     addVeggieRecipe('carrot', 'minecraft:carrot');
     addVeggieRecipe('cactus', 'minecraft:cactus');
     addVeggieRecipe('gloomgourd', 'undergarden:gloomgourd');

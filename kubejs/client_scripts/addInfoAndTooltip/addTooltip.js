@@ -485,6 +485,23 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:candybag'
+        ],
+        (item, advanced, text) => {
+            if(!event.shift){
+                text.add(1, Text.translatable("tooltip.grege.info147").white());
+                text.add(2, Text.translatable("tooltip.grege.info148").white());
+            } else {
+                text.add(1, Text.translatable("tooltip.grege.info149").white());
+                text.add(2, Text.translatable("tooltip.grege.info150").yellow());
+                text.add(3, Text.translatable("tooltip.grege.info151").gray());
+                text.add(4, Text.translatable("tooltip.grege.info152").gray());
+            }
+        }
+    );
+
+    event.addAdvanced(
+        [
             'gregecore:avaritia_wand_of_puppetry'
         ],
         (item, advanced, text) => {
