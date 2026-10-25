@@ -258,8 +258,8 @@
 				title: "Happy Halloween!"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -10.0d
+			y: 3.4642857142857153d
 		}
 	]
 	title: "Halloween"

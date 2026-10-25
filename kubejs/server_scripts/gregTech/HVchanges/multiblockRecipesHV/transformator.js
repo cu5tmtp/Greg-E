@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes((event) =>{ 
  event.shaped(
         Item.of('gtceu:transformator', 1),
@@ -15,7 +16,6 @@ ServerEvents.recipes((event) =>{
         }
     )
 
-    /*
     event.recipes.gtceu
         .transformator('heliumapoule')
         .inputFluids('gtceu:helium 100')   
@@ -43,7 +43,6 @@ ServerEvents.recipes((event) =>{
         .itemOutputs('2x gregecore:plutonium_hexafluoride_dust')
         .duration(100)
         .EUt(480)
-    */
 
     event.recipes.gtceu.transformator()
         .itemInputs(
@@ -113,8 +112,6 @@ ServerEvents.recipes((event) =>{
             'gregecore:small_nobelium_dust'
         )
         .duration(1)
-        .EUt(GTValues.VA[GTValues.LV])
-
-
-    
+        .EUt(GTValues.VA[GTValues.LV])    
 });
+*/

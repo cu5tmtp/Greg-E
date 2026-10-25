@@ -24,12 +24,6 @@ StartupEvents.registry('item', event => {
     event.create('lichingot').displayName('Lich Ingot')
     event.create('twilightingots').displayName('Twilight Alloy Ingot')
     event.create('twilightfoil').displayName('Twilight Alloy Foil')
-    event.create('li').displayName('Lithium-6 Ampoule')
-    event.create('pu').displayName('Plutonium Ampoule')
-    event.create('cm').displayName('Curium Ampoule')
-    event.create('he').displayName('Helium Ampoule')
-    event.create('c').displayName('Carbon Ampoule')
-    event.create('no').displayName('Nobelium Ampoule')
     event.create('voiddust').displayName('Void Dust')
     event.create('voidtent').displayName('Void Tentacle')
     event.create('voidgoo').displayName('Void Goo')
@@ -234,5 +228,14 @@ StartupEvents.registry('item', event => {
     event.create('bacterias/simplebacteria11').displayName('Mutated Phage');
     event.create('bacterias/simplebacteria12').displayName('Crystalline Bacteria');
     event.create('bacterias/simplebacteria13').displayName('Progenitor Bacteria');
+
+    /*
+    event.create('li').displayName('Lithium-6 Ampoule')
+    event.create('pu').displayName('Plutonium Ampoule')
+    event.create('cm').displayName('Curium Ampoule')
+    event.create('he').displayName('Helium Ampoule')
+    event.create('c').displayName('Carbon Ampoule')
+    event.create('no').displayName('Nobelium Ampoule')
+    */
 
 })

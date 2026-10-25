@@ -1,3 +1,4 @@
+/*
 GTCEuStartupEvents.registry("gtceu:recipe_type", (event) => {
   event
     .create("transformator")
@@ -39,3 +40,4 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
       "gtceu:block/multiblock/distillation_tower"
     );
 });
+*/
