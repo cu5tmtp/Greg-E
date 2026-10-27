@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("runecarver")
     .appearanceBlock(GTBlocks.CASING_STEEL_TURBINE)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("iiiii", "bcccb", "bcccb", "bcccb", "bcccb", "bdcdb", "bdddb", "dbbbd")
         .aisle("iaaai", "ceeec", "ceeec", "ceeec", "ceeec", "deeed", "defed", "bdddb")

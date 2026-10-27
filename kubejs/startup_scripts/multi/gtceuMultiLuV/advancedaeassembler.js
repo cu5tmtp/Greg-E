@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("advancedaeassembler")
     .appearanceBlock(GCYMBlocks.CASING_NONCONDUCTING)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("iiiiiiiii", "bcddcddcb", "bcddcddcb", "bcddcddcb", "aaaaaaaaa")
         .aisle("iaaaaaaai", "eeeeeeeee", "eeffeffee", "eeeeeeeee", "aaaaaaaaa")

@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("candyomatic")
     .appearanceBlock(() => new Block.getBlock("minecraft:acacia_planks"))
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
           .aisle("baaab", "baaab", "baaab", "bcccb", "bbbbb", "bbbbb")
           .aisle("aaaaa", "aaaaa", "aaaaa", "caaac", "bbcbb", "bbbbb")

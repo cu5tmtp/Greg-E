@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("planetarygassiphon")
     .appearanceBlock(GCYMBlocks.CASING_VIBRATION_SAFE)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '     C     ', '     C     ', '   BBBBB   ', '     F     ', '     F     ', '     F     ', '           ', '           ', '           ')
         .aisle('           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '           ', '     C     ', '           ', '           ', '  BGGCGGB  ', '           ', '           ', '           ', '     F     ', '           ', '           ')

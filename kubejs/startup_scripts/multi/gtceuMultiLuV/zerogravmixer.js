@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("zerogravmixer")
     .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle('       ', '  EEE  ', ' E   E ', ' E   E ', ' E   E ', '  EEE  ', '       ')
         .aisle('  EEE  ', ' E   E ', 'E E E E', 'E EFE E', 'E E E E', ' E   E ', '  EEE  ')

@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu
         .launch_sails('launchingsailsyaaay2')
         .itemInputs(
-            '125x gregecore:solar_sail'
+            '100x gregecore:solar_sail'
         )
         .EUt(GTValues.VA[GTValues.ZPM])
         .duration(400)

@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('offaltar')
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT, GTRecipeModifiers.BATCH_MODE])
+    .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("KKK#####KKK", "###########", "###########", "###########", "###########", "###########", "###########", "###########", "###########")
         .aisle("KAAKKKKKAAK", "#B#######B#", "#B#######B#", "#B#######B#", "#BI#####IB#", "#JJI#G#IJJ#", "####III####", "#####J#####", "###########")

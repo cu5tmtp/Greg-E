@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType('component_mass_assembly')
     .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_TURBINE)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("hhhhhhhh", "adddddda", "adddddda", "adddddda", "aaaaaaaa")
         .aisle("hbbbbbbh", "beeeeeeb", "bffffffb", "beeeeeeb", "abbbbbba")

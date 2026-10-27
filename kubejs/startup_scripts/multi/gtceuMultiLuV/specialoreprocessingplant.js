@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("specialoreprocessingplant")
     .appearanceBlock(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("ppppppppppppppp", "bbkkkbbbbbbbbbb", "bblllbbbbbbbbbb", "bblllbbbbbbbbbb", "bbkkkbbbbbbbbbb", "bblllbbbbbbbbbb", "bblllbbbbbbbbbb", "bbkkkbbbbbbbbbb")
         .aisle("paaaaaaaaaaaaap", "bkbbbkbbbbbbbbb", "blbbblbbbbbbbbb", "blbbblbbbbbbbbb", "bkbbbkbmbbbmbbb", "blbbblbbbbbbbbb", "blbbblbbbbbbbbb", "bkkkkkbbbbbbbbb")

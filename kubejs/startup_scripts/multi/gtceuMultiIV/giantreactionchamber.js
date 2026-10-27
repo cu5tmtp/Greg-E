@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("giantreactionchamber")
     .appearanceBlock(() => new Block.getBlock("kubejs:machine_casing_tiled_dark_gray"))
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
           .aisle("aaaaaaaaa", "abbbbbbba", "abccbccba", "abcdddcba", "abcdcdcba", "aecdddcea", "aecccccea", "aeeeeeeea", "aaaaaaaaa")
           .aisle("aeeeeeeea", "bfffffffb", "bfffffffb", "bfffffffb", "bfffffffb", "efffffffe", "efffffffe", "efffffffe", "accebecca")

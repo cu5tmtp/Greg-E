@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("marsbacteriabreeder")
     .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.OC_NON_PERFECT])
+    .recipeModifiers([GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
         .aisle("agcga", "abdba", "abdba", "abdba", "abcba", "aaaaa", "aaaaa")
         .aisle("gbbbg", "baaab", "baeab", "baaab", "bbbbb", "aaaaa", "aaaaa")

@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("industrialfilter")
     .appearanceBlock(GCYMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
-    .recipeModifiers([GTRecipeModifiers.OC_PERFECT, GTRecipeModifiers.PARALLEL_HATCH])
+    .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT])
     .pattern((definition) => FactoryBlockPattern.start()
       .aisle("hhhhhhh", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb", "bbbbbbb")
       .aisle("haaaaah", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdbbbdb", "bdcccdb", "bdcccdb", "bcceccb", "bcceccb", "bcceccb", "bcceccb", "bbcccbb", "bbbbbbb")
