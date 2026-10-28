@@ -1,5 +1,5 @@
 0.6.4
-- fixm ultiblocks when they have only 1 row of acceptable points for inputing hatches
+- fix multiblocks when they have only 1 row of acceptable points for inputing hatches
 - make the endgame endgame again (reward for it again)
 - check if I need to export ad astra config (some playerrs turn off the oxygen)
 

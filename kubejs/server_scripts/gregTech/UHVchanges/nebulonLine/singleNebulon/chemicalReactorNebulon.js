@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
             'gtceu:nebulon_gamma 144'
         )
         .outputFluids(
-            'gtceu:nebulon_alpha 144',
+            'gtceu:nebulon_alpha 532',
             'gtceu:fluoronaquadic_acid 72'
         )
         .EUt(GTValues.VA[GTValues.UHV])
