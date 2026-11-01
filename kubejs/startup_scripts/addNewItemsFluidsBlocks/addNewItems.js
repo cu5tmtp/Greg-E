@@ -131,6 +131,7 @@ StartupEvents.registry('item', event => {
     event.create('halloweensecret').displayName('Halloween Secret')
     event.create('rottenapple').displayName('Rotten Apple')
     event.create('animated/halloweentoken').displayName('Halloween Coin')
+    event.create('ancientfilter').displayName('Ancient Filter')
 
     event.create('animated/morpher').displayName('Space-Time Anomaly')
     event.create('animated/thatfrombehind').displayName('That From Behind The Veil')

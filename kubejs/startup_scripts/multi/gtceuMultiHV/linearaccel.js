@@ -27,6 +27,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .where("C", Predicates.blocks('chisel_chipped_integration:technical_transparent_rusty_scaffold'))
         .where('D', Predicates.blocks('minecraft:target'))   
         .where('E', Predicates.blocks('kubejs:machine_casing_tiled_light_gray')
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMaxGlobalLimited(1).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(1))  
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(1))

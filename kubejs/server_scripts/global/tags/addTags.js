@@ -70,6 +70,11 @@ ServerEvents.tags('item', event => {
     event.add('grege:lightning', 'cataclysm:essence_of_the_storm')
     event.add('grege:lightning', 'gtceu:storm_imitation_ingot')
 
+    //quantum armor tagging
+    event.add('gtceu:ppe_armor', 'advanced_ae:quantum_helmet')
+    event.add('gtceu:ppe_armor', 'advanced_ae:quantum_chestplate')
+    event.add('gtceu:ppe_armor', 'advanced_ae:quantum_leggings')
+    event.add('gtceu:ppe_armor', 'advanced_ae:quantum_boots')
 
 })
 

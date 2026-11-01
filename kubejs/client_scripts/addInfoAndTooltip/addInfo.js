@@ -17,5 +17,6 @@ JEIEvents.information((event) => {
     event.addItem('kubejs:robotarm', [Text.translatable("infotab.grege.info15")]);
     event.addItem('kubejs:computation_matrix', [Text.translatable("infotab.grege.info16")]);
     event.addItem('kubejs:mirrorofkalandra', [Text.translatable("infotab.grege.info17")]);
+    event.addItem('kubejs:ancientfilter', [Text.translatable("infotab.grege.info18")]);
 
 })
