@@ -1,8 +1,11 @@
 ServerEvents.recipes((event) => {
 
-    event.recipes.gtceu.macerator()
+    event.recipes.gtceu.cutter()
         .itemInputs(
             '8x potato'
+        )
+        .inputFluids(
+            'water 50'
         )
         .itemOutputs(
             '4x kubejs:mashedpotato',

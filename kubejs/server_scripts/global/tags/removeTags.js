@@ -11,6 +11,7 @@ ServerEvents.tags('item', (event) => {
     event.remove('forge:dusts/obsidian', 'enderio:silicon')
     event.remove('forge:silicon', 'enderio:silicon')
     event.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
+    event.remove('ad_astra:steel_blocks', 'ad_astra:steel_block')
 
     let materialy = [
         'iron', 'gold', 'copper', 'tin', 'ender_pearl', 'obsidian', 'cobalt', 'coal', 'lapis',

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "steam"
 	group: "6915D00C186DB378"
-	hide_quest_until_deps_complete: true
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "5AD49BFD74E909D5"
 	order_index: 0
@@ -13,10 +12,9 @@
 			dependencies: ["28C44A694D969950"]
 			description: ["{quest.grege.steam1}"]
 			hide_until_deps_complete: true
-			hide_until_deps_visible: true
 			id: "0F9910D36E4395FC"
 			rewards: [{
-				id: "5C640A1E6645D2B3"
+				id: "6E4FAEA204CD103F"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -36,7 +34,7 @@
 			description: ["{quest.grege.steam2}"]
 			id: "379DD11485B13D3C"
 			rewards: [{
-				id: "79F776033B88088E"
+				id: "2835A3F7895FCCEF"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -54,7 +52,7 @@
 			description: ["{quest.grege.steam3}"]
 			id: "7C68D4FC81DC1C0D"
 			rewards: [{
-				id: "156AAF325C8F3B1F"
+				id: "2656B1697F989325"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -71,7 +69,7 @@
 			description: ["{quest.grege.steam4}"]
 			id: "6B0ACCAF9C50CE94"
 			rewards: [{
-				id: "6FD681218FF3FA20"
+				id: "59629C229CA7DA2B"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -96,7 +94,7 @@
 			description: ["{quest.grege.steam5}"]
 			id: "337597BFFF927DD5"
 			rewards: [{
-				id: "6CF7AF9300EDA9F2"
+				id: "527A4CDBB544C432"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -117,7 +115,7 @@
 			description: ["{quest.grege.steam6}"]
 			id: "744DFD4A90BA6A25"
 			rewards: [{
-				id: "3C16610DD1A2B53C"
+				id: "1B6936A801D35204"
 				item: "kubejs:cc"
 				type: "item"
 			}]
@@ -133,6 +131,11 @@
 		{
 			dependencies: ["7C68D4FC81DC1C0D"]
 			id: "67CD3A1705B6E4F2"
+			rewards: [{
+				id: "7F4EE32EA1526322"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27B194AB21E8DA8A"
 				item: "gtceu:primitive_blast_furnace"
@@ -145,6 +148,11 @@
 			dependencies: ["7C68D4FC81DC1C0D"]
 			id: "1E484E8C101543A3"
 			optional: true
+			rewards: [{
+				id: "55CF74FD9CA24909"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D1CE629D92D20C8"
 				item: "gtceu:coke_oven"
@@ -159,6 +167,11 @@
 				"1E484E8C101543A3"
 			]
 			id: "323401FEF364D10B"
+			rewards: [{
+				id: "324804BA48E8412B"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48508A604926324D"
 				item: "gtceu:steel_ingot"
@@ -170,6 +183,11 @@
 		{
 			dependencies: ["744DFD4A90BA6A25"]
 			id: "1956785A4F03E9C5"
+			rewards: [{
+				id: "5EC2A49A125B0B6F"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "417927C4893FCBF2"
 				item: "gtceu:red_alloy_single_wire"
@@ -186,6 +204,11 @@
 			]
 			description: ["{quest.grege.steam7}"]
 			id: "7339F1E89CC87439"
+			rewards: [{
+				id: "33BFA5BFDD4EE26C"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -200,11 +223,9 @@
 			dependencies: ["7339F1E89CC87439"]
 			id: "0EF26DC80A16B2C8"
 			rewards: [{
-				command: "/ftbquests change_progress @a complete 39F60EC48A6DC6D5"
-				elevate_perms: true
-				id: "1307F4FB0AF1A8E4"
-				silent: true
-				type: "command"
+				id: "0B2D867261C8DEDD"
+				item: "kubejs:cc"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2B4F66850E4FC155"
@@ -217,6 +238,11 @@
 		{
 			dependencies: ["744DFD4A90BA6A25"]
 			id: "3A5E1B8D0273D3A6"
+			rewards: [{
+				id: "0C1AF467D0A4D276"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A030B368C170DAF"
 				item: "gtceu:vacuum_tube"
@@ -228,6 +254,11 @@
 		{
 			dependencies: ["744DFD4A90BA6A25"]
 			id: "6C207BF29EE954CE"
+			rewards: [{
+				id: "54BA15A16CD94840"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3176C6D5E8C7EE67"
 				item: "gtceu:resistor"
@@ -240,6 +271,11 @@
 			dependencies: ["744DFD4A90BA6A25"]
 			description: ["{quest.grege.steam8}"]
 			id: "4FF4F5E9D76A11BA"
+			rewards: [{
+				id: "4C174DA261C69402"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "461168A32B529676"
 				item: "sfm:water_tank"

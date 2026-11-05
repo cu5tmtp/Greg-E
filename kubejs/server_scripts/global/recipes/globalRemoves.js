@@ -40,6 +40,8 @@ ServerEvents.recipes((event) => {
 
     event.remove('tiab:time_in_a_bottle')
 
+    event.remove('ad_astra:steel_block')
+
     event.remove({input: 'gtceu:uiv_machine_hull'})
     
 });

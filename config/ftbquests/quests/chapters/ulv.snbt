@@ -495,6 +495,11 @@
 			dependencies: ["4A922F1103B983C8"]
 			description: ["{quest.grege.ulv15}"]
 			id: "747D71E15C76C703"
+			rewards: [{
+				id: "50C9E9DC71A3F58D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
 			subtitle: "EMI"
 			tasks: [{
 				id: "37E7CB4E91F1BC11"

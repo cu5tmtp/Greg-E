@@ -122,11 +122,18 @@
 		{
 			dependencies: ["53C41B36BAE8EE35"]
 			id: "4D679BC9B68AE6C2"
-			tasks: [{
-				id: "033CC59172D9C87B"
-				item: "gtceu:caramel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "033CC59172D9C87B"
+					item: "gtceu:caramel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43991614338E878C"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: -0.5d
 		}
