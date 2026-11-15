@@ -603,7 +603,10 @@
 			y: 24.5d
 		}
 		{
-			dependencies: ["1D956F91C0971DE3"]
+			dependencies: [
+				"1D956F91C0971DE3"
+				"20E41C9461ED1781"
+			]
 			id: "5591AACF1E71775E"
 			rewards: [{
 				id: "476624889C89BEF3"
@@ -623,7 +626,7 @@
 				}
 			]
 			x: 0.0d
-			y: 30.5d
+			y: 29.0d
 		}
 		{
 			dependencies: ["5591AACF1E71775E"]
@@ -642,7 +645,7 @@
 			}]
 			title: "bzzt....bzzz...."
 			x: 0.0d
-			y: 32.5d
+			y: 31.0d
 		}
 		{
 			dependencies: ["3D9974A62C66439D"]
@@ -656,7 +659,7 @@
 			}]
 			title: "Who a....I?"
 			x: 0.0d
-			y: 34.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["5CAD7869D49711D9"]
@@ -676,7 +679,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 37.0d
+			y: 36.0d
 		}
 		{
 			dependencies: ["3EC4D5192EB17D86"]
@@ -737,19 +740,22 @@
 				item: "gregecore:convergencematrix"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 26.5d
 		}
 		{
-			dependencies: ["20E41C9461ED1781"]
+			dependencies: [
+				"2AFFBC21E51AFE75"
+				"795CCD9DF6A697FB"
+			]
 			id: "1D956F91C0971DE3"
 			tasks: [{
 				id: "52F02CDFA831097E"
 				item: "gregecore:incomplete_world_eater_tamer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 28.5d
+			x: 1.0d
+			y: 26.5d
 		}
 	]
 	title: "{quest.grege.euclid4}"

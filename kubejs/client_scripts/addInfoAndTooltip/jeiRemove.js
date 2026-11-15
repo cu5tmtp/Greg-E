@@ -2141,3 +2141,11 @@ JEIEvents.hideItems((event) => {
     event.hide('/^enderio:.*fused_quartz.*/')
 
 })
+
+JEIEvents.removeRecipes(event => {
+
+    event.remove('minecraft:crafting', [
+        'kubejs:secret_infinity_oxygen_cell'
+    ])
+    
+})
