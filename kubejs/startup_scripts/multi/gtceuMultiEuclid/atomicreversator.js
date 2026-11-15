@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry("gtceu:machine", (event) => {
         .aisle("bdddbaaaaabdddb", "adddaaaaaaaddda", "adddaaaaaaaddda", "adddaaaaaaaddda", "bdddbaaaaabdddb", "adddaaaaaaaddda", "adddaaaaaaaddda", "adddaaaaaaaddda", "bdddbaaaaabdddb", "addddbaaabdddda", "aadedddddddedaa", "aaadddddddddaaa", "aaaadddddddaaaa", "aaaaabaaabaaaaa")
         .aisle("bdddbaaaaabdddb", "cdadcaaaaacdadc", "cdadcaaaaacdadc", "cdadcaaaaacdadc", "bdadbaaaaabdadb", "cdadcaaaaacdadc", "cdadcaaaaacdadc", "cdadcaaaaacdadc", "bdadbaaaaabdadb", "cddddbbbbbddddc", "acdddddddddddca", "aacddaaaaaddcaa", "aaccdddddddcaaa", "aaaacbbbbbcaaaa")
         .aisle("bdddbaaaaabdddb", "adddaaaaaaaddda", "adddaaaaaaaddda", "adddaaaaaaaddda", "bdddbaaaaabdddb", "adddaaaaaaaddda", "adddaaaaaaaddda", "adddaaaaaaaddda", "bdddbaaaaabdddb", "addddbaaabdddda", "aadedddddddedaa", "aaadddddddddaaa", "aaaadddddddaaaa", "aaaaabaaabaaaaa")
-        .aisle("abbbaaaaaaabbba", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbbb", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbbb", "aaaaaaaaaaaaaaa", "aaaaabaaabaaaaa", "aaaaabbjbbaaaaa", "aaaaabaaabaaaaa", "aaaaaaaaaaaaaaa")
+        .aisle("abbbaaaaaaabbba", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbba", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "aacaaaaaaaaacaa", "abbbaaaaaaabbba", "aaaaaaaaaaaaaaa", "aaaaabaaabaaaaa", "aaaaabbjbbaaaaa", "aaaaabaaabaaaaa", "aaaaaaaaaaaaaaa")
 
         .where("a", Predicates.any())
         .where("b", Predicates.blocks("kubejs:machine_casing_tiled_orange")

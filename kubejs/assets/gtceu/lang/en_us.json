@@ -172,9 +172,13 @@
   "material.gtceu.element_356": "Element-356",
   "material.gtceu.latgrium": "Latgrium",
 
+  "material.gtceu.odyle": "Odyle",
+  "material.gtceu.delerianmetalalloy": "Delerian Metal Alloy",
+
   "material.gtceu.arboretum": "Arboretum",
   "material.gtceu.stabilizedarboretum": "Stabilized Mirrored Arboretum",
   "material.gtceu.spacetime": "Space-Time Synchronization",
+  "material.gtceu.murkyspacetime": "Murky Space-Time Synchronization",
   "material.gtceu.atomicmesh": "Atomic Mesh",
   "material.gtceu.bindingdust": "Atom Binding",
   "material.gtceu.antidestabilizant": "Anti-Destabilizant",

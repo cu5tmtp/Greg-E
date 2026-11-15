@@ -40,6 +40,60 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .circuit(1)
 
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:uiv_machine_hull',
+            'kubejs:euclid/nullingot',
+            'kubejs:animated/diacircuit',
+            '4x kubejs:euclid/euclid_mainframe'
+        )
+        .itemOutputs(
+            'gregecore:safety_intention_hatch'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(100)
+        .circuit(1)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:uiv_machine_hull',
+            'kubejs:euclid/nullingot',
+            'kubejs:animated/diacircuit',
+            '4x kubejs:euclid/euclid_mainframe'
+        )
+        .itemOutputs(
+            'gregecore:bravery_intention_hatch'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(100)
+        .circuit(2)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'gtceu:me_input_bus',
+            'kubejs:animated/morpher',
+            'gtceu:me_input_hatch'
+        )
+        .itemOutputs(
+            'gregecore:me_demand_hatch'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(100)
+        .circuit(1)
+
+    event.recipes.gtceu.assembler()
+        .itemInputs(
+            'kubejs:euclid/elementium',
+            'gtceu:fracturedfossilmaterial_frame',
+            '4x gtceu:bio_welded_reinforced_delirium_block'
+        )
+        .itemOutputs(
+            'gregecore:world_eater_tamer_casing'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+        .circuit(1)
+
     event.shaped(Item.of('gtceu:uiv_1a_energy_converter', 1),
         [
             ' AA',

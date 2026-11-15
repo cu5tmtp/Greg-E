@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
         .itemOutputs(
             '4x gtceu:kamenium_dust'
         )
-        .EUt(GTValues.VA[GTValues.UIV])
+        .EUt(GTValues.VA[GTValues.UEV])
         .duration(400)
         .addData('heat_level', 3800)
 
@@ -46,8 +46,7 @@ ServerEvents.recipes((event) => {
             'gtceu:reinforced_kamenium_dust'
         )
         .addData('pa', 85)
-        .EUt(GTValues.VA[GTValues.UIV])
-        .duration(100)
+        .duration(20)
 
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(

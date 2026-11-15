@@ -8,10 +8,10 @@ ServerEvents.recipes((event) =>{
             item: 'kubejs:euclid/euclid_mainframe'
         },
         B: {
-            item: 'avaritia:diamond_lattice'
+            item: 'kubejs:animated/var2'
         },
         C: {
-            item: 'kubejs:euclid/nullingot'
+            item: 'kubejs:animated/thatfrombehind'
         },
         D: {
             item: 'megacells:cell_component_256m'
@@ -52,10 +52,10 @@ ServerEvents.recipes((event) =>{
             item: 'kubejs:euclid/euclid_mainframe'
         },
         B: {
-            item: 'avaritia:diamond_lattice'
+            item: 'kubejs:animated/var2'
         },
         C: {
-            item: 'kubejs:euclid/nullingot'
+            item: 'kubejs:animated/thatfrombehind'
         },
         D: {
             item: 'megacells:cell_component_256m'
@@ -96,10 +96,10 @@ ServerEvents.recipes((event) =>{
             item: 'kubejs:euclid/euclid_mainframe'
         },
         B: {
-            item: 'kubejs:euclid/elementium'
+            item: 'kubejs:animated/var2'
         },
         C: {
-            item: 'kubejs:euclid/nullingot'
+            item: 'kubejs:animated/thatfrombehind'
         },
         D: {
             item: 'gtceu:element_356_hex_wire'
@@ -128,5 +128,29 @@ ServerEvents.recipes((event) =>{
         show_notification: true,
         tier: 4,
     });
+
+    event.replaceInput(
+        {id: 'avaritia:de_creative_capacitor'},
+        'avaritia:infinity_ingot',
+        'kubejs:animated/thatfrombehind'
+    )
+
+    event.replaceInput(
+        {id: 'avaritia:de_creative_op_capacitor'},
+        'avaritia:infinity',
+        'kubejs:animated/thatfrombehind'
+    )
+
+    event.replaceInput(
+        {id: 'avaritia:ae2_creative_energy_cell'},
+        'ae2:singularity',
+        'kubejs:animated/thatfrombehind'
+    )
+
+    event.replaceInput(
+        {id: 'avaritia:botania_creative_pool'},
+        'botania:dragonstone_block',
+        'kubejs:animated/var2'
+    )
 
 })

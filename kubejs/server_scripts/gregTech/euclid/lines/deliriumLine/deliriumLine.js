@@ -216,7 +216,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:psi_particles 1500'
         )
-        .EUt(GTValues.VA[GTValues.UIV])
+        .EUt(GTValues.VA[GTValues.UEV])
         .duration(400)
         .addData('heat_level', 3700)
 

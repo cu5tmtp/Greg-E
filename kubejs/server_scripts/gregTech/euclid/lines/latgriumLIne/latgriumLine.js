@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             'gtceu:oxygen 100',
             'gtceu:dichlorobenzene 250'
         )
-        .chancedOutput('gtceu:particle_nu_dust', 1000, 0)
+        .chancedOutput('gtceu:particle_nu_dust', 3500, 0)
         .disableDistilleryRecipes(true)
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(400)

@@ -1,0 +1,82 @@
+# Step height modifier per tier
+# Must be >= 0
+stepHeightModifiers:
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+
+# Movement speed multiplier modifier per tier
+# Must be >= 0
+movementSpeedMultipliers:
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+
+# Creative flight speed multiplier per tier
+# Must be >= 1
+creativeFlightSpeedMultipliers:
+  - 1.5
+  - 2.0
+  - 2.5
+  - 3.0
+  - 3.5
+
+# Jump boost modifier per tier
+# Must be >= 0
+jumpBoostModifiers:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+
+jetpack:
+  # Base/slow vertical hover speed multiplier per tier
+  # Must be >= 0
+  verticalHoverSlowMultiplier:
+    - 1.3
+    - 1.6
+    - 1.9
+    - 2.2
+    - 2.5
+
+  # Active vertical hover speed multiplier per tier
+  # Must be >= 1
+  verticalHoverMultiplier:
+    - 1.3
+    - 1.6
+    - 1.9
+    - 2.2
+    - 2.5
+
+  # Vertical acceleration multiplier per tier
+  # Must be >= 1
+  verticalAccelerationMultiplier:
+    - 1.3
+    - 1.6
+    - 1.9
+    - 2.2
+    - 2.5
+
+  # Vertical speed multiplier per tier
+  # Must be >= 1
+  verticalSpeedMultiplier:
+    - 1.3
+    - 1.6
+    - 1.9
+    - 2.2
+    - 2.5
+
+  # Horizontal speed multiplier per tier
+  # Must be >= 1
+  horizontalSpeedMultiplier:
+    - 1.8
+    - 2.6
+    - 3.4
+    - 4.2
+    - 5.0
+

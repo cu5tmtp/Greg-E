@@ -442,6 +442,16 @@ ItemEvents.tooltip((event) => {
         }
     );
 
+    event.addAdvanced(
+        [
+            'gtceu:delerianmetalalloy_ingot'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.translatable("tooltip.grege.info153").gray());
+            text.add(2, Text.translatable("tooltip.grege.info154").gray());
+        }
+    );
+
     const factories = [
         {id: 'gtceu:cube_wiremill', tooltip: "tooltip.grege.info74"},
         {id: 'gtceu:cube_extruder', tooltip: "tooltip.grege.info75"},

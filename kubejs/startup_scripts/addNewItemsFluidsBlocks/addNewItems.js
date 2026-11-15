@@ -137,7 +137,7 @@ StartupEvents.registry('item', event => {
     event.create('animated/thatfrombehind').displayName('That From Behind The Veil')
     event.create('animated/var2').displayName('Volatile Metal Convergence')
     event.create('animated/diacircuit').displayName('Encased Circuit')
-
+    
     event.create('quarterone').displayName('Past')
     event.create('quartertwo').displayName('Present')
     event.create('quarterthree').displayName('Future')

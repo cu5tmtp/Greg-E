@@ -190,4 +190,60 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .addData("cube_block", "avaritia:infinity")
 
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            '4x kubejs:euclid/nullingot',
+            '64x kubejs:euclid/euclid_mainframe',
+            '32x gtceu:atomic_casing',
+            '16x kubejs:machine_casing_block_magenta',
+            '16x kubejs:machine_casing_block_purple'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300',
+            'gtceu:fracturedlubricant 1500'
+        )
+        .itemOutputs(
+            'gregecore:convergencematrix'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "gtceu:uiv_machine_casing")
+
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            '64x kubejs:euclid/euclid_mainframe',
+            '4x kubejs:euclid/nullingot',
+            'gtceu:uiv_machine_hull',
+            '16x gtceu:high_temperature_smelting_casing',
+            '16x gtceu:large_scale_assembler_casing'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300',
+            'gtceu:fracturedlubricant 200'
+        )
+        .itemOutputs(
+            'gregecore:incomplete_world_eater_tamer'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "gregecore:world_eater_tamer_casing")
+
+        /*
+    event.recipes.gtceu.assemblyhall()
+        .itemInputs(
+            'gtceu:odyle_ingot',
+            '4x gtceu:fine_aurelium_wire'
+        )
+        .inputFluids(
+            'gtceu:soldering_alloy 300',
+            'gtceu:fracturedlubricant 200'
+        )
+        .itemOutputs(
+            'gregecore:world_eater_tamer_casing_purple'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(300)
+        .addData("cube_block", "gregecore:world_eater_tamer_casing")
+        */
+
 })

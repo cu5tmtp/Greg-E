@@ -9,9 +9,17 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES, GTMaterialFlags.GENERATE_FINE_WIRE)
     
     event.create('spacetime')
+        .dust()
         .fluid()
         .color(0x7753ac)
         .formula('۞')
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
+
+    event.create('murkyspacetime')
+        .dust()
+        .color(0x473166)
+        .formula('۞-')
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.DISABLE_MATERIAL_RECIPES)
 

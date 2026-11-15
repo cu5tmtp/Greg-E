@@ -360,6 +360,7 @@
     "infotab.grege.info16": "Find this in Undergarden, in the mystery cube structure. Use Explorers Compass to find the mystery cube faster.",
     "infotab.grege.info17": "This item has a 0.00001% chance to drop from any mob. Only a few exiles can get this item this way, if you do, consider yourself very lucky.",
     "infotab.grege.info18": "Find this in the Undergarden in the Ancient Air Filter structure. Use Explorers Compass to find it faster.\n\nThese air filters were used to pump clean air to prevent the mushrooms from growing. After the exodus of the Delerians, nobody was left to repair these.",
+    "infotab.grege.info19": "Find this on Haumea, in the Dead Drop structure. Use Explorers Compass to find it faster.\n\nDelerians were a smart race, but even they couldn't foresee the powers that lie beneath. At least they left some knowledge behind.",
 
     "tooltip.grege.info1": "It formed on its own...",
     "tooltip.grege.info2": "Spend me in the Vending Machine!",
@@ -513,6 +514,11 @@
     "tooltip.grege.info150": "5% Halloween Secret",
     "tooltip.grege.info151": "25% Vampire Fangs",
     "tooltip.grege.info152": "70% Witch Hat",
+    "tooltip.grege.info153": "Alloy too difficult for you to reproduce.",
+    "tooltip.grege.info154": "Made by Delerians while searching for the perfect alloy. This search also brought you here...",
+
+    "gregecore.world_eater.recipe.test.0": "Mode: ACTIVE",
+    "gregecore.world_eater.recipe.test.1": "Casings: Tier 2\nHatch: Intention Hatch",
 
     "quest.grege.halloween1": "Celebrate Halloween with this small production line about creating sweets! The reward is a alternative EMC generation!",
     "quest.grege.halloween2": "If you look into the reward of the last quest, you can see a Halloween Coin. Though not useful right now, events later down the line will reward with more of these thematic coins. If you collect them all, you'll get a unique reward!"

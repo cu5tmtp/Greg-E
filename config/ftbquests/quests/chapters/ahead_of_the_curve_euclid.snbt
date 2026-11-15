@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4C192C109B84A52F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ahead_of_the_curve_euclid"
@@ -8,19 +9,27 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		id: "62E176157E615DED"
+		description: [
+			"AOTC: Euclid is a event that rewards endgame players."
+			""
+			"If you complete this quest, send me a message on either Discord or CurseForge with a screenshot of your base and this quest completed. "
+			""
+			"If you do that, I will add a material in the next tier with the name you choose!"
+		]
+		id: "4C192C109B84A52F"
 		rewards: [{
-			id: "7A228B1B545BD232"
+			id: "7B7F4999DDB24CFC"
 			item: "kubejs:trophyeuclid"
 			type: "item"
 		}]
+		size: 5.0d
 		tasks: [{
-			id: "56C83F3AD3BA670F"
-			item: "kubejs:quarterone"
+			id: "774D7A52610B876C"
+			item: "gtceu:creative_chest"
 			type: "item"
 		}]
 		x: 0.0d
-		y: 0.0d
+		y: 0.5d
 	}]
 	title: "Ahead of the Curve: Euclid"
 }

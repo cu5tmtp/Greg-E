@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
         .outputFluids(
             'gtceu:stellarium_grympl2 1000'
         )
-        .EUt(GTValues.VA[GTValues.UIV])
+        .EUt(GTValues.VA[GTValues.UEV])
         .duration(400)
         .addData('heat_level', 4300)
 
@@ -203,6 +203,16 @@ ServerEvents.recipes((event) => {
             'gtceu:grymploxideepoxilidas_ingot'
         )
         .notConsumable('gtceu:ingot_casting_mold')
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(100)
+
+    event.recipes.gtceu.macerator()
+        .itemInputs(
+            'gtceu:grymploxideepoxilidas_ingot'
+        )
+        .itemOutputs(
+            'gtceu:grymploxideepoxilidas_dust'
+        )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
 
