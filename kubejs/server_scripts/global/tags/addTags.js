@@ -76,6 +76,8 @@ ServerEvents.tags('item', event => {
     event.add('gtceu:ppe_armor', 'advanced_ae:quantum_leggings')
     event.add('gtceu:ppe_armor', 'advanced_ae:quantum_boots')
 
+    event.add('grege:components', 'advanced_ae:quantum_boots')
+
 })
 
 ServerEvents.tags('block', event => {

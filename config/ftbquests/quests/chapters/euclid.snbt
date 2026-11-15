@@ -757,6 +757,19 @@
 			x: 1.0d
 			y: 26.5d
 		}
+		{
+			dependencies: ["664C96D3BA05C77C"]
+			description: ["This can help you transfer GT power wirelessly."]
+			id: "3480F1A1EFAC7218"
+			tasks: [{
+				id: "36C90DBAB7C16EDE"
+				item: "gtmutils:pterb_machine"
+				type: "item"
+			}]
+			title: "Energy transfer problems?"
+			x: 0.0d
+			y: 4.0d
+		}
 	]
 	title: "{quest.grege.euclid4}"
 }
