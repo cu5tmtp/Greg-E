@@ -472,8 +472,7 @@ ItemEvents.tooltip((event) => {
                 text.add(1, Text.translatable(tip.tooltip).white());
                 text.add(2, Text.translatable("tooltip.grege.info82").white())
             }
-    );
-
+        );
     })
 
     event.addAdvanced(
@@ -844,6 +843,20 @@ ItemEvents.tooltip((event) => {
         ],
         (item, advanced, text) => {
             text.add(Text.translatable("tooltip.grege.info145").gray().append(Text.translatable("tooltip.grege.info146").lightPurple()));
+        }
+    );
+
+    event.addAdvanced(
+        [
+            'gregecore:incomplete_world_eater_tamer',
+            'gregecore:me_demand_hatch',
+            'gregecore:world_eater_tamer_casing',
+            'gregecore:world_eater_tamer_casing_purple',
+            'gregecore:safety_intention_hatch',
+            'gregecore:bravery_intention_hatch'
+        ],
+        (item, advanced, text) => {
+            text.add(text.length - 1, Text.translatable("tooltip.grege.info156").gray().append(Text.translatable("tooltip.grege.info155").yellow()));
         }
     );
 
