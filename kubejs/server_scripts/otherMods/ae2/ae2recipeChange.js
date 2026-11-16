@@ -100,6 +100,51 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
+        Item.of(Item.of('ae2:interface'), 2),
+        [
+            'ABA',
+            'C C',
+            'ADA'
+        ],
+        {
+            A: 'gtceu:end_certus_quartz2_ingot',
+            D: 'ae2:formation_core',
+            C: '#gtceu:circuits/hv',
+            B: 'ae2:annihilation_core',
+        }
+    )
+
+    event.shaped(
+        Item.of(Item.of('ae2:interface'), 4),
+        [
+            'ABA',
+            'C C',
+            'ADA'
+        ],
+        {
+            A: 'gtceu:venus_certus_quartz2_ingot',
+            D: 'ae2:formation_core',
+            C: '#gtceu:circuits/ev',
+            B: 'ae2:annihilation_core',
+        }
+    )
+
+    event.shaped(
+        Item.of(Item.of('ae2:interface'), 8),
+        [
+            'ABA',
+            'C C',
+            'ADA'
+        ],
+        {
+            A: 'gtceu:magical_certus_quartz2_ingot',
+            D: 'ae2:formation_core',
+            C: '#gtceu:circuits/iv',
+            B: 'ae2:annihilation_core',
+        }
+    )
+
+    event.shaped(
         Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
         [
             'ABA',

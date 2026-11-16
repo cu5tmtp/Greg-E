@@ -19,6 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2AF98F98E6C710C7"]
 			description: ["{quest.grege.lv1}"]
 			id: "5C1BB559DD83E88F"
 			rewards: [{
@@ -856,12 +857,12 @@
 			description: ["{quest.grege.lv20}"]
 			id: "4E841BC22EFDA4BC"
 			rewards: [{
-				id: "2DA74D7B768DA9A5"
+				id: "1D08F1610C8F9556"
 				item: "kubejs:cc"
 				type: "item"
 			}]
 			tasks: [{
-				id: "15103007397E7493"
+				id: "5B32BAAF7FF6EC4A"
 				item: "kubejs:vending_machine"
 				type: "item"
 			}]

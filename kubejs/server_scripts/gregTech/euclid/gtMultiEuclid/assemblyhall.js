@@ -228,7 +228,6 @@ ServerEvents.recipes((event) => {
         .duration(300)
         .addData("cube_block", "gregecore:world_eater_tamer_casing")
 
-        /*
     event.recipes.gtceu.assemblyhall()
         .itemInputs(
             'gtceu:odyle_ingot',
@@ -244,6 +243,5 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
         .addData("cube_block", "gregecore:world_eater_tamer_casing")
-        */
-
+        
 })

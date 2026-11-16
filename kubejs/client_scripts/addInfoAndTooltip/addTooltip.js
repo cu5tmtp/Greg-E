@@ -227,16 +227,6 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
-            'kubejs:vending_machine'
-        ],
-        (item, advanced, text) => {
-            text.add(1, Text.translatable("tooltip.grege.info43").lightPurple());
-            text.add(2, Text.translatable("tooltip.grege.info44").lightPurple());
-        }
-    );
-
-    event.addAdvanced(
-        [
             'kubejs:legwepcore'
         ],
         (item, advanced, text) => {

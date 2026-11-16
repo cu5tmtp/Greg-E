@@ -1,3 +1,4 @@
+/*
 const SHOP_ITEMS = [
     { item: '4x gtceu:steel_ingot', price: 2, label: 'LV_Universalsteel', unlock: '2AF98F98E6C710C7', questName: 'ULV Chapter pentagon quest' },
     { item: 'kubejs:universal/lv', price: 4, label: 'LV_Universal', unlock: '2AF98F98E6C710C7', questName: 'ULV Chapter pentagon quest' },
@@ -172,3 +173,4 @@ LDLibUI.block("custom_shop_ui", e => {
     var ui = createShopUI(e);
     e.success(ui);
 });
+*/

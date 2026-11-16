@@ -764,6 +764,17 @@
 			x: 0.5d
 			y: -0.5d
 		}
+		{
+			description: ["Good old XNet!"]
+			id: "025A8E7B059582B5"
+			tasks: [{
+				id: "4B62D7B8603BF8EB"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
 	]
 	title: "{quest.grege.qol37}"
 }

@@ -1,0 +1,372 @@
+{
+	autofocus_id: "29F1CF0452F10D5C"
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "shop"
+	group: "3C8CB72D5D6A25B0"
+	icon: "kubejs:cc"
+	id: "24119055007B6C5C"
+	images: [{
+		height: 3.0d
+		image: "kubejs:textures/quests/shopisek.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 1.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"5C1BB559DD83E88F"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:steel_ingot"
+			id: "742501D766180223"
+			rewards: [{
+				count: 4
+				id: "0F893FBFBCBAFAC0"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5AAB23F05244652B"
+				item: "kubejs:cc"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Steel Ingot"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5C1BB559DD83E88F"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "2016DC1D97D09D8A"
+			rewards: [{
+				id: "242C5BC41A8FAEC4"
+				item: "kubejs:universal/lv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1F6361A65D62057B"
+				item: { Count: 4, id: "kubejs:cc" }
+				type: "item"
+			}]
+			title: "LV Circuit"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"262AE37765B139BE"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:aluminium_ingot"
+			id: "332B39B0FB8BABB6"
+			rewards: [{
+				count: 4
+				id: "23B3CCEDAB15718F"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0AA58B3D30F796BF"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Aluminium Ingot"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"262AE37765B139BE"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:good_electronic_circuit"
+			id: "3AEBC20ABBA2F6EF"
+			rewards: [{
+				id: "2F55C190BFBF227B"
+				item: "kubejs:universal/mv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "767436AFA1982BD5"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "MV Circuit"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"70C952B8FF3418F6"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:stainless_steel_ingot"
+			id: "38DDFE40DE793345"
+			rewards: [{
+				count: 4
+				id: "26DAF3BB97A592D5"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "2DE50A7EA9644BE4"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Stainless Steel Ingot"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"70C952B8FF3418F6"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "29F1CF0452F10D5C"
+			rewards: [{
+				id: "248ADB3074CB30FB"
+				item: "kubejs:universal/hv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "209213137DC58B95"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "HV Circuit"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5241693278027FFD"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:micro_processor_computer"
+			id: "582FA1575C2D1DF6"
+			rewards: [{
+				id: "14E319C7A0794322"
+				item: "kubejs:universal/ev"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "569DB08EB7EE1D0E"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "EV Circuit"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5241693278027FFD"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "0B90FA19842DE226"
+			rewards: [{
+				count: 4
+				id: "48147AEF1E41920C"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0555D57952A34BEA"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Titanium Ingot"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"64F77D41B2D057B8"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "5A2DE4067583A56D"
+			rewards: [{
+				count: 4
+				id: "18EDE01DFC64F0BD"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "5115EDBE84D0BC4D"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Tungstensteel Ingot"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"64F77D41B2D057B8"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:micro_processor_mainframe"
+			id: "7E62EF21CC884742"
+			rewards: [{
+				id: "52D28C0D1D97D5ED"
+				item: "kubejs:universal/iv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "35C984502A57D1A8"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "IV Circuit"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5A658F239928850E"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:nano_processor_mainframe"
+			id: "3EB66B0D677893A9"
+			rewards: [{
+				id: "1E981E5FFB05467B"
+				item: "kubejs:universal/luv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "4166570582758DB6"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "LuV Circuit"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5A658F239928850E"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:rhodium_plated_palladium_ingot"
+			id: "7323D28547E2187C"
+			rewards: [{
+				count: 4
+				id: "795626C1A97A6FAD"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "44D4197ECF277A31"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Rhodium Plated Palladium Ingot"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5C1BB559DD83E88F"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "gtceu:duct_tape"
+			id: "3074E1B75AF4251A"
+			rewards: [{
+				count: 16
+				id: "6930067B7E2EDFDC"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "62A4575B3009B989"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Repair Tape"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5C1BB559DD83E88F"
+				"4E841BC22EFDA4BC"
+			]
+			icon: "kubejs:legwepcore"
+			id: "1570B23664EF5913"
+			rewards: [{
+				id: "1E08F1F05B4CD91D"
+				item: "kubejs:legwepcore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 30L
+				id: "38EB1C66DA246048"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Legendary Weapon Core"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5A658F239928850E"
+				"4E841BC22EFDA4BC"
+			]
+			icon: {
+				Count: 1
+				id: "tiab:time_in_a_bottle"
+				tag: { }
+			}
+			id: "18C2DD7D58757EAE"
+			rewards: [{
+				id: "6F6A0FE402317F53"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "2FDE666A77538983"
+				item: "kubejs:cc"
+				type: "item"
+			}]
+			title: "Time in a Bottle"
+			x: 8.0d
+			y: 2.5d
+		}
+	]
+	title: "Shop"
+}

@@ -52,7 +52,6 @@ ServerEvents.recipes((event) => {
             'botanicalextramachinery:malachite_ingot',
             'botanicalextramachinery:saffron_ingot',
             'botanicalextramachinery:shadow_ingot',
-            'botanicalextramachinery:crimson_ingot'
         )
         .itemOutputs(
             'kubejs:euclid/elementiumtwo'
