@@ -30,6 +30,17 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .EUt(30)
 
+    // Molten tin alloy is needed for cupronickel coils (LV EBF); otherwise only the EV Alloy Blast Smelter makes it
+    event.recipes.gtceu.extractor('tin_alloy_ingot_to_fluid')
+        .itemInputs(
+            'gtceu:tin_alloy_ingot'
+        )
+        .outputFluids(
+            'gtceu:tin_alloy 144'
+        )
+        .duration(80)
+        .EUt(30)
+
     event.recipes.gtceu.electrolyzer()
         .itemInputs(
             Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:cow"}}').weakNBT()
