@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
         {
             id: 5,
             items: ['512x gtceu:chromium_dust', '512x gtceu:antimony_dust', '512x gtceu:gypsum_dust', '512x gtceu:platinum_raw_dust'],
-            fluids: ['gtceu:mercury 60000', 'gtceu:hydrochloric_acid 50000', 'gtceu:methanol 4000', 'gtceu:dinitrogen_tetroxide 5000', 'gtceu:ophiuchium 10000']
+            fluids: ['gtceu:mercury 60000', 'gtceu:hydrochloric_acid 50000', 'gtceu:methanol 4000', 'gtceu:dinitrogen_tetroxide 5000', 'gtceu:ophiuchium 100000']
         },
         {
             id: 6,
             items: ['512x gtceu:ammonium_chloride_dust', '512x gtceu:magnesium_chloride_dust', '512x gtceu:barium_dust', '512x gtceu:rutile_dust'],
-            fluids: ['gtceu:naquadah 5000', 'gtceu:enriched_naquadah 3200', 'gtceu:enriched_naquadah_solution 1500', 'gtceu:steinium 10000']
+            fluids: ['gtceu:naquadah 5000', 'gtceu:enriched_naquadah 3200', 'gtceu:enriched_naquadah_solution 1500', 'gtceu:steinium 100000']
         }
     ];
 
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
             '512x gtceu:chromium_dust'
         )
         .outputFluids(
-            'gtceu:stellarium 3000'
+            'gtceu:stellarium 30000'
         )
         .duration(650)
         .EUt(GTValues.VA[GTValues.UHV])

@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             'gtceu:hydrofluoric_acid 750'
         )
         .outputFluids(
-            'gtceu:xynred 1250'
+            'gtceu:xynred 2500'
         )
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(180)
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
             'minecraft:water 10000'
         )
         .outputFluids(
-            'gtceu:xynred_water 750'
+            'gtceu:xynred_water 1000'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
@@ -66,8 +66,8 @@ ServerEvents.recipes((event) => {
             'gtceu:xynred_water 1000'
         )
         .itemOutputs(
-            '3x gtceu:xynredder_dust',
-            '2x gtceu:xynredar_dust'
+            '6x gtceu:xynredder_dust',
+            '4x gtceu:xynredar_dust'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
@@ -99,7 +99,7 @@ ServerEvents.recipes((event) => {
             'gtceu:xynredder_ingot'
         )
         .itemOutputs(
-            '8x gtceu:fine_xynredder_wire'
+            '16x gtceu:fine_xynredder_wire'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)
@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
             'gtceu:xynredder_ingot'
         )
         .itemOutputs(
-            '4x gtceu:xynredder_foil'
+            '8x gtceu:xynredder_foil'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(300)

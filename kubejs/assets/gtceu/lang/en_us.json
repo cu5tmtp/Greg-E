@@ -422,6 +422,7 @@
   "item.gtceu.uiv_robot_arm": "§eEuclid§r Robotic Arm",
   "item.gtceu.uiv_field_generator": "§eEuclid§r Field Generator",
   "item.gtceu.uiv_emitter": "§eEuclid§r Emitter",
+  "item.gtceu.uiv_sensor": "§eEuclid§r Sensor",
   "block.gtceu.uiv_machine_casing": "§eEuclid§r Machine Casing",
   "block.gtceu.uiv_machine_hull": "§eEuclid§r Machine Hull",
   "block.gtceu.uiv_1a_energy_converter": "§eEuclid§r 1A Energy Converter",

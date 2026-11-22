@@ -1943,7 +1943,6 @@ let emiBannedItems = [
     "item:gtceu:redrockium_double_wire",
     "item:gtceu:small_redrockium_dust",
     "item:gtceu:redrockium_block",
-    "item:gtceu:tiny_redrockium_dust",
     "item:gtceu:redrockium_nugget",
     "item:gtceu:high_temp_redstone_block",
     "item:gtceu:small_high_temp_redstone_dust",

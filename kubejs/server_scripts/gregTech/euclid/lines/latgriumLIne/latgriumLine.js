@@ -13,10 +13,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extractor()
         .itemInputs(
-            '4x gtceu:delta_latgrium_dust'
+            'gtceu:delta_latgrium_dust'
         )
         .outputFluids(
-            'gtceu:delta_latgrium 500'
+            'gtceu:delta_latgrium 2500'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(350)
@@ -30,7 +30,9 @@ ServerEvents.recipes((event) => {
             'gtceu:oxygen 100',
             'gtceu:dichlorobenzene 250'
         )
-        .chancedOutput('gtceu:particle_nu_dust', 3500, 0)
+        .itemOutputs(
+            'gtceu:particle_nu_dust'
+        )
         .disableDistilleryRecipes(true)
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(400)
@@ -50,7 +52,7 @@ ServerEvents.recipes((event) => {
             'gtceu:element_356_dust'
         )
         .itemOutputs(
-            'gtceu:hot_element_356_ingot'
+            '2x gtceu:hot_element_356_ingot'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(3000)
@@ -71,7 +73,7 @@ ServerEvents.recipes((event) => {
             'gtceu:element_356_ingot'
         )
         .itemOutputs(
-            '2x gtceu:element_356_single_wire'
+            '4x gtceu:element_356_single_wire'
         )
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(100)
@@ -82,7 +84,7 @@ ServerEvents.recipes((event) => {
             '2x gtceu:element_356_ingot'
         )
         .itemOutputs(
-            'gtceu:element_356_double_wire'
+            '2x gtceu:element_356_double_wire'
         )
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(200)
@@ -123,13 +125,13 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.autoclave()
         .inputFluids(
-            'gtceu:latgrium_oxide 2500'
+            'gtceu:latgrium_oxide 150'
         )
         .itemOutputs(
-            '2x gtceu:latgrium_dust'
+            'gtceu:latgrium_dust'
         )
-        .EUt(GTValues.VA[GTValues.UIV])
-        .duration(400)
+        .EUt(GTValues.VA[GTValues.UV])
+        .duration(100)
 
     event.recipes.gtceu.sifter()
         .itemInputs(
@@ -143,10 +145,10 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extractor()
         .itemInputs(
-            '16x gtceu:latgrium_dust'
+            'gtceu:latgrium_dust'
         )
         .outputFluids(
-            'gtceu:latgrium 1000'
+            'gtceu:latgrium 500'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(200)

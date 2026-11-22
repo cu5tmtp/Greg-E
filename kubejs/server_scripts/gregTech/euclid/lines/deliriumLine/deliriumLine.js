@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             'gtceu:sulfuric_acid 1500'
         )
         .outputFluids(
-            'gtceu:delirium_slurry 1200'
+            'gtceu:delirium_slurry 10000'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(250)
@@ -18,10 +18,10 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.chemical_reactor()
         .inputFluids(
             'gtceu:delirium_slurry 1000',
-            'gtceu:poly_atarax_acid 500'
+            'gtceu:poly_atarax_acid 250'
         )
         .outputFluids(
-            'gtceu:poly_atarium_solution 750'
+            'gtceu:poly_atarium_solution 500'
         )
         .chancedOutput('gtceu:delirium_gem_gem', 100, 0)
         .EUt(GTValues.VA[GTValues.UIV])
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.mixer()
         .itemInputs(
-            '2x gtceu:delirium_gem_dust',
+            'gtceu:delirium_gem_dust',
             'gtceu:delirium_dust'
         )
         .itemOutputs(
@@ -197,7 +197,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.large_chemical_reactor()
         .itemInputs(
-            '4x gtceu:atarax_dust'
+            '2x gtceu:atarax_dust'
         )
         .inputFluids(
             'gtceu:psi_particles 250',

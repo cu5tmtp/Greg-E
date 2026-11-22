@@ -102,8 +102,8 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             'kubejs:euclid/elementium',
             'kubejs:voidseed',
-            '16x gtceu:uiv_field_generator',
-            '16x kubejs:euclid/euclid_mainframe'
+            '4x gtceu:uiv_field_generator',
+            '8x kubejs:euclid/euclid_mainframe'
         )
         .itemOutputs(
             'kubejs:euclid/nullingot'

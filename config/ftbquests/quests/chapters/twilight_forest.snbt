@@ -332,6 +332,24 @@
 			x: -10.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4193303999597249"]
+			description: [
+				"This multiblock is for people who don't want to do HNN in MV."
+				""
+				"Place it in the biome of the bosses to start extracting their essence."
+				""
+				"Biome \"Twilight Forest\" is the biome around Lich Tower."
+			]
+			id: "3804C6500819A3F1"
+			tasks: [{
+				id: "3C903AB97E97B13B"
+				item: "gtceu:twilightenergyconcentrator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
 	]
 	title: "{quest.grege.tf15}"
 }

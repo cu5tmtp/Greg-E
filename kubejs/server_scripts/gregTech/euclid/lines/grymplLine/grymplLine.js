@@ -64,8 +64,8 @@ ServerEvents.recipes((event) => {
             'gtceu:impuregrympl2 750'
         )
         .outputFluids(
-            'gtceu:indium_concentrate 350',
-            'gtceu:grympl2 200'
+            'gtceu:indium_concentrate 500',
+            'gtceu:grympl2 400'
         )
         .chancedOutput(
             'gtceu:stabilized_nyxium_dust', 7500, 0
@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
             'gtceu:stellarium_grympl2 500'
         )
         .outputFluids(
-            'gtceu:sgrympl_slurry 750'
+            'gtceu:sgrympl_slurry 1000'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(450)
@@ -155,8 +155,8 @@ ServerEvents.recipes((event) => {
             'gtceu:sgrympl_slurry 1000'
         )
         .outputFluids(
-            'gtceu:supergrympl 500',
-            'gtceu:grymploxideepoxilidas 250',
+            'gtceu:supergrympl 750',
+            'gtceu:grymploxideepoxilidas 500',
             'gtceu:hydrogen 1000'
         )
         .EUt(GTValues.VA[GTValues.UIV])
@@ -221,7 +221,7 @@ ServerEvents.recipes((event) => {
             'gtceu:grymploxideepoxilidas_ingot'
         )
         .itemOutputs(
-            '2x gtceu:grymploxideepoxilidas_ring'
+            '4x gtceu:grymploxideepoxilidas_ring'
         )
         .notConsumable('gtceu:ring_extruder_mold')
         .EUt(GTValues.VA[GTValues.UIV])
@@ -232,7 +232,7 @@ ServerEvents.recipes((event) => {
             'gtceu:grymploxideepoxilidas_ingot'
         )
         .itemOutputs(
-            '4x gtceu:grymploxideepoxilidas_bolt'
+            '8x gtceu:grymploxideepoxilidas_bolt'
         )
         .notConsumable('gtceu:bolt_extruder_mold')
         .EUt(GTValues.VA[GTValues.UIV])
@@ -243,7 +243,7 @@ ServerEvents.recipes((event) => {
             'gtceu:grymploxideepoxilidas_ingot'
         )
         .itemOutputs(
-            '2x gtceu:grymploxideepoxilidas_rod'
+            '4x gtceu:grymploxideepoxilidas_rod'
         )
         .notConsumable('gtceu:rod_extruder_mold')
         .EUt(GTValues.VA[GTValues.UIV])
@@ -283,7 +283,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            '4x gtceu:supergrympl_ingot'
+            '3x gtceu:supergrympl_ingot'
         )
         .itemOutputs(
             'gtceu:supergrympl_gear'

@@ -379,6 +379,20 @@ ServerEvents.recipes((event) => {
         .duration(600)
         .addData('essentia', "1,0,0,0,0,0")
 
+    event.recipes.gtceu.infusion_altar_infusing()
+        .itemInputs(
+            '12x #forge:tools/crowbars'
+        )
+        .inputFluids(
+            'gregecore:terra_essentia 100000',
+            'gregecore:ordo_essentia 100000'
+        )
+        .itemOutputs(
+            'kubejs:freemans'
+        )
+        .duration(600)
+        .addData('essentia', "0,1,0,0,0,1")
+
     //aqua, terra, aer, ignis, perditio, ordo
 
 })

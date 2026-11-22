@@ -245,6 +245,15 @@ ItemEvents.tooltip((event) => {
 
     event.addAdvanced(
         [
+            'kubejs:freemans'
+        ],
+        (item, advanced, text) => {
+            text.add(1, Text.translatable("tooltip.grege.info157").gray());
+        }
+    );
+
+    event.addAdvanced(
+        [
             'kubejs:alkhalaclaw'
         ],
         (item, advanced, text) => {
@@ -663,7 +672,8 @@ ItemEvents.tooltip((event) => {
             'gtceu:industrialfilter',
             'gtceu:laboratory',
             'gtceu:smdforge',
-            'gtceu:runecarver'
+            'gtceu:runecarver',
+            'gtceu:specialpress'
         ],
         (item, advanced, text) => {
             text.add(1, Text.translatable("tooltip.grege.info134").gray());
@@ -721,7 +731,6 @@ ItemEvents.tooltip((event) => {
             'gtceu:atomicreversator',
             'gtceu:auxillaryfiltrator',
             'gtceu:tectonicdisruptor',
-            'gtceu:specialpress',
             'gtceu:oilrig',
             'gtceu:marsbacteriabreeder',
             'gtceu:specmetheat',

@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
         {
             id: 3,
             items: ['64x gtceu:iridium_dust', '512x gtceu:platinum_dust', '512x powah:uraninite'],
-            fluids: ['gtceu:krypton 80000', 'gtceu:helium 50000', 'gtceu:helium_3 4000', 'gtceu:krypton 5000', 'gtceu:lacallium 10000']
+            fluids: ['gtceu:krypton 80000', 'gtceu:helium 50000', 'gtceu:helium_3 4000', 'gtceu:krypton 5000', 'gtceu:lacallium 100000']
         },
         {
             id: 4,
             items: ['512x gtceu:bauxite_dust', '512x gtceu:magnesium_dust', '512x gtceu:silver_dust', '512x gtceu:lead_dust'],
-            fluids: ['gtceu:hydrogen 100000', 'gtceu:nitrogen 85000', 'gtceu:ammonia 35000', 'gtceu:deuterium 5000', 'gtceu:gliesium 10000']
+            fluids: ['gtceu:hydrogen 100000', 'gtceu:nitrogen 85000', 'gtceu:ammonia 35000', 'gtceu:deuterium 5000', 'gtceu:gliesium 100000']
         }
     ];
 
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
             '96x gtceu:iridium_dust'
         )
         .outputFluids(
-            'gtceu:prismalium 3000'
+            'gtceu:prismalium 30000'
         )
         .duration(650)
         .EUt(GTValues.VA[GTValues.UHV])

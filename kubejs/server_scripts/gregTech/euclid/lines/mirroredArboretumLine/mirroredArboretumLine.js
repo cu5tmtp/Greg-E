@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
             'kubejs:fading'
         )
         .inputFluids(
-            'gtceu:spacetime 750'
+            'gtceu:spacetime 500'
         )
         .itemOutputs(
             'gtceu:stabilizedarboretum_dust'
@@ -32,14 +32,14 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.large_chemical_reactor()
         .itemInputs(
             'gtceu:basiliskium_dust',
-            '4x gtceu:bindingdust_dust',
+            '2x gtceu:bindingdust_dust',
             'gtceu:reinforced_delirium_dust'
         )
         .inputFluids(
             'gtceu:hydrogen 1500'
         )
         .itemOutputs(
-            '2x gtceu:antidestabilizant_dust'
+            '3x gtceu:antidestabilizant_dust'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
             'gtceu:stabilizedarboretum_ingot'
         )
         .itemOutputs(
-            '2x gtceu:stabilizedarboretum_single_wire'
+            '4x gtceu:stabilizedarboretum_single_wire'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)
@@ -72,7 +72,7 @@ ServerEvents.recipes((event) => {
             'gtceu:stabilizedarboretum_ingot'
         )
         .itemOutputs(
-            '8x gtceu:fine_stabilizedarboretum_wire'
+            '16x gtceu:fine_stabilizedarboretum_wire'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(100)

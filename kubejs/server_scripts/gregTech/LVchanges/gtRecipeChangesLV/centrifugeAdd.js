@@ -226,9 +226,6 @@ ServerEvents.recipes((event) => {
         .itemInputs(
             '8x minecraft:netherrack',
         )
-        .inputFluids(
-            'minecraft:lava 1000'
-        )
         .itemOutputs(
             'minecraft:nether_wart'
         )

@@ -16,15 +16,26 @@ ServerEvents.recipes((event) => {
             'gtceu:hot_high_temp_redstone_ingot'
         )
         .itemOutputs(
-            'gtceu:high_temp_redstone_ingot'
+            'gtceu:high_temp_redstone_ingot',
+            'gtceu:redrockium_dust'
         )
-        .chancedOutput('gtceu:redrockium_dust', 2500, 0)
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(250)
 
+    event.recipes.gtceu.packer()
+        .itemInputs(
+            'gtceu:redrockium_dust'
+        )
+        .itemOutputs(
+            '9x gtceu:tiny_redrockium_dust'
+        )
+        .EUt(GTValues.VA[GTValues.UIV])
+        .duration(10)
+
     event.recipes.gtceu.electric_blast_furnace()
         .itemInputs(
-            '4x gtceu:redrockium_dust'
+            'gtceu:tiny_redrockium_dust',
+            'gtceu:steel_ingot'
         )
         .itemOutputs(
             'gtceu:hot_redrockium_ingot'
@@ -48,7 +59,7 @@ ServerEvents.recipes((event) => {
             'gtceu:redrockium_ingot'
         )
         .itemOutputs(
-            '2x gtceu:redrockium_single_wire'
+            '4x gtceu:redrockium_single_wire'
         )
         .circuit(1)
         .EUt(GTValues.VA[GTValues.UIV])
@@ -77,7 +88,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extractor()
         .itemInputs(
-            '4x gtceu:redsediment_ingot'
+            '2x gtceu:redsediment_ingot'
         )
         .outputFluids(
             'gtceu:redsediment 500'

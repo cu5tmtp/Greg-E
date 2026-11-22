@@ -13,6 +13,7 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(300)
+        .circuit(1)
 
     event.recipes.gtceu.biocomponents()
         .itemInputs(
@@ -27,5 +28,36 @@ ServerEvents.recipes((event) => {
         )
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(300)
+        .circuit(1)
+
+    event.recipes.gtceu.biocomponents()
+        .itemInputs(
+            '512x gtceu:bio_welded_supergrympl_foil',
+            '1536x gtceu:bio_welded_reinforced_delirium_single_wire'
+        )
+        .inputFluids(
+            'justdirethings:polymorphic_fluid 256000'
+        )
+        .itemOutputs(
+            '1024x kubejs:bioresistor'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(300)
+        .circuit(2)
+
+    event.recipes.gtceu.biocomponents()
+        .itemInputs(
+            '1024x gtceu:fine_bio_welded_xynredar_wire',
+            '512x gtceu:bio_welded_reinforced_kamenium_ring'
+        )
+        .inputFluids(
+            'justdirethings:polymorphic_fluid 256000'
+        )
+        .itemOutputs(
+            '1024x kubejs:biocapacitor'
+        )
+        .EUt(GTValues.VA[GTValues.UXV])
+        .duration(300)
+        .circuit(2)
 
 })

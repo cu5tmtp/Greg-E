@@ -1,0 +1,74 @@
+{
+	autofocus_id: "272FCE875F88E12D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "halloween_mystery"
+	group: "2026A59B64B34899"
+	icon: "kubejs:halloweensecret"
+	id: "586AAA72D49D3A14"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0824238E6C700445"]
+			description: ["Rightclick to show a riddle!"]
+			hide_until_deps_complete: true
+			id: "272FCE875F88E12D"
+			size: 3.0d
+			tasks: [{
+				id: "12799B89478E5A78"
+				item: "kubejs:halloweensecret"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["272FCE875F88E12D"]
+			description: ["1st part done!"]
+			hide_until_deps_complete: true
+			id: "2A44F54D10FAB6FD"
+			invisible: true
+			tasks: [{
+				id: "7515F65F68575E67"
+				item: "gtceu:magnetic_iron_bolt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A44F54D10FAB6FD"]
+			description: ["2nd part done!"]
+			hide_until_deps_complete: true
+			id: "019BC8D1F0C8FFF9"
+			invisible: true
+			tasks: [{
+				id: "5B32460D4426A373"
+				item: "gtceu:tiny_sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["019BC8D1F0C8FFF9"]
+			description: [
+				"3rd part done!"
+				""
+				"Now make the reward!!!"
+			]
+			hide_until_deps_complete: true
+			id: "73A7450D0539C294"
+			invisible: true
+			tasks: [{
+				id: "679F03E2858EA34E"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+	]
+	title: "Halloween Mystery"
+}
