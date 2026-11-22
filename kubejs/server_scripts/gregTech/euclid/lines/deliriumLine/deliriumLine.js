@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
             'gtceu:poly_atarium_solution_dust'
         )
         .itemOutputs(
-            'gtceu:delirium_dust',
+            '4x gtceu:delirium_dust',
             'gtceu:atarax_dust'
         )
         .chancedOutput('gtceu:small_atarax_dust', 2500, 0)
@@ -214,7 +214,7 @@ ServerEvents.recipes((event) => {
             'avaritia:infinity_catalyst'
         )
         .outputFluids(
-            'gtceu:psi_particles 1500'
+            'gtceu:psi_particles 10000'
         )
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(400)

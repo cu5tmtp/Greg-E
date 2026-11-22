@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
             'gtceu:exquisite_kamenium_gem'
         )
         .itemOutputs(
-            'gtceu:reinforced_kamenium_dust'
+            '4x gtceu:reinforced_kamenium_dust'
         )
         .addData('pa', 85)
         .duration(20)
@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
             'gtceu:reinforced_kamenium_ingot'
         )
         .itemOutputs(
-            '2x gtceu:reinforced_kamenium_single_wire'
+            '4x gtceu:reinforced_kamenium_single_wire'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(150)

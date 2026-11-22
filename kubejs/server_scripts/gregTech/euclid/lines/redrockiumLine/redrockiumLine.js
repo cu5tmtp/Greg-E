@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
             'gtceu:redrockium_dust'
         )
         .EUt(GTValues.VA[GTValues.UIV])
-        .duration(250)
+        .duration(50)
 
     event.recipes.gtceu.packer()
         .itemInputs(

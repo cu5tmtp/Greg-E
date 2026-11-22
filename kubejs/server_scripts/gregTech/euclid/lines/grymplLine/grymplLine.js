@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
             'gtceu:raw_grympl3'
         )
         .itemOutputs(
-            '2x gtceu:grympl3_dust'
+            '8x gtceu:grympl3_dust'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(450)
