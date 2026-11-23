@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
             'gtceu:reinforced_kamenium_ingot'
         )
         .itemOutputs(
-            'gtceu:reinforced_kamenium_plate'
+            '2x gtceu:reinforced_kamenium_plate'
         )
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(150)
@@ -118,7 +118,7 @@ ServerEvents.recipes((event) => {
     event.recipes.gtceu.large_chemical_reactor()
         .itemInputs(
             'kubejs:redsedimentboard',
-            '16x gtceu:reinforced_kamenium_single_wire'
+            '8x gtceu:reinforced_kamenium_single_wire'
         )
         .inputFluids(
             'gtceu:iron_iii_chloride 5000'
@@ -131,7 +131,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu.extruder()
         .itemInputs(
-            '4x gtceu:reinforced_kamenium_ingot'
+            '3x gtceu:reinforced_kamenium_ingot'
         )
         .itemOutputs(
             'gtceu:reinforced_kamenium_rotor'

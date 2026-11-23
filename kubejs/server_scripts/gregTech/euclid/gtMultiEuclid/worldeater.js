@@ -167,7 +167,7 @@ ServerEvents.recipes((event) => {
             '8192x gtceu:fine_xynredder_wire'
         )
         .itemOutputs(
-            'gtceu:uiv_field_generator'
+            '256x gtceu:uiv_field_generator'
         )
         .duration(600)
         .addData("required_state", "ACTIVE")
